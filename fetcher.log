@@ -598,3 +598,89 @@
 [2024-05-01 00:44:00] INFO root fetch - processPackages [tritonclient]: Remove: archive file [/home/abi/fetcher/tmp/tritonclient-2.9.0-py3-none-manylinux2014_aarch64.whl.zip]
 [2024-05-01 00:44:00] INFO root fetch - main [MainThread]: End processing [tritonclient]: success
 [2024-05-01 00:44:00] INFO root fetch - main [MainThread]: Store serial: [23009068]
+[2024-05-01 00:46:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23009068]
+[2024-05-01 00:46:27] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-01 00:46:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: r4ven-utils
+[2024-05-01 00:46:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nsj-sql-utils-lib
+[2024-05-01 00:46:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ubo-app
+[2024-05-01 00:46:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-dynamic-theme
+[2024-05-01 00:46:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sketchingpy
+[2024-05-01 00:46:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: localstack-core
+[2024-05-01 00:46:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Red-Web-Dashboard
+[2024-05-01 00:46:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: functions-framework
+[2024-05-01 00:46:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: jinjax
+[2024-05-01 00:46:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tkosui
+[2024-05-01 00:46:27] WARNING root fetch - processPackages [tkosui]: Skipping, unable to determine old version
+[2024-05-01 00:46:27] INFO root fetch - processPackages [tkosui]: Start processing: tkosui
+[2024-05-01 00:46:27] INFO root fetch - processPackages [nsj-sql-utils-lib]: New version: [1.2.0] Old Version: [1.1.6]
+[2024-05-01 00:46:27] INFO root fetch - main [MainThread]: End processing [tkosui] error
+[2024-05-01 00:46:27] INFO root fetch - processPackages [sketchingpy]: New version: [0.2.0] Old Version: [0.1.9]
+[2024-05-01 00:46:28] WARNING root fetch - processPackages [tkosui]: Skipping, unable to determine old version
+[2024-05-01 00:46:28] INFO root fetch - main [MainThread]: End processing [tkosui] error
+[2024-05-01 00:46:28] INFO root fetch - processPackages [ubo-app]: New version: [0.9.9] Old Version: [0.9.8a4]
+[2024-05-01 00:46:28] INFO root fetch - processPackages [localstack-core]: New version: [3.4.1.dev20240430092032] Old Version: [3.4.1.dev20240430075413]
+[2024-05-01 00:46:28] INFO root fetch - processPackages [r4ven-utils]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-01 00:46:28] INFO root fetch - processPackages [nsj-sql-utils-lib]: Downloading https://files.pythonhosted.org/packages/02/26/2ae0148ea7bdd047853c6be7afe39f0c35e254625bf7be29dc58cabbb6fd/nsj_sql_utils_lib-1.1.6.tar.gz
+[2024-05-01 00:46:28] INFO root fetch - processPackages [jinjax]: New version: [0.35] Old Version: [0.34]
+[2024-05-01 00:46:28] INFO root fetch - processPackages [Red-Web-Dashboard]: New version: [1.5.1] Old Version: [1.5.0]
+[2024-05-01 00:46:28] INFO root fetch - processPackages [django-dynamic-theme]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-01 00:46:28] INFO root fetch - processPackages [functions-framework]: New version: [3.6.0] Old Version: [3.5.0]
+[2024-05-01 00:46:28] INFO root fetch - processPackages [sketchingpy]: Downloading https://files.pythonhosted.org/packages/ca/20/1ddfb56a968be3475025d276e6fa96cd06c3b402d075423b6cb2c6f29b98/sketchingpy-0.1.9.tar.gz
+[2024-05-01 00:46:28] INFO root fetch - processPackages [ubo-app]: Downloading https://files.pythonhosted.org/packages/95/e9/c4e16198ab3bdf6b007857bc40357fe1bb068e7391f5fe793ca7f6e9819d/ubo_app-0.9.8a4.tar.gz
+[2024-05-01 00:46:28] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/43/06/3d99b94ad549560bea06f6cf2bd09bcde3e53718d33318bc49f3900b615b/localstack_core-3.4.1.dev20240430075413.tar.gz
+[2024-05-01 00:46:28] WARNING root fetch - processPackages [sketchingpy]: Skipping package: exceeds size limit 11790270>=10485760
+[2024-05-01 00:46:28] INFO root fetch - main [MainThread]: End processing [sketchingpy] error
+[2024-05-01 00:46:28] INFO root fetch - processPackages [django-dynamic-theme]: Downloading https://files.pythonhosted.org/packages/dd/52/5c72b82ac3ea468b6bc9e845c7b3a15744ed2068fe8346b99b3a5d55734f/django_dynamic_theme-0.0.4.tar.gz
+[2024-05-01 00:46:28] INFO root fetch - processPackages [r4ven-utils]: Downloading https://files.pythonhosted.org/packages/60/b6/1417b0da8c12a864ea6fe32257a8b13424d61bb36ebfff3a106c9ef6757b/r4ven_utils-0.0.6.tar.gz
+[2024-05-01 00:46:28] INFO root fetch - processPackages [jinjax]: Downloading https://files.pythonhosted.org/packages/65/59/fe0c31505ef2b4ef7f932b052b3651589d7afd0a678c13d634c39f31c3bb/jinjax-0.34.tar.gz
+[2024-05-01 00:46:28] INFO root fetch - processPackages [functions-framework]: Downloading https://files.pythonhosted.org/packages/1f/4d/1f23bc99267440f1b1ff0b8e3ce21356f5730df812c0fc0b0b85df870767/functions-framework-3.5.0.tar.gz
+[2024-05-01 00:46:28] INFO root fetch - processPackages [nsj-sql-utils-lib]: Downloading https://files.pythonhosted.org/packages/67/53/5cba97b8cb049528f5f57797a86414625c625d09a5b56fee9b511ebd28e3/nsj_sql_utils_lib-1.2.0.tar.gz
+[2024-05-01 00:46:28] INFO root fetch - processPackages [Red-Web-Dashboard]: Downloading https://files.pythonhosted.org/packages/8b/38/3e91abd6032a17812f99ee09c7b693cb21fb309641289e0c469646b339cb/red_web_dashboard-1.5.0.tar.gz
+[2024-05-01 00:46:28] INFO root fetch - processPackages [ubo-app]: Downloading https://files.pythonhosted.org/packages/13/b7/3d42c344f38a9c5bf598c3ea5d71758fc78c30b3d3bf5b039ef153cf16b2/ubo_app-0.9.9.tar.gz
+[2024-05-01 00:46:28] INFO root fetch - processPackages [nsj-sql-utils-lib]: executing diffoscope
+[2024-05-01 00:46:28] INFO root fetch - processPackages [nsj-sql-utils-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nsj_sql_utils_lib-1.1.6.tar.gz tmp/nsj_sql_utils_lib-1.2.0.tar.gz --markdown 20240501/n/nsj-sql-utils-lib/1.1.6-1.2.0/README.md --exclude *.pyd
+[2024-05-01 00:46:28] INFO root fetch - processPackages [django-dynamic-theme]: Downloading https://files.pythonhosted.org/packages/bb/72/eaba05fd8f10805de40ed37d1296090466a7224820883e65dce305342247/django_dynamic_theme-0.0.5.tar.gz
+[2024-05-01 00:46:28] INFO root fetch - processPackages [ubo-app]: executing diffoscope
+[2024-05-01 00:46:28] INFO root fetch - processPackages [ubo-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ubo_app-0.9.8a4.tar.gz tmp/ubo_app-0.9.9.tar.gz --markdown 20240501/u/ubo-app/0.9.8a4-0.9.9/README.md --exclude *.pyd
+[2024-05-01 00:46:28] INFO root fetch - processPackages [r4ven-utils]: Downloading https://files.pythonhosted.org/packages/2f/9c/44849ffce27b1d08b385f617c699adf1c06d46077b126bd2d086a5653b02/r4ven_utils-0.0.7.tar.gz
+[2024-05-01 00:46:28] INFO root fetch - processPackages [django-dynamic-theme]: executing diffoscope
+[2024-05-01 00:46:28] INFO root fetch - processPackages [django-dynamic-theme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_dynamic_theme-0.0.4.tar.gz tmp/django_dynamic_theme-0.0.5.tar.gz --markdown 20240501/d/django-dynamic-theme/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-01 00:46:28] INFO root fetch - processPackages [jinjax]: Downloading https://files.pythonhosted.org/packages/77/d4/1e27e8a8e2d6a011b631f2a606626a1847d35955feb036cc187c0900d4fe/jinjax-0.35.tar.gz
+[2024-05-01 00:46:28] INFO root fetch - processPackages [functions-framework]: Downloading https://files.pythonhosted.org/packages/d1/9a/7348166ea0b639d0d8eefd812552361bd5f2e2e6295897d99970f80268f9/functions_framework-3.6.0.tar.gz
+[2024-05-01 00:46:28] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/62/91/89be2d619305bb20f8c812efed80c8f1e543034b3a289db710780c87d0c8/localstack_core-3.4.1.dev20240430092032.tar.gz
+[2024-05-01 00:46:28] INFO root fetch - processPackages [r4ven-utils]: executing diffoscope
+[2024-05-01 00:46:28] INFO root fetch - processPackages [r4ven-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/r4ven_utils-0.0.6.tar.gz tmp/r4ven_utils-0.0.7.tar.gz --markdown 20240501/r/r4ven-utils/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-01 00:46:28] INFO root fetch - processPackages [jinjax]: executing diffoscope
+[2024-05-01 00:46:28] INFO root fetch - processPackages [jinjax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jinjax-0.34.tar.gz tmp/jinjax-0.35.tar.gz --markdown 20240501/j/jinjax/0.34-0.35/README.md --exclude *.pyd
+[2024-05-01 00:46:28] INFO root fetch - processPackages [functions-framework]: executing diffoscope
+[2024-05-01 00:46:28] INFO root fetch - processPackages [functions-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/functions-framework-3.5.0.tar.gz tmp/functions_framework-3.6.0.tar.gz --markdown 20240501/f/functions-framework/3.5.0-3.6.0/README.md --exclude *.pyd
+[2024-05-01 00:46:29] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2024-05-01 00:46:29] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack_core-3.4.1.dev20240430075413.tar.gz tmp/localstack_core-3.4.1.dev20240430092032.tar.gz --markdown 20240501/l/localstack-core/3.4.1.dev20240430075413-3.4.1.dev20240430092032/README.md --exclude *.pyd
+[2024-05-01 00:46:29] INFO root fetch - processPackages [nsj-sql-utils-lib]: Remove: archive file [/home/abi/fetcher/tmp/nsj_sql_utils_lib-1.1.6.tar.gz]
+[2024-05-01 00:46:29] INFO root fetch - processPackages [nsj-sql-utils-lib]: Remove: archive file [/home/abi/fetcher/tmp/nsj_sql_utils_lib-1.2.0.tar.gz]
+[2024-05-01 00:46:29] INFO root fetch - main [MainThread]: End processing [nsj-sql-utils-lib]: success
+[2024-05-01 00:46:29] INFO root fetch - processPackages [Red-Web-Dashboard]: Downloading https://files.pythonhosted.org/packages/a4/a1/184eb9d9752444cb46f2c62cb67023a8b504b582334c29294a493f9d6ce9/red_web_dashboard-1.5.1.tar.gz
+[2024-05-01 00:46:29] INFO root fetch - processPackages [django-dynamic-theme]: Remove: archive file [/home/abi/fetcher/tmp/django_dynamic_theme-0.0.4.tar.gz]
+[2024-05-01 00:46:29] INFO root fetch - processPackages [django-dynamic-theme]: Remove: archive file [/home/abi/fetcher/tmp/django_dynamic_theme-0.0.5.tar.gz]
+[2024-05-01 00:46:29] INFO root fetch - main [MainThread]: End processing [django-dynamic-theme]: success
+[2024-05-01 00:46:29] INFO root fetch - processPackages [r4ven-utils]: Remove: archive file [/home/abi/fetcher/tmp/r4ven_utils-0.0.6.tar.gz]
+[2024-05-01 00:46:29] INFO root fetch - processPackages [r4ven-utils]: Remove: archive file [/home/abi/fetcher/tmp/r4ven_utils-0.0.7.tar.gz]
+[2024-05-01 00:46:29] INFO root fetch - main [MainThread]: End processing [r4ven-utils]: success
+[2024-05-01 00:46:29] INFO root fetch - processPackages [Red-Web-Dashboard]: executing diffoscope
+[2024-05-01 00:46:29] INFO root fetch - processPackages [Red-Web-Dashboard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/red_web_dashboard-1.5.0.tar.gz tmp/red_web_dashboard-1.5.1.tar.gz --markdown 20240501/R/Red-Web-Dashboard/1.5.0-1.5.1/README.md --exclude *.pyd
+[2024-05-01 00:46:29] INFO root fetch - processPackages [ubo-app]: Remove: archive file [/home/abi/fetcher/tmp/ubo_app-0.9.8a4.tar.gz]
+[2024-05-01 00:46:29] INFO root fetch - processPackages [ubo-app]: Remove: archive file [/home/abi/fetcher/tmp/ubo_app-0.9.9.tar.gz]
+[2024-05-01 00:46:29] INFO root fetch - main [MainThread]: End processing [ubo-app]: success
+[2024-05-01 00:46:29] INFO root fetch - processPackages [jinjax]: Remove: archive file [/home/abi/fetcher/tmp/jinjax-0.34.tar.gz]
+[2024-05-01 00:46:29] INFO root fetch - processPackages [jinjax]: Remove: archive file [/home/abi/fetcher/tmp/jinjax-0.35.tar.gz]
+[2024-05-01 00:46:29] INFO root fetch - main [MainThread]: End processing [jinjax]: success
+[2024-05-01 00:46:29] INFO root fetch - processPackages [functions-framework]: Remove: archive file [/home/abi/fetcher/tmp/functions-framework-3.5.0.tar.gz]
+[2024-05-01 00:46:29] INFO root fetch - processPackages [functions-framework]: Remove: archive file [/home/abi/fetcher/tmp/functions_framework-3.6.0.tar.gz]
+[2024-05-01 00:46:29] INFO root fetch - main [MainThread]: End processing [functions-framework]: success
+[2024-05-01 00:46:31] INFO root fetch - processPackages [Red-Web-Dashboard]: Remove: archive file [/home/abi/fetcher/tmp/red_web_dashboard-1.5.0.tar.gz]
+[2024-05-01 00:46:31] INFO root fetch - processPackages [Red-Web-Dashboard]: Remove: archive file [/home/abi/fetcher/tmp/red_web_dashboard-1.5.1.tar.gz]
+[2024-05-01 00:46:31] INFO root fetch - main [MainThread]: End processing [Red-Web-Dashboard]: success
+[2024-05-01 00:46:32] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.4.1.dev20240430075413.tar.gz]
+[2024-05-01 00:46:32] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.4.1.dev20240430092032.tar.gz]
+[2024-05-01 00:46:32] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2024-05-01 00:46:32] INFO root fetch - main [MainThread]: Store serial: [23009107]
