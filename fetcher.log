@@ -374,3 +374,42 @@
 [2024-05-01 00:28:28] INFO root fetch - processPackages [nsj-sql-utils-lib]: Remove: archive file [/home/abi/fetcher/tmp/nsj_sql_utils_lib-1.2.0.tar.gz]
 [2024-05-01 00:28:28] INFO root fetch - main [MainThread]: End processing [nsj-sql-utils-lib]: success
 [2024-05-01 00:28:28] INFO root fetch - main [MainThread]: Store serial: [23008989]
+[2024-05-01 00:30:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23008989]
+[2024-05-01 00:30:36] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-01 00:30:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-kubernetes-the-hard-way
+[2024-05-01 00:30:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: data-repo-client
+[2024-05-01 00:30:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyrlprob
+[2024-05-01 00:30:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cs-models
+[2024-05-01 00:30:37] INFO root fetch - processPackages [data-repo-client]: New version: [2.54.0] Old Version: [2.53.0]
+[2024-05-01 00:30:37] INFO root fetch - processPackages [pyrlprob]: New version: [2.2.4] Old Version: [2.2.3]
+[2024-05-01 00:30:37] INFO root fetch - processPackages [data-repo-client]: Downloading https://files.pythonhosted.org/packages/78/8e/b816ea49f9f65c27da248de7e51d512b303310e4b99c70e267167e433e68/data-repo-client-2.53.0.tar.gz
+[2024-05-01 00:30:37] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: New version: [0.0.21a1714514471] Old Version: [0.0.21a1714340158]
+[2024-05-01 00:30:37] INFO root fetch - processPackages [cs-models]: New version: [0.0.99.dev4] Old Version: [0.0.99.dev3]
+[2024-05-01 00:30:37] INFO root fetch - processPackages [pyrlprob]: Downloading https://files.pythonhosted.org/packages/01/ae/5216823217185c86006f2f61a21c9a52880cbd0ee74a7a246f6da5c6144a/pyrlprob-2.2.3.tar.gz
+[2024-05-01 00:30:37] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Downloading https://files.pythonhosted.org/packages/68/fd/486b4e0afc1e5cc5234363f018e2dccbf2d919e9275160e6e953a9b78695/pulumi_kubernetes_the_hard_way-0.0.21a1714340158.tar.gz
+[2024-05-01 00:30:37] INFO root fetch - processPackages [data-repo-client]: Downloading https://files.pythonhosted.org/packages/9e/7a/ade99e3f67465166504b4553987ad40edc1e5d7d1ef8cb800f1b93566940/data-repo-client-2.54.0.tar.gz
+[2024-05-01 00:30:37] INFO root fetch - processPackages [cs-models]: Downloading https://files.pythonhosted.org/packages/0e/4f/33efc921aa3ee23f877dda213d1b962dac83a38135b32d2850eb48c2c6a8/cs-models-0.0.99.dev3.tar.gz
+[2024-05-01 00:30:37] INFO root fetch - processPackages [data-repo-client]: executing diffoscope
+[2024-05-01 00:30:37] INFO root fetch - processPackages [data-repo-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data-repo-client-2.53.0.tar.gz tmp/data-repo-client-2.54.0.tar.gz --markdown 20240501/d/data-repo-client/2.53.0-2.54.0/README.md --exclude *.pyd
+[2024-05-01 00:30:37] INFO root fetch - processPackages [pyrlprob]: Downloading https://files.pythonhosted.org/packages/3e/f3/c679f46cc946febf4b4a5a062d59263126f3f5def7183c24570e8adc18d1/pyrlprob-2.2.4.tar.gz
+[2024-05-01 00:30:37] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Downloading https://files.pythonhosted.org/packages/0c/3e/03013c37cc97a50fc48c0d284bf51d994be2756c48562ba29a37724f3280/pulumi_kubernetes_the_hard_way-0.0.21a1714514471.tar.gz
+[2024-05-01 00:30:37] INFO root fetch - processPackages [pyrlprob]: executing diffoscope
+[2024-05-01 00:30:37] INFO root fetch - processPackages [pyrlprob]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrlprob-2.2.3.tar.gz tmp/pyrlprob-2.2.4.tar.gz --markdown 20240501/p/pyrlprob/2.2.3-2.2.4/README.md --exclude *.pyd
+[2024-05-01 00:30:37] INFO root fetch - processPackages [cs-models]: Downloading https://files.pythonhosted.org/packages/8c/4c/e48ab48e00c2dd2f9799da4f76632085fd545ef18606abde256a640ffa7a/cs-models-0.0.99.dev4.tar.gz
+[2024-05-01 00:30:37] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: executing diffoscope
+[2024-05-01 00:30:37] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_kubernetes_the_hard_way-0.0.21a1714340158.tar.gz tmp/pulumi_kubernetes_the_hard_way-0.0.21a1714514471.tar.gz --markdown 20240501/p/pulumi-kubernetes-the-hard-way/0.0.21a1714340158-0.0.21a1714514471/README.md --exclude *.pyd
+[2024-05-01 00:30:37] INFO root fetch - processPackages [cs-models]: executing diffoscope
+[2024-05-01 00:30:37] INFO root fetch - processPackages [cs-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cs-models-0.0.99.dev3.tar.gz tmp/cs-models-0.0.99.dev4.tar.gz --markdown 20240501/c/cs-models/0.0.99.dev3-0.0.99.dev4/README.md --exclude *.pyd
+[2024-05-01 00:30:38] INFO root fetch - processPackages [pyrlprob]: Remove: archive file [/home/abi/fetcher/tmp/pyrlprob-2.2.3.tar.gz]
+[2024-05-01 00:30:38] INFO root fetch - processPackages [pyrlprob]: Remove: archive file [/home/abi/fetcher/tmp/pyrlprob-2.2.4.tar.gz]
+[2024-05-01 00:30:38] INFO root fetch - main [MainThread]: End processing [pyrlprob]: success
+[2024-05-01 00:30:38] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes_the_hard_way-0.0.21a1714340158.tar.gz]
+[2024-05-01 00:30:38] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes_the_hard_way-0.0.21a1714514471.tar.gz]
+[2024-05-01 00:30:38] INFO root fetch - main [MainThread]: End processing [pulumi-kubernetes-the-hard-way]: success
+[2024-05-01 00:30:38] INFO root fetch - processPackages [cs-models]: Remove: archive file [/home/abi/fetcher/tmp/cs-models-0.0.99.dev3.tar.gz]
+[2024-05-01 00:30:38] INFO root fetch - processPackages [cs-models]: Remove: archive file [/home/abi/fetcher/tmp/cs-models-0.0.99.dev4.tar.gz]
+[2024-05-01 00:30:38] INFO root fetch - main [MainThread]: End processing [cs-models]: success
+[2024-05-01 00:30:39] INFO root fetch - processPackages [data-repo-client]: Remove: archive file [/home/abi/fetcher/tmp/data-repo-client-2.53.0.tar.gz]
+[2024-05-01 00:30:39] INFO root fetch - processPackages [data-repo-client]: Remove: archive file [/home/abi/fetcher/tmp/data-repo-client-2.54.0.tar.gz]
+[2024-05-01 00:30:39] INFO root fetch - main [MainThread]: End processing [data-repo-client]: success
+[2024-05-01 00:30:39] INFO root fetch - main [MainThread]: Store serial: [23009000]
