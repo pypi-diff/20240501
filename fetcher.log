@@ -1104,3 +1104,15 @@
 [2024-05-01 01:10:27] INFO root fetch - processPackages [strax]: Remove: archive file [/home/abi/fetcher/tmp/strax-1.6.3.tar.gz]
 [2024-05-01 01:10:27] INFO root fetch - main [MainThread]: End processing [strax]: success
 [2024-05-01 01:10:27] INFO root fetch - main [MainThread]: Store serial: [23009237]
+[2024-05-01 01:12:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23009237]
+[2024-05-01 01:12:36] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-01 01:12:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tcmb
+[2024-05-01 01:12:36] INFO root fetch - processPackages [tcmb]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-05-01 01:12:36] INFO root fetch - processPackages [tcmb]: Downloading https://files.pythonhosted.org/packages/83/a3/7006ab486805d034691c71ec973346564a1188fb4da674855e7bc5a649f7/tcmb-0.4.0.tar.gz
+[2024-05-01 01:12:36] INFO root fetch - processPackages [tcmb]: Downloading https://files.pythonhosted.org/packages/e7/d7/1e8d33081f188035c4bd91d038586b65d5651a84bce5bc8817c04725bf9b/tcmb-0.4.1.tar.gz
+[2024-05-01 01:12:36] INFO root fetch - processPackages [tcmb]: executing diffoscope
+[2024-05-01 01:12:36] INFO root fetch - processPackages [tcmb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tcmb-0.4.0.tar.gz tmp/tcmb-0.4.1.tar.gz --markdown 20240501/t/tcmb/0.4.0-0.4.1/README.md --exclude *.pyd
+[2024-05-01 01:12:37] INFO root fetch - processPackages [tcmb]: Remove: archive file [/home/abi/fetcher/tmp/tcmb-0.4.0.tar.gz]
+[2024-05-01 01:12:37] INFO root fetch - processPackages [tcmb]: Remove: archive file [/home/abi/fetcher/tmp/tcmb-0.4.1.tar.gz]
+[2024-05-01 01:12:37] INFO root fetch - main [MainThread]: End processing [tcmb]: success
+[2024-05-01 01:12:37] INFO root fetch - main [MainThread]: Store serial: [23009240]
