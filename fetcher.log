@@ -1152,3 +1152,30 @@
 [2024-05-01 01:16:57] INFO root fetch - processPackages [PyForks]: Remove: archive file [/home/abi/fetcher/tmp/PyForks-0.0.9.tar.gz]
 [2024-05-01 01:16:57] INFO root fetch - main [MainThread]: End processing [PyForks]: success
 [2024-05-01 01:16:57] INFO root fetch - main [MainThread]: Store serial: [23009256]
+[2024-05-01 01:19:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23009256]
+[2024-05-01 01:19:05] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-01 01:19:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: llamascript
+[2024-05-01 01:19:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: glcl
+[2024-05-01 01:19:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: databricks-vectorsearch
+[2024-05-01 01:19:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cosolvkit
+[2024-05-01 01:19:05] WARNING root fetch - processPackages [glcl]: Skipping, unable to determine old version
+[2024-05-01 01:19:05] INFO root fetch - main [MainThread]: End processing [glcl] error
+[2024-05-01 01:19:05] INFO root fetch - processPackages [llamascript]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-01 01:19:05] INFO root fetch - processPackages [databricks-vectorsearch]: New version: [0.9] Old Version: [0.8]
+[2024-05-01 01:19:05] ERROR root fetch - processPackages [cosolvkit]: Unable to get metadata: No such project 'cosolvkit'
+[2024-05-01 01:19:05] INFO root fetch - main [MainThread]: End processing [cosolvkit] error
+[2024-05-01 01:19:05] INFO root fetch - processPackages [llamascript]: Downloading https://files.pythonhosted.org/packages/67/b4/7917861cd12b25af3a5387ade3a4bddc1c7ea2e23eb1e214327e727bf85f/llamascript-0.0.1.tar.gz
+[2024-05-01 01:19:05] INFO root fetch - processPackages [databricks-vectorsearch]: Downloading https://files.pythonhosted.org/packages/56/57/3e47c2c37bcf4f0217be4314b1617dfe88ca797da7198c9e39388a739884/databricks_vectorsearch-0.8-py3-none-any.whl
+[2024-05-01 01:19:06] INFO root fetch - processPackages [llamascript]: Downloading https://files.pythonhosted.org/packages/b0/5e/7efb80afb9834ab4f91b2748a528aad252ff25f5ff186a65beff909e1411/llamascript-0.0.2.tar.gz
+[2024-05-01 01:19:06] INFO root fetch - processPackages [databricks-vectorsearch]: Downloading https://files.pythonhosted.org/packages/ff/15/c8aeb1ca09590bc3630502043bdae13fd2ff0568659d0eceb028ed3cc828/databricks_vectorsearch-0.9-py3-none-any.whl
+[2024-05-01 01:19:06] INFO root fetch - processPackages [llamascript]: executing diffoscope
+[2024-05-01 01:19:06] INFO root fetch - processPackages [llamascript]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llamascript-0.0.1.tar.gz tmp/llamascript-0.0.2.tar.gz --markdown 20240501/l/llamascript/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-01 01:19:06] INFO root fetch - processPackages [databricks-vectorsearch]: executing diffoscope
+[2024-05-01 01:19:06] INFO root fetch - processPackages [databricks-vectorsearch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/databricks_vectorsearch-0.8-py3-none-any.whl.zip tmp/databricks_vectorsearch-0.9-py3-none-any.whl.zip --markdown 20240501/d/databricks-vectorsearch/0.8-0.9/README.md --exclude *.pyd
+[2024-05-01 01:19:06] INFO root fetch - processPackages [llamascript]: Remove: archive file [/home/abi/fetcher/tmp/llamascript-0.0.1.tar.gz]
+[2024-05-01 01:19:06] INFO root fetch - processPackages [llamascript]: Remove: archive file [/home/abi/fetcher/tmp/llamascript-0.0.2.tar.gz]
+[2024-05-01 01:19:06] INFO root fetch - main [MainThread]: End processing [llamascript]: success
+[2024-05-01 01:19:06] INFO root fetch - processPackages [databricks-vectorsearch]: Remove: archive file [/home/abi/fetcher/tmp/databricks_vectorsearch-0.8-py3-none-any.whl.zip]
+[2024-05-01 01:19:06] INFO root fetch - processPackages [databricks-vectorsearch]: Remove: archive file [/home/abi/fetcher/tmp/databricks_vectorsearch-0.9-py3-none-any.whl.zip]
+[2024-05-01 01:19:06] INFO root fetch - main [MainThread]: End processing [databricks-vectorsearch]: success
+[2024-05-01 01:19:06] INFO root fetch - main [MainThread]: Store serial: [23009272]
