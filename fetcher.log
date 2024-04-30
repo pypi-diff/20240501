@@ -1314,3 +1314,33 @@
 [2024-05-01 01:29:59] INFO root fetch - processPackages [EasyOIDC]: Remove: archive file [/home/abi/fetcher/tmp/easyoidc-0.1.8.tar.gz]
 [2024-05-01 01:29:59] INFO root fetch - main [MainThread]: End processing [EasyOIDC]: success
 [2024-05-01 01:29:59] INFO root fetch - main [MainThread]: Store serial: [23009320]
+[2024-05-01 01:32:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23009320]
+[2024-05-01 01:32:07] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-01 01:32:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: neon-utils
+[2024-05-01 01:32:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bany
+[2024-05-01 01:32:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: algomodule
+[2024-05-01 01:32:07] INFO root fetch - processPackages [neon-utils]: New version: [1.9.2a5] Old Version: [1.9.2a4]
+[2024-05-01 01:32:07] INFO root fetch - processPackages [algomodule]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-05-01 01:32:07] INFO root fetch - processPackages [bany]: New version: [1.4.4] Old Version: [1.4.3]
+[2024-05-01 01:32:07] INFO root fetch - processPackages [neon-utils]: Downloading https://files.pythonhosted.org/packages/40/2d/fb1887f565e889964657dd1ffc5eca79ea8e671fe20620d2659c16798ce4/neon-utils-1.9.2a4.tar.gz
+[2024-05-01 01:32:08] INFO root fetch - processPackages [algomodule]: Downloading https://files.pythonhosted.org/packages/c2/09/aa5ebd913e2f51b4264d3536f7af5ebff1d4692f8923829409c27ef0ae27/algomodule-1.0.2.tar.gz
+[2024-05-01 01:32:08] INFO root fetch - processPackages [bany]: Downloading https://files.pythonhosted.org/packages/e4/bb/13760604ac4582ae57361e66b9140379e8001cbf0228776f3e0ebc9fa516/bany-1.4.3.tar.gz
+[2024-05-01 01:32:08] INFO root fetch - processPackages [neon-utils]: Downloading https://files.pythonhosted.org/packages/4b/7e/d169b05a82bb414b9aaef0aca31a8f1752c08f9ca655cca6a681584a2c23/neon-utils-1.9.2a5.tar.gz
+[2024-05-01 01:32:08] INFO root fetch - processPackages [neon-utils]: executing diffoscope
+[2024-05-01 01:32:08] INFO root fetch - processPackages [neon-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon-utils-1.9.2a4.tar.gz tmp/neon-utils-1.9.2a5.tar.gz --markdown 20240501/n/neon-utils/1.9.2a4-1.9.2a5/README.md --exclude *.pyd
+[2024-05-01 01:32:08] INFO root fetch - processPackages [bany]: Downloading https://files.pythonhosted.org/packages/13/82/db0e40dac6d34ab7180ecef6e900f0cf2cb2483e49f0184871534d4e1a6f/bany-1.4.4.tar.gz
+[2024-05-01 01:32:08] INFO root fetch - processPackages [algomodule]: Downloading https://files.pythonhosted.org/packages/c7/df/496a685a0fe2316cb0d84d67dde218fca1939926ef7f6c90a1091fec98d8/algomodule-1.0.3-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.whl
+[2024-05-01 01:32:08] INFO root fetch - processPackages [bany]: executing diffoscope
+[2024-05-01 01:32:08] INFO root fetch - processPackages [bany]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bany-1.4.3.tar.gz tmp/bany-1.4.4.tar.gz --markdown 20240501/b/bany/1.4.3-1.4.4/README.md --exclude *.pyd
+[2024-05-01 01:32:08] INFO root fetch - processPackages [algomodule]: executing diffoscope
+[2024-05-01 01:32:08] INFO root fetch - processPackages [algomodule]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/algomodule-1.0.2.tar.gz tmp/algomodule-1.0.3-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.whl.zip --markdown 20240501/a/algomodule/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-05-01 01:32:09] INFO root fetch - processPackages [bany]: Remove: archive file [/home/abi/fetcher/tmp/bany-1.4.3.tar.gz]
+[2024-05-01 01:32:09] INFO root fetch - processPackages [bany]: Remove: archive file [/home/abi/fetcher/tmp/bany-1.4.4.tar.gz]
+[2024-05-01 01:32:09] INFO root fetch - main [MainThread]: End processing [bany]: success
+[2024-05-01 01:32:09] INFO root fetch - processPackages [neon-utils]: Remove: archive file [/home/abi/fetcher/tmp/neon-utils-1.9.2a4.tar.gz]
+[2024-05-01 01:32:09] INFO root fetch - processPackages [neon-utils]: Remove: archive file [/home/abi/fetcher/tmp/neon-utils-1.9.2a5.tar.gz]
+[2024-05-01 01:32:09] INFO root fetch - main [MainThread]: End processing [neon-utils]: success
+[2024-05-01 01:32:09] INFO root fetch - processPackages [algomodule]: Remove: archive file [/home/abi/fetcher/tmp/algomodule-1.0.2.tar.gz]
+[2024-05-01 01:32:09] INFO root fetch - processPackages [algomodule]: Remove: archive file [/home/abi/fetcher/tmp/algomodule-1.0.3-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.whl.zip]
+[2024-05-01 01:32:09] INFO root fetch - main [MainThread]: End processing [algomodule]: success
+[2024-05-01 01:32:09] INFO root fetch - main [MainThread]: Store serial: [23009338]
