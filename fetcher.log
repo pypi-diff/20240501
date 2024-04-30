@@ -545,3 +545,56 @@
 [2024-05-01 00:39:36] INFO root fetch - processPackages [ape-solidity]: Remove: archive file [/home/abi/fetcher/tmp/ape-solidity-0.7.3.tar.gz]
 [2024-05-01 00:39:36] INFO root fetch - main [MainThread]: End processing [ape-solidity]: success
 [2024-05-01 00:39:36] INFO root fetch - main [MainThread]: Store serial: [23009051]
+[2024-05-01 00:41:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23009051]
+[2024-05-01 00:41:44] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-01 00:41:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tritonclient
+[2024-05-01 00:41:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: coherence-client
+[2024-05-01 00:41:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ilcdlib
+[2024-05-01 00:41:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: evo-model
+[2024-05-01 00:41:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: neon-utils
+[2024-05-01 00:41:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sc-dandelion
+[2024-05-01 00:41:45] INFO root fetch - processPackages [evo-model]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-01 00:41:45] INFO root fetch - processPackages [neon-utils]: New version: [1.9.2a5] Old Version: [1.9.2a4]
+[2024-05-01 00:41:45] INFO root fetch - processPackages [tritonclient]: New version: [2.9.0] Old Version: [2.8.0]
+[2024-05-01 00:41:45] INFO root fetch - processPackages [coherence-client]: New version: [1.1.0] Old Version: [1.0rc2]
+[2024-05-01 00:41:45] INFO root fetch - processPackages [sc-dandelion]: New version: [0.3.6] Old Version: [0.3.5]
+[2024-05-01 00:41:45] INFO root fetch - processPackages [ilcdlib]: New version: [4.3.0] Old Version: [4.2.0]
+[2024-05-01 00:41:45] INFO root fetch - processPackages [evo-model]: Downloading https://files.pythonhosted.org/packages/40/26/ebb08855c8916a5ce1020b39888ce660e5a81edbce48d8d911880e6b674e/evo-model-0.1.1.tar.gz
+[2024-05-01 00:41:45] INFO root fetch - processPackages [neon-utils]: Downloading https://files.pythonhosted.org/packages/40/2d/fb1887f565e889964657dd1ffc5eca79ea8e671fe20620d2659c16798ce4/neon-utils-1.9.2a4.tar.gz
+[2024-05-01 00:41:45] INFO root fetch - processPackages [tritonclient]: Downloading https://files.pythonhosted.org/packages/d3/2b/39c37626d2e5c8c79d220dc21875f8137024b2235222a19ba0c582d24fba/tritonclient-2.8.0-py3-none-manylinux2014_aarch64.whl
+[2024-05-01 00:41:45] INFO root fetch - processPackages [coherence-client]: Downloading https://files.pythonhosted.org/packages/4f/9f/d533777ed18eff71d54e90af130ad8c564479c9870cb1253efa1cafe3bb6/coherence_client-1.0rc2.tar.gz
+[2024-05-01 00:41:45] INFO root fetch - processPackages [ilcdlib]: Downloading https://files.pythonhosted.org/packages/53/ca/d4ba490d0a3bf352ca70e1f76126cac2cc0e5bde5cabd7b9f85870fe66cf/ilcdlib-4.2.0.tar.gz
+[2024-05-01 00:41:45] INFO root fetch - processPackages [sc-dandelion]: Downloading https://files.pythonhosted.org/packages/90/34/5e604be52a80d3069d3ed510b323fba81267029f627cae51819442863ad9/sc-dandelion-0.3.5.tar.gz
+[2024-05-01 00:41:45] INFO root fetch - processPackages [evo-model]: Downloading https://files.pythonhosted.org/packages/1a/69/feb61edafbbc07619b8607f8b6ccaaa655dbf903b96c40420f78adbd146f/evo_model-0.1.2.tar.gz
+[2024-05-01 00:41:45] WARNING root fetch - processPackages [sc-dandelion]: Skipping package: exceeds size limit 24425121>=10485760
+[2024-05-01 00:41:45] INFO root fetch - main [MainThread]: End processing [sc-dandelion] error
+[2024-05-01 00:41:45] INFO root fetch - processPackages [evo-model]: executing diffoscope
+[2024-05-01 00:41:45] INFO root fetch - processPackages [evo-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evo-model-0.1.1.tar.gz tmp/evo_model-0.1.2.tar.gz --markdown 20240501/e/evo-model/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-01 00:41:45] INFO root fetch - processPackages [coherence-client]: Downloading https://files.pythonhosted.org/packages/1f/02/b6dbe3be8b91f215211a777de71e423cd296f6747b9da8ea22506208044f/coherence_client-1.1.0.tar.gz
+[2024-05-01 00:41:45] INFO root fetch - processPackages [ilcdlib]: Downloading https://files.pythonhosted.org/packages/b9/7b/092221043f9e0140ce9d43a8ca10915c4cb4b5e9cac657a0f193accd5e99/ilcdlib-4.3.0.tar.gz
+[2024-05-01 00:41:46] INFO root fetch - processPackages [neon-utils]: Downloading https://files.pythonhosted.org/packages/4b/7e/d169b05a82bb414b9aaef0aca31a8f1752c08f9ca655cca6a681584a2c23/neon-utils-1.9.2a5.tar.gz
+[2024-05-01 00:41:46] INFO root fetch - processPackages [coherence-client]: executing diffoscope
+[2024-05-01 00:41:46] INFO root fetch - processPackages [coherence-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coherence_client-1.0rc2.tar.gz tmp/coherence_client-1.1.0.tar.gz --markdown 20240501/c/coherence-client/1.0rc2-1.1.0/README.md --exclude *.pyd
+[2024-05-01 00:41:46] INFO root fetch - processPackages [ilcdlib]: executing diffoscope
+[2024-05-01 00:41:46] INFO root fetch - processPackages [ilcdlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ilcdlib-4.2.0.tar.gz tmp/ilcdlib-4.3.0.tar.gz --markdown 20240501/i/ilcdlib/4.2.0-4.3.0/README.md --exclude *.pyd
+[2024-05-01 00:41:46] INFO root fetch - processPackages [neon-utils]: executing diffoscope
+[2024-05-01 00:41:46] INFO root fetch - processPackages [neon-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon-utils-1.9.2a4.tar.gz tmp/neon-utils-1.9.2a5.tar.gz --markdown 20240501/n/neon-utils/1.9.2a4-1.9.2a5/README.md --exclude *.pyd
+[2024-05-01 00:41:46] INFO root fetch - processPackages [evo-model]: Remove: archive file [/home/abi/fetcher/tmp/evo-model-0.1.1.tar.gz]
+[2024-05-01 00:41:46] INFO root fetch - processPackages [evo-model]: Remove: archive file [/home/abi/fetcher/tmp/evo_model-0.1.2.tar.gz]
+[2024-05-01 00:41:46] INFO root fetch - main [MainThread]: End processing [evo-model]: success
+[2024-05-01 00:41:46] INFO root fetch - processPackages [coherence-client]: Remove: archive file [/home/abi/fetcher/tmp/coherence_client-1.0rc2.tar.gz]
+[2024-05-01 00:41:46] INFO root fetch - processPackages [coherence-client]: Remove: archive file [/home/abi/fetcher/tmp/coherence_client-1.1.0.tar.gz]
+[2024-05-01 00:41:46] INFO root fetch - main [MainThread]: End processing [coherence-client]: success
+[2024-05-01 00:41:46] INFO root fetch - processPackages [ilcdlib]: Remove: archive file [/home/abi/fetcher/tmp/ilcdlib-4.2.0.tar.gz]
+[2024-05-01 00:41:46] INFO root fetch - processPackages [ilcdlib]: Remove: archive file [/home/abi/fetcher/tmp/ilcdlib-4.3.0.tar.gz]
+[2024-05-01 00:41:46] INFO root fetch - main [MainThread]: End processing [ilcdlib]: success
+[2024-05-01 00:41:47] INFO root fetch - processPackages [neon-utils]: Remove: archive file [/home/abi/fetcher/tmp/neon-utils-1.9.2a4.tar.gz]
+[2024-05-01 00:41:47] INFO root fetch - processPackages [neon-utils]: Remove: archive file [/home/abi/fetcher/tmp/neon-utils-1.9.2a5.tar.gz]
+[2024-05-01 00:41:47] INFO root fetch - main [MainThread]: End processing [neon-utils]: success
+[2024-05-01 00:41:48] INFO root fetch - processPackages [tritonclient]: Downloading https://files.pythonhosted.org/packages/b5/32/79fc08cc5ad2aaf6611d63e0226bd62257bb0dda65ba2f8b84d981e1b715/tritonclient-2.9.0-py3-none-manylinux2014_aarch64.whl
+[2024-05-01 00:41:50] INFO root fetch - processPackages [tritonclient]: executing diffoscope
+[2024-05-01 00:41:50] INFO root fetch - processPackages [tritonclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tritonclient-2.8.0-py3-none-manylinux2014_aarch64.whl.zip tmp/tritonclient-2.9.0-py3-none-manylinux2014_aarch64.whl.zip --markdown 20240501/t/tritonclient/2.8.0-2.9.0/README.md --exclude *.pyd
+[2024-05-01 00:44:00] INFO root fetch - processPackages [tritonclient]: Remove: archive file [/home/abi/fetcher/tmp/tritonclient-2.8.0-py3-none-manylinux2014_aarch64.whl.zip]
+[2024-05-01 00:44:00] INFO root fetch - processPackages [tritonclient]: Remove: archive file [/home/abi/fetcher/tmp/tritonclient-2.9.0-py3-none-manylinux2014_aarch64.whl.zip]
+[2024-05-01 00:44:00] INFO root fetch - main [MainThread]: End processing [tritonclient]: success
+[2024-05-01 00:44:00] INFO root fetch - main [MainThread]: Store serial: [23009068]
