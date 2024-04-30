@@ -413,3 +413,39 @@
 [2024-05-01 00:30:39] INFO root fetch - processPackages [data-repo-client]: Remove: archive file [/home/abi/fetcher/tmp/data-repo-client-2.54.0.tar.gz]
 [2024-05-01 00:30:39] INFO root fetch - main [MainThread]: End processing [data-repo-client]: success
 [2024-05-01 00:30:39] INFO root fetch - main [MainThread]: Store serial: [23009000]
+[2024-05-01 00:32:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23009000]
+[2024-05-01 00:32:49] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-01 00:32:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jaclang
+[2024-05-01 00:32:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: easy-fossy
+[2024-05-01 00:32:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: latch-cloud-clients
+[2024-05-01 00:32:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: acvtool
+[2024-05-01 00:32:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sc_guard_post
+[2024-05-01 00:32:49] INFO root fetch - processPackages [jaclang]: New version: [2.0.0] Old Version: [0.5.9]
+[2024-05-01 00:32:49] WARNING root fetch - processPackages [sc_guard_post]: Skipping, unable to determine old version
+[2024-05-01 00:32:49] INFO root fetch - main [MainThread]: End processing [sc_guard_post] error
+[2024-05-01 00:32:49] INFO root fetch - processPackages [jaclang]: Downloading https://files.pythonhosted.org/packages/71/5e/0c983fdbbb6d27172d3ca0c4f133d4cf655836b7ff52aaa4ba6f13162ac8/jaclang-0.5.9.tar.gz
+[2024-05-01 00:32:49] INFO root fetch - processPackages [latch-cloud-clients]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-01 00:32:49] WARNING root fetch - processPackages [acvtool]: Skipping, unable to determine old version
+[2024-05-01 00:32:49] INFO root fetch - processPackages [easy-fossy]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-05-01 00:32:49] INFO root fetch - main [MainThread]: End processing [acvtool] error
+[2024-05-01 00:32:49] INFO root fetch - processPackages [latch-cloud-clients]: Downloading https://files.pythonhosted.org/packages/39/00/928ff564c7506a0f9c519ca3c26d072d1c23e6ed8bdb3404b7ca780a67d7/latch_cloud_clients-0.1.8.tar.gz
+[2024-05-01 00:32:49] INFO root fetch - processPackages [easy-fossy]: Downloading https://files.pythonhosted.org/packages/d8/38/3d2f5f31082c62f1fa0853640eb1efef088e57dca5ae63d609319917ae75/easy_fossy-2.0.8.tar.gz
+[2024-05-01 00:32:50] INFO root fetch - processPackages [jaclang]: Downloading https://files.pythonhosted.org/packages/94/b0/bdf17fc987c8f38d62f97fa732e1217fdda9bd1d7fbd35b02fd17b512258/jaclang-2.0.0.tar.gz
+[2024-05-01 00:32:50] INFO root fetch - processPackages [jaclang]: executing diffoscope
+[2024-05-01 00:32:50] INFO root fetch - processPackages [jaclang]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaclang-0.5.9.tar.gz tmp/jaclang-2.0.0.tar.gz --markdown 20240501/j/jaclang/0.5.9-2.0.0/README.md --exclude *.pyd
+[2024-05-01 00:32:50] INFO root fetch - processPackages [latch-cloud-clients]: Downloading https://files.pythonhosted.org/packages/4c/6a/9701d200b8339e435fef04dc8b24a7e7a7ecee4e1b38a16e4a1f10fcbdf8/latch_cloud_clients-0.1.9.tar.gz
+[2024-05-01 00:32:50] INFO root fetch - processPackages [latch-cloud-clients]: executing diffoscope
+[2024-05-01 00:32:50] INFO root fetch - processPackages [latch-cloud-clients]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/latch_cloud_clients-0.1.8.tar.gz tmp/latch_cloud_clients-0.1.9.tar.gz --markdown 20240501/l/latch-cloud-clients/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-01 00:32:50] INFO root fetch - processPackages [easy-fossy]: Downloading https://files.pythonhosted.org/packages/7d/e5/b3e6f88038349fd0bdf0c1ce7465e4e22d543066e1f8ce2fcf1a2535bcb4/easy_fossy-2.0.9.tar.gz
+[2024-05-01 00:32:50] INFO root fetch - processPackages [easy-fossy]: executing diffoscope
+[2024-05-01 00:32:50] INFO root fetch - processPackages [easy-fossy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easy_fossy-2.0.8.tar.gz tmp/easy_fossy-2.0.9.tar.gz --markdown 20240501/e/easy-fossy/2.0.8-2.0.9/README.md --exclude *.pyd
+[2024-05-01 00:32:50] INFO root fetch - processPackages [latch-cloud-clients]: Remove: archive file [/home/abi/fetcher/tmp/latch_cloud_clients-0.1.8.tar.gz]
+[2024-05-01 00:32:50] INFO root fetch - processPackages [latch-cloud-clients]: Remove: archive file [/home/abi/fetcher/tmp/latch_cloud_clients-0.1.9.tar.gz]
+[2024-05-01 00:32:50] INFO root fetch - main [MainThread]: End processing [latch-cloud-clients]: success
+[2024-05-01 00:32:50] INFO root fetch - processPackages [jaclang]: Remove: archive file [/home/abi/fetcher/tmp/jaclang-0.5.9.tar.gz]
+[2024-05-01 00:32:50] INFO root fetch - processPackages [jaclang]: Remove: archive file [/home/abi/fetcher/tmp/jaclang-2.0.0.tar.gz]
+[2024-05-01 00:32:50] INFO root fetch - main [MainThread]: End processing [jaclang]: success
+[2024-05-01 00:32:51] INFO root fetch - processPackages [easy-fossy]: Remove: archive file [/home/abi/fetcher/tmp/easy_fossy-2.0.8.tar.gz]
+[2024-05-01 00:32:51] INFO root fetch - processPackages [easy-fossy]: Remove: archive file [/home/abi/fetcher/tmp/easy_fossy-2.0.9.tar.gz]
+[2024-05-01 00:32:51] INFO root fetch - main [MainThread]: End processing [easy-fossy]: success
+[2024-05-01 00:32:51] INFO root fetch - main [MainThread]: Store serial: [23009016]
