@@ -226,3 +226,46 @@
 [2024-05-01 00:19:16] INFO root fetch - processPackages [pulumi-alicloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_alicloud-3.9.0a1637592974.tar.gz]
 [2024-05-01 00:19:16] INFO root fetch - main [MainThread]: End processing [pulumi-alicloud]: success
 [2024-05-01 00:19:16] INFO root fetch - main [MainThread]: Store serial: [23008914]
+[2024-05-01 00:21:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23008914]
+[2024-05-01 00:21:26] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-01 00:21:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: circt
+[2024-05-01 00:21:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: home-assistant-frontend
+[2024-05-01 00:21:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: copyleap
+[2024-05-01 00:21:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gep3
+[2024-05-01 00:21:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: py-gadzooks
+[2024-05-01 00:21:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: phoenix6
+[2024-05-01 00:21:27] INFO root fetch - processPackages [gep3]: New version: [0.4.1] Old Version: [0.4]
+[2024-05-01 00:21:27] INFO root fetch - processPackages [py-gadzooks]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-05-01 00:21:27] INFO root fetch - processPackages [phoenix6]: New version: [24.3.0] Old Version: [24.2.0]
+[2024-05-01 00:21:27] INFO root fetch - processPackages [circt]: New version: [1.74.0] Old Version: [1.73.1.dev46]
+[2024-05-01 00:21:27] INFO root fetch - processPackages [gep3]: Downloading https://files.pythonhosted.org/packages/23/e5/58f3776625c029291ace3549bd4237e9297d4c694cabb7754bd1661f5ead/gep3-0.4.tar.gz
+[2024-05-01 00:21:27] WARNING root fetch - processPackages [copyleap]: Skipping, unable to determine old version
+[2024-05-01 00:21:27] INFO root fetch - main [MainThread]: End processing [copyleap] error
+[2024-05-01 00:21:27] INFO root fetch - processPackages [home-assistant-frontend]: New version: [20240430.0] Old Version: [20240429.0]
+[2024-05-01 00:21:27] INFO root fetch - processPackages [circt]: Downloading https://files.pythonhosted.org/packages/53/67/cc8fecdd13faec25da738ae1eaabc64fc59fbccd610a113c23978d4ca242/circt-1.73.1.dev46-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-01 00:21:27] INFO root fetch - processPackages [phoenix6]: Downloading https://files.pythonhosted.org/packages/1b/f5/e2186d4ff6c6366115151fa4a1fd4a7b74fed9155940f79d32c12dc9d7ee/phoenix6-24.2.0-cp39-abi3-win_amd64.whl
+[2024-05-01 00:21:27] INFO root fetch - processPackages [py-gadzooks]: Downloading https://files.pythonhosted.org/packages/c9/43/2a8c18348e9a99955120d043b09b76efa07a1e2a293c4bc01ef93932f724/py_gadzooks-0.2.4.tar.gz
+[2024-05-01 00:21:27] INFO root fetch - processPackages [home-assistant-frontend]: Downloading https://files.pythonhosted.org/packages/56/3b/216fd6ce45d114763866a72d9d6e90a017758019cc920915adb9fe506bff/home_assistant_frontend-20240429.0-py3-none-any.whl
+[2024-05-01 00:21:27] WARNING root fetch - processPackages [home-assistant-frontend]: Skipping package: exceeds size limit 54795234>=10485760
+[2024-05-01 00:21:27] INFO root fetch - main [MainThread]: End processing [home-assistant-frontend] error
+[2024-05-01 00:21:27] INFO root fetch - processPackages [gep3]: Downloading https://files.pythonhosted.org/packages/7e/c9/e3cadc241c069f01b5e6284edb13626a31566a24cfcdad536b492d0dd121/gep3-0.4.1.tar.gz
+[2024-05-01 00:21:27] WARNING root fetch - processPackages [circt]: Skipping package: exceeds size limit 18168213>=10485760
+[2024-05-01 00:21:27] INFO root fetch - main [MainThread]: End processing [circt] error
+[2024-05-01 00:21:27] INFO root fetch - processPackages [gep3]: executing diffoscope
+[2024-05-01 00:21:27] INFO root fetch - processPackages [gep3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gep3-0.4.tar.gz tmp/gep3-0.4.1.tar.gz --markdown 20240501/g/gep3/0.4-0.4.1/README.md --exclude *.pyd
+[2024-05-01 00:21:27] INFO root fetch - processPackages [py-gadzooks]: Downloading https://files.pythonhosted.org/packages/67/91/428a40a6744179cbef6a48f336a57a73b96fb75e83e7f666d3d586accf98/py_gadzooks-0.2.5.tar.gz
+[2024-05-01 00:21:27] INFO root fetch - processPackages [py-gadzooks]: executing diffoscope
+[2024-05-01 00:21:27] INFO root fetch - processPackages [py-gadzooks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_gadzooks-0.2.4.tar.gz tmp/py_gadzooks-0.2.5.tar.gz --markdown 20240501/p/py-gadzooks/0.2.4-0.2.5/README.md --exclude *.pyd
+[2024-05-01 00:21:27] INFO root fetch - processPackages [phoenix6]: Downloading https://files.pythonhosted.org/packages/15/31/4cb2750a8fa5d093b80d9bbb8cdf7e579c4f67c08f9ef155305750fee555/phoenix6-24.3.0-cp39-abi3-win_amd64.whl
+[2024-05-01 00:21:28] INFO root fetch - processPackages [gep3]: Remove: archive file [/home/abi/fetcher/tmp/gep3-0.4.tar.gz]
+[2024-05-01 00:21:28] INFO root fetch - processPackages [gep3]: Remove: archive file [/home/abi/fetcher/tmp/gep3-0.4.1.tar.gz]
+[2024-05-01 00:21:28] INFO root fetch - main [MainThread]: End processing [gep3]: success
+[2024-05-01 00:21:28] INFO root fetch - processPackages [py-gadzooks]: Remove: archive file [/home/abi/fetcher/tmp/py_gadzooks-0.2.4.tar.gz]
+[2024-05-01 00:21:28] INFO root fetch - processPackages [py-gadzooks]: Remove: archive file [/home/abi/fetcher/tmp/py_gadzooks-0.2.5.tar.gz]
+[2024-05-01 00:21:28] INFO root fetch - main [MainThread]: End processing [py-gadzooks]: success
+[2024-05-01 00:21:28] INFO root fetch - processPackages [phoenix6]: executing diffoscope
+[2024-05-01 00:21:28] INFO root fetch - processPackages [phoenix6]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phoenix6-24.2.0-cp39-abi3-win_amd64.whl.zip tmp/phoenix6-24.3.0-cp39-abi3-win_amd64.whl.zip --markdown 20240501/p/phoenix6/24.2.0-24.3.0/README.md --exclude *.pyd
+[2024-05-01 00:21:48] INFO root fetch - processPackages [phoenix6]: Remove: archive file [/home/abi/fetcher/tmp/phoenix6-24.2.0-cp39-abi3-win_amd64.whl.zip]
+[2024-05-01 00:21:48] INFO root fetch - processPackages [phoenix6]: Remove: archive file [/home/abi/fetcher/tmp/phoenix6-24.3.0-cp39-abi3-win_amd64.whl.zip]
+[2024-05-01 00:21:48] INFO root fetch - main [MainThread]: End processing [phoenix6]: success
+[2024-05-01 00:21:48] INFO root fetch - main [MainThread]: Store serial: [23008938]
