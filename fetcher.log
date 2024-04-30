@@ -906,3 +906,15 @@
 [2024-05-01 00:59:33] INFO root fetch - processPackages [django-restit]: Remove: archive file [/home/abi/fetcher/tmp/django_restit-4.2.9.tar.gz]
 [2024-05-01 00:59:33] INFO root fetch - main [MainThread]: End processing [django-restit]: success
 [2024-05-01 00:59:33] INFO root fetch - main [MainThread]: Store serial: [23009173]
+[2024-05-01 01:01:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23009173]
+[2024-05-01 01:01:42] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-01 01:01:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-restit
+[2024-05-01 01:01:42] INFO root fetch - processPackages [django-restit]: New version: [4.2.9] Old Version: [4.2.8]
+[2024-05-01 01:01:42] INFO root fetch - processPackages [django-restit]: Downloading https://files.pythonhosted.org/packages/c2/a7/9a624d19b03f5a2774d34ae27fa11ab51ecdc59b679adabd04219cc8b435/django_restit-4.2.8.tar.gz
+[2024-05-01 01:01:42] INFO root fetch - processPackages [django-restit]: Downloading https://files.pythonhosted.org/packages/04/6a/4a0798142c60a6490ec67b5805d087bb35d3e9fc4b5da82c2af6c231a3d8/django_restit-4.2.9.tar.gz
+[2024-05-01 01:01:42] INFO root fetch - processPackages [django-restit]: executing diffoscope
+[2024-05-01 01:01:42] INFO root fetch - processPackages [django-restit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_restit-4.2.8.tar.gz tmp/django_restit-4.2.9.tar.gz --markdown 20240501/d/django-restit/4.2.8-4.2.9/README.md --exclude *.pyd
+[2024-05-01 01:01:44] INFO root fetch - processPackages [django-restit]: Remove: archive file [/home/abi/fetcher/tmp/django_restit-4.2.8.tar.gz]
+[2024-05-01 01:01:44] INFO root fetch - processPackages [django-restit]: Remove: archive file [/home/abi/fetcher/tmp/django_restit-4.2.9.tar.gz]
+[2024-05-01 01:01:44] INFO root fetch - main [MainThread]: End processing [django-restit]: success
+[2024-05-01 01:01:44] INFO root fetch - main [MainThread]: Store serial: [23009177]
