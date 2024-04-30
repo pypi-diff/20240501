@@ -72,3 +72,24 @@
 [2024-05-01 00:04:55] INFO root fetch - processPackages [dspygen]: Remove: archive file [/home/abi/fetcher/tmp/dspygen-2024.4.8.tar.gz]
 [2024-05-01 00:04:55] INFO root fetch - main [MainThread]: End processing [dspygen]: success
 [2024-05-01 00:04:55] INFO root fetch - main [MainThread]: Store serial: [23008829]
+[2024-05-01 00:06:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23008829]
+[2024-05-01 00:07:03] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-01 00:07:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cellprofiler-core-nightly
+[2024-05-01 00:07:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: CellProfiler-nightly
+[2024-05-01 00:07:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lab-door-access
+[2024-05-01 00:07:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cbcflow
+[2024-05-01 00:07:03] WARNING root fetch - processPackages [cellprofiler-core-nightly]: Skipping, unable to determine old version
+[2024-05-01 00:07:03] INFO root fetch - main [MainThread]: End processing [cellprofiler-core-nightly] error
+[2024-05-01 00:07:03] WARNING root fetch - processPackages [CellProfiler-nightly]: Skipping, unable to determine old version
+[2024-05-01 00:07:03] INFO root fetch - main [MainThread]: End processing [CellProfiler-nightly] error
+[2024-05-01 00:07:03] INFO root fetch - processPackages [cbcflow]: New version: [0.5.0] Old Version: [0.4.4]
+[2024-05-01 00:07:03] WARNING root fetch - processPackages [lab-door-access]: Skipping, unable to determine old version
+[2024-05-01 00:07:03] INFO root fetch - main [MainThread]: End processing [lab-door-access] error
+[2024-05-01 00:07:04] INFO root fetch - processPackages [cbcflow]: Downloading https://files.pythonhosted.org/packages/59/d4/0db35a831f0235b8f0302f29b1fe65a32171a87bc1af11e17fb416468b5e/cbcflow-0.4.4.tar.gz
+[2024-05-01 00:07:04] INFO root fetch - processPackages [cbcflow]: Downloading https://files.pythonhosted.org/packages/45/44/9bb72c7232bd29aa79496cb9c3efa8d0f73a1c62f4aa148afd8a15ca4e00/cbcflow-0.5.0.tar.gz
+[2024-05-01 00:07:05] INFO root fetch - processPackages [cbcflow]: executing diffoscope
+[2024-05-01 00:07:05] INFO root fetch - processPackages [cbcflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cbcflow-0.4.4.tar.gz tmp/cbcflow-0.5.0.tar.gz --markdown 20240501/c/cbcflow/0.4.4-0.5.0/README.md --exclude *.pyd
+[2024-05-01 00:07:06] INFO root fetch - processPackages [cbcflow]: Remove: archive file [/home/abi/fetcher/tmp/cbcflow-0.4.4.tar.gz]
+[2024-05-01 00:07:06] INFO root fetch - processPackages [cbcflow]: Remove: archive file [/home/abi/fetcher/tmp/cbcflow-0.5.0.tar.gz]
+[2024-05-01 00:07:06] INFO root fetch - main [MainThread]: End processing [cbcflow]: success
+[2024-05-01 00:07:06] INFO root fetch - main [MainThread]: Store serial: [23008847]
