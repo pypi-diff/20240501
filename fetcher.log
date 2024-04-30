@@ -1547,3 +1547,24 @@
 [2024-05-01 01:51:45] INFO root fetch - processPackages [sbcli-release]: Remove: archive file [/home/abi/fetcher/tmp/sbcli_release-1.0.7.zip]
 [2024-05-01 01:51:45] INFO root fetch - main [MainThread]: End processing [sbcli-release]: success
 [2024-05-01 01:51:45] INFO root fetch - main [MainThread]: Store serial: [23009408]
+[2024-05-01 01:53:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23009408]
+[2024-05-01 01:53:54] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-01 01:53:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: scooch
+[2024-05-01 01:53:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: llamascript
+[2024-05-01 01:53:54] INFO root fetch - processPackages [llamascript]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-01 01:53:54] INFO root fetch - processPackages [llamascript]: Downloading https://files.pythonhosted.org/packages/b0/5e/7efb80afb9834ab4f91b2748a528aad252ff25f5ff186a65beff909e1411/llamascript-0.0.2.tar.gz
+[2024-05-01 01:53:54] INFO root fetch - processPackages [scooch]: New version: [1.0.4] Old Version: [1.0.2]
+[2024-05-01 01:53:54] INFO root fetch - processPackages [scooch]: Downloading https://files.pythonhosted.org/packages/71/0c/8cb926a9a4ee9fcb908076a29d99073ef47f5331ebd9f810a6e3f874add5/scooch-1.0.2.tar.gz
+[2024-05-01 01:53:54] INFO root fetch - processPackages [llamascript]: Downloading https://files.pythonhosted.org/packages/85/b0/a204a757b9053f3e651daf201734409b5c02f0d482e3d156d22008ddd83e/llamascript-0.0.3.tar.gz
+[2024-05-01 01:53:54] INFO root fetch - processPackages [llamascript]: executing diffoscope
+[2024-05-01 01:53:54] INFO root fetch - processPackages [llamascript]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llamascript-0.0.2.tar.gz tmp/llamascript-0.0.3.tar.gz --markdown 20240501/l/llamascript/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-01 01:53:54] INFO root fetch - processPackages [scooch]: Downloading https://files.pythonhosted.org/packages/12/4e/95ddbf8f18aaf5c010e6d59c827f12052368ea9eb08c1c60df8271f3e6c3/scooch-1.0.4.tar.gz
+[2024-05-01 01:53:55] INFO root fetch - processPackages [scooch]: executing diffoscope
+[2024-05-01 01:53:55] INFO root fetch - processPackages [scooch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scooch-1.0.2.tar.gz tmp/scooch-1.0.4.tar.gz --markdown 20240501/s/scooch/1.0.2-1.0.4/README.md --exclude *.pyd
+[2024-05-01 01:53:55] INFO root fetch - processPackages [llamascript]: Remove: archive file [/home/abi/fetcher/tmp/llamascript-0.0.2.tar.gz]
+[2024-05-01 01:53:55] INFO root fetch - processPackages [llamascript]: Remove: archive file [/home/abi/fetcher/tmp/llamascript-0.0.3.tar.gz]
+[2024-05-01 01:53:55] INFO root fetch - main [MainThread]: End processing [llamascript]: success
+[2024-05-01 01:53:55] INFO root fetch - processPackages [scooch]: Remove: archive file [/home/abi/fetcher/tmp/scooch-1.0.2.tar.gz]
+[2024-05-01 01:53:55] INFO root fetch - processPackages [scooch]: Remove: archive file [/home/abi/fetcher/tmp/scooch-1.0.4.tar.gz]
+[2024-05-01 01:53:55] INFO root fetch - main [MainThread]: End processing [scooch]: success
+[2024-05-01 01:53:55] INFO root fetch - main [MainThread]: Store serial: [23009413]
