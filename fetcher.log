@@ -1368,3 +1368,24 @@
 [2024-05-01 01:36:29] INFO root fetch - processPackages [reactivated]: Remove: archive file [/home/abi/fetcher/tmp/reactivated-3.0.0a64.tar.gz]
 [2024-05-01 01:36:29] INFO root fetch - main [MainThread]: End processing [reactivated]: success
 [2024-05-01 01:36:29] INFO root fetch - main [MainThread]: Store serial: [23009352]
+[2024-05-01 01:38:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23009352]
+[2024-05-01 01:38:37] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-01 01:38:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: python-criteria
+[2024-05-01 01:38:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cmsdials
+[2024-05-01 01:38:37] INFO root fetch - processPackages [python-criteria]: New version: [0.6.0] Old Version: [0.5.2]
+[2024-05-01 01:38:37] INFO root fetch - processPackages [python-criteria]: Downloading https://files.pythonhosted.org/packages/1d/cf/59a6c57b68bee9d8fd0ae58f6c1693014e531157621d3c9db4803d77113c/python_criteria-0.5.2.tar.gz
+[2024-05-01 01:38:37] INFO root fetch - processPackages [cmsdials]: New version: [1.0.0] Old Version: [0.4.0]
+[2024-05-01 01:38:38] INFO root fetch - processPackages [python-criteria]: Downloading https://files.pythonhosted.org/packages/a2/bb/e2176529995aec29734d9169a51bb720bcf3a0db39be1fe1fd7bec1aba40/python_criteria-0.6.0.tar.gz
+[2024-05-01 01:38:38] INFO root fetch - processPackages [cmsdials]: Downloading https://files.pythonhosted.org/packages/df/6b/2c15ecfdc72934f3f0619897ff9fbf5e3d21ca27fd898440242dbdc48458/cmsdials-0.4.0.tar.gz
+[2024-05-01 01:38:38] INFO root fetch - processPackages [python-criteria]: executing diffoscope
+[2024-05-01 01:38:38] INFO root fetch - processPackages [python-criteria]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_criteria-0.5.2.tar.gz tmp/python_criteria-0.6.0.tar.gz --markdown 20240501/p/python-criteria/0.5.2-0.6.0/README.md --exclude *.pyd
+[2024-05-01 01:38:38] INFO root fetch - processPackages [cmsdials]: Downloading https://files.pythonhosted.org/packages/16/14/9147a6c29477b472dbc64e24f86cc5737340ad2cc0a962a3cc5f351d7ab0/cmsdials-1.0.0.tar.gz
+[2024-05-01 01:38:38] INFO root fetch - processPackages [cmsdials]: executing diffoscope
+[2024-05-01 01:38:38] INFO root fetch - processPackages [cmsdials]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cmsdials-0.4.0.tar.gz tmp/cmsdials-1.0.0.tar.gz --markdown 20240501/c/cmsdials/0.4.0-1.0.0/README.md --exclude *.pyd
+[2024-05-01 01:38:38] INFO root fetch - processPackages [python-criteria]: Remove: archive file [/home/abi/fetcher/tmp/python_criteria-0.5.2.tar.gz]
+[2024-05-01 01:38:38] INFO root fetch - processPackages [python-criteria]: Remove: archive file [/home/abi/fetcher/tmp/python_criteria-0.6.0.tar.gz]
+[2024-05-01 01:38:38] INFO root fetch - main [MainThread]: End processing [python-criteria]: success
+[2024-05-01 01:38:39] INFO root fetch - processPackages [cmsdials]: Remove: archive file [/home/abi/fetcher/tmp/cmsdials-0.4.0.tar.gz]
+[2024-05-01 01:38:39] INFO root fetch - processPackages [cmsdials]: Remove: archive file [/home/abi/fetcher/tmp/cmsdials-1.0.0.tar.gz]
+[2024-05-01 01:38:39] INFO root fetch - main [MainThread]: End processing [cmsdials]: success
+[2024-05-01 01:38:39] INFO root fetch - main [MainThread]: Store serial: [23009357]
