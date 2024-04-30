@@ -482,3 +482,24 @@
 [2024-05-01 00:35:08] INFO root fetch - processPackages [ngcsdk]: Remove: archive file [/home/abi/fetcher/tmp/ngcsdk-3.41.4-py3-none-any.whl.zip]
 [2024-05-01 00:35:08] INFO root fetch - main [MainThread]: End processing [ngcsdk]: success
 [2024-05-01 00:35:08] INFO root fetch - main [MainThread]: Store serial: [23009029]
+[2024-05-01 00:37:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23009029]
+[2024-05-01 00:37:17] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-01 00:37:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mirascope
+[2024-05-01 00:37:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: videomass
+[2024-05-01 00:37:17] INFO root fetch - processPackages [mirascope]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-01 00:37:17] INFO root fetch - processPackages [mirascope]: Downloading https://files.pythonhosted.org/packages/1e/60/6b94f4a0c0a3442e0030ec4b7912738aea1506f5f2cfbbaab0f9f6c973ee/mirascope-0.9.0.tar.gz
+[2024-05-01 00:37:17] INFO root fetch - processPackages [videomass]: New version: [5.0.6] Old Version: [5.0.5]
+[2024-05-01 00:37:17] INFO root fetch - processPackages [videomass]: Downloading https://files.pythonhosted.org/packages/7f/50/e505b11c59ae762a9a77016548e94685cb0f70a14891187c1cc5bc349f02/videomass-5.0.5.tar.gz
+[2024-05-01 00:37:17] INFO root fetch - processPackages [mirascope]: Downloading https://files.pythonhosted.org/packages/86/be/fe2b9be44a23959a996ae2f04f7f17cca344b0da85a954965c102e97d624/mirascope-0.9.1.tar.gz
+[2024-05-01 00:37:17] INFO root fetch - processPackages [mirascope]: executing diffoscope
+[2024-05-01 00:37:17] INFO root fetch - processPackages [mirascope]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mirascope-0.9.0.tar.gz tmp/mirascope-0.9.1.tar.gz --markdown 20240501/m/mirascope/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-01 00:37:18] INFO root fetch - processPackages [mirascope]: Remove: archive file [/home/abi/fetcher/tmp/mirascope-0.9.0.tar.gz]
+[2024-05-01 00:37:18] INFO root fetch - processPackages [mirascope]: Remove: archive file [/home/abi/fetcher/tmp/mirascope-0.9.1.tar.gz]
+[2024-05-01 00:37:18] INFO root fetch - main [MainThread]: End processing [mirascope]: success
+[2024-05-01 00:37:19] INFO root fetch - processPackages [videomass]: Downloading https://files.pythonhosted.org/packages/46/c2/c8792681e76123df106001588ae995d4860618c38f7dc372c32bfdab7f57/videomass-5.0.6.tar.gz
+[2024-05-01 00:37:19] INFO root fetch - processPackages [videomass]: executing diffoscope
+[2024-05-01 00:37:19] INFO root fetch - processPackages [videomass]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/videomass-5.0.5.tar.gz tmp/videomass-5.0.6.tar.gz --markdown 20240501/v/videomass/5.0.5-5.0.6/README.md --exclude *.pyd
+[2024-05-01 00:37:22] INFO root fetch - processPackages [videomass]: Remove: archive file [/home/abi/fetcher/tmp/videomass-5.0.5.tar.gz]
+[2024-05-01 00:37:22] INFO root fetch - processPackages [videomass]: Remove: archive file [/home/abi/fetcher/tmp/videomass-5.0.6.tar.gz]
+[2024-05-01 00:37:22] INFO root fetch - main [MainThread]: End processing [videomass]: success
+[2024-05-01 00:37:22] INFO root fetch - main [MainThread]: Store serial: [23009035]
