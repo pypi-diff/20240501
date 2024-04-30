@@ -1,0 +1,17 @@
+[2024-05-01 00:02:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23008776]
+[2024-05-01 00:02:43] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-01 00:02:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kcl-lib
+[2024-05-01 00:02:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: libdebug
+[2024-05-01 00:02:43] INFO root fetch - processPackages [libdebug]: New version: [0.4.1] Old Version: [0.4]
+[2024-05-01 00:02:43] INFO root fetch - processPackages [libdebug]: Downloading https://files.pythonhosted.org/packages/da/a0/a77e3ddb1afd7882601ca84d0be6f23d85ef9303aa476369b4307dfb1222/libdebug-0.4.tar.gz
+[2024-05-01 00:02:43] INFO root fetch - processPackages [kcl-lib]: New version: [0.8.6] Old Version: [0.8.5]
+[2024-05-01 00:02:43] INFO root fetch - processPackages [kcl-lib]: Downloading https://files.pythonhosted.org/packages/b1/42/09dc7c0027608552ecd4c9226f16401c2b998d8de3e8817e4a75c4ea9e20/kcl_lib-0.8.5.tar.gz
+[2024-05-01 00:02:43] INFO root fetch - processPackages [libdebug]: Downloading https://files.pythonhosted.org/packages/e4/e9/a1b7730aca6d9e4361c09a4e0a894c49f3dd8d4a549a825c824664a68f05/libdebug-0.4.1.tar.gz
+[2024-05-01 00:02:43] INFO root fetch - processPackages [libdebug]: executing diffoscope
+[2024-05-01 00:02:43] INFO root fetch - processPackages [libdebug]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libdebug-0.4.tar.gz tmp/libdebug-0.4.1.tar.gz --markdown 20240501/l/libdebug/0.4-0.4.1/README.md --exclude *.pyd
+[2024-05-01 00:02:43] WARNING root fetch - processPackages [kcl-lib]: Skipping package: exceeds size limit 90088973>=10485760
+[2024-05-01 00:02:43] INFO root fetch - main [MainThread]: End processing [kcl-lib] error
+[2024-05-01 00:02:45] INFO root fetch - processPackages [libdebug]: Remove: archive file [/home/abi/fetcher/tmp/libdebug-0.4.tar.gz]
+[2024-05-01 00:02:45] INFO root fetch - processPackages [libdebug]: Remove: archive file [/home/abi/fetcher/tmp/libdebug-0.4.1.tar.gz]
+[2024-05-01 00:02:45] INFO root fetch - main [MainThread]: End processing [libdebug]: success
+[2024-05-01 00:02:45] INFO root fetch - main [MainThread]: Store serial: [23008803]
