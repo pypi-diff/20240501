@@ -1209,3 +1209,33 @@
 [2024-05-01 01:21:16] INFO root fetch - processPackages [acryo]: Remove: archive file [/home/abi/fetcher/tmp/acryo-0.4.9.tar.gz]
 [2024-05-01 01:21:16] INFO root fetch - main [MainThread]: End processing [acryo]: success
 [2024-05-01 01:21:16] INFO root fetch - main [MainThread]: Store serial: [23009283]
+[2024-05-01 01:23:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23009283]
+[2024-05-01 01:23:25] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-01 01:23:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: llamascript
+[2024-05-01 01:23:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: braintrust
+[2024-05-01 01:23:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bioimageio.core
+[2024-05-01 01:23:25] INFO root fetch - processPackages [llamascript]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-01 01:23:25] INFO root fetch - processPackages [llamascript]: Downloading https://files.pythonhosted.org/packages/67/b4/7917861cd12b25af3a5387ade3a4bddc1c7ea2e23eb1e214327e727bf85f/llamascript-0.0.1.tar.gz
+[2024-05-01 01:23:25] INFO root fetch - processPackages [bioimageio.core]: New version: [0.6.2] Old Version: [0.6.1]
+[2024-05-01 01:23:25] INFO root fetch - processPackages [braintrust]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-01 01:23:25] INFO root fetch - processPackages [llamascript]: Downloading https://files.pythonhosted.org/packages/b0/5e/7efb80afb9834ab4f91b2748a528aad252ff25f5ff186a65beff909e1411/llamascript-0.0.2.tar.gz
+[2024-05-01 01:23:25] INFO root fetch - processPackages [bioimageio.core]: Downloading https://files.pythonhosted.org/packages/fa/6a/c066c0ddc0b5a8055d5ba9897417611b43d6d658d109508290ef6a91f2e1/bioimageio.core-0.6.1.tar.gz
+[2024-05-01 01:23:25] INFO root fetch - processPackages [braintrust]: Downloading https://files.pythonhosted.org/packages/de/c6/30b3eb7e4b1c5983c8ec7e822a7e696104c7a7f1790bed3ef80a987f4941/braintrust-0.0.98.tar.gz
+[2024-05-01 01:23:25] INFO root fetch - processPackages [llamascript]: executing diffoscope
+[2024-05-01 01:23:25] INFO root fetch - processPackages [llamascript]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llamascript-0.0.1.tar.gz tmp/llamascript-0.0.2.tar.gz --markdown 20240501/l/llamascript/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-01 01:23:26] INFO root fetch - processPackages [bioimageio.core]: Downloading https://files.pythonhosted.org/packages/3e/ac/f6bbe4d580e0580f53549260d0c26e1e055dd59acf071a3bdacafcd07f47/bioimageio.core-0.6.2.tar.gz
+[2024-05-01 01:23:26] INFO root fetch - processPackages [braintrust]: Downloading https://files.pythonhosted.org/packages/bd/26/72df543bed4a12c9562f49bd7e81c0844d75e2a98f58941a7d24609cfb0a/braintrust-0.0.99.tar.gz
+[2024-05-01 01:23:26] INFO root fetch - processPackages [braintrust]: executing diffoscope
+[2024-05-01 01:23:26] INFO root fetch - processPackages [braintrust]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/braintrust-0.0.98.tar.gz tmp/braintrust-0.0.99.tar.gz --markdown 20240501/b/braintrust/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-01 01:23:26] INFO root fetch - processPackages [bioimageio.core]: executing diffoscope
+[2024-05-01 01:23:26] INFO root fetch - processPackages [bioimageio.core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioimageio.core-0.6.1.tar.gz tmp/bioimageio.core-0.6.2.tar.gz --markdown 20240501/b/bioimageio.core/0.6.1-0.6.2/README.md --exclude *.pyd
+[2024-05-01 01:23:26] INFO root fetch - processPackages [llamascript]: Remove: archive file [/home/abi/fetcher/tmp/llamascript-0.0.1.tar.gz]
+[2024-05-01 01:23:26] INFO root fetch - processPackages [llamascript]: Remove: archive file [/home/abi/fetcher/tmp/llamascript-0.0.2.tar.gz]
+[2024-05-01 01:23:26] INFO root fetch - main [MainThread]: End processing [llamascript]: success
+[2024-05-01 01:23:26] INFO root fetch - processPackages [braintrust]: Remove: archive file [/home/abi/fetcher/tmp/braintrust-0.0.98.tar.gz]
+[2024-05-01 01:23:26] INFO root fetch - processPackages [braintrust]: Remove: archive file [/home/abi/fetcher/tmp/braintrust-0.0.99.tar.gz]
+[2024-05-01 01:23:26] INFO root fetch - main [MainThread]: End processing [braintrust]: success
+[2024-05-01 01:23:27] INFO root fetch - processPackages [bioimageio.core]: Remove: archive file [/home/abi/fetcher/tmp/bioimageio.core-0.6.1.tar.gz]
+[2024-05-01 01:23:27] INFO root fetch - processPackages [bioimageio.core]: Remove: archive file [/home/abi/fetcher/tmp/bioimageio.core-0.6.2.tar.gz]
+[2024-05-01 01:23:27] INFO root fetch - main [MainThread]: End processing [bioimageio.core]: success
+[2024-05-01 01:23:27] INFO root fetch - main [MainThread]: Store serial: [23009289]
