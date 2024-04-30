@@ -503,3 +503,45 @@
 [2024-05-01 00:37:22] INFO root fetch - processPackages [videomass]: Remove: archive file [/home/abi/fetcher/tmp/videomass-5.0.6.tar.gz]
 [2024-05-01 00:37:22] INFO root fetch - main [MainThread]: End processing [videomass]: success
 [2024-05-01 00:37:22] INFO root fetch - main [MainThread]: Store serial: [23009035]
+[2024-05-01 00:39:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23009035]
+[2024-05-01 00:39:34] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-01 00:39:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zscaler-sdk-python
+[2024-05-01 00:39:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vatsim
+[2024-05-01 00:39:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Kahi
+[2024-05-01 00:39:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ape-solidity
+[2024-05-01 00:39:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nvidia-modelopt
+[2024-05-01 00:39:34] ERROR root fetch - processPackages [nvidia-modelopt]: Unable to get metadata: No such project 'nvidia-modelopt'
+[2024-05-01 00:39:34] INFO root fetch - main [MainThread]: End processing [nvidia-modelopt] error
+[2024-05-01 00:39:34] INFO root fetch - processPackages [vatsim]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-01 00:39:34] INFO root fetch - processPackages [zscaler-sdk-python]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-01 00:39:34] INFO root fetch - processPackages [Kahi]: New version: [0.0.9a0] Old Version: [0.0.8a0]
+[2024-05-01 00:39:34] INFO root fetch - processPackages [ape-solidity]: New version: [0.7.3] Old Version: [0.7.2]
+[2024-05-01 00:39:34] INFO root fetch - processPackages [ape-solidity]: Downloading https://files.pythonhosted.org/packages/90/13/1de6f832cf0a88eeda73068d16edeabdcd99f5ab8a8e278ec877d6b07a6b/ape-solidity-0.7.2.tar.gz
+[2024-05-01 00:39:34] INFO root fetch - processPackages [Kahi]: Downloading https://files.pythonhosted.org/packages/22/37/5bd775353198d3790cda78e62877a7ec645099817d7a52a4683e15ae9110/kahi-0.0.8a0.tar.gz
+[2024-05-01 00:39:34] INFO root fetch - processPackages [vatsim]: Downloading https://files.pythonhosted.org/packages/20/d7/36c0c972ab5bb1d080895d3bc7fcb801a4b0a8107625912a7e5bf96985b3/vatsim-0.1.0.tar.gz
+[2024-05-01 00:39:34] INFO root fetch - processPackages [zscaler-sdk-python]: Downloading https://files.pythonhosted.org/packages/42/eb/6dcbcd478fd42ee09c3119af3db0d55c94b828bf685936a9e36bfa769ac2/zscaler_sdk_python-0.1.5.tar.gz
+[2024-05-01 00:39:35] INFO root fetch - processPackages [vatsim]: Downloading https://files.pythonhosted.org/packages/7e/1e/06aa4046e3af89af09b3918b8478e445b759a3f0e554ef4e1bb5fe2c5840/vatsim-0.1.1.tar.gz
+[2024-05-01 00:39:35] INFO root fetch - processPackages [Kahi]: Downloading https://files.pythonhosted.org/packages/a1/fb/637f496f660eaf46303973de130564603e10b9374145f8978d6178332e96/kahi-0.0.9a0.tar.gz
+[2024-05-01 00:39:35] INFO root fetch - processPackages [zscaler-sdk-python]: Downloading https://files.pythonhosted.org/packages/89/70/0e8e081cd7d1dfe0621452b987e1aa46fdc33223add48cbdb6dcf03771cb/zscaler_sdk_python-0.1.6.tar.gz
+[2024-05-01 00:39:35] INFO root fetch - processPackages [ape-solidity]: Downloading https://files.pythonhosted.org/packages/05/08/a6eae2b56942e3aa17127afc28cb8e5d42c69e555eae053ea8f267d485f9/ape-solidity-0.7.3.tar.gz
+[2024-05-01 00:39:35] INFO root fetch - processPackages [vatsim]: executing diffoscope
+[2024-05-01 00:39:35] INFO root fetch - processPackages [vatsim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vatsim-0.1.0.tar.gz tmp/vatsim-0.1.1.tar.gz --markdown 20240501/v/vatsim/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-01 00:39:35] INFO root fetch - processPackages [Kahi]: executing diffoscope
+[2024-05-01 00:39:35] INFO root fetch - processPackages [Kahi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kahi-0.0.8a0.tar.gz tmp/kahi-0.0.9a0.tar.gz --markdown 20240501/K/Kahi/0.0.8a0-0.0.9a0/README.md --exclude *.pyd
+[2024-05-01 00:39:35] INFO root fetch - processPackages [zscaler-sdk-python]: executing diffoscope
+[2024-05-01 00:39:35] INFO root fetch - processPackages [zscaler-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zscaler_sdk_python-0.1.5.tar.gz tmp/zscaler_sdk_python-0.1.6.tar.gz --markdown 20240501/z/zscaler-sdk-python/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-01 00:39:35] INFO root fetch - processPackages [ape-solidity]: executing diffoscope
+[2024-05-01 00:39:35] INFO root fetch - processPackages [ape-solidity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ape-solidity-0.7.2.tar.gz tmp/ape-solidity-0.7.3.tar.gz --markdown 20240501/a/ape-solidity/0.7.2-0.7.3/README.md --exclude *.pyd
+[2024-05-01 00:39:35] INFO root fetch - processPackages [vatsim]: Remove: archive file [/home/abi/fetcher/tmp/vatsim-0.1.0.tar.gz]
+[2024-05-01 00:39:35] INFO root fetch - processPackages [vatsim]: Remove: archive file [/home/abi/fetcher/tmp/vatsim-0.1.1.tar.gz]
+[2024-05-01 00:39:35] INFO root fetch - main [MainThread]: End processing [vatsim]: success
+[2024-05-01 00:39:36] INFO root fetch - processPackages [Kahi]: Remove: archive file [/home/abi/fetcher/tmp/kahi-0.0.8a0.tar.gz]
+[2024-05-01 00:39:36] INFO root fetch - processPackages [Kahi]: Remove: archive file [/home/abi/fetcher/tmp/kahi-0.0.9a0.tar.gz]
+[2024-05-01 00:39:36] INFO root fetch - main [MainThread]: End processing [Kahi]: success
+[2024-05-01 00:39:36] INFO root fetch - processPackages [zscaler-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/zscaler_sdk_python-0.1.5.tar.gz]
+[2024-05-01 00:39:36] INFO root fetch - processPackages [zscaler-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/zscaler_sdk_python-0.1.6.tar.gz]
+[2024-05-01 00:39:36] INFO root fetch - main [MainThread]: End processing [zscaler-sdk-python]: success
+[2024-05-01 00:39:36] INFO root fetch - processPackages [ape-solidity]: Remove: archive file [/home/abi/fetcher/tmp/ape-solidity-0.7.2.tar.gz]
+[2024-05-01 00:39:36] INFO root fetch - processPackages [ape-solidity]: Remove: archive file [/home/abi/fetcher/tmp/ape-solidity-0.7.3.tar.gz]
+[2024-05-01 00:39:36] INFO root fetch - main [MainThread]: End processing [ape-solidity]: success
+[2024-05-01 00:39:36] INFO root fetch - main [MainThread]: Store serial: [23009051]
