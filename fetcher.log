@@ -1128,3 +1128,27 @@
 [2024-05-01 01:14:47] INFO root fetch - processPackages [sweepai]: Remove: archive file [/home/abi/fetcher/tmp/sweepai-2.1.0.tar.gz]
 [2024-05-01 01:14:47] INFO root fetch - main [MainThread]: End processing [sweepai]: success
 [2024-05-01 01:14:47] INFO root fetch - main [MainThread]: Store serial: [23009246]
+[2024-05-01 01:16:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23009246]
+[2024-05-01 01:16:55] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-01 01:16:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PyForks
+[2024-05-01 01:16:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ndx-dynamic-routing-metadata
+[2024-05-01 01:16:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: llamascript
+[2024-05-01 01:16:56] WARNING root fetch - processPackages [llamascript]: Skipping, unable to determine old version
+[2024-05-01 01:16:56] INFO root fetch - main [MainThread]: End processing [llamascript] error
+[2024-05-01 01:16:56] INFO root fetch - processPackages [ndx-dynamic-routing-metadata]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-01 01:16:56] INFO root fetch - processPackages [PyForks]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-01 01:16:56] INFO root fetch - processPackages [ndx-dynamic-routing-metadata]: Downloading https://files.pythonhosted.org/packages/3d/2d/54505bc262dc099edf02c1f5065066e982256d742886515f5c42a9c63a90/ndx_dynamic_routing_metadata-0.1.1.tar.gz
+[2024-05-01 01:16:56] INFO root fetch - processPackages [PyForks]: Downloading https://files.pythonhosted.org/packages/f3/8d/c493a7298e09f8d9b9946f2b08b53baa3f54e0beaf3ac8606dae3b7df594/PyForks-0.0.8.tar.gz
+[2024-05-01 01:16:56] INFO root fetch - processPackages [ndx-dynamic-routing-metadata]: Downloading https://files.pythonhosted.org/packages/dc/bd/454e4e474ebaff7622b658195329433dde8980d56de7720b7ba2e9ee891d/ndx_dynamic_routing_metadata-0.1.2.tar.gz
+[2024-05-01 01:16:56] INFO root fetch - processPackages [PyForks]: Downloading https://files.pythonhosted.org/packages/47/10/f3aaeea62ff344d118fb2dd6e5be0c2e9f02682884aac86146291af7703d/PyForks-0.0.9.tar.gz
+[2024-05-01 01:16:56] INFO root fetch - processPackages [ndx-dynamic-routing-metadata]: executing diffoscope
+[2024-05-01 01:16:56] INFO root fetch - processPackages [ndx-dynamic-routing-metadata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ndx_dynamic_routing_metadata-0.1.1.tar.gz tmp/ndx_dynamic_routing_metadata-0.1.2.tar.gz --markdown 20240501/n/ndx-dynamic-routing-metadata/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-01 01:16:56] INFO root fetch - processPackages [PyForks]: executing diffoscope
+[2024-05-01 01:16:56] INFO root fetch - processPackages [PyForks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyForks-0.0.8.tar.gz tmp/PyForks-0.0.9.tar.gz --markdown 20240501/P/PyForks/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-01 01:16:57] INFO root fetch - processPackages [ndx-dynamic-routing-metadata]: Remove: archive file [/home/abi/fetcher/tmp/ndx_dynamic_routing_metadata-0.1.1.tar.gz]
+[2024-05-01 01:16:57] INFO root fetch - processPackages [ndx-dynamic-routing-metadata]: Remove: archive file [/home/abi/fetcher/tmp/ndx_dynamic_routing_metadata-0.1.2.tar.gz]
+[2024-05-01 01:16:57] INFO root fetch - main [MainThread]: End processing [ndx-dynamic-routing-metadata]: success
+[2024-05-01 01:16:57] INFO root fetch - processPackages [PyForks]: Remove: archive file [/home/abi/fetcher/tmp/PyForks-0.0.8.tar.gz]
+[2024-05-01 01:16:57] INFO root fetch - processPackages [PyForks]: Remove: archive file [/home/abi/fetcher/tmp/PyForks-0.0.9.tar.gz]
+[2024-05-01 01:16:57] INFO root fetch - main [MainThread]: End processing [PyForks]: success
+[2024-05-01 01:16:57] INFO root fetch - main [MainThread]: Store serial: [23009256]
