@@ -449,3 +449,36 @@
 [2024-05-01 00:32:51] INFO root fetch - processPackages [easy-fossy]: Remove: archive file [/home/abi/fetcher/tmp/easy_fossy-2.0.9.tar.gz]
 [2024-05-01 00:32:51] INFO root fetch - main [MainThread]: End processing [easy-fossy]: success
 [2024-05-01 00:32:51] INFO root fetch - main [MainThread]: Store serial: [23009016]
+[2024-05-01 00:34:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23009016]
+[2024-05-01 00:35:00] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-01 00:35:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: llm2vec
+[2024-05-01 00:35:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: roboto
+[2024-05-01 00:35:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pymmdb
+[2024-05-01 00:35:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ngcsdk
+[2024-05-01 00:35:00] INFO root fetch - processPackages [llm2vec]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-01 00:35:00] WARNING root fetch - processPackages [pymmdb]: Skipping, unable to determine old version
+[2024-05-01 00:35:00] INFO root fetch - main [MainThread]: End processing [pymmdb] error
+[2024-05-01 00:35:00] INFO root fetch - processPackages [ngcsdk]: New version: [3.41.4] Old Version: [3.41.3]
+[2024-05-01 00:35:00] INFO root fetch - processPackages [roboto]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-01 00:35:00] INFO root fetch - processPackages [llm2vec]: Downloading https://files.pythonhosted.org/packages/ae/93/4cbf308e296c7ce22ba86c81be488cadfb01d1f6af5f2f10f4f4763f6408/llm2vec-0.1.4.tar.gz
+[2024-05-01 00:35:00] INFO root fetch - processPackages [ngcsdk]: Downloading https://files.pythonhosted.org/packages/a3/9f/77d777bd965fa4ff1ce49c36ccedca101228e811ab4f46408e11defdebd9/ngcsdk-3.41.3-py3-none-any.whl
+[2024-05-01 00:35:00] INFO root fetch - processPackages [roboto]: Downloading https://files.pythonhosted.org/packages/51/07/8c05964c9179eee3deeba80b42cf23425e742090166e07a7a7bbc70ce20b/roboto-0.2.8.tar.gz
+[2024-05-01 00:35:01] INFO root fetch - processPackages [llm2vec]: Downloading https://files.pythonhosted.org/packages/f0/a3/bc6fe974af19cdd9a009b4bb51574adc364c31028ced8bc0f402e14315f7/llm2vec-0.1.5.tar.gz
+[2024-05-01 00:35:01] INFO root fetch - processPackages [llm2vec]: executing diffoscope
+[2024-05-01 00:35:01] INFO root fetch - processPackages [llm2vec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llm2vec-0.1.4.tar.gz tmp/llm2vec-0.1.5.tar.gz --markdown 20240501/l/llm2vec/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-01 00:35:01] INFO root fetch - processPackages [roboto]: Downloading https://files.pythonhosted.org/packages/a7/16/871853863a8372d41b2cd46d1201726ff0344cb1df3aac85428d1a59d787/roboto-0.2.9.tar.gz
+[2024-05-01 00:35:01] INFO root fetch - processPackages [ngcsdk]: Downloading https://files.pythonhosted.org/packages/e8/d4/3fef8c333954a52bcd2d2f9bda5ac6ec2c28c5c7ae037992aa3ef4bfaa93/ngcsdk-3.41.4-py3-none-any.whl
+[2024-05-01 00:35:01] INFO root fetch - processPackages [roboto]: executing diffoscope
+[2024-05-01 00:35:01] INFO root fetch - processPackages [roboto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roboto-0.2.8.tar.gz tmp/roboto-0.2.9.tar.gz --markdown 20240501/r/roboto/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-01 00:35:01] INFO root fetch - processPackages [ngcsdk]: executing diffoscope
+[2024-05-01 00:35:01] INFO root fetch - processPackages [ngcsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ngcsdk-3.41.3-py3-none-any.whl.zip tmp/ngcsdk-3.41.4-py3-none-any.whl.zip --markdown 20240501/n/ngcsdk/3.41.3-3.41.4/README.md --exclude *.pyd
+[2024-05-01 00:35:01] INFO root fetch - processPackages [llm2vec]: Remove: archive file [/home/abi/fetcher/tmp/llm2vec-0.1.4.tar.gz]
+[2024-05-01 00:35:01] INFO root fetch - processPackages [llm2vec]: Remove: archive file [/home/abi/fetcher/tmp/llm2vec-0.1.5.tar.gz]
+[2024-05-01 00:35:01] INFO root fetch - main [MainThread]: End processing [llm2vec]: success
+[2024-05-01 00:35:03] INFO root fetch - processPackages [roboto]: Remove: archive file [/home/abi/fetcher/tmp/roboto-0.2.8.tar.gz]
+[2024-05-01 00:35:03] INFO root fetch - processPackages [roboto]: Remove: archive file [/home/abi/fetcher/tmp/roboto-0.2.9.tar.gz]
+[2024-05-01 00:35:03] INFO root fetch - main [MainThread]: End processing [roboto]: success
+[2024-05-01 00:35:08] INFO root fetch - processPackages [ngcsdk]: Remove: archive file [/home/abi/fetcher/tmp/ngcsdk-3.41.3-py3-none-any.whl.zip]
+[2024-05-01 00:35:08] INFO root fetch - processPackages [ngcsdk]: Remove: archive file [/home/abi/fetcher/tmp/ngcsdk-3.41.4-py3-none-any.whl.zip]
+[2024-05-01 00:35:08] INFO root fetch - main [MainThread]: End processing [ngcsdk]: success
+[2024-05-01 00:35:08] INFO root fetch - main [MainThread]: Store serial: [23009029]
