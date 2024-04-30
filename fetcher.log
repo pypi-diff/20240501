@@ -1410,3 +1410,24 @@
 [2024-05-01 01:40:52] INFO root fetch - processPackages [anyscale]: Remove: archive file [/home/abi/fetcher/tmp/anyscale-0.5.99.tar.gz]
 [2024-05-01 01:40:52] INFO root fetch - main [MainThread]: End processing [anyscale]: success
 [2024-05-01 01:40:52] INFO root fetch - main [MainThread]: Store serial: [23009363]
+[2024-05-01 01:42:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23009363]
+[2024-05-01 01:43:01] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-01 01:43:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ernie
+[2024-05-01 01:43:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: airbyte-source-zenefits
+[2024-05-01 01:43:02] INFO root fetch - processPackages [airbyte-source-zenefits]: New version: [0.2.4] Old Version: [0.2.0]
+[2024-05-01 01:43:02] INFO root fetch - processPackages [ernie]: New version: [1.2405.0] Old Version: [1.2308.1]
+[2024-05-01 01:43:02] INFO root fetch - processPackages [airbyte-source-zenefits]: Downloading https://files.pythonhosted.org/packages/9b/28/2d66a026a52e99424b32ec68c961a2f1b5563e530f080e17c7c7fd890f4c/airbyte-source-zenefits-0.2.0.tar.gz
+[2024-05-01 01:43:02] INFO root fetch - processPackages [ernie]: Downloading https://files.pythonhosted.org/packages/d1/a7/52fb0ddb395cce6c944d5fb08f4f96d4648131b7beb1a53bda70100148f1/ernie-1.2308.1-py3-none-any.whl
+[2024-05-01 01:43:02] INFO root fetch - processPackages [airbyte-source-zenefits]: Downloading https://files.pythonhosted.org/packages/19/8f/82aeb0c770d334de67ff6d7f5204a2c99cf7d06d420a8533a1437b393c21/airbyte_source_zenefits-0.2.4.tar.gz
+[2024-05-01 01:43:02] INFO root fetch - processPackages [ernie]: Downloading https://files.pythonhosted.org/packages/b9/e4/655dadde2ff89ebb23d1f19a8fb0bce0995329055ebe6ed308570f427774/ernie-1.2405.0-py3-none-any.whl
+[2024-05-01 01:43:02] INFO root fetch - processPackages [ernie]: executing diffoscope
+[2024-05-01 01:43:02] INFO root fetch - processPackages [ernie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ernie-1.2308.1-py3-none-any.whl.zip tmp/ernie-1.2405.0-py3-none-any.whl.zip --markdown 20240501/e/ernie/1.2308.1-1.2405.0/README.md --exclude *.pyd
+[2024-05-01 01:43:02] INFO root fetch - processPackages [airbyte-source-zenefits]: executing diffoscope
+[2024-05-01 01:43:02] INFO root fetch - processPackages [airbyte-source-zenefits]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte-source-zenefits-0.2.0.tar.gz tmp/airbyte_source_zenefits-0.2.4.tar.gz --markdown 20240501/a/airbyte-source-zenefits/0.2.0-0.2.4/README.md --exclude *.pyd
+[2024-05-01 01:43:03] INFO root fetch - processPackages [ernie]: Remove: archive file [/home/abi/fetcher/tmp/ernie-1.2308.1-py3-none-any.whl.zip]
+[2024-05-01 01:43:03] INFO root fetch - processPackages [ernie]: Remove: archive file [/home/abi/fetcher/tmp/ernie-1.2405.0-py3-none-any.whl.zip]
+[2024-05-01 01:43:03] INFO root fetch - main [MainThread]: End processing [ernie]: success
+[2024-05-01 01:43:03] INFO root fetch - processPackages [airbyte-source-zenefits]: Remove: archive file [/home/abi/fetcher/tmp/airbyte-source-zenefits-0.2.0.tar.gz]
+[2024-05-01 01:43:03] INFO root fetch - processPackages [airbyte-source-zenefits]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_zenefits-0.2.4.tar.gz]
+[2024-05-01 01:43:03] INFO root fetch - main [MainThread]: End processing [airbyte-source-zenefits]: success
+[2024-05-01 01:43:03] INFO root fetch - main [MainThread]: Store serial: [23009368]
