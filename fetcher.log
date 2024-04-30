@@ -1508,3 +1508,42 @@
 [2024-05-01 01:49:33] INFO root fetch - processPackages [mosaicml-cli]: Remove: archive file [/home/abi/fetcher/tmp/mosaicml-cli-0.6.9.tar.gz]
 [2024-05-01 01:49:33] INFO root fetch - main [MainThread]: End processing [mosaicml-cli]: success
 [2024-05-01 01:49:33] INFO root fetch - main [MainThread]: Store serial: [23009397]
+[2024-05-01 01:51:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23009397]
+[2024-05-01 01:51:43] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-01 01:51:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sbcli-release
+[2024-05-01 01:51:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nonebot-plugin-pcrjjc
+[2024-05-01 01:51:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cmsdials
+[2024-05-01 01:51:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: DreamCreator
+[2024-05-01 01:51:43] INFO root fetch - processPackages [sbcli-release]: New version: [1.0.7] Old Version: [1.0.6]
+[2024-05-01 01:51:43] INFO root fetch - processPackages [DreamCreator]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-01 01:51:43] INFO root fetch - processPackages [sbcli-release]: Downloading https://files.pythonhosted.org/packages/cc/03/d7566b6f08cdf50f8b6ecf8a7c969a5898b92e368eba32080c1260a5e9a3/sbcli-release-1.0.6.zip
+[2024-05-01 01:51:43] INFO root fetch - processPackages [nonebot-plugin-pcrjjc]: New version: [0.7.0] Old Version: [0.6.2]
+[2024-05-01 01:51:43] INFO root fetch - processPackages [cmsdials]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-01 01:51:43] INFO root fetch - processPackages [DreamCreator]: Downloading https://files.pythonhosted.org/packages/10/12/661d0180ffa3ececbf07dd56dc4289f53555fa3ab99fb4f7d2e0d5a6aee8/DreamCreator-0.0.2.tar.gz
+[2024-05-01 01:51:43] INFO root fetch - processPackages [cmsdials]: Downloading https://files.pythonhosted.org/packages/16/14/9147a6c29477b472dbc64e24f86cc5737340ad2cc0a962a3cc5f351d7ab0/cmsdials-1.0.0.tar.gz
+[2024-05-01 01:51:44] INFO root fetch - processPackages [nonebot-plugin-pcrjjc]: Downloading https://files.pythonhosted.org/packages/80/59/65d52fed72a28742ce217bab39afd172af132a73ffa9e99e9bccd585ca59/nonebot-plugin-pcrjjc-0.6.2.tar.gz
+[2024-05-01 01:51:44] INFO root fetch - processPackages [DreamCreator]: Downloading https://files.pythonhosted.org/packages/ce/5b/787c1affed15428a245198f913e10c9c9549e15cba1ac2612165fbc490b9/DreamCreator-0.0.3.tar.gz
+[2024-05-01 01:51:44] INFO root fetch - processPackages [sbcli-release]: Downloading https://files.pythonhosted.org/packages/41/7b/983850b9b3c4a37aa97a9699d485c207acb4af12321aba2eb0d22e2797f8/sbcli_release-1.0.7.zip
+[2024-05-01 01:51:44] INFO root fetch - processPackages [DreamCreator]: executing diffoscope
+[2024-05-01 01:51:44] INFO root fetch - processPackages [DreamCreator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DreamCreator-0.0.2.tar.gz tmp/DreamCreator-0.0.3.tar.gz --markdown 20240501/D/DreamCreator/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-01 01:51:44] INFO root fetch - processPackages [sbcli-release]: executing diffoscope
+[2024-05-01 01:51:44] INFO root fetch - processPackages [sbcli-release]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sbcli-release-1.0.6.zip tmp/sbcli_release-1.0.7.zip --markdown 20240501/s/sbcli-release/1.0.6-1.0.7/README.md --exclude *.pyd
+[2024-05-01 01:51:44] INFO root fetch - processPackages [cmsdials]: Downloading https://files.pythonhosted.org/packages/fd/47/cd81c0c2d8061af2fcf40b08a02a935015bccec6477c530b4204d8c4799a/cmsdials-1.0.1.tar.gz
+[2024-05-01 01:51:44] INFO root fetch - processPackages [cmsdials]: executing diffoscope
+[2024-05-01 01:51:44] INFO root fetch - processPackages [cmsdials]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cmsdials-1.0.0.tar.gz tmp/cmsdials-1.0.1.tar.gz --markdown 20240501/c/cmsdials/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-01 01:51:44] INFO root fetch - processPackages [nonebot-plugin-pcrjjc]: Downloading https://files.pythonhosted.org/packages/44/6c/3eab922a2a1e841501698963f37f635f6f4d4773b632596a141c8e16c17f/nonebot_plugin_pcrjjc-0.7.0.tar.gz
+[2024-05-01 01:51:44] INFO root fetch - processPackages [nonebot-plugin-pcrjjc]: executing diffoscope
+[2024-05-01 01:51:44] INFO root fetch - processPackages [nonebot-plugin-pcrjjc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot-plugin-pcrjjc-0.6.2.tar.gz tmp/nonebot_plugin_pcrjjc-0.7.0.tar.gz --markdown 20240501/n/nonebot-plugin-pcrjjc/0.6.2-0.7.0/README.md --exclude *.pyd
+[2024-05-01 01:51:44] INFO root fetch - processPackages [DreamCreator]: Remove: archive file [/home/abi/fetcher/tmp/DreamCreator-0.0.2.tar.gz]
+[2024-05-01 01:51:44] INFO root fetch - processPackages [DreamCreator]: Remove: archive file [/home/abi/fetcher/tmp/DreamCreator-0.0.3.tar.gz]
+[2024-05-01 01:51:44] INFO root fetch - main [MainThread]: End processing [DreamCreator]: success
+[2024-05-01 01:51:44] INFO root fetch - processPackages [cmsdials]: Remove: archive file [/home/abi/fetcher/tmp/cmsdials-1.0.0.tar.gz]
+[2024-05-01 01:51:44] INFO root fetch - processPackages [cmsdials]: Remove: archive file [/home/abi/fetcher/tmp/cmsdials-1.0.1.tar.gz]
+[2024-05-01 01:51:44] INFO root fetch - main [MainThread]: End processing [cmsdials]: success
+[2024-05-01 01:51:45] INFO root fetch - processPackages [nonebot-plugin-pcrjjc]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-pcrjjc-0.6.2.tar.gz]
+[2024-05-01 01:51:45] INFO root fetch - processPackages [nonebot-plugin-pcrjjc]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_pcrjjc-0.7.0.tar.gz]
+[2024-05-01 01:51:45] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-pcrjjc]: success
+[2024-05-01 01:51:45] INFO root fetch - processPackages [sbcli-release]: Remove: archive file [/home/abi/fetcher/tmp/sbcli-release-1.0.6.zip]
+[2024-05-01 01:51:45] INFO root fetch - processPackages [sbcli-release]: Remove: archive file [/home/abi/fetcher/tmp/sbcli_release-1.0.7.zip]
+[2024-05-01 01:51:45] INFO root fetch - main [MainThread]: End processing [sbcli-release]: success
+[2024-05-01 01:51:45] INFO root fetch - main [MainThread]: Store serial: [23009408]
