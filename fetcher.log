@@ -341,3 +341,36 @@
 [2024-05-01 00:26:18] INFO root fetch - processPackages [nlu]: Remove: archive file [/home/abi/fetcher/tmp/nlu-5.3.1rc3.tar.gz]
 [2024-05-01 00:26:18] INFO root fetch - main [MainThread]: End processing [nlu]: success
 [2024-05-01 00:26:18] INFO root fetch - main [MainThread]: Store serial: [23008968]
+[2024-05-01 00:28:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23008968]
+[2024-05-01 00:28:26] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-01 00:28:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spark-on-k8s
+[2024-05-01 00:28:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nsj-sql-utils-lib
+[2024-05-01 00:28:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gmnspy
+[2024-05-01 00:28:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tkosui
+[2024-05-01 00:28:26] INFO root fetch - processPackages [gmnspy]: New version: [0.3.4] Old Version: [0.3.3]
+[2024-05-01 00:28:26] WARNING root fetch - processPackages [tkosui]: Skipping, unable to determine old version
+[2024-05-01 00:28:26] INFO root fetch - main [MainThread]: End processing [tkosui] error
+[2024-05-01 00:28:26] INFO root fetch - processPackages [nsj-sql-utils-lib]: New version: [1.2.0] Old Version: [1.1.6]
+[2024-05-01 00:28:26] INFO root fetch - processPackages [spark-on-k8s]: New version: [0.5.1] Old Version: [0.5.0]
+[2024-05-01 00:28:27] INFO root fetch - processPackages [gmnspy]: Downloading https://files.pythonhosted.org/packages/9c/68/915f656dbd0070796a2c1179abc643bd0f362f6be410913ca513336c2fda/gmnspy-0.3.3.tar.gz
+[2024-05-01 00:28:27] INFO root fetch - processPackages [nsj-sql-utils-lib]: Downloading https://files.pythonhosted.org/packages/02/26/2ae0148ea7bdd047853c6be7afe39f0c35e254625bf7be29dc58cabbb6fd/nsj_sql_utils_lib-1.1.6.tar.gz
+[2024-05-01 00:28:27] INFO root fetch - processPackages [spark-on-k8s]: Downloading https://files.pythonhosted.org/packages/6c/e6/788201146d4f998c5a24793be2d6d3b634c3dbbdd851d66f512cb3ed6054/spark_on_k8s-0.5.0.tar.gz
+[2024-05-01 00:28:27] INFO root fetch - processPackages [gmnspy]: Downloading https://files.pythonhosted.org/packages/e9/d6/d433c6c4d69777eef0a95b0839b90b42902b478613b332edea74afa730e6/gmnspy-0.3.4.tar.gz
+[2024-05-01 00:28:27] INFO root fetch - processPackages [nsj-sql-utils-lib]: Downloading https://files.pythonhosted.org/packages/67/53/5cba97b8cb049528f5f57797a86414625c625d09a5b56fee9b511ebd28e3/nsj_sql_utils_lib-1.2.0.tar.gz
+[2024-05-01 00:28:27] INFO root fetch - processPackages [spark-on-k8s]: Downloading https://files.pythonhosted.org/packages/57/7d/75432f74a10aa3f613d8051908d3341b3af32c9a0c3e2202a839dfab7928/spark_on_k8s-0.5.1.tar.gz
+[2024-05-01 00:28:27] INFO root fetch - processPackages [nsj-sql-utils-lib]: executing diffoscope
+[2024-05-01 00:28:27] INFO root fetch - processPackages [nsj-sql-utils-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nsj_sql_utils_lib-1.1.6.tar.gz tmp/nsj_sql_utils_lib-1.2.0.tar.gz --markdown 20240501/n/nsj-sql-utils-lib/1.1.6-1.2.0/README.md --exclude *.pyd
+[2024-05-01 00:28:27] INFO root fetch - processPackages [gmnspy]: executing diffoscope
+[2024-05-01 00:28:27] INFO root fetch - processPackages [gmnspy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gmnspy-0.3.3.tar.gz tmp/gmnspy-0.3.4.tar.gz --markdown 20240501/g/gmnspy/0.3.3-0.3.4/README.md --exclude *.pyd
+[2024-05-01 00:28:27] INFO root fetch - processPackages [spark-on-k8s]: executing diffoscope
+[2024-05-01 00:28:27] INFO root fetch - processPackages [spark-on-k8s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spark_on_k8s-0.5.0.tar.gz tmp/spark_on_k8s-0.5.1.tar.gz --markdown 20240501/s/spark-on-k8s/0.5.0-0.5.1/README.md --exclude *.pyd
+[2024-05-01 00:28:28] INFO root fetch - processPackages [gmnspy]: Remove: archive file [/home/abi/fetcher/tmp/gmnspy-0.3.3.tar.gz]
+[2024-05-01 00:28:28] INFO root fetch - processPackages [gmnspy]: Remove: archive file [/home/abi/fetcher/tmp/gmnspy-0.3.4.tar.gz]
+[2024-05-01 00:28:28] INFO root fetch - main [MainThread]: End processing [gmnspy]: success
+[2024-05-01 00:28:28] INFO root fetch - processPackages [spark-on-k8s]: Remove: archive file [/home/abi/fetcher/tmp/spark_on_k8s-0.5.0.tar.gz]
+[2024-05-01 00:28:28] INFO root fetch - processPackages [spark-on-k8s]: Remove: archive file [/home/abi/fetcher/tmp/spark_on_k8s-0.5.1.tar.gz]
+[2024-05-01 00:28:28] INFO root fetch - processPackages [nsj-sql-utils-lib]: Remove: archive file [/home/abi/fetcher/tmp/nsj_sql_utils_lib-1.1.6.tar.gz]
+[2024-05-01 00:28:28] INFO root fetch - main [MainThread]: End processing [spark-on-k8s]: success
+[2024-05-01 00:28:28] INFO root fetch - processPackages [nsj-sql-utils-lib]: Remove: archive file [/home/abi/fetcher/tmp/nsj_sql_utils_lib-1.2.0.tar.gz]
+[2024-05-01 00:28:28] INFO root fetch - main [MainThread]: End processing [nsj-sql-utils-lib]: success
+[2024-05-01 00:28:28] INFO root fetch - main [MainThread]: Store serial: [23008989]
