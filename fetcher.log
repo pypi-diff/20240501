@@ -160,3 +160,36 @@
 [2024-05-01 00:13:36] INFO root fetch - processPackages [NEMO-CE]: Remove: archive file [/home/abi/fetcher/tmp/NEMO_CE-2.4.4-py3-none-any.whl.zip]
 [2024-05-01 00:13:36] INFO root fetch - main [MainThread]: End processing [NEMO-CE]: success
 [2024-05-01 00:13:36] INFO root fetch - main [MainThread]: Store serial: [23008883]
+[2024-05-01 00:15:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23008883]
+[2024-05-01 00:15:44] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-01 00:15:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: quattro
+[2024-05-01 00:15:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: AutoImageExtractor
+[2024-05-01 00:15:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bauplan
+[2024-05-01 00:15:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: decipher-sdk
+[2024-05-01 00:15:45] WARNING root fetch - processPackages [AutoImageExtractor]: Skipping, unable to determine old version
+[2024-05-01 00:15:45] INFO root fetch - main [MainThread]: End processing [AutoImageExtractor] error
+[2024-05-01 00:15:45] INFO root fetch - processPackages [quattro]: New version: [24.1.0] Old Version: [23.1.0]
+[2024-05-01 00:15:45] INFO root fetch - processPackages [decipher-sdk]: New version: [0.0.2] Old Version: [0.0.13]
+[2024-05-01 00:15:45] INFO root fetch - processPackages [bauplan]: New version: [0.0.3a95] Old Version: [0.0.3a93]
+[2024-05-01 00:15:45] INFO root fetch - processPackages [quattro]: Downloading https://files.pythonhosted.org/packages/aa/83/873ab498af7361825ace016375b2c5c313d028125c0c9f8d1c667f6c59c3/quattro-23.1.0.tar.gz
+[2024-05-01 00:15:45] INFO root fetch - processPackages [bauplan]: Downloading https://files.pythonhosted.org/packages/d0/0a/4cb3312bfeb782f3405f564284951564ad74d4d15952144d657901ca2377/bauplan-0.0.3a93-py3-none-win_amd64.whl
+[2024-05-01 00:15:45] INFO root fetch - processPackages [decipher-sdk]: Downloading https://files.pythonhosted.org/packages/51/41/24dea104fb34934a626bbc8a419b0d8993c5aca887eba367d9b51bd32a99/decipher-sdk-0.0.13.tar.gz
+[2024-05-01 00:15:45] INFO root fetch - processPackages [quattro]: Downloading https://files.pythonhosted.org/packages/e8/57/2c5555ccf6b9e63193c124c686e18a5b0afb36a36017369ca581b608e087/quattro-24.1.0.tar.gz
+[2024-05-01 00:15:45] INFO root fetch - processPackages [decipher-sdk]: Downloading https://files.pythonhosted.org/packages/b6/76/488a3b60f46131f5344a85aded6198e0d9501cfc6e60fe54c0bc0387468b/decipher-sdk-0.0.2.tar.gz
+[2024-05-01 00:15:45] INFO root fetch - processPackages [decipher-sdk]: executing diffoscope
+[2024-05-01 00:15:45] INFO root fetch - processPackages [decipher-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/decipher-sdk-0.0.13.tar.gz tmp/decipher-sdk-0.0.2.tar.gz --markdown 20240501/d/decipher-sdk/0.0.13-0.0.2/README.md --exclude *.pyd
+[2024-05-01 00:15:45] INFO root fetch - processPackages [quattro]: executing diffoscope
+[2024-05-01 00:15:45] INFO root fetch - processPackages [quattro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quattro-23.1.0.tar.gz tmp/quattro-24.1.0.tar.gz --markdown 20240501/q/quattro/23.1.0-24.1.0/README.md --exclude *.pyd
+[2024-05-01 00:15:46] INFO root fetch - processPackages [decipher-sdk]: Remove: archive file [/home/abi/fetcher/tmp/decipher-sdk-0.0.13.tar.gz]
+[2024-05-01 00:15:46] INFO root fetch - processPackages [decipher-sdk]: Remove: archive file [/home/abi/fetcher/tmp/decipher-sdk-0.0.2.tar.gz]
+[2024-05-01 00:15:46] INFO root fetch - main [MainThread]: End processing [decipher-sdk]: success
+[2024-05-01 00:15:46] INFO root fetch - processPackages [quattro]: Remove: archive file [/home/abi/fetcher/tmp/quattro-23.1.0.tar.gz]
+[2024-05-01 00:15:46] INFO root fetch - processPackages [quattro]: Remove: archive file [/home/abi/fetcher/tmp/quattro-24.1.0.tar.gz]
+[2024-05-01 00:15:46] INFO root fetch - main [MainThread]: End processing [quattro]: success
+[2024-05-01 00:15:46] INFO root fetch - processPackages [bauplan]: Downloading https://files.pythonhosted.org/packages/c7/97/82381fd9abd26556e6b2bb3a2a5a4b0b62ab34a6808489c9b5c043ce4796/bauplan-0.0.3a95-py3-none-win_amd64.whl
+[2024-05-01 00:15:49] INFO root fetch - processPackages [bauplan]: executing diffoscope
+[2024-05-01 00:15:49] INFO root fetch - processPackages [bauplan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bauplan-0.0.3a93-py3-none-win_amd64.whl.zip tmp/bauplan-0.0.3a95-py3-none-win_amd64.whl.zip --markdown 20240501/b/bauplan/0.0.3a93-0.0.3a95/README.md --exclude *.pyd
+[2024-05-01 00:16:44] INFO root fetch - processPackages [bauplan]: Remove: archive file [/home/abi/fetcher/tmp/bauplan-0.0.3a93-py3-none-win_amd64.whl.zip]
+[2024-05-01 00:16:44] INFO root fetch - processPackages [bauplan]: Remove: archive file [/home/abi/fetcher/tmp/bauplan-0.0.3a95-py3-none-win_amd64.whl.zip]
+[2024-05-01 00:16:44] INFO root fetch - main [MainThread]: End processing [bauplan]: success
+[2024-05-01 00:16:44] INFO root fetch - main [MainThread]: Store serial: [23008900]
