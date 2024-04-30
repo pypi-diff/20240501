@@ -1389,3 +1389,24 @@
 [2024-05-01 01:38:39] INFO root fetch - processPackages [cmsdials]: Remove: archive file [/home/abi/fetcher/tmp/cmsdials-1.0.0.tar.gz]
 [2024-05-01 01:38:39] INFO root fetch - main [MainThread]: End processing [cmsdials]: success
 [2024-05-01 01:38:39] INFO root fetch - main [MainThread]: Store serial: [23009357]
+[2024-05-01 01:40:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23009357]
+[2024-05-01 01:40:47] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-01 01:40:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: DreamCreator
+[2024-05-01 01:40:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: anyscale
+[2024-05-01 01:40:47] INFO root fetch - processPackages [DreamCreator]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-01 01:40:47] INFO root fetch - processPackages [DreamCreator]: Downloading https://files.pythonhosted.org/packages/10/12/661d0180ffa3ececbf07dd56dc4289f53555fa3ab99fb4f7d2e0d5a6aee8/DreamCreator-0.0.2.tar.gz
+[2024-05-01 01:40:47] INFO root fetch - processPackages [anyscale]: New version: [0.5.99] Old Version: [0.5.98]
+[2024-05-01 01:40:48] INFO root fetch - processPackages [DreamCreator]: Downloading https://files.pythonhosted.org/packages/ce/5b/787c1affed15428a245198f913e10c9c9549e15cba1ac2612165fbc490b9/DreamCreator-0.0.3.tar.gz
+[2024-05-01 01:40:48] INFO root fetch - processPackages [anyscale]: Downloading https://files.pythonhosted.org/packages/0d/64/8bf86d6d00617c61b31e91a8455e6fb08278056ee4d72abf6317509d592e/anyscale-0.5.98.tar.gz
+[2024-05-01 01:40:48] INFO root fetch - processPackages [DreamCreator]: executing diffoscope
+[2024-05-01 01:40:48] INFO root fetch - processPackages [DreamCreator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DreamCreator-0.0.2.tar.gz tmp/DreamCreator-0.0.3.tar.gz --markdown 20240501/D/DreamCreator/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-01 01:40:48] INFO root fetch - processPackages [anyscale]: Downloading https://files.pythonhosted.org/packages/61/f0/917cf3e18c478eaae2e53db68c9d20607edab461774054c8f509cc4885b6/anyscale-0.5.99.tar.gz
+[2024-05-01 01:40:48] INFO root fetch - processPackages [anyscale]: executing diffoscope
+[2024-05-01 01:40:48] INFO root fetch - processPackages [anyscale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anyscale-0.5.98.tar.gz tmp/anyscale-0.5.99.tar.gz --markdown 20240501/a/anyscale/0.5.98-0.5.99/README.md --exclude *.pyd
+[2024-05-01 01:40:48] INFO root fetch - processPackages [DreamCreator]: Remove: archive file [/home/abi/fetcher/tmp/DreamCreator-0.0.2.tar.gz]
+[2024-05-01 01:40:48] INFO root fetch - processPackages [DreamCreator]: Remove: archive file [/home/abi/fetcher/tmp/DreamCreator-0.0.3.tar.gz]
+[2024-05-01 01:40:48] INFO root fetch - main [MainThread]: End processing [DreamCreator]: success
+[2024-05-01 01:40:52] INFO root fetch - processPackages [anyscale]: Remove: archive file [/home/abi/fetcher/tmp/anyscale-0.5.98.tar.gz]
+[2024-05-01 01:40:52] INFO root fetch - processPackages [anyscale]: Remove: archive file [/home/abi/fetcher/tmp/anyscale-0.5.99.tar.gz]
+[2024-05-01 01:40:52] INFO root fetch - main [MainThread]: End processing [anyscale]: success
+[2024-05-01 01:40:52] INFO root fetch - main [MainThread]: Store serial: [23009363]
