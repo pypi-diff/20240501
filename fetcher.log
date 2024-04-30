@@ -1344,3 +1344,15 @@
 [2024-05-01 01:32:09] INFO root fetch - processPackages [algomodule]: Remove: archive file [/home/abi/fetcher/tmp/algomodule-1.0.3-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.whl.zip]
 [2024-05-01 01:32:09] INFO root fetch - main [MainThread]: End processing [algomodule]: success
 [2024-05-01 01:32:09] INFO root fetch - main [MainThread]: Store serial: [23009338]
+[2024-05-01 01:34:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23009338]
+[2024-05-01 01:34:18] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-01 01:34:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fire-opal
+[2024-05-01 01:34:18] INFO root fetch - processPackages [fire-opal]: New version: [7.3.0] Old Version: [7.2.0]
+[2024-05-01 01:34:18] INFO root fetch - processPackages [fire-opal]: Downloading https://files.pythonhosted.org/packages/5a/75/49906db0be843b8f87ebc33c180adb4b899db3981465ff7bc8b44ca692c5/fire_opal-7.2.0.tar.gz
+[2024-05-01 01:34:18] INFO root fetch - processPackages [fire-opal]: Downloading https://files.pythonhosted.org/packages/51/86/ccef349bf6a9558833b9a7c957b3b7327883fb42db034e9c00effffe5452/fire_opal-7.3.0.tar.gz
+[2024-05-01 01:34:18] INFO root fetch - processPackages [fire-opal]: executing diffoscope
+[2024-05-01 01:34:18] INFO root fetch - processPackages [fire-opal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fire_opal-7.2.0.tar.gz tmp/fire_opal-7.3.0.tar.gz --markdown 20240501/f/fire-opal/7.2.0-7.3.0/README.md --exclude *.pyd
+[2024-05-01 01:34:19] INFO root fetch - processPackages [fire-opal]: Remove: archive file [/home/abi/fetcher/tmp/fire_opal-7.2.0.tar.gz]
+[2024-05-01 01:34:19] INFO root fetch - processPackages [fire-opal]: Remove: archive file [/home/abi/fetcher/tmp/fire_opal-7.3.0.tar.gz]
+[2024-05-01 01:34:19] INFO root fetch - main [MainThread]: End processing [fire-opal]: success
+[2024-05-01 01:34:19] INFO root fetch - main [MainThread]: Store serial: [23009349]
