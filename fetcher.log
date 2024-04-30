@@ -193,3 +193,36 @@
 [2024-05-01 00:16:44] INFO root fetch - processPackages [bauplan]: Remove: archive file [/home/abi/fetcher/tmp/bauplan-0.0.3a95-py3-none-win_amd64.whl.zip]
 [2024-05-01 00:16:44] INFO root fetch - main [MainThread]: End processing [bauplan]: success
 [2024-05-01 00:16:44] INFO root fetch - main [MainThread]: Store serial: [23008900]
+[2024-05-01 00:19:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23008900]
+[2024-05-01 00:19:08] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-01 00:19:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lightrag
+[2024-05-01 00:19:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: maspy-ml
+[2024-05-01 00:19:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: decipher-sdk
+[2024-05-01 00:19:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-alicloud
+[2024-05-01 00:19:08] INFO root fetch - processPackages [decipher-sdk]: New version: [0.0.2] Old Version: [0.0.13]
+[2024-05-01 00:19:08] INFO root fetch - processPackages [maspy-ml]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-01 00:19:08] INFO root fetch - processPackages [pulumi-alicloud]: New version: [3.9.0a1637592974] Old Version: [3.9.0a1635778307]
+[2024-05-01 00:19:08] INFO root fetch - processPackages [maspy-ml]: Downloading https://files.pythonhosted.org/packages/57/4a/fcc44db7212b05c895c83d713548eb110c2c90d2c2c459640134547613a4/maspy-ml-0.0.2.tar.gz
+[2024-05-01 00:19:08] INFO root fetch - processPackages [decipher-sdk]: Downloading https://files.pythonhosted.org/packages/51/41/24dea104fb34934a626bbc8a419b0d8993c5aca887eba367d9b51bd32a99/decipher-sdk-0.0.13.tar.gz
+[2024-05-01 00:19:08] WARNING root fetch - processPackages [lightrag]: Skipping, unable to determine old version
+[2024-05-01 00:19:08] INFO root fetch - main [MainThread]: End processing [lightrag] error
+[2024-05-01 00:19:08] INFO root fetch - processPackages [pulumi-alicloud]: Downloading https://files.pythonhosted.org/packages/be/79/da6d86e1953fc7bde0762279ac850d45fe8ad91ff27a3c837009ede717a4/pulumi_alicloud-3.9.0a1635778307.tar.gz
+[2024-05-01 00:19:08] INFO root fetch - processPackages [decipher-sdk]: Downloading https://files.pythonhosted.org/packages/b6/76/488a3b60f46131f5344a85aded6198e0d9501cfc6e60fe54c0bc0387468b/decipher-sdk-0.0.2.tar.gz
+[2024-05-01 00:19:08] INFO root fetch - processPackages [maspy-ml]: Downloading https://files.pythonhosted.org/packages/aa/5b/e170af346f1b0353809da12befa84ce664571a9be5a3b26b56a87f33e7b0/maspy-ml-0.0.3.tar.gz
+[2024-05-01 00:19:08] INFO root fetch - processPackages [decipher-sdk]: executing diffoscope
+[2024-05-01 00:19:08] INFO root fetch - processPackages [decipher-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/decipher-sdk-0.0.13.tar.gz tmp/decipher-sdk-0.0.2.tar.gz --markdown 20240501/d/decipher-sdk/0.0.13-0.0.2/README.md --exclude *.pyd
+[2024-05-01 00:19:09] INFO root fetch - processPackages [pulumi-alicloud]: Downloading https://files.pythonhosted.org/packages/7a/b5/f47603b555625f7ec29ec6dcdc2cf74fe00dc52cba5fad75ddd65d3bd99e/pulumi_alicloud-3.9.0a1637592974.tar.gz
+[2024-05-01 00:19:09] INFO root fetch - processPackages [maspy-ml]: executing diffoscope
+[2024-05-01 00:19:09] INFO root fetch - processPackages [maspy-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maspy-ml-0.0.2.tar.gz tmp/maspy-ml-0.0.3.tar.gz --markdown 20240501/m/maspy-ml/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-01 00:19:09] INFO root fetch - processPackages [pulumi-alicloud]: executing diffoscope
+[2024-05-01 00:19:09] INFO root fetch - processPackages [pulumi-alicloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_alicloud-3.9.0a1635778307.tar.gz tmp/pulumi_alicloud-3.9.0a1637592974.tar.gz --markdown 20240501/p/pulumi-alicloud/3.9.0a1635778307-3.9.0a1637592974/README.md --exclude *.pyd
+[2024-05-01 00:19:09] INFO root fetch - processPackages [decipher-sdk]: Remove: archive file [/home/abi/fetcher/tmp/decipher-sdk-0.0.13.tar.gz]
+[2024-05-01 00:19:09] INFO root fetch - processPackages [decipher-sdk]: Remove: archive file [/home/abi/fetcher/tmp/decipher-sdk-0.0.2.tar.gz]
+[2024-05-01 00:19:09] INFO root fetch - main [MainThread]: End processing [decipher-sdk]: success
+[2024-05-01 00:19:09] INFO root fetch - processPackages [maspy-ml]: Remove: archive file [/home/abi/fetcher/tmp/maspy-ml-0.0.2.tar.gz]
+[2024-05-01 00:19:09] INFO root fetch - processPackages [maspy-ml]: Remove: archive file [/home/abi/fetcher/tmp/maspy-ml-0.0.3.tar.gz]
+[2024-05-01 00:19:09] INFO root fetch - main [MainThread]: End processing [maspy-ml]: success
+[2024-05-01 00:19:16] INFO root fetch - processPackages [pulumi-alicloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_alicloud-3.9.0a1635778307.tar.gz]
+[2024-05-01 00:19:16] INFO root fetch - processPackages [pulumi-alicloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_alicloud-3.9.0a1637592974.tar.gz]
+[2024-05-01 00:19:16] INFO root fetch - main [MainThread]: End processing [pulumi-alicloud]: success
+[2024-05-01 00:19:16] INFO root fetch - main [MainThread]: Store serial: [23008914]
