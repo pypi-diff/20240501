@@ -982,3 +982,51 @@
 [2024-05-01 01:03:55] INFO root fetch - processPackages [sweepai]: Remove: archive file [/home/abi/fetcher/tmp/sweepai-2.1.0.tar.gz]
 [2024-05-01 01:03:55] INFO root fetch - main [MainThread]: End processing [sweepai]: success
 [2024-05-01 01:03:55] INFO root fetch - main [MainThread]: Store serial: [23009197]
+[2024-05-01 01:05:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23009197]
+[2024-05-01 01:06:04] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-01 01:06:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: baserun
+[2024-05-01 01:06:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Red-Web-Dashboard
+[2024-05-01 01:06:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tmnt
+[2024-05-01 01:06:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: flwr-nightly
+[2024-05-01 01:06:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: autopipeline
+[2024-05-01 01:06:04] INFO root fetch - processPackages [Red-Web-Dashboard]: New version: [1.5.1] Old Version: [1.5.0]
+[2024-05-01 01:06:04] INFO root fetch - processPackages [Red-Web-Dashboard]: Downloading https://files.pythonhosted.org/packages/8b/38/3e91abd6032a17812f99ee09c7b693cb21fb309641289e0c469646b339cb/red_web_dashboard-1.5.0.tar.gz
+[2024-05-01 01:06:04] INFO root fetch - processPackages [baserun]: New version: [0.9.9] Old Version: [0.9.8b2]
+[2024-05-01 01:06:04] INFO root fetch - processPackages [flwr-nightly]: New version: [1.9.0.dev20240430] Old Version: [1.9.0.dev20240429]
+[2024-05-01 01:06:04] INFO root fetch - processPackages [autopipeline]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-05-01 01:06:04] INFO root fetch - processPackages [tmnt]: New version: [0.7.52b20240429] Old Version: [0.7.52b20240428]
+[2024-05-01 01:06:04] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/fd/b7/5b1c30340413fec87be0882e07ad8950610aa0e668f0dbb6dd097386d448/tmnt-0.7.52b20240428.tar.gz
+[2024-05-01 01:06:04] INFO root fetch - processPackages [baserun]: Downloading https://files.pythonhosted.org/packages/c8/10/9cc8892d2a1f6b8cabf26022405fd253e7333776ca8f37da87051ed1cf3d/baserun-0.9.8b2.tar.gz
+[2024-05-01 01:06:04] INFO root fetch - processPackages [flwr-nightly]: Downloading https://files.pythonhosted.org/packages/f4/bf/16159f96fbd149e26a9ad282097b901cf94cd519c5314c228bc5c6e528ad/flwr_nightly-1.9.0.dev20240429.tar.gz
+[2024-05-01 01:06:04] INFO root fetch - processPackages [autopipeline]: Downloading https://files.pythonhosted.org/packages/5f/0f/9eaf209b6d540115afdc9ae31de828df0234756277bceae49a4d1a0ea8b3/autopipeline-0.1.98.tar.gz
+[2024-05-01 01:06:04] INFO root fetch - processPackages [Red-Web-Dashboard]: Downloading https://files.pythonhosted.org/packages/a4/a1/184eb9d9752444cb46f2c62cb67023a8b504b582334c29294a493f9d6ce9/red_web_dashboard-1.5.1.tar.gz
+[2024-05-01 01:06:04] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/59/cc/541f2d73795cec072603d4f0b4bed2ddd60f33e857f0275289ed155113da/tmnt-0.7.52b20240429.tar.gz
+[2024-05-01 01:06:04] INFO root fetch - processPackages [baserun]: Downloading https://files.pythonhosted.org/packages/74/d8/7e0fd8860bd7e008312f628ef194c578e19cf4990540f502935f3c7c7a57/baserun-0.9.9.tar.gz
+[2024-05-01 01:06:05] INFO root fetch - processPackages [tmnt]: executing diffoscope
+[2024-05-01 01:06:05] INFO root fetch - processPackages [tmnt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-0.7.52b20240428.tar.gz tmp/tmnt-0.7.52b20240429.tar.gz --markdown 20240501/t/tmnt/0.7.52b20240428-0.7.52b20240429/README.md --exclude *.pyd
+[2024-05-01 01:06:05] INFO root fetch - processPackages [baserun]: executing diffoscope
+[2024-05-01 01:06:05] INFO root fetch - processPackages [baserun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/baserun-0.9.8b2.tar.gz tmp/baserun-0.9.9.tar.gz --markdown 20240501/b/baserun/0.9.8b2-0.9.9/README.md --exclude *.pyd
+[2024-05-01 01:06:05] INFO root fetch - processPackages [flwr-nightly]: Downloading https://files.pythonhosted.org/packages/57/3d/641e8ee7b51e5efb06785a3faff2d7d70ed94f066c05260e4674336b6ce1/flwr_nightly-1.9.0.dev20240430.tar.gz
+[2024-05-01 01:06:05] INFO root fetch - processPackages [Red-Web-Dashboard]: executing diffoscope
+[2024-05-01 01:06:05] INFO root fetch - processPackages [Red-Web-Dashboard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/red_web_dashboard-1.5.0.tar.gz tmp/red_web_dashboard-1.5.1.tar.gz --markdown 20240501/R/Red-Web-Dashboard/1.5.0-1.5.1/README.md --exclude *.pyd
+[2024-05-01 01:06:05] INFO root fetch - processPackages [autopipeline]: Downloading https://files.pythonhosted.org/packages/5f/4a/f3df97d414e0a5e9120459fd5c7ab663092d540df59f7deacc45810deb41/autopipeline-0.1.99.tar.gz
+[2024-05-01 01:06:05] INFO root fetch - processPackages [autopipeline]: executing diffoscope
+[2024-05-01 01:06:05] INFO root fetch - processPackages [autopipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autopipeline-0.1.98.tar.gz tmp/autopipeline-0.1.99.tar.gz --markdown 20240501/a/autopipeline/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-05-01 01:06:05] INFO root fetch - processPackages [flwr-nightly]: executing diffoscope
+[2024-05-01 01:06:05] INFO root fetch - processPackages [flwr-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flwr_nightly-1.9.0.dev20240429.tar.gz tmp/flwr_nightly-1.9.0.dev20240430.tar.gz --markdown 20240501/f/flwr-nightly/1.9.0.dev20240429-1.9.0.dev20240430/README.md --exclude *.pyd
+[2024-05-01 01:06:05] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.52b20240428.tar.gz]
+[2024-05-01 01:06:05] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.52b20240429.tar.gz]
+[2024-05-01 01:06:05] INFO root fetch - main [MainThread]: End processing [tmnt]: success
+[2024-05-01 01:06:05] INFO root fetch - processPackages [baserun]: Remove: archive file [/home/abi/fetcher/tmp/baserun-0.9.8b2.tar.gz]
+[2024-05-01 01:06:05] INFO root fetch - processPackages [baserun]: Remove: archive file [/home/abi/fetcher/tmp/baserun-0.9.9.tar.gz]
+[2024-05-01 01:06:05] INFO root fetch - main [MainThread]: End processing [baserun]: success
+[2024-05-01 01:06:05] INFO root fetch - processPackages [autopipeline]: Remove: archive file [/home/abi/fetcher/tmp/autopipeline-0.1.98.tar.gz]
+[2024-05-01 01:06:05] INFO root fetch - processPackages [autopipeline]: Remove: archive file [/home/abi/fetcher/tmp/autopipeline-0.1.99.tar.gz]
+[2024-05-01 01:06:05] INFO root fetch - main [MainThread]: End processing [autopipeline]: success
+[2024-05-01 01:06:06] INFO root fetch - processPackages [flwr-nightly]: Remove: archive file [/home/abi/fetcher/tmp/flwr_nightly-1.9.0.dev20240429.tar.gz]
+[2024-05-01 01:06:06] INFO root fetch - processPackages [flwr-nightly]: Remove: archive file [/home/abi/fetcher/tmp/flwr_nightly-1.9.0.dev20240430.tar.gz]
+[2024-05-01 01:06:06] INFO root fetch - main [MainThread]: End processing [flwr-nightly]: success
+[2024-05-01 01:06:06] INFO root fetch - processPackages [Red-Web-Dashboard]: Remove: archive file [/home/abi/fetcher/tmp/red_web_dashboard-1.5.0.tar.gz]
+[2024-05-01 01:06:06] INFO root fetch - processPackages [Red-Web-Dashboard]: Remove: archive file [/home/abi/fetcher/tmp/red_web_dashboard-1.5.1.tar.gz]
+[2024-05-01 01:06:06] INFO root fetch - main [MainThread]: End processing [Red-Web-Dashboard]: success
+[2024-05-01 01:06:06] INFO root fetch - main [MainThread]: Store serial: [23009212]
