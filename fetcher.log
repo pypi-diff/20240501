@@ -15,3 +15,60 @@
 [2024-05-01 00:02:45] INFO root fetch - processPackages [libdebug]: Remove: archive file [/home/abi/fetcher/tmp/libdebug-0.4.1.tar.gz]
 [2024-05-01 00:02:45] INFO root fetch - main [MainThread]: End processing [libdebug]: success
 [2024-05-01 00:02:45] INFO root fetch - main [MainThread]: Store serial: [23008803]
+[2024-05-01 00:04:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23008803]
+[2024-05-01 00:04:53] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-01 00:04:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dspygen
+[2024-05-01 00:04:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kodexa
+[2024-05-01 00:04:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gage
+[2024-05-01 00:04:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: panther-analysis-tool
+[2024-05-01 00:04:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: prediction-prophet
+[2024-05-01 00:04:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pipefunc
+[2024-05-01 00:04:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cellprofiler-library-nightly
+[2024-05-01 00:04:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: flav_module
+[2024-05-01 00:04:53] WARNING root fetch - processPackages [flav_module]: Skipping, unable to determine old version
+[2024-05-01 00:04:53] INFO root fetch - main [MainThread]: End processing [flav_module] error
+[2024-05-01 00:04:53] INFO root fetch - processPackages [panther-analysis-tool]: New version: [0.9.0] Old Version: [0.8.3]
+[2024-05-01 00:04:53] INFO root fetch - processPackages [dspygen]: New version: [2024.4.8] Old Version: [2024.4.29]
+[2024-05-01 00:04:53] INFO root fetch - processPackages [kodexa]: New version: [7.0.8901087762] Old Version: [7.0.8899281188]
+[2024-05-01 00:04:53] INFO root fetch - processPackages [pipefunc]: New version: [0.5.0] Old Version: [0.4.0]
+[2024-05-01 00:04:53] WARNING root fetch - processPackages [cellprofiler-library-nightly]: Skipping, unable to determine old version
+[2024-05-01 00:04:53] INFO root fetch - main [MainThread]: End processing [cellprofiler-library-nightly] error
+[2024-05-01 00:04:53] INFO root fetch - processPackages [gage]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-01 00:04:53] WARNING root fetch - processPackages [prediction-prophet]: Skipping, unable to determine old version
+[2024-05-01 00:04:53] INFO root fetch - main [MainThread]: End processing [prediction-prophet] error
+[2024-05-01 00:04:53] INFO root fetch - processPackages [panther-analysis-tool]: Downloading https://files.pythonhosted.org/packages/25/cf/5c87943f90bc11af4cdacde3d5c0400087ed9290bf037b10ab4feec7ed0a/panther_analysis_tool-0.8.3.tar.gz
+[2024-05-01 00:04:53] INFO root fetch - processPackages [kodexa]: Downloading https://files.pythonhosted.org/packages/ed/7f/d34c733fad4ca03d1507972d7cbab860561db54d1370d26ede21970336e3/kodexa-7.0.8899281188.tar.gz
+[2024-05-01 00:04:53] INFO root fetch - processPackages [dspygen]: Downloading https://files.pythonhosted.org/packages/eb/4d/fbfcf13ed903fc073b58782bd99c8f3247978da662c1a864d7816d2ba692/dspygen-2024.4.29.tar.gz
+[2024-05-01 00:04:53] INFO root fetch - processPackages [gage]: Downloading https://files.pythonhosted.org/packages/d6/fa/b79eab9017b5ee90ace2b2cdc3c5547103534430347a0727a9856abc2936/gage-0.1.1-py3-none-any.whl
+[2024-05-01 00:04:53] INFO root fetch - processPackages [pipefunc]: Downloading https://files.pythonhosted.org/packages/fa/74/4f4d8ab2f1be5e513f576887419ed681859585b732dcac29c956cd706435/pipefunc-0.4.0.tar.gz
+[2024-05-01 00:04:53] INFO root fetch - processPackages [panther-analysis-tool]: Downloading https://files.pythonhosted.org/packages/8a/be/c59804c311208907cfa13b402d4bb7ab90cf93490a44736ea7bbc0523c98/panther_analysis_tool-0.9.0.tar.gz
+[2024-05-01 00:04:53] INFO root fetch - processPackages [panther-analysis-tool]: executing diffoscope
+[2024-05-01 00:04:53] INFO root fetch - processPackages [panther-analysis-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/panther_analysis_tool-0.8.3.tar.gz tmp/panther_analysis_tool-0.9.0.tar.gz --markdown 20240501/p/panther-analysis-tool/0.8.3-0.9.0/README.md --exclude *.pyd
+[2024-05-01 00:04:53] INFO root fetch - processPackages [kodexa]: Downloading https://files.pythonhosted.org/packages/5d/d3/3122824cd4131008b57749fc830b3c5cce3e1877042285646a8e3d6921bc/kodexa-7.0.8901087762.tar.gz
+[2024-05-01 00:04:54] INFO root fetch - processPackages [dspygen]: Downloading https://files.pythonhosted.org/packages/b8/d2/67abba8675544ab98e98ff7bc3479521e1562052e572ea82c30eccce5120/dspygen-2024.4.8.tar.gz
+[2024-05-01 00:04:54] INFO root fetch - processPackages [pipefunc]: Downloading https://files.pythonhosted.org/packages/31/62/5065159f201e48fd5e79d29e92a9a66d51d2c5a5642b1ea162fc8ef28240/pipefunc-0.5.0.tar.gz
+[2024-05-01 00:04:54] INFO root fetch - processPackages [kodexa]: executing diffoscope
+[2024-05-01 00:04:54] INFO root fetch - processPackages [kodexa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kodexa-7.0.8899281188.tar.gz tmp/kodexa-7.0.8901087762.tar.gz --markdown 20240501/k/kodexa/7.0.8899281188-7.0.8901087762/README.md --exclude *.pyd
+[2024-05-01 00:04:54] INFO root fetch - processPackages [gage]: Downloading https://files.pythonhosted.org/packages/2f/c3/a8860bbb20b0bf83c84f6ab655aca5e48a1b34f2e1e44f3adbf5fed767eb/gage-0.1.2-py3-none-any.whl
+[2024-05-01 00:04:54] INFO root fetch - processPackages [pipefunc]: executing diffoscope
+[2024-05-01 00:04:54] INFO root fetch - processPackages [pipefunc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipefunc-0.4.0.tar.gz tmp/pipefunc-0.5.0.tar.gz --markdown 20240501/p/pipefunc/0.4.0-0.5.0/README.md --exclude *.pyd
+[2024-05-01 00:04:54] INFO root fetch - processPackages [dspygen]: executing diffoscope
+[2024-05-01 00:04:54] INFO root fetch - processPackages [dspygen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dspygen-2024.4.29.tar.gz tmp/dspygen-2024.4.8.tar.gz --markdown 20240501/d/dspygen/2024.4.29-2024.4.8/README.md --exclude *.pyd
+[2024-05-01 00:04:54] INFO root fetch - processPackages [gage]: executing diffoscope
+[2024-05-01 00:04:54] INFO root fetch - processPackages [gage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gage-0.1.1-py3-none-any.whl.zip tmp/gage-0.1.2-py3-none-any.whl.zip --markdown 20240501/g/gage/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-01 00:04:54] INFO root fetch - processPackages [panther-analysis-tool]: Remove: archive file [/home/abi/fetcher/tmp/panther_analysis_tool-0.8.3.tar.gz]
+[2024-05-01 00:04:54] INFO root fetch - processPackages [panther-analysis-tool]: Remove: archive file [/home/abi/fetcher/tmp/panther_analysis_tool-0.9.0.tar.gz]
+[2024-05-01 00:04:54] INFO root fetch - main [MainThread]: End processing [panther-analysis-tool]: success
+[2024-05-01 00:04:54] INFO root fetch - processPackages [kodexa]: Remove: archive file [/home/abi/fetcher/tmp/kodexa-7.0.8899281188.tar.gz]
+[2024-05-01 00:04:54] INFO root fetch - processPackages [kodexa]: Remove: archive file [/home/abi/fetcher/tmp/kodexa-7.0.8901087762.tar.gz]
+[2024-05-01 00:04:54] INFO root fetch - main [MainThread]: End processing [kodexa]: success
+[2024-05-01 00:04:55] INFO root fetch - processPackages [pipefunc]: Remove: archive file [/home/abi/fetcher/tmp/pipefunc-0.4.0.tar.gz]
+[2024-05-01 00:04:55] INFO root fetch - processPackages [pipefunc]: Remove: archive file [/home/abi/fetcher/tmp/pipefunc-0.5.0.tar.gz]
+[2024-05-01 00:04:55] INFO root fetch - main [MainThread]: End processing [pipefunc]: success
+[2024-05-01 00:04:55] INFO root fetch - processPackages [gage]: Remove: archive file [/home/abi/fetcher/tmp/gage-0.1.1-py3-none-any.whl.zip]
+[2024-05-01 00:04:55] INFO root fetch - processPackages [gage]: Remove: archive file [/home/abi/fetcher/tmp/gage-0.1.2-py3-none-any.whl.zip]
+[2024-05-01 00:04:55] INFO root fetch - main [MainThread]: End processing [gage]: success
+[2024-05-01 00:04:55] INFO root fetch - processPackages [dspygen]: Remove: archive file [/home/abi/fetcher/tmp/dspygen-2024.4.29.tar.gz]
+[2024-05-01 00:04:55] INFO root fetch - processPackages [dspygen]: Remove: archive file [/home/abi/fetcher/tmp/dspygen-2024.4.8.tar.gz]
+[2024-05-01 00:04:55] INFO root fetch - main [MainThread]: End processing [dspygen]: success
+[2024-05-01 00:04:55] INFO root fetch - main [MainThread]: Store serial: [23008829]
