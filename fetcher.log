@@ -93,3 +93,42 @@
 [2024-05-01 00:07:06] INFO root fetch - processPackages [cbcflow]: Remove: archive file [/home/abi/fetcher/tmp/cbcflow-0.5.0.tar.gz]
 [2024-05-01 00:07:06] INFO root fetch - main [MainThread]: End processing [cbcflow]: success
 [2024-05-01 00:07:06] INFO root fetch - main [MainThread]: Store serial: [23008847]
+[2024-05-01 00:09:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23008847]
+[2024-05-01 00:09:14] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-01 00:09:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: inu
+[2024-05-01 00:09:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fluxional
+[2024-05-01 00:09:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: slimgui
+[2024-05-01 00:09:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pytgpt-bot
+[2024-05-01 00:09:14] INFO root fetch - processPackages [inu]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-01 00:09:14] INFO root fetch - processPackages [inu]: Downloading https://files.pythonhosted.org/packages/65/2f/3b70463972425451ace34124bc08da359820c8aab734d7616f40ab356b24/inu-1.0.8.tar.gz
+[2024-05-01 00:09:14] INFO root fetch - processPackages [pytgpt-bot]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-05-01 00:09:14] INFO root fetch - processPackages [fluxional]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-01 00:09:14] INFO root fetch - processPackages [slimgui]: New version: [0.0.1.post1] Old Version: [0.0.1]
+[2024-05-01 00:09:14] INFO root fetch - processPackages [fluxional]: Downloading https://files.pythonhosted.org/packages/12/a8/19d7203e77edd16b1de8db85b0ce716454800f3ca81721051871367408d7/fluxional-0.1.3.tar.gz
+[2024-05-01 00:09:14] INFO root fetch - processPackages [inu]: Downloading https://files.pythonhosted.org/packages/33/69/3079bd1ce522d5b0f42803f001829a7b96debef485b5c665400a81c24d47/inu-1.0.9.tar.gz
+[2024-05-01 00:09:14] INFO root fetch - processPackages [pytgpt-bot]: Downloading https://files.pythonhosted.org/packages/9b/2a/a2d4ed562a950df071a1989122df7bd52d5e5bc55bb168a63acd3e622ad0/pytgpt_bot-0.1.6.tar.gz
+[2024-05-01 00:09:14] INFO root fetch - processPackages [slimgui]: Downloading https://files.pythonhosted.org/packages/2d/34/061e967611bc62adf5b9a4cd36153206d36d5a9471ed22073f0e42709c30/slimgui-0.0.1.tar.gz
+[2024-05-01 00:09:15] INFO root fetch - processPackages [inu]: executing diffoscope
+[2024-05-01 00:09:15] INFO root fetch - processPackages [inu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inu-1.0.8.tar.gz tmp/inu-1.0.9.tar.gz --markdown 20240501/i/inu/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-01 00:09:15] INFO root fetch - processPackages [pytgpt-bot]: Downloading https://files.pythonhosted.org/packages/99/92/4dac2ab9e029b649b4652a38bd606f9add0c0c98e8206e924c8dc07f9503/pytgpt_bot-0.1.7.tar.gz
+[2024-05-01 00:09:15] INFO root fetch - processPackages [fluxional]: Downloading https://files.pythonhosted.org/packages/cf/fe/7d9f87c82acbd50cac7e655fd3f4389e1d59bafd18f9370a674364a3e53f/fluxional-0.1.4.tar.gz
+[2024-05-01 00:09:15] INFO root fetch - processPackages [pytgpt-bot]: executing diffoscope
+[2024-05-01 00:09:15] INFO root fetch - processPackages [pytgpt-bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytgpt_bot-0.1.6.tar.gz tmp/pytgpt_bot-0.1.7.tar.gz --markdown 20240501/p/pytgpt-bot/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-05-01 00:09:15] INFO root fetch - processPackages [fluxional]: executing diffoscope
+[2024-05-01 00:09:15] INFO root fetch - processPackages [fluxional]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fluxional-0.1.3.tar.gz tmp/fluxional-0.1.4.tar.gz --markdown 20240501/f/fluxional/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-01 00:09:15] INFO root fetch - processPackages [slimgui]: Downloading https://files.pythonhosted.org/packages/83/13/b5818e805fed81423c4f1a51fbc73b95add7097e30b8fe59f41db2c63969/slimgui-0.0.1.post1-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-01 00:09:15] INFO root fetch - processPackages [inu]: Remove: archive file [/home/abi/fetcher/tmp/inu-1.0.8.tar.gz]
+[2024-05-01 00:09:15] INFO root fetch - processPackages [inu]: Remove: archive file [/home/abi/fetcher/tmp/inu-1.0.9.tar.gz]
+[2024-05-01 00:09:15] INFO root fetch - main [MainThread]: End processing [inu]: success
+[2024-05-01 00:09:16] INFO root fetch - processPackages [fluxional]: Remove: archive file [/home/abi/fetcher/tmp/fluxional-0.1.3.tar.gz]
+[2024-05-01 00:09:16] INFO root fetch - processPackages [fluxional]: Remove: archive file [/home/abi/fetcher/tmp/fluxional-0.1.4.tar.gz]
+[2024-05-01 00:09:16] INFO root fetch - main [MainThread]: End processing [fluxional]: success
+[2024-05-01 00:09:16] INFO root fetch - processPackages [pytgpt-bot]: Remove: archive file [/home/abi/fetcher/tmp/pytgpt_bot-0.1.6.tar.gz]
+[2024-05-01 00:09:16] INFO root fetch - processPackages [pytgpt-bot]: Remove: archive file [/home/abi/fetcher/tmp/pytgpt_bot-0.1.7.tar.gz]
+[2024-05-01 00:09:16] INFO root fetch - main [MainThread]: End processing [pytgpt-bot]: success
+[2024-05-01 00:09:17] INFO root fetch - processPackages [slimgui]: executing diffoscope
+[2024-05-01 00:09:17] INFO root fetch - processPackages [slimgui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slimgui-0.0.1.tar.gz tmp/slimgui-0.0.1.post1-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240501/s/slimgui/0.0.1-0.0.1.post1/README.md --exclude *.pyd
+[2024-05-01 00:09:18] INFO root fetch - processPackages [slimgui]: Remove: archive file [/home/abi/fetcher/tmp/slimgui-0.0.1.tar.gz]
+[2024-05-01 00:09:18] INFO root fetch - processPackages [slimgui]: Remove: archive file [/home/abi/fetcher/tmp/slimgui-0.0.1.post1-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-01 00:09:18] INFO root fetch - main [MainThread]: End processing [slimgui]: success
+[2024-05-01 00:09:18] INFO root fetch - main [MainThread]: Store serial: [23008870]
