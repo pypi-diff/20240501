@@ -735,3 +735,58 @@
 [2024-05-01 00:50:53] INFO root fetch - processPackages [neon-utils]: Remove: archive file [/home/abi/fetcher/tmp/neon-utils-1.9.2a5.tar.gz]
 [2024-05-01 00:50:53] INFO root fetch - main [MainThread]: End processing [neon-utils]: success
 [2024-05-01 00:50:53] INFO root fetch - main [MainThread]: Store serial: [23009123]
+[2024-05-01 00:52:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23009123]
+[2024-05-01 00:53:01] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-01 00:53:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: diffforms
+[2024-05-01 00:53:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: doctran_openai
+[2024-05-01 00:53:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: diffforms
+[2024-05-01 00:53:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: transformers-js-py
+[2024-05-01 00:53:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dpd-lib
+[2024-05-01 00:53:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nsj-sql-utils-lib
+[2024-05-01 00:53:01] INFO root fetch - processPackages [diffforms]: New version: [0.0.23] Old Version: [0.0.22]
+[2024-05-01 00:53:01] INFO root fetch - processPackages [nsj-sql-utils-lib]: New version: [1.3.1] Old Version: [1.3.0]
+[2024-05-01 00:53:01] INFO root fetch - processPackages [dpd-lib]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-01 00:53:01] INFO root fetch - processPackages [diffforms]: New version: [0.0.23] Old Version: [0.0.22]
+[2024-05-01 00:53:01] INFO root fetch - processPackages [doctran_openai]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-01 00:53:01] INFO root fetch - processPackages [diffforms]: Downloading https://files.pythonhosted.org/packages/98/14/ecd32bc25e93c6e2bfadf7bd5d9ffae345ad63d37986457a000380986c1a/diffforms-0.0.22.tar.gz
+[2024-05-01 00:53:01] INFO root fetch - processPackages [nsj-sql-utils-lib]: Downloading https://files.pythonhosted.org/packages/e8/8d/c9afeada62c57a9bbd3ee6d6637d5f95fcf1a37e6d87a4bfe53b7a307a9d/nsj_sql_utils_lib-1.3.0.tar.gz
+[2024-05-01 00:53:01] INFO root fetch - processPackages [transformers-js-py]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-05-01 00:53:01] INFO root fetch - processPackages [diffforms]: Downloading https://files.pythonhosted.org/packages/98/14/ecd32bc25e93c6e2bfadf7bd5d9ffae345ad63d37986457a000380986c1a/diffforms-0.0.22.tar.gz
+[2024-05-01 00:53:01] INFO root fetch - processPackages [dpd-lib]: Downloading https://files.pythonhosted.org/packages/82/51/f3813c81cd499c115ca6c707d297a7f389d331cc28d09cf69b89101cbdbb/dpd_lib-0.2.0.tar.gz
+[2024-05-01 00:53:01] INFO root fetch - processPackages [doctran_openai]: Downloading https://files.pythonhosted.org/packages/cf/ee/05034545d75a841e008b92e49c2b144b94ab265f8b8878a39626222b7677/doctran_openai-0.0.8.tar.gz
+[2024-05-01 00:53:01] INFO root fetch - processPackages [transformers-js-py]: Downloading https://files.pythonhosted.org/packages/e9/d4/245ab3f4c5f82c00b652b8ff4b0d02cde64e88d462ead1ae460fdf5a43df/transformers_js_py-0.8.1.tar.gz
+[2024-05-01 00:53:01] INFO root fetch - processPackages [doctran_openai]: Downloading https://files.pythonhosted.org/packages/bf/57/6123b8227a48d42aa4dc92614deefd2fb96be6aa7d4e4d9a03e12fbde0cb/doctran_openai-0.0.9.tar.gz
+[2024-05-01 00:53:01] INFO root fetch - processPackages [diffforms]: Downloading https://files.pythonhosted.org/packages/73/f9/2d30e61eb9b8fd7eb784d5090d79c70a5ecdd8e1dea412ab0239bb0cb9d3/diffforms-0.0.23.tar.gz
+[2024-05-01 00:53:01] INFO root fetch - processPackages [diffforms]: Downloading https://files.pythonhosted.org/packages/73/f9/2d30e61eb9b8fd7eb784d5090d79c70a5ecdd8e1dea412ab0239bb0cb9d3/diffforms-0.0.23.tar.gz
+[2024-05-01 00:53:01] INFO root fetch - processPackages [nsj-sql-utils-lib]: Downloading https://files.pythonhosted.org/packages/65/3d/152558e08ff6d8224248cc00fa540e5718c69aa6937e162afc36eacbcec7/nsj_sql_utils_lib-1.3.1.tar.gz
+[2024-05-01 00:53:01] INFO root fetch - processPackages [doctran_openai]: executing diffoscope
+[2024-05-01 00:53:01] INFO root fetch - processPackages [doctran_openai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/doctran_openai-0.0.8.tar.gz tmp/doctran_openai-0.0.9.tar.gz --markdown 20240501/d/doctran_openai/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-01 00:53:01] INFO root fetch - processPackages [dpd-lib]: Downloading https://files.pythonhosted.org/packages/05/e1/99130c0839913813e0b7653e69b5e2e636b88f0d680f038717654a162abf/dpd_lib-0.2.1.tar.gz
+[2024-05-01 00:53:01] INFO root fetch - processPackages [diffforms]: executing diffoscope
+[2024-05-01 00:53:01] INFO root fetch - processPackages [diffforms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/diffforms-0.0.22.tar.gz tmp/diffforms-0.0.23.tar.gz --markdown 20240501/d/diffforms/0.0.22-0.0.23/README.md --exclude *.pyd
+[2024-05-01 00:53:01] INFO root fetch - processPackages [diffforms]: executing diffoscope
+[2024-05-01 00:53:01] INFO root fetch - processPackages [diffforms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/diffforms-0.0.22.tar.gz tmp/diffforms-0.0.23.tar.gz --markdown 20240501/d/diffforms/0.0.22-0.0.23/README.md --exclude *.pyd
+[2024-05-01 00:53:01] INFO root fetch - processPackages [transformers-js-py]: Downloading https://files.pythonhosted.org/packages/69/a5/f53e404079de13cda9053663becf9d7e3a3351cfa3b254d9a695544db414/transformers_js_py-0.9.0.tar.gz
+[2024-05-01 00:53:01] INFO root fetch - processPackages [nsj-sql-utils-lib]: executing diffoscope
+[2024-05-01 00:53:01] INFO root fetch - processPackages [nsj-sql-utils-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nsj_sql_utils_lib-1.3.0.tar.gz tmp/nsj_sql_utils_lib-1.3.1.tar.gz --markdown 20240501/n/nsj-sql-utils-lib/1.3.0-1.3.1/README.md --exclude *.pyd
+[2024-05-01 00:53:01] INFO root fetch - processPackages [dpd-lib]: executing diffoscope
+[2024-05-01 00:53:01] INFO root fetch - processPackages [dpd-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dpd_lib-0.2.0.tar.gz tmp/dpd_lib-0.2.1.tar.gz --markdown 20240501/d/dpd-lib/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-01 00:53:02] INFO root fetch - processPackages [transformers-js-py]: executing diffoscope
+[2024-05-01 00:53:02] INFO root fetch - processPackages [transformers-js-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/transformers_js_py-0.8.1.tar.gz tmp/transformers_js_py-0.9.0.tar.gz --markdown 20240501/t/transformers-js-py/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-05-01 00:53:02] INFO root fetch - processPackages [doctran_openai]: Remove: archive file [/home/abi/fetcher/tmp/doctran_openai-0.0.8.tar.gz]
+[2024-05-01 00:53:02] INFO root fetch - processPackages [doctran_openai]: Remove: archive file [/home/abi/fetcher/tmp/doctran_openai-0.0.9.tar.gz]
+[2024-05-01 00:53:02] INFO root fetch - main [MainThread]: End processing [doctran_openai]: success
+[2024-05-01 00:53:02] INFO root fetch - processPackages [diffforms]: Remove: archive file [/home/abi/fetcher/tmp/diffforms-0.0.22.tar.gz]
+[2024-05-01 00:53:02] INFO root fetch - processPackages [diffforms]: Remove: archive file [/home/abi/fetcher/tmp/diffforms-0.0.23.tar.gz]
+[2024-05-01 00:53:02] INFO root fetch - main [MainThread]: End processing [diffforms]: success
+[2024-05-01 00:53:02] INFO root fetch - processPackages [dpd-lib]: Remove: archive file [/home/abi/fetcher/tmp/dpd_lib-0.2.0.tar.gz]
+[2024-05-01 00:53:02] INFO root fetch - processPackages [dpd-lib]: Remove: archive file [/home/abi/fetcher/tmp/dpd_lib-0.2.1.tar.gz]
+[2024-05-01 00:53:02] INFO root fetch - main [MainThread]: End processing [dpd-lib]: success
+[2024-05-01 00:53:02] INFO root fetch - main [MainThread]: End processing [diffforms]: success
+[2024-05-01 00:53:02] INFO root fetch - processPackages [nsj-sql-utils-lib]: Remove: archive file [/home/abi/fetcher/tmp/nsj_sql_utils_lib-1.3.0.tar.gz]
+[2024-05-01 00:53:02] INFO root fetch - processPackages [nsj-sql-utils-lib]: Remove: archive file [/home/abi/fetcher/tmp/nsj_sql_utils_lib-1.3.1.tar.gz]
+[2024-05-01 00:53:02] INFO root fetch - main [MainThread]: End processing [nsj-sql-utils-lib]: success
+[2024-05-01 00:53:02] INFO root fetch - processPackages [transformers-js-py]: Remove: archive file [/home/abi/fetcher/tmp/transformers_js_py-0.8.1.tar.gz]
+[2024-05-01 00:53:02] INFO root fetch - processPackages [transformers-js-py]: Remove: archive file [/home/abi/fetcher/tmp/transformers_js_py-0.9.0.tar.gz]
+[2024-05-01 00:53:02] INFO root fetch - main [MainThread]: End processing [transformers-js-py]: success
+[2024-05-01 00:53:02] INFO root fetch - main [MainThread]: Store serial: [23009136]
