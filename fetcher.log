@@ -1030,3 +1030,47 @@
 [2024-05-01 01:06:06] INFO root fetch - processPackages [Red-Web-Dashboard]: Remove: archive file [/home/abi/fetcher/tmp/red_web_dashboard-1.5.1.tar.gz]
 [2024-05-01 01:06:06] INFO root fetch - main [MainThread]: End processing [Red-Web-Dashboard]: success
 [2024-05-01 01:06:06] INFO root fetch - main [MainThread]: Store serial: [23009212]
+[2024-05-01 01:08:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23009212]
+[2024-05-01 01:08:15] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-01 01:08:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: forbiditerative
+[2024-05-01 01:08:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: datasurface
+[2024-05-01 01:08:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: DreamCreator
+[2024-05-01 01:08:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aiide
+[2024-05-01 01:08:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nbappinator
+[2024-05-01 01:08:15] INFO root fetch - processPackages [aiide]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-01 01:08:15] INFO root fetch - processPackages [DreamCreator]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-01 01:08:15] INFO root fetch - processPackages [DreamCreator]: Downloading https://files.pythonhosted.org/packages/10/12/661d0180ffa3ececbf07dd56dc4289f53555fa3ab99fb4f7d2e0d5a6aee8/DreamCreator-0.0.2.tar.gz
+[2024-05-01 01:08:15] INFO root fetch - processPackages [datasurface]: New version: [0.0.9] Old Version: [0.0.6]
+[2024-05-01 01:08:15] INFO root fetch - processPackages [forbiditerative]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-01 01:08:15] INFO root fetch - processPackages [nbappinator]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-01 01:08:15] INFO root fetch - processPackages [aiide]: Downloading https://files.pythonhosted.org/packages/9b/4d/f9059bedcc799cee30a20f27ccb91a8140c6f120fbf33b5e0d6b9e0a4dc3/aiide-0.0.1.tar.gz
+[2024-05-01 01:08:15] INFO root fetch - processPackages [datasurface]: Downloading https://files.pythonhosted.org/packages/25/f3/7832d44f345dd062327beb6304a14ed92d4f1f2c2f1f2b5821bf1fb1c036/datasurface-0.0.6.tar.gz
+[2024-05-01 01:08:15] INFO root fetch - processPackages [forbiditerative]: Downloading https://files.pythonhosted.org/packages/fc/34/aa2d7a08f1c0676caafe4f3e8769d209148dd2e5a25410ba5d2d1b46f5b6/forbiditerative-1.0.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-01 01:08:15] INFO root fetch - processPackages [DreamCreator]: Downloading https://files.pythonhosted.org/packages/ce/5b/787c1affed15428a245198f913e10c9c9549e15cba1ac2612165fbc490b9/DreamCreator-0.0.3.tar.gz
+[2024-05-01 01:08:15] INFO root fetch - processPackages [nbappinator]: Downloading https://files.pythonhosted.org/packages/13/72/aa80f705ce04ba95992d56773986e2c8ea6a0b4cd4df3dafeb84e7d29246/nbappinator-0.0.5.tar.gz
+[2024-05-01 01:08:15] WARNING root fetch - processPackages [forbiditerative]: Skipping package: exceeds size limit 64816026>=10485760
+[2024-05-01 01:08:15] INFO root fetch - main [MainThread]: End processing [forbiditerative] error
+[2024-05-01 01:08:15] INFO root fetch - processPackages [DreamCreator]: executing diffoscope
+[2024-05-01 01:08:15] INFO root fetch - processPackages [DreamCreator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DreamCreator-0.0.2.tar.gz tmp/DreamCreator-0.0.3.tar.gz --markdown 20240501/D/DreamCreator/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-01 01:08:16] INFO root fetch - processPackages [aiide]: Downloading https://files.pythonhosted.org/packages/52/f5/484778a6127126cf69caaf2c1d8fe410c4b144b3bc6fdbd45cd3ed1665fc/aiide-0.0.2.tar.gz
+[2024-05-01 01:08:16] INFO root fetch - processPackages [aiide]: executing diffoscope
+[2024-05-01 01:08:16] INFO root fetch - processPackages [aiide]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiide-0.0.1.tar.gz tmp/aiide-0.0.2.tar.gz --markdown 20240501/a/aiide/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-01 01:08:16] INFO root fetch - processPackages [datasurface]: Downloading https://files.pythonhosted.org/packages/d5/bb/afa50b614c9bd72bc1cec4ba4631e730569b4c2c228e683237fa25d83b73/datasurface-0.0.9.tar.gz
+[2024-05-01 01:08:16] INFO root fetch - processPackages [nbappinator]: Downloading https://files.pythonhosted.org/packages/21/d2/dd3b5c3cc25a8abc1ce29c300aab73e4f637d8f8375d79731224a5bdffcb/nbappinator-0.0.6.tar.gz
+[2024-05-01 01:08:16] INFO root fetch - processPackages [datasurface]: executing diffoscope
+[2024-05-01 01:08:16] INFO root fetch - processPackages [datasurface]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datasurface-0.0.6.tar.gz tmp/datasurface-0.0.9.tar.gz --markdown 20240501/d/datasurface/0.0.6-0.0.9/README.md --exclude *.pyd
+[2024-05-01 01:08:16] INFO root fetch - processPackages [DreamCreator]: Remove: archive file [/home/abi/fetcher/tmp/DreamCreator-0.0.2.tar.gz]
+[2024-05-01 01:08:16] INFO root fetch - processPackages [DreamCreator]: Remove: archive file [/home/abi/fetcher/tmp/DreamCreator-0.0.3.tar.gz]
+[2024-05-01 01:08:16] INFO root fetch - main [MainThread]: End processing [DreamCreator]: success
+[2024-05-01 01:08:16] INFO root fetch - processPackages [aiide]: Remove: archive file [/home/abi/fetcher/tmp/aiide-0.0.1.tar.gz]
+[2024-05-01 01:08:16] INFO root fetch - processPackages [aiide]: Remove: archive file [/home/abi/fetcher/tmp/aiide-0.0.2.tar.gz]
+[2024-05-01 01:08:16] INFO root fetch - main [MainThread]: End processing [aiide]: success
+[2024-05-01 01:08:16] INFO root fetch - processPackages [nbappinator]: executing diffoscope
+[2024-05-01 01:08:16] INFO root fetch - processPackages [nbappinator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbappinator-0.0.5.tar.gz tmp/nbappinator-0.0.6.tar.gz --markdown 20240501/n/nbappinator/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-01 01:08:17] INFO root fetch - processPackages [nbappinator]: Remove: archive file [/home/abi/fetcher/tmp/nbappinator-0.0.5.tar.gz]
+[2024-05-01 01:08:17] INFO root fetch - processPackages [nbappinator]: Remove: archive file [/home/abi/fetcher/tmp/nbappinator-0.0.6.tar.gz]
+[2024-05-01 01:08:17] INFO root fetch - main [MainThread]: End processing [nbappinator]: success
+[2024-05-01 01:08:17] INFO root fetch - processPackages [datasurface]: Remove: archive file [/home/abi/fetcher/tmp/datasurface-0.0.6.tar.gz]
+[2024-05-01 01:08:17] INFO root fetch - processPackages [datasurface]: Remove: archive file [/home/abi/fetcher/tmp/datasurface-0.0.9.tar.gz]
+[2024-05-01 01:08:17] INFO root fetch - main [MainThread]: End processing [datasurface]: success
+[2024-05-01 01:08:17] INFO root fetch - main [MainThread]: Store serial: [23009228]
