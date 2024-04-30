@@ -684,3 +684,24 @@
 [2024-05-01 00:46:32] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.4.1.dev20240430092032.tar.gz]
 [2024-05-01 00:46:32] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2024-05-01 00:46:32] INFO root fetch - main [MainThread]: Store serial: [23009107]
+[2024-05-01 00:48:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23009107]
+[2024-05-01 00:48:41] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-01 00:48:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Wolfy-Avatar-Plugin
+[2024-05-01 00:48:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spei-python
+[2024-05-01 00:48:41] INFO root fetch - processPackages [Wolfy-Avatar-Plugin]: New version: [0.0.44.post0] Old Version: [0.0.30.post0]
+[2024-05-01 00:48:41] INFO root fetch - processPackages [Wolfy-Avatar-Plugin]: Downloading https://files.pythonhosted.org/packages/97/6e/8992e00b3d9c6f462358b7e9e8b730263ac1367261a91ce7e189dd33070d/wolfy_avatar_plugin-0.0.30.post0.tar.gz
+[2024-05-01 00:48:41] INFO root fetch - processPackages [spei-python]: New version: [0.9.2] Old Version: [0.9.1]
+[2024-05-01 00:48:42] INFO root fetch - processPackages [Wolfy-Avatar-Plugin]: Downloading https://files.pythonhosted.org/packages/ec/49/58ba076692dac99e31fbeb03a43ed8482d8d6ef5aa74d38fce4e807aa62a/wolfy_avatar_plugin-0.0.44.post0.tar.gz
+[2024-05-01 00:48:42] INFO root fetch - processPackages [spei-python]: Downloading https://files.pythonhosted.org/packages/a8/f8/3e302eb8a5e479cad0f2133e2dcd06372d0889ea1b6e1eb5b0f91f8908dc/spei_python-0.9.1.tar.gz
+[2024-05-01 00:48:42] INFO root fetch - processPackages [Wolfy-Avatar-Plugin]: executing diffoscope
+[2024-05-01 00:48:42] INFO root fetch - processPackages [Wolfy-Avatar-Plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wolfy_avatar_plugin-0.0.30.post0.tar.gz tmp/wolfy_avatar_plugin-0.0.44.post0.tar.gz --markdown 20240501/W/Wolfy-Avatar-Plugin/0.0.30.post0-0.0.44.post0/README.md --exclude *.pyd
+[2024-05-01 00:48:42] INFO root fetch - processPackages [spei-python]: Downloading https://files.pythonhosted.org/packages/f6/b4/9cf335b32f0196b56b576e8f7f93821a9e1e543fc53c41cfffbfaf01dda4/spei_python-0.9.2.tar.gz
+[2024-05-01 00:48:42] INFO root fetch - processPackages [spei-python]: executing diffoscope
+[2024-05-01 00:48:42] INFO root fetch - processPackages [spei-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spei_python-0.9.1.tar.gz tmp/spei_python-0.9.2.tar.gz --markdown 20240501/s/spei-python/0.9.1-0.9.2/README.md --exclude *.pyd
+[2024-05-01 00:48:42] INFO root fetch - processPackages [Wolfy-Avatar-Plugin]: Remove: archive file [/home/abi/fetcher/tmp/wolfy_avatar_plugin-0.0.30.post0.tar.gz]
+[2024-05-01 00:48:42] INFO root fetch - processPackages [Wolfy-Avatar-Plugin]: Remove: archive file [/home/abi/fetcher/tmp/wolfy_avatar_plugin-0.0.44.post0.tar.gz]
+[2024-05-01 00:48:42] INFO root fetch - main [MainThread]: End processing [Wolfy-Avatar-Plugin]: success
+[2024-05-01 00:48:43] INFO root fetch - processPackages [spei-python]: Remove: archive file [/home/abi/fetcher/tmp/spei_python-0.9.1.tar.gz]
+[2024-05-01 00:48:43] INFO root fetch - processPackages [spei-python]: Remove: archive file [/home/abi/fetcher/tmp/spei_python-0.9.2.tar.gz]
+[2024-05-01 00:48:43] INFO root fetch - main [MainThread]: End processing [spei-python]: success
+[2024-05-01 00:48:43] INFO root fetch - main [MainThread]: Store serial: [23009113]
