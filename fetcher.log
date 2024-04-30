@@ -269,3 +269,42 @@
 [2024-05-01 00:21:48] INFO root fetch - processPackages [phoenix6]: Remove: archive file [/home/abi/fetcher/tmp/phoenix6-24.3.0-cp39-abi3-win_amd64.whl.zip]
 [2024-05-01 00:21:48] INFO root fetch - main [MainThread]: End processing [phoenix6]: success
 [2024-05-01 00:21:48] INFO root fetch - main [MainThread]: Store serial: [23008938]
+[2024-05-01 00:23:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23008938]
+[2024-05-01 00:24:03] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-01 00:24:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: basic-data-structure
+[2024-05-01 00:24:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-monkey-patches
+[2024-05-01 00:24:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: substrate
+[2024-05-01 00:24:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: chalkpy
+[2024-05-01 00:24:03] INFO root fetch - processPackages [substrate]: New version: [120240430.0.0] Old Version: [120240418.0.10]
+[2024-05-01 00:24:03] INFO root fetch - processPackages [substrate]: Downloading https://files.pythonhosted.org/packages/a6/90/cb92871bf459ceb922f60f13025e3cf722cb970a0fee440f75cd59042e81/substrate-120240418.0.10.tar.gz
+[2024-05-01 00:24:03] INFO root fetch - processPackages [basic-data-structure]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-01 00:24:03] INFO root fetch - processPackages [django-monkey-patches]: New version: [3.0.0] Old Version: [2.9.1]
+[2024-05-01 00:24:03] INFO root fetch - processPackages [django-monkey-patches]: Downloading https://files.pythonhosted.org/packages/b1/d6/1fde4428e12ba37b282e36e74bb7b85d0bccdffa562ac9129bcc69c564c3/django_monkey_patches-2.9.1.tar.gz
+[2024-05-01 00:24:03] INFO root fetch - processPackages [basic-data-structure]: Downloading https://files.pythonhosted.org/packages/07/16/c3a302d8ff3ccdf84a5b1d2438fe423587aae9e5b90e55d832ea54aea876/basic_data_structure-0.0.4.tar.gz
+[2024-05-01 00:24:03] INFO root fetch - processPackages [substrate]: Downloading https://files.pythonhosted.org/packages/0a/d2/33e30ecc431d28a3964055c5264d20b062398bc6912a5f9f3af9ac13a2bc/substrate-120240430.0.0.tar.gz
+[2024-05-01 00:24:03] INFO root fetch - processPackages [substrate]: executing diffoscope
+[2024-05-01 00:24:03] INFO root fetch - processPackages [substrate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/substrate-120240418.0.10.tar.gz tmp/substrate-120240430.0.0.tar.gz --markdown 20240501/s/substrate/120240418.0.10-120240430.0.0/README.md --exclude *.pyd
+[2024-05-01 00:24:03] INFO root fetch - processPackages [chalkpy]: New version: [2.9.9] Old Version: [2.9.8]
+[2024-05-01 00:24:03] INFO root fetch - processPackages [basic-data-structure]: Downloading https://files.pythonhosted.org/packages/90/72/d2c1e07ea2713a733510f73d01b3689ffdae74c3e1745591959f9ad2a132/basic_data_structure-0.0.5.tar.gz
+[2024-05-01 00:24:03] INFO root fetch - processPackages [django-monkey-patches]: Downloading https://files.pythonhosted.org/packages/9a/b4/f920defc678ca15cd288e04c4e99ac19ff5ce7ba1339102ad63a28b3991f/django_monkey_patches-3.0.0.tar.gz
+[2024-05-01 00:24:04] INFO root fetch - processPackages [chalkpy]: Downloading https://files.pythonhosted.org/packages/37/52/5c69a74a70d94d61d88e81cf17862496f7cd9ebd0725d75f357f252f3052/chalkpy-2.9.8.tar.gz
+[2024-05-01 00:24:04] INFO root fetch - processPackages [basic-data-structure]: executing diffoscope
+[2024-05-01 00:24:04] INFO root fetch - processPackages [basic-data-structure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/basic_data_structure-0.0.4.tar.gz tmp/basic_data_structure-0.0.5.tar.gz --markdown 20240501/b/basic-data-structure/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-01 00:24:04] INFO root fetch - processPackages [django-monkey-patches]: executing diffoscope
+[2024-05-01 00:24:04] INFO root fetch - processPackages [django-monkey-patches]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_monkey_patches-2.9.1.tar.gz tmp/django_monkey_patches-3.0.0.tar.gz --markdown 20240501/d/django-monkey-patches/2.9.1-3.0.0/README.md --exclude *.pyd
+[2024-05-01 00:24:04] INFO root fetch - processPackages [chalkpy]: Downloading https://files.pythonhosted.org/packages/f1/ff/9cdb492bac7076766dffbc16bbff1773bfc5635cfb81b130f720883912c7/chalkpy-2.9.9.tar.gz
+[2024-05-01 00:24:04] INFO root fetch - processPackages [substrate]: Remove: archive file [/home/abi/fetcher/tmp/substrate-120240418.0.10.tar.gz]
+[2024-05-01 00:24:04] INFO root fetch - processPackages [substrate]: Remove: archive file [/home/abi/fetcher/tmp/substrate-120240430.0.0.tar.gz]
+[2024-05-01 00:24:04] INFO root fetch - main [MainThread]: End processing [substrate]: success
+[2024-05-01 00:24:04] INFO root fetch - processPackages [chalkpy]: executing diffoscope
+[2024-05-01 00:24:04] INFO root fetch - processPackages [chalkpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chalkpy-2.9.8.tar.gz tmp/chalkpy-2.9.9.tar.gz --markdown 20240501/c/chalkpy/2.9.8-2.9.9/README.md --exclude *.pyd
+[2024-05-01 00:24:04] INFO root fetch - processPackages [basic-data-structure]: Remove: archive file [/home/abi/fetcher/tmp/basic_data_structure-0.0.4.tar.gz]
+[2024-05-01 00:24:04] INFO root fetch - processPackages [basic-data-structure]: Remove: archive file [/home/abi/fetcher/tmp/basic_data_structure-0.0.5.tar.gz]
+[2024-05-01 00:24:04] INFO root fetch - main [MainThread]: End processing [basic-data-structure]: success
+[2024-05-01 00:24:04] INFO root fetch - processPackages [django-monkey-patches]: Remove: archive file [/home/abi/fetcher/tmp/django_monkey_patches-2.9.1.tar.gz]
+[2024-05-01 00:24:04] INFO root fetch - processPackages [django-monkey-patches]: Remove: archive file [/home/abi/fetcher/tmp/django_monkey_patches-3.0.0.tar.gz]
+[2024-05-01 00:24:04] INFO root fetch - main [MainThread]: End processing [django-monkey-patches]: success
+[2024-05-01 00:24:06] INFO root fetch - processPackages [chalkpy]: Remove: archive file [/home/abi/fetcher/tmp/chalkpy-2.9.8.tar.gz]
+[2024-05-01 00:24:06] INFO root fetch - processPackages [chalkpy]: Remove: archive file [/home/abi/fetcher/tmp/chalkpy-2.9.9.tar.gz]
+[2024-05-01 00:24:06] INFO root fetch - main [MainThread]: End processing [chalkpy]: success
+[2024-05-01 00:24:06] INFO root fetch - main [MainThread]: Store serial: [23008950]
