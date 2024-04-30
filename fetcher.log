@@ -918,3 +918,67 @@
 [2024-05-01 01:01:44] INFO root fetch - processPackages [django-restit]: Remove: archive file [/home/abi/fetcher/tmp/django_restit-4.2.9.tar.gz]
 [2024-05-01 01:01:44] INFO root fetch - main [MainThread]: End processing [django-restit]: success
 [2024-05-01 01:01:44] INFO root fetch - main [MainThread]: Store serial: [23009177]
+[2024-05-01 01:03:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23009177]
+[2024-05-01 01:03:52] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-01 01:03:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Wolfy-Avatar-Plugin
+[2024-05-01 01:03:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: quantagonia-api-client
+[2024-05-01 01:03:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sweepai
+[2024-05-01 01:03:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: finbourne-horizon-sdk
+[2024-05-01 01:03:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: azure-functions
+[2024-05-01 01:03:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Wolfy-Avatar-Plugin
+[2024-05-01 01:03:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: brevian
+[2024-05-01 01:03:53] INFO root fetch - processPackages [Wolfy-Avatar-Plugin]: New version: [0.0.60.post0] Old Version: [0.0.44.post0]
+[2024-05-01 01:03:53] INFO root fetch - processPackages [Wolfy-Avatar-Plugin]: New version: [0.0.60.post0] Old Version: [0.0.44.post0]
+[2024-05-01 01:03:53] INFO root fetch - processPackages [finbourne-horizon-sdk]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-05-01 01:03:53] INFO root fetch - processPackages [Wolfy-Avatar-Plugin]: Downloading https://files.pythonhosted.org/packages/ec/49/58ba076692dac99e31fbeb03a43ed8482d8d6ef5aa74d38fce4e807aa62a/wolfy_avatar_plugin-0.0.44.post0.tar.gz
+[2024-05-01 01:03:53] INFO root fetch - processPackages [quantagonia-api-client]: New version: [0.9] Old Version: [0.84]
+[2024-05-01 01:03:53] INFO root fetch - processPackages [Wolfy-Avatar-Plugin]: Downloading https://files.pythonhosted.org/packages/ec/49/58ba076692dac99e31fbeb03a43ed8482d8d6ef5aa74d38fce4e807aa62a/wolfy_avatar_plugin-0.0.44.post0.tar.gz
+[2024-05-01 01:03:53] INFO root fetch - processPackages [sweepai]: New version: [2.1.0] Old Version: [2.0.2]
+[2024-05-01 01:03:53] INFO root fetch - processPackages [finbourne-horizon-sdk]: Downloading https://files.pythonhosted.org/packages/67/4d/e1a8441c0793c287231aa24b799798d11cf616a132506eff04205a00f779/finbourne_horizon_sdk-2.1.8.tar.gz
+[2024-05-01 01:03:53] INFO root fetch - processPackages [azure-functions]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-01 01:03:53] INFO root fetch - processPackages [brevian]: New version: [0.1.4] Old Version: [0.1.1a0]
+[2024-05-01 01:03:53] INFO root fetch - processPackages [quantagonia-api-client]: Downloading https://files.pythonhosted.org/packages/4a/f4/02ed376cca34c1b479399fb70054f1040fe1795065b0255e5f77ba1db12f/quantagonia_api_client-0.84-py3-none-any.whl
+[2024-05-01 01:03:53] INFO root fetch - processPackages [sweepai]: Downloading https://files.pythonhosted.org/packages/22/32/9c7d33ac9aaec5f1b7ea45b449018b558581d630485a139fc9b0d3047efa/sweepai-2.0.2.tar.gz
+[2024-05-01 01:03:53] INFO root fetch - processPackages [azure-functions]: Downloading https://files.pythonhosted.org/packages/3c/3c/c4e17165fd6b5b03977cd0cde66146f6faea9d172d0328ba52f04dc24b84/azure-functions-1.8.0.tar.gz
+[2024-05-01 01:03:53] INFO root fetch - processPackages [finbourne-horizon-sdk]: Downloading https://files.pythonhosted.org/packages/df/fa/2361b9179baf6e0ef8aa5667c5bf5ef7c28a98660f52bb7a7c8671f43c8e/finbourne_horizon_sdk-2.1.9.tar.gz
+[2024-05-01 01:03:53] INFO root fetch - processPackages [brevian]: Downloading https://files.pythonhosted.org/packages/e9/22/4be2b00ba86f86a1933de6e740192c76a306d66b040293cb316965937329/brevian-0.1.1a0.tar.gz
+[2024-05-01 01:03:53] INFO root fetch - processPackages [Wolfy-Avatar-Plugin]: Downloading https://files.pythonhosted.org/packages/6a/b7/34c0f5dc9ee1fe5fcb6b5c848710317c340306ac7d1bf89b67f29eea229d/wolfy_avatar_plugin-0.0.60.post0.tar.gz
+[2024-05-01 01:03:53] INFO root fetch - processPackages [Wolfy-Avatar-Plugin]: Downloading https://files.pythonhosted.org/packages/6a/b7/34c0f5dc9ee1fe5fcb6b5c848710317c340306ac7d1bf89b67f29eea229d/wolfy_avatar_plugin-0.0.60.post0.tar.gz
+[2024-05-01 01:03:53] INFO root fetch - processPackages [finbourne-horizon-sdk]: executing diffoscope
+[2024-05-01 01:03:53] INFO root fetch - processPackages [finbourne-horizon-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne_horizon_sdk-2.1.8.tar.gz tmp/finbourne_horizon_sdk-2.1.9.tar.gz --markdown 20240501/f/finbourne-horizon-sdk/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-05-01 01:03:53] INFO root fetch - processPackages [quantagonia-api-client]: Downloading https://files.pythonhosted.org/packages/c0/8a/99d6b2080083bf41294ba1392115da6aeb883b82e42ce645a09a7a8a9152/quantagonia_api_client-0.9-py3-none-any.whl
+[2024-05-01 01:03:53] INFO root fetch - processPackages [Wolfy-Avatar-Plugin]: executing diffoscope
+[2024-05-01 01:03:53] INFO root fetch - processPackages [Wolfy-Avatar-Plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wolfy_avatar_plugin-0.0.44.post0.tar.gz tmp/wolfy_avatar_plugin-0.0.60.post0.tar.gz --markdown 20240501/W/Wolfy-Avatar-Plugin/0.0.44.post0-0.0.60.post0/README.md --exclude *.pyd
+[2024-05-01 01:03:53] INFO root fetch - processPackages [Wolfy-Avatar-Plugin]: executing diffoscope
+[2024-05-01 01:03:53] INFO root fetch - processPackages [Wolfy-Avatar-Plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wolfy_avatar_plugin-0.0.44.post0.tar.gz tmp/wolfy_avatar_plugin-0.0.60.post0.tar.gz --markdown 20240501/W/Wolfy-Avatar-Plugin/0.0.44.post0-0.0.60.post0/README.md --exclude *.pyd
+[2024-05-01 01:03:53] INFO root fetch - processPackages [quantagonia-api-client]: executing diffoscope
+[2024-05-01 01:03:53] INFO root fetch - processPackages [quantagonia-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantagonia_api_client-0.84-py3-none-any.whl.zip tmp/quantagonia_api_client-0.9-py3-none-any.whl.zip --markdown 20240501/q/quantagonia-api-client/0.84-0.9/README.md --exclude *.pyd
+[2024-05-01 01:03:53] INFO root fetch - processPackages [sweepai]: Downloading https://files.pythonhosted.org/packages/17/2c/5b237b2c319cb7533b5c6afc7bed065889c6336c12ab00ba8713e0a994ff/sweepai-2.1.0.tar.gz
+[2024-05-01 01:03:53] INFO root fetch - processPackages [azure-functions]: Downloading https://files.pythonhosted.org/packages/6b/d4/8785842fbd937b2ee077478b7ac3eed6f545c330851a850860c3c2e2a300/azure-functions-1.9.0.tar.gz
+[2024-05-01 01:03:53] INFO root fetch - processPackages [brevian]: Downloading https://files.pythonhosted.org/packages/4e/7f/b40b90a7d0b188699cbb900f76c96899dc638773ee15d551edfd1ac123ea/brevian-0.1.4.tar.gz
+[2024-05-01 01:03:54] INFO root fetch - processPackages [sweepai]: executing diffoscope
+[2024-05-01 01:03:54] INFO root fetch - processPackages [sweepai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sweepai-2.0.2.tar.gz tmp/sweepai-2.1.0.tar.gz --markdown 20240501/s/sweepai/2.0.2-2.1.0/README.md --exclude *.pyd
+[2024-05-01 01:03:54] INFO root fetch - processPackages [azure-functions]: executing diffoscope
+[2024-05-01 01:03:54] INFO root fetch - processPackages [azure-functions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure-functions-1.8.0.tar.gz tmp/azure-functions-1.9.0.tar.gz --markdown 20240501/a/azure-functions/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-05-01 01:03:54] INFO root fetch - processPackages [brevian]: executing diffoscope
+[2024-05-01 01:03:54] INFO root fetch - processPackages [brevian]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brevian-0.1.1a0.tar.gz tmp/brevian-0.1.4.tar.gz --markdown 20240501/b/brevian/0.1.1a0-0.1.4/README.md --exclude *.pyd
+[2024-05-01 01:03:54] INFO root fetch - processPackages [Wolfy-Avatar-Plugin]: Remove: archive file [/home/abi/fetcher/tmp/wolfy_avatar_plugin-0.0.44.post0.tar.gz]
+[2024-05-01 01:03:54] INFO root fetch - processPackages [Wolfy-Avatar-Plugin]: Remove: archive file [/home/abi/fetcher/tmp/wolfy_avatar_plugin-0.0.60.post0.tar.gz]
+[2024-05-01 01:03:54] INFO root fetch - main [MainThread]: End processing [Wolfy-Avatar-Plugin]: success
+[2024-05-01 01:03:54] INFO root fetch - main [MainThread]: End processing [Wolfy-Avatar-Plugin]: success
+[2024-05-01 01:03:54] INFO root fetch - processPackages [quantagonia-api-client]: Remove: archive file [/home/abi/fetcher/tmp/quantagonia_api_client-0.84-py3-none-any.whl.zip]
+[2024-05-01 01:03:54] INFO root fetch - processPackages [quantagonia-api-client]: Remove: archive file [/home/abi/fetcher/tmp/quantagonia_api_client-0.9-py3-none-any.whl.zip]
+[2024-05-01 01:03:54] INFO root fetch - main [MainThread]: End processing [quantagonia-api-client]: success
+[2024-05-01 01:03:54] INFO root fetch - processPackages [finbourne-horizon-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_horizon_sdk-2.1.8.tar.gz]
+[2024-05-01 01:03:54] INFO root fetch - processPackages [finbourne-horizon-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_horizon_sdk-2.1.9.tar.gz]
+[2024-05-01 01:03:54] INFO root fetch - main [MainThread]: End processing [finbourne-horizon-sdk]: success
+[2024-05-01 01:03:54] INFO root fetch - processPackages [brevian]: Remove: archive file [/home/abi/fetcher/tmp/brevian-0.1.1a0.tar.gz]
+[2024-05-01 01:03:54] INFO root fetch - processPackages [brevian]: Remove: archive file [/home/abi/fetcher/tmp/brevian-0.1.4.tar.gz]
+[2024-05-01 01:03:54] INFO root fetch - main [MainThread]: End processing [brevian]: success
+[2024-05-01 01:03:54] INFO root fetch - processPackages [azure-functions]: Remove: archive file [/home/abi/fetcher/tmp/azure-functions-1.8.0.tar.gz]
+[2024-05-01 01:03:54] INFO root fetch - processPackages [azure-functions]: Remove: archive file [/home/abi/fetcher/tmp/azure-functions-1.9.0.tar.gz]
+[2024-05-01 01:03:54] INFO root fetch - main [MainThread]: End processing [azure-functions]: success
+[2024-05-01 01:03:55] INFO root fetch - processPackages [sweepai]: Remove: archive file [/home/abi/fetcher/tmp/sweepai-2.0.2.tar.gz]
+[2024-05-01 01:03:55] INFO root fetch - processPackages [sweepai]: Remove: archive file [/home/abi/fetcher/tmp/sweepai-2.1.0.tar.gz]
+[2024-05-01 01:03:55] INFO root fetch - main [MainThread]: End processing [sweepai]: success
+[2024-05-01 01:03:55] INFO root fetch - main [MainThread]: Store serial: [23009197]
