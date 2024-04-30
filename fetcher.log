@@ -132,3 +132,31 @@
 [2024-05-01 00:09:18] INFO root fetch - processPackages [slimgui]: Remove: archive file [/home/abi/fetcher/tmp/slimgui-0.0.1.post1-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2024-05-01 00:09:18] INFO root fetch - main [MainThread]: End processing [slimgui]: success
 [2024-05-01 00:09:18] INFO root fetch - main [MainThread]: Store serial: [23008870]
+[2024-05-01 00:11:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23008870]
+[2024-05-01 00:11:26] INFO root fetch - main [MainThread]: No changed packages found
+[2024-05-01 00:13:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23008874]
+[2024-05-01 00:13:33] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-01 00:13:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: NEMO-CE
+[2024-05-01 00:13:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rship-sdk
+[2024-05-01 00:13:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: datajunction-server
+[2024-05-01 00:13:33] INFO root fetch - processPackages [rship-sdk]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-01 00:13:33] INFO root fetch - processPackages [NEMO-CE]: New version: [2.4.4] Old Version: [2.4.3]
+[2024-05-01 00:13:33] INFO root fetch - processPackages [datajunction-server]: New version: [0.0.1a8] Old Version: [0.0.1a7]
+[2024-05-01 00:13:33] INFO root fetch - processPackages [NEMO-CE]: Downloading https://files.pythonhosted.org/packages/7e/60/2dab833fa5ff8f3f50391a77d69f5bc7c844ec6b1dd3ca69d9eccef3bee1/NEMO_CE-2.4.3-py3-none-any.whl
+[2024-05-01 00:13:33] INFO root fetch - processPackages [rship-sdk]: Downloading https://files.pythonhosted.org/packages/3a/59/54682cd06bcbefd5dde8d84fb3de98d90b0b8e120a88abcece0c610e21bf/rship-sdk-0.0.8.tar.gz
+[2024-05-01 00:13:33] INFO root fetch - processPackages [datajunction-server]: Downloading https://files.pythonhosted.org/packages/5e/74/837b55d32da7e6b69cec7b2da69fbb3dcc2a71dc1ee1e0d3dd407363f091/datajunction_server-0.0.1a8.tar.gz
+[2024-05-01 00:13:33] WARNING root fetch - processPackages [datajunction-server]: Skipping package: exceeds size limit 25698763>=10485760
+[2024-05-01 00:13:33] INFO root fetch - main [MainThread]: End processing [datajunction-server] error
+[2024-05-01 00:13:33] INFO root fetch - processPackages [rship-sdk]: Downloading https://files.pythonhosted.org/packages/e2/03/acdd2ce759ba46fd3d4908fec2c95091d80ad09dab18be18f29f9cc8f62a/rship-sdk-0.0.9.tar.gz
+[2024-05-01 00:13:34] INFO root fetch - processPackages [rship-sdk]: executing diffoscope
+[2024-05-01 00:13:34] INFO root fetch - processPackages [rship-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rship-sdk-0.0.8.tar.gz tmp/rship-sdk-0.0.9.tar.gz --markdown 20240501/r/rship-sdk/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-01 00:13:34] INFO root fetch - processPackages [NEMO-CE]: Downloading https://files.pythonhosted.org/packages/17/b0/800ec529b3dd7701278be7e9a3ff3d04b7dc85ebf30bc821a6bfb6553337/NEMO_CE-2.4.4-py3-none-any.whl
+[2024-05-01 00:13:34] INFO root fetch - processPackages [NEMO-CE]: executing diffoscope
+[2024-05-01 00:13:34] INFO root fetch - processPackages [NEMO-CE]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NEMO_CE-2.4.3-py3-none-any.whl.zip tmp/NEMO_CE-2.4.4-py3-none-any.whl.zip --markdown 20240501/N/NEMO-CE/2.4.3-2.4.4/README.md --exclude *.pyd
+[2024-05-01 00:13:34] INFO root fetch - processPackages [rship-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rship-sdk-0.0.8.tar.gz]
+[2024-05-01 00:13:34] INFO root fetch - processPackages [rship-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rship-sdk-0.0.9.tar.gz]
+[2024-05-01 00:13:34] INFO root fetch - main [MainThread]: End processing [rship-sdk]: success
+[2024-05-01 00:13:36] INFO root fetch - processPackages [NEMO-CE]: Remove: archive file [/home/abi/fetcher/tmp/NEMO_CE-2.4.3-py3-none-any.whl.zip]
+[2024-05-01 00:13:36] INFO root fetch - processPackages [NEMO-CE]: Remove: archive file [/home/abi/fetcher/tmp/NEMO_CE-2.4.4-py3-none-any.whl.zip]
+[2024-05-01 00:13:36] INFO root fetch - main [MainThread]: End processing [NEMO-CE]: success
+[2024-05-01 00:13:36] INFO root fetch - main [MainThread]: Store serial: [23008883]
