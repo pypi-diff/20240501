@@ -1074,3 +1074,33 @@
 [2024-05-01 01:08:17] INFO root fetch - processPackages [datasurface]: Remove: archive file [/home/abi/fetcher/tmp/datasurface-0.0.9.tar.gz]
 [2024-05-01 01:08:17] INFO root fetch - main [MainThread]: End processing [datasurface]: success
 [2024-05-01 01:08:17] INFO root fetch - main [MainThread]: Store serial: [23009228]
+[2024-05-01 01:10:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23009228]
+[2024-05-01 01:10:25] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-01 01:10:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nbappinator
+[2024-05-01 01:10:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: strax
+[2024-05-01 01:10:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: phylo-match
+[2024-05-01 01:10:25] INFO root fetch - processPackages [nbappinator]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-01 01:10:25] INFO root fetch - processPackages [phylo-match]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-01 01:10:25] INFO root fetch - processPackages [phylo-match]: Downloading https://files.pythonhosted.org/packages/53/8d/addf08c1a68b621e0e546a0fa142a4a2d17da4f47b8c8f0f39e817575a47/phylo_match-0.1.0.tar.gz
+[2024-05-01 01:10:25] INFO root fetch - processPackages [nbappinator]: Downloading https://files.pythonhosted.org/packages/13/72/aa80f705ce04ba95992d56773986e2c8ea6a0b4cd4df3dafeb84e7d29246/nbappinator-0.0.5.tar.gz
+[2024-05-01 01:10:25] INFO root fetch - processPackages [strax]: New version: [1.6.3] Old Version: [1.6.2]
+[2024-05-01 01:10:26] INFO root fetch - processPackages [strax]: Downloading https://files.pythonhosted.org/packages/a0/45/1908432d07fbc5d2c22691edd1e20b27da9f831e1625c4a64e979c774c5b/strax-1.6.2.tar.gz
+[2024-05-01 01:10:26] INFO root fetch - processPackages [nbappinator]: Downloading https://files.pythonhosted.org/packages/21/d2/dd3b5c3cc25a8abc1ce29c300aab73e4f637d8f8375d79731224a5bdffcb/nbappinator-0.0.6.tar.gz
+[2024-05-01 01:10:26] INFO root fetch - processPackages [phylo-match]: Downloading https://files.pythonhosted.org/packages/c7/79/1a840be1097a8689296a4a79b708d3b6177f38eafd0d3c72f1c34f33f4d3/phylo_match-0.1.1.tar.gz
+[2024-05-01 01:10:26] INFO root fetch - processPackages [nbappinator]: executing diffoscope
+[2024-05-01 01:10:26] INFO root fetch - processPackages [nbappinator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbappinator-0.0.5.tar.gz tmp/nbappinator-0.0.6.tar.gz --markdown 20240501/n/nbappinator/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-01 01:10:26] INFO root fetch - processPackages [phylo-match]: executing diffoscope
+[2024-05-01 01:10:26] INFO root fetch - processPackages [phylo-match]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phylo_match-0.1.0.tar.gz tmp/phylo_match-0.1.1.tar.gz --markdown 20240501/p/phylo-match/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-01 01:10:26] INFO root fetch - processPackages [strax]: Downloading https://files.pythonhosted.org/packages/77/9c/6881e2056c8efd9b50a3d89526b3aaa7fa2fa0c5ef18002c4192752b431f/strax-1.6.3.tar.gz
+[2024-05-01 01:10:26] INFO root fetch - processPackages [strax]: executing diffoscope
+[2024-05-01 01:10:26] INFO root fetch - processPackages [strax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strax-1.6.2.tar.gz tmp/strax-1.6.3.tar.gz --markdown 20240501/s/strax/1.6.2-1.6.3/README.md --exclude *.pyd
+[2024-05-01 01:10:26] INFO root fetch - processPackages [nbappinator]: Remove: archive file [/home/abi/fetcher/tmp/nbappinator-0.0.5.tar.gz]
+[2024-05-01 01:10:26] INFO root fetch - processPackages [nbappinator]: Remove: archive file [/home/abi/fetcher/tmp/nbappinator-0.0.6.tar.gz]
+[2024-05-01 01:10:26] INFO root fetch - main [MainThread]: End processing [nbappinator]: success
+[2024-05-01 01:10:26] INFO root fetch - processPackages [phylo-match]: Remove: archive file [/home/abi/fetcher/tmp/phylo_match-0.1.0.tar.gz]
+[2024-05-01 01:10:26] INFO root fetch - processPackages [phylo-match]: Remove: archive file [/home/abi/fetcher/tmp/phylo_match-0.1.1.tar.gz]
+[2024-05-01 01:10:26] INFO root fetch - main [MainThread]: End processing [phylo-match]: success
+[2024-05-01 01:10:27] INFO root fetch - processPackages [strax]: Remove: archive file [/home/abi/fetcher/tmp/strax-1.6.2.tar.gz]
+[2024-05-01 01:10:27] INFO root fetch - processPackages [strax]: Remove: archive file [/home/abi/fetcher/tmp/strax-1.6.3.tar.gz]
+[2024-05-01 01:10:27] INFO root fetch - main [MainThread]: End processing [strax]: success
+[2024-05-01 01:10:27] INFO root fetch - main [MainThread]: Store serial: [23009237]
