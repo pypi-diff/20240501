@@ -1254,3 +1254,27 @@
 [2024-05-01 01:25:37] INFO root fetch - processPackages [bioimageio.core]: Remove: archive file [/home/abi/fetcher/tmp/bioimageio.core-0.6.2.tar.gz]
 [2024-05-01 01:25:37] INFO root fetch - main [MainThread]: End processing [bioimageio.core]: success
 [2024-05-01 01:25:37] INFO root fetch - main [MainThread]: Store serial: [23009296]
+[2024-05-01 01:27:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23009296]
+[2024-05-01 01:27:45] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-01 01:27:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: straxen
+[2024-05-01 01:27:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sufi
+[2024-05-01 01:27:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nglui
+[2024-05-01 01:27:45] WARNING root fetch - processPackages [sufi]: Skipping, unable to determine old version
+[2024-05-01 01:27:45] INFO root fetch - main [MainThread]: End processing [sufi] error
+[2024-05-01 01:27:45] INFO root fetch - processPackages [nglui]: New version: [3.0.3] Old Version: [3.0.2]
+[2024-05-01 01:27:45] INFO root fetch - processPackages [straxen]: New version: [2.2.2] Old Version: [2.2.1]
+[2024-05-01 01:27:46] INFO root fetch - processPackages [straxen]: Downloading https://files.pythonhosted.org/packages/49/4e/5cd736dc319a346ab29c67f4fc654e54206a124f568465399dc03e6c2ec2/straxen-2.2.1.tar.gz
+[2024-05-01 01:27:46] INFO root fetch - processPackages [nglui]: Downloading https://files.pythonhosted.org/packages/20/0d/6f05422cd491e2041271d09cbf5d2a7c5d1dbd115227dd6906a13940d082/nglui-3.0.2.tar.gz
+[2024-05-01 01:27:46] INFO root fetch - processPackages [nglui]: Downloading https://files.pythonhosted.org/packages/56/e7/ec674d15e7ba949e1147769e24ed2dc5da0cee0b9889b21a2076e68f044b/nglui-3.0.3.tar.gz
+[2024-05-01 01:27:46] INFO root fetch - processPackages [straxen]: Downloading https://files.pythonhosted.org/packages/bc/f2/9e042fe52c26d462830804b6561320594f1fa3a128256e4e788ab6337169/straxen-2.2.2.tar.gz
+[2024-05-01 01:27:46] INFO root fetch - processPackages [nglui]: executing diffoscope
+[2024-05-01 01:27:46] INFO root fetch - processPackages [nglui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nglui-3.0.2.tar.gz tmp/nglui-3.0.3.tar.gz --markdown 20240501/n/nglui/3.0.2-3.0.3/README.md --exclude *.pyd
+[2024-05-01 01:27:46] INFO root fetch - processPackages [straxen]: executing diffoscope
+[2024-05-01 01:27:46] INFO root fetch - processPackages [straxen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/straxen-2.2.1.tar.gz tmp/straxen-2.2.2.tar.gz --markdown 20240501/s/straxen/2.2.1-2.2.2/README.md --exclude *.pyd
+[2024-05-01 01:27:47] INFO root fetch - processPackages [nglui]: Remove: archive file [/home/abi/fetcher/tmp/nglui-3.0.2.tar.gz]
+[2024-05-01 01:27:47] INFO root fetch - processPackages [nglui]: Remove: archive file [/home/abi/fetcher/tmp/nglui-3.0.3.tar.gz]
+[2024-05-01 01:27:47] INFO root fetch - main [MainThread]: End processing [nglui]: success
+[2024-05-01 01:27:47] INFO root fetch - processPackages [straxen]: Remove: archive file [/home/abi/fetcher/tmp/straxen-2.2.1.tar.gz]
+[2024-05-01 01:27:47] INFO root fetch - processPackages [straxen]: Remove: archive file [/home/abi/fetcher/tmp/straxen-2.2.2.tar.gz]
+[2024-05-01 01:27:47] INFO root fetch - main [MainThread]: End processing [straxen]: success
+[2024-05-01 01:27:47] INFO root fetch - main [MainThread]: Store serial: [23009304]
