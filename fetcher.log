@@ -1631,3 +1631,36 @@
 [2024-05-01 01:56:06] INFO root fetch - processPackages [flowmachine]: Remove: archive file [/home/abi/fetcher/tmp/flowmachine-1.9.4.post0.dev76-py3-none-any.whl.zip]
 [2024-05-01 01:56:06] INFO root fetch - main [MainThread]: End processing [flowmachine]: success
 [2024-05-01 01:56:06] INFO root fetch - main [MainThread]: Store serial: [23009434]
+[2024-05-01 01:58:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23009434]
+[2024-05-01 01:58:14] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-01 01:58:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: DiadFit
+[2024-05-01 01:58:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: homeio-fr
+[2024-05-01 01:58:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: beit3-gml
+[2024-05-01 01:58:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bany
+[2024-05-01 01:58:14] INFO root fetch - processPackages [bany]: New version: [1.4.4] Old Version: [1.4.3]
+[2024-05-01 01:58:14] WARNING root fetch - processPackages [homeio-fr]: Skipping, unable to determine old version
+[2024-05-01 01:58:14] INFO root fetch - main [MainThread]: End processing [homeio-fr] error
+[2024-05-01 01:58:14] INFO root fetch - processPackages [bany]: Downloading https://files.pythonhosted.org/packages/e4/bb/13760604ac4582ae57361e66b9140379e8001cbf0228776f3e0ebc9fa516/bany-1.4.3.tar.gz
+[2024-05-01 01:58:14] INFO root fetch - processPackages [beit3-gml]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-01 01:58:14] INFO root fetch - processPackages [DiadFit]: New version: [0.0.90] Old Version: [0.0.88]
+[2024-05-01 01:58:14] INFO root fetch - processPackages [DiadFit]: Downloading https://files.pythonhosted.org/packages/bc/33/ba63f4247cf16bb7b21788fb795b50235b31f4403f2c401310a6d625005d/DiadFit-0.0.88.tar.gz
+[2024-05-01 01:58:14] INFO root fetch - processPackages [bany]: Downloading https://files.pythonhosted.org/packages/13/82/db0e40dac6d34ab7180ecef6e900f0cf2cb2483e49f0184871534d4e1a6f/bany-1.4.4.tar.gz
+[2024-05-01 01:58:14] INFO root fetch - processPackages [beit3-gml]: Downloading https://files.pythonhosted.org/packages/71/3e/2a5209afc6f5bfdcc476629d6c6c777f5a6666b84a53e1fa556937aa867a/beit3_gml-0.1.1-py3-none-any.whl
+[2024-05-01 01:58:14] INFO root fetch - processPackages [bany]: executing diffoscope
+[2024-05-01 01:58:14] INFO root fetch - processPackages [bany]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bany-1.4.3.tar.gz tmp/bany-1.4.4.tar.gz --markdown 20240501/b/bany/1.4.3-1.4.4/README.md --exclude *.pyd
+[2024-05-01 01:58:15] INFO root fetch - processPackages [beit3-gml]: Downloading https://files.pythonhosted.org/packages/87/82/6d58dc5a395cde324580a57f25b83ee87e0704dc99da87b5cd77b57465db/beit3_gml-0.1.2-py3-none-any.whl
+[2024-05-01 01:58:15] INFO root fetch - processPackages [beit3-gml]: executing diffoscope
+[2024-05-01 01:58:15] INFO root fetch - processPackages [beit3-gml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/beit3_gml-0.1.1-py3-none-any.whl.zip tmp/beit3_gml-0.1.2-py3-none-any.whl.zip --markdown 20240501/b/beit3-gml/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-01 01:58:15] INFO root fetch - processPackages [DiadFit]: Downloading https://files.pythonhosted.org/packages/47/5c/3bfbac73b1c1475a770a959f3330e6441d492fbace17b0e7a81ada736cec/DiadFit-0.0.90.tar.gz
+[2024-05-01 01:58:15] INFO root fetch - processPackages [DiadFit]: executing diffoscope
+[2024-05-01 01:58:15] INFO root fetch - processPackages [DiadFit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DiadFit-0.0.88.tar.gz tmp/DiadFit-0.0.90.tar.gz --markdown 20240501/D/DiadFit/0.0.88-0.0.90/README.md --exclude *.pyd
+[2024-05-01 01:58:15] INFO root fetch - processPackages [bany]: Remove: archive file [/home/abi/fetcher/tmp/bany-1.4.3.tar.gz]
+[2024-05-01 01:58:15] INFO root fetch - processPackages [bany]: Remove: archive file [/home/abi/fetcher/tmp/bany-1.4.4.tar.gz]
+[2024-05-01 01:58:15] INFO root fetch - main [MainThread]: End processing [bany]: success
+[2024-05-01 01:58:15] INFO root fetch - processPackages [beit3-gml]: Remove: archive file [/home/abi/fetcher/tmp/beit3_gml-0.1.1-py3-none-any.whl.zip]
+[2024-05-01 01:58:15] INFO root fetch - processPackages [beit3-gml]: Remove: archive file [/home/abi/fetcher/tmp/beit3_gml-0.1.2-py3-none-any.whl.zip]
+[2024-05-01 01:58:15] INFO root fetch - main [MainThread]: End processing [beit3-gml]: success
+[2024-05-01 01:58:16] INFO root fetch - processPackages [DiadFit]: Remove: archive file [/home/abi/fetcher/tmp/DiadFit-0.0.88.tar.gz]
+[2024-05-01 01:58:16] INFO root fetch - processPackages [DiadFit]: Remove: archive file [/home/abi/fetcher/tmp/DiadFit-0.0.90.tar.gz]
+[2024-05-01 01:58:16] INFO root fetch - main [MainThread]: End processing [DiadFit]: success
+[2024-05-01 01:58:16] INFO root fetch - main [MainThread]: Store serial: [23009445]
