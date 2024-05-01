@@ -17532,3 +17532,63 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-01 13:47:18] INFO root fetch - processPackages [pulumi-databricks]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_databricks-1.9.0a1678745257.tar.gz]
 [2024-05-01 13:47:18] INFO root fetch - main [MainThread]: End processing [pulumi-databricks]: success
 [2024-05-01 13:47:18] INFO root fetch - main [MainThread]: Store serial: [23015984]
+[2024-05-01 13:49:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23015984]
+[2024-05-01 13:49:26] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-01 13:49:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: trytond-project-invoice
+[2024-05-01 13:49:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-outlook-email-backend
+[2024-05-01 13:49:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: trytond-project
+[2024-05-01 13:49:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: configuraptor
+[2024-05-01 13:49:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: icsystemutils
+[2024-05-01 13:49:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: trytond-product-price-list
+[2024-05-01 13:49:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pinjected
+[2024-05-01 13:49:27] INFO root fetch - processPackages [pinjected]: New version: [0.2.48] Old Version: [0.2.47]
+[2024-05-01 13:49:27] INFO root fetch - processPackages [django-outlook-email-backend]: New version: [0.3.8] Old Version: [0.3.7]
+[2024-05-01 13:49:27] INFO root fetch - processPackages [trytond-project-invoice]: New version: [7.2.1] Old Version: [7.2.0]
+[2024-05-01 13:49:27] INFO root fetch - processPackages [configuraptor]: New version: [1.9.2] Old Version: [1.8.0]
+[2024-05-01 13:49:27] INFO root fetch - processPackages [trytond-project-invoice]: Downloading https://files.pythonhosted.org/packages/b9/bf/1d6843904d9084fa7a609e887649e9db55b367f42a08d4312060b2dbb5b0/trytond_project_invoice-7.2.0.tar.gz
+[2024-05-01 13:49:27] WARNING root fetch - processPackages [icsystemutils]: Skipping, unable to determine old version
+[2024-05-01 13:49:27] INFO root fetch - main [MainThread]: End processing [icsystemutils] error
+[2024-05-01 13:49:27] INFO root fetch - processPackages [trytond-project]: New version: [7.2.1] Old Version: [7.2.0]
+[2024-05-01 13:49:27] INFO root fetch - processPackages [pinjected]: Downloading https://files.pythonhosted.org/packages/ac/a7/3d59454a2978c41612592d77e1df4c6d2b2ce9c80302b9aceb56b555e4a1/pinjected-0.2.47.tar.gz
+[2024-05-01 13:49:27] INFO root fetch - processPackages [django-outlook-email-backend]: Downloading https://files.pythonhosted.org/packages/68/a4/c99af8476e0700bb590c3168f873134e4785ac589332d22f257af565aca2/django_outlook_email_backend-0.3.7.tar.gz
+[2024-05-01 13:49:27] INFO root fetch - processPackages [trytond-product-price-list]: New version: [7.2.1] Old Version: [7.2.0]
+[2024-05-01 13:49:27] INFO root fetch - processPackages [trytond-project]: Downloading https://files.pythonhosted.org/packages/a8/46/03492afa729ab13036222dcbd8e82da95dfc0e23886cc321c9ce117b6989/trytond_project-7.2.0.tar.gz
+[2024-05-01 13:49:27] INFO root fetch - processPackages [configuraptor]: Downloading https://files.pythonhosted.org/packages/57/19/34925c0692fe8cf372d2738b4eb23d59ca29288419a5571f3d13d6758c0b/configuraptor-1.8.0.tar.gz
+[2024-05-01 13:49:27] INFO root fetch - processPackages [trytond-product-price-list]: Downloading https://files.pythonhosted.org/packages/04/36/b6a729933245000ddbb2f750c5f633af7be1c4418c9b5dd69879ca2c8594/trytond_product_price_list-7.2.0.tar.gz
+[2024-05-01 13:49:27] INFO root fetch - processPackages [pinjected]: Downloading https://files.pythonhosted.org/packages/31/46/7127ee414cdc30a4b2df0adac82bd6b1745dbcdc9cb1f88d9e767036a500/pinjected-0.2.48.tar.gz
+[2024-05-01 13:49:27] INFO root fetch - processPackages [trytond-project-invoice]: Downloading https://files.pythonhosted.org/packages/c0/57/4395c3a6a951aa14489cdce202277906201ddf207d2cffc8e5459f8ce9b4/trytond_project_invoice-7.2.1.tar.gz
+[2024-05-01 13:49:27] INFO root fetch - processPackages [django-outlook-email-backend]: Downloading https://files.pythonhosted.org/packages/60/82/e7f525c64fd68efb83caf5bda83a4dd5fcf92439fd6391dc1d2a27a4b5c6/django_outlook_email_backend-0.3.8.tar.gz
+[2024-05-01 13:49:27] INFO root fetch - processPackages [trytond-project-invoice]: executing diffoscope
+[2024-05-01 13:49:27] INFO root fetch - processPackages [trytond-project-invoice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_project_invoice-7.2.0.tar.gz tmp/trytond_project_invoice-7.2.1.tar.gz --markdown 20240501/t/trytond-project-invoice/7.2.0-7.2.1/README.md --exclude *.pyd
+[2024-05-01 13:49:27] INFO root fetch - processPackages [django-outlook-email-backend]: executing diffoscope
+[2024-05-01 13:49:27] INFO root fetch - processPackages [django-outlook-email-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_outlook_email_backend-0.3.7.tar.gz tmp/django_outlook_email_backend-0.3.8.tar.gz --markdown 20240501/d/django-outlook-email-backend/0.3.7-0.3.8/README.md --exclude *.pyd
+[2024-05-01 13:49:27] INFO root fetch - processPackages [pinjected]: executing diffoscope
+[2024-05-01 13:49:27] INFO root fetch - processPackages [pinjected]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pinjected-0.2.47.tar.gz tmp/pinjected-0.2.48.tar.gz --markdown 20240501/p/pinjected/0.2.47-0.2.48/README.md --exclude *.pyd
+[2024-05-01 13:49:27] INFO root fetch - processPackages [trytond-project]: Downloading https://files.pythonhosted.org/packages/cf/f8/b22027308f8702cfb763a04763f59ed8a0039bf7b1a5cb0b07ac41bade9e/trytond_project-7.2.1.tar.gz
+[2024-05-01 13:49:27] INFO root fetch - processPackages [configuraptor]: Downloading https://files.pythonhosted.org/packages/c6/5d/8f10cf246fa624fdfd121882fdd621658a55715eeddeac38ddcbe5d0f3f8/configuraptor-1.9.2.tar.gz
+[2024-05-01 13:49:27] INFO root fetch - processPackages [trytond-project]: executing diffoscope
+[2024-05-01 13:49:27] INFO root fetch - processPackages [trytond-project]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_project-7.2.0.tar.gz tmp/trytond_project-7.2.1.tar.gz --markdown 20240501/t/trytond-project/7.2.0-7.2.1/README.md --exclude *.pyd
+[2024-05-01 13:49:27] INFO root fetch - processPackages [trytond-product-price-list]: Downloading https://files.pythonhosted.org/packages/8f/e2/1c874ebd2005cc4459b6522de5cdd5fe67201fc62217bd7957346129e331/trytond_product_price_list-7.2.1.tar.gz
+[2024-05-01 13:49:27] INFO root fetch - processPackages [configuraptor]: executing diffoscope
+[2024-05-01 13:49:27] INFO root fetch - processPackages [configuraptor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/configuraptor-1.8.0.tar.gz tmp/configuraptor-1.9.2.tar.gz --markdown 20240501/c/configuraptor/1.8.0-1.9.2/README.md --exclude *.pyd
+[2024-05-01 13:49:28] INFO root fetch - processPackages [trytond-product-price-list]: executing diffoscope
+[2024-05-01 13:49:28] INFO root fetch - processPackages [trytond-product-price-list]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_product_price_list-7.2.0.tar.gz tmp/trytond_product_price_list-7.2.1.tar.gz --markdown 20240501/t/trytond-product-price-list/7.2.0-7.2.1/README.md --exclude *.pyd
+[2024-05-01 13:49:28] INFO root fetch - processPackages [django-outlook-email-backend]: Remove: archive file [/home/abi/fetcher/tmp/django_outlook_email_backend-0.3.7.tar.gz]
+[2024-05-01 13:49:28] INFO root fetch - processPackages [django-outlook-email-backend]: Remove: archive file [/home/abi/fetcher/tmp/django_outlook_email_backend-0.3.8.tar.gz]
+[2024-05-01 13:49:28] INFO root fetch - main [MainThread]: End processing [django-outlook-email-backend]: success
+[2024-05-01 13:49:28] INFO root fetch - processPackages [trytond-project-invoice]: Remove: archive file [/home/abi/fetcher/tmp/trytond_project_invoice-7.2.0.tar.gz]
+[2024-05-01 13:49:28] INFO root fetch - processPackages [trytond-project-invoice]: Remove: archive file [/home/abi/fetcher/tmp/trytond_project_invoice-7.2.1.tar.gz]
+[2024-05-01 13:49:28] INFO root fetch - main [MainThread]: End processing [trytond-project-invoice]: success
+[2024-05-01 13:49:28] INFO root fetch - processPackages [pinjected]: Remove: archive file [/home/abi/fetcher/tmp/pinjected-0.2.47.tar.gz]
+[2024-05-01 13:49:28] INFO root fetch - processPackages [pinjected]: Remove: archive file [/home/abi/fetcher/tmp/pinjected-0.2.48.tar.gz]
+[2024-05-01 13:49:28] INFO root fetch - main [MainThread]: End processing [pinjected]: success
+[2024-05-01 13:49:28] INFO root fetch - processPackages [trytond-project]: Remove: archive file [/home/abi/fetcher/tmp/trytond_project-7.2.0.tar.gz]
+[2024-05-01 13:49:28] INFO root fetch - processPackages [trytond-project]: Remove: archive file [/home/abi/fetcher/tmp/trytond_project-7.2.1.tar.gz]
+[2024-05-01 13:49:28] INFO root fetch - main [MainThread]: End processing [trytond-project]: success
+[2024-05-01 13:49:28] INFO root fetch - processPackages [trytond-product-price-list]: Remove: archive file [/home/abi/fetcher/tmp/trytond_product_price_list-7.2.0.tar.gz]
+[2024-05-01 13:49:28] INFO root fetch - processPackages [trytond-product-price-list]: Remove: archive file [/home/abi/fetcher/tmp/trytond_product_price_list-7.2.1.tar.gz]
+[2024-05-01 13:49:28] INFO root fetch - main [MainThread]: End processing [trytond-product-price-list]: success
+[2024-05-01 13:49:28] INFO root fetch - processPackages [configuraptor]: Remove: archive file [/home/abi/fetcher/tmp/configuraptor-1.8.0.tar.gz]
+[2024-05-01 13:49:28] INFO root fetch - processPackages [configuraptor]: Remove: archive file [/home/abi/fetcher/tmp/configuraptor-1.9.2.tar.gz]
+[2024-05-01 13:49:28] INFO root fetch - main [MainThread]: End processing [configuraptor]: success
+[2024-05-01 13:49:28] INFO root fetch - main [MainThread]: Store serial: [23016005]
