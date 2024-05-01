@@ -22475,3 +22475,60 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-01 16:27:13] INFO root fetch - processPackages [azuresphere_imagemetadata]: Remove: archive file [/home/abi/fetcher/tmp/azuresphere_imagemetadata-0.0.5.tar.gz]
 [2024-05-01 16:27:13] INFO root fetch - main [MainThread]: End processing [azuresphere_imagemetadata]: success
 [2024-05-01 16:27:13] INFO root fetch - main [MainThread]: Store serial: [23017998]
+[2024-05-01 16:29:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23017998]
+[2024-05-01 16:29:22] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-01 16:29:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mongodb-orm
+[2024-05-01 16:29:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fire-opal
+[2024-05-01 16:29:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: scCellFie
+[2024-05-01 16:29:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: flatpack
+[2024-05-01 16:29:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: scrapkit
+[2024-05-01 16:29:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: postnl-ecommerce-sdk
+[2024-05-01 16:29:22] INFO root fetch - processPackages [mongodb-orm]: New version: [0.0.129a3] Old Version: [0.0.129a2]
+[2024-05-01 16:29:22] INFO root fetch - processPackages [scrapkit]: New version: [1.1] Old Version: [1.0]
+[2024-05-01 16:29:22] INFO root fetch - processPackages [fire-opal]: New version: [7.3.0] Old Version: [7.2.0]
+[2024-05-01 16:29:22] INFO root fetch - processPackages [mongodb-orm]: Downloading https://files.pythonhosted.org/packages/14/48/ff20d7440b552a169ff06612b4b449ea026865f92031725f17337333aa7c/mongodb_orm-0.0.129a2.tar.gz
+[2024-05-01 16:29:22] INFO root fetch - processPackages [postnl-ecommerce-sdk]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-01 16:29:22] INFO root fetch - processPackages [scCellFie]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-05-01 16:29:22] INFO root fetch - processPackages [fire-opal]: Downloading https://files.pythonhosted.org/packages/5a/75/49906db0be843b8f87ebc33c180adb4b899db3981465ff7bc8b44ca692c5/fire_opal-7.2.0.tar.gz
+[2024-05-01 16:29:22] INFO root fetch - processPackages [flatpack]: New version: [3.4.1] Old Version: [3.4.0]
+[2024-05-01 16:29:22] INFO root fetch - processPackages [scrapkit]: Downloading https://files.pythonhosted.org/packages/87/ab/ed4c1f5f84e66e6b27731c0375c2378f81d7a2dee6904090a7abb562db22/scrapkit-1.0.tar.gz
+[2024-05-01 16:29:22] INFO root fetch - processPackages [scCellFie]: Downloading https://files.pythonhosted.org/packages/c7/2b/e303eed2448ac8f35bb5a5e7a1a623c3e55dc32ef2a66a60ba841aab7a2a/scCellFie-0.1.7.tar.gz
+[2024-05-01 16:29:22] INFO root fetch - processPackages [fire-opal]: Downloading https://files.pythonhosted.org/packages/51/86/ccef349bf6a9558833b9a7c957b3b7327883fb42db034e9c00effffe5452/fire_opal-7.3.0.tar.gz
+[2024-05-01 16:29:22] INFO root fetch - processPackages [postnl-ecommerce-sdk]: Downloading https://files.pythonhosted.org/packages/a1/81/f66d89d7a3881209835961012f6f7e790177ec04e298a2e53a62344c0ea6/postnl_ecommerce_sdk-1.0.1.tar.gz
+[2024-05-01 16:29:22] INFO root fetch - processPackages [flatpack]: Downloading https://files.pythonhosted.org/packages/e4/04/1d8ff84a3f5eb5417735f12c7e358067a11db36a978a1cb1d8255d807f6c/flatpack-3.4.0.tar.gz
+[2024-05-01 16:29:22] INFO root fetch - processPackages [mongodb-orm]: Downloading https://files.pythonhosted.org/packages/90/64/a30b89782e7b22a7ec7a0576870368afd549380c185cdeb844af31978f81/mongodb_orm-0.0.129a3.tar.gz
+[2024-05-01 16:29:23] INFO root fetch - processPackages [fire-opal]: executing diffoscope
+[2024-05-01 16:29:23] INFO root fetch - processPackages [fire-opal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fire_opal-7.2.0.tar.gz tmp/fire_opal-7.3.0.tar.gz --markdown 20240501/f/fire-opal/7.2.0-7.3.0/README.md --exclude *.pyd
+[2024-05-01 16:29:23] INFO root fetch - processPackages [mongodb-orm]: executing diffoscope
+[2024-05-01 16:29:23] INFO root fetch - processPackages [mongodb-orm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mongodb_orm-0.0.129a2.tar.gz tmp/mongodb_orm-0.0.129a3.tar.gz --markdown 20240501/m/mongodb-orm/0.0.129a2-0.0.129a3/README.md --exclude *.pyd
+[2024-05-01 16:29:23] INFO root fetch - processPackages [scrapkit]: Downloading https://files.pythonhosted.org/packages/4d/1f/bcaf4264a0e1dac235267bfd7a0464cd52cd3c54ae82d3f8fa131a83f39d/scrapkit-1.1.tar.gz
+[2024-05-01 16:29:23] INFO root fetch - processPackages [flatpack]: Downloading https://files.pythonhosted.org/packages/65/78/38dbf54a1af32bd65cf64b7ed92b5ebbfaa9f7c928e04f0e5ed5a81609ea/flatpack-3.4.1.tar.gz
+[2024-05-01 16:29:23] INFO root fetch - processPackages [scrapkit]: executing diffoscope
+[2024-05-01 16:29:23] INFO root fetch - processPackages [scrapkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrapkit-1.0.tar.gz tmp/scrapkit-1.1.tar.gz --markdown 20240501/s/scrapkit/1.0-1.1/README.md --exclude *.pyd
+[2024-05-01 16:29:23] INFO root fetch - processPackages [scCellFie]: Downloading https://files.pythonhosted.org/packages/cf/39/e4dc4b44b23dfbae895c6c3e095ecdc83f1274cef1819df89aa565c45d45/sccellfie-0.1.8.tar.gz
+[2024-05-01 16:29:23] INFO root fetch - processPackages [postnl-ecommerce-sdk]: Downloading https://files.pythonhosted.org/packages/84/01/4fa92fb5c65b7cee9b2a1e698710d3b9afc851967d51ad461c8aae90ac7d/postnl_ecommerce_sdk-1.0.2.tar.gz
+[2024-05-01 16:29:23] INFO root fetch - processPackages [flatpack]: executing diffoscope
+[2024-05-01 16:29:23] INFO root fetch - processPackages [flatpack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flatpack-3.4.0.tar.gz tmp/flatpack-3.4.1.tar.gz --markdown 20240501/f/flatpack/3.4.0-3.4.1/README.md --exclude *.pyd
+[2024-05-01 16:29:23] INFO root fetch - processPackages [scCellFie]: executing diffoscope
+[2024-05-01 16:29:23] INFO root fetch - processPackages [scCellFie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scCellFie-0.1.7.tar.gz tmp/sccellfie-0.1.8.tar.gz --markdown 20240501/s/scCellFie/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-05-01 16:29:23] INFO root fetch - processPackages [postnl-ecommerce-sdk]: executing diffoscope
+[2024-05-01 16:29:23] INFO root fetch - processPackages [postnl-ecommerce-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/postnl_ecommerce_sdk-1.0.1.tar.gz tmp/postnl_ecommerce_sdk-1.0.2.tar.gz --markdown 20240501/p/postnl-ecommerce-sdk/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-01 16:29:23] INFO root fetch - processPackages [scrapkit]: Remove: archive file [/home/abi/fetcher/tmp/scrapkit-1.0.tar.gz]
+[2024-05-01 16:29:23] INFO root fetch - processPackages [scrapkit]: Remove: archive file [/home/abi/fetcher/tmp/scrapkit-1.1.tar.gz]
+[2024-05-01 16:29:23] INFO root fetch - main [MainThread]: End processing [scrapkit]: success
+[2024-05-01 16:29:23] INFO root fetch - processPackages [mongodb-orm]: Remove: archive file [/home/abi/fetcher/tmp/mongodb_orm-0.0.129a2.tar.gz]
+[2024-05-01 16:29:23] INFO root fetch - processPackages [mongodb-orm]: Remove: archive file [/home/abi/fetcher/tmp/mongodb_orm-0.0.129a3.tar.gz]
+[2024-05-01 16:29:23] INFO root fetch - main [MainThread]: End processing [mongodb-orm]: success
+[2024-05-01 16:29:23] INFO root fetch - processPackages [fire-opal]: Remove: archive file [/home/abi/fetcher/tmp/fire_opal-7.2.0.tar.gz]
+[2024-05-01 16:29:23] INFO root fetch - processPackages [fire-opal]: Remove: archive file [/home/abi/fetcher/tmp/fire_opal-7.3.0.tar.gz]
+[2024-05-01 16:29:23] INFO root fetch - main [MainThread]: End processing [fire-opal]: success
+[2024-05-01 16:29:24] INFO root fetch - processPackages [flatpack]: Remove: archive file [/home/abi/fetcher/tmp/flatpack-3.4.0.tar.gz]
+[2024-05-01 16:29:24] INFO root fetch - processPackages [flatpack]: Remove: archive file [/home/abi/fetcher/tmp/flatpack-3.4.1.tar.gz]
+[2024-05-01 16:29:24] INFO root fetch - main [MainThread]: End processing [flatpack]: success
+[2024-05-01 16:29:24] INFO root fetch - processPackages [scCellFie]: Remove: archive file [/home/abi/fetcher/tmp/scCellFie-0.1.7.tar.gz]
+[2024-05-01 16:29:24] INFO root fetch - processPackages [scCellFie]: Remove: archive file [/home/abi/fetcher/tmp/sccellfie-0.1.8.tar.gz]
+[2024-05-01 16:29:24] INFO root fetch - main [MainThread]: End processing [scCellFie]: success
+[2024-05-01 16:29:24] INFO root fetch - processPackages [postnl-ecommerce-sdk]: Remove: archive file [/home/abi/fetcher/tmp/postnl_ecommerce_sdk-1.0.1.tar.gz]
+[2024-05-01 16:29:24] INFO root fetch - processPackages [postnl-ecommerce-sdk]: Remove: archive file [/home/abi/fetcher/tmp/postnl_ecommerce_sdk-1.0.2.tar.gz]
+[2024-05-01 16:29:24] INFO root fetch - main [MainThread]: End processing [postnl-ecommerce-sdk]: success
+[2024-05-01 16:29:24] INFO root fetch - main [MainThread]: Store serial: [23018016]
