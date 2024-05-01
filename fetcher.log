@@ -22424,3 +22424,39 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-01 16:22:52] INFO root fetch - processPackages [hyped]: Remove: archive file [/home/abi/fetcher/tmp/hyped-0.1.0a1.tar.gz]
 [2024-05-01 16:22:52] INFO root fetch - main [MainThread]: End processing [hyped]: success
 [2024-05-01 16:22:52] INFO root fetch - main [MainThread]: Store serial: [23017971]
+[2024-05-01 16:24:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23017971]
+[2024-05-01 16:25:02] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-01 16:25:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: DE-DataBaseConnect
+[2024-05-01 16:25:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pytestomatio
+[2024-05-01 16:25:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PyLauncherMPI
+[2024-05-01 16:25:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cybernova
+[2024-05-01 16:25:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: duckcuts
+[2024-05-01 16:25:02] WARNING root fetch - processPackages [duckcuts]: Skipping, unable to determine old version
+[2024-05-01 16:25:02] INFO root fetch - main [MainThread]: End processing [duckcuts] error
+[2024-05-01 16:25:02] INFO root fetch - processPackages [pytestomatio]: New version: [2.2.6] Old Version: [2.2.5]
+[2024-05-01 16:25:02] INFO root fetch - processPackages [DE-DataBaseConnect]: New version: [0.0.80] Old Version: [0.0.77]
+[2024-05-01 16:25:02] INFO root fetch - processPackages [PyLauncherMPI]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-01 16:25:02] WARNING root fetch - processPackages [cybernova]: Skipping, unable to determine old version
+[2024-05-01 16:25:02] INFO root fetch - main [MainThread]: End processing [cybernova] error
+[2024-05-01 16:25:02] INFO root fetch - processPackages [pytestomatio]: Downloading https://files.pythonhosted.org/packages/91/5c/f63fd7b40d9eec76843ac53dab732dc85d743d7cf54dd4d0dd8031c888dd/pytestomatio-2.2.5.tar.gz
+[2024-05-01 16:25:02] INFO root fetch - processPackages [DE-DataBaseConnect]: Downloading https://files.pythonhosted.org/packages/9c/d7/9f35fd33bd45aa12b553028b57d44ada0978c177a003e6bca8c856dee2bb/de_databaseconnect-0.0.77.tar.gz
+[2024-05-01 16:25:02] INFO root fetch - processPackages [PyLauncherMPI]: Downloading https://files.pythonhosted.org/packages/ce/17/87b838bc467601f2a1e141926a0027421a6a33635393a16ed94a0e5e60bb/PyLauncherMPI-0.1.3.tar.gz
+[2024-05-01 16:25:02] INFO root fetch - processPackages [DE-DataBaseConnect]: Downloading https://files.pythonhosted.org/packages/37/1f/d28e0ae4b2178515c372e4f1a739faa82958d88b929ee7851c3273ed9f80/DE_DataBaseConnect-0.0.80.tar.gz
+[2024-05-01 16:25:02] INFO root fetch - processPackages [PyLauncherMPI]: Downloading https://files.pythonhosted.org/packages/59/ab/c3585665d75a6d2943edaed797a0c4537e5a6fb1547a8651f22ab71c297d/PyLauncherMPI-0.1.4.tar.gz
+[2024-05-01 16:25:02] INFO root fetch - processPackages [pytestomatio]: Downloading https://files.pythonhosted.org/packages/80/b1/8aa43920f772c4a648c63676b513b1d19058ff64ccd2d61a31c0dbbe284f/pytestomatio-2.2.6.tar.gz
+[2024-05-01 16:25:02] INFO root fetch - processPackages [DE-DataBaseConnect]: executing diffoscope
+[2024-05-01 16:25:02] INFO root fetch - processPackages [DE-DataBaseConnect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/de_databaseconnect-0.0.77.tar.gz tmp/DE_DataBaseConnect-0.0.80.tar.gz --markdown 20240501/D/DE-DataBaseConnect/0.0.77-0.0.80/README.md --exclude *.pyd
+[2024-05-01 16:25:02] INFO root fetch - processPackages [PyLauncherMPI]: executing diffoscope
+[2024-05-01 16:25:02] INFO root fetch - processPackages [PyLauncherMPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyLauncherMPI-0.1.3.tar.gz tmp/PyLauncherMPI-0.1.4.tar.gz --markdown 20240501/P/PyLauncherMPI/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-01 16:25:02] INFO root fetch - processPackages [pytestomatio]: executing diffoscope
+[2024-05-01 16:25:02] INFO root fetch - processPackages [pytestomatio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytestomatio-2.2.5.tar.gz tmp/pytestomatio-2.2.6.tar.gz --markdown 20240501/p/pytestomatio/2.2.5-2.2.6/README.md --exclude *.pyd
+[2024-05-01 16:25:03] INFO root fetch - processPackages [DE-DataBaseConnect]: Remove: archive file [/home/abi/fetcher/tmp/de_databaseconnect-0.0.77.tar.gz]
+[2024-05-01 16:25:03] INFO root fetch - processPackages [DE-DataBaseConnect]: Remove: archive file [/home/abi/fetcher/tmp/DE_DataBaseConnect-0.0.80.tar.gz]
+[2024-05-01 16:25:03] INFO root fetch - main [MainThread]: End processing [DE-DataBaseConnect]: success
+[2024-05-01 16:25:03] INFO root fetch - processPackages [PyLauncherMPI]: Remove: archive file [/home/abi/fetcher/tmp/PyLauncherMPI-0.1.3.tar.gz]
+[2024-05-01 16:25:03] INFO root fetch - processPackages [PyLauncherMPI]: Remove: archive file [/home/abi/fetcher/tmp/PyLauncherMPI-0.1.4.tar.gz]
+[2024-05-01 16:25:03] INFO root fetch - main [MainThread]: End processing [PyLauncherMPI]: success
+[2024-05-01 16:25:03] INFO root fetch - processPackages [pytestomatio]: Remove: archive file [/home/abi/fetcher/tmp/pytestomatio-2.2.5.tar.gz]
+[2024-05-01 16:25:03] INFO root fetch - processPackages [pytestomatio]: Remove: archive file [/home/abi/fetcher/tmp/pytestomatio-2.2.6.tar.gz]
+[2024-05-01 16:25:03] INFO root fetch - main [MainThread]: End processing [pytestomatio]: success
+[2024-05-01 16:25:03] INFO root fetch - main [MainThread]: Store serial: [23017990]
