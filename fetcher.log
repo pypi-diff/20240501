@@ -9018,3 +9018,33 @@
 [2024-05-01 06:35:45] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-account]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_ro_stock_account-17.0.1.1.0-py3-none-any.whl.zip]
 [2024-05-01 06:35:45] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-ro-stock-account]: success
 [2024-05-01 06:35:45] INFO root fetch - main [MainThread]: Store serial: [23012265]
+[2024-05-01 06:37:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23012265]
+[2024-05-01 06:37:55] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-01 06:37:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-hcloud
+[2024-05-01 06:37:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-onelogin
+[2024-05-01 06:37:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyiceberg
+[2024-05-01 06:37:55] INFO root fetch - processPackages [pulumi-onelogin]: New version: [0.7.0a1714456775] Old Version: [0.6.3a1714111717]
+[2024-05-01 06:37:55] INFO root fetch - processPackages [pulumi-hcloud]: New version: [1.9.0a1657117726] Old Version: [1.9.0a1654086467]
+[2024-05-01 06:37:55] INFO root fetch - processPackages [pulumi-hcloud]: Downloading https://files.pythonhosted.org/packages/9e/22/c81b563f1969f4bcdaa7c4060d0d67a0d9deb4bc415487e125f459e269e7/pulumi_hcloud-1.9.0a1654086467.tar.gz
+[2024-05-01 06:37:55] INFO root fetch - processPackages [pyiceberg]: New version: [0.6.1rc3] Old Version: [0.6.1rc2]
+[2024-05-01 06:37:55] INFO root fetch - processPackages [pulumi-onelogin]: Downloading https://files.pythonhosted.org/packages/9a/88/5c919441b3086746466872d7a67c1acede3574306c9d8b77144ec23d1601/pulumi_onelogin-0.6.3a1714111717.tar.gz
+[2024-05-01 06:37:55] INFO root fetch - processPackages [pulumi-hcloud]: Downloading https://files.pythonhosted.org/packages/de/c3/b526f6942ee390fb3e0e080d961419b28ee26cada0150934184297ffeb15/pulumi_hcloud-1.9.0a1657117726.tar.gz
+[2024-05-01 06:37:55] INFO root fetch - processPackages [pulumi-hcloud]: executing diffoscope
+[2024-05-01 06:37:55] INFO root fetch - processPackages [pulumi-hcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_hcloud-1.9.0a1654086467.tar.gz tmp/pulumi_hcloud-1.9.0a1657117726.tar.gz --markdown 20240501/p/pulumi-hcloud/1.9.0a1654086467-1.9.0a1657117726/README.md --exclude *.pyd
+[2024-05-01 06:37:55] INFO root fetch - processPackages [pulumi-onelogin]: Downloading https://files.pythonhosted.org/packages/27/a3/ddcee4b89a475f2ffb763d04d076ff7b384d671743c55d53015bde4dddfc/pulumi_onelogin-0.7.0a1714456775.tar.gz
+[2024-05-01 06:37:55] INFO root fetch - processPackages [pyiceberg]: Downloading https://files.pythonhosted.org/packages/cb/0e/76246372e06a91babea647341f8f4555f2d91832082aa9f7ad6cd197f8e2/pyiceberg-0.6.1rc2.tar.gz
+[2024-05-01 06:37:55] INFO root fetch - processPackages [pulumi-onelogin]: executing diffoscope
+[2024-05-01 06:37:55] INFO root fetch - processPackages [pulumi-onelogin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_onelogin-0.6.3a1714111717.tar.gz tmp/pulumi_onelogin-0.7.0a1714456775.tar.gz --markdown 20240501/p/pulumi-onelogin/0.6.3a1714111717-0.7.0a1714456775/README.md --exclude *.pyd
+[2024-05-01 06:37:56] INFO root fetch - processPackages [pyiceberg]: Downloading https://files.pythonhosted.org/packages/5c/13/fe9e0b419f2e42963d4b9360cd7c9ac9fc77b683c5449b85bd4728360e15/pyiceberg-0.6.1rc3.tar.gz
+[2024-05-01 06:37:56] INFO root fetch - processPackages [pyiceberg]: executing diffoscope
+[2024-05-01 06:37:56] INFO root fetch - processPackages [pyiceberg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyiceberg-0.6.1rc2.tar.gz tmp/pyiceberg-0.6.1rc3.tar.gz --markdown 20240501/p/pyiceberg/0.6.1rc2-0.6.1rc3/README.md --exclude *.pyd
+[2024-05-01 06:37:56] INFO root fetch - processPackages [pulumi-hcloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_hcloud-1.9.0a1654086467.tar.gz]
+[2024-05-01 06:37:56] INFO root fetch - processPackages [pulumi-hcloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_hcloud-1.9.0a1657117726.tar.gz]
+[2024-05-01 06:37:56] INFO root fetch - main [MainThread]: End processing [pulumi-hcloud]: success
+[2024-05-01 06:37:56] INFO root fetch - processPackages [pulumi-onelogin]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_onelogin-0.6.3a1714111717.tar.gz]
+[2024-05-01 06:37:56] INFO root fetch - processPackages [pulumi-onelogin]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_onelogin-0.7.0a1714456775.tar.gz]
+[2024-05-01 06:37:56] INFO root fetch - main [MainThread]: End processing [pulumi-onelogin]: success
+[2024-05-01 06:37:57] INFO root fetch - processPackages [pyiceberg]: Remove: archive file [/home/abi/fetcher/tmp/pyiceberg-0.6.1rc2.tar.gz]
+[2024-05-01 06:37:57] INFO root fetch - processPackages [pyiceberg]: Remove: archive file [/home/abi/fetcher/tmp/pyiceberg-0.6.1rc3.tar.gz]
+[2024-05-01 06:37:57] INFO root fetch - main [MainThread]: End processing [pyiceberg]: success
+[2024-05-01 06:37:57] INFO root fetch - main [MainThread]: Store serial: [23012279]
