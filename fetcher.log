@@ -7086,3 +7086,19 @@
 [2024-05-01 04:03:38] INFO root fetch - processPackages [sbcli-dev]: Remove: archive file [/home/abi/fetcher/tmp/sbcli_dev-2.4.8.zip]
 [2024-05-01 04:03:38] INFO root fetch - main [MainThread]: End processing [sbcli-dev]: success
 [2024-05-01 04:03:38] INFO root fetch - main [MainThread]: Store serial: [23011400]
+[2024-05-01 04:05:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23011400]
+[2024-05-01 04:05:46] INFO root fetch - main [MainThread]: No changed packages found
+[2024-05-01 04:07:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23011400]
+[2024-05-01 04:07:52] INFO root fetch - main [MainThread]: No changed packages found
+[2024-05-01 04:09:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23011400]
+[2024-05-01 04:09:57] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-01 04:09:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cynetdiff
+[2024-05-01 04:09:57] INFO root fetch - processPackages [cynetdiff]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-01 04:09:57] INFO root fetch - processPackages [cynetdiff]: Downloading https://files.pythonhosted.org/packages/99/58/9587d98e22f845c3d3bf3021a5f276af34ed00486be48947751c66768de1/cynetdiff-0.1.8.tar.gz
+[2024-05-01 04:09:58] INFO root fetch - processPackages [cynetdiff]: Downloading https://files.pythonhosted.org/packages/e7/ce/ab41ce041dbbf4ecd0e9bcb4ad282ffb19b8cdb3aa9ef0d124d08ddfd70f/cynetdiff-0.1.9.tar.gz
+[2024-05-01 04:09:58] INFO root fetch - processPackages [cynetdiff]: executing diffoscope
+[2024-05-01 04:09:58] INFO root fetch - processPackages [cynetdiff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cynetdiff-0.1.8.tar.gz tmp/cynetdiff-0.1.9.tar.gz --markdown 20240501/c/cynetdiff/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-01 04:10:00] INFO root fetch - processPackages [cynetdiff]: Remove: archive file [/home/abi/fetcher/tmp/cynetdiff-0.1.8.tar.gz]
+[2024-05-01 04:10:00] INFO root fetch - processPackages [cynetdiff]: Remove: archive file [/home/abi/fetcher/tmp/cynetdiff-0.1.9.tar.gz]
+[2024-05-01 04:10:00] INFO root fetch - main [MainThread]: End processing [cynetdiff]: success
+[2024-05-01 04:10:00] INFO root fetch - main [MainThread]: Store serial: [23011403]
