@@ -7537,3 +7537,42 @@
 [2024-05-01 04:44:02] INFO root fetch - processPackages [e2b]: Remove: archive file [/home/abi/fetcher/tmp/e2b-0.9.7.tar.gz]
 [2024-05-01 04:44:02] INFO root fetch - main [MainThread]: End processing [e2b]: success
 [2024-05-01 04:44:02] INFO root fetch - main [MainThread]: Store serial: [23011594]
+[2024-05-01 04:46:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23011594]
+[2024-05-01 04:46:11] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-01 04:46:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: modal
+[2024-05-01 04:46:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: getbc
+[2024-05-01 04:46:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: modal-client
+[2024-05-01 04:46:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mphapi
+[2024-05-01 04:46:11] INFO root fetch - processPackages [mphapi]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-05-01 04:46:11] INFO root fetch - processPackages [modal]: New version: [0.62.99] Old Version: [0.62.98]
+[2024-05-01 04:46:11] INFO root fetch - processPackages [mphapi]: Downloading https://files.pythonhosted.org/packages/46/10/6df5dd6a6f1a8ca49f47022641f425560c7dfc4441350f9197a32e81ad30/mphapi-0.3.0.tar.gz
+[2024-05-01 04:46:11] INFO root fetch - processPackages [getbc]: New version: [0.4.0] Old Version: [0.1.0]
+[2024-05-01 04:46:11] INFO root fetch - processPackages [modal]: Downloading https://files.pythonhosted.org/packages/b5/38/bb0788928bcf76bff83916023bd1f84d88b1eb03c43f34ae832eff523ed0/modal-0.62.98-py3-none-any.whl
+[2024-05-01 04:46:11] INFO root fetch - processPackages [modal-client]: New version: [0.62.99] Old Version: [0.62.98]
+[2024-05-01 04:46:11] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/e1/43/8909e36efe8c88188326519159ac1faa149227f01c6a0d968acc30efedde/modal_client-0.62.98-py3-none-any.whl
+[2024-05-01 04:46:11] INFO root fetch - processPackages [mphapi]: Downloading https://files.pythonhosted.org/packages/19/f4/75cb03d472eef0cfd6c04f68e8cd7a157677304284646ba8d3c27e0c1920/mphapi-0.4.0.tar.gz
+[2024-05-01 04:46:12] INFO root fetch - processPackages [getbc]: Downloading https://files.pythonhosted.org/packages/ec/8b/1ac6a047713eba4f1cd583f7644d4edd179ea8e32974af9b532e8d38b866/getbc-0.1.0.tar.gz
+[2024-05-01 04:46:12] INFO root fetch - processPackages [mphapi]: executing diffoscope
+[2024-05-01 04:46:12] INFO root fetch - processPackages [mphapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mphapi-0.3.0.tar.gz tmp/mphapi-0.4.0.tar.gz --markdown 20240501/m/mphapi/0.3.0-0.4.0/README.md --exclude *.pyd
+[2024-05-01 04:46:12] INFO root fetch - processPackages [modal]: Downloading https://files.pythonhosted.org/packages/c7/ec/8086cd0c36b12ca7d4d2ac1f4bf86cbe082ba12dae2dd7c3cccb68a4746e/modal-0.62.99-py3-none-any.whl
+[2024-05-01 04:46:12] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/b4/3a/7e3a60540b0de2b4f28de13c20c04bab97a40c022bd147b48a204b987fc1/modal_client-0.62.99-py3-none-any.whl
+[2024-05-01 04:46:12] INFO root fetch - processPackages [modal-client]: executing diffoscope
+[2024-05-01 04:46:12] INFO root fetch - processPackages [modal-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal_client-0.62.98-py3-none-any.whl.zip tmp/modal_client-0.62.99-py3-none-any.whl.zip --markdown 20240501/m/modal-client/0.62.98-0.62.99/README.md --exclude *.pyd
+[2024-05-01 04:46:12] INFO root fetch - processPackages [modal]: executing diffoscope
+[2024-05-01 04:46:12] INFO root fetch - processPackages [modal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal-0.62.98-py3-none-any.whl.zip tmp/modal-0.62.99-py3-none-any.whl.zip --markdown 20240501/m/modal/0.62.98-0.62.99/README.md --exclude *.pyd
+[2024-05-01 04:46:12] INFO root fetch - processPackages [getbc]: Downloading https://files.pythonhosted.org/packages/fd/c0/d8f5260276d3eb9b109ca3b026b97c4f89ea34a66464c1eae70cb05a02d8/getbc-0.4.0.tar.gz
+[2024-05-01 04:46:12] INFO root fetch - processPackages [getbc]: executing diffoscope
+[2024-05-01 04:46:12] INFO root fetch - processPackages [getbc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/getbc-0.1.0.tar.gz tmp/getbc-0.4.0.tar.gz --markdown 20240501/g/getbc/0.1.0-0.4.0/README.md --exclude *.pyd
+[2024-05-01 04:46:12] INFO root fetch - processPackages [mphapi]: Remove: archive file [/home/abi/fetcher/tmp/mphapi-0.3.0.tar.gz]
+[2024-05-01 04:46:12] INFO root fetch - processPackages [mphapi]: Remove: archive file [/home/abi/fetcher/tmp/mphapi-0.4.0.tar.gz]
+[2024-05-01 04:46:12] INFO root fetch - main [MainThread]: End processing [mphapi]: success
+[2024-05-01 04:46:12] INFO root fetch - processPackages [modal-client]: Remove: archive file [/home/abi/fetcher/tmp/modal_client-0.62.98-py3-none-any.whl.zip]
+[2024-05-01 04:46:12] INFO root fetch - processPackages [modal-client]: Remove: archive file [/home/abi/fetcher/tmp/modal_client-0.62.99-py3-none-any.whl.zip]
+[2024-05-01 04:46:12] INFO root fetch - main [MainThread]: End processing [modal-client]: success
+[2024-05-01 04:46:13] INFO root fetch - processPackages [getbc]: Remove: archive file [/home/abi/fetcher/tmp/getbc-0.1.0.tar.gz]
+[2024-05-01 04:46:13] INFO root fetch - processPackages [getbc]: Remove: archive file [/home/abi/fetcher/tmp/getbc-0.4.0.tar.gz]
+[2024-05-01 04:46:13] INFO root fetch - main [MainThread]: End processing [getbc]: success
+[2024-05-01 04:46:13] INFO root fetch - processPackages [modal]: Remove: archive file [/home/abi/fetcher/tmp/modal-0.62.98-py3-none-any.whl.zip]
+[2024-05-01 04:46:13] INFO root fetch - processPackages [modal]: Remove: archive file [/home/abi/fetcher/tmp/modal-0.62.99-py3-none-any.whl.zip]
+[2024-05-01 04:46:13] INFO root fetch - main [MainThread]: End processing [modal]: success
+[2024-05-01 04:46:13] INFO root fetch - main [MainThread]: Store serial: [23011604]
