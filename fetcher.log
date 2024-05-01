@@ -21899,3 +21899,38 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-01 15:55:17] INFO root fetch - processPackages [tensordict-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensordict_nightly-2024.5.1-cp39-cp39-manylinux1_x86_64.whl.zip]
 [2024-05-01 15:55:17] INFO root fetch - main [MainThread]: End processing [tensordict-nightly]: success
 [2024-05-01 15:55:17] INFO root fetch - main [MainThread]: Store serial: [23017659]
+[2024-05-01 15:57:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23017659]
+[2024-05-01 15:57:26] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-01 15:57:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: email-address-local
+[2024-05-01 15:57:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: FractalArtMaker
+[2024-05-01 15:57:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: emdbva
+[2024-05-01 15:57:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: python-seller-active
+[2024-05-01 15:57:26] INFO root fetch - processPackages [emdbva]: New version: [0.1.2.dev1] Old Version: [0.0.1.dev8]
+[2024-05-01 15:57:26] INFO root fetch - processPackages [email-address-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-01 15:57:26] INFO root fetch - processPackages [email-address-local]: Downloading https://files.pythonhosted.org/packages/a8/f2/75317f90ccacb6655c8fefd773dce9c2359b86e434bf4e98c3aa377dd835/email-address-local-0.0.8.tar.gz
+[2024-05-01 15:57:26] INFO root fetch - processPackages [emdbva]: Downloading https://files.pythonhosted.org/packages/0b/ed/819c08dea6ffadd882526d30413daac295d755fe2e50a8f10693c7467495/emdbva-0.0.1.dev8.tar.gz
+[2024-05-01 15:57:26] INFO root fetch - processPackages [FractalArtMaker]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-05-01 15:57:26] INFO root fetch - processPackages [python-seller-active]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-01 15:57:26] WARNING root fetch - processPackages [emdbva]: Skipping package: exceeds size limit 25862942>=10485760
+[2024-05-01 15:57:26] INFO root fetch - main [MainThread]: End processing [emdbva] error
+[2024-05-01 15:57:26] INFO root fetch - processPackages [FractalArtMaker]: Downloading https://files.pythonhosted.org/packages/fd/9b/481b43861e0c668130dbf96026684edd1a54d709885ce4dedc990a7b15f1/FractalArtMaker-0.1.0.tar.gz
+[2024-05-01 15:57:27] INFO root fetch - processPackages [email-address-local]: Downloading https://files.pythonhosted.org/packages/33/0b/4f49c0e576b54988a9115fa0e8fd17a049b0cfaffdd95e2b721055a03b07/email-address-local-0.0.9.tar.gz
+[2024-05-01 15:57:27] INFO root fetch - processPackages [python-seller-active]: Downloading https://files.pythonhosted.org/packages/3a/da/c9a0d2f6c88100d6f2053461257c6c150a5bfe2a76d46419e727300e8c24/python_seller_active-0.0.4.tar.gz
+[2024-05-01 15:57:27] INFO root fetch - processPackages [email-address-local]: executing diffoscope
+[2024-05-01 15:57:27] INFO root fetch - processPackages [email-address-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/email-address-local-0.0.8.tar.gz tmp/email-address-local-0.0.9.tar.gz --markdown 20240501/e/email-address-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-01 15:57:27] INFO root fetch - processPackages [FractalArtMaker]: Downloading https://files.pythonhosted.org/packages/69/46/3263e22f5be383c5cd3c43d6c6d95c61c338053ab9d0d93c262b778f2631/fractalartmaker-0.2.0.tar.gz
+[2024-05-01 15:57:27] INFO root fetch - processPackages [FractalArtMaker]: executing diffoscope
+[2024-05-01 15:57:27] INFO root fetch - processPackages [FractalArtMaker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FractalArtMaker-0.1.0.tar.gz tmp/fractalartmaker-0.2.0.tar.gz --markdown 20240501/F/FractalArtMaker/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-05-01 15:57:27] INFO root fetch - processPackages [python-seller-active]: Downloading https://files.pythonhosted.org/packages/16/dd/33a321c76d134c91aecebfc55055476fd1525be96cb1f68be06b60500fa7/python_seller_active-0.0.5.tar.gz
+[2024-05-01 15:57:27] INFO root fetch - processPackages [python-seller-active]: executing diffoscope
+[2024-05-01 15:57:27] INFO root fetch - processPackages [python-seller-active]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_seller_active-0.0.4.tar.gz tmp/python_seller_active-0.0.5.tar.gz --markdown 20240501/p/python-seller-active/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-01 15:57:27] INFO root fetch - processPackages [email-address-local]: Remove: archive file [/home/abi/fetcher/tmp/email-address-local-0.0.8.tar.gz]
+[2024-05-01 15:57:27] INFO root fetch - processPackages [email-address-local]: Remove: archive file [/home/abi/fetcher/tmp/email-address-local-0.0.9.tar.gz]
+[2024-05-01 15:57:27] INFO root fetch - main [MainThread]: End processing [email-address-local]: success
+[2024-05-01 15:57:27] INFO root fetch - processPackages [FractalArtMaker]: Remove: archive file [/home/abi/fetcher/tmp/FractalArtMaker-0.1.0.tar.gz]
+[2024-05-01 15:57:27] INFO root fetch - processPackages [FractalArtMaker]: Remove: archive file [/home/abi/fetcher/tmp/fractalartmaker-0.2.0.tar.gz]
+[2024-05-01 15:57:27] INFO root fetch - main [MainThread]: End processing [FractalArtMaker]: success
+[2024-05-01 15:57:28] INFO root fetch - processPackages [python-seller-active]: Remove: archive file [/home/abi/fetcher/tmp/python_seller_active-0.0.4.tar.gz]
+[2024-05-01 15:57:28] INFO root fetch - processPackages [python-seller-active]: Remove: archive file [/home/abi/fetcher/tmp/python_seller_active-0.0.5.tar.gz]
+[2024-05-01 15:57:28] INFO root fetch - main [MainThread]: End processing [python-seller-active]: success
+[2024-05-01 15:57:28] INFO root fetch - main [MainThread]: Store serial: [23017680]
