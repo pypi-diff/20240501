@@ -11386,3 +11386,45 @@
 [2024-05-01 08:52:25] INFO root fetch - processPackages [npc_sessions]: Remove: archive file [/home/abi/fetcher/tmp/npc_sessions-0.0.99.tar.gz]
 [2024-05-01 08:52:25] INFO root fetch - main [MainThread]: End processing [npc_sessions]: success
 [2024-05-01 08:52:25] INFO root fetch - main [MainThread]: Store serial: [23013357]
+[2024-05-01 08:54:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23013357]
+[2024-05-01 08:54:35] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-01 08:54:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-vsphere
+[2024-05-01 08:54:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-vault
+[2024-05-01 08:54:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: awsync
+[2024-05-01 08:54:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mongojet
+[2024-05-01 08:54:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pami
+[2024-05-01 08:54:35] INFO root fetch - processPackages [pulumi-vault]: New version: [6.2.0a1714537907] Old Version: [6.2.0a1714458820]
+[2024-05-01 08:54:35] INFO root fetch - processPackages [pulumi-vsphere]: New version: [4.9.2] Old Version: [4.9.1]
+[2024-05-01 08:54:35] WARNING root fetch - processPackages [awsync]: Skipping, unable to determine old version
+[2024-05-01 08:54:35] INFO root fetch - main [MainThread]: End processing [awsync] error
+[2024-05-01 08:54:35] INFO root fetch - processPackages [pami]: New version: [2024.5.1] Old Version: [2024.4.9.1]
+[2024-05-01 08:54:35] INFO root fetch - processPackages [pulumi-vault]: Downloading https://files.pythonhosted.org/packages/c1/f9/87c1c7f34017e0328f872a3733668c1499f9d1b910cf94694f2f5966ab01/pulumi_vault-6.2.0a1714458820.tar.gz
+[2024-05-01 08:54:35] INFO root fetch - processPackages [pulumi-vsphere]: Downloading https://files.pythonhosted.org/packages/2c/b7/9b9215ee833910abd7a86275fdf600ed12fb1777b5fed56078b15cabaa70/pulumi_vsphere-4.9.1.tar.gz
+[2024-05-01 08:54:35] INFO root fetch - processPackages [mongojet]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-01 08:54:35] INFO root fetch - processPackages [pami]: Downloading https://files.pythonhosted.org/packages/46/a7/dca599df03b4e779f939be80a4ba017d370fa9a4133a445e50509d5c337a/pami-2024.4.9.1.tar.gz
+[2024-05-01 08:54:35] INFO root fetch - processPackages [mongojet]: Downloading https://files.pythonhosted.org/packages/ef/bc/1692c7c47f61f6f4917789dc032717fc8b504fa6059d6f67ff4ece718e92/mongojet-0.1.0.tar.gz
+[2024-05-01 08:54:35] INFO root fetch - processPackages [pulumi-vault]: Downloading https://files.pythonhosted.org/packages/08/be/5144e8bc6a9b0eecb9e2e58ab02cd602fc813530c8ad26c8c330a1054cc0/pulumi_vault-6.2.0a1714537907.tar.gz
+[2024-05-01 08:54:36] INFO root fetch - processPackages [pulumi-vsphere]: Downloading https://files.pythonhosted.org/packages/11/0f/d6e12dc0f0f87ffbedada279d30f59cf591dde549b68503412913fd87d8b/pulumi_vsphere-4.9.2.tar.gz
+[2024-05-01 08:54:36] INFO root fetch - processPackages [pulumi-vault]: executing diffoscope
+[2024-05-01 08:54:36] INFO root fetch - processPackages [pulumi-vault]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_vault-6.2.0a1714458820.tar.gz tmp/pulumi_vault-6.2.0a1714537907.tar.gz --markdown 20240501/p/pulumi-vault/6.2.0a1714458820-6.2.0a1714537907/README.md --exclude *.pyd
+[2024-05-01 08:54:36] INFO root fetch - processPackages [mongojet]: Downloading https://files.pythonhosted.org/packages/8c/49/cdda9c3eb674852affc7549504758c1d91fa60afae5736fa2bfde3deb4de/mongojet-0.1.1-cp39-cp39-manylinux_2_28_aarch64.whl
+[2024-05-01 08:54:36] INFO root fetch - processPackages [pami]: Downloading https://files.pythonhosted.org/packages/db/ba/6e38ff7faf79c5482978affd1bc0efcf51cadaaf66362eabc4afe68e07fc/pami-2024.5.1.tar.gz
+[2024-05-01 08:54:36] INFO root fetch - processPackages [pulumi-vsphere]: executing diffoscope
+[2024-05-01 08:54:36] INFO root fetch - processPackages [pulumi-vsphere]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_vsphere-4.9.1.tar.gz tmp/pulumi_vsphere-4.9.2.tar.gz --markdown 20240501/p/pulumi-vsphere/4.9.1-4.9.2/README.md --exclude *.pyd
+[2024-05-01 08:54:36] INFO root fetch - processPackages [pami]: executing diffoscope
+[2024-05-01 08:54:36] INFO root fetch - processPackages [pami]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pami-2024.4.9.1.tar.gz tmp/pami-2024.5.1.tar.gz --markdown 20240501/p/pami/2024.4.9.1-2024.5.1/README.md --exclude *.pyd
+[2024-05-01 08:54:37] INFO root fetch - processPackages [pulumi-vsphere]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_vsphere-4.9.1.tar.gz]
+[2024-05-01 08:54:37] INFO root fetch - processPackages [pulumi-vsphere]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_vsphere-4.9.2.tar.gz]
+[2024-05-01 08:54:37] INFO root fetch - main [MainThread]: End processing [pulumi-vsphere]: success
+[2024-05-01 08:54:37] INFO root fetch - processPackages [pulumi-vault]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_vault-6.2.0a1714458820.tar.gz]
+[2024-05-01 08:54:37] INFO root fetch - processPackages [pulumi-vault]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_vault-6.2.0a1714537907.tar.gz]
+[2024-05-01 08:54:37] INFO root fetch - main [MainThread]: End processing [pulumi-vault]: success
+[2024-05-01 08:54:39] INFO root fetch - processPackages [pami]: Remove: archive file [/home/abi/fetcher/tmp/pami-2024.4.9.1.tar.gz]
+[2024-05-01 08:54:39] INFO root fetch - processPackages [pami]: Remove: archive file [/home/abi/fetcher/tmp/pami-2024.5.1.tar.gz]
+[2024-05-01 08:54:39] INFO root fetch - main [MainThread]: End processing [pami]: success
+[2024-05-01 08:54:40] INFO root fetch - processPackages [mongojet]: executing diffoscope
+[2024-05-01 08:54:40] INFO root fetch - processPackages [mongojet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mongojet-0.1.0.tar.gz tmp/mongojet-0.1.1-cp39-cp39-manylinux_2_28_aarch64.whl.zip --markdown 20240501/m/mongojet/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-01 08:54:41] INFO root fetch - processPackages [mongojet]: Remove: archive file [/home/abi/fetcher/tmp/mongojet-0.1.0.tar.gz]
+[2024-05-01 08:54:41] INFO root fetch - processPackages [mongojet]: Remove: archive file [/home/abi/fetcher/tmp/mongojet-0.1.1-cp39-cp39-manylinux_2_28_aarch64.whl.zip]
+[2024-05-01 08:54:41] INFO root fetch - main [MainThread]: End processing [mongojet]: success
+[2024-05-01 08:54:41] INFO root fetch - main [MainThread]: Store serial: [23013376]
