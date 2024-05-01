@@ -17104,3 +17104,83 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-01 13:31:50] INFO root fetch - processPackages [pulumi-artifactory]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_artifactory-6.8.0a1714556686.tar.gz]
 [2024-05-01 13:31:50] INFO root fetch - main [MainThread]: End processing [pulumi-artifactory]: success
 [2024-05-01 13:31:50] INFO root fetch - main [MainThread]: Store serial: [23015843]
+[2024-05-01 13:33:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23015843]
+[2024-05-01 13:33:58] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-01 13:33:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: trytond-sale
+[2024-05-01 13:33:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qontract-reconcile
+[2024-05-01 13:33:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sequifier
+[2024-05-01 13:33:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: trytond-quality
+[2024-05-01 13:33:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: trytond-purchase-secondary-unit
+[2024-05-01 13:33:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: finbourne-access-sdk
+[2024-05-01 13:33:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pybuilder-git-version
+[2024-05-01 13:33:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: trytond-purchase-requisition
+[2024-05-01 13:33:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nmbrs
+[2024-05-01 13:33:59] INFO root fetch - processPackages [trytond-sale]: New version: [7.2.1] Old Version: [7.2.0]
+[2024-05-01 13:33:59] INFO root fetch - processPackages [nmbrs]: New version: [1.0.1] Old Version: [0.2.0]
+[2024-05-01 13:33:59] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2024-05-01 13:33:59] INFO root fetch - processPackages [trytond-quality]: New version: [7.2.1] Old Version: [7.2.0]
+[2024-05-01 13:33:59] INFO root fetch - processPackages [trytond-sale]: Downloading https://files.pythonhosted.org/packages/a8/35/7dc160a09f3b5483843e446c361c6dfea0314042dc83cbec1ba73c8009db/trytond_sale-7.2.0.tar.gz
+[2024-05-01 13:33:59] INFO root fetch - processPackages [sequifier]: New version: [2.1.0] Old Version: [2.0.0]
+[2024-05-01 13:33:59] INFO root fetch - processPackages [trytond-purchase-requisition]: New version: [7.2.1] Old Version: [7.2.0]
+[2024-05-01 13:33:59] INFO root fetch - processPackages [nmbrs]: Downloading https://files.pythonhosted.org/packages/06/0d/6d0c5ead5be1e39f4843a00f46044b23c4fa2b4945341a4667327da2014a/nmbrs-0.2.0.tar.gz
+[2024-05-01 13:33:59] INFO root fetch - processPackages [pybuilder-git-version]: New version: [0.6.0] Old Version: [0.5.0]
+[2024-05-01 13:33:59] INFO root fetch - processPackages [trytond-purchase-secondary-unit]: New version: [7.2.1] Old Version: [7.2.0]
+[2024-05-01 13:33:59] INFO root fetch - processPackages [finbourne-access-sdk]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-05-01 13:33:59] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2024-05-01 13:33:59] INFO root fetch - processPackages [trytond-quality]: Downloading https://files.pythonhosted.org/packages/4e/59/8005341b95f50674baa0d6a71a1909f475c7e51a767d38bead0ea441d4ca/trytond_quality-7.2.0.tar.gz
+[2024-05-01 13:33:59] INFO root fetch - processPackages [sequifier]: Downloading https://files.pythonhosted.org/packages/00/7c/26f9de9dd0d57c7dbcbb88426bfd54fa88b27c36cc35b75ac8bfe7de9a5a/sequifier-2.0.0.tar.gz
+[2024-05-01 13:33:59] INFO root fetch - processPackages [trytond-purchase-secondary-unit]: Downloading https://files.pythonhosted.org/packages/81/f3/d4d860e4f24fd1ab607f8ec4a1c51b2c94a0932b11076ab2ea40e2d83053/trytond_purchase_secondary_unit-7.2.0.tar.gz
+[2024-05-01 13:33:59] INFO root fetch - processPackages [trytond-purchase-requisition]: Downloading https://files.pythonhosted.org/packages/a1/0f/3612c4ea611658196dcf45643570b4325f267e76362fde60a5c8119b4c17/trytond_purchase_requisition-7.2.0.tar.gz
+[2024-05-01 13:33:59] INFO root fetch - processPackages [finbourne-access-sdk]: Downloading https://files.pythonhosted.org/packages/67/5a/2e8d70b51969063ac34619b9a07be19893b64107b4dab37e771b94bd1b03/finbourne_access_sdk-2.1.8.tar.gz
+[2024-05-01 13:33:59] INFO root fetch - processPackages [pybuilder-git-version]: Downloading https://files.pythonhosted.org/packages/a7/dc/028e126bea9d8004ec64e933474e6ee689001b57dbd02444aa2d6d047ed0/pybuilder-git-version-0.5.0.tar.gz
+[2024-05-01 13:33:59] ERROR root fetch - processPackages [nmbrs]: Unable to fetch info: No such project/version 'nmbrs' 1.0.1
+[2024-05-01 13:33:59] INFO root fetch - main [MainThread]: End processing [nmbrs] error
+[2024-05-01 13:33:59] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2024-05-01 13:33:59] INFO root fetch - processPackages [trytond-sale]: Downloading https://files.pythonhosted.org/packages/c9/f3/8fa44dd71e5f686ab58361f8c97486e2b8ff4b7b3e8f0f3122f112fa3f2f/trytond_sale-7.2.1.tar.gz
+[2024-05-01 13:33:59] INFO root fetch - processPackages [trytond-sale]: executing diffoscope
+[2024-05-01 13:33:59] INFO root fetch - processPackages [trytond-sale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_sale-7.2.0.tar.gz tmp/trytond_sale-7.2.1.tar.gz --markdown 20240501/t/trytond-sale/7.2.0-7.2.1/README.md --exclude *.pyd
+[2024-05-01 13:33:59] INFO root fetch - processPackages [trytond-quality]: Downloading https://files.pythonhosted.org/packages/2f/80/d965636cbef976fc1942726dfeca6a41c3947b20767bc2d56344097f15ad/trytond_quality-7.2.1.tar.gz
+[2024-05-01 13:33:59] INFO root fetch - processPackages [trytond-purchase-secondary-unit]: Downloading https://files.pythonhosted.org/packages/6b/82/3cfcc8a41dd611f79ed4cea69640f4ef8c6d7b0312b8aa623ed2a34557fd/trytond_purchase_secondary_unit-7.2.1.tar.gz
+[2024-05-01 13:33:59] INFO root fetch - processPackages [sequifier]: Downloading https://files.pythonhosted.org/packages/16/aa/b83169ec14f7a3793c189f130241381809d136f288eef49443afa4f5f69a/sequifier-2.1.0.tar.gz
+[2024-05-01 13:34:00] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2024-05-01 13:34:00] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20240501/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/README.md --exclude *.pyd
+[2024-05-01 13:34:00] INFO root fetch - processPackages [trytond-purchase-requisition]: Downloading https://files.pythonhosted.org/packages/7e/94/2295b3110c8aa10460977c41691eaa37044c465df8ca92db21c136792f7f/trytond_purchase_requisition-7.2.1.tar.gz
+[2024-05-01 13:34:00] INFO root fetch - processPackages [pybuilder-git-version]: Downloading https://files.pythonhosted.org/packages/02/ae/935e8c7fa87dcb84198488e1845e6b6f1746f60a836cb19f84448e1b6f96/pybuilder-git-version-0.6.0.tar.gz
+[2024-05-01 13:34:00] INFO root fetch - processPackages [finbourne-access-sdk]: Downloading https://files.pythonhosted.org/packages/2d/9e/be08614b45729ae547c5c8acd046e8c90ae89d6b812ee70666b6e24bcbe8/finbourne_access_sdk-2.1.9.tar.gz
+[2024-05-01 13:34:00] INFO root fetch - processPackages [trytond-quality]: executing diffoscope
+[2024-05-01 13:34:00] INFO root fetch - processPackages [trytond-quality]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_quality-7.2.0.tar.gz tmp/trytond_quality-7.2.1.tar.gz --markdown 20240501/t/trytond-quality/7.2.0-7.2.1/README.md --exclude *.pyd
+[2024-05-01 13:34:00] INFO root fetch - processPackages [trytond-purchase-secondary-unit]: executing diffoscope
+[2024-05-01 13:34:00] INFO root fetch - processPackages [trytond-purchase-secondary-unit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_purchase_secondary_unit-7.2.0.tar.gz tmp/trytond_purchase_secondary_unit-7.2.1.tar.gz --markdown 20240501/t/trytond-purchase-secondary-unit/7.2.0-7.2.1/README.md --exclude *.pyd
+[2024-05-01 13:34:00] INFO root fetch - processPackages [sequifier]: executing diffoscope
+[2024-05-01 13:34:00] INFO root fetch - processPackages [sequifier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sequifier-2.0.0.tar.gz tmp/sequifier-2.1.0.tar.gz --markdown 20240501/s/sequifier/2.0.0-2.1.0/README.md --exclude *.pyd
+[2024-05-01 13:34:00] INFO root fetch - processPackages [pybuilder-git-version]: executing diffoscope
+[2024-05-01 13:34:00] INFO root fetch - processPackages [pybuilder-git-version]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybuilder-git-version-0.5.0.tar.gz tmp/pybuilder-git-version-0.6.0.tar.gz --markdown 20240501/p/pybuilder-git-version/0.5.0-0.6.0/README.md --exclude *.pyd
+[2024-05-01 13:34:00] INFO root fetch - processPackages [trytond-purchase-requisition]: executing diffoscope
+[2024-05-01 13:34:00] INFO root fetch - processPackages [trytond-purchase-requisition]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_purchase_requisition-7.2.0.tar.gz tmp/trytond_purchase_requisition-7.2.1.tar.gz --markdown 20240501/t/trytond-purchase-requisition/7.2.0-7.2.1/README.md --exclude *.pyd
+[2024-05-01 13:34:00] INFO root fetch - processPackages [finbourne-access-sdk]: executing diffoscope
+[2024-05-01 13:34:00] INFO root fetch - processPackages [finbourne-access-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne_access_sdk-2.1.8.tar.gz tmp/finbourne_access_sdk-2.1.9.tar.gz --markdown 20240501/f/finbourne-access-sdk/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-05-01 13:34:01] INFO root fetch - processPackages [pybuilder-git-version]: Remove: archive file [/home/abi/fetcher/tmp/pybuilder-git-version-0.5.0.tar.gz]
+[2024-05-01 13:34:01] INFO root fetch - processPackages [pybuilder-git-version]: Remove: archive file [/home/abi/fetcher/tmp/pybuilder-git-version-0.6.0.tar.gz]
+[2024-05-01 13:34:01] INFO root fetch - main [MainThread]: End processing [pybuilder-git-version]: success
+[2024-05-01 13:34:01] INFO root fetch - processPackages [sequifier]: Remove: archive file [/home/abi/fetcher/tmp/sequifier-2.0.0.tar.gz]
+[2024-05-01 13:34:01] INFO root fetch - processPackages [sequifier]: Remove: archive file [/home/abi/fetcher/tmp/sequifier-2.1.0.tar.gz]
+[2024-05-01 13:34:01] INFO root fetch - main [MainThread]: End processing [sequifier]: success
+[2024-05-01 13:34:01] INFO root fetch - processPackages [trytond-purchase-requisition]: Remove: archive file [/home/abi/fetcher/tmp/trytond_purchase_requisition-7.2.0.tar.gz]
+[2024-05-01 13:34:01] INFO root fetch - processPackages [trytond-purchase-requisition]: Remove: archive file [/home/abi/fetcher/tmp/trytond_purchase_requisition-7.2.1.tar.gz]
+[2024-05-01 13:34:01] INFO root fetch - main [MainThread]: End processing [trytond-purchase-requisition]: success
+[2024-05-01 13:34:01] INFO root fetch - processPackages [trytond-purchase-secondary-unit]: Remove: archive file [/home/abi/fetcher/tmp/trytond_purchase_secondary_unit-7.2.0.tar.gz]
+[2024-05-01 13:34:01] INFO root fetch - processPackages [trytond-purchase-secondary-unit]: Remove: archive file [/home/abi/fetcher/tmp/trytond_purchase_secondary_unit-7.2.1.tar.gz]
+[2024-05-01 13:34:01] INFO root fetch - main [MainThread]: End processing [trytond-purchase-secondary-unit]: success
+[2024-05-01 13:34:01] INFO root fetch - processPackages [trytond-quality]: Remove: archive file [/home/abi/fetcher/tmp/trytond_quality-7.2.0.tar.gz]
+[2024-05-01 13:34:01] INFO root fetch - processPackages [trytond-quality]: Remove: archive file [/home/abi/fetcher/tmp/trytond_quality-7.2.1.tar.gz]
+[2024-05-01 13:34:01] INFO root fetch - main [MainThread]: End processing [trytond-quality]: success
+[2024-05-01 13:34:01] INFO root fetch - processPackages [finbourne-access-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_access_sdk-2.1.8.tar.gz]
+[2024-05-01 13:34:01] INFO root fetch - processPackages [finbourne-access-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_access_sdk-2.1.9.tar.gz]
+[2024-05-01 13:34:01] INFO root fetch - main [MainThread]: End processing [finbourne-access-sdk]: success
+[2024-05-01 13:34:01] INFO root fetch - processPackages [trytond-sale]: Remove: archive file [/home/abi/fetcher/tmp/trytond_sale-7.2.0.tar.gz]
+[2024-05-01 13:34:01] INFO root fetch - processPackages [trytond-sale]: Remove: archive file [/home/abi/fetcher/tmp/trytond_sale-7.2.1.tar.gz]
+[2024-05-01 13:34:01] INFO root fetch - main [MainThread]: End processing [trytond-sale]: success
+[2024-05-01 13:34:02] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2024-05-01 13:34:02] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2024-05-01 13:34:02] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2024-05-01 13:34:02] INFO root fetch - main [MainThread]: Store serial: [23015872]
