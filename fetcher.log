@@ -9726,3 +9726,51 @@
 [2024-05-01 07:26:06] INFO root fetch - processPackages [openimis-be-policy]: Remove: archive file [/home/abi/fetcher/tmp/openimis_be_policy-1.7.0.tar.gz]
 [2024-05-01 07:26:06] INFO root fetch - main [MainThread]: End processing [openimis-be-policy]: success
 [2024-05-01 07:26:06] INFO root fetch - main [MainThread]: Store serial: [23012637]
+[2024-05-01 07:28:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23012637]
+[2024-05-01 07:28:15] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-01 07:28:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: openimis-be-calculation
+[2024-05-01 07:28:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ccdt
+[2024-05-01 07:28:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: openimis-be-opensearch-reports
+[2024-05-01 07:28:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: openimis-be-calcrule-social-protection
+[2024-05-01 07:28:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-akamai
+[2024-05-01 07:28:15] INFO root fetch - processPackages [openimis-be-opensearch-reports]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-05-01 07:28:15] INFO root fetch - processPackages [openimis-be-calculation]: New version: [1.7.1] Old Version: [1.7.0]
+[2024-05-01 07:28:15] INFO root fetch - processPackages [pulumi-akamai]: New version: [7.2.0a1714453796] Old Version: [7.2.0a1714108246]
+[2024-05-01 07:28:15] INFO root fetch - processPackages [openimis-be-calcrule-social-protection]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-05-01 07:28:15] INFO root fetch - processPackages [openimis-be-calculation]: Downloading https://files.pythonhosted.org/packages/16/b3/c60c583e96d57b220e733d753aff90292a0d28cc024ca08651aa9ae38e87/openimis_be_calculation-1.7.0.tar.gz
+[2024-05-01 07:28:15] INFO root fetch - processPackages [openimis-be-opensearch-reports]: Downloading https://files.pythonhosted.org/packages/6a/1d/118194b584a5b8cf6e6dcabd7f6400bcc1331be7cf96ba83bb79dc6fc82b/openimis-be-opensearch_reports-1.0.0.tar.gz
+[2024-05-01 07:28:15] INFO root fetch - processPackages [ccdt]: New version: [2.1.99] Old Version: [2.1.98]
+[2024-05-01 07:28:15] INFO root fetch - processPackages [pulumi-akamai]: Downloading https://files.pythonhosted.org/packages/3c/68/fbc80f136ab392889da1d0ba57e5f16b66ad31e5e68e00ae16be9394d59f/pulumi_akamai-7.2.0a1714108246.tar.gz
+[2024-05-01 07:28:15] INFO root fetch - processPackages [openimis-be-calcrule-social-protection]: Downloading https://files.pythonhosted.org/packages/c3/f6/a5017960cd1cd3229fc5c5bf368f00acbdfb9a2ee5f63e4cd7fa9639a981/openimis_be_calcrule_social_protection-1.1.0.tar.gz
+[2024-05-01 07:28:16] INFO root fetch - processPackages [ccdt]: Downloading https://files.pythonhosted.org/packages/5e/9c/468b97d81f651afdc79c90181caf3e96586e1faf49f1f0272cd9d59234cc/ccdt-2.1.98.tar.gz
+[2024-05-01 07:28:16] INFO root fetch - processPackages [openimis-be-opensearch-reports]: Downloading https://files.pythonhosted.org/packages/78/07/84837d8137152a905ab6d708f472b14b74bb6dba9dc4ef1ffcb6bd51cb9f/openimis_be_opensearch_reports-1.1.0.tar.gz
+[2024-05-01 07:28:16] INFO root fetch - processPackages [openimis-be-calculation]: Downloading https://files.pythonhosted.org/packages/e6/dd/b714cf82349e523b857fb5fbf2e2569ce0538f1af41cfe82c6f90451663a/openimis_be_calculation-1.7.1.tar.gz
+[2024-05-01 07:28:16] INFO root fetch - processPackages [openimis-be-opensearch-reports]: executing diffoscope
+[2024-05-01 07:28:16] INFO root fetch - processPackages [openimis-be-opensearch-reports]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openimis-be-opensearch_reports-1.0.0.tar.gz tmp/openimis_be_opensearch_reports-1.1.0.tar.gz --markdown 20240501/o/openimis-be-opensearch-reports/1.0.0-1.1.0/README.md --exclude *.pyd
+[2024-05-01 07:28:16] INFO root fetch - processPackages [openimis-be-calcrule-social-protection]: Downloading https://files.pythonhosted.org/packages/7c/e2/883fc32c4d7ba6069f02fd6410c662da95356ad8156cb82d89fd2b628d1d/openimis_be_calcrule_social_protection-1.1.1.tar.gz
+[2024-05-01 07:28:16] INFO root fetch - processPackages [pulumi-akamai]: Downloading https://files.pythonhosted.org/packages/77/41/4516a297e3e87972b7a2e3ef7e0713b8f343402ad15c410dba6d8d6a936a/pulumi_akamai-7.2.0a1714453796.tar.gz
+[2024-05-01 07:28:16] INFO root fetch - processPackages [openimis-be-calculation]: executing diffoscope
+[2024-05-01 07:28:16] INFO root fetch - processPackages [openimis-be-calculation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openimis_be_calculation-1.7.0.tar.gz tmp/openimis_be_calculation-1.7.1.tar.gz --markdown 20240501/o/openimis-be-calculation/1.7.0-1.7.1/README.md --exclude *.pyd
+[2024-05-01 07:28:16] INFO root fetch - processPackages [openimis-be-calcrule-social-protection]: executing diffoscope
+[2024-05-01 07:28:16] INFO root fetch - processPackages [openimis-be-calcrule-social-protection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openimis_be_calcrule_social_protection-1.1.0.tar.gz tmp/openimis_be_calcrule_social_protection-1.1.1.tar.gz --markdown 20240501/o/openimis-be-calcrule-social-protection/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-05-01 07:28:16] INFO root fetch - processPackages [ccdt]: Downloading https://files.pythonhosted.org/packages/bf/88/0a8bde31365394e095dda74c8f4ec442ff47265c632929a84196b5192056/ccdt-2.1.99.tar.gz
+[2024-05-01 07:28:16] INFO root fetch - processPackages [ccdt]: executing diffoscope
+[2024-05-01 07:28:16] INFO root fetch - processPackages [ccdt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccdt-2.1.98.tar.gz tmp/ccdt-2.1.99.tar.gz --markdown 20240501/c/ccdt/2.1.98-2.1.99/README.md --exclude *.pyd
+[2024-05-01 07:28:16] INFO root fetch - processPackages [pulumi-akamai]: executing diffoscope
+[2024-05-01 07:28:16] INFO root fetch - processPackages [pulumi-akamai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_akamai-7.2.0a1714108246.tar.gz tmp/pulumi_akamai-7.2.0a1714453796.tar.gz --markdown 20240501/p/pulumi-akamai/7.2.0a1714108246-7.2.0a1714453796/README.md --exclude *.pyd
+[2024-05-01 07:28:16] INFO root fetch - processPackages [openimis-be-calculation]: Remove: archive file [/home/abi/fetcher/tmp/openimis_be_calculation-1.7.0.tar.gz]
+[2024-05-01 07:28:16] INFO root fetch - processPackages [openimis-be-calculation]: Remove: archive file [/home/abi/fetcher/tmp/openimis_be_calculation-1.7.1.tar.gz]
+[2024-05-01 07:28:16] INFO root fetch - main [MainThread]: End processing [openimis-be-calculation]: success
+[2024-05-01 07:28:17] INFO root fetch - processPackages [openimis-be-opensearch-reports]: Remove: archive file [/home/abi/fetcher/tmp/openimis-be-opensearch_reports-1.0.0.tar.gz]
+[2024-05-01 07:28:17] INFO root fetch - processPackages [openimis-be-opensearch-reports]: Remove: archive file [/home/abi/fetcher/tmp/openimis_be_opensearch_reports-1.1.0.tar.gz]
+[2024-05-01 07:28:17] INFO root fetch - main [MainThread]: End processing [openimis-be-opensearch-reports]: success
+[2024-05-01 07:28:17] INFO root fetch - processPackages [openimis-be-calcrule-social-protection]: Remove: archive file [/home/abi/fetcher/tmp/openimis_be_calcrule_social_protection-1.1.0.tar.gz]
+[2024-05-01 07:28:17] INFO root fetch - processPackages [openimis-be-calcrule-social-protection]: Remove: archive file [/home/abi/fetcher/tmp/openimis_be_calcrule_social_protection-1.1.1.tar.gz]
+[2024-05-01 07:28:17] INFO root fetch - main [MainThread]: End processing [openimis-be-calcrule-social-protection]: success
+[2024-05-01 07:28:17] INFO root fetch - processPackages [ccdt]: Remove: archive file [/home/abi/fetcher/tmp/ccdt-2.1.98.tar.gz]
+[2024-05-01 07:28:17] INFO root fetch - processPackages [ccdt]: Remove: archive file [/home/abi/fetcher/tmp/ccdt-2.1.99.tar.gz]
+[2024-05-01 07:28:17] INFO root fetch - main [MainThread]: End processing [ccdt]: success
+[2024-05-01 07:28:19] INFO root fetch - processPackages [pulumi-akamai]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_akamai-7.2.0a1714108246.tar.gz]
+[2024-05-01 07:28:19] INFO root fetch - processPackages [pulumi-akamai]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_akamai-7.2.0a1714453796.tar.gz]
+[2024-05-01 07:28:19] INFO root fetch - main [MainThread]: End processing [pulumi-akamai]: success
+[2024-05-01 07:28:19] INFO root fetch - main [MainThread]: Store serial: [23012652]
