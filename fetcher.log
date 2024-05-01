@@ -2541,3 +2541,71 @@
 [2024-05-01 02:39:48] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.1.98.tar.gz]
 [2024-05-01 02:39:48] INFO root fetch - main [MainThread]: End processing [swarmauri]: success
 [2024-05-01 02:39:48] INFO root fetch - main [MainThread]: Store serial: [23009773]
+[2024-05-01 02:41:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23009773]
+[2024-05-01 02:41:57] INFO root fetch - main [MainThread]: No changed packages found
+[2024-05-01 02:43:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23009775]
+[2024-05-01 02:44:02] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-01 02:44:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cupcake
+[2024-05-01 02:44:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: clichatapp
+[2024-05-01 02:44:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: graphique
+[2024-05-01 02:44:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qpay-python
+[2024-05-01 02:44:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mitosis
+[2024-05-01 02:44:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kframe
+[2024-05-01 02:44:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: webdriver-cache-manager
+[2024-05-01 02:44:03] INFO root fetch - processPackages [kframe]: New version: [0.3.0rc3] Old Version: [0.3.0rc1]
+[2024-05-01 02:44:03] INFO root fetch - processPackages [cupcake]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-01 02:44:03] INFO root fetch - processPackages [mitosis]: New version: [0.5.2] Old Version: [0.5.1]
+[2024-05-01 02:44:03] INFO root fetch - processPackages [clichatapp]: New version: [0.1.10] Old Version: [0.1.0]
+[2024-05-01 02:44:03] INFO root fetch - processPackages [webdriver-cache-manager]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-01 02:44:03] INFO root fetch - processPackages [graphique]: New version: [1.6] Old Version: [1.5]
+[2024-05-01 02:44:03] INFO root fetch - processPackages [qpay-python]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-01 02:44:03] INFO root fetch - processPackages [kframe]: Downloading https://files.pythonhosted.org/packages/ce/1d/8539514a8c67d552360ff743e35b46207fba12572083841b63f1713b2c66/kframe-0.3.0rc1.tar.gz
+[2024-05-01 02:44:03] INFO root fetch - processPackages [cupcake]: Downloading https://files.pythonhosted.org/packages/01/ed/0bacafb5bf5f542ce980dd5db47d0111e4bfe66162ff6c2ccecc26f27deb/cupcake-1.0.0.tar.gz
+[2024-05-01 02:44:03] INFO root fetch - processPackages [clichatapp]: Downloading https://files.pythonhosted.org/packages/1a/5c/d640c7293afd00ee06efeb32f0647bc53ccf239b45db6d9f0473fa656a50/clichatapp-0.1.0.tar.gz
+[2024-05-01 02:44:03] INFO root fetch - processPackages [graphique]: Downloading https://files.pythonhosted.org/packages/cb/67/6ff35cf3f0810a9c13dc800b2523ed3dd6555ee791d0525ce373fb8d306b/graphique-1.5.tar.gz
+[2024-05-01 02:44:03] INFO root fetch - processPackages [qpay-python]: Downloading https://files.pythonhosted.org/packages/ba/06/3c65bfb38f41d3a674058f0d4b7a8d9e9e8496b437f52c53b7d8f9f640f0/qpay_python-0.0.1.tar.gz
+[2024-05-01 02:44:03] INFO root fetch - processPackages [webdriver-cache-manager]: Downloading https://files.pythonhosted.org/packages/e6/e5/1fb70a9147a00a0d14fae25ed8e6eaf1c7856ea79067805fa8524754f92d/webdriver_cache_manager-0.0.7.tar.gz
+[2024-05-01 02:44:03] INFO root fetch - processPackages [mitosis]: Downloading https://files.pythonhosted.org/packages/bf/78/dd7e33b55c48b419ee669a78ea59659f83946b91e2c183db71a0e42fb77a/mitosis-0.5.1.tar.gz
+[2024-05-01 02:44:03] INFO root fetch - processPackages [kframe]: Downloading https://files.pythonhosted.org/packages/93/af/488861ebf4349a97b6f8061875d8b9b7d0101cac0cf8c32e75bd8e52df68/kframe-0.3.0rc3.tar.gz
+[2024-05-01 02:44:03] INFO root fetch - processPackages [cupcake]: Downloading https://files.pythonhosted.org/packages/10/ea/f5bb68143f6dbd56c8bb4d49d391df6384e194aa354233b03f457c5b2574/cupcake-1.0.1.tar.gz
+[2024-05-01 02:44:03] INFO root fetch - processPackages [kframe]: executing diffoscope
+[2024-05-01 02:44:03] INFO root fetch - processPackages [kframe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kframe-0.3.0rc1.tar.gz tmp/kframe-0.3.0rc3.tar.gz --markdown 20240501/k/kframe/0.3.0rc1-0.3.0rc3/README.md --exclude *.pyd
+[2024-05-01 02:44:03] INFO root fetch - processPackages [clichatapp]: Downloading https://files.pythonhosted.org/packages/2d/b3/b967b8cce8451dbb1775a4f5559e36c6d79b663111fa3589b1322e1fcf1b/clichatapp-0.1.10.tar.gz
+[2024-05-01 02:44:03] INFO root fetch - processPackages [qpay-python]: Downloading https://files.pythonhosted.org/packages/d0/12/6dda2c881116c1e2fabaf522564dcd1f9e63261e13d5a87d0c711a916795/qpay_python-0.0.2.tar.gz
+[2024-05-01 02:44:03] INFO root fetch - processPackages [graphique]: Downloading https://files.pythonhosted.org/packages/36/00/df71d4cf4abfa81d78cfd388e5254c3db5bc8b85844667b4456bb9ec8441/graphique-1.6.tar.gz
+[2024-05-01 02:44:03] INFO root fetch - processPackages [webdriver-cache-manager]: Downloading https://files.pythonhosted.org/packages/4f/c7/93efee6d1a9f67d7ed334a4f065245c1519368a24d6ab50d434f75f279c7/webdriver_cache_manager-0.0.8.tar.gz
+[2024-05-01 02:44:03] INFO root fetch - processPackages [mitosis]: Downloading https://files.pythonhosted.org/packages/d6/99/6024120866ccc75560db593d461c4a2f4ef6381bd5638f94a1c6fceb0707/mitosis-0.5.2.tar.gz
+[2024-05-01 02:44:03] INFO root fetch - processPackages [clichatapp]: executing diffoscope
+[2024-05-01 02:44:03] INFO root fetch - processPackages [clichatapp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clichatapp-0.1.0.tar.gz tmp/clichatapp-0.1.10.tar.gz --markdown 20240501/c/clichatapp/0.1.0-0.1.10/README.md --exclude *.pyd
+[2024-05-01 02:44:03] INFO root fetch - processPackages [cupcake]: executing diffoscope
+[2024-05-01 02:44:03] INFO root fetch - processPackages [cupcake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cupcake-1.0.0.tar.gz tmp/cupcake-1.0.1.tar.gz --markdown 20240501/c/cupcake/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-01 02:44:03] INFO root fetch - processPackages [graphique]: executing diffoscope
+[2024-05-01 02:44:03] INFO root fetch - processPackages [graphique]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graphique-1.5.tar.gz tmp/graphique-1.6.tar.gz --markdown 20240501/g/graphique/1.5-1.6/README.md --exclude *.pyd
+[2024-05-01 02:44:03] INFO root fetch - processPackages [webdriver-cache-manager]: executing diffoscope
+[2024-05-01 02:44:03] INFO root fetch - processPackages [webdriver-cache-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webdriver_cache_manager-0.0.7.tar.gz tmp/webdriver_cache_manager-0.0.8.tar.gz --markdown 20240501/w/webdriver-cache-manager/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-01 02:44:03] INFO root fetch - processPackages [qpay-python]: executing diffoscope
+[2024-05-01 02:44:03] INFO root fetch - processPackages [qpay-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qpay_python-0.0.1.tar.gz tmp/qpay_python-0.0.2.tar.gz --markdown 20240501/q/qpay-python/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-01 02:44:04] INFO root fetch - processPackages [mitosis]: executing diffoscope
+[2024-05-01 02:44:04] INFO root fetch - processPackages [mitosis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mitosis-0.5.1.tar.gz tmp/mitosis-0.5.2.tar.gz --markdown 20240501/m/mitosis/0.5.1-0.5.2/README.md --exclude *.pyd
+[2024-05-01 02:44:04] INFO root fetch - processPackages [kframe]: Remove: archive file [/home/abi/fetcher/tmp/kframe-0.3.0rc1.tar.gz]
+[2024-05-01 02:44:04] INFO root fetch - processPackages [kframe]: Remove: archive file [/home/abi/fetcher/tmp/kframe-0.3.0rc3.tar.gz]
+[2024-05-01 02:44:04] INFO root fetch - main [MainThread]: End processing [kframe]: success
+[2024-05-01 02:44:04] INFO root fetch - processPackages [clichatapp]: Remove: archive file [/home/abi/fetcher/tmp/clichatapp-0.1.0.tar.gz]
+[2024-05-01 02:44:04] INFO root fetch - processPackages [clichatapp]: Remove: archive file [/home/abi/fetcher/tmp/clichatapp-0.1.10.tar.gz]
+[2024-05-01 02:44:04] INFO root fetch - main [MainThread]: End processing [clichatapp]: success
+[2024-05-01 02:44:04] INFO root fetch - processPackages [cupcake]: Remove: archive file [/home/abi/fetcher/tmp/cupcake-1.0.0.tar.gz]
+[2024-05-01 02:44:04] INFO root fetch - processPackages [cupcake]: Remove: archive file [/home/abi/fetcher/tmp/cupcake-1.0.1.tar.gz]
+[2024-05-01 02:44:04] INFO root fetch - main [MainThread]: End processing [cupcake]: success
+[2024-05-01 02:44:04] INFO root fetch - processPackages [qpay-python]: Remove: archive file [/home/abi/fetcher/tmp/qpay_python-0.0.1.tar.gz]
+[2024-05-01 02:44:04] INFO root fetch - processPackages [qpay-python]: Remove: archive file [/home/abi/fetcher/tmp/qpay_python-0.0.2.tar.gz]
+[2024-05-01 02:44:04] INFO root fetch - main [MainThread]: End processing [qpay-python]: success
+[2024-05-01 02:44:04] INFO root fetch - processPackages [webdriver-cache-manager]: Remove: archive file [/home/abi/fetcher/tmp/webdriver_cache_manager-0.0.7.tar.gz]
+[2024-05-01 02:44:04] INFO root fetch - processPackages [webdriver-cache-manager]: Remove: archive file [/home/abi/fetcher/tmp/webdriver_cache_manager-0.0.8.tar.gz]
+[2024-05-01 02:44:04] INFO root fetch - main [MainThread]: End processing [webdriver-cache-manager]: success
+[2024-05-01 02:44:04] INFO root fetch - processPackages [graphique]: Remove: archive file [/home/abi/fetcher/tmp/graphique-1.5.tar.gz]
+[2024-05-01 02:44:04] INFO root fetch - processPackages [graphique]: Remove: archive file [/home/abi/fetcher/tmp/graphique-1.6.tar.gz]
+[2024-05-01 02:44:04] INFO root fetch - main [MainThread]: End processing [graphique]: success
+[2024-05-01 02:44:04] INFO root fetch - processPackages [mitosis]: Remove: archive file [/home/abi/fetcher/tmp/mitosis-0.5.1.tar.gz]
+[2024-05-01 02:44:04] INFO root fetch - processPackages [mitosis]: Remove: archive file [/home/abi/fetcher/tmp/mitosis-0.5.2.tar.gz]
+[2024-05-01 02:44:04] INFO root fetch - main [MainThread]: End processing [mitosis]: success
+[2024-05-01 02:44:04] INFO root fetch - main [MainThread]: Store serial: [23009801]
