@@ -10465,3 +10465,24 @@
 [2024-05-01 08:06:03] INFO root fetch - processPackages [lino-welfare]: Remove: archive file [/home/abi/fetcher/tmp/lino-welfare-24.5.0.tar.gz]
 [2024-05-01 08:06:03] INFO root fetch - main [MainThread]: End processing [lino-welfare]: success
 [2024-05-01 08:06:03] INFO root fetch - main [MainThread]: Store serial: [23012922]
+[2024-05-01 08:08:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23012922]
+[2024-05-01 08:08:12] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-01 08:08:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lino-welcht
+[2024-05-01 08:08:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: scida-utils
+[2024-05-01 08:08:12] INFO root fetch - processPackages [scida-utils]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-01 08:08:12] INFO root fetch - processPackages [lino-welcht]: New version: [24.5.0] Old Version: [24.3.0]
+[2024-05-01 08:08:13] INFO root fetch - processPackages [lino-welcht]: Downloading https://files.pythonhosted.org/packages/a8/65/38778cb4fe6208a310d454e1b94b4a3fdf67faf17f041afda179aa762e59/lino-welcht-24.3.0.tar.gz
+[2024-05-01 08:08:13] INFO root fetch - processPackages [scida-utils]: Downloading https://files.pythonhosted.org/packages/0c/df/512400922eb13bbdb7be908e9d72f2bc056c78d49e2b0c0585f4dc16d655/scida_utils-0.2.8-py3-none-any.whl
+[2024-05-01 08:08:13] INFO root fetch - processPackages [lino-welcht]: Downloading https://files.pythonhosted.org/packages/fe/62/0ac638d09669a592e250f0bfff4739aae994925dda76c1d221925992ad97/lino-welcht-24.5.0.tar.gz
+[2024-05-01 08:08:13] INFO root fetch - processPackages [scida-utils]: Downloading https://files.pythonhosted.org/packages/1e/8a/821885be146903a929eb96e8a7c9b70b5a38dc81ada94129c2b1daa6d70e/scida_utils-0.2.9-py3-none-any.whl
+[2024-05-01 08:08:13] INFO root fetch - processPackages [lino-welcht]: executing diffoscope
+[2024-05-01 08:08:13] INFO root fetch - processPackages [lino-welcht]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lino-welcht-24.3.0.tar.gz tmp/lino-welcht-24.5.0.tar.gz --markdown 20240501/l/lino-welcht/24.3.0-24.5.0/README.md --exclude *.pyd
+[2024-05-01 08:08:13] INFO root fetch - processPackages [scida-utils]: executing diffoscope
+[2024-05-01 08:08:13] INFO root fetch - processPackages [scida-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scida_utils-0.2.8-py3-none-any.whl.zip tmp/scida_utils-0.2.9-py3-none-any.whl.zip --markdown 20240501/s/scida-utils/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-01 08:08:14] INFO root fetch - processPackages [scida-utils]: Remove: archive file [/home/abi/fetcher/tmp/scida_utils-0.2.8-py3-none-any.whl.zip]
+[2024-05-01 08:08:14] INFO root fetch - processPackages [scida-utils]: Remove: archive file [/home/abi/fetcher/tmp/scida_utils-0.2.9-py3-none-any.whl.zip]
+[2024-05-01 08:08:14] INFO root fetch - main [MainThread]: End processing [scida-utils]: success
+[2024-05-01 08:08:14] INFO root fetch - processPackages [lino-welcht]: Remove: archive file [/home/abi/fetcher/tmp/lino-welcht-24.3.0.tar.gz]
+[2024-05-01 08:08:14] INFO root fetch - processPackages [lino-welcht]: Remove: archive file [/home/abi/fetcher/tmp/lino-welcht-24.5.0.tar.gz]
+[2024-05-01 08:08:14] INFO root fetch - main [MainThread]: End processing [lino-welcht]: success
+[2024-05-01 08:08:14] INFO root fetch - main [MainThread]: Store serial: [23012926]
