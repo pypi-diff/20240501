@@ -11550,3 +11550,15 @@
 [2024-05-01 09:04:10] INFO root fetch - processPackages [django-cms]: Remove: archive file [/home/abi/fetcher/tmp/django_cms-4.1.1.tar.gz]
 [2024-05-01 09:04:10] INFO root fetch - main [MainThread]: End processing [django-cms]: success
 [2024-05-01 09:04:10] INFO root fetch - main [MainThread]: Store serial: [23013474]
+[2024-05-01 09:06:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23013474]
+[2024-05-01 09:06:19] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-01 09:06:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: laoshi
+[2024-05-01 09:06:20] INFO root fetch - processPackages [laoshi]: New version: [0.1.1] Old Version: [0.0.3]
+[2024-05-01 09:06:20] INFO root fetch - processPackages [laoshi]: Downloading https://files.pythonhosted.org/packages/06/cf/c946befbaaebf2efb6b77076ddb4c7e6a1a97c708d37751ea235a3fa9b12/laoshi-0.0.3.tar.gz
+[2024-05-01 09:06:20] INFO root fetch - processPackages [laoshi]: Downloading https://files.pythonhosted.org/packages/02/12/aee6125bf31222b8770e190e22c5cee0ef480fc7ea2ac2ce68bf18b22b05/laoshi-0.1.1.tar.gz
+[2024-05-01 09:06:20] INFO root fetch - processPackages [laoshi]: executing diffoscope
+[2024-05-01 09:06:20] INFO root fetch - processPackages [laoshi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/laoshi-0.0.3.tar.gz tmp/laoshi-0.1.1.tar.gz --markdown 20240501/l/laoshi/0.0.3-0.1.1/README.md --exclude *.pyd
+[2024-05-01 09:06:21] INFO root fetch - processPackages [laoshi]: Remove: archive file [/home/abi/fetcher/tmp/laoshi-0.0.3.tar.gz]
+[2024-05-01 09:06:21] INFO root fetch - processPackages [laoshi]: Remove: archive file [/home/abi/fetcher/tmp/laoshi-0.1.1.tar.gz]
+[2024-05-01 09:06:21] INFO root fetch - main [MainThread]: End processing [laoshi]: success
+[2024-05-01 09:06:21] INFO root fetch - main [MainThread]: Store serial: [23013478]
