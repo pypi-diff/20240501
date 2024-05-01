@@ -15724,3 +15724,51 @@
 [2024-05-01 12:44:10] WARNING root fetch - processPackages [pyopsin]: Skipping, unable to determine old version
 [2024-05-01 12:44:10] INFO root fetch - main [MainThread]: End processing [pyopsin] error
 [2024-05-01 12:44:10] INFO root fetch - main [MainThread]: Store serial: [23015307]
+[2024-05-01 12:46:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23015307]
+[2024-05-01 12:46:18] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-01 12:46:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pycol-complexity
+[2024-05-01 12:46:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qblox-instruments
+[2024-05-01 12:46:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lumipy
+[2024-05-01 12:46:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aiinitiate
+[2024-05-01 12:46:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: avanza-api
+[2024-05-01 12:46:19] INFO root fetch - processPackages [aiinitiate]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-01 12:46:19] INFO root fetch - processPackages [avanza-api]: New version: [9.1.1] Old Version: [9.1.0]
+[2024-05-01 12:46:19] INFO root fetch - processPackages [aiinitiate]: Downloading https://files.pythonhosted.org/packages/f2/70/dd146689bba25bf40df5f021174c92b74169c4ce4c2d0c379e4925be42cf/aiinitiate-0.1.2.tar.gz
+[2024-05-01 12:46:19] INFO root fetch - processPackages [lumipy]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-01 12:46:19] INFO root fetch - processPackages [pycol-complexity]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-01 12:46:19] INFO root fetch - processPackages [avanza-api]: Downloading https://files.pythonhosted.org/packages/29/a4/39b7abd3817c964e430c06a858a5046bd5aad359eba62c75f05ef9e825cf/avanza_api-9.1.0.tar.gz
+[2024-05-01 12:46:19] INFO root fetch - processPackages [qblox-instruments]: New version: [0.9.0] Old Version: [0.8.2]
+[2024-05-01 12:46:19] INFO root fetch - processPackages [lumipy]: Downloading https://files.pythonhosted.org/packages/76/cd/25af7895f094ecdce8642b8eefbf5570e3f3251c3ad74ca6781ab765b529/lumipy-1.0.8-py3-none-any.whl
+[2024-05-01 12:46:19] INFO root fetch - processPackages [pycol-complexity]: Downloading https://files.pythonhosted.org/packages/c9/96/f5397a16fb165525bbc1fbbab238050797604ee6f6931b7d46dbf2383775/pycol_complexity-0.0.5.tar.gz
+[2024-05-01 12:46:19] INFO root fetch - processPackages [qblox-instruments]: Downloading https://files.pythonhosted.org/packages/eb/bb/e574edf6dd6e16e107d834b4c3ff55f38c1c075e2643b01f0062178add1b/qblox_instruments-0.8.2.tar.gz
+[2024-05-01 12:46:19] INFO root fetch - processPackages [avanza-api]: Downloading https://files.pythonhosted.org/packages/a2/8d/93e7e5d71c1c6e7a0e80043fb5e2dbbc09c8d99785e41b5066c4236e612d/avanza_api-9.1.1.tar.gz
+[2024-05-01 12:46:19] INFO root fetch - processPackages [aiinitiate]: Downloading https://files.pythonhosted.org/packages/62/b3/e21b7101f89f25915019f89d08ac6092be4b49602afe7a696dea49ad1d7b/aiinitiate-0.1.3.tar.gz
+[2024-05-01 12:46:19] INFO root fetch - processPackages [avanza-api]: executing diffoscope
+[2024-05-01 12:46:19] INFO root fetch - processPackages [avanza-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/avanza_api-9.1.0.tar.gz tmp/avanza_api-9.1.1.tar.gz --markdown 20240501/a/avanza-api/9.1.0-9.1.1/README.md --exclude *.pyd
+[2024-05-01 12:46:19] INFO root fetch - processPackages [aiinitiate]: executing diffoscope
+[2024-05-01 12:46:19] INFO root fetch - processPackages [aiinitiate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiinitiate-0.1.2.tar.gz tmp/aiinitiate-0.1.3.tar.gz --markdown 20240501/a/aiinitiate/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-01 12:46:19] INFO root fetch - processPackages [pycol-complexity]: Downloading https://files.pythonhosted.org/packages/bb/bd/254c3643cc80fb761d3ba8dcc6d809751aa6d8e128f3244a65a1acb8d48d/pycol_complexity-0.0.6.tar.gz
+[2024-05-01 12:46:19] INFO root fetch - processPackages [pycol-complexity]: executing diffoscope
+[2024-05-01 12:46:19] INFO root fetch - processPackages [pycol-complexity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycol_complexity-0.0.5.tar.gz tmp/pycol_complexity-0.0.6.tar.gz --markdown 20240501/p/pycol-complexity/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-01 12:46:19] INFO root fetch - processPackages [lumipy]: Downloading https://files.pythonhosted.org/packages/af/13/4cc42c3e2deec28973c7b4dd4f45a865415a11d4da32c248fd3904f3babb/lumipy-1.0.9-py3-none-any.whl
+[2024-05-01 12:46:20] INFO root fetch - processPackages [lumipy]: executing diffoscope
+[2024-05-01 12:46:20] INFO root fetch - processPackages [lumipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lumipy-1.0.8-py3-none-any.whl.zip tmp/lumipy-1.0.9-py3-none-any.whl.zip --markdown 20240501/l/lumipy/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-01 12:46:20] INFO root fetch - processPackages [avanza-api]: Remove: archive file [/home/abi/fetcher/tmp/avanza_api-9.1.0.tar.gz]
+[2024-05-01 12:46:20] INFO root fetch - processPackages [avanza-api]: Remove: archive file [/home/abi/fetcher/tmp/avanza_api-9.1.1.tar.gz]
+[2024-05-01 12:46:20] INFO root fetch - main [MainThread]: End processing [avanza-api]: success
+[2024-05-01 12:46:20] INFO root fetch - processPackages [aiinitiate]: Remove: archive file [/home/abi/fetcher/tmp/aiinitiate-0.1.2.tar.gz]
+[2024-05-01 12:46:20] INFO root fetch - processPackages [aiinitiate]: Remove: archive file [/home/abi/fetcher/tmp/aiinitiate-0.1.3.tar.gz]
+[2024-05-01 12:46:20] INFO root fetch - main [MainThread]: End processing [aiinitiate]: success
+[2024-05-01 12:46:20] INFO root fetch - processPackages [qblox-instruments]: Downloading https://files.pythonhosted.org/packages/bb/0e/ee75ba6ee81bac9c704a8b2fe7dc84a94751c66195e34dfbe79a0d9fff8f/qblox_instruments-0.9.0.tar.gz
+[2024-05-01 12:46:20] INFO root fetch - processPackages [pycol-complexity]: Remove: archive file [/home/abi/fetcher/tmp/pycol_complexity-0.0.5.tar.gz]
+[2024-05-01 12:46:20] INFO root fetch - processPackages [pycol-complexity]: Remove: archive file [/home/abi/fetcher/tmp/pycol_complexity-0.0.6.tar.gz]
+[2024-05-01 12:46:20] INFO root fetch - main [MainThread]: End processing [pycol-complexity]: success
+[2024-05-01 12:46:20] INFO root fetch - processPackages [qblox-instruments]: executing diffoscope
+[2024-05-01 12:46:20] INFO root fetch - processPackages [qblox-instruments]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qblox_instruments-0.8.2.tar.gz tmp/qblox_instruments-0.9.0.tar.gz --markdown 20240501/q/qblox-instruments/0.8.2-0.9.0/README.md --exclude *.pyd
+[2024-05-01 12:46:21] INFO root fetch - processPackages [lumipy]: Remove: archive file [/home/abi/fetcher/tmp/lumipy-1.0.8-py3-none-any.whl.zip]
+[2024-05-01 12:46:21] INFO root fetch - processPackages [lumipy]: Remove: archive file [/home/abi/fetcher/tmp/lumipy-1.0.9-py3-none-any.whl.zip]
+[2024-05-01 12:46:21] INFO root fetch - main [MainThread]: End processing [lumipy]: success
+[2024-05-01 12:46:24] INFO root fetch - processPackages [qblox-instruments]: Remove: archive file [/home/abi/fetcher/tmp/qblox_instruments-0.8.2.tar.gz]
+[2024-05-01 12:46:24] INFO root fetch - processPackages [qblox-instruments]: Remove: archive file [/home/abi/fetcher/tmp/qblox_instruments-0.9.0.tar.gz]
+[2024-05-01 12:46:24] INFO root fetch - main [MainThread]: End processing [qblox-instruments]: success
+[2024-05-01 12:46:24] INFO root fetch - main [MainThread]: Store serial: [23015321]
