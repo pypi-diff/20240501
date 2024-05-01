@@ -7985,3 +7985,45 @@
 [2024-05-01 05:16:36] INFO root fetch - processPackages [keras-cv-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_cv_nightly-0.9.0.dev2024043000.tar.gz]
 [2024-05-01 05:16:36] INFO root fetch - main [MainThread]: End processing [keras-cv-nightly]: success
 [2024-05-01 05:16:36] INFO root fetch - main [MainThread]: Store serial: [23011834]
+[2024-05-01 05:18:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23011834]
+[2024-05-01 05:18:45] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-01 05:18:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cellworld-game
+[2024-05-01 05:18:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dycw-utilities
+[2024-05-01 05:18:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: masr
+[2024-05-01 05:18:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: email-library
+[2024-05-01 05:18:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: manyhttps
+[2024-05-01 05:18:45] INFO root fetch - processPackages [manyhttps]: New version: [2.33.2] Old Version: [2.33.1]
+[2024-05-01 05:18:45] INFO root fetch - processPackages [cellworld-game]: New version: [0.0.72] Old Version: [0.0.68]
+[2024-05-01 05:18:45] WARNING root fetch - processPackages [email-library]: Skipping, unable to determine old version
+[2024-05-01 05:18:45] INFO root fetch - main [MainThread]: End processing [email-library] error
+[2024-05-01 05:18:45] INFO root fetch - processPackages [cellworld-game]: Downloading https://files.pythonhosted.org/packages/a4/9b/179ddfb4bda90d42f66ff497e1db58942f14a1f731fa846156f79c5aa2ca/cellworld_game-0.0.68.tar.gz
+[2024-05-01 05:18:45] INFO root fetch - processPackages [masr]: New version: [2.3.8] Old Version: [2.3.7]
+[2024-05-01 05:18:45] INFO root fetch - processPackages [dycw-utilities]: New version: [0.9.0] Old Version: [0.8.8]
+[2024-05-01 05:18:45] INFO root fetch - processPackages [manyhttps]: Downloading https://files.pythonhosted.org/packages/d3/99/1c5793cb790c7dc646319de021f36a97f4b2462a885315d3d0dc80be7997/manyhttps-2.33.1.tar.gz
+[2024-05-01 05:18:45] INFO root fetch - processPackages [dycw-utilities]: Downloading https://files.pythonhosted.org/packages/a5/a4/993374a162ca6d880ff284c54df5acfb25a9f3347426746bb1aeeae915b9/dycw_utilities-0.8.8.tar.gz
+[2024-05-01 05:18:45] INFO root fetch - processPackages [masr]: Downloading https://files.pythonhosted.org/packages/b0/f4/416ee31db0bdd1945c4ed1dc37bbf5c5bece5b6e4309deab8fa7170c7084/masr-2.3.7-py3-none-any.whl
+[2024-05-01 05:18:45] INFO root fetch - processPackages [dycw-utilities]: Downloading https://files.pythonhosted.org/packages/18/5f/14fd12b36288c6f50f412854105898b537e348c0c10e7cedb0b54a05a56e/dycw_utilities-0.9.0.tar.gz
+[2024-05-01 05:18:45] INFO root fetch - processPackages [cellworld-game]: Downloading https://files.pythonhosted.org/packages/79/c0/a9653a2f859f37598b04c364aa21792ee3d468f5fac3433212a2e596cd27/cellworld_game-0.0.72.tar.gz
+[2024-05-01 05:18:45] INFO root fetch - processPackages [manyhttps]: Downloading https://files.pythonhosted.org/packages/3c/bc/33f72291f4caacf510ec46d8b4ecb3f1e32e215df457b4097a9d0cb06418/manyhttps-2.33.2.tar.gz
+[2024-05-01 05:18:45] INFO root fetch - processPackages [dycw-utilities]: executing diffoscope
+[2024-05-01 05:18:45] INFO root fetch - processPackages [dycw-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dycw_utilities-0.8.8.tar.gz tmp/dycw_utilities-0.9.0.tar.gz --markdown 20240501/d/dycw-utilities/0.8.8-0.9.0/README.md --exclude *.pyd
+[2024-05-01 05:18:45] INFO root fetch - processPackages [cellworld-game]: executing diffoscope
+[2024-05-01 05:18:45] INFO root fetch - processPackages [cellworld-game]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cellworld_game-0.0.68.tar.gz tmp/cellworld_game-0.0.72.tar.gz --markdown 20240501/c/cellworld-game/0.0.68-0.0.72/README.md --exclude *.pyd
+[2024-05-01 05:18:45] INFO root fetch - processPackages [manyhttps]: executing diffoscope
+[2024-05-01 05:18:45] INFO root fetch - processPackages [manyhttps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/manyhttps-2.33.1.tar.gz tmp/manyhttps-2.33.2.tar.gz --markdown 20240501/m/manyhttps/2.33.1-2.33.2/README.md --exclude *.pyd
+[2024-05-01 05:18:45] INFO root fetch - processPackages [masr]: Downloading https://files.pythonhosted.org/packages/cb/d4/8267e59c0865236ffb44292a224f1ff5a485ff0ceb01650187921e91121e/masr-2.3.8-py3-none-any.whl
+[2024-05-01 05:18:46] INFO root fetch - processPackages [masr]: executing diffoscope
+[2024-05-01 05:18:46] INFO root fetch - processPackages [masr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/masr-2.3.7-py3-none-any.whl.zip tmp/masr-2.3.8-py3-none-any.whl.zip --markdown 20240501/m/masr/2.3.7-2.3.8/README.md --exclude *.pyd
+[2024-05-01 05:18:46] INFO root fetch - processPackages [manyhttps]: Remove: archive file [/home/abi/fetcher/tmp/manyhttps-2.33.1.tar.gz]
+[2024-05-01 05:18:46] INFO root fetch - processPackages [manyhttps]: Remove: archive file [/home/abi/fetcher/tmp/manyhttps-2.33.2.tar.gz]
+[2024-05-01 05:18:46] INFO root fetch - main [MainThread]: End processing [manyhttps]: success
+[2024-05-01 05:18:46] INFO root fetch - processPackages [cellworld-game]: Remove: archive file [/home/abi/fetcher/tmp/cellworld_game-0.0.68.tar.gz]
+[2024-05-01 05:18:46] INFO root fetch - processPackages [cellworld-game]: Remove: archive file [/home/abi/fetcher/tmp/cellworld_game-0.0.72.tar.gz]
+[2024-05-01 05:18:46] INFO root fetch - main [MainThread]: End processing [cellworld-game]: success
+[2024-05-01 05:18:46] INFO root fetch - processPackages [dycw-utilities]: Remove: archive file [/home/abi/fetcher/tmp/dycw_utilities-0.8.8.tar.gz]
+[2024-05-01 05:18:46] INFO root fetch - processPackages [dycw-utilities]: Remove: archive file [/home/abi/fetcher/tmp/dycw_utilities-0.9.0.tar.gz]
+[2024-05-01 05:18:46] INFO root fetch - main [MainThread]: End processing [dycw-utilities]: success
+[2024-05-01 05:18:46] INFO root fetch - processPackages [masr]: Remove: archive file [/home/abi/fetcher/tmp/masr-2.3.7-py3-none-any.whl.zip]
+[2024-05-01 05:18:46] INFO root fetch - processPackages [masr]: Remove: archive file [/home/abi/fetcher/tmp/masr-2.3.8-py3-none-any.whl.zip]
+[2024-05-01 05:18:46] INFO root fetch - main [MainThread]: End processing [masr]: success
+[2024-05-01 05:18:46] INFO root fetch - main [MainThread]: Store serial: [23011847]
