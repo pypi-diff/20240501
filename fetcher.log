@@ -13064,3 +13064,52 @@
 [2024-05-01 10:29:54] INFO root fetch - processPackages [dve-lumipy-testing]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_testing-1.0.9-py3-none-any.whl.zip]
 [2024-05-01 10:29:54] INFO root fetch - main [MainThread]: End processing [dve-lumipy-testing]: success
 [2024-05-01 10:29:54] INFO root fetch - main [MainThread]: Store serial: [23014168]
+[2024-05-01 10:31:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23014168]
+[2024-05-01 10:32:03] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-01 10:32:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aissemble-extensions-data-delivery-spark-py
+[2024-05-01 10:32:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aissemble-extensions-encryption-vault-python
+[2024-05-01 10:32:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: port-ocean
+[2024-05-01 10:32:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: socketsecurity
+[2024-05-01 10:32:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aissemble-extensions-data-delivery-spark-py
+[2024-05-01 10:32:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pysma-plus
+[2024-05-01 10:32:03] INFO root fetch - processPackages [aissemble-extensions-encryption-vault-python]: New version: [1.7.0.dev1714552154] Old Version: [1.7.0.dev1714505969]
+[2024-05-01 10:32:03] INFO root fetch - processPackages [aissemble-extensions-data-delivery-spark-py]: New version: [1.7.0.dev1714552187] Old Version: [1.7.0.dev1714506001]
+[2024-05-01 10:32:03] INFO root fetch - processPackages [aissemble-extensions-data-delivery-spark-py]: New version: [1.7.0.dev1714552187] Old Version: [1.7.0.dev1714506001]
+[2024-05-01 10:32:03] INFO root fetch - processPackages [aissemble-extensions-encryption-vault-python]: Downloading https://files.pythonhosted.org/packages/5a/5e/cc1513391a01b6dc08c4766bd9a708ca1bfabad3162fbb40d638bb599c5b/aissemble_extensions_encryption_vault_python-1.7.0.dev1714505969.tar.gz
+[2024-05-01 10:32:03] INFO root fetch - processPackages [aissemble-extensions-data-delivery-spark-py]: Downloading https://files.pythonhosted.org/packages/30/de/369f2d436307515ff3cd7cdc7b89cecc710718c94fc915b1af3143eddfcd/aissemble_extensions_data_delivery_spark_py-1.7.0.dev1714506001.tar.gz
+[2024-05-01 10:32:03] WARNING root fetch - processPackages [socketsecurity]: Skipping, unable to determine old version
+[2024-05-01 10:32:03] INFO root fetch - main [MainThread]: End processing [socketsecurity] error
+[2024-05-01 10:32:03] INFO root fetch - processPackages [port-ocean]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-05-01 10:32:03] INFO root fetch - processPackages [aissemble-extensions-data-delivery-spark-py]: Downloading https://files.pythonhosted.org/packages/30/de/369f2d436307515ff3cd7cdc7b89cecc710718c94fc915b1af3143eddfcd/aissemble_extensions_data_delivery_spark_py-1.7.0.dev1714506001.tar.gz
+[2024-05-01 10:32:03] INFO root fetch - processPackages [pysma-plus]: New version: [0.2.0] Old Version: [0.1.5]
+[2024-05-01 10:32:04] INFO root fetch - processPackages [port-ocean]: Downloading https://files.pythonhosted.org/packages/78/bc/7cc9e8e2e79075a3c79c00273aaeb13f895d17585c027c53b61f77bdaba4/port_ocean-0.5.8.tar.gz
+[2024-05-01 10:32:04] INFO root fetch - processPackages [pysma-plus]: Downloading https://files.pythonhosted.org/packages/97/7d/43f41a7e728ae0555a7f027299675575d478ee188b7af941b6c8eb6e7dd3/pysma_plus-0.1.5.tar.gz
+[2024-05-01 10:32:04] INFO root fetch - processPackages [aissemble-extensions-data-delivery-spark-py]: Downloading https://files.pythonhosted.org/packages/07/10/f524de3be1b20727551469ec1e393dc83314173c4ba4cd3faa3b1c312f74/aissemble_extensions_data_delivery_spark_py-1.7.0.dev1714552187.tar.gz
+[2024-05-01 10:32:04] INFO root fetch - processPackages [aissemble-extensions-data-delivery-spark-py]: Downloading https://files.pythonhosted.org/packages/07/10/f524de3be1b20727551469ec1e393dc83314173c4ba4cd3faa3b1c312f74/aissemble_extensions_data_delivery_spark_py-1.7.0.dev1714552187.tar.gz
+[2024-05-01 10:32:04] INFO root fetch - processPackages [aissemble-extensions-encryption-vault-python]: Downloading https://files.pythonhosted.org/packages/d2/d2/eafed8eab7a0195051e3a7414b23fdb8c172c668999c583552065dad8c12/aissemble_extensions_encryption_vault_python-1.7.0.dev1714552154.tar.gz
+[2024-05-01 10:32:04] INFO root fetch - processPackages [aissemble-extensions-encryption-vault-python]: executing diffoscope
+[2024-05-01 10:32:04] INFO root fetch - processPackages [aissemble-extensions-encryption-vault-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aissemble_extensions_encryption_vault_python-1.7.0.dev1714505969.tar.gz tmp/aissemble_extensions_encryption_vault_python-1.7.0.dev1714552154.tar.gz --markdown 20240501/a/aissemble-extensions-encryption-vault-python/1.7.0.dev1714505969-1.7.0.dev1714552154/README.md --exclude *.pyd
+[2024-05-01 10:32:04] INFO root fetch - processPackages [port-ocean]: Downloading https://files.pythonhosted.org/packages/9a/b8/b4b21f5c3d509271ff988cb9644c8429ce3f2eb23c44e309e16fc3f2c3d6/port_ocean-0.5.9.tar.gz
+[2024-05-01 10:32:04] INFO root fetch - processPackages [aissemble-extensions-data-delivery-spark-py]: executing diffoscope
+[2024-05-01 10:32:04] INFO root fetch - processPackages [aissemble-extensions-data-delivery-spark-py]: executing diffoscope
+[2024-05-01 10:32:04] INFO root fetch - processPackages [aissemble-extensions-data-delivery-spark-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aissemble_extensions_data_delivery_spark_py-1.7.0.dev1714506001.tar.gz tmp/aissemble_extensions_data_delivery_spark_py-1.7.0.dev1714552187.tar.gz --markdown 20240501/a/aissemble-extensions-data-delivery-spark-py/1.7.0.dev1714506001-1.7.0.dev1714552187/README.md --exclude *.pyd
+[2024-05-01 10:32:04] INFO root fetch - processPackages [aissemble-extensions-data-delivery-spark-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aissemble_extensions_data_delivery_spark_py-1.7.0.dev1714506001.tar.gz tmp/aissemble_extensions_data_delivery_spark_py-1.7.0.dev1714552187.tar.gz --markdown 20240501/a/aissemble-extensions-data-delivery-spark-py/1.7.0.dev1714506001-1.7.0.dev1714552187/README.md --exclude *.pyd
+[2024-05-01 10:32:04] INFO root fetch - processPackages [port-ocean]: executing diffoscope
+[2024-05-01 10:32:04] INFO root fetch - processPackages [port-ocean]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/port_ocean-0.5.8.tar.gz tmp/port_ocean-0.5.9.tar.gz --markdown 20240501/p/port-ocean/0.5.8-0.5.9/README.md --exclude *.pyd
+[2024-05-01 10:32:04] INFO root fetch - processPackages [pysma-plus]: Downloading https://files.pythonhosted.org/packages/89/1f/b6b21200bf1fdefb6747f66dab2c60c5aa664ac4625a445c689fa6d63a1a/pysma_plus-0.2.0.tar.gz
+[2024-05-01 10:32:04] INFO root fetch - processPackages [pysma-plus]: executing diffoscope
+[2024-05-01 10:32:04] INFO root fetch - processPackages [pysma-plus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysma_plus-0.1.5.tar.gz tmp/pysma_plus-0.2.0.tar.gz --markdown 20240501/p/pysma-plus/0.1.5-0.2.0/README.md --exclude *.pyd
+[2024-05-01 10:32:05] INFO root fetch - processPackages [aissemble-extensions-data-delivery-spark-py]: Remove: archive file [/home/abi/fetcher/tmp/aissemble_extensions_data_delivery_spark_py-1.7.0.dev1714506001.tar.gz]
+[2024-05-01 10:32:05] INFO root fetch - processPackages [aissemble-extensions-data-delivery-spark-py]: Remove: archive file [/home/abi/fetcher/tmp/aissemble_extensions_data_delivery_spark_py-1.7.0.dev1714552187.tar.gz]
+[2024-05-01 10:32:05] INFO root fetch - main [MainThread]: End processing [aissemble-extensions-data-delivery-spark-py]: success
+[2024-05-01 10:32:05] INFO root fetch - main [MainThread]: End processing [aissemble-extensions-data-delivery-spark-py]: success
+[2024-05-01 10:32:05] INFO root fetch - processPackages [aissemble-extensions-encryption-vault-python]: Remove: archive file [/home/abi/fetcher/tmp/aissemble_extensions_encryption_vault_python-1.7.0.dev1714505969.tar.gz]
+[2024-05-01 10:32:05] INFO root fetch - processPackages [aissemble-extensions-encryption-vault-python]: Remove: archive file [/home/abi/fetcher/tmp/aissemble_extensions_encryption_vault_python-1.7.0.dev1714552154.tar.gz]
+[2024-05-01 10:32:05] INFO root fetch - main [MainThread]: End processing [aissemble-extensions-encryption-vault-python]: success
+[2024-05-01 10:32:05] INFO root fetch - processPackages [port-ocean]: Remove: archive file [/home/abi/fetcher/tmp/port_ocean-0.5.8.tar.gz]
+[2024-05-01 10:32:05] INFO root fetch - processPackages [port-ocean]: Remove: archive file [/home/abi/fetcher/tmp/port_ocean-0.5.9.tar.gz]
+[2024-05-01 10:32:05] INFO root fetch - main [MainThread]: End processing [port-ocean]: success
+[2024-05-01 10:32:05] INFO root fetch - processPackages [pysma-plus]: Remove: archive file [/home/abi/fetcher/tmp/pysma_plus-0.1.5.tar.gz]
+[2024-05-01 10:32:05] INFO root fetch - processPackages [pysma-plus]: Remove: archive file [/home/abi/fetcher/tmp/pysma_plus-0.2.0.tar.gz]
+[2024-05-01 10:32:05] INFO root fetch - main [MainThread]: End processing [pysma-plus]: success
+[2024-05-01 10:32:05] INFO root fetch - main [MainThread]: Store serial: [23014187]
