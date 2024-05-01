@@ -1837,3 +1837,65 @@
 [2024-05-01 02:09:05] INFO root fetch - processPackages [chalkpy]: Remove: archive file [/home/abi/fetcher/tmp/chalkpy-2.9.9.tar.gz]
 [2024-05-01 02:09:05] INFO root fetch - main [MainThread]: End processing [chalkpy]: success
 [2024-05-01 02:09:05] INFO root fetch - main [MainThread]: Store serial: [23009505]
+[2024-05-01 02:11:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23009505]
+[2024-05-01 02:11:14] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-01 02:11:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-common
+[2024-05-01 02:11:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: transformers-js-py
+[2024-05-01 02:11:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: AutoTransform
+[2024-05-01 02:11:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cellprofiler-library-nightly
+[2024-05-01 02:11:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cellprofiler-core-nightly
+[2024-05-01 02:11:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: CellProfiler-nightly
+[2024-05-01 02:11:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: openbb-nightly
+[2024-05-01 02:11:14] INFO root fetch - processPackages [transformers-js-py]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-05-01 02:11:14] INFO root fetch - processPackages [openbb-nightly]: New version: [4.1.7.dev202404300009] Old Version: [4.1.7.dev202404290009]
+[2024-05-01 02:11:14] INFO root fetch - processPackages [cdk-common]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-05-01 02:11:14] INFO root fetch - processPackages [cellprofiler-core-nightly]: New version: [5.0.0.dev69] Old Version: [5.0.0.dev65]
+[2024-05-01 02:11:14] INFO root fetch - processPackages [CellProfiler-nightly]: New version: [5.0.0.dev69] Old Version: [5.0.0.dev65]
+[2024-05-01 02:11:14] INFO root fetch - processPackages [cellprofiler-library-nightly]: New version: [5.0.0.dev69] Old Version: [5.0.0.dev65]
+[2024-05-01 02:11:14] INFO root fetch - processPackages [AutoTransform]: New version: [1.1.1a9] Old Version: [1.1.1a8]
+[2024-05-01 02:11:14] INFO root fetch - processPackages [transformers-js-py]: Downloading https://files.pythonhosted.org/packages/e9/d4/245ab3f4c5f82c00b652b8ff4b0d02cde64e88d462ead1ae460fdf5a43df/transformers_js_py-0.8.1.tar.gz
+[2024-05-01 02:11:14] INFO root fetch - processPackages [openbb-nightly]: Downloading https://files.pythonhosted.org/packages/a8/10/a52db0e11cad544a9e2f7f0ec562eca46e79283b524fc3a0b0025aa26475/openbb_nightly-4.1.7.dev202404290009.tar.gz
+[2024-05-01 02:11:14] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/f3/30/796e7080e9a9b293ccf386b0d95f40dde8e214e0415d2c59be9c661105a9/cdk-common-2.0.98.tar.gz
+[2024-05-01 02:11:14] INFO root fetch - processPackages [cellprofiler-core-nightly]: Downloading https://files.pythonhosted.org/packages/f4/17/4eee5e55387550e1aa3571c6076fc86c8ad06f8653a790ab884111ebbfa0/cellprofiler_core_nightly-5.0.0.dev65.tar.gz
+[2024-05-01 02:11:14] INFO root fetch - processPackages [CellProfiler-nightly]: Downloading https://files.pythonhosted.org/packages/67/df/0383f96817e85f1d53cb5854ecb97b4a95ddd011c738d21618b6fcf03b7b/cellprofiler_nightly-5.0.0.dev65.tar.gz
+[2024-05-01 02:11:14] INFO root fetch - processPackages [cellprofiler-library-nightly]: Downloading https://files.pythonhosted.org/packages/75/cc/801e74eb204c82647bb2c05ec0ba65171615bdc13fdf42bf9a0d9393ac50/cellprofiler_library_nightly-5.0.0.dev65.tar.gz
+[2024-05-01 02:11:14] INFO root fetch - processPackages [transformers-js-py]: Downloading https://files.pythonhosted.org/packages/69/a5/f53e404079de13cda9053663becf9d7e3a3351cfa3b254d9a695544db414/transformers_js_py-0.9.0.tar.gz
+[2024-05-01 02:11:14] INFO root fetch - processPackages [AutoTransform]: Downloading https://files.pythonhosted.org/packages/86/7c/ca1c4a1e5d18c778b98c9447aa2356092a730f677db43cd0ebc0ffaa1209/AutoTransform-1.1.1a8.tar.gz
+[2024-05-01 02:11:14] WARNING root fetch - processPackages [CellProfiler-nightly]: Skipping package: exceeds size limit 20783057>=10485760
+[2024-05-01 02:11:14] INFO root fetch - main [MainThread]: End processing [CellProfiler-nightly] error
+[2024-05-01 02:11:14] INFO root fetch - processPackages [transformers-js-py]: executing diffoscope
+[2024-05-01 02:11:14] INFO root fetch - processPackages [transformers-js-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/transformers_js_py-0.8.1.tar.gz tmp/transformers_js_py-0.9.0.tar.gz --markdown 20240501/t/transformers-js-py/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-05-01 02:11:15] INFO root fetch - processPackages [cellprofiler-library-nightly]: Downloading https://files.pythonhosted.org/packages/03/b2/ca8a33ba39725fc13e43376d7d4a8b0bc17cc767207cb87776840750c443/cellprofiler_library_nightly-5.0.0.dev69.tar.gz
+[2024-05-01 02:11:15] INFO root fetch - processPackages [cellprofiler-core-nightly]: Downloading https://files.pythonhosted.org/packages/df/61/330f3492b58366d8c06fbb2c2aab5c47a7929fb59001c1971769ded53bd0/cellprofiler_core_nightly-5.0.0.dev69.tar.gz
+[2024-05-01 02:11:15] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/11/10/ca183f281275ec945ede082d9491c0bb5bfb9152c437124c86e37cba7079/cdk-common-2.0.99.tar.gz
+[2024-05-01 02:11:15] INFO root fetch - processPackages [openbb-nightly]: Downloading https://files.pythonhosted.org/packages/86/2f/f0e1e9e215f701e34254e767933fd6beac865b96091b785e5c99e76c3486/openbb_nightly-4.1.7.dev202404300009.tar.gz
+[2024-05-01 02:11:15] INFO root fetch - processPackages [cellprofiler-library-nightly]: executing diffoscope
+[2024-05-01 02:11:15] INFO root fetch - processPackages [cellprofiler-library-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cellprofiler_library_nightly-5.0.0.dev65.tar.gz tmp/cellprofiler_library_nightly-5.0.0.dev69.tar.gz --markdown 20240501/c/cellprofiler-library-nightly/5.0.0.dev65-5.0.0.dev69/README.md --exclude *.pyd
+[2024-05-01 02:11:15] INFO root fetch - processPackages [AutoTransform]: Downloading https://files.pythonhosted.org/packages/d3/7d/1f488564ccca4944497d95e03802515fdbeb439e1c0ba8866751af3bb6f5/AutoTransform-1.1.1a9.tar.gz
+[2024-05-01 02:11:15] INFO root fetch - processPackages [cellprofiler-core-nightly]: executing diffoscope
+[2024-05-01 02:11:15] INFO root fetch - processPackages [cellprofiler-core-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cellprofiler_core_nightly-5.0.0.dev65.tar.gz tmp/cellprofiler_core_nightly-5.0.0.dev69.tar.gz --markdown 20240501/c/cellprofiler-core-nightly/5.0.0.dev65-5.0.0.dev69/README.md --exclude *.pyd
+[2024-05-01 02:11:15] INFO root fetch - processPackages [AutoTransform]: executing diffoscope
+[2024-05-01 02:11:15] INFO root fetch - processPackages [AutoTransform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AutoTransform-1.1.1a8.tar.gz tmp/AutoTransform-1.1.1a9.tar.gz --markdown 20240501/A/AutoTransform/1.1.1a8-1.1.1a9/README.md --exclude *.pyd
+[2024-05-01 02:11:15] INFO root fetch - processPackages [transformers-js-py]: Remove: archive file [/home/abi/fetcher/tmp/transformers_js_py-0.8.1.tar.gz]
+[2024-05-01 02:11:15] INFO root fetch - processPackages [transformers-js-py]: Remove: archive file [/home/abi/fetcher/tmp/transformers_js_py-0.9.0.tar.gz]
+[2024-05-01 02:11:15] INFO root fetch - main [MainThread]: End processing [transformers-js-py]: success
+[2024-05-01 02:11:15] INFO root fetch - processPackages [cdk-common]: executing diffoscope
+[2024-05-01 02:11:15] INFO root fetch - processPackages [cdk-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-common-2.0.98.tar.gz tmp/cdk-common-2.0.99.tar.gz --markdown 20240501/c/cdk-common/2.0.98-2.0.99/README.md --exclude *.pyd
+[2024-05-01 02:11:15] INFO root fetch - processPackages [openbb-nightly]: executing diffoscope
+[2024-05-01 02:11:15] INFO root fetch - processPackages [openbb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openbb_nightly-4.1.7.dev202404290009.tar.gz tmp/openbb_nightly-4.1.7.dev202404300009.tar.gz --markdown 20240501/o/openbb-nightly/4.1.7.dev202404290009-4.1.7.dev202404300009/README.md --exclude *.pyd
+[2024-05-01 02:11:15] INFO root fetch - processPackages [cellprofiler-library-nightly]: Remove: archive file [/home/abi/fetcher/tmp/cellprofiler_library_nightly-5.0.0.dev65.tar.gz]
+[2024-05-01 02:11:15] INFO root fetch - processPackages [cellprofiler-library-nightly]: Remove: archive file [/home/abi/fetcher/tmp/cellprofiler_library_nightly-5.0.0.dev69.tar.gz]
+[2024-05-01 02:11:15] INFO root fetch - main [MainThread]: End processing [cellprofiler-library-nightly]: success
+[2024-05-01 02:11:16] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.98.tar.gz]
+[2024-05-01 02:11:16] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.99.tar.gz]
+[2024-05-01 02:11:16] INFO root fetch - main [MainThread]: End processing [cdk-common]: success
+[2024-05-01 02:11:16] INFO root fetch - processPackages [cellprofiler-core-nightly]: Remove: archive file [/home/abi/fetcher/tmp/cellprofiler_core_nightly-5.0.0.dev65.tar.gz]
+[2024-05-01 02:11:16] INFO root fetch - processPackages [cellprofiler-core-nightly]: Remove: archive file [/home/abi/fetcher/tmp/cellprofiler_core_nightly-5.0.0.dev69.tar.gz]
+[2024-05-01 02:11:16] INFO root fetch - main [MainThread]: End processing [cellprofiler-core-nightly]: success
+[2024-05-01 02:11:16] INFO root fetch - processPackages [AutoTransform]: Remove: archive file [/home/abi/fetcher/tmp/AutoTransform-1.1.1a8.tar.gz]
+[2024-05-01 02:11:16] INFO root fetch - processPackages [AutoTransform]: Remove: archive file [/home/abi/fetcher/tmp/AutoTransform-1.1.1a9.tar.gz]
+[2024-05-01 02:11:16] INFO root fetch - main [MainThread]: End processing [AutoTransform]: success
+[2024-05-01 02:11:18] INFO root fetch - processPackages [openbb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/openbb_nightly-4.1.7.dev202404290009.tar.gz]
+[2024-05-01 02:11:18] INFO root fetch - processPackages [openbb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/openbb_nightly-4.1.7.dev202404300009.tar.gz]
+[2024-05-01 02:11:18] INFO root fetch - main [MainThread]: End processing [openbb-nightly]: success
+[2024-05-01 02:11:18] INFO root fetch - main [MainThread]: Store serial: [23009527]
