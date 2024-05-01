@@ -10486,3 +10486,75 @@
 [2024-05-01 08:08:14] INFO root fetch - processPackages [lino-welcht]: Remove: archive file [/home/abi/fetcher/tmp/lino-welcht-24.5.0.tar.gz]
 [2024-05-01 08:08:14] INFO root fetch - main [MainThread]: End processing [lino-welcht]: success
 [2024-05-01 08:08:14] INFO root fetch - main [MainThread]: Store serial: [23012926]
+[2024-05-01 08:10:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23012926]
+[2024-05-01 08:10:24] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-01 08:10:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: consolidate
+[2024-05-01 08:10:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-announcement
+[2024-05-01 08:10:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-kong
+[2024-05-01 08:10:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-gitlab
+[2024-05-01 08:10:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: openg2p-g2pconnect-common-lib
+[2024-05-01 08:10:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: openg2p-g2pconnect-mapper-lib
+[2024-05-01 08:10:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pulumi-alicloud
+[2024-05-01 08:10:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pop-cli
+[2024-05-01 08:10:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: llama-cpp-agent
+[2024-05-01 08:10:24] INFO root fetch - processPackages [llama-cpp-agent]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-01 08:10:24] INFO root fetch - processPackages [pulumi-kong]: New version: [4.6.0a1714455955] Old Version: [4.6.0a1714110449]
+[2024-05-01 08:10:24] INFO root fetch - processPackages [pulumi-gitlab]: New version: [6.9.0a1708340471] Old Version: [6.9.0a1708063247]
+[2024-05-01 08:10:24] INFO root fetch - processPackages [pulumi-alicloud]: New version: [3.9.0a1637592974] Old Version: [3.9.0a1635778307]
+[2024-05-01 08:10:24] INFO root fetch - processPackages [llama-cpp-agent]: Downloading https://files.pythonhosted.org/packages/b1/dc/cf0fbb161c3d3c231fcd4737a8f55f4183bbbf8030ccb12b79a20348556e/llama-cpp-agent-0.0.8.tar.gz
+[2024-05-01 08:10:24] INFO root fetch - processPackages [consolidate]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-01 08:10:24] INFO root fetch - processPackages [odoo-addon-announcement]: New version: [16.0.1.0.0.4] Old Version: [16.0.1.0.0.3]
+[2024-05-01 08:10:24] WARNING root fetch - processPackages [openg2p-g2pconnect-mapper-lib]: Skipping, unable to determine old version
+[2024-05-01 08:10:24] INFO root fetch - main [MainThread]: End processing [openg2p-g2pconnect-mapper-lib] error
+[2024-05-01 08:10:24] WARNING root fetch - processPackages [openg2p-g2pconnect-common-lib]: Skipping, unable to determine old version
+[2024-05-01 08:10:24] INFO root fetch - main [MainThread]: End processing [openg2p-g2pconnect-common-lib] error
+[2024-05-01 08:10:24] INFO root fetch - processPackages [pop-cli]: New version: [6.0.0] Old Version: [5.1.1]
+[2024-05-01 08:10:24] INFO root fetch - processPackages [pulumi-kong]: Downloading https://files.pythonhosted.org/packages/73/47/5c45b4fadeddc8112fa3fe26ebb1aa1c78141dc1cf6cf0e887d3fb75c18f/pulumi_kong-4.6.0a1714110449.tar.gz
+[2024-05-01 08:10:24] INFO root fetch - processPackages [pulumi-gitlab]: Downloading https://files.pythonhosted.org/packages/58/07/ab2778876b4db96da370ecc6d084f38b132c7d1e47cda0350b3de396d7e4/pulumi_gitlab-6.9.0a1708063247.tar.gz
+[2024-05-01 08:10:24] INFO root fetch - processPackages [odoo-addon-announcement]: Downloading https://files.pythonhosted.org/packages/d6/5e/3b3ef094b2cb3e29325a2d8506a71a41044717edb24117f3d0df13c4d610/odoo_addon_announcement-16.0.1.0.0.3-py3-none-any.whl
+[2024-05-01 08:10:24] INFO root fetch - processPackages [consolidate]: Downloading https://files.pythonhosted.org/packages/39/f1/8c532c3718e1c20743463168abed117c2fe99b9e342039d8f0d09ca65db6/consolidate-0.0.2.tar.gz
+[2024-05-01 08:10:24] INFO root fetch - processPackages [pulumi-alicloud]: Downloading https://files.pythonhosted.org/packages/be/79/da6d86e1953fc7bde0762279ac850d45fe8ad91ff27a3c837009ede717a4/pulumi_alicloud-3.9.0a1635778307.tar.gz
+[2024-05-01 08:10:24] INFO root fetch - processPackages [pop-cli]: Downloading https://files.pythonhosted.org/packages/c8/11/af20c2a6ec7e626171d2021459c5d000b36d4349dd5db5e8b41eb4a89ea0/pop_cli-5.1.1.tar.gz
+[2024-05-01 08:10:24] INFO root fetch - processPackages [llama-cpp-agent]: Downloading https://files.pythonhosted.org/packages/72/d2/fe669d324be099dc10673e05fdedaa55577529de265f254f94bf2c1eca23/llama-cpp-agent-0.0.9.tar.gz
+[2024-05-01 08:10:24] INFO root fetch - processPackages [pulumi-kong]: Downloading https://files.pythonhosted.org/packages/64/04/b52760983e79237a231e64178c0811583a417fe8824155c7fe69946610c4/pulumi_kong-4.6.0a1714455955.tar.gz
+[2024-05-01 08:10:24] INFO root fetch - processPackages [pulumi-gitlab]: Downloading https://files.pythonhosted.org/packages/ec/de/e27b5fc2f3f3a7a5f878850b1b8d0f82d5624c70b642a39146c756ea3d5c/pulumi_gitlab-6.9.0a1708340471.tar.gz
+[2024-05-01 08:10:25] INFO root fetch - processPackages [llama-cpp-agent]: executing diffoscope
+[2024-05-01 08:10:25] INFO root fetch - processPackages [llama-cpp-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama-cpp-agent-0.0.8.tar.gz tmp/llama-cpp-agent-0.0.9.tar.gz --markdown 20240501/l/llama-cpp-agent/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-01 08:10:25] INFO root fetch - processPackages [pulumi-kong]: executing diffoscope
+[2024-05-01 08:10:25] INFO root fetch - processPackages [pulumi-kong]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_kong-4.6.0a1714110449.tar.gz tmp/pulumi_kong-4.6.0a1714455955.tar.gz --markdown 20240501/p/pulumi-kong/4.6.0a1714110449-4.6.0a1714455955/README.md --exclude *.pyd
+[2024-05-01 08:10:25] INFO root fetch - processPackages [consolidate]: Downloading https://files.pythonhosted.org/packages/1b/fd/737cf03a97c407c50d6bbaa6a535fa316989ef0ad318551e6b875909dd5d/consolidate-0.0.3.tar.gz
+[2024-05-01 08:10:25] INFO root fetch - processPackages [pulumi-gitlab]: executing diffoscope
+[2024-05-01 08:10:25] INFO root fetch - processPackages [pulumi-gitlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_gitlab-6.9.0a1708063247.tar.gz tmp/pulumi_gitlab-6.9.0a1708340471.tar.gz --markdown 20240501/p/pulumi-gitlab/6.9.0a1708063247-6.9.0a1708340471/README.md --exclude *.pyd
+[2024-05-01 08:10:25] INFO root fetch - processPackages [pop-cli]: Downloading https://files.pythonhosted.org/packages/2e/d3/02f6184a4cb81136b83aa1119c4cb53b8063e34235fefd8182dcb0858362/pop_cli-6.0.0.tar.gz
+[2024-05-01 08:10:25] INFO root fetch - processPackages [odoo-addon-announcement]: Downloading https://files.pythonhosted.org/packages/b1/ee/0a200b0777499fbdc8c132201bf5d7d75a581a58d337811ac0dbb8df768d/odoo_addon_announcement-16.0.1.0.0.4-py3-none-any.whl
+[2024-05-01 08:10:25] INFO root fetch - processPackages [pulumi-alicloud]: Downloading https://files.pythonhosted.org/packages/7a/b5/f47603b555625f7ec29ec6dcdc2cf74fe00dc52cba5fad75ddd65d3bd99e/pulumi_alicloud-3.9.0a1637592974.tar.gz
+[2024-05-01 08:10:25] INFO root fetch - processPackages [consolidate]: executing diffoscope
+[2024-05-01 08:10:25] INFO root fetch - processPackages [consolidate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/consolidate-0.0.2.tar.gz tmp/consolidate-0.0.3.tar.gz --markdown 20240501/c/consolidate/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-01 08:10:25] INFO root fetch - processPackages [odoo-addon-announcement]: executing diffoscope
+[2024-05-01 08:10:25] INFO root fetch - processPackages [odoo-addon-announcement]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_announcement-16.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_announcement-16.0.1.0.0.4-py3-none-any.whl.zip --markdown 20240501/o/odoo-addon-announcement/16.0.1.0.0.3-16.0.1.0.0.4/README.md --exclude *.pyd
+[2024-05-01 08:10:25] INFO root fetch - processPackages [pop-cli]: executing diffoscope
+[2024-05-01 08:10:25] INFO root fetch - processPackages [pop-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pop_cli-5.1.1.tar.gz tmp/pop_cli-6.0.0.tar.gz --markdown 20240501/p/pop-cli/5.1.1-6.0.0/README.md --exclude *.pyd
+[2024-05-01 08:10:25] INFO root fetch - processPackages [pulumi-alicloud]: executing diffoscope
+[2024-05-01 08:10:25] INFO root fetch - processPackages [pulumi-alicloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_alicloud-3.9.0a1635778307.tar.gz tmp/pulumi_alicloud-3.9.0a1637592974.tar.gz --markdown 20240501/p/pulumi-alicloud/3.9.0a1635778307-3.9.0a1637592974/README.md --exclude *.pyd
+[2024-05-01 08:10:25] INFO root fetch - processPackages [llama-cpp-agent]: Remove: archive file [/home/abi/fetcher/tmp/llama-cpp-agent-0.0.8.tar.gz]
+[2024-05-01 08:10:25] INFO root fetch - processPackages [llama-cpp-agent]: Remove: archive file [/home/abi/fetcher/tmp/llama-cpp-agent-0.0.9.tar.gz]
+[2024-05-01 08:10:25] INFO root fetch - main [MainThread]: End processing [llama-cpp-agent]: success
+[2024-05-01 08:10:25] INFO root fetch - processPackages [pulumi-kong]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kong-4.6.0a1714110449.tar.gz]
+[2024-05-01 08:10:25] INFO root fetch - processPackages [pulumi-kong]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kong-4.6.0a1714455955.tar.gz]
+[2024-05-01 08:10:25] INFO root fetch - main [MainThread]: End processing [pulumi-kong]: success
+[2024-05-01 08:10:25] INFO root fetch - processPackages [consolidate]: Remove: archive file [/home/abi/fetcher/tmp/consolidate-0.0.2.tar.gz]
+[2024-05-01 08:10:25] INFO root fetch - processPackages [consolidate]: Remove: archive file [/home/abi/fetcher/tmp/consolidate-0.0.3.tar.gz]
+[2024-05-01 08:10:25] INFO root fetch - main [MainThread]: End processing [consolidate]: success
+[2024-05-01 08:10:26] INFO root fetch - processPackages [odoo-addon-announcement]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_announcement-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-05-01 08:10:26] INFO root fetch - processPackages [odoo-addon-announcement]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_announcement-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-05-01 08:10:26] INFO root fetch - main [MainThread]: End processing [odoo-addon-announcement]: success
+[2024-05-01 08:10:26] INFO root fetch - processPackages [pop-cli]: Remove: archive file [/home/abi/fetcher/tmp/pop_cli-5.1.1.tar.gz]
+[2024-05-01 08:10:26] INFO root fetch - processPackages [pop-cli]: Remove: archive file [/home/abi/fetcher/tmp/pop_cli-6.0.0.tar.gz]
+[2024-05-01 08:10:26] INFO root fetch - main [MainThread]: End processing [pop-cli]: success
+[2024-05-01 08:10:26] INFO root fetch - processPackages [pulumi-gitlab]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_gitlab-6.9.0a1708063247.tar.gz]
+[2024-05-01 08:10:26] INFO root fetch - processPackages [pulumi-gitlab]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_gitlab-6.9.0a1708340471.tar.gz]
+[2024-05-01 08:10:26] INFO root fetch - main [MainThread]: End processing [pulumi-gitlab]: success
+[2024-05-01 08:10:33] INFO root fetch - processPackages [pulumi-alicloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_alicloud-3.9.0a1635778307.tar.gz]
+[2024-05-01 08:10:33] INFO root fetch - processPackages [pulumi-alicloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_alicloud-3.9.0a1637592974.tar.gz]
+[2024-05-01 08:10:33] INFO root fetch - main [MainThread]: End processing [pulumi-alicloud]: success
+[2024-05-01 08:10:33] INFO root fetch - main [MainThread]: Store serial: [23012956]
