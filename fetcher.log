@@ -16998,3 +16998,70 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-01 13:27:25] INFO root fetch - processPackages [torchrl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrl_nightly-2024.5.1-cp39-cp39-manylinux1_x86_64.whl.zip]
 [2024-05-01 13:27:25] INFO root fetch - main [MainThread]: End processing [torchrl-nightly]: success
 [2024-05-01 13:27:25] INFO root fetch - main [MainThread]: Store serial: [23015791]
+[2024-05-01 13:29:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23015791]
+[2024-05-01 13:29:34] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-01 13:29:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: telegram-wallet-pay
+[2024-05-01 13:29:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: torchsparks
+[2024-05-01 13:29:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: colony-print
+[2024-05-01 13:29:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: trytond-sale
+[2024-05-01 13:29:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pytailwindcss-extra
+[2024-05-01 13:29:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: uvx
+[2024-05-01 13:29:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: trytond-sale
+[2024-05-01 13:29:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pulumi-akamai
+[2024-05-01 13:29:34] INFO root fetch - processPackages [colony-print]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-05-01 13:29:34] INFO root fetch - processPackages [uvx]: New version: [2.0.7] Old Version: [2.0.6]
+[2024-05-01 13:29:34] INFO root fetch - processPackages [pulumi-akamai]: New version: [7.2.0a1714540166] Old Version: [7.2.0a1714453796]
+[2024-05-01 13:29:34] INFO root fetch - processPackages [trytond-sale]: New version: [7.2.1] Old Version: [7.2.0]
+[2024-05-01 13:29:34] INFO root fetch - processPackages [trytond-sale]: New version: [7.2.1] Old Version: [7.2.0]
+[2024-05-01 13:29:34] INFO root fetch - processPackages [colony-print]: Downloading https://files.pythonhosted.org/packages/77/8d/813b3b4d5a5100eacfccc99a289983aa661a561df671af57c39e36608c70/colony-print-0.2.0.tar.gz
+[2024-05-01 13:29:35] INFO root fetch - processPackages [telegram-wallet-pay]: New version: [0.5.0] Old Version: [0.4.1]
+[2024-05-01 13:29:35] WARNING root fetch - processPackages [pytailwindcss-extra]: Skipping, unable to determine old version
+[2024-05-01 13:29:35] INFO root fetch - main [MainThread]: End processing [pytailwindcss-extra] error
+[2024-05-01 13:29:35] INFO root fetch - processPackages [torchsparks]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-01 13:29:35] INFO root fetch - processPackages [uvx]: Downloading https://files.pythonhosted.org/packages/80/ba/68266034cd9db46a721544a706c19e5bb2710fa459bfb6400ad13fcfb602/uvx-2.0.6.tar.gz
+[2024-05-01 13:29:35] INFO root fetch - processPackages [pulumi-akamai]: Downloading https://files.pythonhosted.org/packages/77/41/4516a297e3e87972b7a2e3ef7e0713b8f343402ad15c410dba6d8d6a936a/pulumi_akamai-7.2.0a1714453796.tar.gz
+[2024-05-01 13:29:35] INFO root fetch - processPackages [telegram-wallet-pay]: Downloading https://files.pythonhosted.org/packages/63/49/4abed9c331f88f3d3df02ca4c59a46b62c5ee0039e93f7dbbfad0e0a29c4/telegram_wallet_pay-0.4.1.tar.gz
+[2024-05-01 13:29:35] INFO root fetch - processPackages [torchsparks]: Downloading https://files.pythonhosted.org/packages/72/d6/1f8bc3e87b76d6cf70a35053e27bf9c49c9bb05e784447bf5d8741f19103/torchsparks-0.1.4.tar.gz
+[2024-05-01 13:29:35] INFO root fetch - processPackages [trytond-sale]: Downloading https://files.pythonhosted.org/packages/a8/35/7dc160a09f3b5483843e446c361c6dfea0314042dc83cbec1ba73c8009db/trytond_sale-7.2.0.tar.gz
+[2024-05-01 13:29:35] INFO root fetch - processPackages [trytond-sale]: Downloading https://files.pythonhosted.org/packages/a8/35/7dc160a09f3b5483843e446c361c6dfea0314042dc83cbec1ba73c8009db/trytond_sale-7.2.0.tar.gz
+[2024-05-01 13:29:35] INFO root fetch - processPackages [colony-print]: Downloading https://files.pythonhosted.org/packages/bd/56/a942ed848ff8801a161e7ffd0c001a887349d3687ea3e92bbe5f4456d042/colony-print-0.3.0.tar.gz
+[2024-05-01 13:29:35] INFO root fetch - processPackages [uvx]: Downloading https://files.pythonhosted.org/packages/61/64/edb888bb46ae100685ef4efcd1cda3d0869c6ab15f3344c79419b7c662d3/uvx-2.0.7.tar.gz
+[2024-05-01 13:29:35] INFO root fetch - processPackages [colony-print]: executing diffoscope
+[2024-05-01 13:29:35] INFO root fetch - processPackages [colony-print]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/colony-print-0.2.0.tar.gz tmp/colony-print-0.3.0.tar.gz --markdown 20240501/c/colony-print/0.2.0-0.3.0/README.md --exclude *.pyd
+[2024-05-01 13:29:35] INFO root fetch - processPackages [uvx]: executing diffoscope
+[2024-05-01 13:29:35] INFO root fetch - processPackages [uvx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uvx-2.0.6.tar.gz tmp/uvx-2.0.7.tar.gz --markdown 20240501/u/uvx/2.0.6-2.0.7/README.md --exclude *.pyd
+[2024-05-01 13:29:35] INFO root fetch - processPackages [telegram-wallet-pay]: Downloading https://files.pythonhosted.org/packages/b2/3a/abb2a20f035557d07d94f3fd274fd66e0533fbdb9b1de0b2fcb2ad3c8ad2/telegram_wallet_pay-0.5.0.tar.gz
+[2024-05-01 13:29:35] INFO root fetch - processPackages [pulumi-akamai]: Downloading https://files.pythonhosted.org/packages/4f/79/fd6abe1e0e2d93d22038d8f0f8a0d78c6a11351945fd36c45b2d635e5f13/pulumi_akamai-7.2.0a1714540166.tar.gz
+[2024-05-01 13:29:35] INFO root fetch - processPackages [torchsparks]: Downloading https://files.pythonhosted.org/packages/0c/c5/f28f25fe1e245f1166324f52f0abd64e18a1595dfabf56024f28f009c20e/torchsparks-0.1.5-py2.py3-none-any.whl
+[2024-05-01 13:29:35] INFO root fetch - processPackages [trytond-sale]: Downloading https://files.pythonhosted.org/packages/c9/f3/8fa44dd71e5f686ab58361f8c97486e2b8ff4b7b3e8f0f3122f112fa3f2f/trytond_sale-7.2.1.tar.gz
+[2024-05-01 13:29:35] INFO root fetch - processPackages [trytond-sale]: Downloading https://files.pythonhosted.org/packages/c9/f3/8fa44dd71e5f686ab58361f8c97486e2b8ff4b7b3e8f0f3122f112fa3f2f/trytond_sale-7.2.1.tar.gz
+[2024-05-01 13:29:35] INFO root fetch - processPackages [telegram-wallet-pay]: executing diffoscope
+[2024-05-01 13:29:35] INFO root fetch - processPackages [telegram-wallet-pay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/telegram_wallet_pay-0.4.1.tar.gz tmp/telegram_wallet_pay-0.5.0.tar.gz --markdown 20240501/t/telegram-wallet-pay/0.4.1-0.5.0/README.md --exclude *.pyd
+[2024-05-01 13:29:35] INFO root fetch - processPackages [torchsparks]: executing diffoscope
+[2024-05-01 13:29:35] INFO root fetch - processPackages [torchsparks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchsparks-0.1.4.tar.gz tmp/torchsparks-0.1.5-py2.py3-none-any.whl.zip --markdown 20240501/t/torchsparks/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-01 13:29:35] INFO root fetch - processPackages [trytond-sale]: executing diffoscope
+[2024-05-01 13:29:35] INFO root fetch - processPackages [trytond-sale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_sale-7.2.0.tar.gz tmp/trytond_sale-7.2.1.tar.gz --markdown 20240501/t/trytond-sale/7.2.0-7.2.1/README.md --exclude *.pyd
+[2024-05-01 13:29:35] INFO root fetch - processPackages [trytond-sale]: executing diffoscope
+[2024-05-01 13:29:35] INFO root fetch - processPackages [trytond-sale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_sale-7.2.0.tar.gz tmp/trytond_sale-7.2.1.tar.gz --markdown 20240501/t/trytond-sale/7.2.0-7.2.1/README.md --exclude *.pyd
+[2024-05-01 13:29:35] INFO root fetch - processPackages [pulumi-akamai]: executing diffoscope
+[2024-05-01 13:29:35] INFO root fetch - processPackages [pulumi-akamai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_akamai-7.2.0a1714453796.tar.gz tmp/pulumi_akamai-7.2.0a1714540166.tar.gz --markdown 20240501/p/pulumi-akamai/7.2.0a1714453796-7.2.0a1714540166/README.md --exclude *.pyd
+[2024-05-01 13:29:36] INFO root fetch - processPackages [colony-print]: Remove: archive file [/home/abi/fetcher/tmp/colony-print-0.2.0.tar.gz]
+[2024-05-01 13:29:36] INFO root fetch - processPackages [colony-print]: Remove: archive file [/home/abi/fetcher/tmp/colony-print-0.3.0.tar.gz]
+[2024-05-01 13:29:36] INFO root fetch - main [MainThread]: End processing [colony-print]: success
+[2024-05-01 13:29:36] INFO root fetch - processPackages [uvx]: Remove: archive file [/home/abi/fetcher/tmp/uvx-2.0.6.tar.gz]
+[2024-05-01 13:29:36] INFO root fetch - processPackages [uvx]: Remove: archive file [/home/abi/fetcher/tmp/uvx-2.0.7.tar.gz]
+[2024-05-01 13:29:36] INFO root fetch - main [MainThread]: End processing [uvx]: success
+[2024-05-01 13:29:36] INFO root fetch - processPackages [torchsparks]: Remove: archive file [/home/abi/fetcher/tmp/torchsparks-0.1.4.tar.gz]
+[2024-05-01 13:29:36] INFO root fetch - processPackages [torchsparks]: Remove: archive file [/home/abi/fetcher/tmp/torchsparks-0.1.5-py2.py3-none-any.whl.zip]
+[2024-05-01 13:29:36] INFO root fetch - main [MainThread]: End processing [torchsparks]: success
+[2024-05-01 13:29:36] INFO root fetch - processPackages [telegram-wallet-pay]: Remove: archive file [/home/abi/fetcher/tmp/telegram_wallet_pay-0.4.1.tar.gz]
+[2024-05-01 13:29:36] INFO root fetch - processPackages [telegram-wallet-pay]: Remove: archive file [/home/abi/fetcher/tmp/telegram_wallet_pay-0.5.0.tar.gz]
+[2024-05-01 13:29:36] INFO root fetch - main [MainThread]: End processing [telegram-wallet-pay]: success
+[2024-05-01 13:29:37] INFO root fetch - processPackages [trytond-sale]: Remove: archive file [/home/abi/fetcher/tmp/trytond_sale-7.2.0.tar.gz]
+[2024-05-01 13:29:37] INFO root fetch - processPackages [trytond-sale]: Remove: archive file [/home/abi/fetcher/tmp/trytond_sale-7.2.1.tar.gz]
+[2024-05-01 13:29:37] INFO root fetch - main [MainThread]: End processing [trytond-sale]: success
+[2024-05-01 13:29:37] INFO root fetch - main [MainThread]: End processing [trytond-sale]: success
+[2024-05-01 13:29:38] INFO root fetch - processPackages [pulumi-akamai]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_akamai-7.2.0a1714453796.tar.gz]
+[2024-05-01 13:29:38] INFO root fetch - processPackages [pulumi-akamai]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_akamai-7.2.0a1714540166.tar.gz]
+[2024-05-01 13:29:38] INFO root fetch - main [MainThread]: End processing [pulumi-akamai]: success
+[2024-05-01 13:29:38] INFO root fetch - main [MainThread]: Store serial: [23015826]
