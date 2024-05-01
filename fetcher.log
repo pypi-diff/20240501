@@ -17486,3 +17486,49 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-01 13:45:07] INFO root fetch - processPackages [torch-model-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_archiver_nightly-2024.5.1-py3-none-any.whl.zip]
 [2024-05-01 13:45:07] INFO root fetch - main [MainThread]: End processing [torch-model-archiver-nightly]: success
 [2024-05-01 13:45:07] INFO root fetch - main [MainThread]: Store serial: [23015968]
+[2024-05-01 13:47:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23015968]
+[2024-05-01 13:47:15] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-01 13:47:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: offspot-config
+[2024-05-01 13:47:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: trytond-project-invoice
+[2024-05-01 13:47:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: smooth-logger
+[2024-05-01 13:47:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: trytond-project-invoice
+[2024-05-01 13:47:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-databricks
+[2024-05-01 13:47:15] INFO root fetch - processPackages [pulumi-databricks]: New version: [1.9.0a1678745257] Old Version: [1.8.0a1678127428]
+[2024-05-01 13:47:16] INFO root fetch - processPackages [smooth-logger]: New version: [1.0.0] Old Version: [0.3.0]
+[2024-05-01 13:47:16] INFO root fetch - processPackages [offspot-config]: New version: [2.2.4] Old Version: [2.2.3]
+[2024-05-01 13:47:16] INFO root fetch - processPackages [trytond-project-invoice]: New version: [7.2.1] Old Version: [7.2.0]
+[2024-05-01 13:47:16] INFO root fetch - processPackages [trytond-project-invoice]: New version: [7.2.1] Old Version: [7.2.0]
+[2024-05-01 13:47:16] INFO root fetch - processPackages [pulumi-databricks]: Downloading https://files.pythonhosted.org/packages/1f/91/a029f2344eeb56c6dee818184e323ba7e2014013c42c08396688882d5dae/pulumi_databricks-1.8.0a1678127428.tar.gz
+[2024-05-01 13:47:16] INFO root fetch - processPackages [smooth-logger]: Downloading https://files.pythonhosted.org/packages/44/d0/778cff01c9ecc8d993d2c5cde938cdc119b0d320931768e12b0c5dc97942/smooth_logger-0.3.0.tar.gz
+[2024-05-01 13:47:16] INFO root fetch - processPackages [offspot-config]: Downloading https://files.pythonhosted.org/packages/07/f7/e488f7ffdae53006b6815412858cdf1f691ce30e690f4e2a268bbed15518/offspot_config-2.2.3.tar.gz
+[2024-05-01 13:47:16] INFO root fetch - processPackages [trytond-project-invoice]: Downloading https://files.pythonhosted.org/packages/b9/bf/1d6843904d9084fa7a609e887649e9db55b367f42a08d4312060b2dbb5b0/trytond_project_invoice-7.2.0.tar.gz
+[2024-05-01 13:47:16] INFO root fetch - processPackages [trytond-project-invoice]: Downloading https://files.pythonhosted.org/packages/b9/bf/1d6843904d9084fa7a609e887649e9db55b367f42a08d4312060b2dbb5b0/trytond_project_invoice-7.2.0.tar.gz
+[2024-05-01 13:47:16] INFO root fetch - processPackages [pulumi-databricks]: Downloading https://files.pythonhosted.org/packages/b1/ff/c67ee9a9d6e1f19f6530fdfef065568afe6ec72af786e3dba340b58ca4c4/pulumi_databricks-1.9.0a1678745257.tar.gz
+[2024-05-01 13:47:16] INFO root fetch - processPackages [pulumi-databricks]: executing diffoscope
+[2024-05-01 13:47:16] INFO root fetch - processPackages [pulumi-databricks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_databricks-1.8.0a1678127428.tar.gz tmp/pulumi_databricks-1.9.0a1678745257.tar.gz --markdown 20240501/p/pulumi-databricks/1.8.0a1678127428-1.9.0a1678745257/README.md --exclude *.pyd
+[2024-05-01 13:47:16] INFO root fetch - processPackages [smooth-logger]: Downloading https://files.pythonhosted.org/packages/21/c4/f71bf395e1a86a0fd4921c168901e8967b16119fcee93a304210ac185cc4/smooth_logger-1.0.0.tar.gz
+[2024-05-01 13:47:16] INFO root fetch - processPackages [trytond-project-invoice]: Downloading https://files.pythonhosted.org/packages/c0/57/4395c3a6a951aa14489cdce202277906201ddf207d2cffc8e5459f8ce9b4/trytond_project_invoice-7.2.1.tar.gz
+[2024-05-01 13:47:16] INFO root fetch - processPackages [trytond-project-invoice]: Downloading https://files.pythonhosted.org/packages/c0/57/4395c3a6a951aa14489cdce202277906201ddf207d2cffc8e5459f8ce9b4/trytond_project_invoice-7.2.1.tar.gz
+[2024-05-01 13:47:16] INFO root fetch - processPackages [offspot-config]: Downloading https://files.pythonhosted.org/packages/cd/cc/b3b9e6131d71ecc04d64586c04b842a0a5f9f713e0d7b480ee7f52693a2c/offspot_config-2.2.4.tar.gz
+[2024-05-01 13:47:16] INFO root fetch - processPackages [smooth-logger]: executing diffoscope
+[2024-05-01 13:47:16] INFO root fetch - processPackages [smooth-logger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smooth_logger-0.3.0.tar.gz tmp/smooth_logger-1.0.0.tar.gz --markdown 20240501/s/smooth-logger/0.3.0-1.0.0/README.md --exclude *.pyd
+[2024-05-01 13:47:16] INFO root fetch - processPackages [offspot-config]: executing diffoscope
+[2024-05-01 13:47:16] INFO root fetch - processPackages [offspot-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/offspot_config-2.2.3.tar.gz tmp/offspot_config-2.2.4.tar.gz --markdown 20240501/o/offspot-config/2.2.3-2.2.4/README.md --exclude *.pyd
+[2024-05-01 13:47:16] INFO root fetch - processPackages [trytond-project-invoice]: executing diffoscope
+[2024-05-01 13:47:16] INFO root fetch - processPackages [trytond-project-invoice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_project_invoice-7.2.0.tar.gz tmp/trytond_project_invoice-7.2.1.tar.gz --markdown 20240501/t/trytond-project-invoice/7.2.0-7.2.1/README.md --exclude *.pyd
+[2024-05-01 13:47:16] INFO root fetch - processPackages [trytond-project-invoice]: executing diffoscope
+[2024-05-01 13:47:16] INFO root fetch - processPackages [trytond-project-invoice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_project_invoice-7.2.0.tar.gz tmp/trytond_project_invoice-7.2.1.tar.gz --markdown 20240501/t/trytond-project-invoice/7.2.0-7.2.1/README.md --exclude *.pyd
+[2024-05-01 13:47:17] INFO root fetch - processPackages [smooth-logger]: Remove: archive file [/home/abi/fetcher/tmp/smooth_logger-0.3.0.tar.gz]
+[2024-05-01 13:47:17] INFO root fetch - processPackages [smooth-logger]: Remove: archive file [/home/abi/fetcher/tmp/smooth_logger-1.0.0.tar.gz]
+[2024-05-01 13:47:17] INFO root fetch - main [MainThread]: End processing [smooth-logger]: success
+[2024-05-01 13:47:17] INFO root fetch - processPackages [offspot-config]: Remove: archive file [/home/abi/fetcher/tmp/offspot_config-2.2.3.tar.gz]
+[2024-05-01 13:47:17] INFO root fetch - processPackages [offspot-config]: Remove: archive file [/home/abi/fetcher/tmp/offspot_config-2.2.4.tar.gz]
+[2024-05-01 13:47:17] INFO root fetch - main [MainThread]: End processing [offspot-config]: success
+[2024-05-01 13:47:17] INFO root fetch - processPackages [trytond-project-invoice]: Remove: archive file [/home/abi/fetcher/tmp/trytond_project_invoice-7.2.0.tar.gz]
+[2024-05-01 13:47:17] INFO root fetch - processPackages [trytond-project-invoice]: Remove: archive file [/home/abi/fetcher/tmp/trytond_project_invoice-7.2.1.tar.gz]
+[2024-05-01 13:47:17] INFO root fetch - main [MainThread]: End processing [trytond-project-invoice]: success
+[2024-05-01 13:47:17] INFO root fetch - main [MainThread]: End processing [trytond-project-invoice]: success
+[2024-05-01 13:47:18] INFO root fetch - processPackages [pulumi-databricks]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_databricks-1.8.0a1678127428.tar.gz]
+[2024-05-01 13:47:18] INFO root fetch - processPackages [pulumi-databricks]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_databricks-1.9.0a1678745257.tar.gz]
+[2024-05-01 13:47:18] INFO root fetch - main [MainThread]: End processing [pulumi-databricks]: success
+[2024-05-01 13:47:18] INFO root fetch - main [MainThread]: Store serial: [23015984]
