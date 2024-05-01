@@ -11583,3 +11583,72 @@
 [2024-05-01 09:08:30] INFO root fetch - processPackages [stinky-noodle]: Remove: archive file [/home/abi/fetcher/tmp/stinky_noodle-0.0.9.tar.gz]
 [2024-05-01 09:08:30] INFO root fetch - main [MainThread]: End processing [stinky-noodle]: success
 [2024-05-01 09:08:30] INFO root fetch - main [MainThread]: Store serial: [23013484]
+[2024-05-01 09:10:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23013484]
+[2024-05-01 09:10:39] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-01 09:10:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lytils
+[2024-05-01 09:10:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rInject
+[2024-05-01 09:10:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-rke
+[2024-05-01 09:10:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: upowwalletpy
+[2024-05-01 09:10:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: localstack-core
+[2024-05-01 09:10:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: poetry-polylith-plugin
+[2024-05-01 09:10:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tf-hub-nightly
+[2024-05-01 09:10:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: atro-core
+[2024-05-01 09:10:39] INFO root fetch - processPackages [upowwalletpy]: New version: [1.0.1] Old Version: [0.1.0]
+[2024-05-01 09:10:39] INFO root fetch - processPackages [lytils]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-01 09:10:40] INFO root fetch - processPackages [pulumi-rke]: New version: [3.5.0a1714458609] Old Version: [3.5.0a1714113569]
+[2024-05-01 09:10:40] INFO root fetch - processPackages [tf-hub-nightly]: New version: [0.9.0.dev202008190006] Old Version: [0.9.0.dev202008180006]
+[2024-05-01 09:10:40] INFO root fetch - processPackages [localstack-core]: New version: [3.4.1.dev20240430224442] Old Version: [3.4.1.dev20240430092032]
+[2024-05-01 09:10:40] INFO root fetch - processPackages [rInject]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-01 09:10:40] INFO root fetch - processPackages [poetry-polylith-plugin]: New version: [1.9.0] Old Version: [1.8.3]
+[2024-05-01 09:10:40] INFO root fetch - processPackages [pulumi-rke]: Downloading https://files.pythonhosted.org/packages/ad/0c/e554d0bcef3a729e4d3fdde90af38a02deae3da02f5e1d92b9854e8cf4ed/pulumi_rke-3.5.0a1714113569.tar.gz
+[2024-05-01 09:10:40] INFO root fetch - processPackages [lytils]: Downloading https://files.pythonhosted.org/packages/bd/75/bf5f46e8fc1f3d7e55e379723a19f5f8d4d4839993c881dec63e698cfd35/lytils-0.1.5.tar.gz
+[2024-05-01 09:10:40] WARNING root fetch - processPackages [atro-core]: Skipping, unable to determine old version
+[2024-05-01 09:10:40] INFO root fetch - main [MainThread]: End processing [atro-core] error
+[2024-05-01 09:10:40] INFO root fetch - processPackages [tf-hub-nightly]: Downloading https://files.pythonhosted.org/packages/e8/6b/02811fcd79aec590e7355647130c822f1bd53092a205ce986e6df7364f52/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl
+[2024-05-01 09:10:40] INFO root fetch - processPackages [upowwalletpy]: Downloading https://files.pythonhosted.org/packages/ed/bb/85c0e2b1873302e80450f557609b140b5b77511825f4c53a6ca1b4723014/upowwalletpy-0.1.0.tar.gz
+[2024-05-01 09:10:40] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/62/91/89be2d619305bb20f8c812efed80c8f1e543034b3a289db710780c87d0c8/localstack_core-3.4.1.dev20240430092032.tar.gz
+[2024-05-01 09:10:40] INFO root fetch - processPackages [rInject]: Downloading https://files.pythonhosted.org/packages/fc/51/83d1707bd316cbc7760ed483cf951eb44ba27db4b1ef88270cac20ff5515/rInject-0.1.1.tar.gz
+[2024-05-01 09:10:40] INFO root fetch - processPackages [poetry-polylith-plugin]: Downloading https://files.pythonhosted.org/packages/49/29/a828c35757bf7535ba7a9b6395c25166501b045b4b233d801fa6896b0e31/poetry_polylith_plugin-1.8.3.tar.gz
+[2024-05-01 09:10:40] INFO root fetch - processPackages [pulumi-rke]: Downloading https://files.pythonhosted.org/packages/ef/25/f5f6f5693fb57804c57d4ba18504e6f864859daf4d901217e5ba416e4722/pulumi_rke-3.5.0a1714458609.tar.gz
+[2024-05-01 09:10:40] INFO root fetch - processPackages [lytils]: Downloading https://files.pythonhosted.org/packages/81/cd/af70781a119b522f4ca7b364963613cd4f9304abbe39494933e04d593be0/lytils-0.1.6.tar.gz
+[2024-05-01 09:10:40] INFO root fetch - processPackages [pulumi-rke]: executing diffoscope
+[2024-05-01 09:10:40] INFO root fetch - processPackages [pulumi-rke]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_rke-3.5.0a1714113569.tar.gz tmp/pulumi_rke-3.5.0a1714458609.tar.gz --markdown 20240501/p/pulumi-rke/3.5.0a1714113569-3.5.0a1714458609/README.md --exclude *.pyd
+[2024-05-01 09:10:40] INFO root fetch - processPackages [tf-hub-nightly]: Downloading https://files.pythonhosted.org/packages/d1/9a/6b02d0906847e11386093420119d147f7306d7a9cad79e8e575a9d29ae76/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl
+[2024-05-01 09:10:40] INFO root fetch - processPackages [upowwalletpy]: Downloading https://files.pythonhosted.org/packages/e3/63/95eb4d615fe0235eb158d08345b934e96b88585a3b41fca83642c9aed2c7/upowwalletpy-1.0.1.tar.gz
+[2024-05-01 09:10:40] INFO root fetch - processPackages [lytils]: executing diffoscope
+[2024-05-01 09:10:40] INFO root fetch - processPackages [lytils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lytils-0.1.5.tar.gz tmp/lytils-0.1.6.tar.gz --markdown 20240501/l/lytils/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-01 09:10:40] INFO root fetch - processPackages [rInject]: Downloading https://files.pythonhosted.org/packages/f2/2b/be749951e5bd7ca418d66491c5da4972d3b234711deeea4e7f72cf175c74/rinject-0.1.2.tar.gz
+[2024-05-01 09:10:40] INFO root fetch - processPackages [upowwalletpy]: executing diffoscope
+[2024-05-01 09:10:40] INFO root fetch - processPackages [upowwalletpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upowwalletpy-0.1.0.tar.gz tmp/upowwalletpy-1.0.1.tar.gz --markdown 20240501/u/upowwalletpy/0.1.0-1.0.1/README.md --exclude *.pyd
+[2024-05-01 09:10:40] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/c1/7b/a14c5e2c3f3aa2a13eac0057f8d4af61fda9150a2d4eff926956f7e0ca39/localstack_core-3.4.1.dev20240430224442.tar.gz
+[2024-05-01 09:10:40] INFO root fetch - processPackages [rInject]: executing diffoscope
+[2024-05-01 09:10:40] INFO root fetch - processPackages [rInject]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rInject-0.1.1.tar.gz tmp/rinject-0.1.2.tar.gz --markdown 20240501/r/rInject/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-01 09:10:40] INFO root fetch - processPackages [poetry-polylith-plugin]: Downloading https://files.pythonhosted.org/packages/de/fb/c9f8f5b2f80b91fb096f4de78316ccfa166654868df2adb403f80746fe2f/poetry_polylith_plugin-1.9.0.tar.gz
+[2024-05-01 09:10:40] INFO root fetch - processPackages [tf-hub-nightly]: executing diffoscope
+[2024-05-01 09:10:40] INFO root fetch - processPackages [tf-hub-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl.zip tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip --markdown 20240501/t/tf-hub-nightly/0.9.0.dev202008180006-0.9.0.dev202008190006/README.md --exclude *.pyd
+[2024-05-01 09:10:40] INFO root fetch - processPackages [poetry-polylith-plugin]: executing diffoscope
+[2024-05-01 09:10:40] INFO root fetch - processPackages [poetry-polylith-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/poetry_polylith_plugin-1.8.3.tar.gz tmp/poetry_polylith_plugin-1.9.0.tar.gz --markdown 20240501/p/poetry-polylith-plugin/1.8.3-1.9.0/README.md --exclude *.pyd
+[2024-05-01 09:10:41] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2024-05-01 09:10:41] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack_core-3.4.1.dev20240430092032.tar.gz tmp/localstack_core-3.4.1.dev20240430224442.tar.gz --markdown 20240501/l/localstack-core/3.4.1.dev20240430092032-3.4.1.dev20240430224442/README.md --exclude *.pyd
+[2024-05-01 09:10:41] INFO root fetch - processPackages [pulumi-rke]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_rke-3.5.0a1714113569.tar.gz]
+[2024-05-01 09:10:41] INFO root fetch - processPackages [pulumi-rke]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_rke-3.5.0a1714458609.tar.gz]
+[2024-05-01 09:10:41] INFO root fetch - main [MainThread]: End processing [pulumi-rke]: success
+[2024-05-01 09:10:41] INFO root fetch - processPackages [upowwalletpy]: Remove: archive file [/home/abi/fetcher/tmp/upowwalletpy-0.1.0.tar.gz]
+[2024-05-01 09:10:41] INFO root fetch - processPackages [upowwalletpy]: Remove: archive file [/home/abi/fetcher/tmp/upowwalletpy-1.0.1.tar.gz]
+[2024-05-01 09:10:41] INFO root fetch - main [MainThread]: End processing [upowwalletpy]: success
+[2024-05-01 09:10:41] INFO root fetch - processPackages [rInject]: Remove: archive file [/home/abi/fetcher/tmp/rInject-0.1.1.tar.gz]
+[2024-05-01 09:10:41] INFO root fetch - processPackages [rInject]: Remove: archive file [/home/abi/fetcher/tmp/rinject-0.1.2.tar.gz]
+[2024-05-01 09:10:41] INFO root fetch - main [MainThread]: End processing [rInject]: success
+[2024-05-01 09:10:41] INFO root fetch - processPackages [lytils]: Remove: archive file [/home/abi/fetcher/tmp/lytils-0.1.5.tar.gz]
+[2024-05-01 09:10:41] INFO root fetch - processPackages [lytils]: Remove: archive file [/home/abi/fetcher/tmp/lytils-0.1.6.tar.gz]
+[2024-05-01 09:10:41] INFO root fetch - main [MainThread]: End processing [lytils]: success
+[2024-05-01 09:10:41] INFO root fetch - processPackages [tf-hub-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl.zip]
+[2024-05-01 09:10:41] INFO root fetch - processPackages [tf-hub-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip]
+[2024-05-01 09:10:41] INFO root fetch - main [MainThread]: End processing [tf-hub-nightly]: success
+[2024-05-01 09:10:41] INFO root fetch - processPackages [poetry-polylith-plugin]: Remove: archive file [/home/abi/fetcher/tmp/poetry_polylith_plugin-1.8.3.tar.gz]
+[2024-05-01 09:10:41] INFO root fetch - processPackages [poetry-polylith-plugin]: Remove: archive file [/home/abi/fetcher/tmp/poetry_polylith_plugin-1.9.0.tar.gz]
+[2024-05-01 09:10:41] INFO root fetch - main [MainThread]: End processing [poetry-polylith-plugin]: success
+[2024-05-01 09:10:44] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.4.1.dev20240430092032.tar.gz]
+[2024-05-01 09:10:44] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.4.1.dev20240430224442.tar.gz]
+[2024-05-01 09:10:44] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2024-05-01 09:10:44] INFO root fetch - main [MainThread]: Store serial: [23013509]
