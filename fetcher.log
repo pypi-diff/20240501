@@ -11043,3 +11043,15 @@
 [2024-05-01 08:32:36] INFO root fetch - processPackages [pulumi-okta]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_okta-4.9.0a1714543321.tar.gz]
 [2024-05-01 08:32:36] INFO root fetch - main [MainThread]: End processing [pulumi-okta]: success
 [2024-05-01 08:32:36] INFO root fetch - main [MainThread]: Store serial: [23013226]
+[2024-05-01 08:34:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23013226]
+[2024-05-01 08:34:45] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-01 08:34:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: frontengine-dev
+[2024-05-01 08:34:45] INFO root fetch - processPackages [frontengine-dev]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-01 08:34:45] INFO root fetch - processPackages [frontengine-dev]: Downloading https://files.pythonhosted.org/packages/23/e2/01e0fe02ca6b73e163f3f0d080231bc0c783a63e766e5524eb246350518d/frontengine_dev-0.0.8.tar.gz
+[2024-05-01 08:34:45] INFO root fetch - processPackages [frontengine-dev]: Downloading https://files.pythonhosted.org/packages/bd/40/ac58f5e1633b3b2ea3574839a03ddc6a124459f3e721986a4208fbe06488/frontengine_dev-0.0.9.tar.gz
+[2024-05-01 08:34:45] INFO root fetch - processPackages [frontengine-dev]: executing diffoscope
+[2024-05-01 08:34:45] INFO root fetch - processPackages [frontengine-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frontengine_dev-0.0.8.tar.gz tmp/frontengine_dev-0.0.9.tar.gz --markdown 20240501/f/frontengine-dev/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-01 08:34:46] INFO root fetch - processPackages [frontengine-dev]: Remove: archive file [/home/abi/fetcher/tmp/frontengine_dev-0.0.8.tar.gz]
+[2024-05-01 08:34:46] INFO root fetch - processPackages [frontengine-dev]: Remove: archive file [/home/abi/fetcher/tmp/frontengine_dev-0.0.9.tar.gz]
+[2024-05-01 08:34:46] INFO root fetch - main [MainThread]: End processing [frontengine-dev]: success
+[2024-05-01 08:34:46] INFO root fetch - main [MainThread]: Store serial: [23013232]
