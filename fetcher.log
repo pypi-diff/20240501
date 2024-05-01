@@ -14617,3 +14617,68 @@
 [2024-05-01 11:53:49] INFO root fetch - processPackages [gflanguages]: Remove: archive file [/home/abi/fetcher/tmp/gflanguages-5.0.4.tar.gz]
 [2024-05-01 11:53:49] INFO root fetch - main [MainThread]: End processing [gflanguages]: success
 [2024-05-01 11:53:49] INFO root fetch - main [MainThread]: Store serial: [23014887]
+[2024-05-01 11:55:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23014887]
+[2024-05-01 11:55:58] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-01 11:55:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: otaku-watcher
+[2024-05-01 11:55:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: parsee-core
+[2024-05-01 11:55:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: trytond-stock-shipment-cost
+[2024-05-01 11:55:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: trytond-stock-quantity-issue
+[2024-05-01 11:55:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: trytond-stock-quantity-early-planning
+[2024-05-01 11:55:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: trytond-stock-product-location-place
+[2024-05-01 11:55:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: certora-cli-alpha-master
+[2024-05-01 11:55:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: trytond-stock-product-location
+[2024-05-01 11:55:58] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20240501.8.15.777844] Old Version: [20240430.7.3.943448]
+[2024-05-01 11:55:58] INFO root fetch - processPackages [parsee-core]: New version: [0.1.4.9] Old Version: [0.1.4.8]
+[2024-05-01 11:55:58] WARNING root fetch - processPackages [otaku-watcher]: Skipping, unable to determine old version
+[2024-05-01 11:55:58] INFO root fetch - main [MainThread]: End processing [otaku-watcher] error
+[2024-05-01 11:55:58] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/85/ed/dba59fb939b82a33527d399b7f70c28377c600c238ba9d81f051df60a9ae/certora-cli-alpha-master-20240430.7.3.943448.tar.gz
+[2024-05-01 11:55:58] INFO root fetch - processPackages [trytond-stock-product-location-place]: New version: [7.2.1] Old Version: [7.2.0]
+[2024-05-01 11:55:58] INFO root fetch - processPackages [trytond-stock-shipment-cost]: New version: [7.2.0] Old Version: [7.0.1]
+[2024-05-01 11:55:58] INFO root fetch - processPackages [trytond-stock-quantity-issue]: New version: [7.2.1] Old Version: [7.2.0]
+[2024-05-01 11:55:58] INFO root fetch - processPackages [trytond-stock-product-location]: New version: [7.2.0] Old Version: [7.0.2]
+[2024-05-01 11:55:58] INFO root fetch - processPackages [parsee-core]: Downloading https://files.pythonhosted.org/packages/7a/50/254187550fba83da8e34776ce7e4c5844d1785b705b16a1ee835f8b7f74e/parsee_core-0.1.4.8.tar.gz
+[2024-05-01 11:55:58] INFO root fetch - processPackages [trytond-stock-quantity-early-planning]: New version: [7.2.1] Old Version: [7.2.0]
+[2024-05-01 11:55:58] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 14532569>=10485760
+[2024-05-01 11:55:58] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2024-05-01 11:55:58] INFO root fetch - processPackages [trytond-stock-shipment-cost]: Downloading https://files.pythonhosted.org/packages/91/af/03f021a9866470c2797c93da0d105978e062a9c7353d4d4492ff79165ff0/trytond_stock_shipment_cost-7.0.1.tar.gz
+[2024-05-01 11:55:58] INFO root fetch - processPackages [trytond-stock-quantity-issue]: Downloading https://files.pythonhosted.org/packages/71/e8/020d521106703a8e825ae55568200d5eb39207d4b2b15026e2104bae9e4b/trytond_stock_quantity_issue-7.2.0.tar.gz
+[2024-05-01 11:55:58] INFO root fetch - processPackages [trytond-stock-product-location]: Downloading https://files.pythonhosted.org/packages/69/8d/3be1c0e9f61dae9e8f2e8244724e51bcacfeb2c134126f0fa60dcf9ba30e/trytond_stock_product_location-7.0.2.tar.gz
+[2024-05-01 11:55:58] INFO root fetch - processPackages [trytond-stock-quantity-early-planning]: Downloading https://files.pythonhosted.org/packages/73/c9/6bb29204afdc64b0128e6de869fc5026903b3a55b29dd90374ffb255afe6/trytond_stock_quantity_early_planning-7.2.0.tar.gz
+[2024-05-01 11:55:58] INFO root fetch - processPackages [trytond-stock-product-location-place]: Downloading https://files.pythonhosted.org/packages/69/02/ea364eed4593e3274ff7efc26f7b6afbc1f0dd31adaea7938c470c9536b6/trytond_stock_product_location_place-7.2.0.tar.gz
+[2024-05-01 11:55:58] INFO root fetch - processPackages [trytond-stock-shipment-cost]: Downloading https://files.pythonhosted.org/packages/74/77/951627b3b56067180a9f2dfb0dadfc321d4c800d615b3bb2311e396f3b35/trytond_stock_shipment_cost-7.2.0.tar.gz
+[2024-05-01 11:55:59] INFO root fetch - processPackages [parsee-core]: Downloading https://files.pythonhosted.org/packages/87/4f/31752247b806b1f52883033ecb4efbcec34d8a58a18a3a051c733dd38686/parsee_core-0.1.4.9.tar.gz
+[2024-05-01 11:55:59] INFO root fetch - processPackages [trytond-stock-shipment-cost]: executing diffoscope
+[2024-05-01 11:55:59] INFO root fetch - processPackages [trytond-stock-shipment-cost]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_stock_shipment_cost-7.0.1.tar.gz tmp/trytond_stock_shipment_cost-7.2.0.tar.gz --markdown 20240501/t/trytond-stock-shipment-cost/7.0.1-7.2.0/README.md --exclude *.pyd
+[2024-05-01 11:55:59] INFO root fetch - processPackages [trytond-stock-quantity-issue]: Downloading https://files.pythonhosted.org/packages/d6/34/ba5ce9d4d936ee313a25592d41d99a1aa388726bcb635522cbb797d59924/trytond_stock_quantity_issue-7.2.1.tar.gz
+[2024-05-01 11:55:59] INFO root fetch - processPackages [parsee-core]: executing diffoscope
+[2024-05-01 11:55:59] INFO root fetch - processPackages [parsee-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parsee_core-0.1.4.8.tar.gz tmp/parsee_core-0.1.4.9.tar.gz --markdown 20240501/p/parsee-core/0.1.4.8-0.1.4.9/README.md --exclude *.pyd
+[2024-05-01 11:55:59] INFO root fetch - processPackages [trytond-stock-product-location-place]: Downloading https://files.pythonhosted.org/packages/96/51/05baf888c12ddead2258256d89538ab6f86a5a42234a18ad86fa0609b30c/trytond_stock_product_location_place-7.2.1.tar.gz
+[2024-05-01 11:55:59] INFO root fetch - processPackages [trytond-stock-quantity-issue]: executing diffoscope
+[2024-05-01 11:55:59] INFO root fetch - processPackages [trytond-stock-quantity-issue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_stock_quantity_issue-7.2.0.tar.gz tmp/trytond_stock_quantity_issue-7.2.1.tar.gz --markdown 20240501/t/trytond-stock-quantity-issue/7.2.0-7.2.1/README.md --exclude *.pyd
+[2024-05-01 11:55:59] INFO root fetch - processPackages [trytond-stock-product-location]: Downloading https://files.pythonhosted.org/packages/9f/26/69c7991bd88af999d93de61b0a296ca47c36371ef454528ae154a532cb71/trytond_stock_product_location-7.2.0.tar.gz
+[2024-05-01 11:55:59] INFO root fetch - processPackages [trytond-stock-quantity-early-planning]: Downloading https://files.pythonhosted.org/packages/19/00/b426bcfa1847f3487d3b4aad8e1a077cb238987e4f584571614abc7abff1/trytond_stock_quantity_early_planning-7.2.1.tar.gz
+[2024-05-01 11:55:59] INFO root fetch - processPackages [trytond-stock-product-location-place]: executing diffoscope
+[2024-05-01 11:55:59] INFO root fetch - processPackages [trytond-stock-product-location-place]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_stock_product_location_place-7.2.0.tar.gz tmp/trytond_stock_product_location_place-7.2.1.tar.gz --markdown 20240501/t/trytond-stock-product-location-place/7.2.0-7.2.1/README.md --exclude *.pyd
+[2024-05-01 11:55:59] INFO root fetch - processPackages [trytond-stock-quantity-early-planning]: executing diffoscope
+[2024-05-01 11:55:59] INFO root fetch - processPackages [trytond-stock-quantity-early-planning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_stock_quantity_early_planning-7.2.0.tar.gz tmp/trytond_stock_quantity_early_planning-7.2.1.tar.gz --markdown 20240501/t/trytond-stock-quantity-early-planning/7.2.0-7.2.1/README.md --exclude *.pyd
+[2024-05-01 11:55:59] INFO root fetch - processPackages [trytond-stock-product-location]: executing diffoscope
+[2024-05-01 11:55:59] INFO root fetch - processPackages [trytond-stock-product-location]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_stock_product_location-7.0.2.tar.gz tmp/trytond_stock_product_location-7.2.0.tar.gz --markdown 20240501/t/trytond-stock-product-location/7.0.2-7.2.0/README.md --exclude *.pyd
+[2024-05-01 11:55:59] INFO root fetch - processPackages [trytond-stock-shipment-cost]: Remove: archive file [/home/abi/fetcher/tmp/trytond_stock_shipment_cost-7.0.1.tar.gz]
+[2024-05-01 11:55:59] INFO root fetch - processPackages [trytond-stock-shipment-cost]: Remove: archive file [/home/abi/fetcher/tmp/trytond_stock_shipment_cost-7.2.0.tar.gz]
+[2024-05-01 11:55:59] INFO root fetch - main [MainThread]: End processing [trytond-stock-shipment-cost]: success
+[2024-05-01 11:55:59] INFO root fetch - processPackages [trytond-stock-quantity-issue]: Remove: archive file [/home/abi/fetcher/tmp/trytond_stock_quantity_issue-7.2.0.tar.gz]
+[2024-05-01 11:55:59] INFO root fetch - processPackages [trytond-stock-quantity-issue]: Remove: archive file [/home/abi/fetcher/tmp/trytond_stock_quantity_issue-7.2.1.tar.gz]
+[2024-05-01 11:55:59] INFO root fetch - main [MainThread]: End processing [trytond-stock-quantity-issue]: success
+[2024-05-01 11:56:00] INFO root fetch - processPackages [parsee-core]: Remove: archive file [/home/abi/fetcher/tmp/parsee_core-0.1.4.8.tar.gz]
+[2024-05-01 11:56:00] INFO root fetch - processPackages [parsee-core]: Remove: archive file [/home/abi/fetcher/tmp/parsee_core-0.1.4.9.tar.gz]
+[2024-05-01 11:56:00] INFO root fetch - main [MainThread]: End processing [parsee-core]: success
+[2024-05-01 11:56:00] INFO root fetch - processPackages [trytond-stock-product-location-place]: Remove: archive file [/home/abi/fetcher/tmp/trytond_stock_product_location_place-7.2.0.tar.gz]
+[2024-05-01 11:56:00] INFO root fetch - processPackages [trytond-stock-product-location-place]: Remove: archive file [/home/abi/fetcher/tmp/trytond_stock_product_location_place-7.2.1.tar.gz]
+[2024-05-01 11:56:00] INFO root fetch - main [MainThread]: End processing [trytond-stock-product-location-place]: success
+[2024-05-01 11:56:00] INFO root fetch - processPackages [trytond-stock-quantity-early-planning]: Remove: archive file [/home/abi/fetcher/tmp/trytond_stock_quantity_early_planning-7.2.0.tar.gz]
+[2024-05-01 11:56:00] INFO root fetch - processPackages [trytond-stock-quantity-early-planning]: Remove: archive file [/home/abi/fetcher/tmp/trytond_stock_quantity_early_planning-7.2.1.tar.gz]
+[2024-05-01 11:56:00] INFO root fetch - main [MainThread]: End processing [trytond-stock-quantity-early-planning]: success
+[2024-05-01 11:56:00] INFO root fetch - processPackages [trytond-stock-product-location]: Remove: archive file [/home/abi/fetcher/tmp/trytond_stock_product_location-7.0.2.tar.gz]
+[2024-05-01 11:56:00] INFO root fetch - processPackages [trytond-stock-product-location]: Remove: archive file [/home/abi/fetcher/tmp/trytond_stock_product_location-7.2.0.tar.gz]
+[2024-05-01 11:56:00] INFO root fetch - main [MainThread]: End processing [trytond-stock-product-location]: success
+[2024-05-01 11:56:00] INFO root fetch - main [MainThread]: Store serial: [23014915]
