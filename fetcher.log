@@ -12179,3 +12179,33 @@
 [2024-05-01 09:48:00] INFO root fetch - processPackages [gridengine-framework]: Remove: archive file [/home/abi/fetcher/tmp/gridengine_framework-0.8.5.tar.gz]
 [2024-05-01 09:48:00] INFO root fetch - main [MainThread]: End processing [gridengine-framework]: success
 [2024-05-01 09:48:00] INFO root fetch - main [MainThread]: Store serial: [23013709]
+[2024-05-01 09:50:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23013709]
+[2024-05-01 09:50:09] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-01 09:50:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wah
+[2024-05-01 09:50:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: llm-benchmark
+[2024-05-01 09:50:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyany2json
+[2024-05-01 09:50:09] INFO root fetch - processPackages [pyany2json]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-01 09:50:09] INFO root fetch - processPackages [pyany2json]: Downloading https://files.pythonhosted.org/packages/28/6d/3ee0889a7c1761eaaa4705f55130207dfd745d75404dd4f95d34fe8fe509/pyany2json-0.1.0.tar.gz
+[2024-05-01 09:50:09] INFO root fetch - processPackages [llm-benchmark]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-01 09:50:09] INFO root fetch - processPackages [wah]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-01 09:50:09] INFO root fetch - processPackages [llm-benchmark]: Downloading https://files.pythonhosted.org/packages/52/95/1bf674bf31370821f79bca95e73545a37a8b265b9449461c69806c1fb7d0/llm_benchmark-0.3.8.tar.gz
+[2024-05-01 09:50:09] INFO root fetch - processPackages [wah]: Downloading https://files.pythonhosted.org/packages/1e/98/86b56f53d2270da5a315b2f0d5733e61fd0dabbbde1d17bcff2dd938939e/wah-0.1.8.tar.gz
+[2024-05-01 09:50:09] INFO root fetch - processPackages [pyany2json]: Downloading https://files.pythonhosted.org/packages/cd/d4/bf01c44832d81537899ea4f8133f14f0e06f58990ce52f0c3ab1f4dd06ac/pyany2json-0.1.1.tar.gz
+[2024-05-01 09:50:10] INFO root fetch - processPackages [pyany2json]: executing diffoscope
+[2024-05-01 09:50:10] INFO root fetch - processPackages [pyany2json]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyany2json-0.1.0.tar.gz tmp/pyany2json-0.1.1.tar.gz --markdown 20240501/p/pyany2json/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-01 09:50:10] INFO root fetch - processPackages [wah]: Downloading https://files.pythonhosted.org/packages/6c/57/7be641139065b67640542a312a3988d0a93024cdc145ea667b7e8d432eb8/wah-0.1.9.tar.gz
+[2024-05-01 09:50:10] INFO root fetch - processPackages [wah]: executing diffoscope
+[2024-05-01 09:50:10] INFO root fetch - processPackages [wah]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wah-0.1.8.tar.gz tmp/wah-0.1.9.tar.gz --markdown 20240501/w/wah/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-01 09:50:10] INFO root fetch - processPackages [pyany2json]: Remove: archive file [/home/abi/fetcher/tmp/pyany2json-0.1.0.tar.gz]
+[2024-05-01 09:50:10] INFO root fetch - processPackages [pyany2json]: Remove: archive file [/home/abi/fetcher/tmp/pyany2json-0.1.1.tar.gz]
+[2024-05-01 09:50:10] INFO root fetch - main [MainThread]: End processing [pyany2json]: success
+[2024-05-01 09:50:10] INFO root fetch - processPackages [llm-benchmark]: Downloading https://files.pythonhosted.org/packages/d6/2b/16a568848f2ad6bc55b9f86128de716349ca568d85c995ddaeeaec1c8886/llm_benchmark-0.3.9.tar.gz
+[2024-05-01 09:50:10] INFO root fetch - processPackages [wah]: Remove: archive file [/home/abi/fetcher/tmp/wah-0.1.8.tar.gz]
+[2024-05-01 09:50:10] INFO root fetch - processPackages [wah]: Remove: archive file [/home/abi/fetcher/tmp/wah-0.1.9.tar.gz]
+[2024-05-01 09:50:10] INFO root fetch - main [MainThread]: End processing [wah]: success
+[2024-05-01 09:50:11] INFO root fetch - processPackages [llm-benchmark]: executing diffoscope
+[2024-05-01 09:50:11] INFO root fetch - processPackages [llm-benchmark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llm_benchmark-0.3.8.tar.gz tmp/llm_benchmark-0.3.9.tar.gz --markdown 20240501/l/llm-benchmark/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-01 09:50:12] INFO root fetch - processPackages [llm-benchmark]: Remove: archive file [/home/abi/fetcher/tmp/llm_benchmark-0.3.8.tar.gz]
+[2024-05-01 09:50:12] INFO root fetch - processPackages [llm-benchmark]: Remove: archive file [/home/abi/fetcher/tmp/llm_benchmark-0.3.9.tar.gz]
+[2024-05-01 09:50:12] INFO root fetch - main [MainThread]: End processing [llm-benchmark]: success
+[2024-05-01 09:50:12] INFO root fetch - main [MainThread]: Store serial: [23013724]
