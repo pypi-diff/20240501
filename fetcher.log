@@ -12237,3 +12237,72 @@
 [2024-05-01 09:52:23] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.7.9.tar.gz]
 [2024-05-01 09:52:23] INFO root fetch - main [MainThread]: End processing [mteb]: success
 [2024-05-01 09:52:23] INFO root fetch - main [MainThread]: Store serial: [23013748]
+[2024-05-01 09:54:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23013748]
+[2024-05-01 09:54:32] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-01 09:54:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: planesections
+[2024-05-01 09:54:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: signal-export
+[2024-05-01 09:54:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: skytable-py
+[2024-05-01 09:54:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rofi-rbw
+[2024-05-01 09:54:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mongo-Vconnect
+[2024-05-01 09:54:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nonebot-plugin-multincm
+[2024-05-01 09:54:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hydev
+[2024-05-01 09:54:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fiddler-client
+[2024-05-01 09:54:32] WARNING root fetch - processPackages [skytable-py]: Skipping, unable to determine old version
+[2024-05-01 09:54:32] INFO root fetch - processPackages [mongo-Vconnect]: New version: [0.0.6] Old Version: [0.0.3]
+[2024-05-01 09:54:32] INFO root fetch - main [MainThread]: End processing [skytable-py] error
+[2024-05-01 09:54:32] INFO root fetch - processPackages [signal-export]: New version: [2.3.1] Old Version: [2.3.0]
+[2024-05-01 09:54:32] INFO root fetch - processPackages [rofi-rbw]: New version: [1.4.1] Old Version: [1.4.0]
+[2024-05-01 09:54:32] INFO root fetch - processPackages [nonebot-plugin-multincm]: New version: [0.5.0.dev9] Old Version: [0.5.0.dev8]
+[2024-05-01 09:54:32] INFO root fetch - processPackages [hydev]: New version: [1.5.0] Old Version: [1.4.0]
+[2024-05-01 09:54:32] INFO root fetch - processPackages [planesections]: New version: [1.3.4] Old Version: [1.3.3]
+[2024-05-01 09:54:32] INFO root fetch - processPackages [fiddler-client]: New version: [3.1.0.dev3] Old Version: [3.1.0.dev2]
+[2024-05-01 09:54:33] INFO root fetch - processPackages [nonebot-plugin-multincm]: Downloading https://files.pythonhosted.org/packages/e2/8b/bbba6794bbd2fdd3afca4fc25b95bf0dd75c2dfb2c9656c6ebcc1d911c9c/nonebot_plugin_multincm-0.5.0.dev8.tar.gz
+[2024-05-01 09:54:33] INFO root fetch - processPackages [mongo-Vconnect]: Downloading https://files.pythonhosted.org/packages/a9/75/0277e4e6ffe17f085ee9d4cd2732058513224f25f1a846d5c5a7040bf48b/mongo_vconnect-0.0.3.tar.gz
+[2024-05-01 09:54:33] INFO root fetch - processPackages [signal-export]: Downloading https://files.pythonhosted.org/packages/e3/3c/2f24aa030edc0d9976d71f36049e3daa4e1ebd251999f0bf5cacf4e4973d/signal_export-2.3.0.tar.gz
+[2024-05-01 09:54:33] INFO root fetch - processPackages [planesections]: Downloading https://files.pythonhosted.org/packages/ad/6f/ba96ede80b2adc87783034955f63e4998bb6ac503f86a47e7d68d6964315/planesections-1.3.3.tar.gz
+[2024-05-01 09:54:33] INFO root fetch - processPackages [hydev]: Downloading https://files.pythonhosted.org/packages/13/e2/a5bd29e47f6063b9ae8887d0ee1d96fc5fae786a2ef7784f22fd2f94270e/hydev-1.4.0.tar.gz
+[2024-05-01 09:54:33] INFO root fetch - processPackages [rofi-rbw]: Downloading https://files.pythonhosted.org/packages/1f/08/78214ca6bf4db2be97c9fef2bf4c722556566a28f3c914f661cd266185d9/rofi_rbw-1.4.0.tar.gz
+[2024-05-01 09:54:33] INFO root fetch - processPackages [fiddler-client]: Downloading https://files.pythonhosted.org/packages/6b/e1/fe45637429f8e65ff11237bc987705ca8295c863471ec6144d9ecb525221/fiddler-client-3.1.0.dev2.tar.gz
+[2024-05-01 09:54:33] INFO root fetch - processPackages [mongo-Vconnect]: Downloading https://files.pythonhosted.org/packages/16/2e/e0270a0a1f4c6087f673af17fedbc0a3f90b401b1bb31b7e92a227edc385/mongo_vconnect-0.0.6.tar.gz
+[2024-05-01 09:54:33] INFO root fetch - processPackages [hydev]: Downloading https://files.pythonhosted.org/packages/ba/69/eb340a19cdef2bd9239f7f5d993841d7c737505647293dea99ab808048cf/hydev-1.5.0.tar.gz
+[2024-05-01 09:54:33] INFO root fetch - processPackages [planesections]: Downloading https://files.pythonhosted.org/packages/3b/87/056ff98236f5a96b0e6de29cf61c62440e25fdaf62a009d043e51cd87aa2/planesections-1.3.4.tar.gz
+[2024-05-01 09:54:33] INFO root fetch - processPackages [signal-export]: Downloading https://files.pythonhosted.org/packages/30/e3/df7aeac3d20d8db1288933e9ccb2e0b9ad09bbab83cab80dcf83aa013f8c/signal_export-2.3.1.tar.gz
+[2024-05-01 09:54:33] INFO root fetch - processPackages [rofi-rbw]: Downloading https://files.pythonhosted.org/packages/21/3a/4390674162458f2a607d6403a1416239f1307e929ab333dc3ec0f3a433b2/rofi_rbw-1.4.1.tar.gz
+[2024-05-01 09:54:33] INFO root fetch - processPackages [nonebot-plugin-multincm]: Downloading https://files.pythonhosted.org/packages/4d/08/d409f8d8098572be1d76d85d583ff3afcdaf7203f814af5e42d5bf16d396/nonebot_plugin_multincm-0.5.0.dev9.tar.gz
+[2024-05-01 09:54:33] INFO root fetch - processPackages [hydev]: executing diffoscope
+[2024-05-01 09:54:33] INFO root fetch - processPackages [mongo-Vconnect]: executing diffoscope
+[2024-05-01 09:54:33] INFO root fetch - processPackages [mongo-Vconnect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mongo_vconnect-0.0.3.tar.gz tmp/mongo_vconnect-0.0.6.tar.gz --markdown 20240501/m/mongo-Vconnect/0.0.3-0.0.6/README.md --exclude *.pyd
+[2024-05-01 09:54:33] INFO root fetch - processPackages [hydev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hydev-1.4.0.tar.gz tmp/hydev-1.5.0.tar.gz --markdown 20240501/h/hydev/1.4.0-1.5.0/README.md --exclude *.pyd
+[2024-05-01 09:54:33] INFO root fetch - processPackages [planesections]: executing diffoscope
+[2024-05-01 09:54:33] INFO root fetch - processPackages [planesections]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/planesections-1.3.3.tar.gz tmp/planesections-1.3.4.tar.gz --markdown 20240501/p/planesections/1.3.3-1.3.4/README.md --exclude *.pyd
+[2024-05-01 09:54:33] INFO root fetch - processPackages [rofi-rbw]: executing diffoscope
+[2024-05-01 09:54:33] INFO root fetch - processPackages [rofi-rbw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rofi_rbw-1.4.0.tar.gz tmp/rofi_rbw-1.4.1.tar.gz --markdown 20240501/r/rofi-rbw/1.4.0-1.4.1/README.md --exclude *.pyd
+[2024-05-01 09:54:33] INFO root fetch - processPackages [signal-export]: executing diffoscope
+[2024-05-01 09:54:33] INFO root fetch - processPackages [signal-export]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/signal_export-2.3.0.tar.gz tmp/signal_export-2.3.1.tar.gz --markdown 20240501/s/signal-export/2.3.0-2.3.1/README.md --exclude *.pyd
+[2024-05-01 09:54:33] INFO root fetch - processPackages [nonebot-plugin-multincm]: executing diffoscope
+[2024-05-01 09:54:33] INFO root fetch - processPackages [nonebot-plugin-multincm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_multincm-0.5.0.dev8.tar.gz tmp/nonebot_plugin_multincm-0.5.0.dev9.tar.gz --markdown 20240501/n/nonebot-plugin-multincm/0.5.0.dev8-0.5.0.dev9/README.md --exclude *.pyd
+[2024-05-01 09:54:34] INFO root fetch - processPackages [hydev]: Remove: archive file [/home/abi/fetcher/tmp/hydev-1.4.0.tar.gz]
+[2024-05-01 09:54:34] INFO root fetch - processPackages [hydev]: Remove: archive file [/home/abi/fetcher/tmp/hydev-1.5.0.tar.gz]
+[2024-05-01 09:54:34] INFO root fetch - main [MainThread]: End processing [hydev]: success
+[2024-05-01 09:54:34] INFO root fetch - processPackages [planesections]: Remove: archive file [/home/abi/fetcher/tmp/planesections-1.3.3.tar.gz]
+[2024-05-01 09:54:34] INFO root fetch - processPackages [planesections]: Remove: archive file [/home/abi/fetcher/tmp/planesections-1.3.4.tar.gz]
+[2024-05-01 09:54:34] INFO root fetch - main [MainThread]: End processing [planesections]: success
+[2024-05-01 09:54:34] INFO root fetch - processPackages [signal-export]: Remove: archive file [/home/abi/fetcher/tmp/signal_export-2.3.0.tar.gz]
+[2024-05-01 09:54:34] INFO root fetch - processPackages [signal-export]: Remove: archive file [/home/abi/fetcher/tmp/signal_export-2.3.1.tar.gz]
+[2024-05-01 09:54:34] INFO root fetch - main [MainThread]: End processing [signal-export]: success
+[2024-05-01 09:54:34] INFO root fetch - processPackages [nonebot-plugin-multincm]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_multincm-0.5.0.dev8.tar.gz]
+[2024-05-01 09:54:34] INFO root fetch - processPackages [nonebot-plugin-multincm]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_multincm-0.5.0.dev9.tar.gz]
+[2024-05-01 09:54:34] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-multincm]: success
+[2024-05-01 09:54:34] INFO root fetch - processPackages [rofi-rbw]: Remove: archive file [/home/abi/fetcher/tmp/rofi_rbw-1.4.0.tar.gz]
+[2024-05-01 09:54:34] INFO root fetch - processPackages [rofi-rbw]: Remove: archive file [/home/abi/fetcher/tmp/rofi_rbw-1.4.1.tar.gz]
+[2024-05-01 09:54:34] INFO root fetch - main [MainThread]: End processing [rofi-rbw]: success
+[2024-05-01 09:54:34] INFO root fetch - processPackages [mongo-Vconnect]: Remove: archive file [/home/abi/fetcher/tmp/mongo_vconnect-0.0.3.tar.gz]
+[2024-05-01 09:54:34] INFO root fetch - processPackages [mongo-Vconnect]: Remove: archive file [/home/abi/fetcher/tmp/mongo_vconnect-0.0.6.tar.gz]
+[2024-05-01 09:54:34] INFO root fetch - main [MainThread]: End processing [mongo-Vconnect]: success
+[2024-05-01 09:54:36] INFO root fetch - processPackages [fiddler-client]: Downloading https://files.pythonhosted.org/packages/43/fb/2a39b11c92c91266d6c6c5107acb317438cb839d0795d222d916476c4ce8/fiddler-client-3.1.0.dev3.tar.gz
+[2024-05-01 09:54:37] INFO root fetch - processPackages [fiddler-client]: executing diffoscope
+[2024-05-01 09:54:37] INFO root fetch - processPackages [fiddler-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fiddler-client-3.1.0.dev2.tar.gz tmp/fiddler-client-3.1.0.dev3.tar.gz --markdown 20240501/f/fiddler-client/3.1.0.dev2-3.1.0.dev3/README.md --exclude *.pyd
+[2024-05-01 09:54:37] INFO root fetch - processPackages [fiddler-client]: Remove: archive file [/home/abi/fetcher/tmp/fiddler-client-3.1.0.dev2.tar.gz]
+[2024-05-01 09:54:37] INFO root fetch - processPackages [fiddler-client]: Remove: archive file [/home/abi/fetcher/tmp/fiddler-client-3.1.0.dev3.tar.gz]
+[2024-05-01 09:54:37] INFO root fetch - main [MainThread]: End processing [fiddler-client]: success
+[2024-05-01 09:54:37] INFO root fetch - main [MainThread]: Store serial: [23013772]
