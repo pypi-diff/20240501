@@ -7102,3 +7102,29 @@
 [2024-05-01 04:10:00] INFO root fetch - processPackages [cynetdiff]: Remove: archive file [/home/abi/fetcher/tmp/cynetdiff-0.1.9.tar.gz]
 [2024-05-01 04:10:00] INFO root fetch - main [MainThread]: End processing [cynetdiff]: success
 [2024-05-01 04:10:00] INFO root fetch - main [MainThread]: Store serial: [23011403]
+[2024-05-01 04:12:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23011403]
+[2024-05-01 04:12:09] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-01 04:12:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fintekkers-ledger-models
+[2024-05-01 04:12:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gaphor
+[2024-05-01 04:12:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tensorflow-io
+[2024-05-01 04:12:09] INFO root fetch - processPackages [fintekkers-ledger-models]: New version: [0.1.82] Old Version: [0.1.81]
+[2024-05-01 04:12:09] INFO root fetch - processPackages [fintekkers-ledger-models]: Downloading https://files.pythonhosted.org/packages/a7/96/55cafc60e00927455b4ab883b1339e4f368db4ecbd11155efe933e78386c/fintekkers-ledger-models-0.1.81.tar.gz
+[2024-05-01 04:12:09] INFO root fetch - processPackages [tensorflow-io]: New version: [0.9.1] Old Version: [0.8.1]
+[2024-05-01 04:12:09] INFO root fetch - processPackages [gaphor]: New version: [2.9.2] Old Version: [2.9.1]
+[2024-05-01 04:12:10] INFO root fetch - processPackages [fintekkers-ledger-models]: Downloading https://files.pythonhosted.org/packages/05/58/070c698b4049a7880e8a976bf952909a98b336a4261c0dc9de4b44f1d494/fintekkers-ledger-models-0.1.82.tar.gz
+[2024-05-01 04:12:10] INFO root fetch - processPackages [tensorflow-io]: Downloading https://files.pythonhosted.org/packages/b3/c3/4b570a1a4bc9c0cbb460af68ac6fbbed262d54678753389aa8c5000c6129/tensorflow_io-0.8.1-cp37-cp37m-manylinux2010_x86_64.whl
+[2024-05-01 04:12:10] INFO root fetch - processPackages [gaphor]: Downloading https://files.pythonhosted.org/packages/e1/05/90c1ad0f606bce93a48d91ddc271ce70e76329a5d75c6db6433a2a1fd963/gaphor-2.9.1.tar.gz
+[2024-05-01 04:12:10] INFO root fetch - processPackages [fintekkers-ledger-models]: executing diffoscope
+[2024-05-01 04:12:10] INFO root fetch - processPackages [fintekkers-ledger-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fintekkers-ledger-models-0.1.81.tar.gz tmp/fintekkers-ledger-models-0.1.82.tar.gz --markdown 20240501/f/fintekkers-ledger-models/0.1.81-0.1.82/README.md --exclude *.pyd
+[2024-05-01 04:12:10] WARNING root fetch - processPackages [tensorflow-io]: Skipping package: exceeds size limit 41555788>=10485760
+[2024-05-01 04:12:10] INFO root fetch - main [MainThread]: End processing [tensorflow-io] error
+[2024-05-01 04:12:10] INFO root fetch - processPackages [gaphor]: Downloading https://files.pythonhosted.org/packages/37/ad/c5079ad568ff279c0469364f4ab40d0c37418d6c55c91804896bf551f07d/gaphor-2.9.2.tar.gz
+[2024-05-01 04:12:10] INFO root fetch - processPackages [gaphor]: executing diffoscope
+[2024-05-01 04:12:10] INFO root fetch - processPackages [gaphor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gaphor-2.9.1.tar.gz tmp/gaphor-2.9.2.tar.gz --markdown 20240501/g/gaphor/2.9.1-2.9.2/README.md --exclude *.pyd
+[2024-05-01 04:12:11] INFO root fetch - processPackages [fintekkers-ledger-models]: Remove: archive file [/home/abi/fetcher/tmp/fintekkers-ledger-models-0.1.81.tar.gz]
+[2024-05-01 04:12:11] INFO root fetch - processPackages [fintekkers-ledger-models]: Remove: archive file [/home/abi/fetcher/tmp/fintekkers-ledger-models-0.1.82.tar.gz]
+[2024-05-01 04:12:11] INFO root fetch - main [MainThread]: End processing [fintekkers-ledger-models]: success
+[2024-05-01 04:12:14] INFO root fetch - processPackages [gaphor]: Remove: archive file [/home/abi/fetcher/tmp/gaphor-2.9.1.tar.gz]
+[2024-05-01 04:12:14] INFO root fetch - processPackages [gaphor]: Remove: archive file [/home/abi/fetcher/tmp/gaphor-2.9.2.tar.gz]
+[2024-05-01 04:12:14] INFO root fetch - main [MainThread]: End processing [gaphor]: success
+[2024-05-01 04:12:14] INFO root fetch - main [MainThread]: Store serial: [23011411]
