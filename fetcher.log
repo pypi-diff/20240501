@@ -14234,3 +14234,30 @@
 [2024-05-01 11:31:25] INFO root fetch - processPackages [flightanalysis]: Remove: archive file [/home/abi/fetcher/tmp/flightanalysis-0.2.7.tar.gz]
 [2024-05-01 11:31:25] INFO root fetch - main [MainThread]: End processing [flightanalysis]: success
 [2024-05-01 11:31:25] INFO root fetch - main [MainThread]: Store serial: [23014742]
+[2024-05-01 11:33:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23014742]
+[2024-05-01 11:33:34] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-01 11:33:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: signal-themer
+[2024-05-01 11:33:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ksrpc
+[2024-05-01 11:33:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aiinitiate
+[2024-05-01 11:33:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyntcli
+[2024-05-01 11:33:34] WARNING root fetch - processPackages [aiinitiate]: Skipping, unable to determine old version
+[2024-05-01 11:33:34] INFO root fetch - main [MainThread]: End processing [aiinitiate] error
+[2024-05-01 11:33:34] WARNING root fetch - processPackages [signal-themer]: Skipping, unable to determine old version
+[2024-05-01 11:33:34] INFO root fetch - main [MainThread]: End processing [signal-themer] error
+[2024-05-01 11:33:34] INFO root fetch - processPackages [ksrpc]: New version: [0.3.5] Old Version: [0.3.3]
+[2024-05-01 11:33:34] INFO root fetch - processPackages [pyntcli]: New version: [0.1.81] Old Version: [0.1.80]
+[2024-05-01 11:33:34] INFO root fetch - processPackages [ksrpc]: Downloading https://files.pythonhosted.org/packages/a3/94/fd25f8cb87a6db442600f645a4dc1f185099f909a5fcdc67a82e0c8906ee/ksrpc-0.3.3.tar.gz
+[2024-05-01 11:33:34] INFO root fetch - processPackages [pyntcli]: Downloading https://files.pythonhosted.org/packages/ab/a0/7e5e0b0df943ee6e745a6c944fb08cf1a1a1a862a6f05da6684e5a484718/pyntcli-0.1.80-py3-none-any.whl
+[2024-05-01 11:33:35] INFO root fetch - processPackages [ksrpc]: Downloading https://files.pythonhosted.org/packages/90/c9/8699e9a9bfd7de7b4ec4160b92339f75d5ecedb5b75606a4f80872a07818/ksrpc-0.3.5.tar.gz
+[2024-05-01 11:33:35] INFO root fetch - processPackages [pyntcli]: Downloading https://files.pythonhosted.org/packages/9c/84/9ae15e2686517cf069b10d3426bd1e6ec1d85704e87ccb178e47724dac2f/pyntcli-0.1.81-py3-none-any.whl
+[2024-05-01 11:33:35] INFO root fetch - processPackages [ksrpc]: executing diffoscope
+[2024-05-01 11:33:35] INFO root fetch - processPackages [ksrpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ksrpc-0.3.3.tar.gz tmp/ksrpc-0.3.5.tar.gz --markdown 20240501/k/ksrpc/0.3.3-0.3.5/README.md --exclude *.pyd
+[2024-05-01 11:33:35] INFO root fetch - processPackages [pyntcli]: executing diffoscope
+[2024-05-01 11:33:35] INFO root fetch - processPackages [pyntcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyntcli-0.1.80-py3-none-any.whl.zip tmp/pyntcli-0.1.81-py3-none-any.whl.zip --markdown 20240501/p/pyntcli/0.1.80-0.1.81/README.md --exclude *.pyd
+[2024-05-01 11:33:35] INFO root fetch - processPackages [ksrpc]: Remove: archive file [/home/abi/fetcher/tmp/ksrpc-0.3.3.tar.gz]
+[2024-05-01 11:33:35] INFO root fetch - processPackages [ksrpc]: Remove: archive file [/home/abi/fetcher/tmp/ksrpc-0.3.5.tar.gz]
+[2024-05-01 11:33:35] INFO root fetch - main [MainThread]: End processing [ksrpc]: success
+[2024-05-01 11:33:36] INFO root fetch - processPackages [pyntcli]: Remove: archive file [/home/abi/fetcher/tmp/pyntcli-0.1.80-py3-none-any.whl.zip]
+[2024-05-01 11:33:36] INFO root fetch - processPackages [pyntcli]: Remove: archive file [/home/abi/fetcher/tmp/pyntcli-0.1.81-py3-none-any.whl.zip]
+[2024-05-01 11:33:36] INFO root fetch - main [MainThread]: End processing [pyntcli]: success
+[2024-05-01 11:33:36] INFO root fetch - main [MainThread]: Store serial: [23014755]
