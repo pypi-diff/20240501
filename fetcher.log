@@ -2484,3 +2484,39 @@
 [2024-05-01 02:35:28] INFO root fetch - processPackages [flowmachine]: Remove: archive file [/home/abi/fetcher/tmp/flowmachine-1.9.4.post0.dev76-py3-none-any.whl.zip]
 [2024-05-01 02:35:28] INFO root fetch - main [MainThread]: End processing [flowmachine]: success
 [2024-05-01 02:35:28] INFO root fetch - main [MainThread]: Store serial: [23009747]
+[2024-05-01 02:37:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23009747]
+[2024-05-01 02:37:37] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-01 02:37:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aocstat
+[2024-05-01 02:37:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sc3py
+[2024-05-01 02:37:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pipenv-poetry-migrate
+[2024-05-01 02:37:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: forwardkinematics
+[2024-05-01 02:37:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: claudette
+[2024-05-01 02:37:37] INFO root fetch - processPackages [aocstat]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-05-01 02:37:37] INFO root fetch - processPackages [aocstat]: Downloading https://files.pythonhosted.org/packages/e3/8b/3c54a5dca8b345f72c1b3e637a14059c1ad65b0090a6d0285bce51f5787e/aocstat-0.2.1.tar.gz
+[2024-05-01 02:37:37] INFO root fetch - processPackages [pipenv-poetry-migrate]: New version: [0.5.6] Old Version: [0.5.5]
+[2024-05-01 02:37:37] WARNING root fetch - processPackages [claudette]: Skipping, unable to determine old version
+[2024-05-01 02:37:37] INFO root fetch - main [MainThread]: End processing [claudette] error
+[2024-05-01 02:37:37] INFO root fetch - processPackages [forwardkinematics]: New version: [1.2.2] Old Version: [1.2.1]
+[2024-05-01 02:37:37] WARNING root fetch - processPackages [sc3py]: Skipping, unable to determine old version
+[2024-05-01 02:37:37] INFO root fetch - main [MainThread]: End processing [sc3py] error
+[2024-05-01 02:37:37] INFO root fetch - processPackages [pipenv-poetry-migrate]: Downloading https://files.pythonhosted.org/packages/ca/30/b9d90beb460a2be8085a832fb6bd69d888ebd5b29fb882ca6224ead29a30/pipenv_poetry_migrate-0.5.5.tar.gz
+[2024-05-01 02:37:37] INFO root fetch - processPackages [forwardkinematics]: Downloading https://files.pythonhosted.org/packages/a2/af/fa0e84b2fc2d6fe1bd972b86e9ddfe0ec838fec693c85a8e06839f345061/forwardkinematics-1.2.1.tar.gz
+[2024-05-01 02:37:38] INFO root fetch - processPackages [aocstat]: Downloading https://files.pythonhosted.org/packages/80/0e/5200a048ffd8fe8fc6f5934b23ae5d3fb9957786dc20223bfa1a9eac8983/aocstat-0.2.2.tar.gz
+[2024-05-01 02:37:38] INFO root fetch - processPackages [aocstat]: executing diffoscope
+[2024-05-01 02:37:38] INFO root fetch - processPackages [aocstat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aocstat-0.2.1.tar.gz tmp/aocstat-0.2.2.tar.gz --markdown 20240501/a/aocstat/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-05-01 02:37:38] INFO root fetch - processPackages [pipenv-poetry-migrate]: Downloading https://files.pythonhosted.org/packages/8c/38/967ca64a64c020a68b21f65c40560fbb0fa2fad1838f37d0ae9c49199e5f/pipenv_poetry_migrate-0.5.6.tar.gz
+[2024-05-01 02:37:38] INFO root fetch - processPackages [pipenv-poetry-migrate]: executing diffoscope
+[2024-05-01 02:37:38] INFO root fetch - processPackages [pipenv-poetry-migrate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipenv_poetry_migrate-0.5.5.tar.gz tmp/pipenv_poetry_migrate-0.5.6.tar.gz --markdown 20240501/p/pipenv-poetry-migrate/0.5.5-0.5.6/README.md --exclude *.pyd
+[2024-05-01 02:37:38] INFO root fetch - processPackages [forwardkinematics]: Downloading https://files.pythonhosted.org/packages/46/f2/0bd29318c847f9832d38b284dea261999c4a8c135f22c925ccb4aad028e8/forwardkinematics-1.2.2.tar.gz
+[2024-05-01 02:37:38] INFO root fetch - processPackages [forwardkinematics]: executing diffoscope
+[2024-05-01 02:37:38] INFO root fetch - processPackages [forwardkinematics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/forwardkinematics-1.2.1.tar.gz tmp/forwardkinematics-1.2.2.tar.gz --markdown 20240501/f/forwardkinematics/1.2.1-1.2.2/README.md --exclude *.pyd
+[2024-05-01 02:37:38] INFO root fetch - processPackages [aocstat]: Remove: archive file [/home/abi/fetcher/tmp/aocstat-0.2.1.tar.gz]
+[2024-05-01 02:37:38] INFO root fetch - processPackages [aocstat]: Remove: archive file [/home/abi/fetcher/tmp/aocstat-0.2.2.tar.gz]
+[2024-05-01 02:37:38] INFO root fetch - main [MainThread]: End processing [aocstat]: success
+[2024-05-01 02:37:38] INFO root fetch - processPackages [pipenv-poetry-migrate]: Remove: archive file [/home/abi/fetcher/tmp/pipenv_poetry_migrate-0.5.5.tar.gz]
+[2024-05-01 02:37:38] INFO root fetch - processPackages [pipenv-poetry-migrate]: Remove: archive file [/home/abi/fetcher/tmp/pipenv_poetry_migrate-0.5.6.tar.gz]
+[2024-05-01 02:37:38] INFO root fetch - main [MainThread]: End processing [pipenv-poetry-migrate]: success
+[2024-05-01 02:37:39] INFO root fetch - processPackages [forwardkinematics]: Remove: archive file [/home/abi/fetcher/tmp/forwardkinematics-1.2.1.tar.gz]
+[2024-05-01 02:37:39] INFO root fetch - processPackages [forwardkinematics]: Remove: archive file [/home/abi/fetcher/tmp/forwardkinematics-1.2.2.tar.gz]
+[2024-05-01 02:37:39] INFO root fetch - main [MainThread]: End processing [forwardkinematics]: success
+[2024-05-01 02:37:39] INFO root fetch - main [MainThread]: Store serial: [23009766]
