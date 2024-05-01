@@ -17184,3 +17184,51 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-01 13:34:02] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
 [2024-05-01 13:34:02] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
 [2024-05-01 13:34:02] INFO root fetch - main [MainThread]: Store serial: [23015872]
+[2024-05-01 13:36:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23015872]
+[2024-05-01 13:36:10] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-01 13:36:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nonebot-plugin-alconna
+[2024-05-01 13:36:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: trytond-purchase-request-quotation
+[2024-05-01 13:36:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: parcllabs
+[2024-05-01 13:36:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-civo
+[2024-05-01 13:36:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: trytond-purchase-request
+[2024-05-01 13:36:10] INFO root fetch - processPackages [pulumi-civo]: New version: [2.4.0a1714540692] Old Version: [2.4.0a1714509760]
+[2024-05-01 13:36:10] INFO root fetch - processPackages [nonebot-plugin-alconna]: New version: [0.9.3] Old Version: [0.9.0]
+[2024-05-01 13:36:10] INFO root fetch - processPackages [parcllabs]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-01 13:36:10] INFO root fetch - processPackages [trytond-purchase-request-quotation]: New version: [7.2.1] Old Version: [7.2.0]
+[2024-05-01 13:36:10] INFO root fetch - processPackages [pulumi-civo]: Downloading https://files.pythonhosted.org/packages/16/b4/9500bf59cb5fc718dd012ff05e6c823acd75c558d7e0318a40b4a91575ab/pulumi_civo-2.4.0a1714509760.tar.gz
+[2024-05-01 13:36:10] INFO root fetch - processPackages [trytond-purchase-request]: New version: [7.2.1] Old Version: [7.2.0]
+[2024-05-01 13:36:11] INFO root fetch - processPackages [parcllabs]: Downloading https://files.pythonhosted.org/packages/4b/a7/9060c070fcbeed0ac71fb0b49e67b6162c4027ec3296ac7d9595c1654294/parcllabs-0.1.8.tar.gz
+[2024-05-01 13:36:11] INFO root fetch - processPackages [nonebot-plugin-alconna]: Downloading https://files.pythonhosted.org/packages/c8/67/1065373af14f845f6112a3d2cb8d6187d838b4c0d90d89282ccef9f5133d/nonebot-plugin-alconna-0.9.0.tar.gz
+[2024-05-01 13:36:11] INFO root fetch - processPackages [trytond-purchase-request-quotation]: Downloading https://files.pythonhosted.org/packages/d8/e6/1b471ba4645b873cf26d314a904e39cb8948328955d7ec8e9e8e30476dc7/trytond_purchase_request_quotation-7.2.0.tar.gz
+[2024-05-01 13:36:11] INFO root fetch - processPackages [trytond-purchase-request]: Downloading https://files.pythonhosted.org/packages/9b/83/f5d9026e2d9becf35e71207b36d5a6ac033204cb1ca64e50c9a4450c8977/trytond_purchase_request-7.2.0.tar.gz
+[2024-05-01 13:36:11] INFO root fetch - processPackages [pulumi-civo]: Downloading https://files.pythonhosted.org/packages/fc/1e/e495ae0b6cec9df3f38ce8826c825a34e1bca6d1b441978f5bcf7bfa9453/pulumi_civo-2.4.0a1714540692.tar.gz
+[2024-05-01 13:36:11] INFO root fetch - processPackages [pulumi-civo]: executing diffoscope
+[2024-05-01 13:36:11] INFO root fetch - processPackages [pulumi-civo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_civo-2.4.0a1714509760.tar.gz tmp/pulumi_civo-2.4.0a1714540692.tar.gz --markdown 20240501/p/pulumi-civo/2.4.0a1714509760-2.4.0a1714540692/README.md --exclude *.pyd
+[2024-05-01 13:36:11] INFO root fetch - processPackages [parcllabs]: Downloading https://files.pythonhosted.org/packages/54/76/252d5d459b8fefcdb4cd8ba9124168cc37b81f5740ca09ff3e754621335b/parcllabs-0.1.9.tar.gz
+[2024-05-01 13:36:11] INFO root fetch - processPackages [trytond-purchase-request]: Downloading https://files.pythonhosted.org/packages/81/e0/eec1c1bc5ed27903fe86242cc89f7091e01d490c66226771fdf42b56b91d/trytond_purchase_request-7.2.1.tar.gz
+[2024-05-01 13:36:11] INFO root fetch - processPackages [trytond-purchase-request-quotation]: Downloading https://files.pythonhosted.org/packages/6c/45/3f06e40b07fbf140c0838fa787b7fda7c03f83291f63796442dbe6e12c55/trytond_purchase_request_quotation-7.2.1.tar.gz
+[2024-05-01 13:36:11] INFO root fetch - processPackages [nonebot-plugin-alconna]: Downloading https://files.pythonhosted.org/packages/f4/fd/830dd6604cd5dc44a467d959ff595e8da0a087d9b75368acaecfc83c3417/nonebot_plugin_alconna-0.9.3.tar.gz
+[2024-05-01 13:36:11] INFO root fetch - processPackages [parcllabs]: executing diffoscope
+[2024-05-01 13:36:11] INFO root fetch - processPackages [parcllabs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parcllabs-0.1.8.tar.gz tmp/parcllabs-0.1.9.tar.gz --markdown 20240501/p/parcllabs/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-01 13:36:11] INFO root fetch - processPackages [trytond-purchase-request-quotation]: executing diffoscope
+[2024-05-01 13:36:11] INFO root fetch - processPackages [trytond-purchase-request-quotation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_purchase_request_quotation-7.2.0.tar.gz tmp/trytond_purchase_request_quotation-7.2.1.tar.gz --markdown 20240501/t/trytond-purchase-request-quotation/7.2.0-7.2.1/README.md --exclude *.pyd
+[2024-05-01 13:36:11] INFO root fetch - processPackages [nonebot-plugin-alconna]: executing diffoscope
+[2024-05-01 13:36:11] INFO root fetch - processPackages [nonebot-plugin-alconna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot-plugin-alconna-0.9.0.tar.gz tmp/nonebot_plugin_alconna-0.9.3.tar.gz --markdown 20240501/n/nonebot-plugin-alconna/0.9.0-0.9.3/README.md --exclude *.pyd
+[2024-05-01 13:36:11] INFO root fetch - processPackages [trytond-purchase-request]: executing diffoscope
+[2024-05-01 13:36:11] INFO root fetch - processPackages [trytond-purchase-request]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_purchase_request-7.2.0.tar.gz tmp/trytond_purchase_request-7.2.1.tar.gz --markdown 20240501/t/trytond-purchase-request/7.2.0-7.2.1/README.md --exclude *.pyd
+[2024-05-01 13:36:12] INFO root fetch - processPackages [pulumi-civo]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_civo-2.4.0a1714509760.tar.gz]
+[2024-05-01 13:36:12] INFO root fetch - processPackages [pulumi-civo]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_civo-2.4.0a1714540692.tar.gz]
+[2024-05-01 13:36:12] INFO root fetch - main [MainThread]: End processing [pulumi-civo]: success
+[2024-05-01 13:36:12] INFO root fetch - processPackages [parcllabs]: Remove: archive file [/home/abi/fetcher/tmp/parcllabs-0.1.8.tar.gz]
+[2024-05-01 13:36:12] INFO root fetch - processPackages [parcllabs]: Remove: archive file [/home/abi/fetcher/tmp/parcllabs-0.1.9.tar.gz]
+[2024-05-01 13:36:12] INFO root fetch - main [MainThread]: End processing [parcllabs]: success
+[2024-05-01 13:36:12] INFO root fetch - processPackages [nonebot-plugin-alconna]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-alconna-0.9.0.tar.gz]
+[2024-05-01 13:36:12] INFO root fetch - processPackages [nonebot-plugin-alconna]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_alconna-0.9.3.tar.gz]
+[2024-05-01 13:36:12] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-alconna]: success
+[2024-05-01 13:36:12] INFO root fetch - processPackages [trytond-purchase-request-quotation]: Remove: archive file [/home/abi/fetcher/tmp/trytond_purchase_request_quotation-7.2.0.tar.gz]
+[2024-05-01 13:36:12] INFO root fetch - processPackages [trytond-purchase-request-quotation]: Remove: archive file [/home/abi/fetcher/tmp/trytond_purchase_request_quotation-7.2.1.tar.gz]
+[2024-05-01 13:36:12] INFO root fetch - main [MainThread]: End processing [trytond-purchase-request-quotation]: success
+[2024-05-01 13:36:12] INFO root fetch - processPackages [trytond-purchase-request]: Remove: archive file [/home/abi/fetcher/tmp/trytond_purchase_request-7.2.0.tar.gz]
+[2024-05-01 13:36:12] INFO root fetch - processPackages [trytond-purchase-request]: Remove: archive file [/home/abi/fetcher/tmp/trytond_purchase_request-7.2.1.tar.gz]
+[2024-05-01 13:36:12] INFO root fetch - main [MainThread]: End processing [trytond-purchase-request]: success
+[2024-05-01 13:36:12] INFO root fetch - main [MainThread]: Store serial: [23015888]
