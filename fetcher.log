@@ -21660,3 +21660,94 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-01 15:44:18] INFO root fetch - processPackages [lusid-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_sdk-2.1.76.tar.gz]
 [2024-05-01 15:44:18] INFO root fetch - main [MainThread]: End processing [lusid-sdk]: success
 [2024-05-01 15:44:18] INFO root fetch - main [MainThread]: Store serial: [23017555]
+[2024-05-01 15:46:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23017555]
+[2024-05-01 15:46:27] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-01 15:46:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: runseq
+[2024-05-01 15:46:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pldag
+[2024-05-01 15:46:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: GeoHD
+[2024-05-01 15:46:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spaces
+[2024-05-01 15:46:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: finbourne-horizon-sdk
+[2024-05-01 15:46:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tui-dsmt
+[2024-05-01 15:46:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tui-dsmt
+[2024-05-01 15:46:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: qBitrr2
+[2024-05-01 15:46:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: django-cache-helper
+[2024-05-01 15:46:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: scikit-ued
+[2024-05-01 15:46:28] INFO root fetch - processPackages [runseq]: New version: [0.2.0] Old Version: [0.1.1]
+[2024-05-01 15:46:28] INFO root fetch - processPackages [tui-dsmt]: New version: [202405011058] Old Version: [202404300905]
+[2024-05-01 15:46:28] INFO root fetch - processPackages [tui-dsmt]: New version: [202405011058] Old Version: [202404300905]
+[2024-05-01 15:46:28] INFO root fetch - processPackages [spaces]: New version: [0.9b3] Old Version: [0.9b2]
+[2024-05-01 15:46:28] INFO root fetch - processPackages [qBitrr2]: New version: [4.5.5] Old Version: [4.5.4]
+[2024-05-01 15:46:28] INFO root fetch - processPackages [finbourne-horizon-sdk]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-05-01 15:46:28] INFO root fetch - processPackages [GeoHD]: New version: [0.2.7] Old Version: [0.2.6]
+[2024-05-01 15:46:28] INFO root fetch - processPackages [django-cache-helper]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-05-01 15:46:28] INFO root fetch - processPackages [pldag]: New version: [0.7.8] Old Version: [0.7.7]
+[2024-05-01 15:46:28] INFO root fetch - processPackages [runseq]: Downloading https://files.pythonhosted.org/packages/15/5c/a1cc8116db68164b37a70c0582edda69fcaacf2e8f115c77000d238f6ffe/runseq-0.1.1.tar.gz
+[2024-05-01 15:46:28] INFO root fetch - processPackages [scikit-ued]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-05-01 15:46:28] INFO root fetch - processPackages [tui-dsmt]: Downloading https://files.pythonhosted.org/packages/0d/9e/3e5c52bbca87ef3676ff3c23eba8fd636159bfecaa2faa512f30827d1b72/tui_dsmt-202404300905.tar.gz
+[2024-05-01 15:46:28] INFO root fetch - processPackages [qBitrr2]: Downloading https://files.pythonhosted.org/packages/11/b4/4dfcbfa3a96f59b6375875148ea96d7fd4c814e72d1b5ca7dcfc574534cb/qbitrr2-4.5.4.tar.gz
+[2024-05-01 15:46:28] INFO root fetch - processPackages [tui-dsmt]: Downloading https://files.pythonhosted.org/packages/0d/9e/3e5c52bbca87ef3676ff3c23eba8fd636159bfecaa2faa512f30827d1b72/tui_dsmt-202404300905.tar.gz
+[2024-05-01 15:46:28] INFO root fetch - processPackages [finbourne-horizon-sdk]: Downloading https://files.pythonhosted.org/packages/67/4d/e1a8441c0793c287231aa24b799798d11cf616a132506eff04205a00f779/finbourne_horizon_sdk-2.1.8.tar.gz
+[2024-05-01 15:46:28] INFO root fetch - processPackages [GeoHD]: Downloading https://files.pythonhosted.org/packages/5b/41/798291f4a48bad6bf3dccb05a2b91f17d856f00b280716eec88e2ade2ab2/geohd-0.2.6.tar.gz
+[2024-05-01 15:46:28] INFO root fetch - processPackages [spaces]: Downloading https://files.pythonhosted.org/packages/97/20/6104cd0bd4c12ccb3af8b026d3fe0110bea1c762e3f1dc3381c6fe248cf7/spaces-0.9b2.tar.gz
+[2024-05-01 15:46:28] INFO root fetch - processPackages [django-cache-helper]: Downloading https://files.pythonhosted.org/packages/01/67/58cab42bcd0ccd37e118646dcfcf1084ea113b62c3e19104751bf39e8cce/django-cache-helper-1.0.4.tar.gz
+[2024-05-01 15:46:28] INFO root fetch - processPackages [pldag]: Downloading https://files.pythonhosted.org/packages/ef/68/9a82d633478d439b6d6ef76fe6b1b6e14822ae112d0e0a1b8376bb1b9a36/pldag-0.7.7.tar.gz
+[2024-05-01 15:46:28] INFO root fetch - processPackages [scikit-ued]: Downloading https://files.pythonhosted.org/packages/ea/6c/4a81a740d52a64b469be6d74599970e8bed1e3b5da6f62e668a1bd08a561/scikit-ued-2.1.8.tar.gz
+[2024-05-01 15:46:28] INFO root fetch - processPackages [tui-dsmt]: Downloading https://files.pythonhosted.org/packages/49/81/c376e28ab81bbd1300166ba75a0501bfd086023b177447bd534bc2340df6/tui_dsmt-202405011058.tar.gz
+[2024-05-01 15:46:28] INFO root fetch - processPackages [finbourne-horizon-sdk]: Downloading https://files.pythonhosted.org/packages/df/fa/2361b9179baf6e0ef8aa5667c5bf5ef7c28a98660f52bb7a7c8671f43c8e/finbourne_horizon_sdk-2.1.9.tar.gz
+[2024-05-01 15:46:28] INFO root fetch - processPackages [tui-dsmt]: Downloading https://files.pythonhosted.org/packages/49/81/c376e28ab81bbd1300166ba75a0501bfd086023b177447bd534bc2340df6/tui_dsmt-202405011058.tar.gz
+[2024-05-01 15:46:28] INFO root fetch - processPackages [runseq]: Downloading https://files.pythonhosted.org/packages/40/b9/daae4e7dd1f5a26b388fa0c1d0b47f8e00868c621cee29fb2958410d9f26/runseq-0.2.0.tar.gz
+[2024-05-01 15:46:28] INFO root fetch - processPackages [qBitrr2]: Downloading https://files.pythonhosted.org/packages/4e/43/c6d2ef5dbc5be766cd56744dd721f268a6940710d2d856dc8b5f7fd8769f/qbitrr2-4.5.5.tar.gz
+[2024-05-01 15:46:28] INFO root fetch - processPackages [tui-dsmt]: executing diffoscope
+[2024-05-01 15:46:28] INFO root fetch - processPackages [tui-dsmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tui_dsmt-202404300905.tar.gz tmp/tui_dsmt-202405011058.tar.gz --markdown 20240501/t/tui-dsmt/202404300905-202405011058/README.md --exclude *.pyd
+[2024-05-01 15:46:28] INFO root fetch - processPackages [GeoHD]: Downloading https://files.pythonhosted.org/packages/59/d1/64a104ba271767afb4425a68192035f4c5b515daa2b1ffcbe6e8fb37b927/geohd-0.2.7.tar.gz
+[2024-05-01 15:46:28] INFO root fetch - processPackages [django-cache-helper]: Downloading https://files.pythonhosted.org/packages/65/0b/6dd5e480d0349428662a9dbbd9342e2d3cffc9625b74f4a28befad0eaa5b/django_cache_helper-1.0.5.tar.gz
+[2024-05-01 15:46:28] INFO root fetch - processPackages [tui-dsmt]: executing diffoscope
+[2024-05-01 15:46:28] INFO root fetch - processPackages [finbourne-horizon-sdk]: executing diffoscope
+[2024-05-01 15:46:28] INFO root fetch - processPackages [tui-dsmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tui_dsmt-202404300905.tar.gz tmp/tui_dsmt-202405011058.tar.gz --markdown 20240501/t/tui-dsmt/202404300905-202405011058/README.md --exclude *.pyd
+[2024-05-01 15:46:28] INFO root fetch - processPackages [finbourne-horizon-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne_horizon_sdk-2.1.8.tar.gz tmp/finbourne_horizon_sdk-2.1.9.tar.gz --markdown 20240501/f/finbourne-horizon-sdk/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-05-01 15:46:28] INFO root fetch - processPackages [spaces]: Downloading https://files.pythonhosted.org/packages/83/79/aa4f627e9e8f99f07d6b32f22ce1aa9f4788cebf4ae57072deae30fbbcb0/spaces-0.9b3.tar.gz
+[2024-05-01 15:46:28] INFO root fetch - processPackages [pldag]: Downloading https://files.pythonhosted.org/packages/d6/26/8247ac65ad1ecadbb398377f2c7abbd2109971322051d1187e59cdb8d7de/pldag-0.7.8.tar.gz
+[2024-05-01 15:46:29] INFO root fetch - processPackages [runseq]: executing diffoscope
+[2024-05-01 15:46:29] INFO root fetch - processPackages [runseq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/runseq-0.1.1.tar.gz tmp/runseq-0.2.0.tar.gz --markdown 20240501/r/runseq/0.1.1-0.2.0/README.md --exclude *.pyd
+[2024-05-01 15:46:29] INFO root fetch - processPackages [qBitrr2]: executing diffoscope
+[2024-05-01 15:46:29] INFO root fetch - processPackages [qBitrr2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qbitrr2-4.5.4.tar.gz tmp/qbitrr2-4.5.5.tar.gz --markdown 20240501/q/qBitrr2/4.5.4-4.5.5/README.md --exclude *.pyd
+[2024-05-01 15:46:29] INFO root fetch - processPackages [GeoHD]: executing diffoscope
+[2024-05-01 15:46:29] INFO root fetch - processPackages [GeoHD]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geohd-0.2.6.tar.gz tmp/geohd-0.2.7.tar.gz --markdown 20240501/G/GeoHD/0.2.6-0.2.7/README.md --exclude *.pyd
+[2024-05-01 15:46:29] INFO root fetch - processPackages [django-cache-helper]: executing diffoscope
+[2024-05-01 15:46:29] INFO root fetch - processPackages [django-cache-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-cache-helper-1.0.4.tar.gz tmp/django_cache_helper-1.0.5.tar.gz --markdown 20240501/d/django-cache-helper/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-05-01 15:46:29] INFO root fetch - processPackages [pldag]: executing diffoscope
+[2024-05-01 15:46:29] INFO root fetch - processPackages [pldag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pldag-0.7.7.tar.gz tmp/pldag-0.7.8.tar.gz --markdown 20240501/p/pldag/0.7.7-0.7.8/README.md --exclude *.pyd
+[2024-05-01 15:46:29] INFO root fetch - processPackages [spaces]: executing diffoscope
+[2024-05-01 15:46:29] INFO root fetch - processPackages [spaces]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaces-0.9b2.tar.gz tmp/spaces-0.9b3.tar.gz --markdown 20240501/s/spaces/0.9b2-0.9b3/README.md --exclude *.pyd
+[2024-05-01 15:46:29] INFO root fetch - processPackages [scikit-ued]: Downloading https://files.pythonhosted.org/packages/32/6c/0325ba77297b70be8165dc38150831486b0441d3b01f3561c30e6bb69fd9/scikit-ued-2.1.9.tar.gz
+[2024-05-01 15:46:29] INFO root fetch - processPackages [scikit-ued]: executing diffoscope
+[2024-05-01 15:46:29] INFO root fetch - processPackages [scikit-ued]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scikit-ued-2.1.8.tar.gz tmp/scikit-ued-2.1.9.tar.gz --markdown 20240501/s/scikit-ued/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-05-01 15:46:29] INFO root fetch - processPackages [runseq]: Remove: archive file [/home/abi/fetcher/tmp/runseq-0.1.1.tar.gz]
+[2024-05-01 15:46:29] INFO root fetch - processPackages [runseq]: Remove: archive file [/home/abi/fetcher/tmp/runseq-0.2.0.tar.gz]
+[2024-05-01 15:46:29] INFO root fetch - main [MainThread]: End processing [runseq]: success
+[2024-05-01 15:46:30] INFO root fetch - processPackages [django-cache-helper]: Remove: archive file [/home/abi/fetcher/tmp/django-cache-helper-1.0.4.tar.gz]
+[2024-05-01 15:46:30] INFO root fetch - processPackages [django-cache-helper]: Remove: archive file [/home/abi/fetcher/tmp/django_cache_helper-1.0.5.tar.gz]
+[2024-05-01 15:46:30] INFO root fetch - processPackages [spaces]: Remove: archive file [/home/abi/fetcher/tmp/spaces-0.9b2.tar.gz]
+[2024-05-01 15:46:30] INFO root fetch - main [MainThread]: End processing [django-cache-helper]: success
+[2024-05-01 15:46:30] INFO root fetch - processPackages [spaces]: Remove: archive file [/home/abi/fetcher/tmp/spaces-0.9b3.tar.gz]
+[2024-05-01 15:46:30] INFO root fetch - main [MainThread]: End processing [spaces]: success
+[2024-05-01 15:46:30] INFO root fetch - processPackages [tui-dsmt]: Remove: archive file [/home/abi/fetcher/tmp/tui_dsmt-202404300905.tar.gz]
+[2024-05-01 15:46:30] INFO root fetch - processPackages [tui-dsmt]: Remove: archive file [/home/abi/fetcher/tmp/tui_dsmt-202405011058.tar.gz]
+[2024-05-01 15:46:30] INFO root fetch - main [MainThread]: End processing [tui-dsmt]: success
+[2024-05-01 15:46:30] INFO root fetch - processPackages [GeoHD]: Remove: archive file [/home/abi/fetcher/tmp/geohd-0.2.6.tar.gz]
+[2024-05-01 15:46:30] INFO root fetch - processPackages [GeoHD]: Remove: archive file [/home/abi/fetcher/tmp/geohd-0.2.7.tar.gz]
+[2024-05-01 15:46:30] INFO root fetch - main [MainThread]: End processing [GeoHD]: success
+[2024-05-01 15:46:30] INFO root fetch - processPackages [pldag]: Remove: archive file [/home/abi/fetcher/tmp/pldag-0.7.7.tar.gz]
+[2024-05-01 15:46:30] INFO root fetch - processPackages [pldag]: Remove: archive file [/home/abi/fetcher/tmp/pldag-0.7.8.tar.gz]
+[2024-05-01 15:46:30] INFO root fetch - main [MainThread]: End processing [pldag]: success
+[2024-05-01 15:46:30] INFO root fetch - processPackages [qBitrr2]: Remove: archive file [/home/abi/fetcher/tmp/qbitrr2-4.5.4.tar.gz]
+[2024-05-01 15:46:30] INFO root fetch - processPackages [qBitrr2]: Remove: archive file [/home/abi/fetcher/tmp/qbitrr2-4.5.5.tar.gz]
+[2024-05-01 15:46:30] INFO root fetch - main [MainThread]: End processing [qBitrr2]: success
+[2024-05-01 15:46:30] INFO root fetch - processPackages [finbourne-horizon-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_horizon_sdk-2.1.8.tar.gz]
+[2024-05-01 15:46:30] INFO root fetch - processPackages [finbourne-horizon-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_horizon_sdk-2.1.9.tar.gz]
+[2024-05-01 15:46:30] INFO root fetch - main [MainThread]: End processing [finbourne-horizon-sdk]: success
+[2024-05-01 15:46:30] INFO root fetch - main [MainThread]: End processing [tui-dsmt]: success
+[2024-05-01 15:46:30] INFO root fetch - processPackages [scikit-ued]: Remove: archive file [/home/abi/fetcher/tmp/scikit-ued-2.1.8.tar.gz]
+[2024-05-01 15:46:30] INFO root fetch - processPackages [scikit-ued]: Remove: archive file [/home/abi/fetcher/tmp/scikit-ued-2.1.9.tar.gz]
+[2024-05-01 15:46:30] INFO root fetch - main [MainThread]: End processing [scikit-ued]: success
+[2024-05-01 15:46:30] INFO root fetch - main [MainThread]: Store serial: [23017582]
