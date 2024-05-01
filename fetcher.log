@@ -8417,3 +8417,15 @@
 [2024-05-01 05:47:57] INFO root fetch - processPackages [glcl]: Remove: archive file [/home/abi/fetcher/tmp/glcl-0.0.5.tar.gz]
 [2024-05-01 05:47:57] INFO root fetch - main [MainThread]: End processing [glcl]: success
 [2024-05-01 05:47:57] INFO root fetch - main [MainThread]: Store serial: [23012050]
+[2024-05-01 05:50:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23012050]
+[2024-05-01 05:50:05] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-01 05:50:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: omniconfig
+[2024-05-01 05:50:05] INFO root fetch - processPackages [omniconfig]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-01 05:50:05] INFO root fetch - processPackages [omniconfig]: Downloading https://files.pythonhosted.org/packages/75/c2/32da7d037f6914f72bf3b42992d21c9780fc349b809641d8ff3fd221c129/omniconfig-0.1.3.tar.gz
+[2024-05-01 05:50:06] INFO root fetch - processPackages [omniconfig]: Downloading https://files.pythonhosted.org/packages/87/7b/34c0f52d50b4fb510ebebee2ebb39f42f2ed723642826e9e1ade7564f3f5/omniconfig-0.1.4.tar.gz
+[2024-05-01 05:50:06] INFO root fetch - processPackages [omniconfig]: executing diffoscope
+[2024-05-01 05:50:06] INFO root fetch - processPackages [omniconfig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omniconfig-0.1.3.tar.gz tmp/omniconfig-0.1.4.tar.gz --markdown 20240501/o/omniconfig/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-01 05:50:06] INFO root fetch - processPackages [omniconfig]: Remove: archive file [/home/abi/fetcher/tmp/omniconfig-0.1.3.tar.gz]
+[2024-05-01 05:50:06] INFO root fetch - processPackages [omniconfig]: Remove: archive file [/home/abi/fetcher/tmp/omniconfig-0.1.4.tar.gz]
+[2024-05-01 05:50:06] INFO root fetch - main [MainThread]: End processing [omniconfig]: success
+[2024-05-01 05:50:06] INFO root fetch - main [MainThread]: Store serial: [23012054]
