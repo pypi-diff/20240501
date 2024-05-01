@@ -8532,3 +8532,45 @@
 [2024-05-01 05:58:45] INFO root fetch - processPackages [Qsqlite]: Remove: archive file [/home/abi/fetcher/tmp/Qsqlite-0.973.tar.gz]
 [2024-05-01 05:58:45] INFO root fetch - main [MainThread]: End processing [Qsqlite]: success
 [2024-05-01 05:58:45] INFO root fetch - main [MainThread]: Store serial: [23012108]
+[2024-05-01 06:00:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23012108]
+[2024-05-01 06:00:53] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-01 06:00:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: glcl
+[2024-05-01 06:00:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: galapy-core
+[2024-05-01 06:00:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gimbal-api
+[2024-05-01 06:00:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: flowetl
+[2024-05-01 06:00:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: flowkit-jwt-generator
+[2024-05-01 06:00:54] INFO root fetch - processPackages [flowkit-jwt-generator]: New version: [1.25.0.post0.dev7] Old Version: [1.25.0.post0.dev37]
+[2024-05-01 06:00:54] INFO root fetch - processPackages [flowetl]: New version: [1.9.4.post0.dev76] Old Version: [1.9.4.post0.dev70]
+[2024-05-01 06:00:54] WARNING root fetch - processPackages [gimbal-api]: Skipping, unable to determine old version
+[2024-05-01 06:00:54] INFO root fetch - main [MainThread]: End processing [gimbal-api] error
+[2024-05-01 06:00:54] INFO root fetch - processPackages [glcl]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-01 06:00:54] INFO root fetch - processPackages [flowetl]: Downloading https://files.pythonhosted.org/packages/7d/68/60330ef4aed6e6a0e8c8f1474a60a9868ed4e2bf928a79eae26c2becd5cb/flowetl-1.9.4.post0.dev70-py3-none-any.whl
+[2024-05-01 06:00:54] INFO root fetch - processPackages [flowkit-jwt-generator]: Downloading https://files.pythonhosted.org/packages/c3/72/1eceba833e8d5233d1d4664f1fb1b865d72344ebef121845d956da288cc0/flowkit_jwt_generator-1.25.0.post0.dev37-py3-none-any.whl
+[2024-05-01 06:00:54] INFO root fetch - processPackages [glcl]: Downloading https://files.pythonhosted.org/packages/43/79/88ed47a61430b5bdb605cd6d73ca9f2a70077dd5fa2d29dc0d8afab18a78/glcl-0.0.6.tar.gz
+[2024-05-01 06:00:54] INFO root fetch - processPackages [flowetl]: Downloading https://files.pythonhosted.org/packages/aa/29/1fe11f39e3155139661660c2caf8caf80ccb6e0fce150e201a56d2aaf812/flowetl-1.9.4.post0.dev76-py3-none-any.whl
+[2024-05-01 06:00:54] INFO root fetch - processPackages [galapy-core]: New version: [0.2.7] Old Version: [0.2.5]
+[2024-05-01 06:00:54] INFO root fetch - processPackages [flowkit-jwt-generator]: Downloading https://files.pythonhosted.org/packages/16/5d/7b2f3634ff98dbdedb13d57a8e191d602af6eece9e82d2f1aba2cb09a4f4/flowkit_jwt_generator-1.25.0.post0.dev7-py3-none-any.whl
+[2024-05-01 06:00:54] INFO root fetch - processPackages [flowetl]: executing diffoscope
+[2024-05-01 06:00:54] INFO root fetch - processPackages [flowetl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowetl-1.9.4.post0.dev70-py3-none-any.whl.zip tmp/flowetl-1.9.4.post0.dev76-py3-none-any.whl.zip --markdown 20240501/f/flowetl/1.9.4.post0.dev70-1.9.4.post0.dev76/README.md --exclude *.pyd
+[2024-05-01 06:00:54] INFO root fetch - processPackages [galapy-core]: Downloading https://files.pythonhosted.org/packages/4a/b4/ae18e68577e232d6f07fe169e6abff47d0a9e643d05f98aa5df3e926c04d/galapy_core-0.2.5.tar.gz
+[2024-05-01 06:00:54] INFO root fetch - processPackages [flowkit-jwt-generator]: executing diffoscope
+[2024-05-01 06:00:54] INFO root fetch - processPackages [flowkit-jwt-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowkit_jwt_generator-1.25.0.post0.dev37-py3-none-any.whl.zip tmp/flowkit_jwt_generator-1.25.0.post0.dev7-py3-none-any.whl.zip --markdown 20240501/f/flowkit-jwt-generator/1.25.0.post0.dev37-1.25.0.post0.dev7/README.md --exclude *.pyd
+[2024-05-01 06:00:54] INFO root fetch - processPackages [galapy-core]: Downloading https://files.pythonhosted.org/packages/ea/40/3728569595a72fbf90003a8e59a35a6a5d66e77c646e0d95783addb5bb7b/galapy_core-0.2.7.tar.gz
+[2024-05-01 06:00:54] INFO root fetch - processPackages [glcl]: Downloading https://files.pythonhosted.org/packages/41/f6/91879e608b469e8c93f6034731eb308c0e5ec4cbc16c48124515f20ce18f/glcl-0.0.7.tar.gz
+[2024-05-01 06:00:55] INFO root fetch - processPackages [galapy-core]: executing diffoscope
+[2024-05-01 06:00:55] INFO root fetch - processPackages [galapy-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/galapy_core-0.2.5.tar.gz tmp/galapy_core-0.2.7.tar.gz --markdown 20240501/g/galapy-core/0.2.5-0.2.7/README.md --exclude *.pyd
+[2024-05-01 06:00:55] INFO root fetch - processPackages [flowetl]: Remove: archive file [/home/abi/fetcher/tmp/flowetl-1.9.4.post0.dev70-py3-none-any.whl.zip]
+[2024-05-01 06:00:55] INFO root fetch - processPackages [flowetl]: Remove: archive file [/home/abi/fetcher/tmp/flowetl-1.9.4.post0.dev76-py3-none-any.whl.zip]
+[2024-05-01 06:00:55] INFO root fetch - main [MainThread]: End processing [flowetl]: success
+[2024-05-01 06:00:55] INFO root fetch - processPackages [flowkit-jwt-generator]: Remove: archive file [/home/abi/fetcher/tmp/flowkit_jwt_generator-1.25.0.post0.dev37-py3-none-any.whl.zip]
+[2024-05-01 06:00:55] INFO root fetch - processPackages [flowkit-jwt-generator]: Remove: archive file [/home/abi/fetcher/tmp/flowkit_jwt_generator-1.25.0.post0.dev7-py3-none-any.whl.zip]
+[2024-05-01 06:00:55] INFO root fetch - main [MainThread]: End processing [flowkit-jwt-generator]: success
+[2024-05-01 06:00:55] INFO root fetch - processPackages [glcl]: executing diffoscope
+[2024-05-01 06:00:55] INFO root fetch - processPackages [glcl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glcl-0.0.6.tar.gz tmp/glcl-0.0.7.tar.gz --markdown 20240501/g/glcl/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-01 06:00:55] INFO root fetch - processPackages [galapy-core]: Remove: archive file [/home/abi/fetcher/tmp/galapy_core-0.2.5.tar.gz]
+[2024-05-01 06:00:55] INFO root fetch - processPackages [galapy-core]: Remove: archive file [/home/abi/fetcher/tmp/galapy_core-0.2.7.tar.gz]
+[2024-05-01 06:00:55] INFO root fetch - main [MainThread]: End processing [galapy-core]: success
+[2024-05-01 06:00:56] INFO root fetch - processPackages [glcl]: Remove: archive file [/home/abi/fetcher/tmp/glcl-0.0.6.tar.gz]
+[2024-05-01 06:00:56] INFO root fetch - processPackages [glcl]: Remove: archive file [/home/abi/fetcher/tmp/glcl-0.0.7.tar.gz]
+[2024-05-01 06:00:56] INFO root fetch - main [MainThread]: End processing [glcl]: success
+[2024-05-01 06:00:56] INFO root fetch - main [MainThread]: Store serial: [23012123]
