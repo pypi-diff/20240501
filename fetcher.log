@@ -14448,3 +14448,78 @@
 [2024-05-01 11:49:03] INFO root fetch - processPackages [phonopy]: Remove: archive file [/home/abi/fetcher/tmp/phonopy-2.9.3.tar.gz]
 [2024-05-01 11:49:03] INFO root fetch - main [MainThread]: End processing [phonopy]: success
 [2024-05-01 11:49:03] INFO root fetch - main [MainThread]: Store serial: [23014821]
+[2024-05-01 11:51:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23014821]
+[2024-05-01 11:51:14] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-01 11:51:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rotating-logger
+[2024-05-01 11:51:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openlit
+[2024-05-01 11:51:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: app-store-scraper-mod
+[2024-05-01 11:51:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-aws
+[2024-05-01 11:51:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: trytond-web-user
+[2024-05-01 11:51:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: PyPtt
+[2024-05-01 11:51:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: trytond-web-shop-shopify
+[2024-05-01 11:51:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: trytond-web-shop-product-data-feed
+[2024-05-01 11:51:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: manyhttp
+[2024-05-01 11:51:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: scs-analysis
+[2024-05-01 11:51:14] WARNING root fetch - processPackages [app-store-scraper-mod]: Skipping, unable to determine old version
+[2024-05-01 11:51:14] INFO root fetch - main [MainThread]: End processing [app-store-scraper-mod] error
+[2024-05-01 11:51:14] WARNING root fetch - processPackages [manyhttp]: Skipping, unable to determine old version
+[2024-05-01 11:51:14] INFO root fetch - main [MainThread]: End processing [manyhttp] error
+[2024-05-01 11:51:14] INFO root fetch - processPackages [pulumi-aws]: New version: [6.9.0a1700084435] Old Version: [6.9.0a1699991594]
+[2024-05-01 11:51:14] WARNING root fetch - processPackages [rotating-logger]: Skipping, unable to determine old version
+[2024-05-01 11:51:14] INFO root fetch - main [MainThread]: End processing [rotating-logger] error
+[2024-05-01 11:51:14] INFO root fetch - processPackages [trytond-web-shop-shopify]: New version: [7.2.1] Old Version: [7.2.0]
+[2024-05-01 11:51:14] INFO root fetch - processPackages [trytond-web-user]: New version: [7.2.1] Old Version: [7.2.0]
+[2024-05-01 11:51:14] INFO root fetch - processPackages [trytond-web-shop-product-data-feed]: New version: [7.2.1] Old Version: [7.2.0]
+[2024-05-01 11:51:14] INFO root fetch - processPackages [openlit]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-05-01 11:51:14] INFO root fetch - processPackages [PyPtt]: New version: [1.2.9] Old Version: [1.2.8]
+[2024-05-01 11:51:14] INFO root fetch - processPackages [pulumi-aws]: Downloading https://files.pythonhosted.org/packages/e1/df/14b748e40340692e18bd19ad3631916881c3bfc6ab8cc9db1f79ca1fb86a/pulumi_aws-6.9.0a1699991594.tar.gz
+[2024-05-01 11:51:14] INFO root fetch - processPackages [scs-analysis]: New version: [3.8.7] Old Version: [3.8.6]
+[2024-05-01 11:51:14] INFO root fetch - processPackages [trytond-web-shop-shopify]: Downloading https://files.pythonhosted.org/packages/4e/6b/bc86089bda1068985cb6743c4f7aa4c0795adadfb1f809a86dc2e750080e/trytond_web_shop_shopify-7.2.0.tar.gz
+[2024-05-01 11:51:14] INFO root fetch - processPackages [trytond-web-user]: Downloading https://files.pythonhosted.org/packages/65/ca/1ec4e8402ca20b0ddf52fb504b5ebf202c7b460f0788598eb469ec20b1b1/trytond_web_user-7.2.0.tar.gz
+[2024-05-01 11:51:14] INFO root fetch - processPackages [PyPtt]: Downloading https://files.pythonhosted.org/packages/73/f6/ed98db080991833aea23b06a4f2495fc48bbdcae27575fd084c7a9fd1110/pyptt-1.2.8.tar.gz
+[2024-05-01 11:51:14] INFO root fetch - processPackages [trytond-web-shop-product-data-feed]: Downloading https://files.pythonhosted.org/packages/d1/68/d9bc491bf7d7e4af53c747e0530b327971c175acd7182db6c1e339a0204d/trytond_web_shop_product_data_feed-7.2.0.tar.gz
+[2024-05-01 11:51:15] INFO root fetch - processPackages [openlit]: Downloading https://files.pythonhosted.org/packages/af/fd/fdf1d607e746963a12cc296767ba23f54a6dc75176b0b30104ea61c9facd/openlit-1.0.0.tar.gz
+[2024-05-01 11:51:15] INFO root fetch - processPackages [scs-analysis]: Downloading https://files.pythonhosted.org/packages/60/e3/c5d63383b217367a4c013925c3a9a1b3ff3acb9c06d45fd005a20e184eac/scs_analysis-3.8.6.tar.gz
+[2024-05-01 11:51:15] INFO root fetch - processPackages [trytond-web-shop-shopify]: Downloading https://files.pythonhosted.org/packages/de/f3/76d1c7bf347975cc536b9834fe35772a640952dbde5f99ff53fc9c3cb58e/trytond_web_shop_shopify-7.2.1.tar.gz
+[2024-05-01 11:51:15] INFO root fetch - processPackages [trytond-web-user]: Downloading https://files.pythonhosted.org/packages/b2/c6/f02a95fc00f8bf8f353bf19a9ed6ff67792e4406b4d119dca2fae2bfc076/trytond_web_user-7.2.1.tar.gz
+[2024-05-01 11:51:15] INFO root fetch - processPackages [PyPtt]: Downloading https://files.pythonhosted.org/packages/08/ec/f00fc0e50a99f3830240518fdaabf0227a13fa860ccd6c7bed5091ace893/pyptt-1.2.9.tar.gz
+[2024-05-01 11:51:15] INFO root fetch - processPackages [pulumi-aws]: Downloading https://files.pythonhosted.org/packages/f3/70/32e3669ea3bb0042d4f4aac12c2584c3217ddc25b9e1646f05b9a9e1a24f/pulumi_aws-6.9.0a1700084435.tar.gz
+[2024-05-01 11:51:15] INFO root fetch - processPackages [trytond-web-shop-product-data-feed]: Downloading https://files.pythonhosted.org/packages/15/c6/9febf49fefef93a5f0e14c5eb83d1bb4ec1ad52358e369f583d2dbb07164/trytond_web_shop_product_data_feed-7.2.1.tar.gz
+[2024-05-01 11:51:15] INFO root fetch - processPackages [openlit]: Downloading https://files.pythonhosted.org/packages/80/b1/ba7a43369ace88414dc79e0e6a59fcd9ad6e52350e833067d1529c6472d5/openlit-1.1.0.tar.gz
+[2024-05-01 11:51:15] INFO root fetch - processPackages [scs-analysis]: Downloading https://files.pythonhosted.org/packages/58/05/50911c18440d71c926923f263c6e3fb0a031afb8d5f1874f1e7b7d64c687/scs_analysis-3.8.7.tar.gz
+[2024-05-01 11:51:15] INFO root fetch - processPackages [trytond-web-user]: executing diffoscope
+[2024-05-01 11:51:15] INFO root fetch - processPackages [trytond-web-user]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_web_user-7.2.0.tar.gz tmp/trytond_web_user-7.2.1.tar.gz --markdown 20240501/t/trytond-web-user/7.2.0-7.2.1/README.md --exclude *.pyd
+[2024-05-01 11:51:15] INFO root fetch - processPackages [PyPtt]: executing diffoscope
+[2024-05-01 11:51:15] INFO root fetch - processPackages [PyPtt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyptt-1.2.8.tar.gz tmp/pyptt-1.2.9.tar.gz --markdown 20240501/P/PyPtt/1.2.8-1.2.9/README.md --exclude *.pyd
+[2024-05-01 11:51:15] INFO root fetch - processPackages [trytond-web-shop-shopify]: executing diffoscope
+[2024-05-01 11:51:15] INFO root fetch - processPackages [trytond-web-shop-shopify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_web_shop_shopify-7.2.0.tar.gz tmp/trytond_web_shop_shopify-7.2.1.tar.gz --markdown 20240501/t/trytond-web-shop-shopify/7.2.0-7.2.1/README.md --exclude *.pyd
+[2024-05-01 11:51:15] INFO root fetch - processPackages [openlit]: executing diffoscope
+[2024-05-01 11:51:15] INFO root fetch - processPackages [openlit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openlit-1.0.0.tar.gz tmp/openlit-1.1.0.tar.gz --markdown 20240501/o/openlit/1.0.0-1.1.0/README.md --exclude *.pyd
+[2024-05-01 11:51:15] INFO root fetch - processPackages [trytond-web-shop-product-data-feed]: executing diffoscope
+[2024-05-01 11:51:15] INFO root fetch - processPackages [trytond-web-shop-product-data-feed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_web_shop_product_data_feed-7.2.0.tar.gz tmp/trytond_web_shop_product_data_feed-7.2.1.tar.gz --markdown 20240501/t/trytond-web-shop-product-data-feed/7.2.0-7.2.1/README.md --exclude *.pyd
+[2024-05-01 11:51:16] INFO root fetch - processPackages [pulumi-aws]: executing diffoscope
+[2024-05-01 11:51:16] INFO root fetch - processPackages [pulumi-aws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_aws-6.9.0a1699991594.tar.gz tmp/pulumi_aws-6.9.0a1700084435.tar.gz --markdown 20240501/p/pulumi-aws/6.9.0a1699991594-6.9.0a1700084435/README.md --exclude *.pyd
+[2024-05-01 11:51:16] INFO root fetch - processPackages [scs-analysis]: executing diffoscope
+[2024-05-01 11:51:16] INFO root fetch - processPackages [scs-analysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scs_analysis-3.8.6.tar.gz tmp/scs_analysis-3.8.7.tar.gz --markdown 20240501/s/scs-analysis/3.8.6-3.8.7/README.md --exclude *.pyd
+[2024-05-01 11:51:16] INFO root fetch - processPackages [trytond-web-shop-shopify]: Remove: archive file [/home/abi/fetcher/tmp/trytond_web_shop_shopify-7.2.0.tar.gz]
+[2024-05-01 11:51:16] INFO root fetch - processPackages [trytond-web-shop-shopify]: Remove: archive file [/home/abi/fetcher/tmp/trytond_web_shop_shopify-7.2.1.tar.gz]
+[2024-05-01 11:51:16] INFO root fetch - main [MainThread]: End processing [trytond-web-shop-shopify]: success
+[2024-05-01 11:51:16] INFO root fetch - processPackages [trytond-web-user]: Remove: archive file [/home/abi/fetcher/tmp/trytond_web_user-7.2.0.tar.gz]
+[2024-05-01 11:51:16] INFO root fetch - processPackages [trytond-web-user]: Remove: archive file [/home/abi/fetcher/tmp/trytond_web_user-7.2.1.tar.gz]
+[2024-05-01 11:51:16] INFO root fetch - main [MainThread]: End processing [trytond-web-user]: success
+[2024-05-01 11:51:16] INFO root fetch - processPackages [openlit]: Remove: archive file [/home/abi/fetcher/tmp/openlit-1.0.0.tar.gz]
+[2024-05-01 11:51:16] INFO root fetch - processPackages [openlit]: Remove: archive file [/home/abi/fetcher/tmp/openlit-1.1.0.tar.gz]
+[2024-05-01 11:51:16] INFO root fetch - main [MainThread]: End processing [openlit]: success
+[2024-05-01 11:51:16] INFO root fetch - processPackages [trytond-web-shop-product-data-feed]: Remove: archive file [/home/abi/fetcher/tmp/trytond_web_shop_product_data_feed-7.2.0.tar.gz]
+[2024-05-01 11:51:16] INFO root fetch - processPackages [trytond-web-shop-product-data-feed]: Remove: archive file [/home/abi/fetcher/tmp/trytond_web_shop_product_data_feed-7.2.1.tar.gz]
+[2024-05-01 11:51:16] INFO root fetch - main [MainThread]: End processing [trytond-web-shop-product-data-feed]: success
+[2024-05-01 11:51:16] INFO root fetch - processPackages [PyPtt]: Remove: archive file [/home/abi/fetcher/tmp/pyptt-1.2.8.tar.gz]
+[2024-05-01 11:51:16] INFO root fetch - processPackages [PyPtt]: Remove: archive file [/home/abi/fetcher/tmp/pyptt-1.2.9.tar.gz]
+[2024-05-01 11:51:16] INFO root fetch - main [MainThread]: End processing [PyPtt]: success
+[2024-05-01 11:51:17] INFO root fetch - processPackages [scs-analysis]: Remove: archive file [/home/abi/fetcher/tmp/scs_analysis-3.8.6.tar.gz]
+[2024-05-01 11:51:17] INFO root fetch - processPackages [scs-analysis]: Remove: archive file [/home/abi/fetcher/tmp/scs_analysis-3.8.7.tar.gz]
+[2024-05-01 11:51:17] INFO root fetch - main [MainThread]: End processing [scs-analysis]: success
+[2024-05-01 11:51:32] INFO root fetch - processPackages [pulumi-aws]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws-6.9.0a1699991594.tar.gz]
+[2024-05-01 11:51:32] INFO root fetch - processPackages [pulumi-aws]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws-6.9.0a1700084435.tar.gz]
+[2024-05-01 11:51:32] INFO root fetch - main [MainThread]: End processing [pulumi-aws]: success
+[2024-05-01 11:51:32] INFO root fetch - main [MainThread]: Store serial: [23014848]
