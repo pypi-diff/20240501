@@ -19600,3 +19600,81 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-01 14:18:40] INFO root fetch - processPackages [pulumi-mongodbatlas]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_mongodbatlas-3.9.2.tar.gz]
 [2024-05-01 14:18:40] INFO root fetch - main [MainThread]: End processing [pulumi-mongodbatlas]: success
 [2024-05-01 14:18:40] INFO root fetch - main [MainThread]: Store serial: [23016711]
+[2024-05-01 14:20:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23016711]
+[2024-05-01 14:20:49] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-01 14:20:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: certora-cli-alpha-master
+[2024-05-01 14:20:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jarvis4se
+[2024-05-01 14:20:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: trytond-account-product
+[2024-05-01 14:20:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: trytond-account-product
+[2024-05-01 14:20:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: whitebox-workflows
+[2024-05-01 14:20:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: trytond-account-payment-stripe
+[2024-05-01 14:20:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: trytond-account-payment-sepa
+[2024-05-01 14:20:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: openstef-dbc
+[2024-05-01 14:20:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: trytond-account-payment
+[2024-05-01 14:20:49] INFO root fetch - processPackages [trytond-account-product]: New version: [7.2.0] Old Version: [7.0.1]
+[2024-05-01 14:20:49] INFO root fetch - processPackages [trytond-account-product]: New version: [7.2.0] Old Version: [7.0.1]
+[2024-05-01 14:20:49] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20240501.9.55.192458] Old Version: [20240501.8.15.777844]
+[2024-05-01 14:20:49] INFO root fetch - processPackages [trytond-account-product]: Downloading https://files.pythonhosted.org/packages/6d/2e/aea8ef771b183f1baae3c9500eccccdb2f5009712fea5fa9647a6f16f0b9/trytond_account_product-7.0.1.tar.gz
+[2024-05-01 14:20:49] INFO root fetch - processPackages [trytond-account-product]: Downloading https://files.pythonhosted.org/packages/6d/2e/aea8ef771b183f1baae3c9500eccccdb2f5009712fea5fa9647a6f16f0b9/trytond_account_product-7.0.1.tar.gz
+[2024-05-01 14:20:49] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/02/38/0e310b19f2817341b466ae224ab4c972709225d70137f4f1e760741e404f/certora-cli-alpha-master-20240501.8.15.777844.tar.gz
+[2024-05-01 14:20:49] INFO root fetch - processPackages [jarvis4se]: New version: [1.4.0] Old Version: [1.3.5]
+[2024-05-01 14:20:49] INFO root fetch - processPackages [whitebox-workflows]: New version: [1.2.8] Old Version: [1.2.7]
+[2024-05-01 14:20:49] INFO root fetch - processPackages [trytond-account-payment-sepa]: New version: [7.2.1] Old Version: [7.2.0]
+[2024-05-01 14:20:49] INFO root fetch - processPackages [openstef-dbc]: New version: [3.7.9] Old Version: [3.7.7]
+[2024-05-01 14:20:49] INFO root fetch - processPackages [trytond-account-payment]: New version: [7.2.1] Old Version: [7.2.0]
+[2024-05-01 14:20:49] INFO root fetch - processPackages [trytond-account-payment-stripe]: New version: [7.2.1] Old Version: [7.2.0]
+[2024-05-01 14:20:49] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 14536598>=10485760
+[2024-05-01 14:20:49] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2024-05-01 14:20:49] INFO root fetch - processPackages [whitebox-workflows]: Downloading https://files.pythonhosted.org/packages/05/f1/6611b9260a4f7231e90bd660564f09299d9de3b2ec25613cf8a1d5ccab9e/whitebox_workflows-1.2.7-cp38-abi3-win_amd64.whl
+[2024-05-01 14:20:49] INFO root fetch - processPackages [jarvis4se]: Downloading https://files.pythonhosted.org/packages/56/e6/b776af1a24f8281b0069f77021ff3f82514408f8e6cc09b3937aafac663a/jarvis4se-1.3.5.tar.gz
+[2024-05-01 14:20:49] INFO root fetch - processPackages [trytond-account-product]: Downloading https://files.pythonhosted.org/packages/3c/62/a3fd7d35d5da448e3b35e77d711c70b539106c17b43d0675076a4bbfd0f8/trytond_account_product-7.2.0.tar.gz
+[2024-05-01 14:20:50] INFO root fetch - processPackages [trytond-account-payment-stripe]: Downloading https://files.pythonhosted.org/packages/7a/ca/4689c6e5278c31c1399675c58ee64b3c7aa7b8a61b33eb523aa030320f72/trytond_account_payment_stripe-7.2.0.tar.gz
+[2024-05-01 14:20:50] INFO root fetch - processPackages [openstef-dbc]: Downloading https://files.pythonhosted.org/packages/5c/c0/eeb82d4596349e4f9cccbacf844d1d1bd77ed3814b25361df97b56b752f5/openstef_dbc-3.7.7.tar.gz
+[2024-05-01 14:20:50] INFO root fetch - processPackages [trytond-account-payment]: Downloading https://files.pythonhosted.org/packages/3d/19/f4bac9bd3eacf9f2e76b4a6c14bf944f61ab3d481dd82f2d9583e394b97a/trytond_account_payment-7.2.0.tar.gz
+[2024-05-01 14:20:50] INFO root fetch - processPackages [trytond-account-payment-sepa]: Downloading https://files.pythonhosted.org/packages/27/da/5b1a42908d4c2cde7e85dc39da67991a9f47378064e4665b4991eaae9576/trytond_account_payment_sepa-7.2.0.tar.gz
+[2024-05-01 14:20:50] INFO root fetch - processPackages [trytond-account-product]: Downloading https://files.pythonhosted.org/packages/3c/62/a3fd7d35d5da448e3b35e77d711c70b539106c17b43d0675076a4bbfd0f8/trytond_account_product-7.2.0.tar.gz
+[2024-05-01 14:20:50] INFO root fetch - processPackages [trytond-account-product]: executing diffoscope
+[2024-05-01 14:20:50] INFO root fetch - processPackages [trytond-account-product]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_account_product-7.0.1.tar.gz tmp/trytond_account_product-7.2.0.tar.gz --markdown 20240501/t/trytond-account-product/7.0.1-7.2.0/README.md --exclude *.pyd
+[2024-05-01 14:20:50] INFO root fetch - processPackages [trytond-account-product]: executing diffoscope
+[2024-05-01 14:20:50] INFO root fetch - processPackages [trytond-account-product]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_account_product-7.0.1.tar.gz tmp/trytond_account_product-7.2.0.tar.gz --markdown 20240501/t/trytond-account-product/7.0.1-7.2.0/README.md --exclude *.pyd
+[2024-05-01 14:20:50] INFO root fetch - processPackages [trytond-account-payment-stripe]: Downloading https://files.pythonhosted.org/packages/da/be/c201cf6ea181f4fd06ad403852e4c59f867bedc04c0f742ad66d11a9f72f/trytond_account_payment_stripe-7.2.1.tar.gz
+[2024-05-01 14:20:50] INFO root fetch - processPackages [jarvis4se]: Downloading https://files.pythonhosted.org/packages/f3/9f/066ced7312aa19b5e10da3dbfe5bd604d93f977456bfda930b0b6d487489/jarvis4se-1.4.0.tar.gz
+[2024-05-01 14:20:50] INFO root fetch - processPackages [trytond-account-payment-sepa]: Downloading https://files.pythonhosted.org/packages/d9/31/23d40d083bc1b006fd46eef9c2a68a9d5752aaf80196c9fd6af846b4d650/trytond_account_payment_sepa-7.2.1.tar.gz
+[2024-05-01 14:20:50] INFO root fetch - processPackages [trytond-account-payment]: Downloading https://files.pythonhosted.org/packages/52/0e/1beac30b8117b7eafcfad19e2f875b7337e3293834a911129d7c14297f50/trytond_account_payment-7.2.1.tar.gz
+[2024-05-01 14:20:50] INFO root fetch - processPackages [trytond-account-payment-stripe]: executing diffoscope
+[2024-05-01 14:20:50] INFO root fetch - processPackages [trytond-account-payment-stripe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_account_payment_stripe-7.2.0.tar.gz tmp/trytond_account_payment_stripe-7.2.1.tar.gz --markdown 20240501/t/trytond-account-payment-stripe/7.2.0-7.2.1/README.md --exclude *.pyd
+[2024-05-01 14:20:50] INFO root fetch - processPackages [trytond-account-payment]: executing diffoscope
+[2024-05-01 14:20:50] INFO root fetch - processPackages [trytond-account-payment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_account_payment-7.2.0.tar.gz tmp/trytond_account_payment-7.2.1.tar.gz --markdown 20240501/t/trytond-account-payment/7.2.0-7.2.1/README.md --exclude *.pyd
+[2024-05-01 14:20:50] INFO root fetch - processPackages [trytond-account-payment-sepa]: executing diffoscope
+[2024-05-01 14:20:50] INFO root fetch - processPackages [trytond-account-payment-sepa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_account_payment_sepa-7.2.0.tar.gz tmp/trytond_account_payment_sepa-7.2.1.tar.gz --markdown 20240501/t/trytond-account-payment-sepa/7.2.0-7.2.1/README.md --exclude *.pyd
+[2024-05-01 14:20:50] INFO root fetch - processPackages [jarvis4se]: executing diffoscope
+[2024-05-01 14:20:50] INFO root fetch - processPackages [jarvis4se]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jarvis4se-1.3.5.tar.gz tmp/jarvis4se-1.4.0.tar.gz --markdown 20240501/j/jarvis4se/1.3.5-1.4.0/README.md --exclude *.pyd
+[2024-05-01 14:20:50] INFO root fetch - processPackages [whitebox-workflows]: Downloading https://files.pythonhosted.org/packages/64/ed/bc4d5b66c1df26cb26233eb336a9827e1a47e3860edb49a3e412248f4663/whitebox_workflows-1.2.8-cp38-abi3-win_amd64.whl
+[2024-05-01 14:20:50] INFO root fetch - processPackages [openstef-dbc]: Downloading https://files.pythonhosted.org/packages/7e/5c/88086c5eb99d8b966fe929087520caa9dda6ae8abb64517fec5c3c38af3c/openstef_dbc-3.7.9.tar.gz
+[2024-05-01 14:20:50] INFO root fetch - processPackages [openstef-dbc]: executing diffoscope
+[2024-05-01 14:20:50] INFO root fetch - processPackages [openstef-dbc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openstef_dbc-3.7.7.tar.gz tmp/openstef_dbc-3.7.9.tar.gz --markdown 20240501/o/openstef-dbc/3.7.7-3.7.9/README.md --exclude *.pyd
+[2024-05-01 14:20:51] INFO root fetch - processPackages [trytond-account-product]: Remove: archive file [/home/abi/fetcher/tmp/trytond_account_product-7.0.1.tar.gz]
+[2024-05-01 14:20:51] INFO root fetch - processPackages [trytond-account-product]: Remove: archive file [/home/abi/fetcher/tmp/trytond_account_product-7.2.0.tar.gz]
+[2024-05-01 14:20:51] INFO root fetch - main [MainThread]: End processing [trytond-account-product]: success
+[2024-05-01 14:20:51] INFO root fetch - main [MainThread]: End processing [trytond-account-product]: success
+[2024-05-01 14:20:51] INFO root fetch - processPackages [trytond-account-payment-stripe]: Remove: archive file [/home/abi/fetcher/tmp/trytond_account_payment_stripe-7.2.0.tar.gz]
+[2024-05-01 14:20:51] INFO root fetch - processPackages [trytond-account-payment-stripe]: Remove: archive file [/home/abi/fetcher/tmp/trytond_account_payment_stripe-7.2.1.tar.gz]
+[2024-05-01 14:20:51] INFO root fetch - main [MainThread]: End processing [trytond-account-payment-stripe]: success
+[2024-05-01 14:20:51] INFO root fetch - processPackages [openstef-dbc]: Remove: archive file [/home/abi/fetcher/tmp/openstef_dbc-3.7.7.tar.gz]
+[2024-05-01 14:20:51] INFO root fetch - processPackages [openstef-dbc]: Remove: archive file [/home/abi/fetcher/tmp/openstef_dbc-3.7.9.tar.gz]
+[2024-05-01 14:20:51] INFO root fetch - main [MainThread]: End processing [openstef-dbc]: success
+[2024-05-01 14:20:51] INFO root fetch - processPackages [trytond-account-payment]: Remove: archive file [/home/abi/fetcher/tmp/trytond_account_payment-7.2.0.tar.gz]
+[2024-05-01 14:20:51] INFO root fetch - processPackages [trytond-account-payment]: Remove: archive file [/home/abi/fetcher/tmp/trytond_account_payment-7.2.1.tar.gz]
+[2024-05-01 14:20:51] INFO root fetch - main [MainThread]: End processing [trytond-account-payment]: success
+[2024-05-01 14:20:51] INFO root fetch - processPackages [jarvis4se]: Remove: archive file [/home/abi/fetcher/tmp/jarvis4se-1.3.5.tar.gz]
+[2024-05-01 14:20:51] INFO root fetch - processPackages [jarvis4se]: Remove: archive file [/home/abi/fetcher/tmp/jarvis4se-1.4.0.tar.gz]
+[2024-05-01 14:20:51] INFO root fetch - main [MainThread]: End processing [jarvis4se]: success
+[2024-05-01 14:20:51] INFO root fetch - processPackages [trytond-account-payment-sepa]: Remove: archive file [/home/abi/fetcher/tmp/trytond_account_payment_sepa-7.2.0.tar.gz]
+[2024-05-01 14:20:51] INFO root fetch - processPackages [trytond-account-payment-sepa]: Remove: archive file [/home/abi/fetcher/tmp/trytond_account_payment_sepa-7.2.1.tar.gz]
+[2024-05-01 14:20:51] INFO root fetch - main [MainThread]: End processing [trytond-account-payment-sepa]: success
+[2024-05-01 14:20:52] INFO root fetch - processPackages [whitebox-workflows]: executing diffoscope
+[2024-05-01 14:20:52] INFO root fetch - processPackages [whitebox-workflows]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whitebox_workflows-1.2.7-cp38-abi3-win_amd64.whl.zip tmp/whitebox_workflows-1.2.8-cp38-abi3-win_amd64.whl.zip --markdown 20240501/w/whitebox-workflows/1.2.7-1.2.8/README.md --exclude *.pyd
+[2024-05-01 14:20:53] INFO root fetch - processPackages [whitebox-workflows]: Remove: archive file [/home/abi/fetcher/tmp/whitebox_workflows-1.2.7-cp38-abi3-win_amd64.whl.zip]
+[2024-05-01 14:20:53] INFO root fetch - processPackages [whitebox-workflows]: Remove: archive file [/home/abi/fetcher/tmp/whitebox_workflows-1.2.8-cp38-abi3-win_amd64.whl.zip]
+[2024-05-01 14:20:53] INFO root fetch - main [MainThread]: End processing [whitebox-workflows]: success
+[2024-05-01 14:20:53] INFO root fetch - main [MainThread]: Store serial: [23016742]
