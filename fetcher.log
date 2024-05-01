@@ -20814,3 +20814,51 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-01 15:05:27] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.99.tar.gz]
 [2024-05-01 15:05:27] INFO root fetch - main [MainThread]: End processing [akshare]: success
 [2024-05-01 15:05:27] INFO root fetch - main [MainThread]: Store serial: [23017195]
+[2024-05-01 15:07:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23017195]
+[2024-05-01 15:07:36] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-01 15:07:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: torch-model-manager
+[2024-05-01 15:07:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: coiled
+[2024-05-01 15:07:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kathara
+[2024-05-01 15:07:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bxsolana-trader
+[2024-05-01 15:07:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: arclet-entari
+[2024-05-01 15:07:36] INFO root fetch - processPackages [bxsolana-trader]: New version: [2.1.0] Old Version: [2.0.2]
+[2024-05-01 15:07:36] INFO root fetch - processPackages [torch-model-manager]: New version: [0.1.0.dev6] Old Version: [0.1.0.dev5]
+[2024-05-01 15:07:36] INFO root fetch - processPackages [coiled]: New version: [1.9.1.dev9] Old Version: [1.9.1.dev8]
+[2024-05-01 15:07:36] INFO root fetch - processPackages [kathara]: New version: [3.7.5] Old Version: [3.7.4]
+[2024-05-01 15:07:36] INFO root fetch - processPackages [bxsolana-trader]: Downloading https://files.pythonhosted.org/packages/4d/fa/688052789b2b7c1f1afa40ab5efb7401e930a94f13d1b92fa534e1518dd1/bxsolana_trader-2.0.2.tar.gz
+[2024-05-01 15:07:36] INFO root fetch - processPackages [arclet-entari]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-05-01 15:07:36] INFO root fetch - processPackages [torch-model-manager]: Downloading https://files.pythonhosted.org/packages/78/8d/43aea3b9ca5bb9f2e1d574943e5a92d4d57effe80c6cdf81353ce568ffd2/torch_model_manager-0.1.0.dev5.tar.gz
+[2024-05-01 15:07:36] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/8b/97/14337c08d9fc8bec2c9c7a5961519e141cf75d7dffa582bb987eecacefa4/coiled-1.9.1.dev8.tar.gz
+[2024-05-01 15:07:37] INFO root fetch - processPackages [bxsolana-trader]: Downloading https://files.pythonhosted.org/packages/e1/f0/859ffb0401bd2ee8363abe691a0fa1648acab4f9b62c0ca18875a5c254fa/bxsolana-trader-2.1.0.tar.gz
+[2024-05-01 15:07:37] INFO root fetch - processPackages [arclet-entari]: Downloading https://files.pythonhosted.org/packages/d6/b1/d0a772e2c332e9c4b9d63a0b4618a6fd46376bc5ee8f3ebdd0e827af4735/arclet_entari-0.3.1.tar.gz
+[2024-05-01 15:07:37] INFO root fetch - processPackages [kathara]: Downloading https://files.pythonhosted.org/packages/80/5c/168019836dd8f16bb066bd4930fa88930972756428400257f1fcf09090b5/kathara-3.7.4.tar.gz
+[2024-05-01 15:07:37] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/58/16/aec6b9100728dfee740792b7dd55fc6e56240fdadb5ef317a1d120e019d7/coiled-1.9.1.dev9.tar.gz
+[2024-05-01 15:07:37] INFO root fetch - processPackages [torch-model-manager]: Downloading https://files.pythonhosted.org/packages/66/bf/77d49a3f3b64cd9c00adf3848c8055852077c9df7eb86716e1ae90927131/torch_model_manager-0.1.0.dev6.tar.gz
+[2024-05-01 15:07:37] INFO root fetch - processPackages [bxsolana-trader]: executing diffoscope
+[2024-05-01 15:07:37] INFO root fetch - processPackages [bxsolana-trader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bxsolana_trader-2.0.2.tar.gz tmp/bxsolana-trader-2.1.0.tar.gz --markdown 20240501/b/bxsolana-trader/2.0.2-2.1.0/README.md --exclude *.pyd
+[2024-05-01 15:07:37] INFO root fetch - processPackages [torch-model-manager]: executing diffoscope
+[2024-05-01 15:07:37] INFO root fetch - processPackages [torch-model-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_model_manager-0.1.0.dev5.tar.gz tmp/torch_model_manager-0.1.0.dev6.tar.gz --markdown 20240501/t/torch-model-manager/0.1.0.dev5-0.1.0.dev6/README.md --exclude *.pyd
+[2024-05-01 15:07:37] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2024-05-01 15:07:37] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-1.9.1.dev8.tar.gz tmp/coiled-1.9.1.dev9.tar.gz --markdown 20240501/c/coiled/1.9.1.dev8-1.9.1.dev9/README.md --exclude *.pyd
+[2024-05-01 15:07:37] INFO root fetch - processPackages [arclet-entari]: Downloading https://files.pythonhosted.org/packages/cb/c0/3674d1b0fabee5ce12ab386bac4d4ed758ad37c3d4a8dac9e9cef17e412b/arclet_entari-0.3.2.tar.gz
+[2024-05-01 15:07:37] INFO root fetch - processPackages [kathara]: Downloading https://files.pythonhosted.org/packages/e3/1c/1eaadbada8237bc567a61d47a705a24dc57b54a9e5ca6a7a13b24c1c2e54/kathara-3.7.5.tar.gz
+[2024-05-01 15:07:37] INFO root fetch - processPackages [arclet-entari]: executing diffoscope
+[2024-05-01 15:07:37] INFO root fetch - processPackages [arclet-entari]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arclet_entari-0.3.1.tar.gz tmp/arclet_entari-0.3.2.tar.gz --markdown 20240501/a/arclet-entari/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-05-01 15:07:37] INFO root fetch - processPackages [kathara]: executing diffoscope
+[2024-05-01 15:07:37] INFO root fetch - processPackages [kathara]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kathara-3.7.4.tar.gz tmp/kathara-3.7.5.tar.gz --markdown 20240501/k/kathara/3.7.4-3.7.5/README.md --exclude *.pyd
+[2024-05-01 15:07:37] INFO root fetch - processPackages [bxsolana-trader]: Remove: archive file [/home/abi/fetcher/tmp/bxsolana_trader-2.0.2.tar.gz]
+[2024-05-01 15:07:37] INFO root fetch - processPackages [bxsolana-trader]: Remove: archive file [/home/abi/fetcher/tmp/bxsolana-trader-2.1.0.tar.gz]
+[2024-05-01 15:07:37] INFO root fetch - main [MainThread]: End processing [bxsolana-trader]: success
+[2024-05-01 15:07:38] INFO root fetch - processPackages [torch-model-manager]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_manager-0.1.0.dev5.tar.gz]
+[2024-05-01 15:07:38] INFO root fetch - processPackages [torch-model-manager]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_manager-0.1.0.dev6.tar.gz]
+[2024-05-01 15:07:38] INFO root fetch - main [MainThread]: End processing [torch-model-manager]: success
+[2024-05-01 15:07:38] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-1.9.1.dev8.tar.gz]
+[2024-05-01 15:07:38] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-1.9.1.dev9.tar.gz]
+[2024-05-01 15:07:38] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2024-05-01 15:07:38] INFO root fetch - processPackages [arclet-entari]: Remove: archive file [/home/abi/fetcher/tmp/arclet_entari-0.3.1.tar.gz]
+[2024-05-01 15:07:38] INFO root fetch - processPackages [arclet-entari]: Remove: archive file [/home/abi/fetcher/tmp/arclet_entari-0.3.2.tar.gz]
+[2024-05-01 15:07:38] INFO root fetch - main [MainThread]: End processing [arclet-entari]: success
+[2024-05-01 15:07:38] INFO root fetch - processPackages [kathara]: Remove: archive file [/home/abi/fetcher/tmp/kathara-3.7.4.tar.gz]
+[2024-05-01 15:07:38] INFO root fetch - processPackages [kathara]: Remove: archive file [/home/abi/fetcher/tmp/kathara-3.7.5.tar.gz]
+[2024-05-01 15:07:38] INFO root fetch - main [MainThread]: End processing [kathara]: success
+[2024-05-01 15:07:38] INFO root fetch - main [MainThread]: Store serial: [23017210]
