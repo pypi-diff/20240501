@@ -8794,3 +8794,26 @@
 [2024-05-01 06:18:22] INFO root fetch - processPackages [glcl]: Remove: archive file [/home/abi/fetcher/tmp/glcl-0.0.8.tar.gz]
 [2024-05-01 06:18:22] INFO root fetch - main [MainThread]: End processing [glcl]: success
 [2024-05-01 06:18:22] INFO root fetch - main [MainThread]: Store serial: [23012205]
+[2024-05-01 06:20:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23012205]
+[2024-05-01 06:20:32] INFO root fetch - main [MainThread]: No changed packages found
+[2024-05-01 06:22:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23012205]
+[2024-05-01 06:22:37] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-01 06:22:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: llama-cpp-agent
+[2024-05-01 06:22:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-archive
+[2024-05-01 06:22:37] INFO root fetch - processPackages [pulumi-archive]: New version: [0.1.0a1714453987] Old Version: [0.0.6a1714108188]
+[2024-05-01 06:22:37] INFO root fetch - processPackages [pulumi-archive]: Downloading https://files.pythonhosted.org/packages/08/d7/ea078250700493c2b3ad927e6d07f1bc3f1f696093fa65d9e8e0e0bffe4c/pulumi_archive-0.0.6a1714108188.tar.gz
+[2024-05-01 06:22:37] INFO root fetch - processPackages [llama-cpp-agent]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-01 06:22:37] INFO root fetch - processPackages [llama-cpp-agent]: Downloading https://files.pythonhosted.org/packages/b1/dc/cf0fbb161c3d3c231fcd4737a8f55f4183bbbf8030ccb12b79a20348556e/llama-cpp-agent-0.0.8.tar.gz
+[2024-05-01 06:22:37] INFO root fetch - processPackages [pulumi-archive]: Downloading https://files.pythonhosted.org/packages/7f/1c/b5a60ae2b4074f6435afcede314e810c05f0de18391648ac79ac1216f3e3/pulumi_archive-0.1.0a1714453987.tar.gz
+[2024-05-01 06:22:38] INFO root fetch - processPackages [pulumi-archive]: executing diffoscope
+[2024-05-01 06:22:38] INFO root fetch - processPackages [pulumi-archive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_archive-0.0.6a1714108188.tar.gz tmp/pulumi_archive-0.1.0a1714453987.tar.gz --markdown 20240501/p/pulumi-archive/0.0.6a1714108188-0.1.0a1714453987/README.md --exclude *.pyd
+[2024-05-01 06:22:38] INFO root fetch - processPackages [llama-cpp-agent]: Downloading https://files.pythonhosted.org/packages/72/d2/fe669d324be099dc10673e05fdedaa55577529de265f254f94bf2c1eca23/llama-cpp-agent-0.0.9.tar.gz
+[2024-05-01 06:22:38] INFO root fetch - processPackages [llama-cpp-agent]: executing diffoscope
+[2024-05-01 06:22:38] INFO root fetch - processPackages [llama-cpp-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama-cpp-agent-0.0.8.tar.gz tmp/llama-cpp-agent-0.0.9.tar.gz --markdown 20240501/l/llama-cpp-agent/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-01 06:22:38] INFO root fetch - processPackages [pulumi-archive]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_archive-0.0.6a1714108188.tar.gz]
+[2024-05-01 06:22:38] INFO root fetch - processPackages [pulumi-archive]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_archive-0.1.0a1714453987.tar.gz]
+[2024-05-01 06:22:38] INFO root fetch - main [MainThread]: End processing [pulumi-archive]: success
+[2024-05-01 06:22:38] INFO root fetch - processPackages [llama-cpp-agent]: Remove: archive file [/home/abi/fetcher/tmp/llama-cpp-agent-0.0.8.tar.gz]
+[2024-05-01 06:22:38] INFO root fetch - processPackages [llama-cpp-agent]: Remove: archive file [/home/abi/fetcher/tmp/llama-cpp-agent-0.0.9.tar.gz]
+[2024-05-01 06:22:38] INFO root fetch - main [MainThread]: End processing [llama-cpp-agent]: success
+[2024-05-01 06:22:38] INFO root fetch - main [MainThread]: Store serial: [23012211]
