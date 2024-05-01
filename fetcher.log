@@ -10221,3 +10221,42 @@
 [2024-05-01 07:50:13] INFO root fetch - processPackages [pylliterate]: Remove: archive file [/home/abi/fetcher/tmp/pylliterate-0.0.4.tar.gz]
 [2024-05-01 07:50:13] INFO root fetch - main [MainThread]: End processing [pylliterate]: success
 [2024-05-01 07:50:13] INFO root fetch - main [MainThread]: Store serial: [23012795]
+[2024-05-01 07:52:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23012795]
+[2024-05-01 07:52:22] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-01 07:52:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: automvs
+[2024-05-01 07:52:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: snorer
+[2024-05-01 07:52:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-external
+[2024-05-01 07:52:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: meerkatio
+[2024-05-01 07:52:22] INFO root fetch - processPackages [automvs]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-01 07:52:22] INFO root fetch - processPackages [pulumi-external]: New version: [0.1.0a1714536943] Old Version: [0.1.0a1714455167]
+[2024-05-01 07:52:22] INFO root fetch - processPackages [automvs]: Downloading https://files.pythonhosted.org/packages/69/cf/bd9107e73cbeb18ea179453cb11aa5d553426e0aff85d0ed521ded42bfcc/automvs-0.0.2.tar.gz
+[2024-05-01 07:52:22] INFO root fetch - processPackages [snorer]: New version: [1.0.0] Old Version: [0.0.0]
+[2024-05-01 07:52:22] INFO root fetch - processPackages [meerkatio]: New version: [1.9] Old Version: [1.8]
+[2024-05-01 07:52:22] INFO root fetch - processPackages [pulumi-external]: Downloading https://files.pythonhosted.org/packages/9a/43/e16b25644bacd0382130e2aa5cb224bff3ae532e8f6e9e7bc19df2c168d9/pulumi_external-0.1.0a1714455167.tar.gz
+[2024-05-01 07:52:22] INFO root fetch - processPackages [meerkatio]: Downloading https://files.pythonhosted.org/packages/e5/fd/261dc958ee6d8a3e53b051c78ad8edcf248e7d4658a3e2c110f3ffe869e3/meerkatio-1.8.tar.gz
+[2024-05-01 07:52:22] INFO root fetch - processPackages [snorer]: Downloading https://files.pythonhosted.org/packages/d2/dd/9ec343057bfbf23fa7375dab1cdc0b6e77cfcc4771e9f28b2a6c1565b9b4/snorer-0.0.0.tar.gz
+[2024-05-01 07:52:22] INFO root fetch - processPackages [automvs]: Downloading https://files.pythonhosted.org/packages/4f/df/27453d95989f71ac8e6f43b381198be1128345e160c96fd65d336b70999f/automvs-0.0.3.tar.gz
+[2024-05-01 07:52:22] INFO root fetch - processPackages [pulumi-external]: Downloading https://files.pythonhosted.org/packages/d3/c9/1d7898ef5114624d4ab0e4e7153c7784f2816bc643599e55cbc75a776d40/pulumi_external-0.1.0a1714536943.tar.gz
+[2024-05-01 07:52:22] INFO root fetch - processPackages [meerkatio]: Downloading https://files.pythonhosted.org/packages/02/4a/5748f5d36887df5b8fec7273a9e74215ee90bb6fca85518af3e2eef28f76/meerkatio-1.9.tar.gz
+[2024-05-01 07:52:22] INFO root fetch - processPackages [automvs]: executing diffoscope
+[2024-05-01 07:52:22] INFO root fetch - processPackages [automvs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/automvs-0.0.2.tar.gz tmp/automvs-0.0.3.tar.gz --markdown 20240501/a/automvs/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-01 07:52:22] INFO root fetch - processPackages [pulumi-external]: executing diffoscope
+[2024-05-01 07:52:22] INFO root fetch - processPackages [pulumi-external]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_external-0.1.0a1714455167.tar.gz tmp/pulumi_external-0.1.0a1714536943.tar.gz --markdown 20240501/p/pulumi-external/0.1.0a1714455167-0.1.0a1714536943/README.md --exclude *.pyd
+[2024-05-01 07:52:22] INFO root fetch - processPackages [meerkatio]: executing diffoscope
+[2024-05-01 07:52:22] INFO root fetch - processPackages [meerkatio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meerkatio-1.8.tar.gz tmp/meerkatio-1.9.tar.gz --markdown 20240501/m/meerkatio/1.8-1.9/README.md --exclude *.pyd
+[2024-05-01 07:52:23] INFO root fetch - processPackages [snorer]: Downloading https://files.pythonhosted.org/packages/c8/df/47f2f51394d3010670b5bda4c18bb4725597d172af67dd82964a849e6431/snorer-1.0.0.tar.gz
+[2024-05-01 07:52:23] INFO root fetch - processPackages [snorer]: executing diffoscope
+[2024-05-01 07:52:23] INFO root fetch - processPackages [snorer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snorer-0.0.0.tar.gz tmp/snorer-1.0.0.tar.gz --markdown 20240501/s/snorer/0.0.0-1.0.0/README.md --exclude *.pyd
+[2024-05-01 07:52:23] INFO root fetch - processPackages [pulumi-external]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_external-0.1.0a1714455167.tar.gz]
+[2024-05-01 07:52:23] INFO root fetch - processPackages [pulumi-external]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_external-0.1.0a1714536943.tar.gz]
+[2024-05-01 07:52:23] INFO root fetch - main [MainThread]: End processing [pulumi-external]: success
+[2024-05-01 07:52:23] INFO root fetch - processPackages [meerkatio]: Remove: archive file [/home/abi/fetcher/tmp/meerkatio-1.8.tar.gz]
+[2024-05-01 07:52:23] INFO root fetch - processPackages [meerkatio]: Remove: archive file [/home/abi/fetcher/tmp/meerkatio-1.9.tar.gz]
+[2024-05-01 07:52:23] INFO root fetch - main [MainThread]: End processing [meerkatio]: success
+[2024-05-01 07:52:23] INFO root fetch - processPackages [automvs]: Remove: archive file [/home/abi/fetcher/tmp/automvs-0.0.2.tar.gz]
+[2024-05-01 07:52:23] INFO root fetch - processPackages [automvs]: Remove: archive file [/home/abi/fetcher/tmp/automvs-0.0.3.tar.gz]
+[2024-05-01 07:52:23] INFO root fetch - main [MainThread]: End processing [automvs]: success
+[2024-05-01 07:52:23] INFO root fetch - processPackages [snorer]: Remove: archive file [/home/abi/fetcher/tmp/snorer-0.0.0.tar.gz]
+[2024-05-01 07:52:23] INFO root fetch - processPackages [snorer]: Remove: archive file [/home/abi/fetcher/tmp/snorer-1.0.0.tar.gz]
+[2024-05-01 07:52:23] INFO root fetch - main [MainThread]: End processing [snorer]: success
+[2024-05-01 07:52:23] INFO root fetch - main [MainThread]: Store serial: [23012807]
