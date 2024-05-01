@@ -1705,3 +1705,51 @@
 [2024-05-01 02:02:32] INFO root fetch - processPackages [efficientvit-gml]: Remove: archive file [/home/abi/fetcher/tmp/efficientvit_gml-0.1.8-py3-none-any.whl.zip]
 [2024-05-01 02:02:32] INFO root fetch - main [MainThread]: End processing [efficientvit-gml]: success
 [2024-05-01 02:02:32] INFO root fetch - main [MainThread]: Store serial: [23009457]
+[2024-05-01 02:04:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23009457]
+[2024-05-01 02:04:41] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-01 02:04:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: copyleap
+[2024-05-01 02:04:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: parameterframe
+[2024-05-01 02:04:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: glcl
+[2024-05-01 02:04:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: c4t
+[2024-05-01 02:04:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: betterconfigs
+[2024-05-01 02:04:41] INFO root fetch - processPackages [glcl]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-01 02:04:41] INFO root fetch - processPackages [copyleap]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-01 02:04:41] INFO root fetch - processPackages [parameterframe]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-01 02:04:41] INFO root fetch - processPackages [betterconfigs]: New version: [0.8.4] Old Version: [0.8.3]
+[2024-05-01 02:04:41] INFO root fetch - processPackages [c4t]: New version: [1.4.0] Old Version: [1.3.0]
+[2024-05-01 02:04:41] INFO root fetch - processPackages [copyleap]: Downloading https://files.pythonhosted.org/packages/eb/19/1d774a2253451969c7752d1cddfa0b2e2621f2b1bdc9fb94a9edfd951166/copyleap-0.1.0.tar.gz
+[2024-05-01 02:04:41] INFO root fetch - processPackages [glcl]: Downloading https://files.pythonhosted.org/packages/10/63/031da1fb72816de8305eae5341e75e0eb6e3037d5a27c1a199ef179ede75/glcl-0.0.1.tar.gz
+[2024-05-01 02:04:41] INFO root fetch - processPackages [parameterframe]: Downloading https://files.pythonhosted.org/packages/c7/26/23c4271e3ff3d462758fa811b102fc2a9d2a0478b9680a67e2653e6858fd/parameterframe-0.0.1.tar.gz
+[2024-05-01 02:04:41] INFO root fetch - processPackages [betterconfigs]: Downloading https://files.pythonhosted.org/packages/46/a4/22f0bc310112d1f314fcf77e2d813a1a8ee545f5079dfdbb7352180f01aa/betterconfigs-0.8.3.tar.gz
+[2024-05-01 02:04:41] INFO root fetch - processPackages [c4t]: Downloading https://files.pythonhosted.org/packages/c3/c0/5d98bf137e8b0ec284f875a607500c2fffb3f28c70b0cffdc6e94be46908/c4t-1.3.0.tar.gz
+[2024-05-01 02:04:41] INFO root fetch - processPackages [copyleap]: Downloading https://files.pythonhosted.org/packages/4a/51/cc2ce97324607dc4b22eccdeae37b4ab82cbe17c999620f790834873e6e4/copyleap-0.1.1.tar.gz
+[2024-05-01 02:04:41] INFO root fetch - processPackages [glcl]: Downloading https://files.pythonhosted.org/packages/0f/a6/78203bbd18c93761159b8b0c2e03a69cf2d9d97099880e4c9333cc89334f/glcl-0.0.2.tar.gz
+[2024-05-01 02:04:41] INFO root fetch - processPackages [copyleap]: executing diffoscope
+[2024-05-01 02:04:41] INFO root fetch - processPackages [copyleap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/copyleap-0.1.0.tar.gz tmp/copyleap-0.1.1.tar.gz --markdown 20240501/c/copyleap/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-01 02:04:41] INFO root fetch - processPackages [parameterframe]: Downloading https://files.pythonhosted.org/packages/75/5c/35cc7b35d508df4038e42042c355f5a773d745bc453a26861624453212f5/parameterframe-0.0.2.tar.gz
+[2024-05-01 02:04:41] INFO root fetch - processPackages [glcl]: executing diffoscope
+[2024-05-01 02:04:41] INFO root fetch - processPackages [glcl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glcl-0.0.1.tar.gz tmp/glcl-0.0.2.tar.gz --markdown 20240501/g/glcl/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-01 02:04:41] INFO root fetch - processPackages [betterconfigs]: Downloading https://files.pythonhosted.org/packages/88/43/e660aa0414c0075f700f048328c961a1af518c23892f035a5eee5889c4ea/betterconfigs-0.8.4.tar.gz
+[2024-05-01 02:04:41] INFO root fetch - processPackages [c4t]: Downloading https://files.pythonhosted.org/packages/2d/58/996cf08a63cb038e4722e3ed96ef850556622ca5f2bbd6895d0c4ef9c2f1/c4t-1.4.0.tar.gz
+[2024-05-01 02:04:41] INFO root fetch - processPackages [parameterframe]: executing diffoscope
+[2024-05-01 02:04:41] INFO root fetch - processPackages [parameterframe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parameterframe-0.0.1.tar.gz tmp/parameterframe-0.0.2.tar.gz --markdown 20240501/p/parameterframe/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-01 02:04:42] INFO root fetch - processPackages [c4t]: executing diffoscope
+[2024-05-01 02:04:42] INFO root fetch - processPackages [c4t]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c4t-1.3.0.tar.gz tmp/c4t-1.4.0.tar.gz --markdown 20240501/c/c4t/1.3.0-1.4.0/README.md --exclude *.pyd
+[2024-05-01 02:04:42] INFO root fetch - processPackages [copyleap]: Remove: archive file [/home/abi/fetcher/tmp/copyleap-0.1.0.tar.gz]
+[2024-05-01 02:04:42] INFO root fetch - processPackages [copyleap]: Remove: archive file [/home/abi/fetcher/tmp/copyleap-0.1.1.tar.gz]
+[2024-05-01 02:04:42] INFO root fetch - main [MainThread]: End processing [copyleap]: success
+[2024-05-01 02:04:42] INFO root fetch - processPackages [glcl]: Remove: archive file [/home/abi/fetcher/tmp/glcl-0.0.1.tar.gz]
+[2024-05-01 02:04:42] INFO root fetch - processPackages [glcl]: Remove: archive file [/home/abi/fetcher/tmp/glcl-0.0.2.tar.gz]
+[2024-05-01 02:04:42] INFO root fetch - main [MainThread]: End processing [glcl]: success
+[2024-05-01 02:04:42] INFO root fetch - processPackages [betterconfigs]: executing diffoscope
+[2024-05-01 02:04:42] INFO root fetch - processPackages [betterconfigs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/betterconfigs-0.8.3.tar.gz tmp/betterconfigs-0.8.4.tar.gz --markdown 20240501/b/betterconfigs/0.8.3-0.8.4/README.md --exclude *.pyd
+[2024-05-01 02:04:42] INFO root fetch - processPackages [parameterframe]: Remove: archive file [/home/abi/fetcher/tmp/parameterframe-0.0.1.tar.gz]
+[2024-05-01 02:04:42] INFO root fetch - processPackages [parameterframe]: Remove: archive file [/home/abi/fetcher/tmp/parameterframe-0.0.2.tar.gz]
+[2024-05-01 02:04:42] INFO root fetch - main [MainThread]: End processing [parameterframe]: success
+[2024-05-01 02:04:42] INFO root fetch - processPackages [c4t]: Remove: archive file [/home/abi/fetcher/tmp/c4t-1.3.0.tar.gz]
+[2024-05-01 02:04:42] INFO root fetch - processPackages [c4t]: Remove: archive file [/home/abi/fetcher/tmp/c4t-1.4.0.tar.gz]
+[2024-05-01 02:04:42] INFO root fetch - main [MainThread]: End processing [c4t]: success
+[2024-05-01 02:04:43] INFO root fetch - processPackages [betterconfigs]: Remove: archive file [/home/abi/fetcher/tmp/betterconfigs-0.8.3.tar.gz]
+[2024-05-01 02:04:43] INFO root fetch - processPackages [betterconfigs]: Remove: archive file [/home/abi/fetcher/tmp/betterconfigs-0.8.4.tar.gz]
+[2024-05-01 02:04:43] INFO root fetch - main [MainThread]: End processing [betterconfigs]: success
+[2024-05-01 02:04:43] INFO root fetch - main [MainThread]: Store serial: [23009471]
