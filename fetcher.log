@@ -8697,3 +8697,38 @@
 [2024-05-01 06:09:42] INFO root fetch - processPackages [jcvi]: Remove: archive file [/home/abi/fetcher/tmp/jcvi-1.4.6.tar.gz]
 [2024-05-01 06:09:42] INFO root fetch - main [MainThread]: End processing [jcvi]: success
 [2024-05-01 06:09:42] INFO root fetch - main [MainThread]: Store serial: [23012158]
+[2024-05-01 06:11:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23012158]
+[2024-05-01 06:11:51] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-01 06:11:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: manyhttps
+[2024-05-01 06:11:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: glcl
+[2024-05-01 06:11:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: MobileInventoryCLI
+[2024-05-01 06:11:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: batoid
+[2024-05-01 06:11:51] INFO root fetch - processPackages [manyhttps]: New version: [2.33.3] Old Version: [2.33.2]
+[2024-05-01 06:11:51] INFO root fetch - processPackages [glcl]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-01 06:11:51] INFO root fetch - processPackages [MobileInventoryCLI]: New version: [0.4.78] Old Version: [0.4.77]
+[2024-05-01 06:11:51] INFO root fetch - processPackages [manyhttps]: Downloading https://files.pythonhosted.org/packages/3c/bc/33f72291f4caacf510ec46d8b4ecb3f1e32e215df457b4097a9d0cb06418/manyhttps-2.33.2.tar.gz
+[2024-05-01 06:11:51] INFO root fetch - processPackages [batoid]: New version: [0.6.2] Old Version: [0.6.1]
+[2024-05-01 06:11:51] INFO root fetch - processPackages [glcl]: Downloading https://files.pythonhosted.org/packages/43/79/88ed47a61430b5bdb605cd6d73ca9f2a70077dd5fa2d29dc0d8afab18a78/glcl-0.0.6.tar.gz
+[2024-05-01 06:11:51] INFO root fetch - processPackages [MobileInventoryCLI]: Downloading https://files.pythonhosted.org/packages/98/4b/9d31316d515163a867a90064952340a794526268001aa5a3d0febb33e68a/MobileInventoryCLI-0.4.77.tar.gz
+[2024-05-01 06:11:51] INFO root fetch - processPackages [batoid]: Downloading https://files.pythonhosted.org/packages/23/2a/002d623e78ed8bdc8b497aa539258a7b1e9e547777c16611cb073b86a849/batoid-0.6.1.tar.gz
+[2024-05-01 06:11:51] INFO root fetch - processPackages [manyhttps]: Downloading https://files.pythonhosted.org/packages/21/a9/e20d5568f992e21c1af57ee0f5124c7bdb1a9657eb642dc58f6917292c1b/manyhttps-2.33.3.tar.gz
+[2024-05-01 06:11:51] WARNING root fetch - processPackages [batoid]: Skipping package: exceeds size limit 10764905>=10485760
+[2024-05-01 06:11:51] INFO root fetch - main [MainThread]: End processing [batoid] error
+[2024-05-01 06:11:51] INFO root fetch - processPackages [manyhttps]: executing diffoscope
+[2024-05-01 06:11:51] INFO root fetch - processPackages [manyhttps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/manyhttps-2.33.2.tar.gz tmp/manyhttps-2.33.3.tar.gz --markdown 20240501/m/manyhttps/2.33.2-2.33.3/README.md --exclude *.pyd
+[2024-05-01 06:11:51] INFO root fetch - processPackages [MobileInventoryCLI]: Downloading https://files.pythonhosted.org/packages/ec/d3/d8a1ff161051d19e517475462375eabdc3f37e34133770f038d0d242d2ee/MobileInventoryCLI-0.4.78.tar.gz
+[2024-05-01 06:11:51] INFO root fetch - processPackages [glcl]: Downloading https://files.pythonhosted.org/packages/41/f6/91879e608b469e8c93f6034731eb308c0e5ec4cbc16c48124515f20ce18f/glcl-0.0.7.tar.gz
+[2024-05-01 06:11:52] INFO root fetch - processPackages [MobileInventoryCLI]: executing diffoscope
+[2024-05-01 06:11:52] INFO root fetch - processPackages [MobileInventoryCLI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MobileInventoryCLI-0.4.77.tar.gz tmp/MobileInventoryCLI-0.4.78.tar.gz --markdown 20240501/M/MobileInventoryCLI/0.4.77-0.4.78/README.md --exclude *.pyd
+[2024-05-01 06:11:52] INFO root fetch - processPackages [glcl]: executing diffoscope
+[2024-05-01 06:11:52] INFO root fetch - processPackages [glcl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glcl-0.0.6.tar.gz tmp/glcl-0.0.7.tar.gz --markdown 20240501/g/glcl/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-01 06:11:52] INFO root fetch - processPackages [manyhttps]: Remove: archive file [/home/abi/fetcher/tmp/manyhttps-2.33.2.tar.gz]
+[2024-05-01 06:11:52] INFO root fetch - processPackages [manyhttps]: Remove: archive file [/home/abi/fetcher/tmp/manyhttps-2.33.3.tar.gz]
+[2024-05-01 06:11:52] INFO root fetch - main [MainThread]: End processing [manyhttps]: success
+[2024-05-01 06:11:52] INFO root fetch - processPackages [MobileInventoryCLI]: Remove: archive file [/home/abi/fetcher/tmp/MobileInventoryCLI-0.4.77.tar.gz]
+[2024-05-01 06:11:52] INFO root fetch - processPackages [MobileInventoryCLI]: Remove: archive file [/home/abi/fetcher/tmp/MobileInventoryCLI-0.4.78.tar.gz]
+[2024-05-01 06:11:52] INFO root fetch - main [MainThread]: End processing [MobileInventoryCLI]: success
+[2024-05-01 06:11:53] INFO root fetch - processPackages [glcl]: Remove: archive file [/home/abi/fetcher/tmp/glcl-0.0.6.tar.gz]
+[2024-05-01 06:11:53] INFO root fetch - processPackages [glcl]: Remove: archive file [/home/abi/fetcher/tmp/glcl-0.0.7.tar.gz]
+[2024-05-01 06:11:53] INFO root fetch - main [MainThread]: End processing [glcl]: success
+[2024-05-01 06:11:53] INFO root fetch - main [MainThread]: Store serial: [23012170]
