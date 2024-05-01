@@ -12571,3 +12571,30 @@
 [2024-05-01 10:10:14] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.4.5.dev20240430.tar.gz]
 [2024-05-01 10:10:14] INFO root fetch - main [MainThread]: End processing [pyglove]: success
 [2024-05-01 10:10:14] INFO root fetch - main [MainThread]: Store serial: [23013913]
+[2024-05-01 10:12:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23013913]
+[2024-05-01 10:12:22] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-01 10:12:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qontract-reconcile
+[2024-05-01 10:12:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: titli
+[2024-05-01 10:12:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: voltorb
+[2024-05-01 10:12:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: statute-utils
+[2024-05-01 10:12:23] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2024-05-01 10:12:23] WARNING root fetch - processPackages [voltorb]: Skipping, unable to determine old version
+[2024-05-01 10:12:23] INFO root fetch - main [MainThread]: End processing [voltorb] error
+[2024-05-01 10:12:23] WARNING root fetch - processPackages [titli]: Skipping, unable to determine old version
+[2024-05-01 10:12:23] INFO root fetch - main [MainThread]: End processing [titli] error
+[2024-05-01 10:12:23] INFO root fetch - processPackages [statute-utils]: New version: [0.6.9] Old Version: [0.6.8]
+[2024-05-01 10:12:23] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2024-05-01 10:12:23] INFO root fetch - processPackages [statute-utils]: Downloading https://files.pythonhosted.org/packages/83/b2/125b84be34122b68eefea6ba8af0f079a2efc2dbb9d9d63e921d04cfc298/statute_utils-0.6.8.tar.gz
+[2024-05-01 10:12:23] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2024-05-01 10:12:23] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2024-05-01 10:12:23] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20240501/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/README.md --exclude *.pyd
+[2024-05-01 10:12:23] INFO root fetch - processPackages [statute-utils]: Downloading https://files.pythonhosted.org/packages/9a/d3/eb1198972e592482e398d0ac13e40851bdd55a2c777fb46c0d9bd0612839/statute-utils-0.6.9.tar.gz
+[2024-05-01 10:12:23] INFO root fetch - processPackages [statute-utils]: executing diffoscope
+[2024-05-01 10:12:23] INFO root fetch - processPackages [statute-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/statute_utils-0.6.8.tar.gz tmp/statute-utils-0.6.9.tar.gz --markdown 20240501/s/statute-utils/0.6.8-0.6.9/README.md --exclude *.pyd
+[2024-05-01 10:12:24] INFO root fetch - processPackages [statute-utils]: Remove: archive file [/home/abi/fetcher/tmp/statute_utils-0.6.8.tar.gz]
+[2024-05-01 10:12:24] INFO root fetch - processPackages [statute-utils]: Remove: archive file [/home/abi/fetcher/tmp/statute-utils-0.6.9.tar.gz]
+[2024-05-01 10:12:24] INFO root fetch - main [MainThread]: End processing [statute-utils]: success
+[2024-05-01 10:12:25] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2024-05-01 10:12:25] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2024-05-01 10:12:25] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2024-05-01 10:12:25] INFO root fetch - main [MainThread]: Store serial: [23013930]
