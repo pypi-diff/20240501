@@ -8817,3 +8817,33 @@
 [2024-05-01 06:22:38] INFO root fetch - processPackages [llama-cpp-agent]: Remove: archive file [/home/abi/fetcher/tmp/llama-cpp-agent-0.0.9.tar.gz]
 [2024-05-01 06:22:38] INFO root fetch - main [MainThread]: End processing [llama-cpp-agent]: success
 [2024-05-01 06:22:38] INFO root fetch - main [MainThread]: Store serial: [23012211]
+[2024-05-01 06:24:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23012211]
+[2024-05-01 06:24:47] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-01 06:24:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo12-addon-l10n-it-ddt
+[2024-05-01 06:24:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: manyhttps
+[2024-05-01 06:24:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: salamander-learn
+[2024-05-01 06:24:47] INFO root fetch - processPackages [manyhttps]: New version: [2.33.7] Old Version: [2.33.6]
+[2024-05-01 06:24:47] INFO root fetch - processPackages [manyhttps]: Downloading https://files.pythonhosted.org/packages/62/1a/19cbea2fb2179f7ea201fba4d95b9c669a2277171cea286a9b5db982f367/manyhttps-2.33.6.tar.gz
+[2024-05-01 06:24:47] INFO root fetch - processPackages [salamander-learn]: New version: [0.4.0] Old Version: [0.3.2]
+[2024-05-01 06:24:47] INFO root fetch - processPackages [odoo12-addon-l10n-it-ddt]: New version: [12.0.1.9.5.99.dev4] Old Version: [12.0.1.9.5.99.dev3]
+[2024-05-01 06:24:47] INFO root fetch - processPackages [salamander-learn]: Downloading https://files.pythonhosted.org/packages/97/4b/b66c90164f62be97a436c82ea1c012a26efc628a3dddebc2383a75bf1215/salamander_learn-0.3.2.tar.gz
+[2024-05-01 06:24:47] INFO root fetch - processPackages [odoo12-addon-l10n-it-ddt]: Downloading https://files.pythonhosted.org/packages/e1/74/62ff70294dcbe0998b06239c0884543328d63d8d0de2c73b62489b6bfb97/odoo12_addon_l10n_it_ddt-12.0.1.9.5.99.dev3-py3-none-any.whl
+[2024-05-01 06:24:47] INFO root fetch - processPackages [manyhttps]: Downloading https://files.pythonhosted.org/packages/32/a0/fec41e6443a112e087a60fdf1631a1b3e65f0449b82e8d2c75051d8b079d/manyhttps-2.33.7.tar.gz
+[2024-05-01 06:24:48] INFO root fetch - processPackages [manyhttps]: executing diffoscope
+[2024-05-01 06:24:48] INFO root fetch - processPackages [manyhttps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/manyhttps-2.33.6.tar.gz tmp/manyhttps-2.33.7.tar.gz --markdown 20240501/m/manyhttps/2.33.6-2.33.7/README.md --exclude *.pyd
+[2024-05-01 06:24:48] INFO root fetch - processPackages [salamander-learn]: Downloading https://files.pythonhosted.org/packages/d0/78/152e583d7055ee2a422acb963ef69beb4eda97093d68d14cdc6e0ff11b5f/salamander_learn-0.4.0.tar.gz
+[2024-05-01 06:24:48] INFO root fetch - processPackages [odoo12-addon-l10n-it-ddt]: Downloading https://files.pythonhosted.org/packages/60/8d/da9e85b98a74f275b8ee2d55576ca84abcbfd1f4076a6442b78097f3bf31/odoo12_addon_l10n_it_ddt-12.0.1.9.5.99.dev4-py3-none-any.whl
+[2024-05-01 06:24:48] INFO root fetch - processPackages [salamander-learn]: executing diffoscope
+[2024-05-01 06:24:48] INFO root fetch - processPackages [salamander-learn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/salamander_learn-0.3.2.tar.gz tmp/salamander_learn-0.4.0.tar.gz --markdown 20240501/s/salamander-learn/0.3.2-0.4.0/README.md --exclude *.pyd
+[2024-05-01 06:24:48] INFO root fetch - processPackages [odoo12-addon-l10n-it-ddt]: executing diffoscope
+[2024-05-01 06:24:48] INFO root fetch - processPackages [odoo12-addon-l10n-it-ddt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_l10n_it_ddt-12.0.1.9.5.99.dev3-py3-none-any.whl.zip tmp/odoo12_addon_l10n_it_ddt-12.0.1.9.5.99.dev4-py3-none-any.whl.zip --markdown 20240501/o/odoo12-addon-l10n-it-ddt/12.0.1.9.5.99.dev3-12.0.1.9.5.99.dev4/README.md --exclude *.pyd
+[2024-05-01 06:24:48] INFO root fetch - processPackages [manyhttps]: Remove: archive file [/home/abi/fetcher/tmp/manyhttps-2.33.6.tar.gz]
+[2024-05-01 06:24:48] INFO root fetch - processPackages [manyhttps]: Remove: archive file [/home/abi/fetcher/tmp/manyhttps-2.33.7.tar.gz]
+[2024-05-01 06:24:48] INFO root fetch - main [MainThread]: End processing [manyhttps]: success
+[2024-05-01 06:24:48] INFO root fetch - processPackages [salamander-learn]: Remove: archive file [/home/abi/fetcher/tmp/salamander_learn-0.3.2.tar.gz]
+[2024-05-01 06:24:48] INFO root fetch - processPackages [salamander-learn]: Remove: archive file [/home/abi/fetcher/tmp/salamander_learn-0.4.0.tar.gz]
+[2024-05-01 06:24:48] INFO root fetch - main [MainThread]: End processing [salamander-learn]: success
+[2024-05-01 06:24:49] INFO root fetch - processPackages [odoo12-addon-l10n-it-ddt]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_l10n_it_ddt-12.0.1.9.5.99.dev3-py3-none-any.whl.zip]
+[2024-05-01 06:24:49] INFO root fetch - processPackages [odoo12-addon-l10n-it-ddt]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_l10n_it_ddt-12.0.1.9.5.99.dev4-py3-none-any.whl.zip]
+[2024-05-01 06:24:49] INFO root fetch - main [MainThread]: End processing [odoo12-addon-l10n-it-ddt]: success
+[2024-05-01 06:24:49] INFO root fetch - main [MainThread]: Store serial: [23012218]
