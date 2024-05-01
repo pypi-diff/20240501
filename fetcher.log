@@ -8108,3 +8108,38 @@
 [2024-05-01 05:25:20] INFO root fetch - processPackages [contact-notes-local]: Remove: archive file [/home/abi/fetcher/tmp/contact-notes-local-0.0.9.tar.gz]
 [2024-05-01 05:25:20] INFO root fetch - main [MainThread]: End processing [contact-notes-local]: success
 [2024-05-01 05:25:20] INFO root fetch - main [MainThread]: Store serial: [23011871]
+[2024-05-01 05:27:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23011871]
+[2024-05-01 05:27:28] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-01 05:27:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cf2tf
+[2024-05-01 05:27:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sourcery-nightly
+[2024-05-01 05:27:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lbrlabs-pulumi-eks
+[2024-05-01 05:27:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pathlib-next
+[2024-05-01 05:27:29] INFO root fetch - processPackages [cf2tf]: New version: [0.7.2a6] Old Version: [0.7.2a5]
+[2024-05-01 05:27:29] INFO root fetch - processPackages [cf2tf]: Downloading https://files.pythonhosted.org/packages/c9/c1/dbff7cc2b5245e5ba890e3d2db36485e4652087ceaa455768ee1b3fa6508/cf2tf-0.7.2a5.tar.gz
+[2024-05-01 05:27:29] INFO root fetch - processPackages [lbrlabs-pulumi-eks]: New version: [0.9.1a1707243566] Old Version: [0.9.0]
+[2024-05-01 05:27:29] INFO root fetch - processPackages [pathlib-next]: New version: [0.3.0] Old Version: [0.2.1]
+[2024-05-01 05:27:29] INFO root fetch - processPackages [sourcery-nightly]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-01 05:27:29] INFO root fetch - processPackages [lbrlabs-pulumi-eks]: Downloading https://files.pythonhosted.org/packages/21/d7/aef8d104afe3ce2ea7de7a0d57a6fe58ed7d3eda4674da284fbeaea82f93/lbrlabs_pulumi_eks-0.9.0.tar.gz
+[2024-05-01 05:27:29] INFO root fetch - processPackages [sourcery-nightly]: Downloading https://files.pythonhosted.org/packages/53/c3/6633071e69f9b7c9fa4dc3fd942df526a00564a3b06fde4e568a9d207143/sourcery_nightly-1.8.0-py2.py3-none-win_amd64.whl
+[2024-05-01 05:27:29] INFO root fetch - processPackages [pathlib-next]: Downloading https://files.pythonhosted.org/packages/83/2b/451be5ed8bfdaf49b7c1359dd331bb14a214648448c67c23b596f8cd6c69/pathlib_next-0.2.1.tar.gz
+[2024-05-01 05:27:29] INFO root fetch - processPackages [cf2tf]: Downloading https://files.pythonhosted.org/packages/b3/2a/b3a3573434d401fc3c91c507e9f64ce9f5453999735d42f5bdbc7f0b745e/cf2tf-0.7.2a6.tar.gz
+[2024-05-01 05:27:29] WARNING root fetch - processPackages [sourcery-nightly]: Skipping package: exceeds size limit 68491059>=10485760
+[2024-05-01 05:27:29] INFO root fetch - main [MainThread]: End processing [sourcery-nightly] error
+[2024-05-01 05:27:29] INFO root fetch - processPackages [cf2tf]: executing diffoscope
+[2024-05-01 05:27:29] INFO root fetch - processPackages [cf2tf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cf2tf-0.7.2a5.tar.gz tmp/cf2tf-0.7.2a6.tar.gz --markdown 20240501/c/cf2tf/0.7.2a5-0.7.2a6/README.md --exclude *.pyd
+[2024-05-01 05:27:29] INFO root fetch - processPackages [pathlib-next]: Downloading https://files.pythonhosted.org/packages/ef/35/92a0a457069157adb87e74ccd93c00983f485f20de564e8049e7e6b65835/pathlib_next-0.3.0.tar.gz
+[2024-05-01 05:27:29] INFO root fetch - processPackages [lbrlabs-pulumi-eks]: Downloading https://files.pythonhosted.org/packages/f3/44/61d0eab4adc9a0cce0c9886829dc5f49c1c49864fc2a85eb3d49ce88bb30/lbrlabs_pulumi_eks-0.9.1a1707243566.tar.gz
+[2024-05-01 05:27:29] INFO root fetch - processPackages [pathlib-next]: executing diffoscope
+[2024-05-01 05:27:29] INFO root fetch - processPackages [pathlib-next]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pathlib_next-0.2.1.tar.gz tmp/pathlib_next-0.3.0.tar.gz --markdown 20240501/p/pathlib-next/0.2.1-0.3.0/README.md --exclude *.pyd
+[2024-05-01 05:27:30] INFO root fetch - processPackages [lbrlabs-pulumi-eks]: executing diffoscope
+[2024-05-01 05:27:30] INFO root fetch - processPackages [lbrlabs-pulumi-eks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbrlabs_pulumi_eks-0.9.0.tar.gz tmp/lbrlabs_pulumi_eks-0.9.1a1707243566.tar.gz --markdown 20240501/l/lbrlabs-pulumi-eks/0.9.0-0.9.1a1707243566/README.md --exclude *.pyd
+[2024-05-01 05:27:30] INFO root fetch - processPackages [cf2tf]: Remove: archive file [/home/abi/fetcher/tmp/cf2tf-0.7.2a5.tar.gz]
+[2024-05-01 05:27:30] INFO root fetch - processPackages [cf2tf]: Remove: archive file [/home/abi/fetcher/tmp/cf2tf-0.7.2a6.tar.gz]
+[2024-05-01 05:27:30] INFO root fetch - main [MainThread]: End processing [cf2tf]: success
+[2024-05-01 05:27:30] INFO root fetch - processPackages [pathlib-next]: Remove: archive file [/home/abi/fetcher/tmp/pathlib_next-0.2.1.tar.gz]
+[2024-05-01 05:27:30] INFO root fetch - processPackages [pathlib-next]: Remove: archive file [/home/abi/fetcher/tmp/pathlib_next-0.3.0.tar.gz]
+[2024-05-01 05:27:30] INFO root fetch - main [MainThread]: End processing [pathlib-next]: success
+[2024-05-01 05:27:30] INFO root fetch - processPackages [lbrlabs-pulumi-eks]: Remove: archive file [/home/abi/fetcher/tmp/lbrlabs_pulumi_eks-0.9.0.tar.gz]
+[2024-05-01 05:27:30] INFO root fetch - processPackages [lbrlabs-pulumi-eks]: Remove: archive file [/home/abi/fetcher/tmp/lbrlabs_pulumi_eks-0.9.1a1707243566.tar.gz]
+[2024-05-01 05:27:30] INFO root fetch - main [MainThread]: End processing [lbrlabs-pulumi-eks]: success
+[2024-05-01 05:27:30] INFO root fetch - main [MainThread]: Store serial: [23011884]
