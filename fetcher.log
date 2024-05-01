@@ -14682,3 +14682,42 @@
 [2024-05-01 11:56:00] INFO root fetch - processPackages [trytond-stock-product-location]: Remove: archive file [/home/abi/fetcher/tmp/trytond_stock_product_location-7.2.0.tar.gz]
 [2024-05-01 11:56:00] INFO root fetch - main [MainThread]: End processing [trytond-stock-product-location]: success
 [2024-05-01 11:56:00] INFO root fetch - main [MainThread]: Store serial: [23014915]
+[2024-05-01 11:58:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23014915]
+[2024-05-01 11:58:09] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-01 11:58:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hpcflow-new2
+[2024-05-01 11:58:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mwcleric
+[2024-05-01 11:58:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-dynaform
+[2024-05-01 11:58:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: luminesce-sdk-preview
+[2024-05-01 11:58:09] INFO root fetch - processPackages [mwcleric]: New version: [0.9.7] Old Version: [0.9.6]
+[2024-05-01 11:58:09] INFO root fetch - processPackages [mwcleric]: Downloading https://files.pythonhosted.org/packages/9e/5d/d05fc549f9ee5eb41db4ee01257d16aaa606ef308dca0764dbfe63071713/mwcleric-0.9.6.tar.gz
+[2024-05-01 11:58:09] INFO root fetch - processPackages [django-dynaform]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-01 11:58:09] INFO root fetch - processPackages [hpcflow-new2]: New version: [0.2.0a99] Old Version: [0.2.0a98]
+[2024-05-01 11:58:09] INFO root fetch - processPackages [hpcflow-new2]: Downloading https://files.pythonhosted.org/packages/82/5b/6984c1054c9e9e23755579aaa22700cc853a60706fbcc5669dd44c836893/hpcflow_new2-0.2.0a98.tar.gz
+[2024-05-01 11:58:09] INFO root fetch - processPackages [django-dynaform]: Downloading https://files.pythonhosted.org/packages/2b/b1/061997fed280753503ebd640053696e8f8cd63f95e4b7dd4f8f788da15fc/django_dynaform-0.1.0.tar.gz
+[2024-05-01 11:58:09] INFO root fetch - processPackages [luminesce-sdk-preview]: New version: [1.9.92] Old Version: [1.9.88]
+[2024-05-01 11:58:09] INFO root fetch - processPackages [mwcleric]: Downloading https://files.pythonhosted.org/packages/2d/f3/88798750ce4d4e21dc586ea84275e34262d0446e234774fcc7f3a66e7b20/mwcleric-0.9.7.tar.gz
+[2024-05-01 11:58:10] INFO root fetch - processPackages [mwcleric]: executing diffoscope
+[2024-05-01 11:58:10] INFO root fetch - processPackages [mwcleric]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mwcleric-0.9.6.tar.gz tmp/mwcleric-0.9.7.tar.gz --markdown 20240501/m/mwcleric/0.9.6-0.9.7/README.md --exclude *.pyd
+[2024-05-01 11:58:10] INFO root fetch - processPackages [hpcflow-new2]: Downloading https://files.pythonhosted.org/packages/36/d0/5890c665787639f299c68be7a83fe303258a785667204f30810f0c319058/hpcflow_new2-0.2.0a99.tar.gz
+[2024-05-01 11:58:10] INFO root fetch - processPackages [luminesce-sdk-preview]: Downloading https://files.pythonhosted.org/packages/d3/7b/a9c3e829fb03ae79379224fe34adb99d80c6dbfc5f00ccc44cf429d34f61/luminesce-sdk-preview-1.9.88.tar.gz
+[2024-05-01 11:58:10] INFO root fetch - processPackages [django-dynaform]: Downloading https://files.pythonhosted.org/packages/b4/8d/cea2c67ca5d728aae31410a5571775b8f779c00d183be0d2ac3053b1d56a/django_dynaform-0.1.1.tar.gz
+[2024-05-01 11:58:10] INFO root fetch - processPackages [hpcflow-new2]: executing diffoscope
+[2024-05-01 11:58:10] INFO root fetch - processPackages [hpcflow-new2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hpcflow_new2-0.2.0a98.tar.gz tmp/hpcflow_new2-0.2.0a99.tar.gz --markdown 20240501/h/hpcflow-new2/0.2.0a98-0.2.0a99/README.md --exclude *.pyd
+[2024-05-01 11:58:10] INFO root fetch - processPackages [django-dynaform]: executing diffoscope
+[2024-05-01 11:58:10] INFO root fetch - processPackages [django-dynaform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_dynaform-0.1.0.tar.gz tmp/django_dynaform-0.1.1.tar.gz --markdown 20240501/d/django-dynaform/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-01 11:58:10] INFO root fetch - processPackages [luminesce-sdk-preview]: Downloading https://files.pythonhosted.org/packages/b4/a1/29e30342ad6b0ee5f31f57c9ebeee25c12a4805f3f972e1908bf31abd599/luminesce-sdk-preview-1.9.92.tar.gz
+[2024-05-01 11:58:10] INFO root fetch - processPackages [luminesce-sdk-preview]: executing diffoscope
+[2024-05-01 11:58:10] INFO root fetch - processPackages [luminesce-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/luminesce-sdk-preview-1.9.88.tar.gz tmp/luminesce-sdk-preview-1.9.92.tar.gz --markdown 20240501/l/luminesce-sdk-preview/1.9.88-1.9.92/README.md --exclude *.pyd
+[2024-05-01 11:58:10] INFO root fetch - processPackages [mwcleric]: Remove: archive file [/home/abi/fetcher/tmp/mwcleric-0.9.6.tar.gz]
+[2024-05-01 11:58:10] INFO root fetch - processPackages [mwcleric]: Remove: archive file [/home/abi/fetcher/tmp/mwcleric-0.9.7.tar.gz]
+[2024-05-01 11:58:10] INFO root fetch - main [MainThread]: End processing [mwcleric]: success
+[2024-05-01 11:58:10] INFO root fetch - processPackages [django-dynaform]: Remove: archive file [/home/abi/fetcher/tmp/django_dynaform-0.1.0.tar.gz]
+[2024-05-01 11:58:10] INFO root fetch - processPackages [django-dynaform]: Remove: archive file [/home/abi/fetcher/tmp/django_dynaform-0.1.1.tar.gz]
+[2024-05-01 11:58:10] INFO root fetch - main [MainThread]: End processing [django-dynaform]: success
+[2024-05-01 11:58:11] INFO root fetch - processPackages [hpcflow-new2]: Remove: archive file [/home/abi/fetcher/tmp/hpcflow_new2-0.2.0a98.tar.gz]
+[2024-05-01 11:58:11] INFO root fetch - processPackages [hpcflow-new2]: Remove: archive file [/home/abi/fetcher/tmp/hpcflow_new2-0.2.0a99.tar.gz]
+[2024-05-01 11:58:11] INFO root fetch - main [MainThread]: End processing [hpcflow-new2]: success
+[2024-05-01 11:58:11] INFO root fetch - processPackages [luminesce-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/luminesce-sdk-preview-1.9.88.tar.gz]
+[2024-05-01 11:58:11] INFO root fetch - processPackages [luminesce-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/luminesce-sdk-preview-1.9.92.tar.gz]
+[2024-05-01 11:58:11] INFO root fetch - main [MainThread]: End processing [luminesce-sdk-preview]: success
+[2024-05-01 11:58:11] INFO root fetch - main [MainThread]: Store serial: [23014926]
