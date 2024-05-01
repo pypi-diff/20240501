@@ -10791,3 +10791,24 @@
 [2024-05-01 08:21:36] INFO root fetch - processPackages [web-rwkv-py]: Remove: archive file [/home/abi/fetcher/tmp/web_rwkv_py-0.2.1-cp311-cp311-manylinux_2_17_s390x.manylinux2014_s390x.whl.zip]
 [2024-05-01 08:21:36] INFO root fetch - main [MainThread]: End processing [web-rwkv-py]: success
 [2024-05-01 08:21:36] INFO root fetch - main [MainThread]: Store serial: [23013046]
+[2024-05-01 08:23:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23013046]
+[2024-05-01 08:23:46] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-01 08:23:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: clovers-leafgame
+[2024-05-01 08:23:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pandas-geojson
+[2024-05-01 08:23:46] INFO root fetch - processPackages [clovers-leafgame]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-05-01 08:23:46] INFO root fetch - processPackages [pandas-geojson]: New version: [2.2.0] Old Version: [2.1.0]
+[2024-05-01 08:23:46] INFO root fetch - processPackages [clovers-leafgame]: Downloading https://files.pythonhosted.org/packages/6e/16/600e5f87a2359ab2ab8da41d8d0885bd5cb2cc5f77c3b74531482426ebb1/clovers_leafgame-0.1.7.tar.gz
+[2024-05-01 08:23:47] INFO root fetch - processPackages [pandas-geojson]: Downloading https://files.pythonhosted.org/packages/9a/96/8992a800ef04e0612f3ce51dc1c59620d3be3d4ef8f5c1ecaaf351879302/pandas_geojson-2.1.0.tar.gz
+[2024-05-01 08:23:47] INFO root fetch - processPackages [clovers-leafgame]: Downloading https://files.pythonhosted.org/packages/e5/eb/a326026bb16095ba9c0d0e43f5aeb884e320a5847692aeba926bb34e6f28/clovers_leafgame-0.1.8.tar.gz
+[2024-05-01 08:23:47] INFO root fetch - processPackages [clovers-leafgame]: executing diffoscope
+[2024-05-01 08:23:47] INFO root fetch - processPackages [clovers-leafgame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clovers_leafgame-0.1.7.tar.gz tmp/clovers_leafgame-0.1.8.tar.gz --markdown 20240501/c/clovers-leafgame/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-05-01 08:23:47] INFO root fetch - processPackages [pandas-geojson]: Downloading https://files.pythonhosted.org/packages/6f/74/27bf916c3dc8b76f13c97bb1b59b66fba66c8fcf39d3feedff4cc44e6374/pandas_geojson-2.2.0.tar.gz
+[2024-05-01 08:23:47] INFO root fetch - processPackages [pandas-geojson]: executing diffoscope
+[2024-05-01 08:23:47] INFO root fetch - processPackages [pandas-geojson]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandas_geojson-2.1.0.tar.gz tmp/pandas_geojson-2.2.0.tar.gz --markdown 20240501/p/pandas-geojson/2.1.0-2.2.0/README.md --exclude *.pyd
+[2024-05-01 08:23:47] INFO root fetch - processPackages [clovers-leafgame]: Remove: archive file [/home/abi/fetcher/tmp/clovers_leafgame-0.1.7.tar.gz]
+[2024-05-01 08:23:47] INFO root fetch - processPackages [clovers-leafgame]: Remove: archive file [/home/abi/fetcher/tmp/clovers_leafgame-0.1.8.tar.gz]
+[2024-05-01 08:23:47] INFO root fetch - main [MainThread]: End processing [clovers-leafgame]: success
+[2024-05-01 08:23:48] INFO root fetch - processPackages [pandas-geojson]: Remove: archive file [/home/abi/fetcher/tmp/pandas_geojson-2.1.0.tar.gz]
+[2024-05-01 08:23:48] INFO root fetch - processPackages [pandas-geojson]: Remove: archive file [/home/abi/fetcher/tmp/pandas_geojson-2.2.0.tar.gz]
+[2024-05-01 08:23:48] INFO root fetch - main [MainThread]: End processing [pandas-geojson]: success
+[2024-05-01 08:23:48] INFO root fetch - main [MainThread]: Store serial: [23013102]
