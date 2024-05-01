@@ -12348,3 +12348,45 @@
 [2024-05-01 09:56:58] INFO root fetch - processPackages [django_forms_plus]: Remove: archive file [/home/abi/fetcher/tmp/django_forms_plus-0.9.0.tar.gz]
 [2024-05-01 09:56:58] INFO root fetch - main [MainThread]: End processing [django_forms_plus]: success
 [2024-05-01 09:56:58] INFO root fetch - main [MainThread]: Store serial: [23013810]
+[2024-05-01 09:59:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23013810]
+[2024-05-01 09:59:08] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-01 09:59:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: clovers
+[2024-05-01 09:59:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: libfshfs-python
+[2024-05-01 09:59:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kingqueen
+[2024-05-01 09:59:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tf-nightly
+[2024-05-01 09:59:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aqueduc
+[2024-05-01 09:59:08] INFO root fetch - processPackages [aqueduc]: New version: [1.0.6] Old Version: [1.0.5]
+[2024-05-01 09:59:08] INFO root fetch - processPackages [aqueduc]: Downloading https://files.pythonhosted.org/packages/96/cb/48ae401af5d7bbf6fbaabb348931dd2d3d150234d248a604b3508f76e44f/aqueduc-1.0.5.tar.gz
+[2024-05-01 09:59:08] WARNING root fetch - processPackages [kingqueen]: Skipping, unable to determine old version
+[2024-05-01 09:59:08] INFO root fetch - main [MainThread]: End processing [kingqueen] error
+[2024-05-01 09:59:08] INFO root fetch - processPackages [libfshfs-python]: New version: [20240501] Old Version: [20240221]
+[2024-05-01 09:59:08] INFO root fetch - processPackages [clovers]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-01 09:59:08] INFO root fetch - processPackages [libfshfs-python]: Downloading https://files.pythonhosted.org/packages/e5/8d/02f759c75c7870c56ff6003461d978fcd3e0581b3b63c16f8bf0e238d27c/libfshfs-python-20240221.tar.gz
+[2024-05-01 09:59:08] INFO root fetch - processPackages [clovers]: Downloading https://files.pythonhosted.org/packages/8c/59/96186f40068bf8232ebdaadd050554d8f193f13e2f6454e587b48407f06d/clovers-0.1.8.tar.gz
+[2024-05-01 09:59:08] INFO root fetch - processPackages [tf-nightly]: New version: [2.17.0.dev20240501] Old Version: [2.17.0.dev20240430]
+[2024-05-01 09:59:08] INFO root fetch - processPackages [aqueduc]: Downloading https://files.pythonhosted.org/packages/81/af/b526f911376a4e4a071791eed62af531479df9a5770ebd04b22eb0e3a0fd/aqueduc-1.0.6.tar.gz
+[2024-05-01 09:59:09] INFO root fetch - processPackages [clovers]: Downloading https://files.pythonhosted.org/packages/79/1d/90c19318a8d5aaefa930d01a719e0830e902682484d02ed219f1ede5b6c4/clovers-0.1.9.tar.gz
+[2024-05-01 09:59:09] INFO root fetch - processPackages [aqueduc]: executing diffoscope
+[2024-05-01 09:59:09] INFO root fetch - processPackages [aqueduc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aqueduc-1.0.5.tar.gz tmp/aqueduc-1.0.6.tar.gz --markdown 20240501/a/aqueduc/1.0.5-1.0.6/README.md --exclude *.pyd
+[2024-05-01 09:59:09] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/98/4f/ccce545808c23298fac399c81905f866587e359f1f80b4708c5b67059810/tf_nightly-2.17.0.dev20240430-cp39-cp39-win_amd64.whl
+[2024-05-01 09:59:09] INFO root fetch - processPackages [clovers]: executing diffoscope
+[2024-05-01 09:59:09] INFO root fetch - processPackages [clovers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clovers-0.1.8.tar.gz tmp/clovers-0.1.9.tar.gz --markdown 20240501/c/clovers/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-01 09:59:09] INFO root fetch - processPackages [libfshfs-python]: Downloading https://files.pythonhosted.org/packages/77/6a/117fb2403ecee6fbc250f14d95860813a4bafcc17903eead6278f8735c47/libfshfs-python-20240501.tar.gz
+[2024-05-01 09:59:09] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/41/68/3e91bc51f94b161acc3e4992abd6c33d5c5eb30f03fb7ffa499aaee648dc/tf_nightly-2.17.0.dev20240501-cp39-cp39-win_amd64.whl
+[2024-05-01 09:59:09] INFO root fetch - processPackages [libfshfs-python]: executing diffoscope
+[2024-05-01 09:59:09] INFO root fetch - processPackages [libfshfs-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libfshfs-python-20240221.tar.gz tmp/libfshfs-python-20240501.tar.gz --markdown 20240501/l/libfshfs-python/20240221-20240501/README.md --exclude *.pyd
+[2024-05-01 09:59:09] INFO root fetch - processPackages [aqueduc]: Remove: archive file [/home/abi/fetcher/tmp/aqueduc-1.0.5.tar.gz]
+[2024-05-01 09:59:09] INFO root fetch - processPackages [aqueduc]: Remove: archive file [/home/abi/fetcher/tmp/aqueduc-1.0.6.tar.gz]
+[2024-05-01 09:59:09] INFO root fetch - main [MainThread]: End processing [aqueduc]: success
+[2024-05-01 09:59:09] INFO root fetch - processPackages [tf-nightly]: executing diffoscope
+[2024-05-01 09:59:09] INFO root fetch - processPackages [tf-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly-2.17.0.dev20240430-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly-2.17.0.dev20240501-cp39-cp39-win_amd64.whl.zip --markdown 20240501/t/tf-nightly/2.17.0.dev20240430-2.17.0.dev20240501/README.md --exclude *.pyd
+[2024-05-01 09:59:09] INFO root fetch - processPackages [clovers]: Remove: archive file [/home/abi/fetcher/tmp/clovers-0.1.8.tar.gz]
+[2024-05-01 09:59:09] INFO root fetch - processPackages [clovers]: Remove: archive file [/home/abi/fetcher/tmp/clovers-0.1.9.tar.gz]
+[2024-05-01 09:59:09] INFO root fetch - main [MainThread]: End processing [clovers]: success
+[2024-05-01 09:59:10] INFO root fetch - processPackages [tf-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly-2.17.0.dev20240430-cp39-cp39-win_amd64.whl.zip]
+[2024-05-01 09:59:10] INFO root fetch - processPackages [tf-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly-2.17.0.dev20240501-cp39-cp39-win_amd64.whl.zip]
+[2024-05-01 09:59:10] INFO root fetch - main [MainThread]: End processing [tf-nightly]: success
+[2024-05-01 09:59:15] INFO root fetch - processPackages [libfshfs-python]: Remove: archive file [/home/abi/fetcher/tmp/libfshfs-python-20240221.tar.gz]
+[2024-05-01 09:59:15] INFO root fetch - processPackages [libfshfs-python]: Remove: archive file [/home/abi/fetcher/tmp/libfshfs-python-20240501.tar.gz]
+[2024-05-01 09:59:15] INFO root fetch - main [MainThread]: End processing [libfshfs-python]: success
+[2024-05-01 09:59:15] INFO root fetch - main [MainThread]: Store serial: [23013828]
