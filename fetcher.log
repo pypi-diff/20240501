@@ -8746,3 +8746,51 @@
 [2024-05-01 06:16:09] INFO root fetch - processPackages [openai]: Remove: archive file [/home/abi/fetcher/tmp/openai-1.9.0.tar.gz]
 [2024-05-01 06:16:09] INFO root fetch - main [MainThread]: End processing [openai]: success
 [2024-05-01 06:16:09] INFO root fetch - main [MainThread]: Store serial: [23012191]
+[2024-05-01 06:18:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23012191]
+[2024-05-01 06:18:18] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-01 06:18:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: glcl
+[2024-05-01 06:18:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ParametricSpectralClustering
+[2024-05-01 06:18:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: manyhttps
+[2024-05-01 06:18:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cntrlai
+[2024-05-01 06:18:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: docsig
+[2024-05-01 06:18:19] INFO root fetch - processPackages [glcl]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-01 06:18:19] INFO root fetch - processPackages [cntrlai]: New version: [0.0.34] Old Version: [0.0.33]
+[2024-05-01 06:18:19] INFO root fetch - processPackages [manyhttps]: New version: [2.33.7] Old Version: [2.33.6]
+[2024-05-01 06:18:19] INFO root fetch - processPackages [glcl]: Downloading https://files.pythonhosted.org/packages/41/f6/91879e608b469e8c93f6034731eb308c0e5ec4cbc16c48124515f20ce18f/glcl-0.0.7.tar.gz
+[2024-05-01 06:18:19] INFO root fetch - processPackages [ParametricSpectralClustering]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-01 06:18:19] INFO root fetch - processPackages [docsig]: New version: [0.9.0] Old Version: [0.7.0]
+[2024-05-01 06:18:19] INFO root fetch - processPackages [manyhttps]: Downloading https://files.pythonhosted.org/packages/62/1a/19cbea2fb2179f7ea201fba4d95b9c669a2277171cea286a9b5db982f367/manyhttps-2.33.6.tar.gz
+[2024-05-01 06:18:19] INFO root fetch - processPackages [ParametricSpectralClustering]: Downloading https://files.pythonhosted.org/packages/cb/f0/6ae668c2d12af3323dfb1dc4a8308fc8938910b7244ba9b76712c56e3507/ParametricSpectralClustering-0.0.2.tar.gz
+[2024-05-01 06:18:19] INFO root fetch - processPackages [cntrlai]: Downloading https://files.pythonhosted.org/packages/02/89/5f210d3d5e4bab29f61829ee9d115f3f3a34d491537a33659358adb4d0d2/cntrlai-0.0.33.tar.gz
+[2024-05-01 06:18:19] INFO root fetch - processPackages [docsig]: Downloading https://files.pythonhosted.org/packages/b7/aa/3a58eed65c9cd6b8bd5a25e3fb75d0dab2ecdda4b36d07b1e482c485f72b/docsig-0.7.0.tar.gz
+[2024-05-01 06:18:19] INFO root fetch - processPackages [glcl]: Downloading https://files.pythonhosted.org/packages/a1/20/7b2d08270a302be079d34df15df267d5bfe07970a14b7fc955336fc2e6df/glcl-0.0.8.tar.gz
+[2024-05-01 06:18:19] INFO root fetch - processPackages [manyhttps]: Downloading https://files.pythonhosted.org/packages/32/a0/fec41e6443a112e087a60fdf1631a1b3e65f0449b82e8d2c75051d8b079d/manyhttps-2.33.7.tar.gz
+[2024-05-01 06:18:19] INFO root fetch - processPackages [cntrlai]: Downloading https://files.pythonhosted.org/packages/2c/1f/a9241368dad97101c9118c35c7c7be3cacec656130667960f7e926d79b30/cntrlai-0.0.34.tar.gz
+[2024-05-01 06:18:19] INFO root fetch - processPackages [ParametricSpectralClustering]: Downloading https://files.pythonhosted.org/packages/e2/9f/274e9ddc09f552aaadb7c59da69bfcb18b0896212228370f6df03c346785/ParametricSpectralClustering-0.0.3.tar.gz
+[2024-05-01 06:18:19] INFO root fetch - processPackages [manyhttps]: executing diffoscope
+[2024-05-01 06:18:19] INFO root fetch - processPackages [manyhttps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/manyhttps-2.33.6.tar.gz tmp/manyhttps-2.33.7.tar.gz --markdown 20240501/m/manyhttps/2.33.6-2.33.7/README.md --exclude *.pyd
+[2024-05-01 06:18:19] INFO root fetch - processPackages [docsig]: Downloading https://files.pythonhosted.org/packages/a5/8b/f9b2d72f71a3977e2edb7a543e8805b8f859ed021086b9eb63b07f9aa86d/docsig-0.9.0.tar.gz
+[2024-05-01 06:18:19] INFO root fetch - processPackages [ParametricSpectralClustering]: executing diffoscope
+[2024-05-01 06:18:19] INFO root fetch - processPackages [ParametricSpectralClustering]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ParametricSpectralClustering-0.0.2.tar.gz tmp/ParametricSpectralClustering-0.0.3.tar.gz --markdown 20240501/P/ParametricSpectralClustering/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-01 06:18:20] INFO root fetch - processPackages [cntrlai]: executing diffoscope
+[2024-05-01 06:18:20] INFO root fetch - processPackages [cntrlai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cntrlai-0.0.33.tar.gz tmp/cntrlai-0.0.34.tar.gz --markdown 20240501/c/cntrlai/0.0.33-0.0.34/README.md --exclude *.pyd
+[2024-05-01 06:18:20] INFO root fetch - processPackages [docsig]: executing diffoscope
+[2024-05-01 06:18:20] INFO root fetch - processPackages [docsig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docsig-0.7.0.tar.gz tmp/docsig-0.9.0.tar.gz --markdown 20240501/d/docsig/0.7.0-0.9.0/README.md --exclude *.pyd
+[2024-05-01 06:18:20] INFO root fetch - processPackages [manyhttps]: Remove: archive file [/home/abi/fetcher/tmp/manyhttps-2.33.6.tar.gz]
+[2024-05-01 06:18:20] INFO root fetch - processPackages [manyhttps]: Remove: archive file [/home/abi/fetcher/tmp/manyhttps-2.33.7.tar.gz]
+[2024-05-01 06:18:20] INFO root fetch - main [MainThread]: End processing [manyhttps]: success
+[2024-05-01 06:18:20] INFO root fetch - processPackages [docsig]: Remove: archive file [/home/abi/fetcher/tmp/docsig-0.7.0.tar.gz]
+[2024-05-01 06:18:20] INFO root fetch - processPackages [docsig]: Remove: archive file [/home/abi/fetcher/tmp/docsig-0.9.0.tar.gz]
+[2024-05-01 06:18:20] INFO root fetch - main [MainThread]: End processing [docsig]: success
+[2024-05-01 06:18:20] INFO root fetch - processPackages [ParametricSpectralClustering]: Remove: archive file [/home/abi/fetcher/tmp/ParametricSpectralClustering-0.0.2.tar.gz]
+[2024-05-01 06:18:20] INFO root fetch - processPackages [ParametricSpectralClustering]: Remove: archive file [/home/abi/fetcher/tmp/ParametricSpectralClustering-0.0.3.tar.gz]
+[2024-05-01 06:18:20] INFO root fetch - main [MainThread]: End processing [ParametricSpectralClustering]: success
+[2024-05-01 06:18:20] INFO root fetch - processPackages [cntrlai]: Remove: archive file [/home/abi/fetcher/tmp/cntrlai-0.0.33.tar.gz]
+[2024-05-01 06:18:20] INFO root fetch - processPackages [cntrlai]: Remove: archive file [/home/abi/fetcher/tmp/cntrlai-0.0.34.tar.gz]
+[2024-05-01 06:18:20] INFO root fetch - main [MainThread]: End processing [cntrlai]: success
+[2024-05-01 06:18:21] INFO root fetch - processPackages [glcl]: executing diffoscope
+[2024-05-01 06:18:21] INFO root fetch - processPackages [glcl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glcl-0.0.7.tar.gz tmp/glcl-0.0.8.tar.gz --markdown 20240501/g/glcl/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-01 06:18:22] INFO root fetch - processPackages [glcl]: Remove: archive file [/home/abi/fetcher/tmp/glcl-0.0.7.tar.gz]
+[2024-05-01 06:18:22] INFO root fetch - processPackages [glcl]: Remove: archive file [/home/abi/fetcher/tmp/glcl-0.0.8.tar.gz]
+[2024-05-01 06:18:22] INFO root fetch - main [MainThread]: End processing [glcl]: success
+[2024-05-01 06:18:22] INFO root fetch - main [MainThread]: Store serial: [23012205]
