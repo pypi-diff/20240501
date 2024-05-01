@@ -8143,3 +8143,45 @@
 [2024-05-01 05:27:30] INFO root fetch - processPackages [lbrlabs-pulumi-eks]: Remove: archive file [/home/abi/fetcher/tmp/lbrlabs_pulumi_eks-0.9.1a1707243566.tar.gz]
 [2024-05-01 05:27:30] INFO root fetch - main [MainThread]: End processing [lbrlabs-pulumi-eks]: success
 [2024-05-01 05:27:30] INFO root fetch - main [MainThread]: Store serial: [23011884]
+[2024-05-01 05:29:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23011884]
+[2024-05-01 05:29:39] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-01 05:29:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cloudtoken
+[2024-05-01 05:29:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdpcli-beta
+[2024-05-01 05:29:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: email-librar
+[2024-05-01 05:29:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cpop
+[2024-05-01 05:29:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: keras-nlp-nightly
+[2024-05-01 05:29:39] INFO root fetch - processPackages [keras-nlp-nightly]: New version: [0.9.0.dev2024041003] Old Version: [0.9.0.dev2024040803]
+[2024-05-01 05:29:39] WARNING root fetch - processPackages [email-librar]: Skipping, unable to determine old version
+[2024-05-01 05:29:39] INFO root fetch - main [MainThread]: End processing [email-librar] error
+[2024-05-01 05:29:39] INFO root fetch - processPackages [cpop]: New version: [35.4.0] Old Version: [35.3.0]
+[2024-05-01 05:29:39] INFO root fetch - processPackages [keras-nlp-nightly]: Downloading https://files.pythonhosted.org/packages/e9/c8/7f581d2ae825faa0b7973bcc73c15e31c01c7e1f5c085a746ded34473011/keras-nlp-nightly-0.9.0.dev2024040803.tar.gz
+[2024-05-01 05:29:39] INFO root fetch - processPackages [cdpcli-beta]: New version: [0.9.99] Old Version: [0.9.98]
+[2024-05-01 05:29:39] INFO root fetch - processPackages [cloudtoken]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-05-01 05:29:39] INFO root fetch - processPackages [cdpcli-beta]: Downloading https://files.pythonhosted.org/packages/9f/85/032943bba2e3b70a509b1738d7effeddf41273b3544a3f8fb26144a1b2b1/cdpcli-beta-0.9.98.tar.gz
+[2024-05-01 05:29:39] INFO root fetch - processPackages [cpop]: Downloading https://files.pythonhosted.org/packages/29/06/64038799f571939ab2209cb4f52f5f25c743c5af92e83a59944fb2196358/cpop-35.3.0.tar.gz
+[2024-05-01 05:29:39] INFO root fetch - processPackages [keras-nlp-nightly]: Downloading https://files.pythonhosted.org/packages/74/95/bdeb12dec2c7c5b69ee11a239dcb09345f2e4180ca0e26e6f12bef8f5013/keras-nlp-nightly-0.9.0.dev2024041003.tar.gz
+[2024-05-01 05:29:39] INFO root fetch - processPackages [cloudtoken]: Downloading https://files.pythonhosted.org/packages/33/9c/bbe97835f69f89856a0b4db5539891f5d4e30c20e0cd0b4b1f02b42e8dca/cloudtoken-2.1.8-py3-none-any.whl
+[2024-05-01 05:29:39] INFO root fetch - processPackages [keras-nlp-nightly]: executing diffoscope
+[2024-05-01 05:29:39] INFO root fetch - processPackages [keras-nlp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras-nlp-nightly-0.9.0.dev2024040803.tar.gz tmp/keras-nlp-nightly-0.9.0.dev2024041003.tar.gz --markdown 20240501/k/keras-nlp-nightly/0.9.0.dev2024040803-0.9.0.dev2024041003/README.md --exclude *.pyd
+[2024-05-01 05:29:40] INFO root fetch - processPackages [cdpcli-beta]: Downloading https://files.pythonhosted.org/packages/5e/0c/6e89a39abe523abcaf28c2a05e38a6a2daef2f507ff24e621addd40d660f/cdpcli-beta-0.9.99.tar.gz
+[2024-05-01 05:29:40] INFO root fetch - processPackages [cpop]: Downloading https://files.pythonhosted.org/packages/c7/d7/ff638d6f1227e1a536bff6a56dd58a025dcd711e63b54a0d86954e994d4c/cpop-35.4.0.tar.gz
+[2024-05-01 05:29:40] INFO root fetch - processPackages [cloudtoken]: Downloading https://files.pythonhosted.org/packages/34/fc/6bc460ae68387b62d25a0ff84166adfaa2fe5304b6c6cba8379692b2dbde/cloudtoken-2.1.9-py3-none-any.whl
+[2024-05-01 05:29:40] INFO root fetch - processPackages [cdpcli-beta]: executing diffoscope
+[2024-05-01 05:29:40] INFO root fetch - processPackages [cdpcli-beta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdpcli-beta-0.9.98.tar.gz tmp/cdpcli-beta-0.9.99.tar.gz --markdown 20240501/c/cdpcli-beta/0.9.98-0.9.99/README.md --exclude *.pyd
+[2024-05-01 05:29:40] INFO root fetch - processPackages [cpop]: executing diffoscope
+[2024-05-01 05:29:40] INFO root fetch - processPackages [cpop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cpop-35.3.0.tar.gz tmp/cpop-35.4.0.tar.gz --markdown 20240501/c/cpop/35.3.0-35.4.0/README.md --exclude *.pyd
+[2024-05-01 05:29:40] INFO root fetch - processPackages [cloudtoken]: executing diffoscope
+[2024-05-01 05:29:40] INFO root fetch - processPackages [cloudtoken]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudtoken-2.1.8-py3-none-any.whl.zip tmp/cloudtoken-2.1.9-py3-none-any.whl.zip --markdown 20240501/c/cloudtoken/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-05-01 05:29:41] INFO root fetch - processPackages [cloudtoken]: Remove: archive file [/home/abi/fetcher/tmp/cloudtoken-2.1.8-py3-none-any.whl.zip]
+[2024-05-01 05:29:41] INFO root fetch - processPackages [cloudtoken]: Remove: archive file [/home/abi/fetcher/tmp/cloudtoken-2.1.9-py3-none-any.whl.zip]
+[2024-05-01 05:29:41] INFO root fetch - main [MainThread]: End processing [cloudtoken]: success
+[2024-05-01 05:29:41] INFO root fetch - processPackages [cpop]: Remove: archive file [/home/abi/fetcher/tmp/cpop-35.3.0.tar.gz]
+[2024-05-01 05:29:41] INFO root fetch - processPackages [cpop]: Remove: archive file [/home/abi/fetcher/tmp/cpop-35.4.0.tar.gz]
+[2024-05-01 05:29:41] INFO root fetch - main [MainThread]: End processing [cpop]: success
+[2024-05-01 05:29:41] INFO root fetch - processPackages [keras-nlp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras-nlp-nightly-0.9.0.dev2024040803.tar.gz]
+[2024-05-01 05:29:41] INFO root fetch - processPackages [keras-nlp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras-nlp-nightly-0.9.0.dev2024041003.tar.gz]
+[2024-05-01 05:29:41] INFO root fetch - main [MainThread]: End processing [keras-nlp-nightly]: success
+[2024-05-01 05:29:42] INFO root fetch - processPackages [cdpcli-beta]: Remove: archive file [/home/abi/fetcher/tmp/cdpcli-beta-0.9.98.tar.gz]
+[2024-05-01 05:29:42] INFO root fetch - processPackages [cdpcli-beta]: Remove: archive file [/home/abi/fetcher/tmp/cdpcli-beta-0.9.99.tar.gz]
+[2024-05-01 05:29:42] INFO root fetch - main [MainThread]: End processing [cdpcli-beta]: success
+[2024-05-01 05:29:42] INFO root fetch - main [MainThread]: Store serial: [23011898]
