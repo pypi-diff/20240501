@@ -9318,3 +9318,15 @@
 [2024-05-01 06:55:31] INFO root fetch - processPackages [pytgpt-bot]: Remove: archive file [/home/abi/fetcher/tmp/pytgpt_bot-0.1.7.1.tar.gz]
 [2024-05-01 06:55:31] INFO root fetch - main [MainThread]: End processing [pytgpt-bot]: success
 [2024-05-01 06:55:31] INFO root fetch - main [MainThread]: Store serial: [23012420]
+[2024-05-01 06:57:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23012420]
+[2024-05-01 06:57:40] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-01 06:57:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: python-somfy
+[2024-05-01 06:57:40] INFO root fetch - processPackages [python-somfy]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-05-01 06:57:40] INFO root fetch - processPackages [python-somfy]: Downloading https://files.pythonhosted.org/packages/bd/98/46ac876a42ef089463e2c0a5db4651ce20abd26c606fb2ba30b20b7b97b5/python_somfy-1.1.0.tar.gz
+[2024-05-01 06:57:41] INFO root fetch - processPackages [python-somfy]: Downloading https://files.pythonhosted.org/packages/4c/66/cc098d13ad62ab07acfeeaeafe053821d416779f18bac013077119928841/python_somfy-1.1.1.tar.gz
+[2024-05-01 06:57:41] INFO root fetch - processPackages [python-somfy]: executing diffoscope
+[2024-05-01 06:57:41] INFO root fetch - processPackages [python-somfy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_somfy-1.1.0.tar.gz tmp/python_somfy-1.1.1.tar.gz --markdown 20240501/p/python-somfy/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-05-01 06:57:41] INFO root fetch - processPackages [python-somfy]: Remove: archive file [/home/abi/fetcher/tmp/python_somfy-1.1.0.tar.gz]
+[2024-05-01 06:57:41] INFO root fetch - processPackages [python-somfy]: Remove: archive file [/home/abi/fetcher/tmp/python_somfy-1.1.1.tar.gz]
+[2024-05-01 06:57:41] INFO root fetch - main [MainThread]: End processing [python-somfy]: success
+[2024-05-01 06:57:41] INFO root fetch - main [MainThread]: Store serial: [23012423]
