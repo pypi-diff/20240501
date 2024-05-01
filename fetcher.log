@@ -13297,3 +13297,27 @@
 [2024-05-01 10:45:17] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip]
 [2024-05-01 10:45:17] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
 [2024-05-01 10:45:17] INFO root fetch - main [MainThread]: Store serial: [23014283]
+[2024-05-01 10:47:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23014283]
+[2024-05-01 10:47:26] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-01 10:47:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pfc-geometry
+[2024-05-01 10:47:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kellyai
+[2024-05-01 10:47:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tf-nightly-cpu
+[2024-05-01 10:47:27] INFO root fetch - processPackages [pfc-geometry]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-05-01 10:47:27] WARNING root fetch - processPackages [kellyai]: Skipping, unable to determine old version
+[2024-05-01 10:47:27] INFO root fetch - main [MainThread]: End processing [kellyai] error
+[2024-05-01 10:47:27] INFO root fetch - processPackages [tf-nightly-cpu]: New version: [2.17.0.dev20240501] Old Version: [2.17.0.dev20240430]
+[2024-05-01 10:47:27] INFO root fetch - processPackages [pfc-geometry]: Downloading https://files.pythonhosted.org/packages/a4/34/e951748356a2d0cbc2b9b47ab0e4b4a343b2ffd21bc128c4f80270147f00/pfc_geometry-0.2.4.tar.gz
+[2024-05-01 10:47:27] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/56/4a/840fd4be238b7d531de5b9494c62a7a20d885839aaa79ccc7c3db78591e9/tf_nightly_cpu-2.17.0.dev20240430-cp39-cp39-win_amd64.whl
+[2024-05-01 10:47:27] INFO root fetch - processPackages [pfc-geometry]: Downloading https://files.pythonhosted.org/packages/fb/05/fbdd787641d25c1f5dfcfb09ba727683db6f2d2fad808627f8ddcd63fc70/pfc_geometry-0.2.5.tar.gz
+[2024-05-01 10:47:27] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/d9/74/0c676e5a6438c476fbccc673625999ea716be26266bd4ce0fab26bcdc816/tf_nightly_cpu-2.17.0.dev20240501-cp312-cp312-win_amd64.whl
+[2024-05-01 10:47:27] INFO root fetch - processPackages [pfc-geometry]: executing diffoscope
+[2024-05-01 10:47:27] INFO root fetch - processPackages [pfc-geometry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pfc_geometry-0.2.4.tar.gz tmp/pfc_geometry-0.2.5.tar.gz --markdown 20240501/p/pfc-geometry/0.2.4-0.2.5/README.md --exclude *.pyd
+[2024-05-01 10:47:28] INFO root fetch - processPackages [tf-nightly-cpu]: executing diffoscope
+[2024-05-01 10:47:28] INFO root fetch - processPackages [tf-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly_cpu-2.17.0.dev20240430-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly_cpu-2.17.0.dev20240501-cp312-cp312-win_amd64.whl.zip --markdown 20240501/t/tf-nightly-cpu/2.17.0.dev20240430-2.17.0.dev20240501/README.md --exclude *.pyd
+[2024-05-01 10:47:28] INFO root fetch - processPackages [pfc-geometry]: Remove: archive file [/home/abi/fetcher/tmp/pfc_geometry-0.2.4.tar.gz]
+[2024-05-01 10:47:28] INFO root fetch - processPackages [pfc-geometry]: Remove: archive file [/home/abi/fetcher/tmp/pfc_geometry-0.2.5.tar.gz]
+[2024-05-01 10:47:28] INFO root fetch - main [MainThread]: End processing [pfc-geometry]: success
+[2024-05-01 10:47:28] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.17.0.dev20240430-cp39-cp39-win_amd64.whl.zip]
+[2024-05-01 10:47:28] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.17.0.dev20240501-cp312-cp312-win_amd64.whl.zip]
+[2024-05-01 10:47:28] INFO root fetch - main [MainThread]: End processing [tf-nightly-cpu]: success
+[2024-05-01 10:47:28] INFO root fetch - main [MainThread]: Store serial: [23014293]
