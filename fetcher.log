@@ -19428,3 +19428,175 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-01 14:16:25] INFO root fetch - processPackages [cdk8s-plus-29]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-29-2.3.1.tar.gz]
 [2024-05-01 14:16:25] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-29]: success
 [2024-05-01 14:16:25] INFO root fetch - main [MainThread]: Store serial: [23016649]
+[2024-05-01 14:18:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23016649]
+[2024-05-01 14:18:34] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2024-05-01 14:18:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk8s-plus-29
+[2024-05-01 14:18:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-onelogin
+[2024-05-01 14:18:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: list-of-us-universities-with-state-code
+[2024-05-01 14:18:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: trytond-account-rule
+[2024-05-01 14:18:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-mysql
+[2024-05-01 14:18:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: trytond-account-receivable-rule
+[2024-05-01 14:18:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyrotgfork
+[2024-05-01 14:18:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: projectZ
+[2024-05-01 14:18:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fizzbuzz-draw
+[2024-05-01 14:18:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: segmentation-models-3D
+[2024-05-01 14:18:35] INFO root fetch - processPackages [cdk8s-plus-29]: New version: [2.3.1] Old Version: [2.3.0]
+[2024-05-01 14:18:35] INFO root fetch - processPackages [fizzbuzz-draw]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-05-01 14:18:35] INFO root fetch - processPackages [pulumi-onelogin]: New version: [0.7.0a1714543317] Old Version: [0.7.0a1714537431]
+[2024-05-01 14:18:35] INFO root fetch - processPackages [pyrotgfork]: New version: [2.1.27] Old Version: [2.1.26]
+[2024-05-01 14:18:35] INFO root fetch - processPackages [pulumi-mysql]: New version: [3.3.0a1714542688] Old Version: [3.3.0a1714537460]
+[2024-05-01 14:18:35] INFO root fetch - processPackages [cdk8s-plus-29]: Downloading https://files.pythonhosted.org/packages/ed/6e/e2178df1d8c2830f46c078d58b654b1e9d1be927bdc370437b076afcd448/cdk8s-plus-29-2.3.0.tar.gz
+[2024-05-01 14:18:35] WARNING root fetch - processPackages [list-of-us-universities-with-state-code]: Skipping, unable to determine old version
+[2024-05-01 14:18:35] INFO root fetch - processPackages [list-of-us-universities-with-state-code]: Start processing: pulumi-null
+[2024-05-01 14:18:35] INFO root fetch - main [MainThread]: End processing [list-of-us-universities-with-state-code] error
+[2024-05-01 14:18:35] INFO root fetch - processPackages [trytond-account-receivable-rule]: New version: [7.2.1] Old Version: [7.2.0]
+[2024-05-01 14:18:35] INFO root fetch - processPackages [trytond-account-rule]: New version: [7.2.1] Old Version: [7.2.0]
+[2024-05-01 14:18:35] INFO root fetch - processPackages [segmentation-models-3D]: New version: [1.1.0] Old Version: [1.0.7]
+[2024-05-01 14:18:35] INFO root fetch - processPackages [projectZ]: New version: [1.1.7.2.1] Old Version: [1.1.7.2]
+[2024-05-01 14:18:35] INFO root fetch - processPackages [fizzbuzz-draw]: Downloading https://files.pythonhosted.org/packages/6c/64/e1bd32d03c733f6ae7e16d084f3b65d89490e9b1f2e9ef4be67e2063908a/fizzbuzz_draw-1.0.3.tar.gz
+[2024-05-01 14:18:35] INFO root fetch - processPackages [pulumi-onelogin]: Downloading https://files.pythonhosted.org/packages/8d/35/5a54b56fbbb07efb3b77f6240ffed2a9a5b919befd85f9092d1173043d48/pulumi_onelogin-0.7.0a1714537431.tar.gz
+[2024-05-01 14:18:35] INFO root fetch - processPackages [pulumi-null]: New version: [0.1.0a1714542983] Old Version: [0.1.0a1714456711]
+[2024-05-01 14:18:35] INFO root fetch - processPackages [pulumi-mysql]: Downloading https://files.pythonhosted.org/packages/fb/8b/d137e4b75ea19a5adb91f804d7f0a828cabd6eb731614f96173a36403ae0/pulumi_mysql-3.3.0a1714537460.tar.gz
+[2024-05-01 14:18:35] INFO root fetch - processPackages [pyrotgfork]: Downloading https://files.pythonhosted.org/packages/f6/f2/bf6349e6b9604cd9aa464d1e7fab5ceae06f39dd9d170b2489ad65389992/pyrotgfork-2.1.26.tar.gz
+[2024-05-01 14:18:35] INFO root fetch - processPackages [pulumi-null]: Downloading https://files.pythonhosted.org/packages/66/80/7451d87123c2eff747d355f6161832f8f0a5f6c3981b1cae916b1349cbcc/pulumi_null-0.1.0a1714456711.tar.gz
+[2024-05-01 14:18:35] INFO root fetch - processPackages [trytond-account-receivable-rule]: Downloading https://files.pythonhosted.org/packages/7e/ae/fa3f49c1c3a638604ae0cffea42788d3ab3b5596c37f2d767998cb7be782/trytond_account_receivable_rule-7.2.0.tar.gz
+[2024-05-01 14:18:35] INFO root fetch - processPackages [trytond-account-rule]: Downloading https://files.pythonhosted.org/packages/b9/20/95c9e14e39bfdca2d78930ff487a668ba2f5afe33744b3a9a34fbb618a77/trytond_account_rule-7.2.0.tar.gz
+[2024-05-01 14:18:35] INFO root fetch - processPackages [projectZ]: Downloading https://files.pythonhosted.org/packages/3f/ab/c75932b31846779790d3ffeb64660e38cc07ee4af32f6c7283e5538be332/projectZ-1.1.7.2.tar.gz
+[2024-05-01 14:18:35] INFO root fetch - processPackages [segmentation-models-3D]: Downloading https://files.pythonhosted.org/packages/85/02/4ab6c92a562dba7c01795d1cf12da3e3d5cec27c83c338644f7c89ecb34b/segmentation_models_3D-1.0.7.tar.gz
+[2024-05-01 14:18:35] INFO root fetch - processPackages [pulumi-null]: Downloading https://files.pythonhosted.org/packages/ba/e0/ba0dfd510a9872dc669864562727de7577c1aaf202a8be7ea9fb99f7fd06/pulumi_null-0.1.0a1714542983.tar.gz
+[2024-05-01 14:18:35] INFO root fetch - processPackages [pyrotgfork]: Downloading https://files.pythonhosted.org/packages/b6/fe/ffb623b63fb5f5d5e26bbb9fa755aa2ca22846492f3f15881bf24f264ab2/pyrotgfork-2.1.27.tar.gz
+[2024-05-01 14:18:35] INFO root fetch - processPackages [cdk8s-plus-29]: Downloading https://files.pythonhosted.org/packages/04/48/ed26b51bcc0082331534b26eada1a51b0b8976c457fa2d1bcb6c003c4680/cdk8s-plus-29-2.3.1.tar.gz
+[2024-05-01 14:18:35] INFO root fetch - processPackages [fizzbuzz-draw]: Downloading https://files.pythonhosted.org/packages/0e/d6/7da7cbdc942805a0fe7b2d2814dd3ae9ed02483fb7d7c381fb4491995e84/fizzbuzz_draw-1.0.4.tar.gz
+[2024-05-01 14:18:35] INFO root fetch - processPackages [pulumi-mysql]: Downloading https://files.pythonhosted.org/packages/a2/1c/2e726f0a12f98515267ff8193885e0896b7dea89e39d44774dad36e9f300/pulumi_mysql-3.3.0a1714542688.tar.gz
+[2024-05-01 14:18:35] INFO root fetch - processPackages [pulumi-onelogin]: Downloading https://files.pythonhosted.org/packages/74/31/f79e6785f1a0e9a1f569784dd6741ac21e7fddbb6db73d0afd74725a30f3/pulumi_onelogin-0.7.0a1714543317.tar.gz
+[2024-05-01 14:18:35] INFO root fetch - processPackages [pulumi-null]: executing diffoscope
+[2024-05-01 14:18:35] INFO root fetch - processPackages [pulumi-null]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_null-0.1.0a1714456711.tar.gz tmp/pulumi_null-0.1.0a1714542983.tar.gz --markdown 20240501/p/pulumi-null/0.1.0a1714456711-0.1.0a1714542983/README.md --exclude *.pyd
+[2024-05-01 14:18:35] INFO root fetch - processPackages [trytond-account-receivable-rule]: Downloading https://files.pythonhosted.org/packages/df/7c/2020f9276d3c2bd304df8beb2a5819a6823567e464f782687d44286d367f/trytond_account_receivable_rule-7.2.1.tar.gz
+[2024-05-01 14:18:35] INFO root fetch - processPackages [projectZ]: Downloading https://files.pythonhosted.org/packages/d7/32/45212fd10a6edd55e1e658a17145913799d6324f2c38dcb8d72077d70f59/projectZ-1.1.7.2.1.tar.gz
+[2024-05-01 14:18:35] INFO root fetch - processPackages [pulumi-mysql]: executing diffoscope
+[2024-05-01 14:18:35] INFO root fetch - processPackages [pulumi-mysql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_mysql-3.3.0a1714537460.tar.gz tmp/pulumi_mysql-3.3.0a1714542688.tar.gz --markdown 20240501/p/pulumi-mysql/3.3.0a1714537460-3.3.0a1714542688/README.md --exclude *.pyd
+[2024-05-01 14:18:35] INFO root fetch - processPackages [pyrotgfork]: executing diffoscope
+[2024-05-01 14:18:35] INFO root fetch - processPackages [pyrotgfork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrotgfork-2.1.26.tar.gz tmp/pyrotgfork-2.1.27.tar.gz --markdown 20240501/p/pyrotgfork/2.1.26-2.1.27/README.md --exclude *.pyd
+[2024-05-01 14:18:35] INFO root fetch - processPackages [fizzbuzz-draw]: executing diffoscope
+[2024-05-01 14:18:35] INFO root fetch - processPackages [fizzbuzz-draw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fizzbuzz_draw-1.0.3.tar.gz tmp/fizzbuzz_draw-1.0.4.tar.gz --markdown 20240501/f/fizzbuzz-draw/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-05-01 14:18:35] INFO root fetch - processPackages [segmentation-models-3D]: Downloading https://files.pythonhosted.org/packages/52/11/e9e35922e46d17253da9e0141e243daf6d21ebd2618bba0d690dab492f08/segmentation_models_3D-1.1.0.tar.gz
+[2024-05-01 14:18:35] INFO root fetch - processPackages [trytond-account-rule]: Downloading https://files.pythonhosted.org/packages/10/b2/c3636e580c4cbbac8402145e867f0b45c5fa13264940e7b5dfbd580a47e1/trytond_account_rule-7.2.1.tar.gz
+[2024-05-01 14:18:35] INFO root fetch - processPackages [pulumi-onelogin]: executing diffoscope
+[2024-05-01 14:18:35] INFO root fetch - processPackages [pulumi-onelogin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_onelogin-0.7.0a1714537431.tar.gz tmp/pulumi_onelogin-0.7.0a1714543317.tar.gz --markdown 20240501/p/pulumi-onelogin/0.7.0a1714537431-0.7.0a1714543317/README.md --exclude *.pyd
+[2024-05-01 14:18:35] INFO root fetch - processPackages [trytond-account-receivable-rule]: executing diffoscope
+[2024-05-01 14:18:35] INFO root fetch - processPackages [trytond-account-receivable-rule]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_account_receivable_rule-7.2.0.tar.gz tmp/trytond_account_receivable_rule-7.2.1.tar.gz --markdown 20240501/t/trytond-account-receivable-rule/7.2.0-7.2.1/README.md --exclude *.pyd
+[2024-05-01 14:18:35] INFO root fetch - processPackages [cdk8s-plus-29]: executing diffoscope
+[2024-05-01 14:18:35] INFO root fetch - processPackages [cdk8s-plus-29]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-29-2.3.0.tar.gz tmp/cdk8s-plus-29-2.3.1.tar.gz --markdown 20240501/c/cdk8s-plus-29/2.3.0-2.3.1/README.md --exclude *.pyd
+[2024-05-01 14:18:36] INFO root fetch - processPackages [projectZ]: executing diffoscope
+[2024-05-01 14:18:36] INFO root fetch - processPackages [projectZ]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/projectZ-1.1.7.2.tar.gz tmp/projectZ-1.1.7.2.1.tar.gz --markdown 20240501/p/projectZ/1.1.7.2-1.1.7.2.1/README.md --exclude *.pyd
+[2024-05-01 14:18:36] INFO root fetch - processPackages [trytond-account-rule]: executing diffoscope
+[2024-05-01 14:18:36] INFO root fetch - processPackages [trytond-account-rule]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_account_rule-7.2.0.tar.gz tmp/trytond_account_rule-7.2.1.tar.gz --markdown 20240501/t/trytond-account-rule/7.2.0-7.2.1/README.md --exclude *.pyd
+[2024-05-01 14:18:36] INFO root fetch - processPackages [segmentation-models-3D]: executing diffoscope
+[2024-05-01 14:18:36] INFO root fetch - processPackages [segmentation-models-3D]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/segmentation_models_3D-1.0.7.tar.gz tmp/segmentation_models_3D-1.1.0.tar.gz --markdown 20240501/s/segmentation-models-3D/1.0.7-1.1.0/README.md --exclude *.pyd
+[2024-05-01 14:18:36] INFO root fetch - processPackages [fizzbuzz-draw]: Remove: archive file [/home/abi/fetcher/tmp/fizzbuzz_draw-1.0.3.tar.gz]
+[2024-05-01 14:18:36] INFO root fetch - processPackages [fizzbuzz-draw]: Remove: archive file [/home/abi/fetcher/tmp/fizzbuzz_draw-1.0.4.tar.gz]
+[2024-05-01 14:18:36] INFO root fetch - processPackages [fizzbuzz-draw]: Start processing: trytond-account-receivable-rule
+[2024-05-01 14:18:36] INFO root fetch - main [MainThread]: End processing [fizzbuzz-draw]: success
+[2024-05-01 14:18:36] INFO root fetch - processPackages [trytond-account-receivable-rule]: New version: [7.2.1] Old Version: [7.2.0]
+[2024-05-01 14:18:36] INFO root fetch - processPackages [pulumi-null]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_null-0.1.0a1714456711.tar.gz]
+[2024-05-01 14:18:36] INFO root fetch - processPackages [pulumi-null]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_null-0.1.0a1714542983.tar.gz]
+[2024-05-01 14:18:36] INFO root fetch - processPackages [pulumi-null]: Start processing: python-matter-server
+[2024-05-01 14:18:36] INFO root fetch - main [MainThread]: End processing [pulumi-null]: success
+[2024-05-01 14:18:36] INFO root fetch - processPackages [projectZ]: Remove: archive file [/home/abi/fetcher/tmp/projectZ-1.1.7.2.tar.gz]
+[2024-05-01 14:18:36] INFO root fetch - processPackages [projectZ]: Remove: archive file [/home/abi/fetcher/tmp/projectZ-1.1.7.2.1.tar.gz]
+[2024-05-01 14:18:36] INFO root fetch - processPackages [projectZ]: Start processing: NODE-deconvolution
+[2024-05-01 14:18:36] INFO root fetch - main [MainThread]: End processing [projectZ]: success
+[2024-05-01 14:18:36] INFO root fetch - processPackages [pulumi-mysql]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_mysql-3.3.0a1714537460.tar.gz]
+[2024-05-01 14:18:36] INFO root fetch - processPackages [pulumi-mysql]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_mysql-3.3.0a1714542688.tar.gz]
+[2024-05-01 14:18:36] INFO root fetch - processPackages [pulumi-mysql]: Start processing: trytond-account-receivable-rule
+[2024-05-01 14:18:36] INFO root fetch - main [MainThread]: End processing [pulumi-mysql]: success
+[2024-05-01 14:18:36] INFO root fetch - processPackages [trytond-account-receivable-rule]: New version: [7.2.1] Old Version: [7.2.0]
+[2024-05-01 14:18:37] INFO root fetch - processPackages [trytond-account-rule]: Remove: archive file [/home/abi/fetcher/tmp/trytond_account_rule-7.2.0.tar.gz]
+[2024-05-01 14:18:37] INFO root fetch - processPackages [trytond-account-rule]: Remove: archive file [/home/abi/fetcher/tmp/trytond_account_rule-7.2.1.tar.gz]
+[2024-05-01 14:18:37] INFO root fetch - processPackages [trytond-account-rule]: Start processing: pulumi-mongodbatlas
+[2024-05-01 14:18:37] INFO root fetch - main [MainThread]: End processing [trytond-account-rule]: success
+[2024-05-01 14:18:37] WARNING root fetch - processPackages [NODE-deconvolution]: Skipping, unable to determine old version
+[2024-05-01 14:18:37] INFO root fetch - processPackages [NODE-deconvolution]: Start processing: torch-model-manager
+[2024-05-01 14:18:37] INFO root fetch - main [MainThread]: End processing [NODE-deconvolution] error
+[2024-05-01 14:18:37] INFO root fetch - processPackages [trytond-account-receivable-rule]: Remove: archive file [/home/abi/fetcher/tmp/trytond_account_receivable_rule-7.2.0.tar.gz]
+[2024-05-01 14:18:37] INFO root fetch - processPackages [python-matter-server]: New version: [5.9.0b0] Old Version: [5.9.0]
+[2024-05-01 14:18:37] INFO root fetch - processPackages [trytond-account-receivable-rule]: Remove: archive file [/home/abi/fetcher/tmp/trytond_account_receivable_rule-7.2.1.tar.gz]
+[2024-05-01 14:18:37] INFO root fetch - processPackages [trytond-account-receivable-rule]: Start processing: SparkleLogging
+[2024-05-01 14:18:37] INFO root fetch - main [MainThread]: End processing [trytond-account-receivable-rule]: success
+[2024-05-01 14:18:37] INFO root fetch - processPackages [trytond-account-receivable-rule]: Downloading https://files.pythonhosted.org/packages/7e/ae/fa3f49c1c3a638604ae0cffea42788d3ab3b5596c37f2d767998cb7be782/trytond_account_receivable_rule-7.2.0.tar.gz
+[2024-05-01 14:18:37] INFO root fetch - processPackages [trytond-account-receivable-rule]: Downloading https://files.pythonhosted.org/packages/df/7c/2020f9276d3c2bd304df8beb2a5819a6823567e464f782687d44286d367f/trytond_account_receivable_rule-7.2.1.tar.gz
+[2024-05-01 14:18:37] INFO root fetch - processPackages [torch-model-manager]: New version: [0.1.0.dev3] Old Version: [0.1.0.dev2]
+[2024-05-01 14:18:37] INFO root fetch - processPackages [pulumi-mongodbatlas]: New version: [3.9.2] Old Version: [3.9.1]
+[2024-05-01 14:18:37] INFO root fetch - processPackages [SparkleLogging]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-01 14:18:37] INFO root fetch - processPackages [segmentation-models-3D]: Remove: archive file [/home/abi/fetcher/tmp/segmentation_models_3D-1.0.7.tar.gz]
+[2024-05-01 14:18:37] INFO root fetch - processPackages [segmentation-models-3D]: Remove: archive file [/home/abi/fetcher/tmp/segmentation_models_3D-1.1.0.tar.gz]
+[2024-05-01 14:18:37] INFO root fetch - processPackages [segmentation-models-3D]: Start processing: FrustrationDynamiX
+[2024-05-01 14:18:37] INFO root fetch - main [MainThread]: End processing [segmentation-models-3D]: success
+[2024-05-01 14:18:37] INFO root fetch - processPackages [cdk8s-plus-29]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-29-2.3.0.tar.gz]
+[2024-05-01 14:18:37] INFO root fetch - processPackages [cdk8s-plus-29]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-29-2.3.1.tar.gz]
+[2024-05-01 14:18:37] INFO root fetch - processPackages [cdk8s-plus-29]: Start processing: trytond-account-product
+[2024-05-01 14:18:37] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-29]: success
+[2024-05-01 14:18:37] INFO root fetch - processPackages [FrustrationDynamiX]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-01 14:18:37] INFO root fetch - processPackages [torch-model-manager]: Downloading https://files.pythonhosted.org/packages/09/0b/136291052421289c5cf709ca99e1173c8b72f21983e3e7e9931be92944af/torch_model_manager-0.1.0.dev2.tar.gz
+[2024-05-01 14:18:37] INFO root fetch - processPackages [trytond-account-receivable-rule]: executing diffoscope
+[2024-05-01 14:18:37] INFO root fetch - processPackages [trytond-account-receivable-rule]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_account_receivable_rule-7.2.0.tar.gz tmp/trytond_account_receivable_rule-7.2.1.tar.gz --markdown 20240501/t/trytond-account-receivable-rule/7.2.0-7.2.1/README.md --exclude *.pyd
+[2024-05-01 14:18:37] INFO root fetch - processPackages [FrustrationDynamiX]: Downloading https://files.pythonhosted.org/packages/55/b6/499651b47c11d7de8dc5616890857d463e4f4eb32e008a76c51ea09b50b5/FrustrationDynamiX-0.2.8.tar.gz
+[2024-05-01 14:18:37] INFO root fetch - processPackages [python-matter-server]: Downloading https://files.pythonhosted.org/packages/c5/4a/c31aa10c85c0e80b1d1542d983d23d0b9b3ea952965dc6761407ab7419e5/python-matter-server-5.9.0.tar.gz
+[2024-05-01 14:18:37] INFO root fetch - processPackages [trytond-account-product]: New version: [7.2.0] Old Version: [7.0.1]
+[2024-05-01 14:18:37] INFO root fetch - processPackages [pulumi-onelogin]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_onelogin-0.7.0a1714537431.tar.gz]
+[2024-05-01 14:18:37] INFO root fetch - processPackages [pulumi-onelogin]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_onelogin-0.7.0a1714543317.tar.gz]
+[2024-05-01 14:18:37] INFO root fetch - processPackages [pulumi-onelogin]: Start processing: certora-cli-alpha-master
+[2024-05-01 14:18:37] INFO root fetch - main [MainThread]: End processing [pulumi-onelogin]: success
+[2024-05-01 14:18:37] INFO root fetch - processPackages [trytond-account-receivable-rule]: executing diffoscope
+[2024-05-01 14:18:37] INFO root fetch - processPackages [trytond-account-receivable-rule]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_account_receivable_rule-7.2.0.tar.gz tmp/trytond_account_receivable_rule-7.2.1.tar.gz --markdown 20240501/t/trytond-account-receivable-rule/7.2.0-7.2.1/README.md --exclude *.pyd
+[2024-05-01 14:18:37] INFO root fetch - processPackages [SparkleLogging]: Downloading https://files.pythonhosted.org/packages/a7/94/3d6ff961fd76f47ab25e5ac3719a58f5c3e12777138a7debe1e65c6ec3eb/SparkleLogging-1.0.0.tar.gz
+[2024-05-01 14:18:37] INFO root fetch - processPackages [pulumi-mongodbatlas]: Downloading https://files.pythonhosted.org/packages/b8/b0/a8befc40e2b2c024faff2656c4570b4580a7c4b647e6d7f825d56d861b4d/pulumi_mongodbatlas-3.9.1.tar.gz
+[2024-05-01 14:18:37] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20240501.9.55.192458] Old Version: [20240501.8.15.777844]
+[2024-05-01 14:18:37] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/02/38/0e310b19f2817341b466ae224ab4c972709225d70137f4f1e760741e404f/certora-cli-alpha-master-20240501.8.15.777844.tar.gz
+[2024-05-01 14:18:37] INFO root fetch - processPackages [trytond-account-product]: Downloading https://files.pythonhosted.org/packages/6d/2e/aea8ef771b183f1baae3c9500eccccdb2f5009712fea5fa9647a6f16f0b9/trytond_account_product-7.0.1.tar.gz
+[2024-05-01 14:18:37] INFO root fetch - processPackages [FrustrationDynamiX]: Downloading https://files.pythonhosted.org/packages/66/84/b61ca7ea9d52feb720a789ac51d172a0bd90f71a81ac53608022cbe149a5/FrustrationDynamiX-0.2.9.tar.gz
+[2024-05-01 14:18:37] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 14536598>=10485760
+[2024-05-01 14:18:37] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2024-05-01 14:18:37] INFO root fetch - processPackages [torch-model-manager]: Downloading https://files.pythonhosted.org/packages/e5/c9/ce2c417f8bf9c4cf65f240e0000ad0ada024bd4cdded13579b87560d0839/torch_model_manager-0.1.0.dev3.tar.gz
+[2024-05-01 14:18:37] INFO root fetch - processPackages [FrustrationDynamiX]: executing diffoscope
+[2024-05-01 14:18:37] INFO root fetch - processPackages [FrustrationDynamiX]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FrustrationDynamiX-0.2.8.tar.gz tmp/FrustrationDynamiX-0.2.9.tar.gz --markdown 20240501/F/FrustrationDynamiX/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-01 14:18:37] INFO root fetch - processPackages [pulumi-mongodbatlas]: Downloading https://files.pythonhosted.org/packages/0b/f7/b68fff12e66ad24a69216aac73a3afff2830a71e879426010edff57e057a/pulumi_mongodbatlas-3.9.2.tar.gz
+[2024-05-01 14:18:37] INFO root fetch - processPackages [torch-model-manager]: executing diffoscope
+[2024-05-01 14:18:37] INFO root fetch - processPackages [torch-model-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_model_manager-0.1.0.dev2.tar.gz tmp/torch_model_manager-0.1.0.dev3.tar.gz --markdown 20240501/t/torch-model-manager/0.1.0.dev2-0.1.0.dev3/README.md --exclude *.pyd
+[2024-05-01 14:18:37] INFO root fetch - processPackages [python-matter-server]: Downloading https://files.pythonhosted.org/packages/07/09/7de9e381bb33288bc06c94dd599151ed35303726deb69962eea1d306b819/python-matter-server-5.9.0b0.tar.gz
+[2024-05-01 14:18:37] INFO root fetch - processPackages [SparkleLogging]: Downloading https://files.pythonhosted.org/packages/d0/a1/0d3d21736aed51e31cbc0b58f912a81928ae3cf12688e040f5647a559285/SparkleLogging-1.0.1.tar.gz
+[2024-05-01 14:18:37] INFO root fetch - processPackages [pulumi-mongodbatlas]: executing diffoscope
+[2024-05-01 14:18:37] INFO root fetch - processPackages [pulumi-mongodbatlas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_mongodbatlas-3.9.1.tar.gz tmp/pulumi_mongodbatlas-3.9.2.tar.gz --markdown 20240501/p/pulumi-mongodbatlas/3.9.1-3.9.2/README.md --exclude *.pyd
+[2024-05-01 14:18:37] INFO root fetch - processPackages [python-matter-server]: executing diffoscope
+[2024-05-01 14:18:37] INFO root fetch - processPackages [python-matter-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-matter-server-5.9.0.tar.gz tmp/python-matter-server-5.9.0b0.tar.gz --markdown 20240501/p/python-matter-server/5.9.0-5.9.0b0/README.md --exclude *.pyd
+[2024-05-01 14:18:37] INFO root fetch - processPackages [SparkleLogging]: executing diffoscope
+[2024-05-01 14:18:37] INFO root fetch - processPackages [trytond-account-product]: Downloading https://files.pythonhosted.org/packages/3c/62/a3fd7d35d5da448e3b35e77d711c70b539106c17b43d0675076a4bbfd0f8/trytond_account_product-7.2.0.tar.gz
+[2024-05-01 14:18:37] INFO root fetch - processPackages [SparkleLogging]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SparkleLogging-1.0.0.tar.gz tmp/SparkleLogging-1.0.1.tar.gz --markdown 20240501/S/SparkleLogging/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-01 14:18:38] INFO root fetch - processPackages [trytond-account-product]: executing diffoscope
+[2024-05-01 14:18:38] INFO root fetch - processPackages [trytond-account-product]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_account_product-7.0.1.tar.gz tmp/trytond_account_product-7.2.0.tar.gz --markdown 20240501/t/trytond-account-product/7.0.1-7.2.0/README.md --exclude *.pyd
+[2024-05-01 14:18:38] INFO root fetch - processPackages [trytond-account-receivable-rule]: Remove: archive file [/home/abi/fetcher/tmp/trytond_account_receivable_rule-7.2.0.tar.gz]
+[2024-05-01 14:18:38] INFO root fetch - processPackages [trytond-account-receivable-rule]: Remove: archive file [/home/abi/fetcher/tmp/trytond_account_receivable_rule-7.2.1.tar.gz]
+[2024-05-01 14:18:38] INFO root fetch - main [MainThread]: End processing [trytond-account-receivable-rule]: success
+[2024-05-01 14:18:38] INFO root fetch - main [MainThread]: End processing [trytond-account-receivable-rule]: success
+[2024-05-01 14:18:38] INFO root fetch - processPackages [FrustrationDynamiX]: Remove: archive file [/home/abi/fetcher/tmp/FrustrationDynamiX-0.2.8.tar.gz]
+[2024-05-01 14:18:38] INFO root fetch - processPackages [FrustrationDynamiX]: Remove: archive file [/home/abi/fetcher/tmp/FrustrationDynamiX-0.2.9.tar.gz]
+[2024-05-01 14:18:38] INFO root fetch - main [MainThread]: End processing [FrustrationDynamiX]: success
+[2024-05-01 14:18:38] INFO root fetch - processPackages [torch-model-manager]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_manager-0.1.0.dev2.tar.gz]
+[2024-05-01 14:18:38] INFO root fetch - processPackages [torch-model-manager]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_manager-0.1.0.dev3.tar.gz]
+[2024-05-01 14:18:38] INFO root fetch - main [MainThread]: End processing [torch-model-manager]: success
+[2024-05-01 14:18:38] INFO root fetch - processPackages [SparkleLogging]: Remove: archive file [/home/abi/fetcher/tmp/SparkleLogging-1.0.0.tar.gz]
+[2024-05-01 14:18:38] INFO root fetch - processPackages [SparkleLogging]: Remove: archive file [/home/abi/fetcher/tmp/SparkleLogging-1.0.1.tar.gz]
+[2024-05-01 14:18:38] INFO root fetch - main [MainThread]: End processing [SparkleLogging]: success
+[2024-05-01 14:18:38] INFO root fetch - processPackages [pyrotgfork]: Remove: archive file [/home/abi/fetcher/tmp/pyrotgfork-2.1.26.tar.gz]
+[2024-05-01 14:18:38] INFO root fetch - processPackages [pyrotgfork]: Remove: archive file [/home/abi/fetcher/tmp/pyrotgfork-2.1.27.tar.gz]
+[2024-05-01 14:18:38] INFO root fetch - main [MainThread]: End processing [pyrotgfork]: success
+[2024-05-01 14:18:39] INFO root fetch - processPackages [trytond-account-product]: Remove: archive file [/home/abi/fetcher/tmp/trytond_account_product-7.0.1.tar.gz]
+[2024-05-01 14:18:39] INFO root fetch - processPackages [trytond-account-product]: Remove: archive file [/home/abi/fetcher/tmp/trytond_account_product-7.2.0.tar.gz]
+[2024-05-01 14:18:39] INFO root fetch - main [MainThread]: End processing [trytond-account-product]: success
+[2024-05-01 14:18:39] INFO root fetch - processPackages [python-matter-server]: Remove: archive file [/home/abi/fetcher/tmp/python-matter-server-5.9.0.tar.gz]
+[2024-05-01 14:18:39] INFO root fetch - processPackages [python-matter-server]: Remove: archive file [/home/abi/fetcher/tmp/python-matter-server-5.9.0b0.tar.gz]
+[2024-05-01 14:18:39] INFO root fetch - main [MainThread]: End processing [python-matter-server]: success
+[2024-05-01 14:18:40] INFO root fetch - processPackages [pulumi-mongodbatlas]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_mongodbatlas-3.9.1.tar.gz]
+[2024-05-01 14:18:40] INFO root fetch - processPackages [pulumi-mongodbatlas]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_mongodbatlas-3.9.2.tar.gz]
+[2024-05-01 14:18:40] INFO root fetch - main [MainThread]: End processing [pulumi-mongodbatlas]: success
+[2024-05-01 14:18:40] INFO root fetch - main [MainThread]: Store serial: [23016711]
