@@ -17435,3 +17435,54 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-01 13:42:56] INFO root fetch - processPackages [Paste]: Remove: archive file [/home/abi/fetcher/tmp/Paste-3.9.0.tar.gz]
 [2024-05-01 13:42:56] INFO root fetch - main [MainThread]: End processing [Paste]: success
 [2024-05-01 13:42:56] INFO root fetch - main [MainThread]: Store serial: [23015953]
+[2024-05-01 13:45:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23015953]
+[2024-05-01 13:45:05] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-01 13:45:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: torchserve-nightly
+[2024-05-01 13:45:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: torch-model-archiver-nightly
+[2024-05-01 13:45:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: torch-workflow-archiver-nightly
+[2024-05-01 13:45:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: trytond-project-revenue
+[2024-05-01 13:45:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-dnsimple
+[2024-05-01 13:45:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: trytond-project-revenue
+[2024-05-01 13:45:05] INFO root fetch - processPackages [trytond-project-revenue]: New version: [7.2.0] Old Version: [7.0.1]
+[2024-05-01 13:45:05] INFO root fetch - processPackages [trytond-project-revenue]: New version: [7.2.0] Old Version: [7.0.1]
+[2024-05-01 13:45:05] INFO root fetch - processPackages [pulumi-dnsimple]: New version: [3.5.0a1714541299] Old Version: [3.5.0a1714454942]
+[2024-05-01 13:45:05] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: New version: [2024.5.1] Old Version: [2024.4.8]
+[2024-05-01 13:45:05] INFO root fetch - processPackages [torchserve-nightly]: New version: [2024.5.1] Old Version: [2024.4.8]
+[2024-05-01 13:45:05] INFO root fetch - processPackages [trytond-project-revenue]: Downloading https://files.pythonhosted.org/packages/c6/43/9246c5f8d9b6ef85da0427dd7de384dd02966a993e4bcc389db054da8605/trytond_project_revenue-7.0.1.tar.gz
+[2024-05-01 13:45:05] INFO root fetch - processPackages [pulumi-dnsimple]: Downloading https://files.pythonhosted.org/packages/11/f3/db2f68a7ee044b29a6850132d9e8e63b70e741661121e0d19427c43aa926/pulumi_dnsimple-3.5.0a1714454942.tar.gz
+[2024-05-01 13:45:05] INFO root fetch - processPackages [torch-model-archiver-nightly]: New version: [2024.5.1] Old Version: [2024.4.8]
+[2024-05-01 13:45:05] INFO root fetch - processPackages [trytond-project-revenue]: Downloading https://files.pythonhosted.org/packages/c6/43/9246c5f8d9b6ef85da0427dd7de384dd02966a993e4bcc389db054da8605/trytond_project_revenue-7.0.1.tar.gz
+[2024-05-01 13:45:05] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/d5/55/6c71d544e2fef7c773e7b994940d2019c84fd5eaa8f6db64fa9983595110/torch_workflow_archiver_nightly-2024.4.8-py3-none-any.whl
+[2024-05-01 13:45:06] INFO root fetch - processPackages [torchserve-nightly]: Downloading https://files.pythonhosted.org/packages/e8/ff/0ce380de2664199f9abdd89b526c40dd309e7ed1c3b6cbe5560dc0cd6a80/torchserve_nightly-2024.4.8-py3-none-any.whl
+[2024-05-01 13:45:06] INFO root fetch - processPackages [torch-model-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/46/e6/cfb9b8e2b84779c413931c88816ff46e987f3bf841f1fb714e6b662e8296/torch_model_archiver_nightly-2024.4.8-py3-none-any.whl
+[2024-05-01 13:45:06] INFO root fetch - processPackages [trytond-project-revenue]: Downloading https://files.pythonhosted.org/packages/f2/12/292df71580034258c7d80ea8b6a57df540b880ca2e667d8f55e1a764ae75/trytond_project_revenue-7.2.0.tar.gz
+[2024-05-01 13:45:06] INFO root fetch - processPackages [trytond-project-revenue]: Downloading https://files.pythonhosted.org/packages/f2/12/292df71580034258c7d80ea8b6a57df540b880ca2e667d8f55e1a764ae75/trytond_project_revenue-7.2.0.tar.gz
+[2024-05-01 13:45:06] INFO root fetch - processPackages [pulumi-dnsimple]: Downloading https://files.pythonhosted.org/packages/a6/67/3d0a4a444f2f15562e2b7a947b76872cd1e6493f3351136c259c044cfd90/pulumi_dnsimple-3.5.0a1714541299.tar.gz
+[2024-05-01 13:45:06] WARNING root fetch - processPackages [torchserve-nightly]: Skipping package: exceeds size limit 24332374>=10485760
+[2024-05-01 13:45:06] INFO root fetch - main [MainThread]: End processing [torchserve-nightly] error
+[2024-05-01 13:45:06] INFO root fetch - processPackages [trytond-project-revenue]: executing diffoscope
+[2024-05-01 13:45:06] INFO root fetch - processPackages [trytond-project-revenue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_project_revenue-7.0.1.tar.gz tmp/trytond_project_revenue-7.2.0.tar.gz --markdown 20240501/t/trytond-project-revenue/7.0.1-7.2.0/README.md --exclude *.pyd
+[2024-05-01 13:45:06] INFO root fetch - processPackages [trytond-project-revenue]: executing diffoscope
+[2024-05-01 13:45:06] INFO root fetch - processPackages [trytond-project-revenue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_project_revenue-7.0.1.tar.gz tmp/trytond_project_revenue-7.2.0.tar.gz --markdown 20240501/t/trytond-project-revenue/7.0.1-7.2.0/README.md --exclude *.pyd
+[2024-05-01 13:45:06] INFO root fetch - processPackages [pulumi-dnsimple]: executing diffoscope
+[2024-05-01 13:45:06] INFO root fetch - processPackages [pulumi-dnsimple]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_dnsimple-3.5.0a1714454942.tar.gz tmp/pulumi_dnsimple-3.5.0a1714541299.tar.gz --markdown 20240501/p/pulumi-dnsimple/3.5.0a1714454942-3.5.0a1714541299/README.md --exclude *.pyd
+[2024-05-01 13:45:06] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/3e/07/23107402b7d0b53097552df46e172ea75e7348565ba33207130ea1b2c204/torch_workflow_archiver_nightly-2024.5.1-py3-none-any.whl
+[2024-05-01 13:45:06] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: executing diffoscope
+[2024-05-01 13:45:06] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_workflow_archiver_nightly-2024.4.8-py3-none-any.whl.zip tmp/torch_workflow_archiver_nightly-2024.5.1-py3-none-any.whl.zip --markdown 20240501/t/torch-workflow-archiver-nightly/2024.4.8-2024.5.1/README.md --exclude *.pyd
+[2024-05-01 13:45:06] INFO root fetch - processPackages [torch-model-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/67/92/056453f58e94323bf84707de48d232f038341f6fbd0b57b0ed28af228efc/torch_model_archiver_nightly-2024.5.1-py3-none-any.whl
+[2024-05-01 13:45:06] INFO root fetch - processPackages [torch-model-archiver-nightly]: executing diffoscope
+[2024-05-01 13:45:06] INFO root fetch - processPackages [torch-model-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_model_archiver_nightly-2024.4.8-py3-none-any.whl.zip tmp/torch_model_archiver_nightly-2024.5.1-py3-none-any.whl.zip --markdown 20240501/t/torch-model-archiver-nightly/2024.4.8-2024.5.1/README.md --exclude *.pyd
+[2024-05-01 13:45:06] INFO root fetch - processPackages [pulumi-dnsimple]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_dnsimple-3.5.0a1714454942.tar.gz]
+[2024-05-01 13:45:06] INFO root fetch - processPackages [pulumi-dnsimple]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_dnsimple-3.5.0a1714541299.tar.gz]
+[2024-05-01 13:45:06] INFO root fetch - main [MainThread]: End processing [pulumi-dnsimple]: success
+[2024-05-01 13:45:06] INFO root fetch - processPackages [trytond-project-revenue]: Remove: archive file [/home/abi/fetcher/tmp/trytond_project_revenue-7.0.1.tar.gz]
+[2024-05-01 13:45:06] INFO root fetch - processPackages [trytond-project-revenue]: Remove: archive file [/home/abi/fetcher/tmp/trytond_project_revenue-7.2.0.tar.gz]
+[2024-05-01 13:45:06] INFO root fetch - main [MainThread]: End processing [trytond-project-revenue]: success
+[2024-05-01 13:45:07] INFO root fetch - main [MainThread]: End processing [trytond-project-revenue]: success
+[2024-05-01 13:45:07] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_workflow_archiver_nightly-2024.4.8-py3-none-any.whl.zip]
+[2024-05-01 13:45:07] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_workflow_archiver_nightly-2024.5.1-py3-none-any.whl.zip]
+[2024-05-01 13:45:07] INFO root fetch - main [MainThread]: End processing [torch-workflow-archiver-nightly]: success
+[2024-05-01 13:45:07] INFO root fetch - processPackages [torch-model-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_archiver_nightly-2024.4.8-py3-none-any.whl.zip]
+[2024-05-01 13:45:07] INFO root fetch - processPackages [torch-model-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_archiver_nightly-2024.5.1-py3-none-any.whl.zip]
+[2024-05-01 13:45:07] INFO root fetch - main [MainThread]: End processing [torch-model-archiver-nightly]: success
+[2024-05-01 13:45:07] INFO root fetch - main [MainThread]: Store serial: [23015968]
