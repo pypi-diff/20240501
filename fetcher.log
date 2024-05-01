@@ -20695,3 +20695,45 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-01 14:58:52] INFO root fetch - processPackages [naas-models]: Remove: archive file [/home/abi/fetcher/tmp/naas_models-1.9.0.tar.gz]
 [2024-05-01 14:58:52] INFO root fetch - main [MainThread]: End processing [naas-models]: success
 [2024-05-01 14:58:52] INFO root fetch - main [MainThread]: Store serial: [23017145]
+[2024-05-01 15:00:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23017145]
+[2024-05-01 15:01:01] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-01 15:01:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: barm
+[2024-05-01 15:01:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: torch-model-manager
+[2024-05-01 15:01:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cybrid-api-bank-python
+[2024-05-01 15:01:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cybrid-api-organization-python
+[2024-05-01 15:01:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cybrid-api-id-python
+[2024-05-01 15:01:01] INFO root fetch - processPackages [torch-model-manager]: New version: [0.1.0.dev5] Old Version: [0.1.0.dev4]
+[2024-05-01 15:01:01] INFO root fetch - processPackages [cybrid-api-organization-python]: New version: [0.99.0] Old Version: [0.98.2]
+[2024-05-01 15:01:01] INFO root fetch - processPackages [cybrid-api-bank-python]: New version: [0.99.0] Old Version: [0.98.2]
+[2024-05-01 15:01:01] INFO root fetch - processPackages [cybrid-api-id-python]: New version: [0.99.0] Old Version: [0.98.2]
+[2024-05-01 15:01:01] WARNING root fetch - processPackages [barm]: Skipping, unable to determine old version
+[2024-05-01 15:01:01] INFO root fetch - main [MainThread]: End processing [barm] error
+[2024-05-01 15:01:01] INFO root fetch - processPackages [torch-model-manager]: Downloading https://files.pythonhosted.org/packages/29/f5/0d6d516af9e122ceb4e53ccc8988e6e609e1b25a3a840368b4c930c94f90/torch_model_manager-0.1.0.dev4.tar.gz
+[2024-05-01 15:01:01] INFO root fetch - processPackages [cybrid-api-bank-python]: Downloading https://files.pythonhosted.org/packages/da/dd/e8ea2fc7e8f671e18adae35333d00fdc692f7637860f9e361fba5fe3b85a/cybrid-api-bank-python-0.98.2.tar.gz
+[2024-05-01 15:01:01] INFO root fetch - processPackages [cybrid-api-organization-python]: Downloading https://files.pythonhosted.org/packages/75/d9/17a583a2d5fccaef7210a11d9f7dc963aab51cd4a5ae5f7983c03291f4bc/cybrid-api-organization-python-0.98.2.tar.gz
+[2024-05-01 15:01:01] INFO root fetch - processPackages [cybrid-api-id-python]: Downloading https://files.pythonhosted.org/packages/2d/66/0d5dc17801b737dd53e021a1548eb784ef8520799bdffbae60e088bf723c/cybrid-api-id-python-0.98.2.tar.gz
+[2024-05-01 15:01:02] INFO root fetch - processPackages [cybrid-api-organization-python]: Downloading https://files.pythonhosted.org/packages/93/ab/a857018ac26aeaa884608066dbe6bd482e17a4edf88533d3335a3ed2a25c/cybrid-api-organization-python-0.99.0.tar.gz
+[2024-05-01 15:01:02] INFO root fetch - processPackages [torch-model-manager]: Downloading https://files.pythonhosted.org/packages/78/8d/43aea3b9ca5bb9f2e1d574943e5a92d4d57effe80c6cdf81353ce568ffd2/torch_model_manager-0.1.0.dev5.tar.gz
+[2024-05-01 15:01:02] INFO root fetch - processPackages [cybrid-api-organization-python]: executing diffoscope
+[2024-05-01 15:01:02] INFO root fetch - processPackages [cybrid-api-organization-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-organization-python-0.98.2.tar.gz tmp/cybrid-api-organization-python-0.99.0.tar.gz --markdown 20240501/c/cybrid-api-organization-python/0.98.2-0.99.0/README.md --exclude *.pyd
+[2024-05-01 15:01:02] INFO root fetch - processPackages [cybrid-api-id-python]: Downloading https://files.pythonhosted.org/packages/de/07/de389a95ca98f482f653401dbe8342cf8d4930d1efee86d1f28f3c1afcd1/cybrid-api-id-python-0.99.0.tar.gz
+[2024-05-01 15:01:02] INFO root fetch - processPackages [torch-model-manager]: executing diffoscope
+[2024-05-01 15:01:02] INFO root fetch - processPackages [torch-model-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_model_manager-0.1.0.dev4.tar.gz tmp/torch_model_manager-0.1.0.dev5.tar.gz --markdown 20240501/t/torch-model-manager/0.1.0.dev4-0.1.0.dev5/README.md --exclude *.pyd
+[2024-05-01 15:01:02] INFO root fetch - processPackages [cybrid-api-bank-python]: Downloading https://files.pythonhosted.org/packages/a1/e6/1c6a95191a8826ea0636949d5bfdb7d34a65b1f81b3cb27e1863a88a1552/cybrid-api-bank-python-0.99.0.tar.gz
+[2024-05-01 15:01:02] INFO root fetch - processPackages [cybrid-api-id-python]: executing diffoscope
+[2024-05-01 15:01:02] INFO root fetch - processPackages [cybrid-api-id-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-id-python-0.98.2.tar.gz tmp/cybrid-api-id-python-0.99.0.tar.gz --markdown 20240501/c/cybrid-api-id-python/0.98.2-0.99.0/README.md --exclude *.pyd
+[2024-05-01 15:01:02] INFO root fetch - processPackages [cybrid-api-bank-python]: executing diffoscope
+[2024-05-01 15:01:02] INFO root fetch - processPackages [cybrid-api-bank-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-bank-python-0.98.2.tar.gz tmp/cybrid-api-bank-python-0.99.0.tar.gz --markdown 20240501/c/cybrid-api-bank-python/0.98.2-0.99.0/README.md --exclude *.pyd
+[2024-05-01 15:01:02] INFO root fetch - processPackages [torch-model-manager]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_manager-0.1.0.dev4.tar.gz]
+[2024-05-01 15:01:02] INFO root fetch - processPackages [torch-model-manager]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_manager-0.1.0.dev5.tar.gz]
+[2024-05-01 15:01:02] INFO root fetch - main [MainThread]: End processing [torch-model-manager]: success
+[2024-05-01 15:01:02] INFO root fetch - processPackages [cybrid-api-organization-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-organization-python-0.98.2.tar.gz]
+[2024-05-01 15:01:02] INFO root fetch - processPackages [cybrid-api-organization-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-organization-python-0.99.0.tar.gz]
+[2024-05-01 15:01:02] INFO root fetch - main [MainThread]: End processing [cybrid-api-organization-python]: success
+[2024-05-01 15:01:03] INFO root fetch - processPackages [cybrid-api-id-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-id-python-0.98.2.tar.gz]
+[2024-05-01 15:01:03] INFO root fetch - processPackages [cybrid-api-id-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-id-python-0.99.0.tar.gz]
+[2024-05-01 15:01:03] INFO root fetch - main [MainThread]: End processing [cybrid-api-id-python]: success
+[2024-05-01 15:01:04] INFO root fetch - processPackages [cybrid-api-bank-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-bank-python-0.98.2.tar.gz]
+[2024-05-01 15:01:04] INFO root fetch - processPackages [cybrid-api-bank-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-bank-python-0.99.0.tar.gz]
+[2024-05-01 15:01:04] INFO root fetch - main [MainThread]: End processing [cybrid-api-bank-python]: success
+[2024-05-01 15:01:04] INFO root fetch - main [MainThread]: Store serial: [23017163]
