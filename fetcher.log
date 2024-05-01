@@ -17369,3 +17369,69 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-01 13:40:45] INFO root fetch - main [MainThread]: End processing [trytond-purchase]: success
 [2024-05-01 13:40:45] INFO root fetch - main [MainThread]: End processing [trytond-purchase]: success
 [2024-05-01 13:40:45] INFO root fetch - main [MainThread]: Store serial: [23015931]
+[2024-05-01 13:42:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23015931]
+[2024-05-01 13:42:54] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-01 13:42:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-aiven
+[2024-05-01 13:42:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Paste
+[2024-05-01 13:42:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: trytond-purchase
+[2024-05-01 13:42:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: htagui
+[2024-05-01 13:42:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: roarquery
+[2024-05-01 13:42:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi-consul
+[2024-05-01 13:42:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: trytond-project-revenue
+[2024-05-01 13:42:54] INFO root fetch - processPackages [trytond-purchase]: New version: [7.2.1] Old Version: [7.2.0]
+[2024-05-01 13:42:54] INFO root fetch - processPackages [pulumi-consul]: New version: [3.9.0a1687670569] Old Version: [3.9.0a1687054376]
+[2024-05-01 13:42:54] INFO root fetch - processPackages [pulumi-aiven]: New version: [6.9.0a1704274395] Old Version: [6.9.0a1704258951]
+[2024-05-01 13:42:54] INFO root fetch - processPackages [htagui]: New version: [0.5.6] Old Version: [0.5.5]
+[2024-05-01 13:42:54] INFO root fetch - processPackages [roarquery]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-05-01 13:42:54] INFO root fetch - processPackages [Paste]: New version: [3.9.0] Old Version: [3.8.0]
+[2024-05-01 13:42:54] INFO root fetch - processPackages [trytond-project-revenue]: New version: [7.2.0] Old Version: [7.0.1]
+[2024-05-01 13:42:54] INFO root fetch - processPackages [trytond-purchase]: Downloading https://files.pythonhosted.org/packages/1f/5b/181b7eb0cf06176bbccb6714c8d9ddd8fd6ac81458170991248c47c97083/trytond_purchase-7.2.0.tar.gz
+[2024-05-01 13:42:54] INFO root fetch - processPackages [pulumi-consul]: Downloading https://files.pythonhosted.org/packages/b2/0b/a9aea9bd557425d918ea238feabf49fb698d827f1dfeaf4613d70eae31a2/pulumi_consul-3.9.0a1687054376.tar.gz
+[2024-05-01 13:42:54] INFO root fetch - processPackages [pulumi-aiven]: Downloading https://files.pythonhosted.org/packages/89/fb/adacc179c277b4328f00f1483cac3f1c2227c33318802c8f88e0ee8e93c3/pulumi_aiven-6.9.0a1704258951.tar.gz
+[2024-05-01 13:42:54] INFO root fetch - processPackages [Paste]: Downloading https://files.pythonhosted.org/packages/21/24/5a44defe742dafb0b9fa524e93618383089e18f3dda77fdb34ae320d6b4e/Paste-3.8.0.tar.gz
+[2024-05-01 13:42:54] INFO root fetch - processPackages [htagui]: Downloading https://files.pythonhosted.org/packages/0e/19/01dbef52a85aa8fc7816c1e8e08276b0c1092eab92b1475abbbdab832a26/htagui-0.5.5.tar.gz
+[2024-05-01 13:42:54] INFO root fetch - processPackages [roarquery]: Downloading https://files.pythonhosted.org/packages/a2/55/460d9e3dacf7384473393427994c886b4f2650893fcf0c00e0c29c60cbdc/roarquery-1.0.4.tar.gz
+[2024-05-01 13:42:54] INFO root fetch - processPackages [trytond-project-revenue]: Downloading https://files.pythonhosted.org/packages/c6/43/9246c5f8d9b6ef85da0427dd7de384dd02966a993e4bcc389db054da8605/trytond_project_revenue-7.0.1.tar.gz
+[2024-05-01 13:42:54] INFO root fetch - processPackages [pulumi-consul]: Downloading https://files.pythonhosted.org/packages/aa/10/eaf50f0d8ecb4103cac140429d33cf0fbed0a84ade857f6a5d9e9dda5e71/pulumi_consul-3.9.0a1687670569.tar.gz
+[2024-05-01 13:42:54] INFO root fetch - processPackages [trytond-purchase]: Downloading https://files.pythonhosted.org/packages/63/dd/0ea89019d35e2933bafb5058a2b19063e359602b4490504be1d201ee3760/trytond_purchase-7.2.1.tar.gz
+[2024-05-01 13:42:54] INFO root fetch - processPackages [pulumi-aiven]: Downloading https://files.pythonhosted.org/packages/58/4d/df63cee14469cb3bb5ff7e2a4af56d19adf0cd17ce9192b84188dc240736/pulumi_aiven-6.9.0a1704274395.tar.gz
+[2024-05-01 13:42:55] INFO root fetch - processPackages [pulumi-consul]: executing diffoscope
+[2024-05-01 13:42:55] INFO root fetch - processPackages [pulumi-consul]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_consul-3.9.0a1687054376.tar.gz tmp/pulumi_consul-3.9.0a1687670569.tar.gz --markdown 20240501/p/pulumi-consul/3.9.0a1687054376-3.9.0a1687670569/README.md --exclude *.pyd
+[2024-05-01 13:42:55] INFO root fetch - processPackages [trytond-purchase]: executing diffoscope
+[2024-05-01 13:42:55] INFO root fetch - processPackages [trytond-purchase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_purchase-7.2.0.tar.gz tmp/trytond_purchase-7.2.1.tar.gz --markdown 20240501/t/trytond-purchase/7.2.0-7.2.1/README.md --exclude *.pyd
+[2024-05-01 13:42:55] INFO root fetch - processPackages [pulumi-aiven]: executing diffoscope
+[2024-05-01 13:42:55] INFO root fetch - processPackages [pulumi-aiven]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_aiven-6.9.0a1704258951.tar.gz tmp/pulumi_aiven-6.9.0a1704274395.tar.gz --markdown 20240501/p/pulumi-aiven/6.9.0a1704258951-6.9.0a1704274395/README.md --exclude *.pyd
+[2024-05-01 13:42:55] INFO root fetch - processPackages [htagui]: Downloading https://files.pythonhosted.org/packages/95/99/fcd34bafbe112c5e8d763dc8eddc47c54db36a14e3288cd4c4517f5c70ba/htagui-0.5.6.tar.gz
+[2024-05-01 13:42:55] INFO root fetch - processPackages [Paste]: Downloading https://files.pythonhosted.org/packages/cb/33/848062ecafb4e9182dde490230f9902c6fc385dafe0ff790d06930489532/Paste-3.9.0.tar.gz
+[2024-05-01 13:42:55] INFO root fetch - processPackages [roarquery]: Downloading https://files.pythonhosted.org/packages/7a/bd/c5317072815d2d63e48c7cf6a3105874663e872a181ae5caab4630a663d9/roarquery-1.0.5.tar.gz
+[2024-05-01 13:42:55] INFO root fetch - processPackages [htagui]: executing diffoscope
+[2024-05-01 13:42:55] INFO root fetch - processPackages [htagui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/htagui-0.5.5.tar.gz tmp/htagui-0.5.6.tar.gz --markdown 20240501/h/htagui/0.5.5-0.5.6/README.md --exclude *.pyd
+[2024-05-01 13:42:55] INFO root fetch - processPackages [trytond-project-revenue]: Downloading https://files.pythonhosted.org/packages/f2/12/292df71580034258c7d80ea8b6a57df540b880ca2e667d8f55e1a764ae75/trytond_project_revenue-7.2.0.tar.gz
+[2024-05-01 13:42:55] INFO root fetch - processPackages [Paste]: executing diffoscope
+[2024-05-01 13:42:55] INFO root fetch - processPackages [Paste]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Paste-3.8.0.tar.gz tmp/Paste-3.9.0.tar.gz --markdown 20240501/P/Paste/3.8.0-3.9.0/README.md --exclude *.pyd
+[2024-05-01 13:42:55] INFO root fetch - processPackages [roarquery]: executing diffoscope
+[2024-05-01 13:42:55] INFO root fetch - processPackages [roarquery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roarquery-1.0.4.tar.gz tmp/roarquery-1.0.5.tar.gz --markdown 20240501/r/roarquery/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-05-01 13:42:55] INFO root fetch - processPackages [trytond-project-revenue]: executing diffoscope
+[2024-05-01 13:42:55] INFO root fetch - processPackages [trytond-project-revenue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_project_revenue-7.0.1.tar.gz tmp/trytond_project_revenue-7.2.0.tar.gz --markdown 20240501/t/trytond-project-revenue/7.0.1-7.2.0/README.md --exclude *.pyd
+[2024-05-01 13:42:56] INFO root fetch - processPackages [pulumi-consul]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_consul-3.9.0a1687054376.tar.gz]
+[2024-05-01 13:42:56] INFO root fetch - processPackages [pulumi-consul]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_consul-3.9.0a1687670569.tar.gz]
+[2024-05-01 13:42:56] INFO root fetch - main [MainThread]: End processing [pulumi-consul]: success
+[2024-05-01 13:42:56] INFO root fetch - processPackages [roarquery]: Remove: archive file [/home/abi/fetcher/tmp/roarquery-1.0.4.tar.gz]
+[2024-05-01 13:42:56] INFO root fetch - processPackages [roarquery]: Remove: archive file [/home/abi/fetcher/tmp/roarquery-1.0.5.tar.gz]
+[2024-05-01 13:42:56] INFO root fetch - main [MainThread]: End processing [roarquery]: success
+[2024-05-01 13:42:56] INFO root fetch - processPackages [trytond-project-revenue]: Remove: archive file [/home/abi/fetcher/tmp/trytond_project_revenue-7.0.1.tar.gz]
+[2024-05-01 13:42:56] INFO root fetch - processPackages [trytond-project-revenue]: Remove: archive file [/home/abi/fetcher/tmp/trytond_project_revenue-7.2.0.tar.gz]
+[2024-05-01 13:42:56] INFO root fetch - main [MainThread]: End processing [trytond-project-revenue]: success
+[2024-05-01 13:42:56] INFO root fetch - processPackages [htagui]: Remove: archive file [/home/abi/fetcher/tmp/htagui-0.5.5.tar.gz]
+[2024-05-01 13:42:56] INFO root fetch - processPackages [htagui]: Remove: archive file [/home/abi/fetcher/tmp/htagui-0.5.6.tar.gz]
+[2024-05-01 13:42:56] INFO root fetch - main [MainThread]: End processing [htagui]: success
+[2024-05-01 13:42:56] INFO root fetch - processPackages [pulumi-aiven]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aiven-6.9.0a1704258951.tar.gz]
+[2024-05-01 13:42:56] INFO root fetch - processPackages [pulumi-aiven]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aiven-6.9.0a1704274395.tar.gz]
+[2024-05-01 13:42:56] INFO root fetch - main [MainThread]: End processing [pulumi-aiven]: success
+[2024-05-01 13:42:56] INFO root fetch - processPackages [trytond-purchase]: Remove: archive file [/home/abi/fetcher/tmp/trytond_purchase-7.2.0.tar.gz]
+[2024-05-01 13:42:56] INFO root fetch - processPackages [trytond-purchase]: Remove: archive file [/home/abi/fetcher/tmp/trytond_purchase-7.2.1.tar.gz]
+[2024-05-01 13:42:56] INFO root fetch - main [MainThread]: End processing [trytond-purchase]: success
+[2024-05-01 13:42:56] INFO root fetch - processPackages [Paste]: Remove: archive file [/home/abi/fetcher/tmp/Paste-3.8.0.tar.gz]
+[2024-05-01 13:42:56] INFO root fetch - processPackages [Paste]: Remove: archive file [/home/abi/fetcher/tmp/Paste-3.9.0.tar.gz]
+[2024-05-01 13:42:56] INFO root fetch - main [MainThread]: End processing [Paste]: success
+[2024-05-01 13:42:56] INFO root fetch - main [MainThread]: Store serial: [23015953]
