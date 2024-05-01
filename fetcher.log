@@ -14897,3 +14897,71 @@
 [2024-05-01 12:04:45] INFO root fetch - processPackages [trytond-stock-lot]: Remove: archive file [/home/abi/fetcher/tmp/trytond_stock_lot-7.2.1-py3-none-any.whl.zip]
 [2024-05-01 12:04:45] INFO root fetch - main [MainThread]: End processing [trytond-stock-lot]: success
 [2024-05-01 12:04:45] INFO root fetch - main [MainThread]: Store serial: [23014981]
+[2024-05-01 12:06:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23014981]
+[2024-05-01 12:06:54] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-01 12:06:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: trytond-stock-lot
+[2024-05-01 12:06:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: etm-dgraham
+[2024-05-01 12:06:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: trytond-stock-forecast
+[2024-05-01 12:06:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ctganenn
+[2024-05-01 12:06:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fastapi-problem
+[2024-05-01 12:06:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: trytond-stock
+[2024-05-01 12:06:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: trytond-stock
+[2024-05-01 12:06:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: trytond-stock
+[2024-05-01 12:06:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dve-lumipy-testing
+[2024-05-01 12:06:54] INFO root fetch - processPackages [trytond-stock-lot]: New version: [7.2.1] Old Version: [7.2.0]
+[2024-05-01 12:06:54] WARNING root fetch - processPackages [ctganenn]: Skipping, unable to determine old version
+[2024-05-01 12:06:54] INFO root fetch - main [MainThread]: End processing [ctganenn] error
+[2024-05-01 12:06:54] INFO root fetch - processPackages [dve-lumipy-testing]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-01 12:06:54] INFO root fetch - processPackages [trytond-stock-lot]: Downloading https://files.pythonhosted.org/packages/51/59/db52e0e656b8b70200f8b2fa9746ba3241cc0642a2e317e34d9822eb7a21/trytond_stock_lot-7.2.0.tar.gz
+[2024-05-01 12:06:54] WARNING root fetch - processPackages [fastapi-problem]: Skipping, unable to determine old version
+[2024-05-01 12:06:54] INFO root fetch - main [MainThread]: End processing [fastapi-problem] error
+[2024-05-01 12:06:54] INFO root fetch - processPackages [trytond-stock]: New version: [7.2.1] Old Version: [7.2.0]
+[2024-05-01 12:06:54] INFO root fetch - processPackages [trytond-stock]: New version: [7.2.1] Old Version: [7.2.0]
+[2024-05-01 12:06:54] INFO root fetch - processPackages [trytond-stock]: New version: [7.2.1] Old Version: [7.2.0]
+[2024-05-01 12:06:54] INFO root fetch - processPackages [dve-lumipy-testing]: Downloading https://files.pythonhosted.org/packages/2f/35/aa91d923787edb9bf5bcbfa8461c60465a9e55f7513c06e4f16d5221c3c3/dve_lumipy_testing-1.0.8-py3-none-any.whl
+[2024-05-01 12:06:54] INFO root fetch - processPackages [trytond-stock-forecast]: New version: [7.2.1] Old Version: [7.2.0]
+[2024-05-01 12:06:55] INFO root fetch - processPackages [etm-dgraham]: New version: [6.1.9] Old Version: [6.1.8]
+[2024-05-01 12:06:55] INFO root fetch - processPackages [trytond-stock-forecast]: Downloading https://files.pythonhosted.org/packages/03/7e/173f8de6339eb6a89bb38194d1cba67bb77ccaf5fae08060a57bcb90f3cf/trytond_stock_forecast-7.2.0.tar.gz
+[2024-05-01 12:06:55] INFO root fetch - processPackages [trytond-stock-lot]: Downloading https://files.pythonhosted.org/packages/2c/35/a0f71b8b413e496e801ac09e41bb9c00ace99f5760199b2cdf44dd570ce3/trytond_stock_lot-7.2.1-py3-none-any.whl
+[2024-05-01 12:06:55] INFO root fetch - processPackages [dve-lumipy-testing]: Downloading https://files.pythonhosted.org/packages/1e/7c/e37b3c84846734e2feb285aa04bd1d2381e9cd7415aeb1a75f2cfd40fd79/dve_lumipy_testing-1.0.9-py3-none-any.whl
+[2024-05-01 12:06:55] INFO root fetch - processPackages [etm-dgraham]: Downloading https://files.pythonhosted.org/packages/ec/17/0e748df245b314530d0c4a448f7637d8f01b8bfcaf3445681e43dc256c8b/etm-dgraham-6.1.8.tar.gz
+[2024-05-01 12:06:55] INFO root fetch - processPackages [trytond-stock]: Downloading https://files.pythonhosted.org/packages/8c/35/a0d1a8e2edcb3f87751e2b2625a37caa6a47e512183ad08a63d26ffe30d6/trytond_stock-7.2.0.tar.gz
+[2024-05-01 12:06:55] INFO root fetch - processPackages [trytond-stock]: Downloading https://files.pythonhosted.org/packages/8c/35/a0d1a8e2edcb3f87751e2b2625a37caa6a47e512183ad08a63d26ffe30d6/trytond_stock-7.2.0.tar.gz
+[2024-05-01 12:06:55] INFO root fetch - processPackages [trytond-stock-lot]: executing diffoscope
+[2024-05-01 12:06:55] INFO root fetch - processPackages [trytond-stock-lot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_stock_lot-7.2.0.tar.gz tmp/trytond_stock_lot-7.2.1-py3-none-any.whl.zip --markdown 20240501/t/trytond-stock-lot/7.2.0-7.2.1/README.md --exclude *.pyd
+[2024-05-01 12:06:55] INFO root fetch - processPackages [trytond-stock]: Downloading https://files.pythonhosted.org/packages/8c/35/a0d1a8e2edcb3f87751e2b2625a37caa6a47e512183ad08a63d26ffe30d6/trytond_stock-7.2.0.tar.gz
+[2024-05-01 12:06:55] INFO root fetch - processPackages [trytond-stock-forecast]: Downloading https://files.pythonhosted.org/packages/9b/6f/d93ce1587c5a443b9df38ef0b42b7a54a6b1a47d24949b2a64ae8ff43715/trytond_stock_forecast-7.2.1.tar.gz
+[2024-05-01 12:06:55] INFO root fetch - processPackages [dve-lumipy-testing]: executing diffoscope
+[2024-05-01 12:06:55] INFO root fetch - processPackages [dve-lumipy-testing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dve_lumipy_testing-1.0.8-py3-none-any.whl.zip tmp/dve_lumipy_testing-1.0.9-py3-none-any.whl.zip --markdown 20240501/d/dve-lumipy-testing/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-01 12:06:55] INFO root fetch - processPackages [trytond-stock-forecast]: executing diffoscope
+[2024-05-01 12:06:55] INFO root fetch - processPackages [trytond-stock-forecast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_stock_forecast-7.2.0.tar.gz tmp/trytond_stock_forecast-7.2.1.tar.gz --markdown 20240501/t/trytond-stock-forecast/7.2.0-7.2.1/README.md --exclude *.pyd
+[2024-05-01 12:06:55] INFO root fetch - processPackages [etm-dgraham]: Downloading https://files.pythonhosted.org/packages/c0/35/35ec59f655a6c82f49b3aa4340c5444b7f5eeae9e8087a0313988a8a89ae/etm-dgraham-6.1.9.tar.gz
+[2024-05-01 12:06:55] INFO root fetch - processPackages [trytond-stock]: Downloading https://files.pythonhosted.org/packages/43/b8/710bb21876742af1625f69f9e807b0ea4ee1fced7c5ff0ab0e4137274878/trytond_stock-7.2.1.tar.gz
+[2024-05-01 12:06:55] INFO root fetch - processPackages [trytond-stock]: Downloading https://files.pythonhosted.org/packages/43/b8/710bb21876742af1625f69f9e807b0ea4ee1fced7c5ff0ab0e4137274878/trytond_stock-7.2.1.tar.gz
+[2024-05-01 12:06:55] INFO root fetch - processPackages [trytond-stock]: Downloading https://files.pythonhosted.org/packages/43/b8/710bb21876742af1625f69f9e807b0ea4ee1fced7c5ff0ab0e4137274878/trytond_stock-7.2.1.tar.gz
+[2024-05-01 12:06:55] INFO root fetch - processPackages [etm-dgraham]: executing diffoscope
+[2024-05-01 12:06:55] INFO root fetch - processPackages [etm-dgraham]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/etm-dgraham-6.1.8.tar.gz tmp/etm-dgraham-6.1.9.tar.gz --markdown 20240501/e/etm-dgraham/6.1.8-6.1.9/README.md --exclude *.pyd
+[2024-05-01 12:06:55] INFO root fetch - processPackages [trytond-stock-lot]: Remove: archive file [/home/abi/fetcher/tmp/trytond_stock_lot-7.2.0.tar.gz]
+[2024-05-01 12:06:55] INFO root fetch - processPackages [trytond-stock-lot]: Remove: archive file [/home/abi/fetcher/tmp/trytond_stock_lot-7.2.1-py3-none-any.whl.zip]
+[2024-05-01 12:06:55] INFO root fetch - main [MainThread]: End processing [trytond-stock-lot]: success
+[2024-05-01 12:06:55] INFO root fetch - processPackages [trytond-stock]: executing diffoscope
+[2024-05-01 12:06:55] INFO root fetch - processPackages [trytond-stock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_stock-7.2.0.tar.gz tmp/trytond_stock-7.2.1.tar.gz --markdown 20240501/t/trytond-stock/7.2.0-7.2.1/README.md --exclude *.pyd
+[2024-05-01 12:06:55] INFO root fetch - processPackages [trytond-stock]: executing diffoscope
+[2024-05-01 12:06:55] INFO root fetch - processPackages [trytond-stock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_stock-7.2.0.tar.gz tmp/trytond_stock-7.2.1.tar.gz --markdown 20240501/t/trytond-stock/7.2.0-7.2.1/README.md --exclude *.pyd
+[2024-05-01 12:06:55] INFO root fetch - processPackages [trytond-stock]: executing diffoscope
+[2024-05-01 12:06:55] INFO root fetch - processPackages [trytond-stock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_stock-7.2.0.tar.gz tmp/trytond_stock-7.2.1.tar.gz --markdown 20240501/t/trytond-stock/7.2.0-7.2.1/README.md --exclude *.pyd
+[2024-05-01 12:06:56] INFO root fetch - processPackages [trytond-stock-forecast]: Remove: archive file [/home/abi/fetcher/tmp/trytond_stock_forecast-7.2.0.tar.gz]
+[2024-05-01 12:06:56] INFO root fetch - processPackages [trytond-stock-forecast]: Remove: archive file [/home/abi/fetcher/tmp/trytond_stock_forecast-7.2.1.tar.gz]
+[2024-05-01 12:06:56] INFO root fetch - main [MainThread]: End processing [trytond-stock-forecast]: success
+[2024-05-01 12:06:56] INFO root fetch - processPackages [etm-dgraham]: Remove: archive file [/home/abi/fetcher/tmp/etm-dgraham-6.1.8.tar.gz]
+[2024-05-01 12:06:56] INFO root fetch - processPackages [etm-dgraham]: Remove: archive file [/home/abi/fetcher/tmp/etm-dgraham-6.1.9.tar.gz]
+[2024-05-01 12:06:56] INFO root fetch - main [MainThread]: End processing [etm-dgraham]: success
+[2024-05-01 12:06:56] INFO root fetch - processPackages [dve-lumipy-testing]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_testing-1.0.8-py3-none-any.whl.zip]
+[2024-05-01 12:06:56] INFO root fetch - processPackages [dve-lumipy-testing]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_testing-1.0.9-py3-none-any.whl.zip]
+[2024-05-01 12:06:56] INFO root fetch - main [MainThread]: End processing [dve-lumipy-testing]: success
+[2024-05-01 12:06:58] INFO root fetch - processPackages [trytond-stock]: Remove: archive file [/home/abi/fetcher/tmp/trytond_stock-7.2.0.tar.gz]
+[2024-05-01 12:06:58] INFO root fetch - processPackages [trytond-stock]: Remove: archive file [/home/abi/fetcher/tmp/trytond_stock-7.2.1.tar.gz]
+[2024-05-01 12:06:58] INFO root fetch - main [MainThread]: End processing [trytond-stock]: success
+[2024-05-01 12:06:58] INFO root fetch - main [MainThread]: End processing [trytond-stock]: success
+[2024-05-01 12:06:58] INFO root fetch - main [MainThread]: End processing [trytond-stock]: success
+[2024-05-01 12:06:58] INFO root fetch - main [MainThread]: Store serial: [23015008]
