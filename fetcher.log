@@ -21176,3 +21176,65 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-01 15:21:51] INFO root fetch - processPackages [pulumi-gcp]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_gcp-7.9.0a1707934510.tar.gz]
 [2024-05-01 15:21:51] INFO root fetch - main [MainThread]: End processing [pulumi-gcp]: success
 [2024-05-01 15:21:51] INFO root fetch - main [MainThread]: Store serial: [23017373]
+[2024-05-01 15:23:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23017373]
+[2024-05-01 15:24:00] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-01 15:24:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lazy-type-hint
+[2024-05-01 15:24:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: su6
+[2024-05-01 15:24:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aquacrop
+[2024-05-01 15:24:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qBitrr2
+[2024-05-01 15:24:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mosamaticdesktop
+[2024-05-01 15:24:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: myf-face-recognition
+[2024-05-01 15:24:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lifeomic-patient-ml-types
+[2024-05-01 15:24:01] INFO root fetch - processPackages [myf-face-recognition]: New version: [0.9] Old Version: [0.8]
+[2024-05-01 15:24:01] INFO root fetch - processPackages [lifeomic-patient-ml-types]: New version: [9.1.0] Old Version: [9.0.0]
+[2024-05-01 15:24:01] INFO root fetch - processPackages [aquacrop]: New version: [3.0.6] Old Version: [3.0.5]
+[2024-05-01 15:24:01] INFO root fetch - processPackages [qBitrr2]: New version: [4.5.4] Old Version: [4.5.3]
+[2024-05-01 15:24:01] INFO root fetch - processPackages [myf-face-recognition]: Downloading https://files.pythonhosted.org/packages/fd/9e/f6bb52c8c7f17dbeb9945f85bab284c8eeffda82ada0522466f82bd7f5f9/myf_face_recognition-0.8.tar.gz
+[2024-05-01 15:24:01] INFO root fetch - processPackages [lazy-type-hint]: New version: [2.2.2] Old Version: [2.1.0]
+[2024-05-01 15:24:01] INFO root fetch - processPackages [su6]: New version: [1.8.4] Old Version: [1.8.3]
+[2024-05-01 15:24:01] INFO root fetch - processPackages [mosamaticdesktop]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-01 15:24:01] INFO root fetch - processPackages [lifeomic-patient-ml-types]: Downloading https://files.pythonhosted.org/packages/bd/f7/387ac34c490070db3d9c56de87d13630fdedd2156f352e8f342caf871c63/lifeomic_patient_ml_types-9.0.0.tar.gz
+[2024-05-01 15:24:01] INFO root fetch - processPackages [aquacrop]: Downloading https://files.pythonhosted.org/packages/21/9a/9c8de467dd559713f695c73a762dd133dcaa4bbe43b5b64ef312a6108b81/aquacrop-3.0.5.tar.gz
+[2024-05-01 15:24:01] INFO root fetch - processPackages [qBitrr2]: Downloading https://files.pythonhosted.org/packages/b5/de/b4b99f23b35dd93d4414d22511562e4f6fb451b1884c64399da80a5ec087/qbitrr2-4.5.3.tar.gz
+[2024-05-01 15:24:01] WARNING root fetch - processPackages [aquacrop]: Skipping package: exceeds size limit 10619293>=10485760
+[2024-05-01 15:24:01] INFO root fetch - main [MainThread]: End processing [aquacrop] error
+[2024-05-01 15:24:01] INFO root fetch - processPackages [lazy-type-hint]: Downloading https://files.pythonhosted.org/packages/63/c7/19fa76c70466be9f0210306046f1bc338d502468e026f1b21f2e945ab838/lazy_type_hint-2.1.0.tar.gz
+[2024-05-01 15:24:01] INFO root fetch - processPackages [su6]: Downloading https://files.pythonhosted.org/packages/65/72/4b6ca183ec38d84a5734180d7ed791152830b8a0c894011ffcde8b31a4c6/su6-1.8.3.tar.gz
+[2024-05-01 15:24:01] INFO root fetch - processPackages [mosamaticdesktop]: Downloading https://files.pythonhosted.org/packages/82/03/2406a4ae700478199e7724c07289b8b70d4042f0fbd63c5c37c2b8961c48/mosamaticdesktop-1.8.0.tar.gz
+[2024-05-01 15:24:01] INFO root fetch - processPackages [myf-face-recognition]: Downloading https://files.pythonhosted.org/packages/80/71/75029b51bf454bdcb985e1cac1d64fd55f178b9895ffd6de459c418f9371/myf_face_recognition-0.9.tar.gz
+[2024-05-01 15:24:01] INFO root fetch - processPackages [lifeomic-patient-ml-types]: Downloading https://files.pythonhosted.org/packages/a9/7e/2de4ec684a9970af30c28dc456c5b34bfee533587046ee7c4f42d19b67a9/lifeomic_patient_ml_types-9.1.0.tar.gz
+[2024-05-01 15:24:01] INFO root fetch - processPackages [myf-face-recognition]: executing diffoscope
+[2024-05-01 15:24:01] INFO root fetch - processPackages [myf-face-recognition]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myf_face_recognition-0.8.tar.gz tmp/myf_face_recognition-0.9.tar.gz --markdown 20240501/m/myf-face-recognition/0.8-0.9/README.md --exclude *.pyd
+[2024-05-01 15:24:01] INFO root fetch - processPackages [qBitrr2]: Downloading https://files.pythonhosted.org/packages/11/b4/4dfcbfa3a96f59b6375875148ea96d7fd4c814e72d1b5ca7dcfc574534cb/qbitrr2-4.5.4.tar.gz
+[2024-05-01 15:24:01] INFO root fetch - processPackages [lifeomic-patient-ml-types]: executing diffoscope
+[2024-05-01 15:24:01] INFO root fetch - processPackages [lifeomic-patient-ml-types]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lifeomic_patient_ml_types-9.0.0.tar.gz tmp/lifeomic_patient_ml_types-9.1.0.tar.gz --markdown 20240501/l/lifeomic-patient-ml-types/9.0.0-9.1.0/README.md --exclude *.pyd
+[2024-05-01 15:24:01] INFO root fetch - processPackages [qBitrr2]: executing diffoscope
+[2024-05-01 15:24:01] INFO root fetch - processPackages [qBitrr2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qbitrr2-4.5.3.tar.gz tmp/qbitrr2-4.5.4.tar.gz --markdown 20240501/q/qBitrr2/4.5.3-4.5.4/README.md --exclude *.pyd
+[2024-05-01 15:24:01] INFO root fetch - processPackages [lazy-type-hint]: Downloading https://files.pythonhosted.org/packages/cd/9e/c038b67292fff67dfd91b45a7a3c665a47d3753265b880ac8f260e7c066d/lazy_type_hint-2.2.2.tar.gz
+[2024-05-01 15:24:01] INFO root fetch - processPackages [mosamaticdesktop]: Downloading https://files.pythonhosted.org/packages/1b/b2/214eebd120dbaed1da0c793dd8d6cc53f40a2eba7e7f2f1293e059e2ab2a/mosamaticdesktop-1.9.0.tar.gz
+[2024-05-01 15:24:01] INFO root fetch - processPackages [lazy-type-hint]: executing diffoscope
+[2024-05-01 15:24:01] INFO root fetch - processPackages [lazy-type-hint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazy_type_hint-2.1.0.tar.gz tmp/lazy_type_hint-2.2.2.tar.gz --markdown 20240501/l/lazy-type-hint/2.1.0-2.2.2/README.md --exclude *.pyd
+[2024-05-01 15:24:02] INFO root fetch - processPackages [mosamaticdesktop]: executing diffoscope
+[2024-05-01 15:24:02] INFO root fetch - processPackages [mosamaticdesktop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mosamaticdesktop-1.8.0.tar.gz tmp/mosamaticdesktop-1.9.0.tar.gz --markdown 20240501/m/mosamaticdesktop/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-05-01 15:24:02] INFO root fetch - processPackages [su6]: Downloading https://files.pythonhosted.org/packages/13/01/7e6a9308cc444290a8a36cc1bdff19029cb3bb3ca6147fef3c96ed763c7c/su6-1.8.4.tar.gz
+[2024-05-01 15:24:02] INFO root fetch - processPackages [myf-face-recognition]: Remove: archive file [/home/abi/fetcher/tmp/myf_face_recognition-0.8.tar.gz]
+[2024-05-01 15:24:02] INFO root fetch - processPackages [myf-face-recognition]: Remove: archive file [/home/abi/fetcher/tmp/myf_face_recognition-0.9.tar.gz]
+[2024-05-01 15:24:02] INFO root fetch - main [MainThread]: End processing [myf-face-recognition]: success
+[2024-05-01 15:24:02] INFO root fetch - processPackages [lifeomic-patient-ml-types]: Remove: archive file [/home/abi/fetcher/tmp/lifeomic_patient_ml_types-9.0.0.tar.gz]
+[2024-05-01 15:24:02] INFO root fetch - processPackages [lifeomic-patient-ml-types]: Remove: archive file [/home/abi/fetcher/tmp/lifeomic_patient_ml_types-9.1.0.tar.gz]
+[2024-05-01 15:24:02] INFO root fetch - main [MainThread]: End processing [lifeomic-patient-ml-types]: success
+[2024-05-01 15:24:02] INFO root fetch - processPackages [su6]: executing diffoscope
+[2024-05-01 15:24:02] INFO root fetch - processPackages [su6]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/su6-1.8.3.tar.gz tmp/su6-1.8.4.tar.gz --markdown 20240501/s/su6/1.8.3-1.8.4/README.md --exclude *.pyd
+[2024-05-01 15:24:02] INFO root fetch - processPackages [qBitrr2]: Remove: archive file [/home/abi/fetcher/tmp/qbitrr2-4.5.3.tar.gz]
+[2024-05-01 15:24:02] INFO root fetch - processPackages [qBitrr2]: Remove: archive file [/home/abi/fetcher/tmp/qbitrr2-4.5.4.tar.gz]
+[2024-05-01 15:24:02] INFO root fetch - main [MainThread]: End processing [qBitrr2]: success
+[2024-05-01 15:24:02] INFO root fetch - processPackages [lazy-type-hint]: Remove: archive file [/home/abi/fetcher/tmp/lazy_type_hint-2.1.0.tar.gz]
+[2024-05-01 15:24:02] INFO root fetch - processPackages [lazy-type-hint]: Remove: archive file [/home/abi/fetcher/tmp/lazy_type_hint-2.2.2.tar.gz]
+[2024-05-01 15:24:02] INFO root fetch - main [MainThread]: End processing [lazy-type-hint]: success
+[2024-05-01 15:24:02] INFO root fetch - processPackages [mosamaticdesktop]: Remove: archive file [/home/abi/fetcher/tmp/mosamaticdesktop-1.8.0.tar.gz]
+[2024-05-01 15:24:02] INFO root fetch - processPackages [mosamaticdesktop]: Remove: archive file [/home/abi/fetcher/tmp/mosamaticdesktop-1.9.0.tar.gz]
+[2024-05-01 15:24:02] INFO root fetch - main [MainThread]: End processing [mosamaticdesktop]: success
+[2024-05-01 15:24:23] INFO root fetch - processPackages [su6]: Remove: archive file [/home/abi/fetcher/tmp/su6-1.8.3.tar.gz]
+[2024-05-01 15:24:23] INFO root fetch - processPackages [su6]: Remove: archive file [/home/abi/fetcher/tmp/su6-1.8.4.tar.gz]
+[2024-05-01 15:24:23] INFO root fetch - main [MainThread]: End processing [su6]: success
+[2024-05-01 15:24:23] INFO root fetch - main [MainThread]: Store serial: [23017394]
