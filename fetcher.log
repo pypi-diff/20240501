@@ -2630,3 +2630,24 @@
 [2024-05-01 02:46:23] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.4.dev202404300044.tar.gz]
 [2024-05-01 02:46:23] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
 [2024-05-01 02:46:23] INFO root fetch - main [MainThread]: Store serial: [23009807]
+[2024-05-01 02:48:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23009807]
+[2024-05-01 02:48:31] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-01 02:48:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pypipr
+[2024-05-01 02:48:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kframe
+[2024-05-01 02:48:32] INFO root fetch - processPackages [kframe]: New version: [0.4.0rc1] Old Version: [0.3.0rc3]
+[2024-05-01 02:48:32] INFO root fetch - processPackages [pypipr]: New version: [1.0.99] Old Version: [1.0.98]
+[2024-05-01 02:48:32] INFO root fetch - processPackages [kframe]: Downloading https://files.pythonhosted.org/packages/93/af/488861ebf4349a97b6f8061875d8b9b7d0101cac0cf8c32e75bd8e52df68/kframe-0.3.0rc3.tar.gz
+[2024-05-01 02:48:32] INFO root fetch - processPackages [pypipr]: Downloading https://files.pythonhosted.org/packages/41/8e/296646c6a3d68ecf6c58c3ec52ece636443172c24750f76c7001939e52d3/pypipr-1.0.98.tar.gz
+[2024-05-01 02:48:32] INFO root fetch - processPackages [pypipr]: Downloading https://files.pythonhosted.org/packages/49/d0/c23afc67d1fa03531bbd97cc72ad024e79b8e25678a6a5674d469d19cdf9/pypipr-1.0.99.tar.gz
+[2024-05-01 02:48:32] INFO root fetch - processPackages [kframe]: Downloading https://files.pythonhosted.org/packages/f7/4b/54f2614089e0c3f269fb4b63a2d15babb5403f9ca275dd0b20725820e716/kframe-0.4.0rc1.tar.gz
+[2024-05-01 02:48:32] INFO root fetch - processPackages [pypipr]: executing diffoscope
+[2024-05-01 02:48:32] INFO root fetch - processPackages [pypipr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypipr-1.0.98.tar.gz tmp/pypipr-1.0.99.tar.gz --markdown 20240501/p/pypipr/1.0.98-1.0.99/README.md --exclude *.pyd
+[2024-05-01 02:48:32] INFO root fetch - processPackages [kframe]: executing diffoscope
+[2024-05-01 02:48:32] INFO root fetch - processPackages [kframe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kframe-0.3.0rc3.tar.gz tmp/kframe-0.4.0rc1.tar.gz --markdown 20240501/k/kframe/0.3.0rc3-0.4.0rc1/README.md --exclude *.pyd
+[2024-05-01 02:48:33] INFO root fetch - processPackages [kframe]: Remove: archive file [/home/abi/fetcher/tmp/kframe-0.3.0rc3.tar.gz]
+[2024-05-01 02:48:33] INFO root fetch - processPackages [kframe]: Remove: archive file [/home/abi/fetcher/tmp/kframe-0.4.0rc1.tar.gz]
+[2024-05-01 02:48:33] INFO root fetch - main [MainThread]: End processing [kframe]: success
+[2024-05-01 02:48:33] INFO root fetch - processPackages [pypipr]: Remove: archive file [/home/abi/fetcher/tmp/pypipr-1.0.98.tar.gz]
+[2024-05-01 02:48:33] INFO root fetch - processPackages [pypipr]: Remove: archive file [/home/abi/fetcher/tmp/pypipr-1.0.99.tar.gz]
+[2024-05-01 02:48:33] INFO root fetch - main [MainThread]: End processing [pypipr]: success
+[2024-05-01 02:48:33] INFO root fetch - main [MainThread]: Store serial: [23009813]
