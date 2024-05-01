@@ -2386,3 +2386,33 @@
 [2024-05-01 02:28:58] INFO root fetch - processPackages [coguard-cli]: Remove: archive file [/home/abi/fetcher/tmp/coguard-cli-0.2.9.tar.gz]
 [2024-05-01 02:28:58] INFO root fetch - main [MainThread]: End processing [coguard-cli]: success
 [2024-05-01 02:28:58] INFO root fetch - main [MainThread]: Store serial: [23009711]
+[2024-05-01 02:31:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23009711]
+[2024-05-01 02:31:06] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-01 02:31:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-certbot-dns-route53
+[2024-05-01 02:31:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: swarmauri
+[2024-05-01 02:31:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-aurora-globaldatabase
+[2024-05-01 02:31:07] INFO root fetch - processPackages [cdk-certbot-dns-route53]: New version: [2.4.99] Old Version: [2.4.98]
+[2024-05-01 02:31:07] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: New version: [2.3.99] Old Version: [2.3.98]
+[2024-05-01 02:31:07] INFO root fetch - processPackages [swarmauri]: New version: [0.1.98] Old Version: [0.1.97]
+[2024-05-01 02:31:07] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Downloading https://files.pythonhosted.org/packages/7d/4d/b1cb6c8586d736f490cc5099e0220282aadb28d3aefc028cf88e6a183b06/cdk-certbot-dns-route53-2.4.98.tar.gz
+[2024-05-01 02:31:07] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/e4/39/e997b5acac972df8d777c4a4ad6dfd9f51e03e75fc8e23c973a7772267d5/cdk-aurora-globaldatabase-2.3.98.tar.gz
+[2024-05-01 02:31:07] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/03/28/110f5472a92acc538dbc8ee367824d900c87620c5ade8a06de94f77073a9/swarmauri-0.1.97.tar.gz
+[2024-05-01 02:31:07] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Downloading https://files.pythonhosted.org/packages/28/81/76f66486f9d6f5aee6f787bb13f11ab8012414fd95d10756b575fd69b909/cdk-certbot-dns-route53-2.4.99.tar.gz
+[2024-05-01 02:31:07] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/51/53/0158facaec2becec86707148eb931de78a7ad1c2b63f80b9911a53e4c17b/cdk-aurora-globaldatabase-2.3.99.tar.gz
+[2024-05-01 02:31:07] INFO root fetch - processPackages [cdk-certbot-dns-route53]: executing diffoscope
+[2024-05-01 02:31:07] INFO root fetch - processPackages [cdk-certbot-dns-route53]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-certbot-dns-route53-2.4.98.tar.gz tmp/cdk-certbot-dns-route53-2.4.99.tar.gz --markdown 20240501/c/cdk-certbot-dns-route53/2.4.98-2.4.99/README.md --exclude *.pyd
+[2024-05-01 02:31:07] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: executing diffoscope
+[2024-05-01 02:31:07] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz --markdown 20240501/c/cdk-aurora-globaldatabase/2.3.98-2.3.99/README.md --exclude *.pyd
+[2024-05-01 02:31:07] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/42/ed/8993e08954a79efe0b18d91d01140d33cb74a16fe9e5ee223d03a0c251a4/swarmauri-0.1.98.tar.gz
+[2024-05-01 02:31:07] INFO root fetch - processPackages [swarmauri]: executing diffoscope
+[2024-05-01 02:31:07] INFO root fetch - processPackages [swarmauri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarmauri-0.1.97.tar.gz tmp/swarmauri-0.1.98.tar.gz --markdown 20240501/s/swarmauri/0.1.97-0.1.98/README.md --exclude *.pyd
+[2024-05-01 02:31:08] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz]
+[2024-05-01 02:31:08] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz]
+[2024-05-01 02:31:08] INFO root fetch - main [MainThread]: End processing [cdk-aurora-globaldatabase]: success
+[2024-05-01 02:31:08] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Remove: archive file [/home/abi/fetcher/tmp/cdk-certbot-dns-route53-2.4.98.tar.gz]
+[2024-05-01 02:31:08] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Remove: archive file [/home/abi/fetcher/tmp/cdk-certbot-dns-route53-2.4.99.tar.gz]
+[2024-05-01 02:31:08] INFO root fetch - main [MainThread]: End processing [cdk-certbot-dns-route53]: success
+[2024-05-01 02:31:08] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.1.97.tar.gz]
+[2024-05-01 02:31:08] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.1.98.tar.gz]
+[2024-05-01 02:31:08] INFO root fetch - main [MainThread]: End processing [swarmauri]: success
+[2024-05-01 02:31:08] INFO root fetch - main [MainThread]: Store serial: [23009724]
