@@ -15163,3 +15163,51 @@
 [2024-05-01 12:13:33] INFO root fetch - processPackages [django-text-translator]: Remove: archive file [/home/abi/fetcher/tmp/django_text_translator-2024.5.1.tar.gz]
 [2024-05-01 12:13:33] INFO root fetch - main [MainThread]: End processing [django-text-translator]: success
 [2024-05-01 12:13:33] INFO root fetch - main [MainThread]: Store serial: [23015080]
+[2024-05-01 12:15:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23015080]
+[2024-05-01 12:15:42] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-01 12:15:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: attribox
+[2024-05-01 12:15:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cerbernetix.toolbox
+[2024-05-01 12:15:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: haunts
+[2024-05-01 12:15:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: akshare
+[2024-05-01 12:15:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: insightconnect-plugin-runtime
+[2024-05-01 12:15:42] INFO root fetch - processPackages [attribox]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-01 12:15:42] INFO root fetch - processPackages [attribox]: Downloading https://files.pythonhosted.org/packages/b0/1b/afc61ed4af69d170a0c4bd0272fdd2e586a48c0c1828c0cf9fb03718795b/attribox-0.1.8.tar.gz
+[2024-05-01 12:15:42] INFO root fetch - processPackages [cerbernetix.toolbox]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-01 12:15:42] INFO root fetch - processPackages [insightconnect-plugin-runtime]: New version: [5.4.8] Old Version: [5.4.7]
+[2024-05-01 12:15:42] INFO root fetch - processPackages [haunts]: New version: [0.7.2] Old Version: [0.7.1]
+[2024-05-01 12:15:42] INFO root fetch - processPackages [akshare]: New version: [1.9.99] Old Version: [1.9.98]
+[2024-05-01 12:15:42] INFO root fetch - processPackages [cerbernetix.toolbox]: Downloading https://files.pythonhosted.org/packages/6e/0f/f1363eab7bc4ff4adccb118f24aec6ba924bc9b64a667ce7fba08539c503/cerbernetix.toolbox-0.9.0.tar.gz
+[2024-05-01 12:15:42] INFO root fetch - processPackages [haunts]: Downloading https://files.pythonhosted.org/packages/8b/f0/c608e83cc3d79f6bfbce78854853a65e33ada4efee4bf974407c6c24623f/haunts-0.7.1.tar.gz
+[2024-05-01 12:15:42] INFO root fetch - processPackages [insightconnect-plugin-runtime]: Downloading https://files.pythonhosted.org/packages/df/e0/8c5a735b105110c3b6d63a595367aee389b75c0bd4c530f25cee964d758b/insightconnect-plugin-runtime-5.4.7.tar.gz
+[2024-05-01 12:15:42] INFO root fetch - processPackages [attribox]: Downloading https://files.pythonhosted.org/packages/b1/e6/a20bbaa9e0f051b656d86826235dcdfa648da889d34b564acef9329d3455/attribox-0.1.9.tar.gz
+[2024-05-01 12:15:42] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/ec/a4/f1c21d8fbb349e15f0bf76d32a496003bcff9b66215f81b940337a510e36/akshare-1.9.98.tar.gz
+[2024-05-01 12:15:42] INFO root fetch - processPackages [attribox]: executing diffoscope
+[2024-05-01 12:15:42] INFO root fetch - processPackages [attribox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/attribox-0.1.8.tar.gz tmp/attribox-0.1.9.tar.gz --markdown 20240501/a/attribox/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-01 12:15:43] INFO root fetch - processPackages [cerbernetix.toolbox]: Downloading https://files.pythonhosted.org/packages/eb/26/2f7ac269099620edf02a50dfb7c17972dc5ba2c8509d26107d58e41f6fc9/cerbernetix.toolbox-0.9.1.tar.gz
+[2024-05-01 12:15:43] INFO root fetch - processPackages [haunts]: Downloading https://files.pythonhosted.org/packages/22/c9/9dbb02ed17d891a36e7c95607c61627b8cddd7fa129baa7cc9f415b86326/haunts-0.7.2.tar.gz
+[2024-05-01 12:15:43] INFO root fetch - processPackages [cerbernetix.toolbox]: executing diffoscope
+[2024-05-01 12:15:43] INFO root fetch - processPackages [cerbernetix.toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cerbernetix.toolbox-0.9.0.tar.gz tmp/cerbernetix.toolbox-0.9.1.tar.gz --markdown 20240501/c/cerbernetix.toolbox/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-01 12:15:43] INFO root fetch - processPackages [insightconnect-plugin-runtime]: Downloading https://files.pythonhosted.org/packages/25/e5/6a92a3da3df0c590f36d94f4550354a0e614848dc9331426962ad311e67e/insightconnect_plugin_runtime-5.4.8.tar.gz
+[2024-05-01 12:15:43] INFO root fetch - processPackages [haunts]: executing diffoscope
+[2024-05-01 12:15:43] INFO root fetch - processPackages [haunts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/haunts-0.7.1.tar.gz tmp/haunts-0.7.2.tar.gz --markdown 20240501/h/haunts/0.7.1-0.7.2/README.md --exclude *.pyd
+[2024-05-01 12:15:43] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/53/e8/f58e96016752567ca09f3f67abdc7e935d0afa919aded528d50590ed9170/akshare-1.9.99.tar.gz
+[2024-05-01 12:15:43] INFO root fetch - processPackages [insightconnect-plugin-runtime]: executing diffoscope
+[2024-05-01 12:15:43] INFO root fetch - processPackages [insightconnect-plugin-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/insightconnect-plugin-runtime-5.4.7.tar.gz tmp/insightconnect_plugin_runtime-5.4.8.tar.gz --markdown 20240501/i/insightconnect-plugin-runtime/5.4.7-5.4.8/README.md --exclude *.pyd
+[2024-05-01 12:15:43] INFO root fetch - processPackages [akshare]: executing diffoscope
+[2024-05-01 12:15:43] INFO root fetch - processPackages [akshare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akshare-1.9.98.tar.gz tmp/akshare-1.9.99.tar.gz --markdown 20240501/a/akshare/1.9.98-1.9.99/README.md --exclude *.pyd
+[2024-05-01 12:15:43] INFO root fetch - processPackages [attribox]: Remove: archive file [/home/abi/fetcher/tmp/attribox-0.1.8.tar.gz]
+[2024-05-01 12:15:43] INFO root fetch - processPackages [attribox]: Remove: archive file [/home/abi/fetcher/tmp/attribox-0.1.9.tar.gz]
+[2024-05-01 12:15:43] INFO root fetch - main [MainThread]: End processing [attribox]: success
+[2024-05-01 12:15:43] INFO root fetch - processPackages [cerbernetix.toolbox]: Remove: archive file [/home/abi/fetcher/tmp/cerbernetix.toolbox-0.9.0.tar.gz]
+[2024-05-01 12:15:43] INFO root fetch - processPackages [cerbernetix.toolbox]: Remove: archive file [/home/abi/fetcher/tmp/cerbernetix.toolbox-0.9.1.tar.gz]
+[2024-05-01 12:15:43] INFO root fetch - main [MainThread]: End processing [cerbernetix.toolbox]: success
+[2024-05-01 12:15:43] INFO root fetch - processPackages [haunts]: Remove: archive file [/home/abi/fetcher/tmp/haunts-0.7.1.tar.gz]
+[2024-05-01 12:15:43] INFO root fetch - processPackages [haunts]: Remove: archive file [/home/abi/fetcher/tmp/haunts-0.7.2.tar.gz]
+[2024-05-01 12:15:43] INFO root fetch - main [MainThread]: End processing [haunts]: success
+[2024-05-01 12:15:44] INFO root fetch - processPackages [insightconnect-plugin-runtime]: Remove: archive file [/home/abi/fetcher/tmp/insightconnect-plugin-runtime-5.4.7.tar.gz]
+[2024-05-01 12:15:44] INFO root fetch - processPackages [insightconnect-plugin-runtime]: Remove: archive file [/home/abi/fetcher/tmp/insightconnect_plugin_runtime-5.4.8.tar.gz]
+[2024-05-01 12:15:44] INFO root fetch - main [MainThread]: End processing [insightconnect-plugin-runtime]: success
+[2024-05-01 12:15:46] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.98.tar.gz]
+[2024-05-01 12:15:46] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.99.tar.gz]
+[2024-05-01 12:15:46] INFO root fetch - main [MainThread]: End processing [akshare]: success
+[2024-05-01 12:15:46] INFO root fetch - main [MainThread]: Store serial: [23015099]
