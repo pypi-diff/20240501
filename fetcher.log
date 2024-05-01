@@ -16398,3 +16398,33 @@
 [2024-05-01 13:09:07] INFO root fetch - processPackages [mama]: Remove: archive file [/home/abi/fetcher/tmp/mama-0.9.5.tar.gz]
 [2024-05-01 13:09:07] INFO root fetch - main [MainThread]: End processing [mama]: success
 [2024-05-01 13:09:07] INFO root fetch - main [MainThread]: Store serial: [23015572]
+[2024-05-01 13:11:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23015572]
+[2024-05-01 13:11:16] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-01 13:11:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cogflow
+[2024-05-01 13:11:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mimllearning
+[2024-05-01 13:11:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Agently
+[2024-05-01 13:11:16] INFO root fetch - processPackages [cogflow]: New version: [1.9.3] Old Version: [1.9.2]
+[2024-05-01 13:11:16] INFO root fetch - processPackages [mimllearning]: New version: [0.2.8] Old Version: [0.2.7]
+[2024-05-01 13:11:17] INFO root fetch - processPackages [Agently]: New version: [3.3.0.0a6] Old Version: [3.2.2.8]
+[2024-05-01 13:11:17] INFO root fetch - processPackages [cogflow]: Downloading https://files.pythonhosted.org/packages/2c/04/cd079f4db599e77747dec0572f7ad66b91ca127e5548d21de56073ec8812/cogflow-1.9.2.tar.gz
+[2024-05-01 13:11:17] INFO root fetch - processPackages [mimllearning]: Downloading https://files.pythonhosted.org/packages/13/b9/8bb20d442048ff0f02ace28fa1714fba7126b12be0fd8f2a9cb25c223e06/mimllearning-0.2.7.tar.gz
+[2024-05-01 13:11:17] INFO root fetch - processPackages [Agently]: Downloading https://files.pythonhosted.org/packages/f5/9b/f1b9d263b0f4b6511b6054ae6b1047919a5f961a0f73230095fc483bfb05/Agently-3.2.2.8.tar.gz
+[2024-05-01 13:11:17] INFO root fetch - processPackages [cogflow]: Downloading https://files.pythonhosted.org/packages/d2/96/633130021a408a5ad9f179eb13591cbe0a8361d23e836e631bb4b548b752/cogflow-1.9.3.tar.gz
+[2024-05-01 13:11:17] INFO root fetch - processPackages [mimllearning]: Downloading https://files.pythonhosted.org/packages/36/1c/993a41e739f8874ea307c16f8f57c4e8d6f00573d4939419a1d160b6d424/mimllearning-0.2.8.tar.gz
+[2024-05-01 13:11:17] INFO root fetch - processPackages [cogflow]: executing diffoscope
+[2024-05-01 13:11:17] INFO root fetch - processPackages [cogflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cogflow-1.9.2.tar.gz tmp/cogflow-1.9.3.tar.gz --markdown 20240501/c/cogflow/1.9.2-1.9.3/README.md --exclude *.pyd
+[2024-05-01 13:11:17] INFO root fetch - processPackages [Agently]: Downloading https://files.pythonhosted.org/packages/ef/6b/d8583288f12d824272bc6c062717f72a865885b034a5b0a22bf2a4d0db31/Agently-3.3.0.0a6.tar.gz
+[2024-05-01 13:11:17] INFO root fetch - processPackages [mimllearning]: executing diffoscope
+[2024-05-01 13:11:17] INFO root fetch - processPackages [mimllearning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mimllearning-0.2.7.tar.gz tmp/mimllearning-0.2.8.tar.gz --markdown 20240501/m/mimllearning/0.2.7-0.2.8/README.md --exclude *.pyd
+[2024-05-01 13:11:17] INFO root fetch - processPackages [Agently]: executing diffoscope
+[2024-05-01 13:11:17] INFO root fetch - processPackages [Agently]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Agently-3.2.2.8.tar.gz tmp/Agently-3.3.0.0a6.tar.gz --markdown 20240501/A/Agently/3.2.2.8-3.3.0.0a6/README.md --exclude *.pyd
+[2024-05-01 13:11:17] INFO root fetch - processPackages [cogflow]: Remove: archive file [/home/abi/fetcher/tmp/cogflow-1.9.2.tar.gz]
+[2024-05-01 13:11:17] INFO root fetch - processPackages [cogflow]: Remove: archive file [/home/abi/fetcher/tmp/cogflow-1.9.3.tar.gz]
+[2024-05-01 13:11:17] INFO root fetch - main [MainThread]: End processing [cogflow]: success
+[2024-05-01 13:11:18] INFO root fetch - processPackages [mimllearning]: Remove: archive file [/home/abi/fetcher/tmp/mimllearning-0.2.7.tar.gz]
+[2024-05-01 13:11:18] INFO root fetch - processPackages [mimllearning]: Remove: archive file [/home/abi/fetcher/tmp/mimllearning-0.2.8.tar.gz]
+[2024-05-01 13:11:18] INFO root fetch - main [MainThread]: End processing [mimllearning]: success
+[2024-05-01 13:11:18] INFO root fetch - processPackages [Agently]: Remove: archive file [/home/abi/fetcher/tmp/Agently-3.2.2.8.tar.gz]
+[2024-05-01 13:11:18] INFO root fetch - processPackages [Agently]: Remove: archive file [/home/abi/fetcher/tmp/Agently-3.3.0.0a6.tar.gz]
+[2024-05-01 13:11:18] INFO root fetch - main [MainThread]: End processing [Agently]: success
+[2024-05-01 13:11:18] INFO root fetch - main [MainThread]: Store serial: [23015580]
