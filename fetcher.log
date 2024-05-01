@@ -14325,3 +14325,33 @@
 [2024-05-01 11:40:07] INFO root fetch - main [MainThread]: End processing [duckcuts]: success
 [2024-05-01 11:40:07] INFO root fetch - main [MainThread]: End processing [duckcuts]: success
 [2024-05-01 11:40:07] INFO root fetch - main [MainThread]: Store serial: [23014781]
+[2024-05-01 11:42:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23014781]
+[2024-05-01 11:42:16] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-01 11:42:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dbt-run-api
+[2024-05-01 11:42:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sqlvana
+[2024-05-01 11:42:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rtc-tools-simulation
+[2024-05-01 11:42:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: seamm
+[2024-05-01 11:42:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jra-tools
+[2024-05-01 11:42:16] WARNING root fetch - processPackages [dbt-run-api]: Skipping, unable to determine old version
+[2024-05-01 11:42:16] INFO root fetch - main [MainThread]: End processing [dbt-run-api] error
+[2024-05-01 11:42:16] WARNING root fetch - processPackages [rtc-tools-simulation]: Skipping, unable to determine old version
+[2024-05-01 11:42:16] INFO root fetch - main [MainThread]: End processing [rtc-tools-simulation] error
+[2024-05-01 11:42:16] WARNING root fetch - processPackages [sqlvana]: Skipping, unable to determine old version
+[2024-05-01 11:42:16] INFO root fetch - main [MainThread]: End processing [sqlvana] error
+[2024-05-01 11:42:16] INFO root fetch - processPackages [jra-tools]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-01 11:42:16] INFO root fetch - processPackages [seamm]: New version: [220.8.3] Old Version: [2024.5.1]
+[2024-05-01 11:42:16] INFO root fetch - processPackages [jra-tools]: Downloading https://files.pythonhosted.org/packages/26/60/221f6dbb50b09019b3d26d292b654a5b435907aaaea0243621336ace4ca7/jra-tools-0.0.8.tar.gz
+[2024-05-01 11:42:16] INFO root fetch - processPackages [seamm]: Downloading https://files.pythonhosted.org/packages/45/8b/5d9ebc3124caf55fe13dc3135fb63bf31b305fd82a603536d37b009715a6/seamm-2024.5.1-py2.py3-none-any.whl
+[2024-05-01 11:42:17] INFO root fetch - processPackages [jra-tools]: Downloading https://files.pythonhosted.org/packages/e0/62/d16536409f39b922a245ff54d7d0a3e61c01b704eee743ca6b57476103af/jra-tools-0.0.9.tar.gz
+[2024-05-01 11:42:17] INFO root fetch - processPackages [seamm]: Downloading https://files.pythonhosted.org/packages/73/a6/b374fc37a4d9a1891852ea20c1c820584f15f1a55e0d2f73b4b733637218/seamm-220.8.3.tar.gz
+[2024-05-01 11:42:17] INFO root fetch - processPackages [jra-tools]: executing diffoscope
+[2024-05-01 11:42:17] INFO root fetch - processPackages [jra-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jra-tools-0.0.8.tar.gz tmp/jra-tools-0.0.9.tar.gz --markdown 20240501/j/jra-tools/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-01 11:42:17] INFO root fetch - processPackages [seamm]: executing diffoscope
+[2024-05-01 11:42:17] INFO root fetch - processPackages [seamm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seamm-2024.5.1-py2.py3-none-any.whl.zip tmp/seamm-220.8.3.tar.gz --markdown 20240501/s/seamm/2024.5.1-220.8.3/README.md --exclude *.pyd
+[2024-05-01 11:42:17] INFO root fetch - processPackages [jra-tools]: Remove: archive file [/home/abi/fetcher/tmp/jra-tools-0.0.8.tar.gz]
+[2024-05-01 11:42:17] INFO root fetch - processPackages [jra-tools]: Remove: archive file [/home/abi/fetcher/tmp/jra-tools-0.0.9.tar.gz]
+[2024-05-01 11:42:17] INFO root fetch - main [MainThread]: End processing [jra-tools]: success
+[2024-05-01 11:42:18] INFO root fetch - processPackages [seamm]: Remove: archive file [/home/abi/fetcher/tmp/seamm-2024.5.1-py2.py3-none-any.whl.zip]
+[2024-05-01 11:42:18] INFO root fetch - processPackages [seamm]: Remove: archive file [/home/abi/fetcher/tmp/seamm-220.8.3.tar.gz]
+[2024-05-01 11:42:18] INFO root fetch - main [MainThread]: End processing [seamm]: success
+[2024-05-01 11:42:18] INFO root fetch - main [MainThread]: Store serial: [23014791]
