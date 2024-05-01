@@ -12912,3 +12912,79 @@
 [2024-05-01 10:25:29] INFO root fetch - main [MainThread]: End processing [ComradeAI]: success
 [2024-05-01 10:25:29] INFO root fetch - main [MainThread]: End processing [aissemble-foundation-versioning-service]: success
 [2024-05-01 10:25:29] INFO root fetch - main [MainThread]: Store serial: [23014053]
+[2024-05-01 10:27:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23014053]
+[2024-05-01 10:27:38] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-01 10:27:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ruff-api
+[2024-05-01 10:27:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: VisionCraft
+[2024-05-01 10:27:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: data-factory-testing-framework
+[2024-05-01 10:27:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: manyhttp
+[2024-05-01 10:27:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Oasys.D3PLOT
+[2024-05-01 10:27:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tailucas-pylib
+[2024-05-01 10:27:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Oasys.REPORTER
+[2024-05-01 10:27:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: Oasys.THIS
+[2024-05-01 10:27:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: VisionCraft
+[2024-05-01 10:27:38] INFO root fetch - processPackages [VisionCraft]: New version: [0.1.22] Old Version: [0.1.21]
+[2024-05-01 10:27:38] INFO root fetch - processPackages [VisionCraft]: New version: [0.1.22] Old Version: [0.1.21]
+[2024-05-01 10:27:38] INFO root fetch - processPackages [tailucas-pylib]: New version: [0.3.7] Old Version: [0.3.6]
+[2024-05-01 10:27:38] INFO root fetch - processPackages [Oasys.D3PLOT]: New version: [21.0.0b9] Old Version: [21.0.0b8]
+[2024-05-01 10:27:38] INFO root fetch - processPackages [data-factory-testing-framework]: New version: [0.2.7] Old Version: [0.2.6]
+[2024-05-01 10:27:38] INFO root fetch - processPackages [VisionCraft]: Downloading https://files.pythonhosted.org/packages/2e/00/fba076723006566dddc31d5b0cc53c593d620114ea745da8dbc9b9d6890b/VisionCraft-0.1.21.tar.gz
+[2024-05-01 10:27:38] WARNING root fetch - processPackages [manyhttp]: Skipping, unable to determine old version
+[2024-05-01 10:27:38] INFO root fetch - main [MainThread]: End processing [manyhttp] error
+[2024-05-01 10:27:38] INFO root fetch - processPackages [Oasys.REPORTER]: New version: [21.0.0b9] Old Version: [21.0.0b8]
+[2024-05-01 10:27:38] INFO root fetch - processPackages [Oasys.THIS]: New version: [21.0.0b9] Old Version: [21.0.0b8]
+[2024-05-01 10:27:38] INFO root fetch - processPackages [VisionCraft]: Downloading https://files.pythonhosted.org/packages/2e/00/fba076723006566dddc31d5b0cc53c593d620114ea745da8dbc9b9d6890b/VisionCraft-0.1.21.tar.gz
+[2024-05-01 10:27:38] INFO root fetch - processPackages [tailucas-pylib]: Downloading https://files.pythonhosted.org/packages/92/e9/05d1448cea3aadd694d61c1d520cd9877f53db174124d7d74e566c13ab8e/tailucas_pylib-0.3.6.tar.gz
+[2024-05-01 10:27:38] INFO root fetch - processPackages [ruff-api]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-01 10:27:38] INFO root fetch - processPackages [Oasys.D3PLOT]: Downloading https://files.pythonhosted.org/packages/c6/cc/54bd5258e3f587b146e640ed2290e49bcdeb4a681e58a56f49685924e68b/Oasys.D3PLOT-21.0.0b8.tar.gz
+[2024-05-01 10:27:38] INFO root fetch - processPackages [data-factory-testing-framework]: Downloading https://files.pythonhosted.org/packages/e8/e2/9578003c06d9c0f094879b8a0f1a88ba9d2736922cf9f173fef85e5dc030/data_factory_testing_framework-0.2.6.tar.gz
+[2024-05-01 10:27:38] INFO root fetch - processPackages [Oasys.REPORTER]: Downloading https://files.pythonhosted.org/packages/a4/f3/5117684118a98d1ba13fa34e24840e27ad1c1b9417a9b00152801a3e47d8/Oasys.REPORTER-21.0.0b8.tar.gz
+[2024-05-01 10:27:38] INFO root fetch - processPackages [Oasys.THIS]: Downloading https://files.pythonhosted.org/packages/f3/70/094181fd7de53ff9eaa3ef5d895667393732d1974f6a72942f9658a2cdfd/Oasys.THIS-21.0.0b8.tar.gz
+[2024-05-01 10:27:39] INFO root fetch - processPackages [tailucas-pylib]: Downloading https://files.pythonhosted.org/packages/ed/da/8ba29eb9ad640a5aa678426587b30e8fc68760a6c39105efe2ca08223291/tailucas_pylib-0.3.7.tar.gz
+[2024-05-01 10:27:39] INFO root fetch - processPackages [ruff-api]: Downloading https://files.pythonhosted.org/packages/4c/ec/aad156ab3c3c290ab8b12fe71dd5081c586f20ed8d97f6c623262fd1ef7c/ruff_api-0.0.4.tar.gz
+[2024-05-01 10:27:39] INFO root fetch - processPackages [tailucas-pylib]: executing diffoscope
+[2024-05-01 10:27:39] INFO root fetch - processPackages [tailucas-pylib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tailucas_pylib-0.3.6.tar.gz tmp/tailucas_pylib-0.3.7.tar.gz --markdown 20240501/t/tailucas-pylib/0.3.6-0.3.7/README.md --exclude *.pyd
+[2024-05-01 10:27:39] INFO root fetch - processPackages [data-factory-testing-framework]: Downloading https://files.pythonhosted.org/packages/8d/5e/c95a488931083a217459b7c786bf8fc57e0c14bff1e99e45b33934539939/data_factory_testing_framework-0.2.7.tar.gz
+[2024-05-01 10:27:39] INFO root fetch - processPackages [Oasys.REPORTER]: Downloading https://files.pythonhosted.org/packages/96/d8/d022b12c4ac4b1b7c460bde4c5bf2d8a3595e06c429c4aa21ad977db6202/Oasys.REPORTER-21.0.0b9.tar.gz
+[2024-05-01 10:27:39] INFO root fetch - processPackages [Oasys.THIS]: Downloading https://files.pythonhosted.org/packages/c7/48/9a7e4809aef01ccbc33b443d538054a2a6d9ac1229458e6c3fb012be1b4a/Oasys.THIS-21.0.0b9.tar.gz
+[2024-05-01 10:27:39] INFO root fetch - processPackages [Oasys.D3PLOT]: Downloading https://files.pythonhosted.org/packages/c1/3e/f36ff91ff458a6b7f504755c1c01e44f658833026b3f428d15e8daa0acef/Oasys.D3PLOT-21.0.0b9.tar.gz
+[2024-05-01 10:27:39] INFO root fetch - processPackages [VisionCraft]: Downloading https://files.pythonhosted.org/packages/e3/64/c0d10e377b133a276c521f14a5ca0530e477a8e05272e8c0df6bc9e87f96/VisionCraft-0.1.22-py3-none-any.whl
+[2024-05-01 10:27:39] INFO root fetch - processPackages [VisionCraft]: Downloading https://files.pythonhosted.org/packages/e3/64/c0d10e377b133a276c521f14a5ca0530e477a8e05272e8c0df6bc9e87f96/VisionCraft-0.1.22-py3-none-any.whl
+[2024-05-01 10:27:39] INFO root fetch - processPackages [Oasys.THIS]: executing diffoscope
+[2024-05-01 10:27:39] INFO root fetch - processPackages [Oasys.THIS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Oasys.THIS-21.0.0b8.tar.gz tmp/Oasys.THIS-21.0.0b9.tar.gz --markdown 20240501/O/Oasys.THIS/21.0.0b8-21.0.0b9/README.md --exclude *.pyd
+[2024-05-01 10:27:39] INFO root fetch - processPackages [Oasys.D3PLOT]: executing diffoscope
+[2024-05-01 10:27:39] INFO root fetch - processPackages [Oasys.D3PLOT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Oasys.D3PLOT-21.0.0b8.tar.gz tmp/Oasys.D3PLOT-21.0.0b9.tar.gz --markdown 20240501/O/Oasys.D3PLOT/21.0.0b8-21.0.0b9/README.md --exclude *.pyd
+[2024-05-01 10:27:39] INFO root fetch - processPackages [VisionCraft]: executing diffoscope
+[2024-05-01 10:27:39] INFO root fetch - processPackages [VisionCraft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/VisionCraft-0.1.21.tar.gz tmp/VisionCraft-0.1.22-py3-none-any.whl.zip --markdown 20240501/V/VisionCraft/0.1.21-0.1.22/README.md --exclude *.pyd
+[2024-05-01 10:27:39] INFO root fetch - processPackages [VisionCraft]: executing diffoscope
+[2024-05-01 10:27:39] INFO root fetch - processPackages [VisionCraft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/VisionCraft-0.1.21.tar.gz tmp/VisionCraft-0.1.22-py3-none-any.whl.zip --markdown 20240501/V/VisionCraft/0.1.21-0.1.22/README.md --exclude *.pyd
+[2024-05-01 10:27:39] INFO root fetch - processPackages [ruff-api]: Downloading https://files.pythonhosted.org/packages/0b/0a/16ea8671ddc5aeed5441791bb98e248734032711e20479b3a60a92ff7a73/ruff_api-0.0.5-pp38-pypy38_pp73-manylinux_2_17_s390x.manylinux2014_s390x.whl
+[2024-05-01 10:27:39] INFO root fetch - processPackages [data-factory-testing-framework]: executing diffoscope
+[2024-05-01 10:27:39] INFO root fetch - processPackages [data-factory-testing-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data_factory_testing_framework-0.2.6.tar.gz tmp/data_factory_testing_framework-0.2.7.tar.gz --markdown 20240501/d/data-factory-testing-framework/0.2.6-0.2.7/README.md --exclude *.pyd
+[2024-05-01 10:27:39] INFO root fetch - processPackages [Oasys.REPORTER]: executing diffoscope
+[2024-05-01 10:27:39] INFO root fetch - processPackages [Oasys.REPORTER]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Oasys.REPORTER-21.0.0b8.tar.gz tmp/Oasys.REPORTER-21.0.0b9.tar.gz --markdown 20240501/O/Oasys.REPORTER/21.0.0b8-21.0.0b9/README.md --exclude *.pyd
+[2024-05-01 10:27:40] INFO root fetch - processPackages [tailucas-pylib]: Remove: archive file [/home/abi/fetcher/tmp/tailucas_pylib-0.3.6.tar.gz]
+[2024-05-01 10:27:40] INFO root fetch - processPackages [tailucas-pylib]: Remove: archive file [/home/abi/fetcher/tmp/tailucas_pylib-0.3.7.tar.gz]
+[2024-05-01 10:27:40] INFO root fetch - main [MainThread]: End processing [tailucas-pylib]: success
+[2024-05-01 10:27:40] INFO root fetch - processPackages [Oasys.THIS]: Remove: archive file [/home/abi/fetcher/tmp/Oasys.THIS-21.0.0b8.tar.gz]
+[2024-05-01 10:27:40] INFO root fetch - processPackages [Oasys.THIS]: Remove: archive file [/home/abi/fetcher/tmp/Oasys.THIS-21.0.0b9.tar.gz]
+[2024-05-01 10:27:40] INFO root fetch - main [MainThread]: End processing [Oasys.THIS]: success
+[2024-05-01 10:27:40] INFO root fetch - processPackages [VisionCraft]: Remove: archive file [/home/abi/fetcher/tmp/VisionCraft-0.1.21.tar.gz]
+[2024-05-01 10:27:40] INFO root fetch - processPackages [VisionCraft]: Remove: archive file [/home/abi/fetcher/tmp/VisionCraft-0.1.22-py3-none-any.whl.zip]
+[2024-05-01 10:27:40] INFO root fetch - main [MainThread]: End processing [VisionCraft]: success
+[2024-05-01 10:27:40] INFO root fetch - processPackages [data-factory-testing-framework]: Remove: archive file [/home/abi/fetcher/tmp/data_factory_testing_framework-0.2.6.tar.gz]
+[2024-05-01 10:27:40] INFO root fetch - processPackages [data-factory-testing-framework]: Remove: archive file [/home/abi/fetcher/tmp/data_factory_testing_framework-0.2.7.tar.gz]
+[2024-05-01 10:27:40] INFO root fetch - main [MainThread]: End processing [data-factory-testing-framework]: success
+[2024-05-01 10:27:40] INFO root fetch - processPackages [Oasys.REPORTER]: Remove: archive file [/home/abi/fetcher/tmp/Oasys.REPORTER-21.0.0b8.tar.gz]
+[2024-05-01 10:27:40] INFO root fetch - processPackages [Oasys.REPORTER]: Remove: archive file [/home/abi/fetcher/tmp/Oasys.REPORTER-21.0.0b9.tar.gz]
+[2024-05-01 10:27:40] INFO root fetch - main [MainThread]: End processing [Oasys.REPORTER]: success
+[2024-05-01 10:27:40] INFO root fetch - processPackages [Oasys.D3PLOT]: Remove: archive file [/home/abi/fetcher/tmp/Oasys.D3PLOT-21.0.0b8.tar.gz]
+[2024-05-01 10:27:40] INFO root fetch - processPackages [Oasys.D3PLOT]: Remove: archive file [/home/abi/fetcher/tmp/Oasys.D3PLOT-21.0.0b9.tar.gz]
+[2024-05-01 10:27:40] INFO root fetch - main [MainThread]: End processing [Oasys.D3PLOT]: success
+[2024-05-01 10:27:40] INFO root fetch - main [MainThread]: End processing [VisionCraft]: success
+[2024-05-01 10:27:41] INFO root fetch - processPackages [ruff-api]: executing diffoscope
+[2024-05-01 10:27:41] INFO root fetch - processPackages [ruff-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ruff_api-0.0.4.tar.gz tmp/ruff_api-0.0.5-pp38-pypy38_pp73-manylinux_2_17_s390x.manylinux2014_s390x.whl.zip --markdown 20240501/r/ruff-api/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-01 10:27:43] INFO root fetch - processPackages [ruff-api]: Remove: archive file [/home/abi/fetcher/tmp/ruff_api-0.0.4.tar.gz]
+[2024-05-01 10:27:43] INFO root fetch - processPackages [ruff-api]: Remove: archive file [/home/abi/fetcher/tmp/ruff_api-0.0.5-pp38-pypy38_pp73-manylinux_2_17_s390x.manylinux2014_s390x.whl.zip]
+[2024-05-01 10:27:43] INFO root fetch - main [MainThread]: End processing [ruff-api]: success
+[2024-05-01 10:27:43] INFO root fetch - main [MainThread]: Store serial: [23014132]
