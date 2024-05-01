@@ -10409,3 +10409,59 @@
 [2024-05-01 08:03:51] INFO root fetch - processPackages [lino]: Remove: archive file [/home/abi/fetcher/tmp/lino-24.5.0.tar.gz]
 [2024-05-01 08:03:51] INFO root fetch - main [MainThread]: End processing [lino]: success
 [2024-05-01 08:03:51] INFO root fetch - main [MainThread]: Store serial: [23012905]
+[2024-05-01 08:05:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23012905]
+[2024-05-01 08:06:00] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-01 08:06:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: SparkleLogging
+[2024-05-01 08:06:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lino-xl
+[2024-05-01 08:06:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cleese-stim
+[2024-05-01 08:06:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: manyhttps
+[2024-05-01 08:06:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lino-welfare
+[2024-05-01 08:06:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi-ec
+[2024-05-01 08:06:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: escaper-lite
+[2024-05-01 08:06:00] WARNING root fetch - processPackages [SparkleLogging]: Skipping, unable to determine old version
+[2024-05-01 08:06:00] INFO root fetch - main [MainThread]: End processing [SparkleLogging] error
+[2024-05-01 08:06:00] INFO root fetch - processPackages [pulumi-ec]: New version: [0.9.0a1714455359] Old Version: [0.8.1a1714109915]
+[2024-05-01 08:06:00] INFO root fetch - processPackages [lino-welfare]: New version: [24.5.0] Old Version: [24.3.1]
+[2024-05-01 08:06:00] INFO root fetch - processPackages [cleese-stim]: New version: [2.1.0] Old Version: [2.0.0]
+[2024-05-01 08:06:00] INFO root fetch - processPackages [pulumi-ec]: Downloading https://files.pythonhosted.org/packages/aa/e8/e1243073a5e86edb74b26d349db5bfb7c8fc77290ca9be508c669f199105/pulumi_ec-0.8.1a1714109915.tar.gz
+[2024-05-01 08:06:00] INFO root fetch - processPackages [lino-xl]: New version: [24.5.0] Old Version: [24.4.2]
+[2024-05-01 08:06:00] INFO root fetch - processPackages [escaper-lite]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-01 08:06:00] INFO root fetch - processPackages [manyhttps]: New version: [2.33.12] Old Version: [2.33.11]
+[2024-05-01 08:06:00] INFO root fetch - processPackages [cleese-stim]: Downloading https://files.pythonhosted.org/packages/ef/b7/24bfb11b4d07df972a846b987adbab0fa959b2cb7bb86c149ecbfe52c03a/cleese_stim-2.0.0.tar.gz
+[2024-05-01 08:06:00] INFO root fetch - processPackages [manyhttps]: Downloading https://files.pythonhosted.org/packages/3d/c3/03e5c75d02ed45381f96801d71f91e6e33b95a69a118b4d7c2ebaf90f4fa/manyhttps-2.33.11.tar.gz
+[2024-05-01 08:06:00] INFO root fetch - processPackages [lino-xl]: Downloading https://files.pythonhosted.org/packages/5a/ee/50e1fbe76848f0ca975d603e96ea1b7a38fce4fb34e6131b6f77b52d58e8/lino-xl-24.4.2.tar.gz
+[2024-05-01 08:06:00] INFO root fetch - processPackages [pulumi-ec]: Downloading https://files.pythonhosted.org/packages/a8/77/723cc5b31d7171e1f9f396a8e6896567b13258b55c68cc0e77bc5edead78/pulumi_ec-0.9.0a1714455359.tar.gz
+[2024-05-01 08:06:00] WARNING root fetch - processPackages [lino-xl]: Skipping package: exceeds size limit 41995241>=10485760
+[2024-05-01 08:06:00] INFO root fetch - main [MainThread]: End processing [lino-xl] error
+[2024-05-01 08:06:00] INFO root fetch - processPackages [escaper-lite]: Downloading https://files.pythonhosted.org/packages/40/ac/88748872fdbf62a465bec7dc6fa5a323d25c313f7925531a6a2daddd4580/escaper_lite-0.0.8-py3-none-any.whl
+[2024-05-01 08:06:01] INFO root fetch - processPackages [lino-welfare]: Downloading https://files.pythonhosted.org/packages/0e/09/54afe188414b03186386472957ed054e2b85fa04f2b89299e2988aa8e042/lino-welfare-24.3.1.tar.gz
+[2024-05-01 08:06:01] INFO root fetch - processPackages [pulumi-ec]: executing diffoscope
+[2024-05-01 08:06:01] INFO root fetch - processPackages [pulumi-ec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_ec-0.8.1a1714109915.tar.gz tmp/pulumi_ec-0.9.0a1714455359.tar.gz --markdown 20240501/p/pulumi-ec/0.8.1a1714109915-0.9.0a1714455359/README.md --exclude *.pyd
+[2024-05-01 08:06:01] INFO root fetch - processPackages [manyhttps]: Downloading https://files.pythonhosted.org/packages/5d/7f/a525de515b8cc045252a5bee711165bfc29a7232fb0724e8cc9693f79520/manyhttps-2.33.12.tar.gz
+[2024-05-01 08:06:01] INFO root fetch - processPackages [cleese-stim]: Downloading https://files.pythonhosted.org/packages/e2/3e/7c5df974e65535bfb169456c21f8d1ae172db53d4c6957c8cd2a820afeed/cleese_stim-2.1.0.tar.gz
+[2024-05-01 08:06:01] INFO root fetch - processPackages [manyhttps]: executing diffoscope
+[2024-05-01 08:06:01] INFO root fetch - processPackages [manyhttps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/manyhttps-2.33.11.tar.gz tmp/manyhttps-2.33.12.tar.gz --markdown 20240501/m/manyhttps/2.33.11-2.33.12/README.md --exclude *.pyd
+[2024-05-01 08:06:01] INFO root fetch - processPackages [cleese-stim]: executing diffoscope
+[2024-05-01 08:06:01] INFO root fetch - processPackages [cleese-stim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cleese_stim-2.0.0.tar.gz tmp/cleese_stim-2.1.0.tar.gz --markdown 20240501/c/cleese-stim/2.0.0-2.1.0/README.md --exclude *.pyd
+[2024-05-01 08:06:01] INFO root fetch - processPackages [escaper-lite]: Downloading https://files.pythonhosted.org/packages/ff/84/b19366ffe128cf28325a624031ca2a5e26d5ba18a03e31ee4ee7fad2be34/escaper_lite-0.0.9-py3-none-any.whl
+[2024-05-01 08:06:01] INFO root fetch - processPackages [escaper-lite]: executing diffoscope
+[2024-05-01 08:06:01] INFO root fetch - processPackages [escaper-lite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/escaper_lite-0.0.8-py3-none-any.whl.zip tmp/escaper_lite-0.0.9-py3-none-any.whl.zip --markdown 20240501/e/escaper-lite/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-01 08:06:01] INFO root fetch - processPackages [lino-welfare]: Downloading https://files.pythonhosted.org/packages/e5/bd/b9b33bd4efd9f09270a72068a7e18fe49bb830917ae3e6532ec4ff2a3d8a/lino-welfare-24.5.0.tar.gz
+[2024-05-01 08:06:01] INFO root fetch - processPackages [pulumi-ec]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_ec-0.8.1a1714109915.tar.gz]
+[2024-05-01 08:06:01] INFO root fetch - processPackages [pulumi-ec]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_ec-0.9.0a1714455359.tar.gz]
+[2024-05-01 08:06:01] INFO root fetch - main [MainThread]: End processing [pulumi-ec]: success
+[2024-05-01 08:06:01] INFO root fetch - processPackages [lino-welfare]: executing diffoscope
+[2024-05-01 08:06:01] INFO root fetch - processPackages [lino-welfare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lino-welfare-24.3.1.tar.gz tmp/lino-welfare-24.5.0.tar.gz --markdown 20240501/l/lino-welfare/24.3.1-24.5.0/README.md --exclude *.pyd
+[2024-05-01 08:06:01] INFO root fetch - processPackages [manyhttps]: Remove: archive file [/home/abi/fetcher/tmp/manyhttps-2.33.11.tar.gz]
+[2024-05-01 08:06:01] INFO root fetch - processPackages [manyhttps]: Remove: archive file [/home/abi/fetcher/tmp/manyhttps-2.33.12.tar.gz]
+[2024-05-01 08:06:01] INFO root fetch - main [MainThread]: End processing [manyhttps]: success
+[2024-05-01 08:06:01] INFO root fetch - processPackages [cleese-stim]: Remove: archive file [/home/abi/fetcher/tmp/cleese_stim-2.0.0.tar.gz]
+[2024-05-01 08:06:01] INFO root fetch - processPackages [cleese-stim]: Remove: archive file [/home/abi/fetcher/tmp/cleese_stim-2.1.0.tar.gz]
+[2024-05-01 08:06:01] INFO root fetch - main [MainThread]: End processing [cleese-stim]: success
+[2024-05-01 08:06:01] INFO root fetch - processPackages [escaper-lite]: Remove: archive file [/home/abi/fetcher/tmp/escaper_lite-0.0.8-py3-none-any.whl.zip]
+[2024-05-01 08:06:01] INFO root fetch - processPackages [escaper-lite]: Remove: archive file [/home/abi/fetcher/tmp/escaper_lite-0.0.9-py3-none-any.whl.zip]
+[2024-05-01 08:06:01] INFO root fetch - main [MainThread]: End processing [escaper-lite]: success
+[2024-05-01 08:06:03] INFO root fetch - processPackages [lino-welfare]: Remove: archive file [/home/abi/fetcher/tmp/lino-welfare-24.3.1.tar.gz]
+[2024-05-01 08:06:03] INFO root fetch - processPackages [lino-welfare]: Remove: archive file [/home/abi/fetcher/tmp/lino-welfare-24.5.0.tar.gz]
+[2024-05-01 08:06:03] INFO root fetch - main [MainThread]: End processing [lino-welfare]: success
+[2024-05-01 08:06:03] INFO root fetch - main [MainThread]: Store serial: [23012922]
