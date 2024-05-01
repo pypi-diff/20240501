@@ -10023,3 +10023,69 @@
 [2024-05-01 07:39:15] INFO root fetch - processPackages [pulumi-aiven]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aiven-6.9.0a1704274395.tar.gz]
 [2024-05-01 07:39:15] INFO root fetch - main [MainThread]: End processing [pulumi-aiven]: success
 [2024-05-01 07:39:15] INFO root fetch - main [MainThread]: Store serial: [23012730]
+[2024-05-01 07:41:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23012730]
+[2024-05-01 07:41:25] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-01 07:41:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flowkit-jwt-generator
+[2024-05-01 07:41:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flowclient
+[2024-05-01 07:41:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-azuread
+[2024-05-01 07:41:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: flowmachine
+[2024-05-01 07:41:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: flowetl
+[2024-05-01 07:41:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi-confluentcloud
+[2024-05-01 07:41:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: reasoner-validator
+[2024-05-01 07:41:26] INFO root fetch - processPackages [pulumi-azuread]: New version: [5.9.0a1637590268] Old Version: [5.9.0]
+[2024-05-01 07:41:26] INFO root fetch - processPackages [flowclient]: New version: [1.9.4.post0.dev76] Old Version: [1.9.4.post0.dev70]
+[2024-05-01 07:41:26] INFO root fetch - processPackages [pulumi-confluentcloud]: New version: [1.9.0a1675887560] Old Version: [1.9.0]
+[2024-05-01 07:41:26] INFO root fetch - processPackages [flowetl]: New version: [1.9.4.post0.dev76] Old Version: [1.9.4.post0.dev70]
+[2024-05-01 07:41:26] INFO root fetch - processPackages [flowkit-jwt-generator]: New version: [1.25.0.post0.dev7] Old Version: [1.25.0.post0.dev52]
+[2024-05-01 07:41:26] INFO root fetch - processPackages [reasoner-validator]: New version: [4.1.2] Old Version: [4.1.1]
+[2024-05-01 07:41:26] INFO root fetch - processPackages [pulumi-azuread]: Downloading https://files.pythonhosted.org/packages/f4/f7/ac3012c15949ee976d13803f93ece9979adca66c4e8ad22f982d9ef2bd26/pulumi_azuread-5.9.0.tar.gz
+[2024-05-01 07:41:26] INFO root fetch - processPackages [flowmachine]: New version: [1.9.4.post0.dev76] Old Version: [1.9.4.post0.dev70]
+[2024-05-01 07:41:26] INFO root fetch - processPackages [pulumi-confluentcloud]: Downloading https://files.pythonhosted.org/packages/ee/5c/83ab7b1cf2467d8b22165c469862d15e131885dbf277da0d1bb686af03fe/pulumi_confluentcloud-1.9.0.tar.gz
+[2024-05-01 07:41:26] INFO root fetch - processPackages [flowclient]: Downloading https://files.pythonhosted.org/packages/6e/37/bfddd70659fed8e7ba3a486ccedc2b55d3a84bf6338dbd6fda2fc4b2d415/flowclient-1.9.4.post0.dev70-py3-none-any.whl
+[2024-05-01 07:41:26] INFO root fetch - processPackages [flowetl]: Downloading https://files.pythonhosted.org/packages/7d/68/60330ef4aed6e6a0e8c8f1474a60a9868ed4e2bf928a79eae26c2becd5cb/flowetl-1.9.4.post0.dev70-py3-none-any.whl
+[2024-05-01 07:41:26] INFO root fetch - processPackages [flowkit-jwt-generator]: Downloading https://files.pythonhosted.org/packages/0f/77/077701802da8caa04e5e247582ae76db6f1e3039d32a2e2a954606b8e3e6/flowkit_jwt_generator-1.25.0.post0.dev52-py3-none-any.whl
+[2024-05-01 07:41:26] INFO root fetch - processPackages [pulumi-azuread]: Downloading https://files.pythonhosted.org/packages/80/14/c6fa237dd848e602cd45db3de0b2cd017ce8857a3e21b8e9a3802d60ebbb/pulumi_azuread-5.9.0a1637590268.tar.gz
+[2024-05-01 07:41:26] INFO root fetch - processPackages [flowmachine]: Downloading https://files.pythonhosted.org/packages/ff/bf/14ac068a066254bcc3b11ea0939b748a8b86f4e7e01bff260e84c6428c02/flowmachine-1.9.4.post0.dev70-py3-none-any.whl
+[2024-05-01 07:41:26] INFO root fetch - processPackages [flowclient]: Downloading https://files.pythonhosted.org/packages/3e/ea/cf6edcf54b4b9f2c2c6149b4a6c3d8c57011245b7036b7468a43028bb1db/flowclient-1.9.4.post0.dev76-py3-none-any.whl
+[2024-05-01 07:41:26] INFO root fetch - processPackages [reasoner-validator]: Downloading https://files.pythonhosted.org/packages/53/b3/d62e5850706b57e1a7742fed467b77efbb9181e39670139571598bf676c9/reasoner_validator-4.1.1.tar.gz
+[2024-05-01 07:41:26] INFO root fetch - processPackages [pulumi-confluentcloud]: Downloading https://files.pythonhosted.org/packages/ec/f6/4c3900e97797a3f84c4c58458a6334035e702bd96d9ed3ec48d8e6e20f4e/pulumi_confluentcloud-1.9.0a1675887560.tar.gz
+[2024-05-01 07:41:26] INFO root fetch - processPackages [flowetl]: Downloading https://files.pythonhosted.org/packages/aa/29/1fe11f39e3155139661660c2caf8caf80ccb6e0fce150e201a56d2aaf812/flowetl-1.9.4.post0.dev76-py3-none-any.whl
+[2024-05-01 07:41:26] INFO root fetch - processPackages [pulumi-azuread]: executing diffoscope
+[2024-05-01 07:41:26] INFO root fetch - processPackages [pulumi-azuread]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_azuread-5.9.0.tar.gz tmp/pulumi_azuread-5.9.0a1637590268.tar.gz --markdown 20240501/p/pulumi-azuread/5.9.0-5.9.0a1637590268/README.md --exclude *.pyd
+[2024-05-01 07:41:26] INFO root fetch - processPackages [flowkit-jwt-generator]: Downloading https://files.pythonhosted.org/packages/16/5d/7b2f3634ff98dbdedb13d57a8e191d602af6eece9e82d2f1aba2cb09a4f4/flowkit_jwt_generator-1.25.0.post0.dev7-py3-none-any.whl
+[2024-05-01 07:41:26] INFO root fetch - processPackages [flowclient]: executing diffoscope
+[2024-05-01 07:41:26] INFO root fetch - processPackages [flowclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowclient-1.9.4.post0.dev70-py3-none-any.whl.zip tmp/flowclient-1.9.4.post0.dev76-py3-none-any.whl.zip --markdown 20240501/f/flowclient/1.9.4.post0.dev70-1.9.4.post0.dev76/README.md --exclude *.pyd
+[2024-05-01 07:41:26] INFO root fetch - processPackages [pulumi-confluentcloud]: executing diffoscope
+[2024-05-01 07:41:26] INFO root fetch - processPackages [pulumi-confluentcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_confluentcloud-1.9.0.tar.gz tmp/pulumi_confluentcloud-1.9.0a1675887560.tar.gz --markdown 20240501/p/pulumi-confluentcloud/1.9.0-1.9.0a1675887560/README.md --exclude *.pyd
+[2024-05-01 07:41:26] INFO root fetch - processPackages [flowetl]: executing diffoscope
+[2024-05-01 07:41:26] INFO root fetch - processPackages [flowetl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowetl-1.9.4.post0.dev70-py3-none-any.whl.zip tmp/flowetl-1.9.4.post0.dev76-py3-none-any.whl.zip --markdown 20240501/f/flowetl/1.9.4.post0.dev70-1.9.4.post0.dev76/README.md --exclude *.pyd
+[2024-05-01 07:41:26] INFO root fetch - processPackages [flowkit-jwt-generator]: executing diffoscope
+[2024-05-01 07:41:26] INFO root fetch - processPackages [flowkit-jwt-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowkit_jwt_generator-1.25.0.post0.dev52-py3-none-any.whl.zip tmp/flowkit_jwt_generator-1.25.0.post0.dev7-py3-none-any.whl.zip --markdown 20240501/f/flowkit-jwt-generator/1.25.0.post0.dev52-1.25.0.post0.dev7/README.md --exclude *.pyd
+[2024-05-01 07:41:26] INFO root fetch - processPackages [reasoner-validator]: Downloading https://files.pythonhosted.org/packages/59/23/66cb879b376165b1ef041d1f4c963e8b3aaf9a53357a72e86bed9f6bb2c2/reasoner_validator-4.1.2.tar.gz
+[2024-05-01 07:41:27] INFO root fetch - processPackages [flowmachine]: Downloading https://files.pythonhosted.org/packages/25/d8/7f2f3ed6764c57835d2e49a0547b3be72952a62e845b2f82cfb00d4847df/flowmachine-1.9.4.post0.dev76-py3-none-any.whl
+[2024-05-01 07:41:27] INFO root fetch - processPackages [reasoner-validator]: executing diffoscope
+[2024-05-01 07:41:27] INFO root fetch - processPackages [reasoner-validator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reasoner_validator-4.1.1.tar.gz tmp/reasoner_validator-4.1.2.tar.gz --markdown 20240501/r/reasoner-validator/4.1.1-4.1.2/README.md --exclude *.pyd
+[2024-05-01 07:41:27] INFO root fetch - processPackages [flowmachine]: executing diffoscope
+[2024-05-01 07:41:27] INFO root fetch - processPackages [flowmachine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowmachine-1.9.4.post0.dev70-py3-none-any.whl.zip tmp/flowmachine-1.9.4.post0.dev76-py3-none-any.whl.zip --markdown 20240501/f/flowmachine/1.9.4.post0.dev70-1.9.4.post0.dev76/README.md --exclude *.pyd
+[2024-05-01 07:41:27] INFO root fetch - processPackages [flowclient]: Remove: archive file [/home/abi/fetcher/tmp/flowclient-1.9.4.post0.dev70-py3-none-any.whl.zip]
+[2024-05-01 07:41:27] INFO root fetch - processPackages [flowclient]: Remove: archive file [/home/abi/fetcher/tmp/flowclient-1.9.4.post0.dev76-py3-none-any.whl.zip]
+[2024-05-01 07:41:27] INFO root fetch - main [MainThread]: End processing [flowclient]: success
+[2024-05-01 07:41:27] INFO root fetch - processPackages [flowkit-jwt-generator]: Remove: archive file [/home/abi/fetcher/tmp/flowkit_jwt_generator-1.25.0.post0.dev52-py3-none-any.whl.zip]
+[2024-05-01 07:41:27] INFO root fetch - processPackages [flowkit-jwt-generator]: Remove: archive file [/home/abi/fetcher/tmp/flowkit_jwt_generator-1.25.0.post0.dev7-py3-none-any.whl.zip]
+[2024-05-01 07:41:27] INFO root fetch - main [MainThread]: End processing [flowkit-jwt-generator]: success
+[2024-05-01 07:41:27] INFO root fetch - processPackages [flowetl]: Remove: archive file [/home/abi/fetcher/tmp/flowetl-1.9.4.post0.dev70-py3-none-any.whl.zip]
+[2024-05-01 07:41:27] INFO root fetch - processPackages [flowetl]: Remove: archive file [/home/abi/fetcher/tmp/flowetl-1.9.4.post0.dev76-py3-none-any.whl.zip]
+[2024-05-01 07:41:27] INFO root fetch - main [MainThread]: End processing [flowetl]: success
+[2024-05-01 07:41:27] INFO root fetch - processPackages [pulumi-confluentcloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_confluentcloud-1.9.0.tar.gz]
+[2024-05-01 07:41:27] INFO root fetch - processPackages [pulumi-confluentcloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_confluentcloud-1.9.0a1675887560.tar.gz]
+[2024-05-01 07:41:27] INFO root fetch - main [MainThread]: End processing [pulumi-confluentcloud]: success
+[2024-05-01 07:41:27] INFO root fetch - processPackages [pulumi-azuread]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azuread-5.9.0.tar.gz]
+[2024-05-01 07:41:27] INFO root fetch - processPackages [pulumi-azuread]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azuread-5.9.0a1637590268.tar.gz]
+[2024-05-01 07:41:27] INFO root fetch - main [MainThread]: End processing [pulumi-azuread]: success
+[2024-05-01 07:41:28] INFO root fetch - processPackages [reasoner-validator]: Remove: archive file [/home/abi/fetcher/tmp/reasoner_validator-4.1.1.tar.gz]
+[2024-05-01 07:41:28] INFO root fetch - processPackages [reasoner-validator]: Remove: archive file [/home/abi/fetcher/tmp/reasoner_validator-4.1.2.tar.gz]
+[2024-05-01 07:41:28] INFO root fetch - main [MainThread]: End processing [reasoner-validator]: success
+[2024-05-01 07:41:28] INFO root fetch - processPackages [flowmachine]: Remove: archive file [/home/abi/fetcher/tmp/flowmachine-1.9.4.post0.dev70-py3-none-any.whl.zip]
+[2024-05-01 07:41:28] INFO root fetch - processPackages [flowmachine]: Remove: archive file [/home/abi/fetcher/tmp/flowmachine-1.9.4.post0.dev76-py3-none-any.whl.zip]
+[2024-05-01 07:41:28] INFO root fetch - main [MainThread]: End processing [flowmachine]: success
+[2024-05-01 07:41:28] INFO root fetch - main [MainThread]: Store serial: [23012747]
