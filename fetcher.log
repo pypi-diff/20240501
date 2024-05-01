@@ -12598,3 +12598,42 @@
 [2024-05-01 10:12:25] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
 [2024-05-01 10:12:25] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
 [2024-05-01 10:12:25] INFO root fetch - main [MainThread]: Store serial: [23013930]
+[2024-05-01 10:14:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23013930]
+[2024-05-01 10:14:34] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-01 10:14:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gitblog2
+[2024-05-01 10:14:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: afeng-py-tools
+[2024-05-01 10:14:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ops-py-azure-key-vault-alert
+[2024-05-01 10:14:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: FockStateCircuit
+[2024-05-01 10:14:34] INFO root fetch - processPackages [gitblog2]: New version: [2.2.0] Old Version: [2.1.5]
+[2024-05-01 10:14:34] INFO root fetch - processPackages [gitblog2]: Downloading https://files.pythonhosted.org/packages/9c/ac/89c250b9dbbca4ae82e7067a4fc0d3b955e2a69c73e022f79d548bb4e04a/gitblog2-2.1.5.tar.gz
+[2024-05-01 10:14:34] INFO root fetch - processPackages [ops-py-azure-key-vault-alert]: New version: [4.8.0] Old Version: [4.7.2]
+[2024-05-01 10:14:34] INFO root fetch - processPackages [FockStateCircuit]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-01 10:14:34] INFO root fetch - processPackages [afeng-py-tools]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-01 10:14:34] INFO root fetch - processPackages [afeng-py-tools]: Downloading https://files.pythonhosted.org/packages/03/96/e24f6bbf418707708ed1ab31dd8f4af000cdfcd56c3955e6bcf876e28182/afeng-py-tools-0.0.98.tar.gz
+[2024-05-01 10:14:34] INFO root fetch - processPackages [gitblog2]: Downloading https://files.pythonhosted.org/packages/e6/20/91301981d6af55af5b385094033aeebb130a6ac18d0059374852557b4aec/gitblog2-2.2.0.tar.gz
+[2024-05-01 10:14:34] INFO root fetch - processPackages [ops-py-azure-key-vault-alert]: Downloading https://files.pythonhosted.org/packages/0e/a9/7f22c0c2c01d95cc79fdfd9491887cf87e04a1de1a1597cb701d6282474b/ops_py_azure_key_vault_alert-4.7.2.tar.gz
+[2024-05-01 10:14:34] INFO root fetch - processPackages [FockStateCircuit]: Downloading https://files.pythonhosted.org/packages/1e/a0/37990e8c544ec52309eb9c6070857150955bf35ca07cd2a3b1915998b35f/fockstatecircuit-1.0.1.tar.gz
+[2024-05-01 10:14:34] INFO root fetch - processPackages [gitblog2]: executing diffoscope
+[2024-05-01 10:14:34] INFO root fetch - processPackages [gitblog2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitblog2-2.1.5.tar.gz tmp/gitblog2-2.2.0.tar.gz --markdown 20240501/g/gitblog2/2.1.5-2.2.0/README.md --exclude *.pyd
+[2024-05-01 10:14:34] INFO root fetch - processPackages [ops-py-azure-key-vault-alert]: Downloading https://files.pythonhosted.org/packages/f9/5d/56ef6f895d9f053f203ecb81ddb69a3a8c552fcf1c347d5f0246b202b284/ops_py_azure_key_vault_alert-4.8.0.tar.gz
+[2024-05-01 10:14:34] INFO root fetch - processPackages [afeng-py-tools]: Downloading https://files.pythonhosted.org/packages/b2/0a/41c6034fd5c224a859e4249b1b09e63d7acefba4ae5ac80d406a778a1e32/afeng-py-tools-0.0.99.tar.gz
+[2024-05-01 10:14:34] INFO root fetch - processPackages [FockStateCircuit]: Downloading https://files.pythonhosted.org/packages/71/89/86338f68e26cad4b04f4a9e5c45556a088397415269f2495c634986c4e4b/fockstatecircuit-1.0.2.tar.gz
+[2024-05-01 10:14:34] INFO root fetch - processPackages [afeng-py-tools]: executing diffoscope
+[2024-05-01 10:14:34] INFO root fetch - processPackages [afeng-py-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/afeng-py-tools-0.0.98.tar.gz tmp/afeng-py-tools-0.0.99.tar.gz --markdown 20240501/a/afeng-py-tools/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-01 10:14:35] INFO root fetch - processPackages [ops-py-azure-key-vault-alert]: executing diffoscope
+[2024-05-01 10:14:35] INFO root fetch - processPackages [ops-py-azure-key-vault-alert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ops_py_azure_key_vault_alert-4.7.2.tar.gz tmp/ops_py_azure_key_vault_alert-4.8.0.tar.gz --markdown 20240501/o/ops-py-azure-key-vault-alert/4.7.2-4.8.0/README.md --exclude *.pyd
+[2024-05-01 10:14:35] INFO root fetch - processPackages [FockStateCircuit]: executing diffoscope
+[2024-05-01 10:14:35] INFO root fetch - processPackages [FockStateCircuit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fockstatecircuit-1.0.1.tar.gz tmp/fockstatecircuit-1.0.2.tar.gz --markdown 20240501/F/FockStateCircuit/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-01 10:14:35] INFO root fetch - processPackages [gitblog2]: Remove: archive file [/home/abi/fetcher/tmp/gitblog2-2.1.5.tar.gz]
+[2024-05-01 10:14:35] INFO root fetch - processPackages [gitblog2]: Remove: archive file [/home/abi/fetcher/tmp/gitblog2-2.2.0.tar.gz]
+[2024-05-01 10:14:35] INFO root fetch - main [MainThread]: End processing [gitblog2]: success
+[2024-05-01 10:14:35] INFO root fetch - processPackages [ops-py-azure-key-vault-alert]: Remove: archive file [/home/abi/fetcher/tmp/ops_py_azure_key_vault_alert-4.7.2.tar.gz]
+[2024-05-01 10:14:35] INFO root fetch - processPackages [ops-py-azure-key-vault-alert]: Remove: archive file [/home/abi/fetcher/tmp/ops_py_azure_key_vault_alert-4.8.0.tar.gz]
+[2024-05-01 10:14:35] INFO root fetch - main [MainThread]: End processing [ops-py-azure-key-vault-alert]: success
+[2024-05-01 10:14:36] INFO root fetch - processPackages [FockStateCircuit]: Remove: archive file [/home/abi/fetcher/tmp/fockstatecircuit-1.0.1.tar.gz]
+[2024-05-01 10:14:36] INFO root fetch - processPackages [FockStateCircuit]: Remove: archive file [/home/abi/fetcher/tmp/fockstatecircuit-1.0.2.tar.gz]
+[2024-05-01 10:14:36] INFO root fetch - main [MainThread]: End processing [FockStateCircuit]: success
+[2024-05-01 10:14:36] INFO root fetch - processPackages [afeng-py-tools]: Remove: archive file [/home/abi/fetcher/tmp/afeng-py-tools-0.0.98.tar.gz]
+[2024-05-01 10:14:36] INFO root fetch - processPackages [afeng-py-tools]: Remove: archive file [/home/abi/fetcher/tmp/afeng-py-tools-0.0.99.tar.gz]
+[2024-05-01 10:14:36] INFO root fetch - main [MainThread]: End processing [afeng-py-tools]: success
+[2024-05-01 10:14:36] INFO root fetch - main [MainThread]: Store serial: [23013943]
