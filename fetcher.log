@@ -21413,3 +21413,33 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-01 15:33:13] INFO root fetch - processPackages [ds20kdb-avt]: Remove: archive file [/home/abi/fetcher/tmp/ds20kdb_avt-1.0.9.tar.gz]
 [2024-05-01 15:33:13] INFO root fetch - main [MainThread]: End processing [ds20kdb-avt]: success
 [2024-05-01 15:33:13] INFO root fetch - main [MainThread]: Store serial: [23017462]
+[2024-05-01 15:35:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23017462]
+[2024-05-01 15:35:21] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-01 15:35:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-outlook-email-backend
+[2024-05-01 15:35:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vault-fix
+[2024-05-01 15:35:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ocsf-validator
+[2024-05-01 15:35:21] INFO root fetch - processPackages [django-outlook-email-backend]: New version: [1.0.0] Old Version: [0.3.8]
+[2024-05-01 15:35:21] INFO root fetch - processPackages [django-outlook-email-backend]: Downloading https://files.pythonhosted.org/packages/60/82/e7f525c64fd68efb83caf5bda83a4dd5fcf92439fd6391dc1d2a27a4b5c6/django_outlook_email_backend-0.3.8.tar.gz
+[2024-05-01 15:35:21] INFO root fetch - processPackages [vault-fix]: New version: [1.4.0] Old Version: [1.3.3]
+[2024-05-01 15:35:21] INFO root fetch - processPackages [ocsf-validator]: New version: [0.1.9] Old Version: [0.1.7]
+[2024-05-01 15:35:22] INFO root fetch - processPackages [vault-fix]: Downloading https://files.pythonhosted.org/packages/49/1d/207d2886143c58bd81a874505314a1e18dbae02346006380d2ad183c7500/vault_fix-1.3.3.tar.gz
+[2024-05-01 15:35:22] INFO root fetch - processPackages [ocsf-validator]: Downloading https://files.pythonhosted.org/packages/aa/06/be5a69407a5774b290d7296b6372cb29e2eec2a5f22c4a08520ad4196d96/ocsf_validator-0.1.7.tar.gz
+[2024-05-01 15:35:22] INFO root fetch - processPackages [django-outlook-email-backend]: Downloading https://files.pythonhosted.org/packages/fa/67/268d73463c9a2d9187f6bf3595e7d4a72f85bb4768779f6429e56b734776/django_outlook_email_backend-1.0.0.tar.gz
+[2024-05-01 15:35:22] INFO root fetch - processPackages [django-outlook-email-backend]: executing diffoscope
+[2024-05-01 15:35:22] INFO root fetch - processPackages [django-outlook-email-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_outlook_email_backend-0.3.8.tar.gz tmp/django_outlook_email_backend-1.0.0.tar.gz --markdown 20240501/d/django-outlook-email-backend/0.3.8-1.0.0/README.md --exclude *.pyd
+[2024-05-01 15:35:22] INFO root fetch - processPackages [vault-fix]: Downloading https://files.pythonhosted.org/packages/e3/8f/95114b0f0b5a82fb25b7416160615326298fe1a5c555a12701aadd6c2559/vault_fix-1.4.0.tar.gz
+[2024-05-01 15:35:22] INFO root fetch - processPackages [ocsf-validator]: Downloading https://files.pythonhosted.org/packages/80/ad/4c4807afda0a8fedc445bd5124a26b3432de1e815b1100fa788899bdc4e5/ocsf_validator-0.1.9.tar.gz
+[2024-05-01 15:35:22] INFO root fetch - processPackages [vault-fix]: executing diffoscope
+[2024-05-01 15:35:22] INFO root fetch - processPackages [vault-fix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vault_fix-1.3.3.tar.gz tmp/vault_fix-1.4.0.tar.gz --markdown 20240501/v/vault-fix/1.3.3-1.4.0/README.md --exclude *.pyd
+[2024-05-01 15:35:22] INFO root fetch - processPackages [ocsf-validator]: executing diffoscope
+[2024-05-01 15:35:22] INFO root fetch - processPackages [ocsf-validator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ocsf_validator-0.1.7.tar.gz tmp/ocsf_validator-0.1.9.tar.gz --markdown 20240501/o/ocsf-validator/0.1.7-0.1.9/README.md --exclude *.pyd
+[2024-05-01 15:35:22] INFO root fetch - processPackages [django-outlook-email-backend]: Remove: archive file [/home/abi/fetcher/tmp/django_outlook_email_backend-0.3.8.tar.gz]
+[2024-05-01 15:35:22] INFO root fetch - processPackages [django-outlook-email-backend]: Remove: archive file [/home/abi/fetcher/tmp/django_outlook_email_backend-1.0.0.tar.gz]
+[2024-05-01 15:35:22] INFO root fetch - main [MainThread]: End processing [django-outlook-email-backend]: success
+[2024-05-01 15:35:23] INFO root fetch - processPackages [ocsf-validator]: Remove: archive file [/home/abi/fetcher/tmp/ocsf_validator-0.1.7.tar.gz]
+[2024-05-01 15:35:23] INFO root fetch - processPackages [ocsf-validator]: Remove: archive file [/home/abi/fetcher/tmp/ocsf_validator-0.1.9.tar.gz]
+[2024-05-01 15:35:23] INFO root fetch - main [MainThread]: End processing [ocsf-validator]: success
+[2024-05-01 15:35:23] INFO root fetch - processPackages [vault-fix]: Remove: archive file [/home/abi/fetcher/tmp/vault_fix-1.3.3.tar.gz]
+[2024-05-01 15:35:23] INFO root fetch - processPackages [vault-fix]: Remove: archive file [/home/abi/fetcher/tmp/vault_fix-1.4.0.tar.gz]
+[2024-05-01 15:35:23] INFO root fetch - main [MainThread]: End processing [vault-fix]: success
+[2024-05-01 15:35:23] INFO root fetch - main [MainThread]: Store serial: [23017471]
