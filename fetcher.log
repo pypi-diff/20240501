@@ -8685,3 +8685,15 @@
 [2024-05-01 06:07:30] INFO root fetch - processPackages [jupyter-collaboration-ui]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_collaboration_ui-1.0.0a1.tar.gz]
 [2024-05-01 06:07:30] INFO root fetch - main [MainThread]: End processing [jupyter-collaboration-ui]: success
 [2024-05-01 06:07:30] INFO root fetch - main [MainThread]: Store serial: [23012155]
+[2024-05-01 06:09:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23012155]
+[2024-05-01 06:09:40] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-01 06:09:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jcvi
+[2024-05-01 06:09:40] INFO root fetch - processPackages [jcvi]: New version: [1.4.6] Old Version: [1.4.5]
+[2024-05-01 06:09:40] INFO root fetch - processPackages [jcvi]: Downloading https://files.pythonhosted.org/packages/3b/c7/8f87e09c1bc53218c88e3cbd40b736a113062e49e0ba98afc3c204ac19b0/jcvi-1.4.5.tar.gz
+[2024-05-01 06:09:40] INFO root fetch - processPackages [jcvi]: Downloading https://files.pythonhosted.org/packages/81/04/68a236566397d00837955821accdf60957c5392275ca1c771be612f75233/jcvi-1.4.6.tar.gz
+[2024-05-01 06:09:40] INFO root fetch - processPackages [jcvi]: executing diffoscope
+[2024-05-01 06:09:40] INFO root fetch - processPackages [jcvi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jcvi-1.4.5.tar.gz tmp/jcvi-1.4.6.tar.gz --markdown 20240501/j/jcvi/1.4.5-1.4.6/README.md --exclude *.pyd
+[2024-05-01 06:09:42] INFO root fetch - processPackages [jcvi]: Remove: archive file [/home/abi/fetcher/tmp/jcvi-1.4.5.tar.gz]
+[2024-05-01 06:09:42] INFO root fetch - processPackages [jcvi]: Remove: archive file [/home/abi/fetcher/tmp/jcvi-1.4.6.tar.gz]
+[2024-05-01 06:09:42] INFO root fetch - main [MainThread]: End processing [jcvi]: success
+[2024-05-01 06:09:42] INFO root fetch - main [MainThread]: Store serial: [23012158]
