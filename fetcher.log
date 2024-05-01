@@ -14014,3 +14014,76 @@
 [2024-05-01 11:17:53] INFO root fetch - processPackages [tryton]: Remove: archive file [/home/abi/fetcher/tmp/tryton-7.2.1.tar.gz]
 [2024-05-01 11:17:53] INFO root fetch - main [MainThread]: End processing [tryton]: success
 [2024-05-01 11:17:53] INFO root fetch - main [MainThread]: Store serial: [23014600]
+[2024-05-01 11:19:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23014600]
+[2024-05-01 11:20:02] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-01 11:20:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: motormongo
+[2024-05-01 11:20:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openctp-ctpopt
+[2024-05-01 11:20:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tbp-nightly
+[2024-05-01 11:20:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tryton
+[2024-05-01 11:20:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: niutils
+[2024-05-01 11:20:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mkdoxy
+[2024-05-01 11:20:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tailucas-pylib
+[2024-05-01 11:20:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: openctp-ctpopt
+[2024-05-01 11:20:02] INFO root fetch - processPackages [openctp-ctpopt]: New version: [3.7.0.1] Old Version: [3.7.0]
+[2024-05-01 11:20:02] INFO root fetch - processPackages [openctp-ctpopt]: New version: [3.7.0.1] Old Version: [3.7.0]
+[2024-05-01 11:20:02] INFO root fetch - processPackages [tailucas-pylib]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-01 11:20:02] INFO root fetch - processPackages [tryton]: New version: [7.2.1] Old Version: [7.2.0]
+[2024-05-01 11:20:02] INFO root fetch - processPackages [mkdoxy]: New version: [1.2.3] Old Version: [1.2.2]
+[2024-05-01 11:20:02] INFO root fetch - processPackages [motormongo]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-01 11:20:02] INFO root fetch - processPackages [openctp-ctpopt]: Downloading https://files.pythonhosted.org/packages/58/e8/8a9311f28b9b39208c70d0a74b248038c620b4b4fe4b2b7a0bf8965adc32/openctp_ctpopt-3.7.0-cp39-cp39-win_amd64.whl
+[2024-05-01 11:20:02] INFO root fetch - processPackages [openctp-ctpopt]: Downloading https://files.pythonhosted.org/packages/58/e8/8a9311f28b9b39208c70d0a74b248038c620b4b4fe4b2b7a0bf8965adc32/openctp_ctpopt-3.7.0-cp39-cp39-win_amd64.whl
+[2024-05-01 11:20:02] INFO root fetch - processPackages [tbp-nightly]: New version: [2.9.0a20221130] Old Version: [2.9.0a20221129]
+[2024-05-01 11:20:02] INFO root fetch - processPackages [tailucas-pylib]: Downloading https://files.pythonhosted.org/packages/8b/07/e18360a3f1215e661127a4133217a7ef71a6b3ed5ebbd3da784af8fca745/tailucas_pylib-0.3.8.tar.gz
+[2024-05-01 11:20:02] INFO root fetch - processPackages [tryton]: Downloading https://files.pythonhosted.org/packages/4a/21/167ef40043e84be8a96e4827330b527e0348b0707bf28004d582659c07ca/tryton-7.2.0.tar.gz
+[2024-05-01 11:20:03] INFO root fetch - processPackages [mkdoxy]: Downloading https://files.pythonhosted.org/packages/24/88/e0d6b0c62703bdfe64922dca914e3604be17ac76f0ca16fc0dfeb683f705/mkdoxy-1.2.2.tar.gz
+[2024-05-01 11:20:03] INFO root fetch - processPackages [niutils]: New version: [0.7.0] Old Version: [0.6.0]
+[2024-05-01 11:20:03] INFO root fetch - processPackages [motormongo]: Downloading https://files.pythonhosted.org/packages/37/e4/bb17b6499baa3964dfd9334e3151504a0bf3edc0abc9fb66e9e4140c31c7/motormongo-0.1.8.tar.gz
+[2024-05-01 11:20:03] INFO root fetch - processPackages [tbp-nightly]: Downloading https://files.pythonhosted.org/packages/b9/6c/43a589e5ab1d1b961e5780e41057576c7abd5bf16d3f871d8ef4ebdaf461/tbp-nightly-2.9.0a20221129.tar.gz
+[2024-05-01 11:20:03] INFO root fetch - processPackages [tailucas-pylib]: Downloading https://files.pythonhosted.org/packages/b4/37/85cfaca4b6f870f5affa308382e0b39f01618ec0a030876e539e63b7f183/tailucas_pylib-0.3.9.tar.gz
+[2024-05-01 11:20:03] INFO root fetch - processPackages [tryton]: Downloading https://files.pythonhosted.org/packages/cf/c2/6ac907d058e8b170fa98b8d7a1fc28632af8091b1ae3ccf6336cb3dd0c59/tryton-7.2.1.tar.gz
+[2024-05-01 11:20:03] INFO root fetch - processPackages [niutils]: Downloading https://files.pythonhosted.org/packages/f0/29/3ed8c3352a0836a7934fbb1d88de5556488e762e6c98006a21ae183ba53e/niutils-0.6.0.tar.gz
+[2024-05-01 11:20:03] INFO root fetch - processPackages [tailucas-pylib]: executing diffoscope
+[2024-05-01 11:20:03] INFO root fetch - processPackages [tailucas-pylib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tailucas_pylib-0.3.8.tar.gz tmp/tailucas_pylib-0.3.9.tar.gz --markdown 20240501/t/tailucas-pylib/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-01 11:20:03] INFO root fetch - processPackages [mkdoxy]: Downloading https://files.pythonhosted.org/packages/a8/4a/79b8d79c3f00675d6f63f718dca944cc1eaffde75f63d175ebe3f4e03a04/mkdoxy-1.2.3.tar.gz
+[2024-05-01 11:20:03] INFO root fetch - processPackages [openctp-ctpopt]: Downloading https://files.pythonhosted.org/packages/2b/87/0c5c916e2d35121e14bfc23c829fc121fe03bcc333d33a8cc795e0b43047/openctp_ctpopt-3.7.0.1-cp39-cp39-win_amd64.whl
+[2024-05-01 11:20:03] INFO root fetch - processPackages [openctp-ctpopt]: Downloading https://files.pythonhosted.org/packages/2b/87/0c5c916e2d35121e14bfc23c829fc121fe03bcc333d33a8cc795e0b43047/openctp_ctpopt-3.7.0.1-cp39-cp39-win_amd64.whl
+[2024-05-01 11:20:03] INFO root fetch - processPackages [motormongo]: Downloading https://files.pythonhosted.org/packages/68/9b/2c3e8d498bd8d80a07f50995f9ba26e1f1ac53bb5970e354061ef878d845/motormongo-0.1.9.tar.gz
+[2024-05-01 11:20:03] INFO root fetch - processPackages [tryton]: executing diffoscope
+[2024-05-01 11:20:03] INFO root fetch - processPackages [tryton]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tryton-7.2.0.tar.gz tmp/tryton-7.2.1.tar.gz --markdown 20240501/t/tryton/7.2.0-7.2.1/README.md --exclude *.pyd
+[2024-05-01 11:20:03] INFO root fetch - processPackages [mkdoxy]: executing diffoscope
+[2024-05-01 11:20:03] INFO root fetch - processPackages [mkdoxy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdoxy-1.2.2.tar.gz tmp/mkdoxy-1.2.3.tar.gz --markdown 20240501/m/mkdoxy/1.2.2-1.2.3/README.md --exclude *.pyd
+[2024-05-01 11:20:03] INFO root fetch - processPackages [motormongo]: executing diffoscope
+[2024-05-01 11:20:03] INFO root fetch - processPackages [motormongo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/motormongo-0.1.8.tar.gz tmp/motormongo-0.1.9.tar.gz --markdown 20240501/m/motormongo/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-01 11:20:03] INFO root fetch - processPackages [niutils]: Downloading https://files.pythonhosted.org/packages/fe/7b/46ab0590d5830583e6336823b693a37ccc92441fa1d11ef2b74f095bbcdf/niutils-0.7.0.tar.gz
+[2024-05-01 11:20:03] INFO root fetch - processPackages [tbp-nightly]: Downloading https://files.pythonhosted.org/packages/2e/31/c611af28c0d42c7cbb86781523f94e57796654fd8b7a7049e8a6db2eecf3/tbp-nightly-2.9.0a20221130.tar.gz
+[2024-05-01 11:20:03] INFO root fetch - processPackages [niutils]: executing diffoscope
+[2024-05-01 11:20:03] INFO root fetch - processPackages [niutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/niutils-0.6.0.tar.gz tmp/niutils-0.7.0.tar.gz --markdown 20240501/n/niutils/0.6.0-0.7.0/README.md --exclude *.pyd
+[2024-05-01 11:20:03] INFO root fetch - processPackages [openctp-ctpopt]: executing diffoscope
+[2024-05-01 11:20:03] INFO root fetch - processPackages [openctp-ctpopt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openctp_ctpopt-3.7.0-cp39-cp39-win_amd64.whl.zip tmp/openctp_ctpopt-3.7.0.1-cp39-cp39-win_amd64.whl.zip --markdown 20240501/o/openctp-ctpopt/3.7.0-3.7.0.1/README.md --exclude *.pyd
+[2024-05-01 11:20:03] INFO root fetch - processPackages [openctp-ctpopt]: executing diffoscope
+[2024-05-01 11:20:03] INFO root fetch - processPackages [openctp-ctpopt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openctp_ctpopt-3.7.0-cp39-cp39-win_amd64.whl.zip tmp/openctp_ctpopt-3.7.0.1-cp39-cp39-win_amd64.whl.zip --markdown 20240501/o/openctp-ctpopt/3.7.0-3.7.0.1/README.md --exclude *.pyd
+[2024-05-01 11:20:03] INFO root fetch - processPackages [tailucas-pylib]: Remove: archive file [/home/abi/fetcher/tmp/tailucas_pylib-0.3.8.tar.gz]
+[2024-05-01 11:20:03] INFO root fetch - processPackages [tailucas-pylib]: Remove: archive file [/home/abi/fetcher/tmp/tailucas_pylib-0.3.9.tar.gz]
+[2024-05-01 11:20:03] INFO root fetch - main [MainThread]: End processing [tailucas-pylib]: success
+[2024-05-01 11:20:04] INFO root fetch - processPackages [tbp-nightly]: executing diffoscope
+[2024-05-01 11:20:04] INFO root fetch - processPackages [tbp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tbp-nightly-2.9.0a20221129.tar.gz tmp/tbp-nightly-2.9.0a20221130.tar.gz --markdown 20240501/t/tbp-nightly/2.9.0a20221129-2.9.0a20221130/README.md --exclude *.pyd
+[2024-05-01 11:20:04] INFO root fetch - processPackages [motormongo]: Remove: archive file [/home/abi/fetcher/tmp/motormongo-0.1.8.tar.gz]
+[2024-05-01 11:20:04] INFO root fetch - processPackages [motormongo]: Remove: archive file [/home/abi/fetcher/tmp/motormongo-0.1.9.tar.gz]
+[2024-05-01 11:20:04] INFO root fetch - main [MainThread]: End processing [motormongo]: success
+[2024-05-01 11:20:04] INFO root fetch - processPackages [mkdoxy]: Remove: archive file [/home/abi/fetcher/tmp/mkdoxy-1.2.2.tar.gz]
+[2024-05-01 11:20:04] INFO root fetch - processPackages [mkdoxy]: Remove: archive file [/home/abi/fetcher/tmp/mkdoxy-1.2.3.tar.gz]
+[2024-05-01 11:20:04] INFO root fetch - main [MainThread]: End processing [mkdoxy]: success
+[2024-05-01 11:20:04] INFO root fetch - processPackages [niutils]: Remove: archive file [/home/abi/fetcher/tmp/niutils-0.6.0.tar.gz]
+[2024-05-01 11:20:04] INFO root fetch - processPackages [niutils]: Remove: archive file [/home/abi/fetcher/tmp/niutils-0.7.0.tar.gz]
+[2024-05-01 11:20:04] INFO root fetch - main [MainThread]: End processing [niutils]: success
+[2024-05-01 11:20:05] INFO root fetch - processPackages [openctp-ctpopt]: Remove: archive file [/home/abi/fetcher/tmp/openctp_ctpopt-3.7.0-cp39-cp39-win_amd64.whl.zip]
+[2024-05-01 11:20:05] INFO root fetch - processPackages [openctp-ctpopt]: Remove: archive file [/home/abi/fetcher/tmp/openctp_ctpopt-3.7.0.1-cp39-cp39-win_amd64.whl.zip]
+[2024-05-01 11:20:05] INFO root fetch - main [MainThread]: End processing [openctp-ctpopt]: success
+[2024-05-01 11:20:05] INFO root fetch - main [MainThread]: End processing [openctp-ctpopt]: success
+[2024-05-01 11:20:05] INFO root fetch - processPackages [tryton]: Remove: archive file [/home/abi/fetcher/tmp/tryton-7.2.0.tar.gz]
+[2024-05-01 11:20:05] INFO root fetch - processPackages [tryton]: Remove: archive file [/home/abi/fetcher/tmp/tryton-7.2.1.tar.gz]
+[2024-05-01 11:20:05] INFO root fetch - main [MainThread]: End processing [tryton]: success
+[2024-05-01 11:20:06] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221129.tar.gz]
+[2024-05-01 11:20:06] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221130.tar.gz]
+[2024-05-01 11:20:06] INFO root fetch - main [MainThread]: End processing [tbp-nightly]: success
+[2024-05-01 11:20:06] INFO root fetch - main [MainThread]: Store serial: [23014638]
