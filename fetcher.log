@@ -20754,3 +20754,63 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-01 15:03:15] INFO root fetch - processPackages [yalexs]: Remove: archive file [/home/abi/fetcher/tmp/yalexs-3.1.0.tar.gz]
 [2024-05-01 15:03:15] INFO root fetch - main [MainThread]: End processing [yalexs]: success
 [2024-05-01 15:03:15] INFO root fetch - main [MainThread]: Store serial: [23017173]
+[2024-05-01 15:05:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23017173]
+[2024-05-01 15:05:24] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-01 15:05:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-rke
+[2024-05-01 15:05:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: py-grpcio
+[2024-05-01 15:05:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: akshare
+[2024-05-01 15:05:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: RenewablesAutomate
+[2024-05-01 15:05:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: unit-simple
+[2024-05-01 15:05:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: recharge-api
+[2024-05-01 15:05:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: minknow-api
+[2024-05-01 15:05:24] INFO root fetch - processPackages [RenewablesAutomate]: New version: [1.0.5] Old Version: [1.0.3]
+[2024-05-01 15:05:24] INFO root fetch - processPackages [unit-simple]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-01 15:05:24] INFO root fetch - processPackages [pulumi-rke]: New version: [3.5.0a1714544849] Old Version: [3.5.0a1714458609]
+[2024-05-01 15:05:24] INFO root fetch - processPackages [akshare]: New version: [1.9.99] Old Version: [1.9.98]
+[2024-05-01 15:05:24] INFO root fetch - processPackages [recharge-api]: New version: [1.5.0] Old Version: [1.4.1]
+[2024-05-01 15:05:24] WARNING root fetch - processPackages [py-grpcio]: Skipping, unable to determine old version
+[2024-05-01 15:05:24] INFO root fetch - main [MainThread]: End processing [py-grpcio] error
+[2024-05-01 15:05:24] INFO root fetch - processPackages [minknow-api]: New version: [5.9.5] Old Version: [5.9.1]
+[2024-05-01 15:05:24] INFO root fetch - processPackages [RenewablesAutomate]: Downloading https://files.pythonhosted.org/packages/8d/bd/efe5db5de1fab25a5ba52660d51d7590813a018b080d2f51c0565f2817bd/RenewablesAutomate-1.0.3.tar.gz
+[2024-05-01 15:05:24] INFO root fetch - processPackages [unit-simple]: Downloading https://files.pythonhosted.org/packages/df/7b/632d2fa9e73ea864000ebb6629e1db037dfe07bb193cdb0490ca79050c66/unit_simple-1.0.8.tar.gz
+[2024-05-01 15:05:24] INFO root fetch - processPackages [pulumi-rke]: Downloading https://files.pythonhosted.org/packages/ef/25/f5f6f5693fb57804c57d4ba18504e6f864859daf4d901217e5ba416e4722/pulumi_rke-3.5.0a1714458609.tar.gz
+[2024-05-01 15:05:24] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/ec/a4/f1c21d8fbb349e15f0bf76d32a496003bcff9b66215f81b940337a510e36/akshare-1.9.98.tar.gz
+[2024-05-01 15:05:25] INFO root fetch - processPackages [minknow-api]: Downloading https://files.pythonhosted.org/packages/a5/15/5a79e33d311f2bb821cc86a35df0dbbebcaa85a1db6905ca4d46968f725d/minknow_api-5.9.1.tar.gz
+[2024-05-01 15:05:25] INFO root fetch - processPackages [recharge-api]: Downloading https://files.pythonhosted.org/packages/d9/17/81c1859a9eeaf42dd28977fe108beb8cf8ec83c6a1a45b2392ac3ec7aee0/recharge-api-1.4.1.tar.gz
+[2024-05-01 15:05:25] INFO root fetch - processPackages [unit-simple]: Downloading https://files.pythonhosted.org/packages/cd/fb/ca23f2ca62f65ed36ab8969c1c1d39a8a9ad8acabcce65f446271c37ceba/unit_simple-1.0.9.tar.gz
+[2024-05-01 15:05:25] INFO root fetch - processPackages [RenewablesAutomate]: Downloading https://files.pythonhosted.org/packages/8c/05/8e98aa1070fd5c8c5bee197b3ba1123986442987da4d7636e62cc058c467/RenewablesAutomate-1.0.5.tar.gz
+[2024-05-01 15:05:25] INFO root fetch - processPackages [pulumi-rke]: Downloading https://files.pythonhosted.org/packages/6c/bc/ffa2fb57f2cf9a0d6f60d54f158604f574bf95ed91bd3cf0c555b0488a44/pulumi_rke-3.5.0a1714544849.tar.gz
+[2024-05-01 15:05:25] INFO root fetch - processPackages [unit-simple]: executing diffoscope
+[2024-05-01 15:05:25] INFO root fetch - processPackages [unit-simple]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unit_simple-1.0.8.tar.gz tmp/unit_simple-1.0.9.tar.gz --markdown 20240501/u/unit-simple/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-01 15:05:25] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/53/e8/f58e96016752567ca09f3f67abdc7e935d0afa919aded528d50590ed9170/akshare-1.9.99.tar.gz
+[2024-05-01 15:05:25] INFO root fetch - processPackages [RenewablesAutomate]: executing diffoscope
+[2024-05-01 15:05:25] INFO root fetch - processPackages [RenewablesAutomate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RenewablesAutomate-1.0.3.tar.gz tmp/RenewablesAutomate-1.0.5.tar.gz --markdown 20240501/R/RenewablesAutomate/1.0.3-1.0.5/README.md --exclude *.pyd
+[2024-05-01 15:05:25] INFO root fetch - processPackages [pulumi-rke]: executing diffoscope
+[2024-05-01 15:05:25] INFO root fetch - processPackages [pulumi-rke]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_rke-3.5.0a1714458609.tar.gz tmp/pulumi_rke-3.5.0a1714544849.tar.gz --markdown 20240501/p/pulumi-rke/3.5.0a1714458609-3.5.0a1714544849/README.md --exclude *.pyd
+[2024-05-01 15:05:25] INFO root fetch - processPackages [recharge-api]: Downloading https://files.pythonhosted.org/packages/bd/45/61253de1c5284e08f5e58dd5a564a699ef040f39e6eb00e2eef73f6a030d/recharge_api-1.5.0.tar.gz
+[2024-05-01 15:05:25] INFO root fetch - processPackages [akshare]: executing diffoscope
+[2024-05-01 15:05:25] INFO root fetch - processPackages [akshare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akshare-1.9.98.tar.gz tmp/akshare-1.9.99.tar.gz --markdown 20240501/a/akshare/1.9.98-1.9.99/README.md --exclude *.pyd
+[2024-05-01 15:05:25] INFO root fetch - processPackages [minknow-api]: Downloading https://files.pythonhosted.org/packages/de/d6/5342204595bac85d9d2fb63335897d9d87e33c88795e42d07594c4ecaf2a/minknow_api-5.9.5.tar.gz
+[2024-05-01 15:05:25] INFO root fetch - processPackages [recharge-api]: executing diffoscope
+[2024-05-01 15:05:25] INFO root fetch - processPackages [recharge-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/recharge-api-1.4.1.tar.gz tmp/recharge_api-1.5.0.tar.gz --markdown 20240501/r/recharge-api/1.4.1-1.5.0/README.md --exclude *.pyd
+[2024-05-01 15:05:25] INFO root fetch - processPackages [minknow-api]: executing diffoscope
+[2024-05-01 15:05:25] INFO root fetch - processPackages [minknow-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/minknow_api-5.9.1.tar.gz tmp/minknow_api-5.9.5.tar.gz --markdown 20240501/m/minknow-api/5.9.1-5.9.5/README.md --exclude *.pyd
+[2024-05-01 15:05:25] INFO root fetch - processPackages [unit-simple]: Remove: archive file [/home/abi/fetcher/tmp/unit_simple-1.0.8.tar.gz]
+[2024-05-01 15:05:25] INFO root fetch - processPackages [unit-simple]: Remove: archive file [/home/abi/fetcher/tmp/unit_simple-1.0.9.tar.gz]
+[2024-05-01 15:05:25] INFO root fetch - main [MainThread]: End processing [unit-simple]: success
+[2024-05-01 15:05:26] INFO root fetch - processPackages [recharge-api]: Remove: archive file [/home/abi/fetcher/tmp/recharge-api-1.4.1.tar.gz]
+[2024-05-01 15:05:26] INFO root fetch - processPackages [recharge-api]: Remove: archive file [/home/abi/fetcher/tmp/recharge_api-1.5.0.tar.gz]
+[2024-05-01 15:05:26] INFO root fetch - main [MainThread]: End processing [recharge-api]: success
+[2024-05-01 15:05:26] INFO root fetch - processPackages [pulumi-rke]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_rke-3.5.0a1714458609.tar.gz]
+[2024-05-01 15:05:26] INFO root fetch - processPackages [pulumi-rke]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_rke-3.5.0a1714544849.tar.gz]
+[2024-05-01 15:05:26] INFO root fetch - main [MainThread]: End processing [pulumi-rke]: success
+[2024-05-01 15:05:26] INFO root fetch - processPackages [minknow-api]: Remove: archive file [/home/abi/fetcher/tmp/minknow_api-5.9.1.tar.gz]
+[2024-05-01 15:05:26] INFO root fetch - processPackages [minknow-api]: Remove: archive file [/home/abi/fetcher/tmp/minknow_api-5.9.5.tar.gz]
+[2024-05-01 15:05:26] INFO root fetch - main [MainThread]: End processing [minknow-api]: success
+[2024-05-01 15:05:27] INFO root fetch - processPackages [RenewablesAutomate]: Remove: archive file [/home/abi/fetcher/tmp/RenewablesAutomate-1.0.3.tar.gz]
+[2024-05-01 15:05:27] INFO root fetch - processPackages [RenewablesAutomate]: Remove: archive file [/home/abi/fetcher/tmp/RenewablesAutomate-1.0.5.tar.gz]
+[2024-05-01 15:05:27] INFO root fetch - main [MainThread]: End processing [RenewablesAutomate]: success
+[2024-05-01 15:05:27] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.98.tar.gz]
+[2024-05-01 15:05:27] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.99.tar.gz]
+[2024-05-01 15:05:27] INFO root fetch - main [MainThread]: End processing [akshare]: success
+[2024-05-01 15:05:27] INFO root fetch - main [MainThread]: Store serial: [23017195]
