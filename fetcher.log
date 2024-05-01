@@ -15541,3 +15541,42 @@
 [2024-05-01 12:26:42] INFO root fetch - main [MainThread]: End processing [scriptman]: success
 [2024-05-01 12:26:42] INFO root fetch - main [MainThread]: End processing [imsciences]: success
 [2024-05-01 12:26:42] INFO root fetch - main [MainThread]: Store serial: [23015215]
+[2024-05-01 12:28:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23015215]
+[2024-05-01 12:28:50] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-01 12:28:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tradedangerous
+[2024-05-01 12:28:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: selfclean
+[2024-05-01 12:28:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: CTDFjorder
+[2024-05-01 12:28:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyproject-maker
+[2024-05-01 12:28:50] INFO root fetch - processPackages [CTDFjorder]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-01 12:28:51] INFO root fetch - processPackages [CTDFjorder]: Downloading https://files.pythonhosted.org/packages/64/1e/cdde02d49187da2b90300582e79a24862b1881d493fc3ef75677b8225853/ctdfjorder-0.0.3.tar.gz
+[2024-05-01 12:28:51] INFO root fetch - processPackages [selfclean]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-01 12:28:51] INFO root fetch - processPackages [pyproject-maker]: New version: [0.9.5] Old Version: [0.9.4]
+[2024-05-01 12:28:51] INFO root fetch - processPackages [tradedangerous]: New version: [11.1.5] Old Version: [11.1.4]
+[2024-05-01 12:28:51] INFO root fetch - processPackages [selfclean]: Downloading https://files.pythonhosted.org/packages/20/76/7a2986cad202384e6f5d86c9c91b6f12d0a729f7108a6fbaeaac86b28339/selfclean-0.0.8.tar.gz
+[2024-05-01 12:28:51] INFO root fetch - processPackages [tradedangerous]: Downloading https://files.pythonhosted.org/packages/3b/1a/1186b77551537bbe65141d31ef6411bd7a1de0d3bdaaf39e00a239cc3c4e/tradedangerous-11.1.4.tar.gz
+[2024-05-01 12:28:51] INFO root fetch - processPackages [pyproject-maker]: Downloading https://files.pythonhosted.org/packages/84/85/fa12cb7f1b8bfe8438d4c10588089513f54e2b7afab14b725c5fc9723907/pyproject_maker-0.9.4.tar.gz
+[2024-05-01 12:28:51] INFO root fetch - processPackages [CTDFjorder]: Downloading https://files.pythonhosted.org/packages/e3/9e/76f566226dcd54893ee72431cda93b170f0e7d03ee60aed9fdd3cd49398c/ctdfjorder-0.0.4.tar.gz
+[2024-05-01 12:28:51] INFO root fetch - processPackages [CTDFjorder]: executing diffoscope
+[2024-05-01 12:28:51] INFO root fetch - processPackages [CTDFjorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ctdfjorder-0.0.3.tar.gz tmp/ctdfjorder-0.0.4.tar.gz --markdown 20240501/C/CTDFjorder/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-01 12:28:51] INFO root fetch - processPackages [tradedangerous]: Downloading https://files.pythonhosted.org/packages/38/03/1dc0c2178b08430c55dc88988faf81a050bb591627e6db9d716f684de248/tradedangerous-11.1.5.tar.gz
+[2024-05-01 12:28:51] INFO root fetch - processPackages [selfclean]: Downloading https://files.pythonhosted.org/packages/8b/6a/9e37be9ae2abd5141320c45e70feebf1f14002f5da5ecc7ac1478c0e5803/selfclean-0.0.9.tar.gz
+[2024-05-01 12:28:51] INFO root fetch - processPackages [tradedangerous]: executing diffoscope
+[2024-05-01 12:28:51] INFO root fetch - processPackages [tradedangerous]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tradedangerous-11.1.4.tar.gz tmp/tradedangerous-11.1.5.tar.gz --markdown 20240501/t/tradedangerous/11.1.4-11.1.5/README.md --exclude *.pyd
+[2024-05-01 12:28:51] INFO root fetch - processPackages [pyproject-maker]: Downloading https://files.pythonhosted.org/packages/8a/b8/0fba59730b8d400e161bf8a40b4a9d6b5bb6b8de79eecf541a4304443ef9/pyproject_maker-0.9.5.tar.gz
+[2024-05-01 12:28:51] INFO root fetch - processPackages [selfclean]: executing diffoscope
+[2024-05-01 12:28:51] INFO root fetch - processPackages [selfclean]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/selfclean-0.0.8.tar.gz tmp/selfclean-0.0.9.tar.gz --markdown 20240501/s/selfclean/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-01 12:28:51] INFO root fetch - processPackages [CTDFjorder]: Remove: archive file [/home/abi/fetcher/tmp/ctdfjorder-0.0.3.tar.gz]
+[2024-05-01 12:28:51] INFO root fetch - processPackages [CTDFjorder]: Remove: archive file [/home/abi/fetcher/tmp/ctdfjorder-0.0.4.tar.gz]
+[2024-05-01 12:28:51] INFO root fetch - main [MainThread]: End processing [CTDFjorder]: success
+[2024-05-01 12:28:52] INFO root fetch - processPackages [pyproject-maker]: executing diffoscope
+[2024-05-01 12:28:52] INFO root fetch - processPackages [pyproject-maker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyproject_maker-0.9.4.tar.gz tmp/pyproject_maker-0.9.5.tar.gz --markdown 20240501/p/pyproject-maker/0.9.4-0.9.5/README.md --exclude *.pyd
+[2024-05-01 12:28:52] INFO root fetch - processPackages [tradedangerous]: Remove: archive file [/home/abi/fetcher/tmp/tradedangerous-11.1.4.tar.gz]
+[2024-05-01 12:28:52] INFO root fetch - processPackages [tradedangerous]: Remove: archive file [/home/abi/fetcher/tmp/tradedangerous-11.1.5.tar.gz]
+[2024-05-01 12:28:52] INFO root fetch - main [MainThread]: End processing [tradedangerous]: success
+[2024-05-01 12:28:52] INFO root fetch - processPackages [pyproject-maker]: Remove: archive file [/home/abi/fetcher/tmp/pyproject_maker-0.9.4.tar.gz]
+[2024-05-01 12:28:52] INFO root fetch - processPackages [pyproject-maker]: Remove: archive file [/home/abi/fetcher/tmp/pyproject_maker-0.9.5.tar.gz]
+[2024-05-01 12:28:52] INFO root fetch - main [MainThread]: End processing [pyproject-maker]: success
+[2024-05-01 12:28:52] INFO root fetch - processPackages [selfclean]: Remove: archive file [/home/abi/fetcher/tmp/selfclean-0.0.8.tar.gz]
+[2024-05-01 12:28:52] INFO root fetch - processPackages [selfclean]: Remove: archive file [/home/abi/fetcher/tmp/selfclean-0.0.9.tar.gz]
+[2024-05-01 12:28:52] INFO root fetch - main [MainThread]: End processing [selfclean]: success
+[2024-05-01 12:28:52] INFO root fetch - main [MainThread]: Store serial: [23015243]
