@@ -11952,3 +11952,27 @@
 [2024-05-01 09:33:00] INFO root fetch - processPackages [flatfile]: Remove: archive file [/home/abi/fetcher/tmp/flatfile-0.0.9.tar.gz]
 [2024-05-01 09:33:00] INFO root fetch - main [MainThread]: End processing [flatfile]: success
 [2024-05-01 09:33:00] INFO root fetch - main [MainThread]: Store serial: [23013622]
+[2024-05-01 09:35:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23013622]
+[2024-05-01 09:35:09] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-01 09:35:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: loadspinner
+[2024-05-01 09:35:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ImmunoViewer
+[2024-05-01 09:35:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: stopwords-tr
+[2024-05-01 09:35:09] INFO root fetch - processPackages [stopwords-tr]: New version: [1.2.3] Old Version: [1.2.2]
+[2024-05-01 09:35:09] INFO root fetch - processPackages [ImmunoViewer]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-05-01 09:35:09] INFO root fetch - processPackages [stopwords-tr]: Downloading https://files.pythonhosted.org/packages/ca/e4/7748f5697a466fca1aebb4faf20958ff5f3c4ff56e3b6cb00cf67893d52a/stopwords_tr-1.2.2.tar.gz
+[2024-05-01 09:35:09] INFO root fetch - processPackages [ImmunoViewer]: Downloading https://files.pythonhosted.org/packages/9b/a0/c5e35a23ab0b54cb4990738672919b587958aa557a58c95d1dc9a721c715/immunoviewer-0.2.3.tar.gz
+[2024-05-01 09:35:09] WARNING root fetch - processPackages [loadspinner]: Skipping, unable to determine old version
+[2024-05-01 09:35:09] INFO root fetch - main [MainThread]: End processing [loadspinner] error
+[2024-05-01 09:35:10] INFO root fetch - processPackages [stopwords-tr]: Downloading https://files.pythonhosted.org/packages/f1/20/1fb6f0118ee5e500eacc569ce7328eef4a50a84b228b1ac07293e106d006/stopwords_tr-1.2.3.tar.gz
+[2024-05-01 09:35:10] INFO root fetch - processPackages [stopwords-tr]: executing diffoscope
+[2024-05-01 09:35:10] INFO root fetch - processPackages [stopwords-tr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stopwords_tr-1.2.2.tar.gz tmp/stopwords_tr-1.2.3.tar.gz --markdown 20240501/s/stopwords-tr/1.2.2-1.2.3/README.md --exclude *.pyd
+[2024-05-01 09:35:10] INFO root fetch - processPackages [ImmunoViewer]: Downloading https://files.pythonhosted.org/packages/2b/3b/28f1b734c404c0081ce622dbc71aa45d55ca23cbe469ae6beff2a2a996fe/immunoviewer-0.2.4.tar.gz
+[2024-05-01 09:35:10] INFO root fetch - processPackages [stopwords-tr]: Remove: archive file [/home/abi/fetcher/tmp/stopwords_tr-1.2.2.tar.gz]
+[2024-05-01 09:35:10] INFO root fetch - processPackages [stopwords-tr]: Remove: archive file [/home/abi/fetcher/tmp/stopwords_tr-1.2.3.tar.gz]
+[2024-05-01 09:35:10] INFO root fetch - main [MainThread]: End processing [stopwords-tr]: success
+[2024-05-01 09:35:10] INFO root fetch - processPackages [ImmunoViewer]: executing diffoscope
+[2024-05-01 09:35:10] INFO root fetch - processPackages [ImmunoViewer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/immunoviewer-0.2.3.tar.gz tmp/immunoviewer-0.2.4.tar.gz --markdown 20240501/I/ImmunoViewer/0.2.3-0.2.4/README.md --exclude *.pyd
+[2024-05-01 09:35:12] INFO root fetch - processPackages [ImmunoViewer]: Remove: archive file [/home/abi/fetcher/tmp/immunoviewer-0.2.3.tar.gz]
+[2024-05-01 09:35:12] INFO root fetch - processPackages [ImmunoViewer]: Remove: archive file [/home/abi/fetcher/tmp/immunoviewer-0.2.4.tar.gz]
+[2024-05-01 09:35:12] INFO root fetch - main [MainThread]: End processing [ImmunoViewer]: success
+[2024-05-01 09:35:12] INFO root fetch - main [MainThread]: Store serial: [23013633]
