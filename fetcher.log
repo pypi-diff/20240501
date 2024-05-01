@@ -12035,3 +12035,51 @@
 [2024-05-01 09:39:34] INFO root fetch - processPackages [twigs]: Remove: archive file [/home/abi/fetcher/tmp/twigs-1.1.9.tar.gz]
 [2024-05-01 09:39:34] INFO root fetch - main [MainThread]: End processing [twigs]: success
 [2024-05-01 09:39:34] INFO root fetch - main [MainThread]: Store serial: [23013670]
+[2024-05-01 09:41:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23013670]
+[2024-05-01 09:41:42] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-01 09:41:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: importer-local
+[2024-05-01 09:41:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: redzoo
+[2024-05-01 09:41:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: easy-notion-api
+[2024-05-01 09:41:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ops
+[2024-05-01 09:41:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wagtail-editorjs
+[2024-05-01 09:41:42] INFO root fetch - processPackages [importer-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-01 09:41:42] INFO root fetch - processPackages [importer-local]: Downloading https://files.pythonhosted.org/packages/3b/68/0b10215ac7859421c193cd0df3aab70a0aef2e2db5f22c14a5a2fd7bd732/importer-local-0.0.8.tar.gz
+[2024-05-01 09:41:42] INFO root fetch - processPackages [redzoo]: New version: [0.3.7] Old Version: [0.3.6]
+[2024-05-01 09:41:42] INFO root fetch - processPackages [easy-notion-api]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-01 09:41:42] INFO root fetch - processPackages [ops]: New version: [2.9.0] Old Version: [2.8.0]
+[2024-05-01 09:41:43] INFO root fetch - processPackages [wagtail-editorjs]: New version: [1.6.1rc3] Old Version: [1.6.1rc2]
+[2024-05-01 09:41:43] INFO root fetch - processPackages [redzoo]: Downloading https://files.pythonhosted.org/packages/da/4f/22595703304ff1dc34349064ef440fd8969a448a0699489fb48d0c594bf2/redzoo-0.3.6.tar.gz
+[2024-05-01 09:41:43] INFO root fetch - processPackages [easy-notion-api]: Downloading https://files.pythonhosted.org/packages/33/ac/1511669d4fcef8a2901bc06e33594b3f8ac51d171b0f415af69e937b48a1/easy_notion_api-0.1.3-py3-none-any.whl
+[2024-05-01 09:41:43] INFO root fetch - processPackages [importer-local]: Downloading https://files.pythonhosted.org/packages/80/33/939765aa01c27931d172ea899fb7307071569b4fc595e6ec107018aabc97/importer-local-0.0.9.tar.gz
+[2024-05-01 09:41:43] INFO root fetch - processPackages [ops]: Downloading https://files.pythonhosted.org/packages/5e/99/76add92d22c8d3d4e43d61f704e5a50d290d282cc8e3bc37f64a52deb4c7/ops-2.8.0.tar.gz
+[2024-05-01 09:41:43] INFO root fetch - processPackages [wagtail-editorjs]: Downloading https://files.pythonhosted.org/packages/8c/71/ce7c16f612003a8e65e24b8b0062360ffb367592737b73aa6000a6ffaf60/wagtail_editorjs-1.6.1rc2.tar.gz
+[2024-05-01 09:41:43] INFO root fetch - processPackages [importer-local]: executing diffoscope
+[2024-05-01 09:41:43] INFO root fetch - processPackages [importer-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/importer-local-0.0.8.tar.gz tmp/importer-local-0.0.9.tar.gz --markdown 20240501/i/importer-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-01 09:41:43] INFO root fetch - processPackages [redzoo]: Downloading https://files.pythonhosted.org/packages/83/8b/7ebfcd2b70e85e9a98fbbbe303a7076233678dfa07d39e92ec56caf3a557/redzoo-0.3.7.tar.gz
+[2024-05-01 09:41:43] INFO root fetch - processPackages [easy-notion-api]: Downloading https://files.pythonhosted.org/packages/bd/31/f833babcf48a6f10ea882e3569198949320047afda7d257579c7b60543d7/easy_notion_api-0.1.4-py3-none-any.whl
+[2024-05-01 09:41:43] INFO root fetch - processPackages [redzoo]: executing diffoscope
+[2024-05-01 09:41:43] INFO root fetch - processPackages [redzoo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redzoo-0.3.6.tar.gz tmp/redzoo-0.3.7.tar.gz --markdown 20240501/r/redzoo/0.3.6-0.3.7/README.md --exclude *.pyd
+[2024-05-01 09:41:43] INFO root fetch - processPackages [easy-notion-api]: executing diffoscope
+[2024-05-01 09:41:43] INFO root fetch - processPackages [easy-notion-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easy_notion_api-0.1.3-py3-none-any.whl.zip tmp/easy_notion_api-0.1.4-py3-none-any.whl.zip --markdown 20240501/e/easy-notion-api/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-01 09:41:43] INFO root fetch - processPackages [ops]: Downloading https://files.pythonhosted.org/packages/73/0d/13bdaa8dc057d4d16fc2e72584ae65079a08ddaa6900ce53ea9621dd10f5/ops-2.9.0.tar.gz
+[2024-05-01 09:41:43] INFO root fetch - processPackages [importer-local]: Remove: archive file [/home/abi/fetcher/tmp/importer-local-0.0.8.tar.gz]
+[2024-05-01 09:41:43] INFO root fetch - processPackages [importer-local]: Remove: archive file [/home/abi/fetcher/tmp/importer-local-0.0.9.tar.gz]
+[2024-05-01 09:41:43] INFO root fetch - main [MainThread]: End processing [importer-local]: success
+[2024-05-01 09:41:43] INFO root fetch - processPackages [wagtail-editorjs]: Downloading https://files.pythonhosted.org/packages/28/f7/f4d14551e298abf4d99f35a7011c1da91723fe4602dc9b55fa58ff9cc3d4/wagtail_editorjs-1.6.1rc3.tar.gz
+[2024-05-01 09:41:43] INFO root fetch - processPackages [ops]: executing diffoscope
+[2024-05-01 09:41:43] INFO root fetch - processPackages [ops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ops-2.8.0.tar.gz tmp/ops-2.9.0.tar.gz --markdown 20240501/o/ops/2.8.0-2.9.0/README.md --exclude *.pyd
+[2024-05-01 09:41:43] INFO root fetch - processPackages [wagtail-editorjs]: executing diffoscope
+[2024-05-01 09:41:43] INFO root fetch - processPackages [wagtail-editorjs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wagtail_editorjs-1.6.1rc2.tar.gz tmp/wagtail_editorjs-1.6.1rc3.tar.gz --markdown 20240501/w/wagtail-editorjs/1.6.1rc2-1.6.1rc3/README.md --exclude *.pyd
+[2024-05-01 09:41:44] INFO root fetch - processPackages [redzoo]: Remove: archive file [/home/abi/fetcher/tmp/redzoo-0.3.6.tar.gz]
+[2024-05-01 09:41:44] INFO root fetch - processPackages [redzoo]: Remove: archive file [/home/abi/fetcher/tmp/redzoo-0.3.7.tar.gz]
+[2024-05-01 09:41:44] INFO root fetch - main [MainThread]: End processing [redzoo]: success
+[2024-05-01 09:41:44] INFO root fetch - processPackages [easy-notion-api]: Remove: archive file [/home/abi/fetcher/tmp/easy_notion_api-0.1.3-py3-none-any.whl.zip]
+[2024-05-01 09:41:44] INFO root fetch - processPackages [easy-notion-api]: Remove: archive file [/home/abi/fetcher/tmp/easy_notion_api-0.1.4-py3-none-any.whl.zip]
+[2024-05-01 09:41:44] INFO root fetch - main [MainThread]: End processing [easy-notion-api]: success
+[2024-05-01 09:41:44] INFO root fetch - processPackages [wagtail-editorjs]: Remove: archive file [/home/abi/fetcher/tmp/wagtail_editorjs-1.6.1rc2.tar.gz]
+[2024-05-01 09:41:44] INFO root fetch - processPackages [wagtail-editorjs]: Remove: archive file [/home/abi/fetcher/tmp/wagtail_editorjs-1.6.1rc3.tar.gz]
+[2024-05-01 09:41:44] INFO root fetch - main [MainThread]: End processing [wagtail-editorjs]: success
+[2024-05-01 09:41:45] INFO root fetch - processPackages [ops]: Remove: archive file [/home/abi/fetcher/tmp/ops-2.8.0.tar.gz]
+[2024-05-01 09:41:45] INFO root fetch - processPackages [ops]: Remove: archive file [/home/abi/fetcher/tmp/ops-2.9.0.tar.gz]
+[2024-05-01 09:41:45] INFO root fetch - main [MainThread]: End processing [ops]: success
+[2024-05-01 09:41:45] INFO root fetch - main [MainThread]: Store serial: [23013681]
