@@ -21238,3 +21238,69 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-01 15:24:23] INFO root fetch - processPackages [su6]: Remove: archive file [/home/abi/fetcher/tmp/su6-1.8.4.tar.gz]
 [2024-05-01 15:24:23] INFO root fetch - main [MainThread]: End processing [su6]: success
 [2024-05-01 15:24:23] INFO root fetch - main [MainThread]: Store serial: [23017394]
+[2024-05-01 15:26:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23017394]
+[2024-05-01 15:26:33] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-01 15:26:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jtd-codebuild
+[2024-05-01 15:26:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sunholo
+[2024-05-01 15:26:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: upyrc
+[2024-05-01 15:26:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xminigrid
+[2024-05-01 15:26:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pydal2sql-core
+[2024-05-01 15:26:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: coco-froc-analysis
+[2024-05-01 15:26:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: colony-print
+[2024-05-01 15:26:34] INFO root fetch - processPackages [jtd-codebuild]: New version: [1.0.0] Old Version: [0.8.0]
+[2024-05-01 15:26:34] INFO root fetch - processPackages [colony-print]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-05-01 15:26:34] INFO root fetch - processPackages [sunholo]: New version: [0.8.9] Old Version: [0.8.8]
+[2024-05-01 15:26:34] INFO root fetch - processPackages [upyrc]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-01 15:26:34] INFO root fetch - processPackages [colony-print]: Downloading https://files.pythonhosted.org/packages/bd/56/a942ed848ff8801a161e7ffd0c001a887349d3687ea3e92bbe5f4456d042/colony-print-0.3.0.tar.gz
+[2024-05-01 15:26:34] INFO root fetch - processPackages [xminigrid]: New version: [0.7.1] Old Version: [0.7.0]
+[2024-05-01 15:26:34] INFO root fetch - processPackages [pydal2sql-core]: New version: [0.3.7] Old Version: [0.3.6]
+[2024-05-01 15:26:34] INFO root fetch - processPackages [sunholo]: Downloading https://files.pythonhosted.org/packages/cc/35/0cc2a83f59b1ddd740a568e10894833a89bedfc91b8ebd172a427676694a/sunholo-0.8.8.tar.gz
+[2024-05-01 15:26:34] INFO root fetch - processPackages [jtd-codebuild]: Downloading https://files.pythonhosted.org/packages/96/ab/a27f40cabe71eb7adcbc47ad65a2e9db5a85bfcbc53a00b50530c14f1e81/jtd_codebuild-0.8.0.tar.gz
+[2024-05-01 15:26:34] INFO root fetch - processPackages [coco-froc-analysis]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-01 15:26:34] INFO root fetch - processPackages [upyrc]: Downloading https://files.pythonhosted.org/packages/9f/4c/3fb50f083b8dc9d3ac7ff506688be776a0e394797c728b8dfc94348796e2/upyrc-0.9.0.tar.gz
+[2024-05-01 15:26:34] INFO root fetch - processPackages [pydal2sql-core]: Downloading https://files.pythonhosted.org/packages/fc/df/f980928e5aca1a64861f117a32fef360dc08404e40f828d22ffb1e2630fc/pydal2sql_core-0.3.6.tar.gz
+[2024-05-01 15:26:34] INFO root fetch - processPackages [sunholo]: Downloading https://files.pythonhosted.org/packages/f4/84/78248df3236e593119b75003e77cf5b5bd0761e53dc91c6a148cb0571cf9/sunholo-0.8.9.tar.gz
+[2024-05-01 15:26:34] INFO root fetch - processPackages [xminigrid]: Downloading https://files.pythonhosted.org/packages/26/59/982982dc0e0f27e4fc253de9fb6f8ed89633f013ab7ea3e998590519cb9e/xminigrid-0.7.0.tar.gz
+[2024-05-01 15:26:34] INFO root fetch - processPackages [coco-froc-analysis]: Downloading https://files.pythonhosted.org/packages/5a/cb/4c02881220cfa4d45fbd81d879dcdd4a88802e742b738b11c67688083472/coco_froc_analysis-0.2.8.tar.gz
+[2024-05-01 15:26:34] INFO root fetch - processPackages [colony-print]: Downloading https://files.pythonhosted.org/packages/55/c4/a76c5ec27a7cdea008d6a3ac7d1526d0a5b2af8068556b2278876ca1b4c4/colony-print-0.3.1.tar.gz
+[2024-05-01 15:26:34] INFO root fetch - processPackages [jtd-codebuild]: Downloading https://files.pythonhosted.org/packages/3c/55/1d312e8450665da680849a241f96dc4fb29bf83d260261337254a34311a6/jtd_codebuild-1.0.0.tar.gz
+[2024-05-01 15:26:34] INFO root fetch - processPackages [sunholo]: executing diffoscope
+[2024-05-01 15:26:34] INFO root fetch - processPackages [sunholo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sunholo-0.8.8.tar.gz tmp/sunholo-0.8.9.tar.gz --markdown 20240501/s/sunholo/0.8.8-0.8.9/README.md --exclude *.pyd
+[2024-05-01 15:26:34] INFO root fetch - processPackages [colony-print]: executing diffoscope
+[2024-05-01 15:26:34] INFO root fetch - processPackages [colony-print]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/colony-print-0.3.0.tar.gz tmp/colony-print-0.3.1.tar.gz --markdown 20240501/c/colony-print/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-05-01 15:26:34] INFO root fetch - processPackages [jtd-codebuild]: executing diffoscope
+[2024-05-01 15:26:34] INFO root fetch - processPackages [jtd-codebuild]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jtd_codebuild-0.8.0.tar.gz tmp/jtd_codebuild-1.0.0.tar.gz --markdown 20240501/j/jtd-codebuild/0.8.0-1.0.0/README.md --exclude *.pyd
+[2024-05-01 15:26:34] INFO root fetch - processPackages [upyrc]: Downloading https://files.pythonhosted.org/packages/95/e4/d973a9a213efe7b9c7fb2108445a54ba9d64ead5e8ae9ddebca9bc52216d/upyrc-0.9.1.tar.gz
+[2024-05-01 15:26:34] INFO root fetch - processPackages [pydal2sql-core]: Downloading https://files.pythonhosted.org/packages/67/4b/bbae3c4a082cdaa4b7614ef2155e8b7a958234a6cd45d710850472baac5d/pydal2sql_core-0.3.7.tar.gz
+[2024-05-01 15:26:34] INFO root fetch - processPackages [xminigrid]: Downloading https://files.pythonhosted.org/packages/3b/c8/a56ca502c2ccc5c753ba8e05451868990d28004f5d920f8a8cb09537f63b/xminigrid-0.7.1.tar.gz
+[2024-05-01 15:26:34] INFO root fetch - processPackages [coco-froc-analysis]: Downloading https://files.pythonhosted.org/packages/ed/a7/a63f2f717d60c26306955ffcf6e9ff3e1f9e18da54784e6d610826890333/coco_froc_analysis-0.2.9.tar.gz
+[2024-05-01 15:26:35] INFO root fetch - processPackages [pydal2sql-core]: executing diffoscope
+[2024-05-01 15:26:35] INFO root fetch - processPackages [pydal2sql-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydal2sql_core-0.3.6.tar.gz tmp/pydal2sql_core-0.3.7.tar.gz --markdown 20240501/p/pydal2sql-core/0.3.6-0.3.7/README.md --exclude *.pyd
+[2024-05-01 15:26:35] INFO root fetch - processPackages [upyrc]: executing diffoscope
+[2024-05-01 15:26:35] INFO root fetch - processPackages [upyrc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upyrc-0.9.0.tar.gz tmp/upyrc-0.9.1.tar.gz --markdown 20240501/u/upyrc/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-01 15:26:35] INFO root fetch - processPackages [xminigrid]: executing diffoscope
+[2024-05-01 15:26:35] INFO root fetch - processPackages [xminigrid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xminigrid-0.7.0.tar.gz tmp/xminigrid-0.7.1.tar.gz --markdown 20240501/x/xminigrid/0.7.0-0.7.1/README.md --exclude *.pyd
+[2024-05-01 15:26:35] INFO root fetch - processPackages [coco-froc-analysis]: executing diffoscope
+[2024-05-01 15:26:35] INFO root fetch - processPackages [coco-froc-analysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coco_froc_analysis-0.2.8.tar.gz tmp/coco_froc_analysis-0.2.9.tar.gz --markdown 20240501/c/coco-froc-analysis/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-01 15:26:35] INFO root fetch - processPackages [colony-print]: Remove: archive file [/home/abi/fetcher/tmp/colony-print-0.3.0.tar.gz]
+[2024-05-01 15:26:35] INFO root fetch - processPackages [colony-print]: Remove: archive file [/home/abi/fetcher/tmp/colony-print-0.3.1.tar.gz]
+[2024-05-01 15:26:35] INFO root fetch - main [MainThread]: End processing [colony-print]: success
+[2024-05-01 15:26:35] INFO root fetch - processPackages [jtd-codebuild]: Remove: archive file [/home/abi/fetcher/tmp/jtd_codebuild-0.8.0.tar.gz]
+[2024-05-01 15:26:35] INFO root fetch - processPackages [jtd-codebuild]: Remove: archive file [/home/abi/fetcher/tmp/jtd_codebuild-1.0.0.tar.gz]
+[2024-05-01 15:26:35] INFO root fetch - main [MainThread]: End processing [jtd-codebuild]: success
+[2024-05-01 15:26:35] INFO root fetch - processPackages [sunholo]: Remove: archive file [/home/abi/fetcher/tmp/sunholo-0.8.8.tar.gz]
+[2024-05-01 15:26:35] INFO root fetch - processPackages [sunholo]: Remove: archive file [/home/abi/fetcher/tmp/sunholo-0.8.9.tar.gz]
+[2024-05-01 15:26:35] INFO root fetch - main [MainThread]: End processing [sunholo]: success
+[2024-05-01 15:26:35] INFO root fetch - processPackages [upyrc]: Remove: archive file [/home/abi/fetcher/tmp/upyrc-0.9.0.tar.gz]
+[2024-05-01 15:26:35] INFO root fetch - processPackages [upyrc]: Remove: archive file [/home/abi/fetcher/tmp/upyrc-0.9.1.tar.gz]
+[2024-05-01 15:26:35] INFO root fetch - main [MainThread]: End processing [upyrc]: success
+[2024-05-01 15:26:35] INFO root fetch - processPackages [pydal2sql-core]: Remove: archive file [/home/abi/fetcher/tmp/pydal2sql_core-0.3.6.tar.gz]
+[2024-05-01 15:26:35] INFO root fetch - processPackages [pydal2sql-core]: Remove: archive file [/home/abi/fetcher/tmp/pydal2sql_core-0.3.7.tar.gz]
+[2024-05-01 15:26:35] INFO root fetch - main [MainThread]: End processing [pydal2sql-core]: success
+[2024-05-01 15:26:35] INFO root fetch - processPackages [coco-froc-analysis]: Remove: archive file [/home/abi/fetcher/tmp/coco_froc_analysis-0.2.8.tar.gz]
+[2024-05-01 15:26:35] INFO root fetch - processPackages [coco-froc-analysis]: Remove: archive file [/home/abi/fetcher/tmp/coco_froc_analysis-0.2.9.tar.gz]
+[2024-05-01 15:26:35] INFO root fetch - main [MainThread]: End processing [coco-froc-analysis]: success
+[2024-05-01 15:26:36] INFO root fetch - processPackages [xminigrid]: Remove: archive file [/home/abi/fetcher/tmp/xminigrid-0.7.0.tar.gz]
+[2024-05-01 15:26:36] INFO root fetch - processPackages [xminigrid]: Remove: archive file [/home/abi/fetcher/tmp/xminigrid-0.7.1.tar.gz]
+[2024-05-01 15:26:36] INFO root fetch - main [MainThread]: End processing [xminigrid]: success
+[2024-05-01 15:26:36] INFO root fetch - main [MainThread]: Store serial: [23017413]
