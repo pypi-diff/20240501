@@ -6786,3 +6786,38 @@
 [2024-05-01 03:37:33] INFO root fetch - processPackages [pyAgrum-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyAgrum_nightly-1.9.0.9.dev202310191697564854-cp39-cp39-win_amd64.whl.zip]
 [2024-05-01 03:37:33] INFO root fetch - main [MainThread]: End processing [pyAgrum-nightly]: success
 [2024-05-01 03:37:33] INFO root fetch - main [MainThread]: Store serial: [23011192]
+[2024-05-01 03:39:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23011192]
+[2024-05-01 03:39:41] INFO root fetch - main [MainThread]: No changed packages found
+[2024-05-01 03:41:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23011260]
+[2024-05-01 03:41:47] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-01 03:41:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: codeanim
+[2024-05-01 03:41:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nornir-arista
+[2024-05-01 03:41:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jax-tools
+[2024-05-01 03:41:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: helpful-assistant
+[2024-05-01 03:41:47] INFO root fetch - processPackages [jax-tools]: New version: [1.0.97] Old Version: [1.0.89]
+[2024-05-01 03:41:47] INFO root fetch - processPackages [codeanim]: New version: [0.0.9] Old Version: [0.0.20]
+[2024-05-01 03:41:47] INFO root fetch - processPackages [jax-tools]: Downloading https://files.pythonhosted.org/packages/42/bb/880ff542a8104330fd135b29e3dfd25932c6e5e84de059ad2fe4e9ad70fe/jax-tools-1.0.89.tar.gz
+[2024-05-01 03:41:47] WARNING root fetch - processPackages [nornir-arista]: Skipping, unable to determine old version
+[2024-05-01 03:41:47] INFO root fetch - main [MainThread]: End processing [nornir-arista] error
+[2024-05-01 03:41:47] INFO root fetch - processPackages [helpful-assistant]: New version: [0.1.0] Old Version: [0.0.9]
+[2024-05-01 03:41:47] INFO root fetch - processPackages [codeanim]: Downloading https://files.pythonhosted.org/packages/2b/cb/1eb78e06b3b74c1351936345b61a4be97c70e61bc5b0026fcec580cca2ce/codeanim-0.0.20.tar.gz
+[2024-05-01 03:41:47] INFO root fetch - processPackages [jax-tools]: Downloading https://files.pythonhosted.org/packages/dd/07/1feb6cf6dba3d530f24b221e4f6e9f8139eca4bf8db844608dd9facfd42d/jax-tools-1.0.97.tar.gz
+[2024-05-01 03:41:47] INFO root fetch - processPackages [helpful-assistant]: Downloading https://files.pythonhosted.org/packages/c3/31/ce76fbcc6d94bf4789bc1ceaa882c3e8350ebc5bb9c0866afb1f1991c134/helpful_assistant-0.0.9.tar.gz
+[2024-05-01 03:41:47] INFO root fetch - processPackages [jax-tools]: executing diffoscope
+[2024-05-01 03:41:47] INFO root fetch - processPackages [jax-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jax-tools-1.0.89.tar.gz tmp/jax-tools-1.0.97.tar.gz --markdown 20240501/j/jax-tools/1.0.89-1.0.97/README.md --exclude *.pyd
+[2024-05-01 03:41:47] INFO root fetch - processPackages [codeanim]: Downloading https://files.pythonhosted.org/packages/0d/0a/113fb1061a227875dba0e8349c9477a7eb7d1b7d9bf479b7bbc7157fc9a1/codeanim-0.0.9.tar.gz
+[2024-05-01 03:41:47] INFO root fetch - processPackages [codeanim]: executing diffoscope
+[2024-05-01 03:41:47] INFO root fetch - processPackages [codeanim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codeanim-0.0.20.tar.gz tmp/codeanim-0.0.9.tar.gz --markdown 20240501/c/codeanim/0.0.20-0.0.9/README.md --exclude *.pyd
+[2024-05-01 03:41:47] INFO root fetch - processPackages [helpful-assistant]: Downloading https://files.pythonhosted.org/packages/a9/80/78a9f43651cc7cb6f3e5881166037fea7abf19dcdf0f22e63a0cd1b1d5ed/helpful_assistant-0.1.0.tar.gz
+[2024-05-01 03:41:48] INFO root fetch - processPackages [helpful-assistant]: executing diffoscope
+[2024-05-01 03:41:48] INFO root fetch - processPackages [helpful-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/helpful_assistant-0.0.9.tar.gz tmp/helpful_assistant-0.1.0.tar.gz --markdown 20240501/h/helpful-assistant/0.0.9-0.1.0/README.md --exclude *.pyd
+[2024-05-01 03:41:48] INFO root fetch - processPackages [jax-tools]: Remove: archive file [/home/abi/fetcher/tmp/jax-tools-1.0.89.tar.gz]
+[2024-05-01 03:41:48] INFO root fetch - processPackages [jax-tools]: Remove: archive file [/home/abi/fetcher/tmp/jax-tools-1.0.97.tar.gz]
+[2024-05-01 03:41:48] INFO root fetch - main [MainThread]: End processing [jax-tools]: success
+[2024-05-01 03:41:48] INFO root fetch - processPackages [codeanim]: Remove: archive file [/home/abi/fetcher/tmp/codeanim-0.0.20.tar.gz]
+[2024-05-01 03:41:48] INFO root fetch - processPackages [codeanim]: Remove: archive file [/home/abi/fetcher/tmp/codeanim-0.0.9.tar.gz]
+[2024-05-01 03:41:48] INFO root fetch - main [MainThread]: End processing [codeanim]: success
+[2024-05-01 03:41:48] INFO root fetch - processPackages [helpful-assistant]: Remove: archive file [/home/abi/fetcher/tmp/helpful_assistant-0.0.9.tar.gz]
+[2024-05-01 03:41:48] INFO root fetch - processPackages [helpful-assistant]: Remove: archive file [/home/abi/fetcher/tmp/helpful_assistant-0.1.0.tar.gz]
+[2024-05-01 03:41:48] INFO root fetch - main [MainThread]: End processing [helpful-assistant]: success
+[2024-05-01 03:41:48] INFO root fetch - main [MainThread]: Store serial: [23011296]
