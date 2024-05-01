@@ -1,4 +1,4 @@
-# Comparing `tmp/lielab-0.1.1-cp39-none-win_amd64.whl.zip` & `tmp/lielab-0.1.2-cp310-none-manylinux1_x86_64.whl.zip`
+# Comparing `tmp/lielab-0.1.1-cp39-none-win_amd64.whl.zip` & `tmp/lielab-0.1.2-cp39-none-win_amd64.whl.zip`
 
 ## zipinfo {}
 

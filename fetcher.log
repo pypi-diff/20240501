@@ -7668,3 +7668,80 @@
 [2024-05-01 04:59:10] INFO root fetch - processPackages [lielab]: Remove: archive file [/home/abi/fetcher/tmp/lielab-0.1.2-cp310-none-manylinux1_x86_64.whl.zip]
 [2024-05-01 04:59:10] INFO root fetch - main [MainThread]: End processing [lielab]: success
 [2024-05-01 04:59:10] INFO root fetch - main [MainThread]: Store serial: [23011629]
+[2024-05-01 05:01:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23011629]
+[2024-05-01 05:01:19] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-01 05:01:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lielab
+[2024-05-01 05:01:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lielab
+[2024-05-01 05:01:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: limelightlib-python
+[2024-05-01 05:01:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: agixt
+[2024-05-01 05:01:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: autopipeline
+[2024-05-01 05:01:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lielab
+[2024-05-01 05:01:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: acryo
+[2024-05-01 05:01:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lielab
+[2024-05-01 05:01:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lielab
+[2024-05-01 05:01:19] INFO root fetch - processPackages [lielab]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-01 05:01:19] INFO root fetch - processPackages [lielab]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-01 05:01:19] INFO root fetch - processPackages [acryo]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-05-01 05:01:19] INFO root fetch - processPackages [lielab]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-01 05:01:19] INFO root fetch - processPackages [lielab]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-01 05:01:19] INFO root fetch - processPackages [lielab]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-01 05:01:19] INFO root fetch - processPackages [agixt]: New version: [1.5.7] Old Version: [1.5.6]
+[2024-05-01 05:01:19] INFO root fetch - processPackages [autopipeline]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-05-01 05:01:19] INFO root fetch - processPackages [limelightlib-python]: New version: [0.9.5] Old Version: [0.9.4]
+[2024-05-01 05:01:19] INFO root fetch - processPackages [lielab]: Downloading https://files.pythonhosted.org/packages/14/46/9d2305d71a6fdd49b90e050dc2050c2930f31350097b1cfe732d90cc8454/lielab-0.1.1-cp39-none-win_amd64.whl
+[2024-05-01 05:01:19] INFO root fetch - processPackages [agixt]: Downloading https://files.pythonhosted.org/packages/bf/8e/0b82729d954c0ec8f5ccc011594c6e219cb29777c6427530a09fff6040a4/agixt-1.5.6-py3-none-any.whl
+[2024-05-01 05:01:19] INFO root fetch - processPackages [lielab]: Downloading https://files.pythonhosted.org/packages/14/46/9d2305d71a6fdd49b90e050dc2050c2930f31350097b1cfe732d90cc8454/lielab-0.1.1-cp39-none-win_amd64.whl
+[2024-05-01 05:01:19] INFO root fetch - processPackages [acryo]: Downloading https://files.pythonhosted.org/packages/a6/6d/078a13b3383447eac295fb4d82b89d493687e2252df6743fea6901a5980e/acryo-0.4.8.tar.gz
+[2024-05-01 05:01:19] INFO root fetch - processPackages [lielab]: Downloading https://files.pythonhosted.org/packages/14/46/9d2305d71a6fdd49b90e050dc2050c2930f31350097b1cfe732d90cc8454/lielab-0.1.1-cp39-none-win_amd64.whl
+[2024-05-01 05:01:19] INFO root fetch - processPackages [lielab]: Downloading https://files.pythonhosted.org/packages/14/46/9d2305d71a6fdd49b90e050dc2050c2930f31350097b1cfe732d90cc8454/lielab-0.1.1-cp39-none-win_amd64.whl
+[2024-05-01 05:01:19] INFO root fetch - processPackages [lielab]: Downloading https://files.pythonhosted.org/packages/14/46/9d2305d71a6fdd49b90e050dc2050c2930f31350097b1cfe732d90cc8454/lielab-0.1.1-cp39-none-win_amd64.whl
+[2024-05-01 05:01:19] INFO root fetch - processPackages [autopipeline]: Downloading https://files.pythonhosted.org/packages/5f/0f/9eaf209b6d540115afdc9ae31de828df0234756277bceae49a4d1a0ea8b3/autopipeline-0.1.98.tar.gz
+[2024-05-01 05:01:19] INFO root fetch - processPackages [limelightlib-python]: Downloading https://files.pythonhosted.org/packages/02/99/6cb08279786b4ba6d00e9c6648bbd3d82f762c2ee9f5c29a9858e27f6beb/limelightlib_python-0.9.4.tar.gz
+[2024-05-01 05:01:19] INFO root fetch - processPackages [agixt]: Downloading https://files.pythonhosted.org/packages/14/2b/bb2fbf59b84aa73725e1c6159be96c1c3d8176edebd248d8b4423bbf8d57/agixt-1.5.7-py3-none-any.whl
+[2024-05-01 05:01:20] INFO root fetch - processPackages [lielab]: Downloading https://files.pythonhosted.org/packages/b8/b0/04e5772edfa905fa24de459d56d9df60264e125869c9806a1280d6904591/lielab-0.1.2-cp310-none-manylinux1_x86_64.whl
+[2024-05-01 05:01:20] INFO root fetch - processPackages [lielab]: Downloading https://files.pythonhosted.org/packages/b8/b0/04e5772edfa905fa24de459d56d9df60264e125869c9806a1280d6904591/lielab-0.1.2-cp310-none-manylinux1_x86_64.whl
+[2024-05-01 05:01:20] INFO root fetch - processPackages [acryo]: Downloading https://files.pythonhosted.org/packages/83/80/6e6cd447a7d6c854bfb41b51ba74eb768fa2cc6b10dee85be5569da267c5/acryo-0.4.9.tar.gz
+[2024-05-01 05:01:20] INFO root fetch - processPackages [lielab]: Downloading https://files.pythonhosted.org/packages/b8/b0/04e5772edfa905fa24de459d56d9df60264e125869c9806a1280d6904591/lielab-0.1.2-cp310-none-manylinux1_x86_64.whl
+[2024-05-01 05:01:20] INFO root fetch - processPackages [lielab]: Downloading https://files.pythonhosted.org/packages/b8/b0/04e5772edfa905fa24de459d56d9df60264e125869c9806a1280d6904591/lielab-0.1.2-cp310-none-manylinux1_x86_64.whl
+[2024-05-01 05:01:20] INFO root fetch - processPackages [lielab]: Downloading https://files.pythonhosted.org/packages/b8/b0/04e5772edfa905fa24de459d56d9df60264e125869c9806a1280d6904591/lielab-0.1.2-cp310-none-manylinux1_x86_64.whl
+[2024-05-01 05:01:20] INFO root fetch - processPackages [autopipeline]: Downloading https://files.pythonhosted.org/packages/5f/4a/f3df97d414e0a5e9120459fd5c7ab663092d540df59f7deacc45810deb41/autopipeline-0.1.99.tar.gz
+[2024-05-01 05:01:20] INFO root fetch - processPackages [agixt]: executing diffoscope
+[2024-05-01 05:01:20] INFO root fetch - processPackages [agixt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agixt-1.5.6-py3-none-any.whl.zip tmp/agixt-1.5.7-py3-none-any.whl.zip --markdown 20240501/a/agixt/1.5.6-1.5.7/README.md --exclude *.pyd
+[2024-05-01 05:01:20] INFO root fetch - processPackages [limelightlib-python]: Downloading https://files.pythonhosted.org/packages/2c/18/91b78fecd5a649e4c502496a813c9e4ae0e34d898a6227a52fadd63de725/limelightlib_python-0.9.5.tar.gz
+[2024-05-01 05:01:20] INFO root fetch - processPackages [acryo]: executing diffoscope
+[2024-05-01 05:01:20] INFO root fetch - processPackages [acryo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acryo-0.4.8.tar.gz tmp/acryo-0.4.9.tar.gz --markdown 20240501/a/acryo/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-05-01 05:01:20] INFO root fetch - processPackages [lielab]: executing diffoscope
+[2024-05-01 05:01:20] INFO root fetch - processPackages [lielab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lielab-0.1.1-cp39-none-win_amd64.whl.zip tmp/lielab-0.1.2-cp310-none-manylinux1_x86_64.whl.zip --markdown 20240501/l/lielab/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-01 05:01:20] INFO root fetch - processPackages [autopipeline]: executing diffoscope
+[2024-05-01 05:01:20] INFO root fetch - processPackages [autopipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autopipeline-0.1.98.tar.gz tmp/autopipeline-0.1.99.tar.gz --markdown 20240501/a/autopipeline/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-05-01 05:01:20] INFO root fetch - processPackages [lielab]: executing diffoscope
+[2024-05-01 05:01:20] INFO root fetch - processPackages [lielab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lielab-0.1.1-cp39-none-win_amd64.whl.zip tmp/lielab-0.1.2-cp310-none-manylinux1_x86_64.whl.zip --markdown 20240501/l/lielab/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-01 05:01:20] INFO root fetch - processPackages [lielab]: executing diffoscope
+[2024-05-01 05:01:20] INFO root fetch - processPackages [lielab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lielab-0.1.1-cp39-none-win_amd64.whl.zip tmp/lielab-0.1.2-cp39-none-win_amd64.whl.zip --markdown 20240501/l/lielab/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-01 05:01:20] INFO root fetch - processPackages [lielab]: executing diffoscope
+[2024-05-01 05:01:20] INFO root fetch - processPackages [lielab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lielab-0.1.1-cp39-none-win_amd64.whl.zip tmp/lielab-0.1.2-cp310-none-manylinux1_x86_64.whl.zip --markdown 20240501/l/lielab/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-01 05:01:20] INFO root fetch - processPackages [lielab]: executing diffoscope
+[2024-05-01 05:01:20] INFO root fetch - processPackages [lielab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lielab-0.1.1-cp39-none-win_amd64.whl.zip tmp/lielab-0.1.2-cp39-none-win_amd64.whl.zip --markdown 20240501/l/lielab/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-01 05:01:20] INFO root fetch - processPackages [limelightlib-python]: executing diffoscope
+[2024-05-01 05:01:20] INFO root fetch - processPackages [limelightlib-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/limelightlib_python-0.9.4.tar.gz tmp/limelightlib_python-0.9.5.tar.gz --markdown 20240501/l/limelightlib-python/0.9.4-0.9.5/README.md --exclude *.pyd
+[2024-05-01 05:01:20] INFO root fetch - processPackages [agixt]: Remove: archive file [/home/abi/fetcher/tmp/agixt-1.5.6-py3-none-any.whl.zip]
+[2024-05-01 05:01:20] INFO root fetch - processPackages [agixt]: Remove: archive file [/home/abi/fetcher/tmp/agixt-1.5.7-py3-none-any.whl.zip]
+[2024-05-01 05:01:20] INFO root fetch - main [MainThread]: End processing [agixt]: success
+[2024-05-01 05:01:21] INFO root fetch - processPackages [lielab]: Remove: archive file [/home/abi/fetcher/tmp/lielab-0.1.1-cp39-none-win_amd64.whl.zip]
+[2024-05-01 05:01:21] INFO root fetch - processPackages [lielab]: Remove: archive file [/home/abi/fetcher/tmp/lielab-0.1.2-cp310-none-manylinux1_x86_64.whl.zip]
+[2024-05-01 05:01:21] INFO root fetch - main [MainThread]: End processing [lielab]: success
+[2024-05-01 05:01:21] INFO root fetch - processPackages [acryo]: Remove: archive file [/home/abi/fetcher/tmp/acryo-0.4.8.tar.gz]
+[2024-05-01 05:01:21] INFO root fetch - processPackages [acryo]: Remove: archive file [/home/abi/fetcher/tmp/acryo-0.4.9.tar.gz]
+[2024-05-01 05:01:21] INFO root fetch - main [MainThread]: End processing [acryo]: success
+[2024-05-01 05:01:21] INFO root fetch - processPackages [limelightlib-python]: Remove: archive file [/home/abi/fetcher/tmp/limelightlib_python-0.9.4.tar.gz]
+[2024-05-01 05:01:21] INFO root fetch - processPackages [limelightlib-python]: Remove: archive file [/home/abi/fetcher/tmp/limelightlib_python-0.9.5.tar.gz]
+[2024-05-01 05:01:21] INFO root fetch - main [MainThread]: End processing [limelightlib-python]: success
+[2024-05-01 05:01:21] INFO root fetch - main [MainThread]: End processing [lielab]: success
+[2024-05-01 05:01:21] INFO root fetch - processPackages [autopipeline]: Remove: archive file [/home/abi/fetcher/tmp/autopipeline-0.1.98.tar.gz]
+[2024-05-01 05:01:21] INFO root fetch - processPackages [autopipeline]: Remove: archive file [/home/abi/fetcher/tmp/autopipeline-0.1.99.tar.gz]
+[2024-05-01 05:01:21] INFO root fetch - main [MainThread]: End processing [autopipeline]: success
+[2024-05-01 05:01:21] INFO root fetch - processPackages [lielab]: Remove: archive file [/home/abi/fetcher/tmp/lielab-0.1.2-cp39-none-win_amd64.whl.zip]
+[2024-05-01 05:01:21] INFO root fetch - main [MainThread]: End processing [lielab]: success
+[2024-05-01 05:01:21] INFO root fetch - main [MainThread]: End processing [lielab]: success
+[2024-05-01 05:01:21] INFO root fetch - main [MainThread]: End processing [lielab]: success
+[2024-05-01 05:01:21] INFO root fetch - main [MainThread]: Store serial: [23011700]
