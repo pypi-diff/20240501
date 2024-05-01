@@ -19678,3 +19678,65 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-01 14:20:53] INFO root fetch - processPackages [whitebox-workflows]: Remove: archive file [/home/abi/fetcher/tmp/whitebox_workflows-1.2.8-cp38-abi3-win_amd64.whl.zip]
 [2024-05-01 14:20:53] INFO root fetch - main [MainThread]: End processing [whitebox-workflows]: success
 [2024-05-01 14:20:53] INFO root fetch - main [MainThread]: Store serial: [23016742]
+[2024-05-01 14:22:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23016742]
+[2024-05-01 14:23:02] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-01 14:23:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yedextended
+[2024-05-01 14:23:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: trytond-account-move-line-grouping
+[2024-05-01 14:23:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: trytond-account-invoice-defer
+[2024-05-01 14:23:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: trytond-account-invoice
+[2024-05-01 14:23:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo14-addon-l10n-br-account-payment-order
+[2024-05-01 14:23:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: trytond-account-invoice
+[2024-05-01 14:23:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: trytond-account-invoice
+[2024-05-01 14:23:02] INFO root fetch - processPackages [yedextended]: New version: [1.0.8] Old Version: [1.0.7]
+[2024-05-01 14:23:02] INFO root fetch - processPackages [trytond-account-invoice-defer]: New version: [7.2.1] Old Version: [7.2.0]
+[2024-05-01 14:23:02] INFO root fetch - processPackages [trytond-account-move-line-grouping]: New version: [7.2.1] Old Version: [7.2.0]
+[2024-05-01 14:23:02] INFO root fetch - processPackages [odoo14-addon-l10n-br-account-payment-order]: New version: [14.0.5.3.0] Old Version: [14.0.5.2.1.dev2]
+[2024-05-01 14:23:02] INFO root fetch - processPackages [trytond-account-invoice]: New version: [7.2.1] Old Version: [7.2.0]
+[2024-05-01 14:23:02] INFO root fetch - processPackages [trytond-account-invoice]: New version: [7.2.1] Old Version: [7.2.0]
+[2024-05-01 14:23:02] INFO root fetch - processPackages [trytond-account-invoice]: New version: [7.2.1] Old Version: [7.2.0]
+[2024-05-01 14:23:02] INFO root fetch - processPackages [yedextended]: Downloading https://files.pythonhosted.org/packages/44/c0/679a6a165efd2354b465e5debf67b50948cb122b4edd2c309bc27e241566/yedextended-1.0.7.tar.gz
+[2024-05-01 14:23:02] INFO root fetch - processPackages [trytond-account-invoice]: Downloading https://files.pythonhosted.org/packages/40/42/e89cf18fb7e7b9e7dea7e3d9ce351c7626133a24b5c441ebc7be8e7a0807/trytond_account_invoice-7.2.0.tar.gz
+[2024-05-01 14:23:02] INFO root fetch - processPackages [trytond-account-invoice]: Downloading https://files.pythonhosted.org/packages/40/42/e89cf18fb7e7b9e7dea7e3d9ce351c7626133a24b5c441ebc7be8e7a0807/trytond_account_invoice-7.2.0.tar.gz
+[2024-05-01 14:23:02] INFO root fetch - processPackages [trytond-account-invoice]: Downloading https://files.pythonhosted.org/packages/40/42/e89cf18fb7e7b9e7dea7e3d9ce351c7626133a24b5c441ebc7be8e7a0807/trytond_account_invoice-7.2.0.tar.gz
+[2024-05-01 14:23:02] INFO root fetch - processPackages [trytond-account-move-line-grouping]: Downloading https://files.pythonhosted.org/packages/bd/21/692d1c89efebfdb50861c3d66a3501e070987db2c6e3d4f7bdcd488a9fc7/trytond_account_move_line_grouping-7.2.0.tar.gz
+[2024-05-01 14:23:02] INFO root fetch - processPackages [trytond-account-invoice-defer]: Downloading https://files.pythonhosted.org/packages/ed/20/d03cb483ebcb9f19a32b6efe1fc6789fa902e9cf5dde469e0fe6c8665e58/trytond_account_invoice_defer-7.2.0.tar.gz
+[2024-05-01 14:23:02] INFO root fetch - processPackages [odoo14-addon-l10n-br-account-payment-order]: Downloading https://files.pythonhosted.org/packages/b2/33/30c5b8e6a75cfa61c89018bd8f7c51b9f9f7c3dfdaec806d9484580195f6/odoo14_addon_l10n_br_account_payment_order-14.0.5.2.1.dev2-py3-none-any.whl
+[2024-05-01 14:23:03] INFO root fetch - processPackages [yedextended]: Downloading https://files.pythonhosted.org/packages/ec/97/92ccaa68a3cd68c948b82a585732b5cc7cc3f32d4f1dd0e5a3a30df3f1a1/yedextended-1.0.8.tar.gz
+[2024-05-01 14:23:03] INFO root fetch - processPackages [trytond-account-invoice]: Downloading https://files.pythonhosted.org/packages/aa/f2/0aee19dd79d3be8c7fdd6ba221a9a2109f9420ad254a53d29e1cd8da0de8/trytond_account_invoice-7.2.1.tar.gz
+[2024-05-01 14:23:03] INFO root fetch - processPackages [trytond-account-invoice]: Downloading https://files.pythonhosted.org/packages/aa/f2/0aee19dd79d3be8c7fdd6ba221a9a2109f9420ad254a53d29e1cd8da0de8/trytond_account_invoice-7.2.1.tar.gz
+[2024-05-01 14:23:03] INFO root fetch - processPackages [trytond-account-invoice]: Downloading https://files.pythonhosted.org/packages/aa/f2/0aee19dd79d3be8c7fdd6ba221a9a2109f9420ad254a53d29e1cd8da0de8/trytond_account_invoice-7.2.1.tar.gz
+[2024-05-01 14:23:03] INFO root fetch - processPackages [trytond-account-move-line-grouping]: Downloading https://files.pythonhosted.org/packages/f2/a0/7c98376bbe5f01f4042008820aab99244a4b821e8bbbbfdeee73dd2ee73f/trytond_account_move_line_grouping-7.2.1.tar.gz
+[2024-05-01 14:23:03] INFO root fetch - processPackages [odoo14-addon-l10n-br-account-payment-order]: Downloading https://files.pythonhosted.org/packages/d9/7e/2693a0b3977858fa615d52e004c96af4178550ec6f3ecd66edcbbd6e5d71/odoo14_addon_l10n_br_account_payment_order-14.0.5.3.0-py3-none-any.whl
+[2024-05-01 14:23:03] INFO root fetch - processPackages [trytond-account-invoice-defer]: Downloading https://files.pythonhosted.org/packages/cb/1b/6ee5b08b4680e46476c5452cba618ef9910d92d43e2b8b7b52fc9f4a4d26/trytond_account_invoice_defer-7.2.1.tar.gz
+[2024-05-01 14:23:03] INFO root fetch - processPackages [yedextended]: executing diffoscope
+[2024-05-01 14:23:03] INFO root fetch - processPackages [yedextended]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yedextended-1.0.7.tar.gz tmp/yedextended-1.0.8.tar.gz --markdown 20240501/y/yedextended/1.0.7-1.0.8/README.md --exclude *.pyd
+[2024-05-01 14:23:03] INFO root fetch - processPackages [trytond-account-invoice]: executing diffoscope
+[2024-05-01 14:23:03] INFO root fetch - processPackages [trytond-account-invoice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_account_invoice-7.2.0.tar.gz tmp/trytond_account_invoice-7.2.1.tar.gz --markdown 20240501/t/trytond-account-invoice/7.2.0-7.2.1/README.md --exclude *.pyd
+[2024-05-01 14:23:03] INFO root fetch - processPackages [trytond-account-move-line-grouping]: executing diffoscope
+[2024-05-01 14:23:03] INFO root fetch - processPackages [trytond-account-move-line-grouping]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_account_move_line_grouping-7.2.0.tar.gz tmp/trytond_account_move_line_grouping-7.2.1.tar.gz --markdown 20240501/t/trytond-account-move-line-grouping/7.2.0-7.2.1/README.md --exclude *.pyd
+[2024-05-01 14:23:03] INFO root fetch - processPackages [trytond-account-invoice]: executing diffoscope
+[2024-05-01 14:23:03] INFO root fetch - processPackages [trytond-account-invoice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_account_invoice-7.2.0.tar.gz tmp/trytond_account_invoice-7.2.1.tar.gz --markdown 20240501/t/trytond-account-invoice/7.2.0-7.2.1/README.md --exclude *.pyd
+[2024-05-01 14:23:03] INFO root fetch - processPackages [trytond-account-invoice-defer]: executing diffoscope
+[2024-05-01 14:23:03] INFO root fetch - processPackages [trytond-account-invoice-defer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_account_invoice_defer-7.2.0.tar.gz tmp/trytond_account_invoice_defer-7.2.1.tar.gz --markdown 20240501/t/trytond-account-invoice-defer/7.2.0-7.2.1/README.md --exclude *.pyd
+[2024-05-01 14:23:03] INFO root fetch - processPackages [odoo14-addon-l10n-br-account-payment-order]: executing diffoscope
+[2024-05-01 14:23:03] INFO root fetch - processPackages [odoo14-addon-l10n-br-account-payment-order]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_br_account_payment_order-14.0.5.2.1.dev2-py3-none-any.whl.zip tmp/odoo14_addon_l10n_br_account_payment_order-14.0.5.3.0-py3-none-any.whl.zip --markdown 20240501/o/odoo14-addon-l10n-br-account-payment-order/14.0.5.2.1.dev2-14.0.5.3.0/README.md --exclude *.pyd
+[2024-05-01 14:23:03] INFO root fetch - processPackages [trytond-account-invoice]: executing diffoscope
+[2024-05-01 14:23:03] INFO root fetch - processPackages [trytond-account-invoice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_account_invoice-7.2.0.tar.gz tmp/trytond_account_invoice-7.2.1.tar.gz --markdown 20240501/t/trytond-account-invoice/7.2.0-7.2.1/README.md --exclude *.pyd
+[2024-05-01 14:23:04] INFO root fetch - processPackages [yedextended]: Remove: archive file [/home/abi/fetcher/tmp/yedextended-1.0.7.tar.gz]
+[2024-05-01 14:23:04] INFO root fetch - processPackages [yedextended]: Remove: archive file [/home/abi/fetcher/tmp/yedextended-1.0.8.tar.gz]
+[2024-05-01 14:23:04] INFO root fetch - main [MainThread]: End processing [yedextended]: success
+[2024-05-01 14:23:04] INFO root fetch - processPackages [trytond-account-invoice-defer]: Remove: archive file [/home/abi/fetcher/tmp/trytond_account_invoice_defer-7.2.0.tar.gz]
+[2024-05-01 14:23:04] INFO root fetch - processPackages [trytond-account-invoice-defer]: Remove: archive file [/home/abi/fetcher/tmp/trytond_account_invoice_defer-7.2.1.tar.gz]
+[2024-05-01 14:23:04] INFO root fetch - main [MainThread]: End processing [trytond-account-invoice-defer]: success
+[2024-05-01 14:23:04] INFO root fetch - processPackages [trytond-account-move-line-grouping]: Remove: archive file [/home/abi/fetcher/tmp/trytond_account_move_line_grouping-7.2.0.tar.gz]
+[2024-05-01 14:23:04] INFO root fetch - processPackages [trytond-account-move-line-grouping]: Remove: archive file [/home/abi/fetcher/tmp/trytond_account_move_line_grouping-7.2.1.tar.gz]
+[2024-05-01 14:23:04] INFO root fetch - main [MainThread]: End processing [trytond-account-move-line-grouping]: success
+[2024-05-01 14:23:04] INFO root fetch - processPackages [odoo14-addon-l10n-br-account-payment-order]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_account_payment_order-14.0.5.2.1.dev2-py3-none-any.whl.zip]
+[2024-05-01 14:23:04] INFO root fetch - processPackages [odoo14-addon-l10n-br-account-payment-order]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_account_payment_order-14.0.5.3.0-py3-none-any.whl.zip]
+[2024-05-01 14:23:04] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-br-account-payment-order]: success
+[2024-05-01 14:23:05] INFO root fetch - processPackages [trytond-account-invoice]: Remove: archive file [/home/abi/fetcher/tmp/trytond_account_invoice-7.2.0.tar.gz]
+[2024-05-01 14:23:05] INFO root fetch - processPackages [trytond-account-invoice]: Remove: archive file [/home/abi/fetcher/tmp/trytond_account_invoice-7.2.1.tar.gz]
+[2024-05-01 14:23:05] INFO root fetch - main [MainThread]: End processing [trytond-account-invoice]: success
+[2024-05-01 14:23:05] INFO root fetch - main [MainThread]: End processing [trytond-account-invoice]: success
+[2024-05-01 14:23:05] INFO root fetch - main [MainThread]: End processing [trytond-account-invoice]: success
+[2024-05-01 14:23:05] INFO root fetch - main [MainThread]: Store serial: [23016763]
