@@ -15277,3 +15277,45 @@
 [2024-05-01 12:17:57] INFO root fetch - processPackages [cim-11-CERTIC]: Remove: archive file [/home/abi/fetcher/tmp/cim_11_certic-0.6.0.tar.gz]
 [2024-05-01 12:17:57] INFO root fetch - main [MainThread]: End processing [cim-11-CERTIC]: success
 [2024-05-01 12:17:57] INFO root fetch - main [MainThread]: Store serial: [23015127]
+[2024-05-01 12:20:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23015127]
+[2024-05-01 12:20:05] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-01 12:20:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: raspimonitor
+[2024-05-01 12:20:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: meross-iot
+[2024-05-01 12:20:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: matflow-new
+[2024-05-01 12:20:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyopsin
+[2024-05-01 12:20:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-confluentcloud
+[2024-05-01 12:20:05] INFO root fetch - processPackages [raspimonitor]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-01 12:20:05] INFO root fetch - processPackages [pulumi-confluentcloud]: New version: [1.9.0a1675887560] Old Version: [1.9.0]
+[2024-05-01 12:20:05] INFO root fetch - processPackages [meross-iot]: New version: [0.4.7.2b1] Old Version: [0.4.7.1]
+[2024-05-01 12:20:05] INFO root fetch - processPackages [raspimonitor]: Downloading https://files.pythonhosted.org/packages/f1/bc/7a026cbfef992b6a8f2eb091e335a959e8a59d44388d6da87cf0726b38d2/raspimonitor-0.0.1.tar.gz
+[2024-05-01 12:20:05] INFO root fetch - processPackages [matflow-new]: New version: [0.3.0a99] Old Version: [0.3.0a98]
+[2024-05-01 12:20:05] WARNING root fetch - processPackages [pyopsin]: Skipping, unable to determine old version
+[2024-05-01 12:20:05] INFO root fetch - main [MainThread]: End processing [pyopsin] error
+[2024-05-01 12:20:05] INFO root fetch - processPackages [pulumi-confluentcloud]: Downloading https://files.pythonhosted.org/packages/ee/5c/83ab7b1cf2467d8b22165c469862d15e131885dbf277da0d1bb686af03fe/pulumi_confluentcloud-1.9.0.tar.gz
+[2024-05-01 12:20:05] INFO root fetch - processPackages [meross-iot]: Downloading https://files.pythonhosted.org/packages/78/71/ecde38764225b5811ab477491426678945478372dad31979ff977364d619/meross_iot-0.4.7.1.tar.gz
+[2024-05-01 12:20:06] INFO root fetch - processPackages [raspimonitor]: Downloading https://files.pythonhosted.org/packages/eb/99/8c25aa68ace2a2f58a2db44daaf66bf6cc312f4fdb084938ad56656c978a/raspimonitor-0.0.2.tar.gz
+[2024-05-01 12:20:06] INFO root fetch - processPackages [meross-iot]: Downloading https://files.pythonhosted.org/packages/f7/6e/f4c6c72afd0a69625c4e59d41aee07af0a5635fceedd746480a45532497e/meross_iot-0.4.7.2b1.tar.gz
+[2024-05-01 12:20:06] INFO root fetch - processPackages [pulumi-confluentcloud]: Downloading https://files.pythonhosted.org/packages/ec/f6/4c3900e97797a3f84c4c58458a6334035e702bd96d9ed3ec48d8e6e20f4e/pulumi_confluentcloud-1.9.0a1675887560.tar.gz
+[2024-05-01 12:20:06] INFO root fetch - processPackages [matflow-new]: Downloading https://files.pythonhosted.org/packages/79/0c/766783dc57cdaa562cdf7f5d0651b3cf4d49e7c5c62ff2f6e1e308e44c0d/matflow_new-0.3.0a98.tar.gz
+[2024-05-01 12:20:06] INFO root fetch - processPackages [raspimonitor]: executing diffoscope
+[2024-05-01 12:20:06] INFO root fetch - processPackages [raspimonitor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raspimonitor-0.0.1.tar.gz tmp/raspimonitor-0.0.2.tar.gz --markdown 20240501/r/raspimonitor/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-01 12:20:06] INFO root fetch - processPackages [meross-iot]: executing diffoscope
+[2024-05-01 12:20:06] INFO root fetch - processPackages [meross-iot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meross_iot-0.4.7.1.tar.gz tmp/meross_iot-0.4.7.2b1.tar.gz --markdown 20240501/m/meross-iot/0.4.7.1-0.4.7.2b1/README.md --exclude *.pyd
+[2024-05-01 12:20:06] INFO root fetch - processPackages [pulumi-confluentcloud]: executing diffoscope
+[2024-05-01 12:20:06] INFO root fetch - processPackages [pulumi-confluentcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_confluentcloud-1.9.0.tar.gz tmp/pulumi_confluentcloud-1.9.0a1675887560.tar.gz --markdown 20240501/p/pulumi-confluentcloud/1.9.0-1.9.0a1675887560/README.md --exclude *.pyd
+[2024-05-01 12:20:06] INFO root fetch - processPackages [matflow-new]: Downloading https://files.pythonhosted.org/packages/c6/83/25cd25ce7b79d3c21926ce4535b66a4af4ecb66a3231d7fdac5638dbd090/matflow_new-0.3.0a99.tar.gz
+[2024-05-01 12:20:06] INFO root fetch - processPackages [matflow-new]: executing diffoscope
+[2024-05-01 12:20:06] INFO root fetch - processPackages [matflow-new]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matflow_new-0.3.0a98.tar.gz tmp/matflow_new-0.3.0a99.tar.gz --markdown 20240501/m/matflow-new/0.3.0a98-0.3.0a99/README.md --exclude *.pyd
+[2024-05-01 12:20:06] INFO root fetch - processPackages [raspimonitor]: Remove: archive file [/home/abi/fetcher/tmp/raspimonitor-0.0.1.tar.gz]
+[2024-05-01 12:20:06] INFO root fetch - processPackages [raspimonitor]: Remove: archive file [/home/abi/fetcher/tmp/raspimonitor-0.0.2.tar.gz]
+[2024-05-01 12:20:06] INFO root fetch - main [MainThread]: End processing [raspimonitor]: success
+[2024-05-01 12:20:06] INFO root fetch - processPackages [pulumi-confluentcloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_confluentcloud-1.9.0.tar.gz]
+[2024-05-01 12:20:06] INFO root fetch - processPackages [pulumi-confluentcloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_confluentcloud-1.9.0a1675887560.tar.gz]
+[2024-05-01 12:20:06] INFO root fetch - main [MainThread]: End processing [pulumi-confluentcloud]: success
+[2024-05-01 12:20:06] INFO root fetch - processPackages [meross-iot]: Remove: archive file [/home/abi/fetcher/tmp/meross_iot-0.4.7.1.tar.gz]
+[2024-05-01 12:20:06] INFO root fetch - processPackages [meross-iot]: Remove: archive file [/home/abi/fetcher/tmp/meross_iot-0.4.7.2b1.tar.gz]
+[2024-05-01 12:20:06] INFO root fetch - main [MainThread]: End processing [meross-iot]: success
+[2024-05-01 12:20:07] INFO root fetch - processPackages [matflow-new]: Remove: archive file [/home/abi/fetcher/tmp/matflow_new-0.3.0a98.tar.gz]
+[2024-05-01 12:20:07] INFO root fetch - processPackages [matflow-new]: Remove: archive file [/home/abi/fetcher/tmp/matflow_new-0.3.0a99.tar.gz]
+[2024-05-01 12:20:07] INFO root fetch - main [MainThread]: End processing [matflow-new]: success
+[2024-05-01 12:20:07] INFO root fetch - main [MainThread]: Store serial: [23015146]
