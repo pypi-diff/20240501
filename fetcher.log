@@ -11484,3 +11484,69 @@
 [2024-05-01 09:01:42] INFO root fetch - processPackages [tf-models-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_models_nightly-2.9.0.dev20220920-py2.py3-none-any.whl.zip]
 [2024-05-01 09:01:42] INFO root fetch - main [MainThread]: End processing [tf-models-nightly]: success
 [2024-05-01 09:01:42] INFO root fetch - main [MainThread]: Store serial: [23013452]
+[2024-05-01 09:03:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23013452]
+[2024-05-01 09:03:51] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-01 09:03:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-cms
+[2024-05-01 09:03:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: subsetter
+[2024-05-01 09:03:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-postgresql
+[2024-05-01 09:03:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: seqio-nightly
+[2024-05-01 09:03:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: AppAuthN
+[2024-05-01 09:03:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kanban-python
+[2024-05-01 09:03:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: polars-ml
+[2024-05-01 09:03:51] INFO root fetch - processPackages [seqio-nightly]: New version: [0.0.8.dev20220907] Old Version: [0.0.8.dev20220906]
+[2024-05-01 09:03:52] INFO root fetch - processPackages [django-cms]: New version: [4.1.1] Old Version: [4.1.0rc5]
+[2024-05-01 09:03:52] INFO root fetch - processPackages [subsetter]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-05-01 09:03:52] INFO root fetch - processPackages [AppAuthN]: New version: [0.0.15] Old Version: [0.0.14]
+[2024-05-01 09:03:52] INFO root fetch - processPackages [polars-ml]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-01 09:03:52] INFO root fetch - processPackages [pulumi-postgresql]: New version: [3.9.0a1689896978] Old Version: [3.9.0a1689315090]
+[2024-05-01 09:03:52] INFO root fetch - processPackages [kanban-python]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-05-01 09:03:52] INFO root fetch - processPackages [seqio-nightly]: Downloading https://files.pythonhosted.org/packages/43/a0/f60ad514b6f8534fa5ba8cc5fcc2a8f2e32e7d06d2dbfd43b12c2cb29931/seqio-nightly-0.0.8.dev20220906.tar.gz
+[2024-05-01 09:03:52] INFO root fetch - processPackages [subsetter]: Downloading https://files.pythonhosted.org/packages/ed/7b/35091441788fc6f6b609bbed34de49f574e71c9afadcaaff9e4fed1ff942/subsetter-0.2.0.tar.gz
+[2024-05-01 09:03:52] INFO root fetch - processPackages [django-cms]: Downloading https://files.pythonhosted.org/packages/a2/a9/ade0234849d41b7c812fe796fb850af0133eaf5c35e62a5fbcc1ad0a2516/django-cms-4.1.0rc5.tar.gz
+[2024-05-01 09:03:52] INFO root fetch - processPackages [AppAuthN]: Downloading https://files.pythonhosted.org/packages/a8/66/6f3b838e62c4bd3da4f3657b1afbb4793dc8b8980fd0f8193be7d27417ad/AppAuthN-0.0.14.tar.gz
+[2024-05-01 09:03:52] INFO root fetch - processPackages [kanban-python]: Downloading https://files.pythonhosted.org/packages/89/d6/a59c60b84cd1586ebe289c7e1f8ac8c00c5f4041e5c8f6d343f755d47489/kanban-python-0.4.0.tar.gz
+[2024-05-01 09:03:52] INFO root fetch - processPackages [pulumi-postgresql]: Downloading https://files.pythonhosted.org/packages/ed/e0/7fdde90ef74fd102795261322b0ac8625336995854691a442d881f55cb87/pulumi_postgresql-3.9.0a1689315090.tar.gz
+[2024-05-01 09:03:52] INFO root fetch - processPackages [polars-ml]: Downloading https://files.pythonhosted.org/packages/db/b6/f844bb36e768bac13539d3629a46095d9c29b926a29b21299f2296282cc4/polars_ml-0.1.1-cp38-abi3-win_amd64.whl
+[2024-05-01 09:03:52] INFO root fetch - processPackages [seqio-nightly]: Downloading https://files.pythonhosted.org/packages/2a/76/25f4c7602cdd724deac948a914e454756abfad2119a525c06d9ce341b918/seqio-nightly-0.0.8.dev20220907.tar.gz
+[2024-05-01 09:03:52] INFO root fetch - processPackages [subsetter]: Downloading https://files.pythonhosted.org/packages/b2/71/0ff2d08f2591e511399985833f598f4ad1f22732ee177d63121183109478/subsetter-0.3.0.tar.gz
+[2024-05-01 09:03:52] INFO root fetch - processPackages [AppAuthN]: Downloading https://files.pythonhosted.org/packages/e9/df/79838a9644c66e6e95353526279d7025cdfdeefde646fbed9d6afa025ea8/AppAuthN-0.0.15.tar.gz
+[2024-05-01 09:03:52] INFO root fetch - processPackages [seqio-nightly]: executing diffoscope
+[2024-05-01 09:03:52] INFO root fetch - processPackages [seqio-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seqio-nightly-0.0.8.dev20220906.tar.gz tmp/seqio-nightly-0.0.8.dev20220907.tar.gz --markdown 20240501/s/seqio-nightly/0.0.8.dev20220906-0.0.8.dev20220907/README.md --exclude *.pyd
+[2024-05-01 09:03:52] INFO root fetch - processPackages [pulumi-postgresql]: Downloading https://files.pythonhosted.org/packages/a0/7c/da57549229c7dc197fea08a82cd8c820b56d0bf8e0ed12fafc5fec8b3eff/pulumi_postgresql-3.9.0a1689896978.tar.gz
+[2024-05-01 09:03:52] INFO root fetch - processPackages [subsetter]: executing diffoscope
+[2024-05-01 09:03:52] INFO root fetch - processPackages [subsetter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/subsetter-0.2.0.tar.gz tmp/subsetter-0.3.0.tar.gz --markdown 20240501/s/subsetter/0.2.0-0.3.0/README.md --exclude *.pyd
+[2024-05-01 09:03:52] INFO root fetch - processPackages [kanban-python]: Downloading https://files.pythonhosted.org/packages/92/78/f797c4a1ef6d32c2d638b3d4cc5a4efc97f59d3b1becbe12078e4a58fc56/kanban_python-0.4.1.tar.gz
+[2024-05-01 09:03:52] INFO root fetch - processPackages [AppAuthN]: executing diffoscope
+[2024-05-01 09:03:52] INFO root fetch - processPackages [AppAuthN]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AppAuthN-0.0.14.tar.gz tmp/AppAuthN-0.0.15.tar.gz --markdown 20240501/A/AppAuthN/0.0.14-0.0.15/README.md --exclude *.pyd
+[2024-05-01 09:03:52] INFO root fetch - processPackages [pulumi-postgresql]: executing diffoscope
+[2024-05-01 09:03:52] INFO root fetch - processPackages [pulumi-postgresql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_postgresql-3.9.0a1689315090.tar.gz tmp/pulumi_postgresql-3.9.0a1689896978.tar.gz --markdown 20240501/p/pulumi-postgresql/3.9.0a1689315090-3.9.0a1689896978/README.md --exclude *.pyd
+[2024-05-01 09:03:52] INFO root fetch - processPackages [kanban-python]: executing diffoscope
+[2024-05-01 09:03:52] INFO root fetch - processPackages [kanban-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kanban-python-0.4.0.tar.gz tmp/kanban_python-0.4.1.tar.gz --markdown 20240501/k/kanban-python/0.4.0-0.4.1/README.md --exclude *.pyd
+[2024-05-01 09:03:53] INFO root fetch - processPackages [polars-ml]: Downloading https://files.pythonhosted.org/packages/e7/cf/e94cafe04d2b4fdbbec55ef4fe7dfeb9ed6c1239dd729a3417ee9e79e407/polars_ml-0.1.2-cp38-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-01 09:03:53] INFO root fetch - processPackages [AppAuthN]: Remove: archive file [/home/abi/fetcher/tmp/AppAuthN-0.0.14.tar.gz]
+[2024-05-01 09:03:53] INFO root fetch - processPackages [AppAuthN]: Remove: archive file [/home/abi/fetcher/tmp/AppAuthN-0.0.15.tar.gz]
+[2024-05-01 09:03:53] INFO root fetch - main [MainThread]: End processing [AppAuthN]: success
+[2024-05-01 09:03:53] INFO root fetch - processPackages [subsetter]: Remove: archive file [/home/abi/fetcher/tmp/subsetter-0.2.0.tar.gz]
+[2024-05-01 09:03:53] INFO root fetch - processPackages [subsetter]: Remove: archive file [/home/abi/fetcher/tmp/subsetter-0.3.0.tar.gz]
+[2024-05-01 09:03:53] INFO root fetch - main [MainThread]: End processing [subsetter]: success
+[2024-05-01 09:03:53] INFO root fetch - processPackages [seqio-nightly]: Remove: archive file [/home/abi/fetcher/tmp/seqio-nightly-0.0.8.dev20220906.tar.gz]
+[2024-05-01 09:03:53] INFO root fetch - processPackages [seqio-nightly]: Remove: archive file [/home/abi/fetcher/tmp/seqio-nightly-0.0.8.dev20220907.tar.gz]
+[2024-05-01 09:03:53] INFO root fetch - main [MainThread]: End processing [seqio-nightly]: success
+[2024-05-01 09:03:53] INFO root fetch - processPackages [polars-ml]: executing diffoscope
+[2024-05-01 09:03:53] INFO root fetch - processPackages [polars-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polars_ml-0.1.1-cp38-abi3-win_amd64.whl.zip tmp/polars_ml-0.1.2-cp38-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240501/p/polars-ml/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-01 09:03:53] INFO root fetch - processPackages [pulumi-postgresql]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_postgresql-3.9.0a1689315090.tar.gz]
+[2024-05-01 09:03:53] INFO root fetch - processPackages [pulumi-postgresql]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_postgresql-3.9.0a1689896978.tar.gz]
+[2024-05-01 09:03:53] INFO root fetch - main [MainThread]: End processing [pulumi-postgresql]: success
+[2024-05-01 09:03:53] INFO root fetch - processPackages [kanban-python]: Remove: archive file [/home/abi/fetcher/tmp/kanban-python-0.4.0.tar.gz]
+[2024-05-01 09:03:53] INFO root fetch - processPackages [kanban-python]: Remove: archive file [/home/abi/fetcher/tmp/kanban_python-0.4.1.tar.gz]
+[2024-05-01 09:03:53] INFO root fetch - main [MainThread]: End processing [kanban-python]: success
+[2024-05-01 09:03:54] INFO root fetch - processPackages [django-cms]: Downloading https://files.pythonhosted.org/packages/48/6a/d9ed4a56b322b790f7c12ed1fd1e71f546528774c402433d7af3654cc302/django_cms-4.1.1.tar.gz
+[2024-05-01 09:03:54] INFO root fetch - processPackages [polars-ml]: Remove: archive file [/home/abi/fetcher/tmp/polars_ml-0.1.1-cp38-abi3-win_amd64.whl.zip]
+[2024-05-01 09:03:54] INFO root fetch - processPackages [polars-ml]: Remove: archive file [/home/abi/fetcher/tmp/polars_ml-0.1.2-cp38-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-01 09:03:54] INFO root fetch - main [MainThread]: End processing [polars-ml]: success
+[2024-05-01 09:03:54] INFO root fetch - processPackages [django-cms]: executing diffoscope
+[2024-05-01 09:03:54] INFO root fetch - processPackages [django-cms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-cms-4.1.0rc5.tar.gz tmp/django_cms-4.1.1.tar.gz --markdown 20240501/d/django-cms/4.1.0rc5-4.1.1/README.md --exclude *.pyd
+[2024-05-01 09:04:10] INFO root fetch - processPackages [django-cms]: Remove: archive file [/home/abi/fetcher/tmp/django-cms-4.1.0rc5.tar.gz]
+[2024-05-01 09:04:10] INFO root fetch - processPackages [django-cms]: Remove: archive file [/home/abi/fetcher/tmp/django_cms-4.1.1.tar.gz]
+[2024-05-01 09:04:10] INFO root fetch - main [MainThread]: End processing [django-cms]: success
+[2024-05-01 09:04:10] INFO root fetch - main [MainThread]: Store serial: [23013474]
