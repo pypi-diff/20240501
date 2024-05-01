@@ -22841,3 +22841,24 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-01 16:43:20] INFO root fetch - processPackages [datajunction-query]: Remove: archive file [/home/abi/fetcher/tmp/datajunction_query-0.0.1a46.tar.gz]
 [2024-05-01 16:43:20] INFO root fetch - main [MainThread]: End processing [datajunction-query]: success
 [2024-05-01 16:43:20] INFO root fetch - main [MainThread]: Store serial: [23018168]
+[2024-05-01 16:45:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23018168]
+[2024-05-01 16:45:29] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-01 16:45:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: geemap
+[2024-05-01 16:45:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lielab
+[2024-05-01 16:45:29] INFO root fetch - processPackages [geemap]: New version: [0.9.5] Old Version: [0.9.4]
+[2024-05-01 16:45:29] INFO root fetch - processPackages [lielab]: New version: [0.4.0.post1] Old Version: [0.4.0]
+[2024-05-01 16:45:29] INFO root fetch - processPackages [geemap]: Downloading https://files.pythonhosted.org/packages/21/6e/5898075af0a4f152ce0b4ef0db8767cefbddd5b8df12dd72816394caa45d/geemap-0.9.4.tar.gz
+[2024-05-01 16:45:29] INFO root fetch - processPackages [lielab]: Downloading https://files.pythonhosted.org/packages/a3/11/1d4b8388d351de55c12b65a034f2bf606bd4f85ef92eae4bdad74ada34e7/lielab-0.4.0-cp39-none-win_amd64.whl
+[2024-05-01 16:45:30] INFO root fetch - processPackages [geemap]: Downloading https://files.pythonhosted.org/packages/f3/0f/46be1c7fd40f4c083db73c113c1fe2026351af6892514fbe4303a371b938/geemap-0.9.5.tar.gz
+[2024-05-01 16:45:30] INFO root fetch - processPackages [lielab]: Downloading https://files.pythonhosted.org/packages/f5/38/99cabb55e41ca902ce34aeb856efd963b6133d724bb16a957a5cb063df58/lielab-0.4.0post1-cp311-none-manylinux1_x86_64.whl
+[2024-05-01 16:45:30] INFO root fetch - processPackages [lielab]: executing diffoscope
+[2024-05-01 16:45:30] INFO root fetch - processPackages [lielab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lielab-0.4.0-cp39-none-win_amd64.whl.zip tmp/lielab-0.4.0post1-cp311-none-manylinux1_x86_64.whl.zip --markdown 20240501/l/lielab/0.4.0-0.4.0.post1/README.md --exclude *.pyd
+[2024-05-01 16:45:30] INFO root fetch - processPackages [geemap]: executing diffoscope
+[2024-05-01 16:45:30] INFO root fetch - processPackages [geemap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geemap-0.9.4.tar.gz tmp/geemap-0.9.5.tar.gz --markdown 20240501/g/geemap/0.9.4-0.9.5/README.md --exclude *.pyd
+[2024-05-01 16:45:31] INFO root fetch - processPackages [lielab]: Remove: archive file [/home/abi/fetcher/tmp/lielab-0.4.0-cp39-none-win_amd64.whl.zip]
+[2024-05-01 16:45:31] INFO root fetch - processPackages [lielab]: Remove: archive file [/home/abi/fetcher/tmp/lielab-0.4.0post1-cp311-none-manylinux1_x86_64.whl.zip]
+[2024-05-01 16:45:31] INFO root fetch - main [MainThread]: End processing [lielab]: success
+[2024-05-01 16:45:31] INFO root fetch - processPackages [geemap]: Remove: archive file [/home/abi/fetcher/tmp/geemap-0.9.4.tar.gz]
+[2024-05-01 16:45:31] INFO root fetch - processPackages [geemap]: Remove: archive file [/home/abi/fetcher/tmp/geemap-0.9.5.tar.gz]
+[2024-05-01 16:45:31] INFO root fetch - main [MainThread]: End processing [geemap]: success
+[2024-05-01 16:45:31] INFO root fetch - main [MainThread]: Store serial: [23018176]
