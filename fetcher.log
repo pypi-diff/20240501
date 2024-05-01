@@ -12468,3 +12468,51 @@
 [2024-05-01 10:03:41] INFO root fetch - processPackages [incendium]: Remove: archive file [/home/abi/fetcher/tmp/incendium-2024.5.0.tar.gz]
 [2024-05-01 10:03:41] INFO root fetch - main [MainThread]: End processing [incendium]: success
 [2024-05-01 10:03:41] INFO root fetch - main [MainThread]: Store serial: [23013859]
+[2024-05-01 10:05:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23013859]
+[2024-05-01 10:05:50] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-01 10:05:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: l2m2
+[2024-05-01 10:05:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: incendium-stubs
+[2024-05-01 10:05:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qontract-reconcile
+[2024-05-01 10:05:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: LuBanPy
+[2024-05-01 10:05:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: langfun
+[2024-05-01 10:05:50] INFO root fetch - processPackages [LuBanPy]: New version: [0.1.9] Old Version: [0.1.7]
+[2024-05-01 10:05:50] INFO root fetch - processPackages [langfun]: New version: [0.0.2.dev20240430] Old Version: [0.0.2.dev20240429]
+[2024-05-01 10:05:50] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2024-05-01 10:05:50] INFO root fetch - processPackages [incendium-stubs]: New version: [2024.5.0] Old Version: [2023.4.0.post2]
+[2024-05-01 10:05:50] INFO root fetch - processPackages [l2m2]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-01 10:05:50] INFO root fetch - processPackages [LuBanPy]: Downloading https://files.pythonhosted.org/packages/56/da/c1a104d4b834f04c0441a2021da07a0d2fa21d41fa076d73f5d3cd36a231/LuBanPy-0.1.7-cp38-cp38-win_amd64.whl
+[2024-05-01 10:05:50] INFO root fetch - processPackages [langfun]: Downloading https://files.pythonhosted.org/packages/72/e7/91f55a99c06e07ff5276510a9bb8414b1de5c646a0f4a38653b93b0a623d/langfun-0.0.2.dev20240429.tar.gz
+[2024-05-01 10:05:50] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2024-05-01 10:05:50] INFO root fetch - processPackages [incendium-stubs]: Downloading https://files.pythonhosted.org/packages/1e/54/8b2fdd9e1b186195c9e23b076be0a76b3cc2252e3b0442157633bfb76d51/incendium-stubs-2023.4.0.post2.tar.gz
+[2024-05-01 10:05:50] INFO root fetch - processPackages [l2m2]: Downloading https://files.pythonhosted.org/packages/7f/d9/56c6f685d611068059bd5a3578bbb0aad1b305b1842dc2c8904cc123b945/l2m2-0.0.8.tar.gz
+[2024-05-01 10:05:50] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2024-05-01 10:05:50] INFO root fetch - processPackages [LuBanPy]: Downloading https://files.pythonhosted.org/packages/d8/80/6ec38830c73dc214a34d0bcdfc9eac19ee0a5ff2f7e661427b5f1b926500/LuBanPy-0.1.9-cp38-cp38-win_amd64.whl
+[2024-05-01 10:05:50] INFO root fetch - processPackages [langfun]: Downloading https://files.pythonhosted.org/packages/cd/ef/a10dca9f20430cf1d445e00ca3fe5afcad7900e011907fd2af90c906174b/langfun-0.0.2.dev20240430.tar.gz
+[2024-05-01 10:05:50] INFO root fetch - processPackages [incendium-stubs]: Downloading https://files.pythonhosted.org/packages/52/13/40b091a81807a21866f00ac4252debb262688697f577fb114d84b0dd9664/incendium_stubs-2024.5.0.tar.gz
+[2024-05-01 10:05:50] INFO root fetch - processPackages [l2m2]: Downloading https://files.pythonhosted.org/packages/cc/a2/dbe134061914f7906a58b526cdf405e02c2a78096e5d90fc4eb5b326176c/l2m2-0.0.9.tar.gz
+[2024-05-01 10:05:51] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2024-05-01 10:05:51] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20240501/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/README.md --exclude *.pyd
+[2024-05-01 10:05:51] INFO root fetch - processPackages [langfun]: executing diffoscope
+[2024-05-01 10:05:51] INFO root fetch - processPackages [langfun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langfun-0.0.2.dev20240429.tar.gz tmp/langfun-0.0.2.dev20240430.tar.gz --markdown 20240501/l/langfun/0.0.2.dev20240429-0.0.2.dev20240430/README.md --exclude *.pyd
+[2024-05-01 10:05:51] INFO root fetch - processPackages [incendium-stubs]: executing diffoscope
+[2024-05-01 10:05:51] INFO root fetch - processPackages [incendium-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/incendium-stubs-2023.4.0.post2.tar.gz tmp/incendium_stubs-2024.5.0.tar.gz --markdown 20240501/i/incendium-stubs/2023.4.0.post2-2024.5.0/README.md --exclude *.pyd
+[2024-05-01 10:05:51] INFO root fetch - processPackages [l2m2]: executing diffoscope
+[2024-05-01 10:05:51] INFO root fetch - processPackages [l2m2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/l2m2-0.0.8.tar.gz tmp/l2m2-0.0.9.tar.gz --markdown 20240501/l/l2m2/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-01 10:05:51] INFO root fetch - processPackages [LuBanPy]: executing diffoscope
+[2024-05-01 10:05:51] INFO root fetch - processPackages [LuBanPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LuBanPy-0.1.7-cp38-cp38-win_amd64.whl.zip tmp/LuBanPy-0.1.9-cp38-cp38-win_amd64.whl.zip --markdown 20240501/L/LuBanPy/0.1.7-0.1.9/README.md --exclude *.pyd
+[2024-05-01 10:05:51] INFO root fetch - processPackages [l2m2]: Remove: archive file [/home/abi/fetcher/tmp/l2m2-0.0.8.tar.gz]
+[2024-05-01 10:05:51] INFO root fetch - processPackages [l2m2]: Remove: archive file [/home/abi/fetcher/tmp/l2m2-0.0.9.tar.gz]
+[2024-05-01 10:05:51] INFO root fetch - main [MainThread]: End processing [l2m2]: success
+[2024-05-01 10:05:51] INFO root fetch - processPackages [incendium-stubs]: Remove: archive file [/home/abi/fetcher/tmp/incendium-stubs-2023.4.0.post2.tar.gz]
+[2024-05-01 10:05:51] INFO root fetch - processPackages [incendium-stubs]: Remove: archive file [/home/abi/fetcher/tmp/incendium_stubs-2024.5.0.tar.gz]
+[2024-05-01 10:05:51] INFO root fetch - main [MainThread]: End processing [incendium-stubs]: success
+[2024-05-01 10:05:51] INFO root fetch - processPackages [LuBanPy]: Remove: archive file [/home/abi/fetcher/tmp/LuBanPy-0.1.7-cp38-cp38-win_amd64.whl.zip]
+[2024-05-01 10:05:51] INFO root fetch - processPackages [LuBanPy]: Remove: archive file [/home/abi/fetcher/tmp/LuBanPy-0.1.9-cp38-cp38-win_amd64.whl.zip]
+[2024-05-01 10:05:51] INFO root fetch - main [MainThread]: End processing [LuBanPy]: success
+[2024-05-01 10:05:52] INFO root fetch - processPackages [langfun]: Remove: archive file [/home/abi/fetcher/tmp/langfun-0.0.2.dev20240429.tar.gz]
+[2024-05-01 10:05:52] INFO root fetch - processPackages [langfun]: Remove: archive file [/home/abi/fetcher/tmp/langfun-0.0.2.dev20240430.tar.gz]
+[2024-05-01 10:05:52] INFO root fetch - main [MainThread]: End processing [langfun]: success
+[2024-05-01 10:05:52] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2024-05-01 10:05:52] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2024-05-01 10:05:52] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2024-05-01 10:05:52] INFO root fetch - main [MainThread]: Store serial: [23013891]
