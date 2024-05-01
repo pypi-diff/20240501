@@ -11076,3 +11076,24 @@
 [2024-05-01 08:36:56] INFO root fetch - processPackages [pulumi-pagerduty]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_pagerduty-4.9.0a1709566454.tar.gz]
 [2024-05-01 08:36:56] INFO root fetch - main [MainThread]: End processing [pulumi-pagerduty]: success
 [2024-05-01 08:36:56] INFO root fetch - main [MainThread]: Store serial: [23013238]
+[2024-05-01 08:39:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23013238]
+[2024-05-01 08:39:06] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-01 08:39:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: compas-eve
+[2024-05-01 08:39:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: open-parser
+[2024-05-01 08:39:06] INFO root fetch - processPackages [compas-eve]: New version: [0.4.0] Old Version: [0.3.7]
+[2024-05-01 08:39:06] INFO root fetch - processPackages [open-parser]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-01 08:39:06] INFO root fetch - processPackages [compas-eve]: Downloading https://files.pythonhosted.org/packages/a3/ea/c57eeb752c9398571c8b7f5883370157472215e9fe48d7f7110a0e9a4ebd/compas_eve-0.3.7.tar.gz
+[2024-05-01 08:39:06] INFO root fetch - processPackages [open-parser]: Downloading https://files.pythonhosted.org/packages/a0/b9/5a8602f4b85ab980df312b92221aff42bdcc3db9d3394075c0d2fd3374e3/open_parser-0.0.6.tar.gz
+[2024-05-01 08:39:07] INFO root fetch - processPackages [open-parser]: Downloading https://files.pythonhosted.org/packages/c2/83/98d8c616378298470094485f901eb85213b581aad841c82bd25535cec1cb/open_parser-0.0.7.tar.gz
+[2024-05-01 08:39:07] INFO root fetch - processPackages [compas-eve]: Downloading https://files.pythonhosted.org/packages/04/55/30db9cf57695ed97af1ea999b229c5548ca33ce7b0518a9e0a7a5ff165ce/compas_eve-0.4.0.tar.gz
+[2024-05-01 08:39:07] INFO root fetch - processPackages [open-parser]: executing diffoscope
+[2024-05-01 08:39:07] INFO root fetch - processPackages [open-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open_parser-0.0.6.tar.gz tmp/open_parser-0.0.7.tar.gz --markdown 20240501/o/open-parser/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-01 08:39:07] INFO root fetch - processPackages [compas-eve]: executing diffoscope
+[2024-05-01 08:39:07] INFO root fetch - processPackages [compas-eve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/compas_eve-0.3.7.tar.gz tmp/compas_eve-0.4.0.tar.gz --markdown 20240501/c/compas-eve/0.3.7-0.4.0/README.md --exclude *.pyd
+[2024-05-01 08:39:07] INFO root fetch - processPackages [open-parser]: Remove: archive file [/home/abi/fetcher/tmp/open_parser-0.0.6.tar.gz]
+[2024-05-01 08:39:07] INFO root fetch - processPackages [open-parser]: Remove: archive file [/home/abi/fetcher/tmp/open_parser-0.0.7.tar.gz]
+[2024-05-01 08:39:07] INFO root fetch - main [MainThread]: End processing [open-parser]: success
+[2024-05-01 08:39:07] INFO root fetch - processPackages [compas-eve]: Remove: archive file [/home/abi/fetcher/tmp/compas_eve-0.3.7.tar.gz]
+[2024-05-01 08:39:07] INFO root fetch - processPackages [compas-eve]: Remove: archive file [/home/abi/fetcher/tmp/compas_eve-0.4.0.tar.gz]
+[2024-05-01 08:39:07] INFO root fetch - main [MainThread]: End processing [compas-eve]: success
+[2024-05-01 08:39:07] INFO root fetch - main [MainThread]: Store serial: [23013244]
