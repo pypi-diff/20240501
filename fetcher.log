@@ -7041,3 +7041,15 @@
 [2024-05-01 03:57:05] INFO root fetch - processPackages [sbcli-dev]: Remove: archive file [/home/abi/fetcher/tmp/sbcli_dev-2.4.7.zip]
 [2024-05-01 03:57:05] INFO root fetch - main [MainThread]: End processing [sbcli-dev]: success
 [2024-05-01 03:57:05] INFO root fetch - main [MainThread]: Store serial: [23011389]
+[2024-05-01 03:59:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23011389]
+[2024-05-01 03:59:14] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-01 03:59:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: stellar-sdk
+[2024-05-01 03:59:14] INFO root fetch - processPackages [stellar-sdk]: New version: [9.4.0] Old Version: [9.3.0]
+[2024-05-01 03:59:14] INFO root fetch - processPackages [stellar-sdk]: Downloading https://files.pythonhosted.org/packages/81/b6/0e829ecdf5e0d2b59ab9a184bcaa1e7c111e10b13cbffb147c62f8b891dd/stellar_sdk-9.3.0.tar.gz
+[2024-05-01 03:59:15] INFO root fetch - processPackages [stellar-sdk]: Downloading https://files.pythonhosted.org/packages/51/d7/50aaab65dce629e1917b43949aad45e5cd7b181b16ccbf5082758e96f7be/stellar_sdk-9.4.0.tar.gz
+[2024-05-01 03:59:15] INFO root fetch - processPackages [stellar-sdk]: executing diffoscope
+[2024-05-01 03:59:15] INFO root fetch - processPackages [stellar-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stellar_sdk-9.3.0.tar.gz tmp/stellar_sdk-9.4.0.tar.gz --markdown 20240501/s/stellar-sdk/9.3.0-9.4.0/README.md --exclude *.pyd
+[2024-05-01 03:59:17] INFO root fetch - processPackages [stellar-sdk]: Remove: archive file [/home/abi/fetcher/tmp/stellar_sdk-9.3.0.tar.gz]
+[2024-05-01 03:59:17] INFO root fetch - processPackages [stellar-sdk]: Remove: archive file [/home/abi/fetcher/tmp/stellar_sdk-9.4.0.tar.gz]
+[2024-05-01 03:59:17] INFO root fetch - main [MainThread]: End processing [stellar-sdk]: success
+[2024-05-01 03:59:17] INFO root fetch - main [MainThread]: Store serial: [23011392]
