@@ -13360,3 +13360,75 @@
 [2024-05-01 10:49:38] INFO root fetch - processPackages [macal]: Remove: archive file [/home/abi/fetcher/tmp/macal-5.5.0a9.tar.gz]
 [2024-05-01 10:49:38] INFO root fetch - main [MainThread]: End processing [macal]: success
 [2024-05-01 10:49:38] INFO root fetch - main [MainThread]: Store serial: [23014308]
+[2024-05-01 10:51:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23014308]
+[2024-05-01 10:51:47] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-01 10:51:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Oasys.gRPC
+[2024-05-01 10:51:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Oasys.D3PLOT
+[2024-05-01 10:51:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Oasys.PRIMER
+[2024-05-01 10:51:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: file-ops-suite
+[2024-05-01 10:51:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Oasys.REPORTER
+[2024-05-01 10:51:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Oasys.THIS
+[2024-05-01 10:51:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aiinitiate
+[2024-05-01 10:51:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: socketsecurity
+[2024-05-01 10:51:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: potatorch
+[2024-05-01 10:51:47] INFO root fetch - processPackages [socketsecurity]: New version: [0.0.40] Old Version: [0.0.39]
+[2024-05-01 10:51:47] INFO root fetch - processPackages [Oasys.D3PLOT]: New version: [21.0.0b9] Old Version: [21.0.0b8]
+[2024-05-01 10:51:47] INFO root fetch - processPackages [Oasys.THIS]: New version: [21.0.0b9] Old Version: [21.0.0b8]
+[2024-05-01 10:51:47] INFO root fetch - processPackages [Oasys.REPORTER]: New version: [21.0.0b9] Old Version: [21.0.0b8]
+[2024-05-01 10:51:47] INFO root fetch - processPackages [Oasys.PRIMER]: New version: [21.0.0b9] Old Version: [21.0.0b8]
+[2024-05-01 10:51:47] INFO root fetch - processPackages [Oasys.gRPC]: New version: [21.0.0b9] Old Version: [21.0.0b8]
+[2024-05-01 10:51:47] INFO root fetch - processPackages [socketsecurity]: Downloading https://files.pythonhosted.org/packages/77/20/76f4ad0be6397104188dcf8d481b1da6bdfb2a1d3a99e1beb49b37e8f687/socketsecurity-0.0.39.tar.gz
+[2024-05-01 10:51:47] WARNING root fetch - processPackages [aiinitiate]: Skipping, unable to determine old version
+[2024-05-01 10:51:47] INFO root fetch - main [MainThread]: End processing [aiinitiate] error
+[2024-05-01 10:51:47] INFO root fetch - processPackages [Oasys.D3PLOT]: Downloading https://files.pythonhosted.org/packages/c6/cc/54bd5258e3f587b146e640ed2290e49bcdeb4a681e58a56f49685924e68b/Oasys.D3PLOT-21.0.0b8.tar.gz
+[2024-05-01 10:51:47] INFO root fetch - processPackages [Oasys.THIS]: Downloading https://files.pythonhosted.org/packages/f3/70/094181fd7de53ff9eaa3ef5d895667393732d1974f6a72942f9658a2cdfd/Oasys.THIS-21.0.0b8.tar.gz
+[2024-05-01 10:51:48] INFO root fetch - processPackages [Oasys.REPORTER]: Downloading https://files.pythonhosted.org/packages/a4/f3/5117684118a98d1ba13fa34e24840e27ad1c1b9417a9b00152801a3e47d8/Oasys.REPORTER-21.0.0b8.tar.gz
+[2024-05-01 10:51:48] INFO root fetch - processPackages [Oasys.PRIMER]: Downloading https://files.pythonhosted.org/packages/a6/77/367f9ede867aea35c86833351cc9e71da66d8ecaea5f298c1bd75a63bf83/Oasys.PRIMER-21.0.0b8.tar.gz
+[2024-05-01 10:51:48] INFO root fetch - processPackages [potatorch]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-01 10:51:48] WARNING root fetch - processPackages [file-ops-suite]: Skipping, unable to determine old version
+[2024-05-01 10:51:48] INFO root fetch - main [MainThread]: End processing [file-ops-suite] error
+[2024-05-01 10:51:48] INFO root fetch - processPackages [Oasys.gRPC]: Downloading https://files.pythonhosted.org/packages/e6/56/190d4dfc7c80cd2b9415b44c4c9488879a13790e15f5143e6d9c40f5c500/Oasys.gRPC-21.0.0b8.tar.gz
+[2024-05-01 10:51:48] INFO root fetch - processPackages [Oasys.D3PLOT]: Downloading https://files.pythonhosted.org/packages/c1/3e/f36ff91ff458a6b7f504755c1c01e44f658833026b3f428d15e8daa0acef/Oasys.D3PLOT-21.0.0b9.tar.gz
+[2024-05-01 10:51:48] INFO root fetch - processPackages [Oasys.THIS]: Downloading https://files.pythonhosted.org/packages/c7/48/9a7e4809aef01ccbc33b443d538054a2a6d9ac1229458e6c3fb012be1b4a/Oasys.THIS-21.0.0b9.tar.gz
+[2024-05-01 10:51:48] INFO root fetch - processPackages [Oasys.REPORTER]: Downloading https://files.pythonhosted.org/packages/96/d8/d022b12c4ac4b1b7c460bde4c5bf2d8a3595e06c429c4aa21ad977db6202/Oasys.REPORTER-21.0.0b9.tar.gz
+[2024-05-01 10:51:48] INFO root fetch - processPackages [potatorch]: Downloading https://files.pythonhosted.org/packages/91/c5/3b58185f905e07c886ce5159759fe078d4d8e85fc2f6d9048a65d95b190a/potatorch-0.0.3.tar.gz
+[2024-05-01 10:51:48] INFO root fetch - processPackages [Oasys.PRIMER]: Downloading https://files.pythonhosted.org/packages/db/14/7a9842fffb577d29d08c859aed85d46aa5d0ca504aa501dca0ed292eb037/Oasys.PRIMER-21.0.0b9.tar.gz
+[2024-05-01 10:51:48] INFO root fetch - processPackages [socketsecurity]: Downloading https://files.pythonhosted.org/packages/61/9b/9077aae88a561d109af653ce8d0640eefb17bcfd697283658b6c399bf7a9/socketsecurity-0.0.40.tar.gz
+[2024-05-01 10:51:48] INFO root fetch - processPackages [Oasys.D3PLOT]: executing diffoscope
+[2024-05-01 10:51:48] INFO root fetch - processPackages [Oasys.D3PLOT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Oasys.D3PLOT-21.0.0b8.tar.gz tmp/Oasys.D3PLOT-21.0.0b9.tar.gz --markdown 20240501/O/Oasys.D3PLOT/21.0.0b8-21.0.0b9/README.md --exclude *.pyd
+[2024-05-01 10:51:48] INFO root fetch - processPackages [Oasys.REPORTER]: executing diffoscope
+[2024-05-01 10:51:48] INFO root fetch - processPackages [Oasys.REPORTER]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Oasys.REPORTER-21.0.0b8.tar.gz tmp/Oasys.REPORTER-21.0.0b9.tar.gz --markdown 20240501/O/Oasys.REPORTER/21.0.0b8-21.0.0b9/README.md --exclude *.pyd
+[2024-05-01 10:51:48] INFO root fetch - processPackages [Oasys.THIS]: executing diffoscope
+[2024-05-01 10:51:48] INFO root fetch - processPackages [Oasys.THIS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Oasys.THIS-21.0.0b8.tar.gz tmp/Oasys.THIS-21.0.0b9.tar.gz --markdown 20240501/O/Oasys.THIS/21.0.0b8-21.0.0b9/README.md --exclude *.pyd
+[2024-05-01 10:51:48] INFO root fetch - processPackages [Oasys.PRIMER]: executing diffoscope
+[2024-05-01 10:51:48] INFO root fetch - processPackages [Oasys.PRIMER]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Oasys.PRIMER-21.0.0b8.tar.gz tmp/Oasys.PRIMER-21.0.0b9.tar.gz --markdown 20240501/O/Oasys.PRIMER/21.0.0b8-21.0.0b9/README.md --exclude *.pyd
+[2024-05-01 10:51:48] INFO root fetch - processPackages [socketsecurity]: executing diffoscope
+[2024-05-01 10:51:48] INFO root fetch - processPackages [socketsecurity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/socketsecurity-0.0.39.tar.gz tmp/socketsecurity-0.0.40.tar.gz --markdown 20240501/s/socketsecurity/0.0.39-0.0.40/README.md --exclude *.pyd
+[2024-05-01 10:51:48] INFO root fetch - processPackages [Oasys.gRPC]: Downloading https://files.pythonhosted.org/packages/24/6a/ffba7772fa1844811aa3e577364536ce760a655ca6d339764822ad3c19cd/Oasys.gRPC-21.0.0b9.tar.gz
+[2024-05-01 10:51:48] INFO root fetch - processPackages [Oasys.gRPC]: executing diffoscope
+[2024-05-01 10:51:48] INFO root fetch - processPackages [Oasys.gRPC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Oasys.gRPC-21.0.0b8.tar.gz tmp/Oasys.gRPC-21.0.0b9.tar.gz --markdown 20240501/O/Oasys.gRPC/21.0.0b8-21.0.0b9/README.md --exclude *.pyd
+[2024-05-01 10:51:48] INFO root fetch - processPackages [potatorch]: Downloading https://files.pythonhosted.org/packages/49/19/f272c044c72cf8d95c019e3f202efcf0046462ba1ae21c0affb732ecd628/potatorch-0.0.4.tar.gz
+[2024-05-01 10:51:49] INFO root fetch - processPackages [socketsecurity]: Remove: archive file [/home/abi/fetcher/tmp/socketsecurity-0.0.39.tar.gz]
+[2024-05-01 10:51:49] INFO root fetch - processPackages [socketsecurity]: Remove: archive file [/home/abi/fetcher/tmp/socketsecurity-0.0.40.tar.gz]
+[2024-05-01 10:51:49] INFO root fetch - main [MainThread]: End processing [socketsecurity]: success
+[2024-05-01 10:51:49] INFO root fetch - processPackages [Oasys.REPORTER]: Remove: archive file [/home/abi/fetcher/tmp/Oasys.REPORTER-21.0.0b8.tar.gz]
+[2024-05-01 10:51:49] INFO root fetch - processPackages [Oasys.REPORTER]: Remove: archive file [/home/abi/fetcher/tmp/Oasys.REPORTER-21.0.0b9.tar.gz]
+[2024-05-01 10:51:49] INFO root fetch - main [MainThread]: End processing [Oasys.REPORTER]: success
+[2024-05-01 10:51:49] INFO root fetch - processPackages [Oasys.THIS]: Remove: archive file [/home/abi/fetcher/tmp/Oasys.THIS-21.0.0b8.tar.gz]
+[2024-05-01 10:51:49] INFO root fetch - processPackages [Oasys.THIS]: Remove: archive file [/home/abi/fetcher/tmp/Oasys.THIS-21.0.0b9.tar.gz]
+[2024-05-01 10:51:49] INFO root fetch - main [MainThread]: End processing [Oasys.THIS]: success
+[2024-05-01 10:51:49] INFO root fetch - processPackages [Oasys.D3PLOT]: Remove: archive file [/home/abi/fetcher/tmp/Oasys.D3PLOT-21.0.0b8.tar.gz]
+[2024-05-01 10:51:49] INFO root fetch - processPackages [Oasys.D3PLOT]: Remove: archive file [/home/abi/fetcher/tmp/Oasys.D3PLOT-21.0.0b9.tar.gz]
+[2024-05-01 10:51:49] INFO root fetch - main [MainThread]: End processing [Oasys.D3PLOT]: success
+[2024-05-01 10:51:49] INFO root fetch - processPackages [Oasys.gRPC]: Remove: archive file [/home/abi/fetcher/tmp/Oasys.gRPC-21.0.0b8.tar.gz]
+[2024-05-01 10:51:49] INFO root fetch - processPackages [Oasys.gRPC]: Remove: archive file [/home/abi/fetcher/tmp/Oasys.gRPC-21.0.0b9.tar.gz]
+[2024-05-01 10:51:49] INFO root fetch - main [MainThread]: End processing [Oasys.gRPC]: success
+[2024-05-01 10:51:50] INFO root fetch - processPackages [potatorch]: executing diffoscope
+[2024-05-01 10:51:50] INFO root fetch - processPackages [potatorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/potatorch-0.0.3.tar.gz tmp/potatorch-0.0.4.tar.gz --markdown 20240501/p/potatorch/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-01 10:51:51] INFO root fetch - processPackages [Oasys.PRIMER]: Remove: archive file [/home/abi/fetcher/tmp/Oasys.PRIMER-21.0.0b8.tar.gz]
+[2024-05-01 10:51:51] INFO root fetch - processPackages [Oasys.PRIMER]: Remove: archive file [/home/abi/fetcher/tmp/Oasys.PRIMER-21.0.0b9.tar.gz]
+[2024-05-01 10:51:51] INFO root fetch - main [MainThread]: End processing [Oasys.PRIMER]: success
+[2024-05-01 10:51:51] INFO root fetch - processPackages [potatorch]: Remove: archive file [/home/abi/fetcher/tmp/potatorch-0.0.3.tar.gz]
+[2024-05-01 10:51:51] INFO root fetch - processPackages [potatorch]: Remove: archive file [/home/abi/fetcher/tmp/potatorch-0.0.4.tar.gz]
+[2024-05-01 10:51:51] INFO root fetch - main [MainThread]: End processing [potatorch]: success
+[2024-05-01 10:51:51] INFO root fetch - main [MainThread]: Store serial: [23014339]
