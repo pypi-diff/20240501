@@ -9195,3 +9195,24 @@
 [2024-05-01 06:46:49] INFO root fetch - processPackages [nvidia-dali-nightly-cuda120]: Remove: archive file [/home/abi/fetcher/tmp/nvidia_dali_nightly_cuda120-1.38.0.dev20240430.tar.gz]
 [2024-05-01 06:46:49] INFO root fetch - main [MainThread]: End processing [nvidia-dali-nightly-cuda120]: success
 [2024-05-01 06:46:49] INFO root fetch - main [MainThread]: Store serial: [23012383]
+[2024-05-01 06:48:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23012383]
+[2024-05-01 06:48:58] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-01 06:48:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: geoglows
+[2024-05-01 06:48:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bmsdna-sql-utils
+[2024-05-01 06:48:58] INFO root fetch - processPackages [bmsdna-sql-utils]: New version: [0.12.3] Old Version: [0.12.2]
+[2024-05-01 06:48:58] INFO root fetch - processPackages [bmsdna-sql-utils]: Downloading https://files.pythonhosted.org/packages/3d/04/240471fbbccfdcb094b57415ec06683da5cbd3d3bc3e8a17a51dd940894b/bmsdna_sql_utils-0.12.2.tar.gz
+[2024-05-01 06:48:58] INFO root fetch - processPackages [geoglows]: New version: [1.4.0] Old Version: [1.3.0]
+[2024-05-01 06:48:59] INFO root fetch - processPackages [geoglows]: Downloading https://files.pythonhosted.org/packages/83/41/a8a6118d695fa30b706527074741b4c63c7935174a7efa795bc16365f6e1/geoglows-1.3.0.tar.gz
+[2024-05-01 06:48:59] INFO root fetch - processPackages [bmsdna-sql-utils]: Downloading https://files.pythonhosted.org/packages/7e/af/060e62a37505c0fec70ca3cebc94e5d655c7876d945654316346f684e752/bmsdna_sql_utils-0.12.3.tar.gz
+[2024-05-01 06:48:59] INFO root fetch - processPackages [bmsdna-sql-utils]: executing diffoscope
+[2024-05-01 06:48:59] INFO root fetch - processPackages [bmsdna-sql-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bmsdna_sql_utils-0.12.2.tar.gz tmp/bmsdna_sql_utils-0.12.3.tar.gz --markdown 20240501/b/bmsdna-sql-utils/0.12.2-0.12.3/README.md --exclude *.pyd
+[2024-05-01 06:48:59] INFO root fetch - processPackages [geoglows]: Downloading https://files.pythonhosted.org/packages/23/d0/85babea28eebf840399aaf777eb6f0cf66d8d62a876f815bfe26092fcd02/geoglows-1.4.0.tar.gz
+[2024-05-01 06:48:59] INFO root fetch - processPackages [geoglows]: executing diffoscope
+[2024-05-01 06:48:59] INFO root fetch - processPackages [geoglows]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geoglows-1.3.0.tar.gz tmp/geoglows-1.4.0.tar.gz --markdown 20240501/g/geoglows/1.3.0-1.4.0/README.md --exclude *.pyd
+[2024-05-01 06:49:00] INFO root fetch - processPackages [bmsdna-sql-utils]: Remove: archive file [/home/abi/fetcher/tmp/bmsdna_sql_utils-0.12.2.tar.gz]
+[2024-05-01 06:49:00] INFO root fetch - processPackages [bmsdna-sql-utils]: Remove: archive file [/home/abi/fetcher/tmp/bmsdna_sql_utils-0.12.3.tar.gz]
+[2024-05-01 06:49:00] INFO root fetch - main [MainThread]: End processing [bmsdna-sql-utils]: success
+[2024-05-01 06:49:00] INFO root fetch - processPackages [geoglows]: Remove: archive file [/home/abi/fetcher/tmp/geoglows-1.3.0.tar.gz]
+[2024-05-01 06:49:00] INFO root fetch - processPackages [geoglows]: Remove: archive file [/home/abi/fetcher/tmp/geoglows-1.4.0.tar.gz]
+[2024-05-01 06:49:00] INFO root fetch - main [MainThread]: End processing [geoglows]: success
+[2024-05-01 06:49:00] INFO root fetch - main [MainThread]: Store serial: [23012389]
