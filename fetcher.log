@@ -15133,3 +15133,33 @@
 [2024-05-01 12:11:22] INFO root fetch - processPackages [pulumi-cloudflare]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_cloudflare-5.9.0a1692854882.tar.gz]
 [2024-05-01 12:11:22] INFO root fetch - main [MainThread]: End processing [pulumi-cloudflare]: success
 [2024-05-01 12:11:22] INFO root fetch - main [MainThread]: Store serial: [23015066]
+[2024-05-01 12:13:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23015066]
+[2024-05-01 12:13:31] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-01 12:13:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bmsdna-sql-utils
+[2024-05-01 12:13:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: CTDFjorder
+[2024-05-01 12:13:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-text-translator
+[2024-05-01 12:13:32] INFO root fetch - processPackages [bmsdna-sql-utils]: New version: [0.12.4] Old Version: [0.12.3]
+[2024-05-01 12:13:32] INFO root fetch - processPackages [CTDFjorder]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-01 12:13:32] INFO root fetch - processPackages [bmsdna-sql-utils]: Downloading https://files.pythonhosted.org/packages/7e/af/060e62a37505c0fec70ca3cebc94e5d655c7876d945654316346f684e752/bmsdna_sql_utils-0.12.3.tar.gz
+[2024-05-01 12:13:32] INFO root fetch - processPackages [django-text-translator]: New version: [2024.5.1] Old Version: [2024.4.25.2]
+[2024-05-01 12:13:32] INFO root fetch - processPackages [CTDFjorder]: Downloading https://files.pythonhosted.org/packages/f3/1f/80ce19c45ccfc575bdc1b11719104a0aad8360b339c965d52bb33ed5563d/ctdfjorder-0.0.1.tar.gz
+[2024-05-01 12:13:32] INFO root fetch - processPackages [bmsdna-sql-utils]: Downloading https://files.pythonhosted.org/packages/2b/c1/36be25aa60fa8d8861b55bb2cd7d4a80b61781e745e4bc85069a39ed799c/bmsdna_sql_utils-0.12.4.tar.gz
+[2024-05-01 12:13:32] INFO root fetch - processPackages [bmsdna-sql-utils]: executing diffoscope
+[2024-05-01 12:13:32] INFO root fetch - processPackages [bmsdna-sql-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bmsdna_sql_utils-0.12.3.tar.gz tmp/bmsdna_sql_utils-0.12.4.tar.gz --markdown 20240501/b/bmsdna-sql-utils/0.12.3-0.12.4/README.md --exclude *.pyd
+[2024-05-01 12:13:32] INFO root fetch - processPackages [django-text-translator]: Downloading https://files.pythonhosted.org/packages/5b/56/4297afed33346a8635466517b5c01d8ffe672a7e0f0f41de4f34f4f4ae21/django_text_translator-2024.4.25.2.tar.gz
+[2024-05-01 12:13:32] INFO root fetch - processPackages [CTDFjorder]: Downloading https://files.pythonhosted.org/packages/f7/25/7d3ad1ad75338934ec7d1834f2f7c37b26f08366837911e439be51ab793e/ctdfjorder-0.0.2.tar.gz
+[2024-05-01 12:13:32] INFO root fetch - processPackages [CTDFjorder]: executing diffoscope
+[2024-05-01 12:13:32] INFO root fetch - processPackages [CTDFjorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ctdfjorder-0.0.1.tar.gz tmp/ctdfjorder-0.0.2.tar.gz --markdown 20240501/C/CTDFjorder/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-01 12:13:32] INFO root fetch - processPackages [django-text-translator]: Downloading https://files.pythonhosted.org/packages/64/6d/67eb685244714389d7b2f2f2b04fbd62c7d23a9bda3df9cf575f32ecc020/django_text_translator-2024.5.1.tar.gz
+[2024-05-01 12:13:32] INFO root fetch - processPackages [django-text-translator]: executing diffoscope
+[2024-05-01 12:13:32] INFO root fetch - processPackages [django-text-translator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_text_translator-2024.4.25.2.tar.gz tmp/django_text_translator-2024.5.1.tar.gz --markdown 20240501/d/django-text-translator/2024.4.25.2-2024.5.1/README.md --exclude *.pyd
+[2024-05-01 12:13:33] INFO root fetch - processPackages [bmsdna-sql-utils]: Remove: archive file [/home/abi/fetcher/tmp/bmsdna_sql_utils-0.12.3.tar.gz]
+[2024-05-01 12:13:33] INFO root fetch - processPackages [bmsdna-sql-utils]: Remove: archive file [/home/abi/fetcher/tmp/bmsdna_sql_utils-0.12.4.tar.gz]
+[2024-05-01 12:13:33] INFO root fetch - main [MainThread]: End processing [bmsdna-sql-utils]: success
+[2024-05-01 12:13:33] INFO root fetch - processPackages [CTDFjorder]: Remove: archive file [/home/abi/fetcher/tmp/ctdfjorder-0.0.1.tar.gz]
+[2024-05-01 12:13:33] INFO root fetch - processPackages [CTDFjorder]: Remove: archive file [/home/abi/fetcher/tmp/ctdfjorder-0.0.2.tar.gz]
+[2024-05-01 12:13:33] INFO root fetch - main [MainThread]: End processing [CTDFjorder]: success
+[2024-05-01 12:13:33] INFO root fetch - processPackages [django-text-translator]: Remove: archive file [/home/abi/fetcher/tmp/django_text_translator-2024.4.25.2.tar.gz]
+[2024-05-01 12:13:33] INFO root fetch - processPackages [django-text-translator]: Remove: archive file [/home/abi/fetcher/tmp/django_text_translator-2024.5.1.tar.gz]
+[2024-05-01 12:13:33] INFO root fetch - main [MainThread]: End processing [django-text-translator]: success
+[2024-05-01 12:13:33] INFO root fetch - main [MainThread]: Store serial: [23015080]
