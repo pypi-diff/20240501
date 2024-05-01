@@ -9048,3 +9048,42 @@
 [2024-05-01 06:37:57] INFO root fetch - processPackages [pyiceberg]: Remove: archive file [/home/abi/fetcher/tmp/pyiceberg-0.6.1rc3.tar.gz]
 [2024-05-01 06:37:57] INFO root fetch - main [MainThread]: End processing [pyiceberg]: success
 [2024-05-01 06:37:57] INFO root fetch - main [MainThread]: Store serial: [23012279]
+[2024-05-01 06:40:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23012279]
+[2024-05-01 06:40:06] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-01 06:40:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-aiven
+[2024-05-01 06:40:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-kafka
+[2024-05-01 06:40:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: psij-python
+[2024-05-01 06:40:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: BayesBoom
+[2024-05-01 06:40:06] INFO root fetch - processPackages [pulumi-aiven]: New version: [6.9.0a1704274395] Old Version: [6.9.0a1704258951]
+[2024-05-01 06:40:06] INFO root fetch - processPackages [pulumi-kafka]: New version: [3.8.0a1714455824] Old Version: [3.8.0a1714110387]
+[2024-05-01 06:40:06] INFO root fetch - processPackages [psij-python]: New version: [0.9.7] Old Version: [0.9.6]
+[2024-05-01 06:40:06] INFO root fetch - processPackages [pulumi-kafka]: Downloading https://files.pythonhosted.org/packages/73/6e/d3d0e94c81511944e07259203106c767fc938dfb0f786663788f26a37b00/pulumi_kafka-3.8.0a1714110387.tar.gz
+[2024-05-01 06:40:06] INFO root fetch - processPackages [BayesBoom]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-01 06:40:06] INFO root fetch - processPackages [pulumi-aiven]: Downloading https://files.pythonhosted.org/packages/89/fb/adacc179c277b4328f00f1483cac3f1c2227c33318802c8f88e0ee8e93c3/pulumi_aiven-6.9.0a1704258951.tar.gz
+[2024-05-01 06:40:06] INFO root fetch - processPackages [psij-python]: Downloading https://files.pythonhosted.org/packages/5a/4f/89e063358d2ffd3afde74d85824294dfcc1900255e4571df52b39235177d/psij-python-0.9.6.tar.gz
+[2024-05-01 06:40:06] INFO root fetch - processPackages [BayesBoom]: Downloading https://files.pythonhosted.org/packages/d7/43/f9488de886dd11f40125fbe9abcd2c156007521eda090587c88c3756d520/BayesBoom-0.1.8.tar.gz
+[2024-05-01 06:40:06] INFO root fetch - processPackages [pulumi-kafka]: Downloading https://files.pythonhosted.org/packages/58/4c/378fc18920deca8f6385154deac8120a9ad87bb50c9bc6b27ebbe75ab8f1/pulumi_kafka-3.8.0a1714455824.tar.gz
+[2024-05-01 06:40:06] INFO root fetch - processPackages [pulumi-aiven]: Downloading https://files.pythonhosted.org/packages/58/4d/df63cee14469cb3bb5ff7e2a4af56d19adf0cd17ce9192b84188dc240736/pulumi_aiven-6.9.0a1704274395.tar.gz
+[2024-05-01 06:40:06] INFO root fetch - processPackages [pulumi-kafka]: executing diffoscope
+[2024-05-01 06:40:06] INFO root fetch - processPackages [pulumi-kafka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_kafka-3.8.0a1714110387.tar.gz tmp/pulumi_kafka-3.8.0a1714455824.tar.gz --markdown 20240501/p/pulumi-kafka/3.8.0a1714110387-3.8.0a1714455824/README.md --exclude *.pyd
+[2024-05-01 06:40:06] INFO root fetch - processPackages [psij-python]: Downloading https://files.pythonhosted.org/packages/82/31/17c619993138b9218c5f4afc8f610d6087b82a94a9c01b50bfe46cd6d022/psij-python-0.9.7.tar.gz
+[2024-05-01 06:40:06] INFO root fetch - processPackages [pulumi-aiven]: executing diffoscope
+[2024-05-01 06:40:06] INFO root fetch - processPackages [pulumi-aiven]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_aiven-6.9.0a1704258951.tar.gz tmp/pulumi_aiven-6.9.0a1704274395.tar.gz --markdown 20240501/p/pulumi-aiven/6.9.0a1704258951-6.9.0a1704274395/README.md --exclude *.pyd
+[2024-05-01 06:40:07] INFO root fetch - processPackages [psij-python]: executing diffoscope
+[2024-05-01 06:40:07] INFO root fetch - processPackages [psij-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psij-python-0.9.6.tar.gz tmp/psij-python-0.9.7.tar.gz --markdown 20240501/p/psij-python/0.9.6-0.9.7/README.md --exclude *.pyd
+[2024-05-01 06:40:07] INFO root fetch - processPackages [BayesBoom]: Downloading https://files.pythonhosted.org/packages/75/c5/df2292137107ec3545524bcf8df92a13e22b03748fc4a2b3c524298a5841/BayesBoom-0.1.9.tar.gz
+[2024-05-01 06:40:07] INFO root fetch - processPackages [pulumi-kafka]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kafka-3.8.0a1714110387.tar.gz]
+[2024-05-01 06:40:07] INFO root fetch - processPackages [pulumi-kafka]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kafka-3.8.0a1714455824.tar.gz]
+[2024-05-01 06:40:07] INFO root fetch - main [MainThread]: End processing [pulumi-kafka]: success
+[2024-05-01 06:40:07] INFO root fetch - processPackages [BayesBoom]: executing diffoscope
+[2024-05-01 06:40:07] INFO root fetch - processPackages [BayesBoom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BayesBoom-0.1.8.tar.gz tmp/BayesBoom-0.1.9.tar.gz --markdown 20240501/B/BayesBoom/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-01 06:40:07] INFO root fetch - processPackages [psij-python]: Remove: archive file [/home/abi/fetcher/tmp/psij-python-0.9.6.tar.gz]
+[2024-05-01 06:40:07] INFO root fetch - processPackages [psij-python]: Remove: archive file [/home/abi/fetcher/tmp/psij-python-0.9.7.tar.gz]
+[2024-05-01 06:40:07] INFO root fetch - main [MainThread]: End processing [psij-python]: success
+[2024-05-01 06:40:08] INFO root fetch - processPackages [pulumi-aiven]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aiven-6.9.0a1704258951.tar.gz]
+[2024-05-01 06:40:08] INFO root fetch - processPackages [pulumi-aiven]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aiven-6.9.0a1704274395.tar.gz]
+[2024-05-01 06:40:08] INFO root fetch - main [MainThread]: End processing [pulumi-aiven]: success
+[2024-05-01 06:40:13] INFO root fetch - processPackages [BayesBoom]: Remove: archive file [/home/abi/fetcher/tmp/BayesBoom-0.1.8.tar.gz]
+[2024-05-01 06:40:13] INFO root fetch - processPackages [BayesBoom]: Remove: archive file [/home/abi/fetcher/tmp/BayesBoom-0.1.9.tar.gz]
+[2024-05-01 06:40:13] INFO root fetch - main [MainThread]: End processing [BayesBoom]: success
+[2024-05-01 06:40:13] INFO root fetch - main [MainThread]: Store serial: [23012331]
