@@ -2416,3 +2416,23 @@
 [2024-05-01 02:31:08] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.1.98.tar.gz]
 [2024-05-01 02:31:08] INFO root fetch - main [MainThread]: End processing [swarmauri]: success
 [2024-05-01 02:31:08] INFO root fetch - main [MainThread]: Store serial: [23009724]
+[2024-05-01 02:33:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23009724]
+[2024-05-01 02:33:17] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-01 02:33:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sketchingpy
+[2024-05-01 02:33:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ext-message
+[2024-05-01 02:33:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aeppl-nightly
+[2024-05-01 02:33:17] INFO root fetch - processPackages [sketchingpy]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-01 02:33:17] WARNING root fetch - processPackages [ext-message]: Skipping, unable to determine old version
+[2024-05-01 02:33:17] INFO root fetch - main [MainThread]: End processing [ext-message] error
+[2024-05-01 02:33:17] INFO root fetch - processPackages [aeppl-nightly]: New version: [0.1.5.dev20240501] Old Version: [0.1.5.dev20240430]
+[2024-05-01 02:33:17] INFO root fetch - processPackages [sketchingpy]: Downloading https://files.pythonhosted.org/packages/9f/09/967d86f6b5c62b575fe143209869b545965b3a573d7c0d9a5725dfa3bbf3/sketchingpy-0.2.0.tar.gz
+[2024-05-01 02:33:17] WARNING root fetch - processPackages [sketchingpy]: Skipping package: exceeds size limit 11870541>=10485760
+[2024-05-01 02:33:17] INFO root fetch - main [MainThread]: End processing [sketchingpy] error
+[2024-05-01 02:33:17] INFO root fetch - processPackages [aeppl-nightly]: Downloading https://files.pythonhosted.org/packages/1c/ab/0af7f5c8e6558e3f79798bd9e2ad90dfb333cc83df56c88248af2670555f/aeppl_nightly-0.1.5.dev20240430.tar.gz
+[2024-05-01 02:33:17] INFO root fetch - processPackages [aeppl-nightly]: Downloading https://files.pythonhosted.org/packages/8e/bb/0d88cb85d21059358e595b1b1709916e40b98882fb75fa8c187f9e12d7f7/aeppl_nightly-0.1.5.dev20240501.tar.gz
+[2024-05-01 02:33:18] INFO root fetch - processPackages [aeppl-nightly]: executing diffoscope
+[2024-05-01 02:33:18] INFO root fetch - processPackages [aeppl-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aeppl_nightly-0.1.5.dev20240430.tar.gz tmp/aeppl_nightly-0.1.5.dev20240501.tar.gz --markdown 20240501/a/aeppl-nightly/0.1.5.dev20240430-0.1.5.dev20240501/README.md --exclude *.pyd
+[2024-05-01 02:33:18] INFO root fetch - processPackages [aeppl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aeppl_nightly-0.1.5.dev20240430.tar.gz]
+[2024-05-01 02:33:18] INFO root fetch - processPackages [aeppl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aeppl_nightly-0.1.5.dev20240501.tar.gz]
+[2024-05-01 02:33:18] INFO root fetch - main [MainThread]: End processing [aeppl-nightly]: success
+[2024-05-01 02:33:18] INFO root fetch - main [MainThread]: Store serial: [23009734]
