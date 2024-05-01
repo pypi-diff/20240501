@@ -7362,3 +7362,82 @@
 [2024-05-01 04:34:24] INFO root fetch - processPackages [alacorder]: Remove: archive file [/home/abi/fetcher/tmp/alacorder-81.2.9.tar.gz]
 [2024-05-01 04:34:24] INFO root fetch - main [MainThread]: End processing [alacorder]: success
 [2024-05-01 04:34:24] INFO root fetch - main [MainThread]: Store serial: [23011536]
+[2024-05-01 04:36:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23011536]
+[2024-05-01 04:36:33] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-01 04:36:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PACMAN-charge
+[2024-05-01 04:36:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo12-addon-account-fiscal-year-closing
+[2024-05-01 04:36:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo14-addon-account-fiscal-year-closing
+[2024-05-01 04:36:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: deploy-time-build
+[2024-05-01 04:36:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: OZI.build
+[2024-05-01 04:36:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: autopipeline
+[2024-05-01 04:36:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: karellen-llvm-clang
+[2024-05-01 04:36:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyarmor-webui
+[2024-05-01 04:36:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: karellen-llvm-core
+[2024-05-01 04:36:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: karellen-llvm-toolchain-tools
+[2024-05-01 04:36:33] WARNING root fetch - processPackages [PACMAN-charge]: Skipping, unable to determine old version
+[2024-05-01 04:36:33] INFO root fetch - main [MainThread]: End processing [PACMAN-charge] error
+[2024-05-01 04:36:33] INFO root fetch - processPackages [karellen-llvm-toolchain-tools]: New version: [18.1.4.0.post24] Old Version: [18.1.4.0.post21]
+[2024-05-01 04:36:33] INFO root fetch - processPackages [deploy-time-build]: New version: [0.3.20] Old Version: [0.3.19]
+[2024-05-01 04:36:33] INFO root fetch - processPackages [karellen-llvm-core]: New version: [18.1.4.0.post24] Old Version: [18.1.4.0.post21]
+[2024-05-01 04:36:33] INFO root fetch - processPackages [karellen-llvm-clang]: New version: [18.1.4.0.post24] Old Version: [18.1.4.0.post21]
+[2024-05-01 04:36:33] INFO root fetch - processPackages [autopipeline]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-05-01 04:36:33] INFO root fetch - processPackages [OZI.build]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-01 04:36:33] INFO root fetch - processPackages [odoo14-addon-account-fiscal-year-closing]: New version: [14.0.1.0.4.dev8] Old Version: [14.0.1.0.4.dev7]
+[2024-05-01 04:36:33] INFO root fetch - processPackages [odoo12-addon-account-fiscal-year-closing]: New version: [12.0.1.2.0.99.dev9] Old Version: [12.0.1.2.0.99.dev8]
+[2024-05-01 04:36:33] INFO root fetch - processPackages [karellen-llvm-toolchain-tools]: Downloading https://files.pythonhosted.org/packages/e6/10/cff64bed2dc5fc5e0a272adb190cacfde251365726e898507c2342bdb617/karellen_llvm_toolchain_tools-18.1.4.0.post21-py3-none-manylinux2014_x86_64.whl
+[2024-05-01 04:36:33] INFO root fetch - processPackages [deploy-time-build]: Downloading https://files.pythonhosted.org/packages/06/2a/5908ee2280e2693c1f0c66afa7d0ff273b861fe6b0a104a1ba870bb0f3e5/deploy-time-build-0.3.19.tar.gz
+[2024-05-01 04:36:33] INFO root fetch - processPackages [pyarmor-webui]: New version: [2.6] Old Version: [2.5]
+[2024-05-01 04:36:33] INFO root fetch - processPackages [autopipeline]: Downloading https://files.pythonhosted.org/packages/5f/0f/9eaf209b6d540115afdc9ae31de828df0234756277bceae49a4d1a0ea8b3/autopipeline-0.1.98.tar.gz
+[2024-05-01 04:36:33] INFO root fetch - processPackages [karellen-llvm-clang]: Downloading https://files.pythonhosted.org/packages/45/cd/c653d48d45cf32c176cbd18b96b75dd3dd693d204eb25a0dbdec37e87a9f/karellen_llvm_clang-18.1.4.0.post21-py3-none-manylinux2014_x86_64.whl
+[2024-05-01 04:36:33] INFO root fetch - processPackages [karellen-llvm-core]: Downloading https://files.pythonhosted.org/packages/9f/4c/6cf8582e540f8136274183ee9818513b62fd87da425a61d04df873f36bc0/karellen_llvm_core-18.1.4.0.post21-py3-none-manylinux2014_x86_64.whl
+[2024-05-01 04:36:34] INFO root fetch - processPackages [OZI.build]: Downloading https://files.pythonhosted.org/packages/64/09/d24a42a6b9041b323004c9eea991babc11cff134ac3ce685d14cb72fa6b8/OZI.build-0.0.1.tar.gz
+[2024-05-01 04:36:34] WARNING root fetch - processPackages [karellen-llvm-clang]: Skipping package: exceeds size limit 78662205>=10485760
+[2024-05-01 04:36:34] WARNING root fetch - processPackages [karellen-llvm-core]: Skipping package: exceeds size limit 28599409>=10485760
+[2024-05-01 04:36:34] INFO root fetch - processPackages [odoo14-addon-account-fiscal-year-closing]: Downloading https://files.pythonhosted.org/packages/08/e2/73f914662dd41ec78c720ec8616eae29b0ffc2c2019dc7a362f180f96de5/odoo14_addon_account_fiscal_year_closing-14.0.1.0.4.dev7-py3-none-any.whl
+[2024-05-01 04:36:34] INFO root fetch - main [MainThread]: End processing [karellen-llvm-clang] error
+[2024-05-01 04:36:34] INFO root fetch - main [MainThread]: End processing [karellen-llvm-core] error
+[2024-05-01 04:36:34] INFO root fetch - processPackages [odoo12-addon-account-fiscal-year-closing]: Downloading https://files.pythonhosted.org/packages/cb/5f/69351ea8083210f3d18f54be03e6b4d6147139556be50a63e9e5acbb19ff/odoo12_addon_account_fiscal_year_closing-12.0.1.2.0.99.dev8-py3-none-any.whl
+[2024-05-01 04:36:34] INFO root fetch - processPackages [deploy-time-build]: Downloading https://files.pythonhosted.org/packages/89/64/3177736028921560b635c7800e38f66d755a202c59029241a9fe0f0bbb2e/deploy-time-build-0.3.20.tar.gz
+[2024-05-01 04:36:34] INFO root fetch - processPackages [pyarmor-webui]: Downloading https://files.pythonhosted.org/packages/ff/83/d809e987f671f7e29596ec1c7e21ab6eed73cde222bd610b533b7c9b4556/pyarmor-webui-2.5.zip
+[2024-05-01 04:36:34] INFO root fetch - processPackages [autopipeline]: Downloading https://files.pythonhosted.org/packages/5f/4a/f3df97d414e0a5e9120459fd5c7ab663092d540df59f7deacc45810deb41/autopipeline-0.1.99.tar.gz
+[2024-05-01 04:36:34] INFO root fetch - processPackages [deploy-time-build]: executing diffoscope
+[2024-05-01 04:36:34] INFO root fetch - processPackages [deploy-time-build]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deploy-time-build-0.3.19.tar.gz tmp/deploy-time-build-0.3.20.tar.gz --markdown 20240501/d/deploy-time-build/0.3.19-0.3.20/README.md --exclude *.pyd
+[2024-05-01 04:36:34] INFO root fetch - processPackages [autopipeline]: executing diffoscope
+[2024-05-01 04:36:34] INFO root fetch - processPackages [autopipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autopipeline-0.1.98.tar.gz tmp/autopipeline-0.1.99.tar.gz --markdown 20240501/a/autopipeline/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-05-01 04:36:34] INFO root fetch - processPackages [OZI.build]: Downloading https://files.pythonhosted.org/packages/03/4a/1d193c99da0f1ed0a1d910dc51c35b1f6ebabeb68892a86c49e83c9613f3/OZI.build-0.0.2.tar.gz
+[2024-05-01 04:36:34] INFO root fetch - processPackages [karellen-llvm-toolchain-tools]: Downloading https://files.pythonhosted.org/packages/39/4e/7acc7b4e7efcde8180e4501dd3827755468fa822832938a8b75bdaf03e1f/karellen_llvm_toolchain_tools-18.1.4.0.post24-py3-none-manylinux2014_x86_64.whl
+[2024-05-01 04:36:34] INFO root fetch - processPackages [odoo14-addon-account-fiscal-year-closing]: Downloading https://files.pythonhosted.org/packages/be/19/6fc113506b7c2b2a570ee1472c79d0eb11f52024f254f79f6b0c5a2e794d/odoo14_addon_account_fiscal_year_closing-14.0.1.0.4.dev8-py3-none-any.whl
+[2024-05-01 04:36:34] INFO root fetch - processPackages [odoo12-addon-account-fiscal-year-closing]: Downloading https://files.pythonhosted.org/packages/f7/16/a0f4acd09ce78fc85163d2fc2613287ae4880a3d35f58c342ccb9a61fc95/odoo12_addon_account_fiscal_year_closing-12.0.1.2.0.99.dev9-py3-none-any.whl
+[2024-05-01 04:36:34] INFO root fetch - processPackages [pyarmor-webui]: Downloading https://files.pythonhosted.org/packages/92/da/e2f6c7029c3ddb3195d3437b06fa8841cfebd393f2b5d9b4108ec73b97a6/pyarmor-webui-2.6.zip
+[2024-05-01 04:36:34] INFO root fetch - processPackages [odoo14-addon-account-fiscal-year-closing]: executing diffoscope
+[2024-05-01 04:36:34] INFO root fetch - processPackages [odoo14-addon-account-fiscal-year-closing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_account_fiscal_year_closing-14.0.1.0.4.dev7-py3-none-any.whl.zip tmp/odoo14_addon_account_fiscal_year_closing-14.0.1.0.4.dev8-py3-none-any.whl.zip --markdown 20240501/o/odoo14-addon-account-fiscal-year-closing/14.0.1.0.4.dev7-14.0.1.0.4.dev8/README.md --exclude *.pyd
+[2024-05-01 04:36:34] INFO root fetch - processPackages [OZI.build]: executing diffoscope
+[2024-05-01 04:36:34] INFO root fetch - processPackages [OZI.build]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OZI.build-0.0.1.tar.gz tmp/OZI.build-0.0.2.tar.gz --markdown 20240501/O/OZI.build/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-01 04:36:34] INFO root fetch - processPackages [karellen-llvm-toolchain-tools]: executing diffoscope
+[2024-05-01 04:36:34] INFO root fetch - processPackages [karellen-llvm-toolchain-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/karellen_llvm_toolchain_tools-18.1.4.0.post21-py3-none-manylinux2014_x86_64.whl.zip tmp/karellen_llvm_toolchain_tools-18.1.4.0.post24-py3-none-manylinux2014_x86_64.whl.zip --markdown 20240501/k/karellen-llvm-toolchain-tools/18.1.4.0.post21-18.1.4.0.post24/README.md --exclude *.pyd
+[2024-05-01 04:36:34] INFO root fetch - processPackages [odoo12-addon-account-fiscal-year-closing]: executing diffoscope
+[2024-05-01 04:36:34] INFO root fetch - processPackages [odoo12-addon-account-fiscal-year-closing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_account_fiscal_year_closing-12.0.1.2.0.99.dev8-py3-none-any.whl.zip tmp/odoo12_addon_account_fiscal_year_closing-12.0.1.2.0.99.dev9-py3-none-any.whl.zip --markdown 20240501/o/odoo12-addon-account-fiscal-year-closing/12.0.1.2.0.99.dev8-12.0.1.2.0.99.dev9/README.md --exclude *.pyd
+[2024-05-01 04:36:34] INFO root fetch - processPackages [pyarmor-webui]: executing diffoscope
+[2024-05-01 04:36:34] INFO root fetch - processPackages [pyarmor-webui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyarmor-webui-2.5.zip tmp/pyarmor-webui-2.6.zip --markdown 20240501/p/pyarmor-webui/2.5-2.6/README.md --exclude *.pyd
+[2024-05-01 04:36:34] INFO root fetch - processPackages [deploy-time-build]: Remove: archive file [/home/abi/fetcher/tmp/deploy-time-build-0.3.19.tar.gz]
+[2024-05-01 04:36:34] INFO root fetch - processPackages [deploy-time-build]: Remove: archive file [/home/abi/fetcher/tmp/deploy-time-build-0.3.20.tar.gz]
+[2024-05-01 04:36:34] INFO root fetch - main [MainThread]: End processing [deploy-time-build]: success
+[2024-05-01 04:36:35] INFO root fetch - processPackages [autopipeline]: Remove: archive file [/home/abi/fetcher/tmp/autopipeline-0.1.98.tar.gz]
+[2024-05-01 04:36:35] INFO root fetch - processPackages [autopipeline]: Remove: archive file [/home/abi/fetcher/tmp/autopipeline-0.1.99.tar.gz]
+[2024-05-01 04:36:35] INFO root fetch - main [MainThread]: End processing [autopipeline]: success
+[2024-05-01 04:36:35] INFO root fetch - processPackages [OZI.build]: Remove: archive file [/home/abi/fetcher/tmp/OZI.build-0.0.1.tar.gz]
+[2024-05-01 04:36:35] INFO root fetch - processPackages [OZI.build]: Remove: archive file [/home/abi/fetcher/tmp/OZI.build-0.0.2.tar.gz]
+[2024-05-01 04:36:35] INFO root fetch - main [MainThread]: End processing [OZI.build]: success
+[2024-05-01 04:36:35] INFO root fetch - processPackages [odoo14-addon-account-fiscal-year-closing]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_account_fiscal_year_closing-14.0.1.0.4.dev7-py3-none-any.whl.zip]
+[2024-05-01 04:36:35] INFO root fetch - processPackages [odoo14-addon-account-fiscal-year-closing]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_account_fiscal_year_closing-14.0.1.0.4.dev8-py3-none-any.whl.zip]
+[2024-05-01 04:36:35] INFO root fetch - main [MainThread]: End processing [odoo14-addon-account-fiscal-year-closing]: success
+[2024-05-01 04:36:35] INFO root fetch - processPackages [odoo12-addon-account-fiscal-year-closing]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_account_fiscal_year_closing-12.0.1.2.0.99.dev8-py3-none-any.whl.zip]
+[2024-05-01 04:36:35] INFO root fetch - processPackages [odoo12-addon-account-fiscal-year-closing]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_account_fiscal_year_closing-12.0.1.2.0.99.dev9-py3-none-any.whl.zip]
+[2024-05-01 04:36:35] INFO root fetch - main [MainThread]: End processing [odoo12-addon-account-fiscal-year-closing]: success
+[2024-05-01 04:36:35] INFO root fetch - processPackages [pyarmor-webui]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor-webui-2.5.zip]
+[2024-05-01 04:36:35] INFO root fetch - processPackages [pyarmor-webui]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor-webui-2.6.zip]
+[2024-05-01 04:36:35] INFO root fetch - main [MainThread]: End processing [pyarmor-webui]: success
+[2024-05-01 04:37:02] INFO root fetch - processPackages [karellen-llvm-toolchain-tools]: Remove: archive file [/home/abi/fetcher/tmp/karellen_llvm_toolchain_tools-18.1.4.0.post21-py3-none-manylinux2014_x86_64.whl.zip]
+[2024-05-01 04:37:02] INFO root fetch - processPackages [karellen-llvm-toolchain-tools]: Remove: archive file [/home/abi/fetcher/tmp/karellen_llvm_toolchain_tools-18.1.4.0.post24-py3-none-manylinux2014_x86_64.whl.zip]
+[2024-05-01 04:37:02] INFO root fetch - main [MainThread]: End processing [karellen-llvm-toolchain-tools]: success
+[2024-05-01 04:37:02] INFO root fetch - main [MainThread]: Store serial: [23011561]
