@@ -14126,3 +14126,18 @@
 [2024-05-01 11:22:16] INFO root fetch - processPackages [codecarbon]: Remove: archive file [/home/abi/fetcher/tmp/codecarbon-2.4.0rc0.tar.gz]
 [2024-05-01 11:22:16] INFO root fetch - main [MainThread]: End processing [codecarbon]: success
 [2024-05-01 11:22:16] INFO root fetch - main [MainThread]: Store serial: [23014664]
+[2024-05-01 11:24:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23014664]
+[2024-05-01 11:24:25] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-01 11:24:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: voltorb
+[2024-05-01 11:24:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rtctools_simulation
+[2024-05-01 11:24:25] WARNING root fetch - processPackages [rtctools_simulation]: Skipping, unable to determine old version
+[2024-05-01 11:24:25] INFO root fetch - main [MainThread]: End processing [rtctools_simulation] error
+[2024-05-01 11:24:25] INFO root fetch - processPackages [voltorb]: New version: [0.1.0] Old Version: [0.0.0]
+[2024-05-01 11:24:25] INFO root fetch - processPackages [voltorb]: Downloading https://files.pythonhosted.org/packages/99/d6/8834329ec17dbae2ba32c5816ebaa294b6e665652e342e5cf002925fafbd/voltorb-0.0.0.tar.gz
+[2024-05-01 11:24:26] INFO root fetch - processPackages [voltorb]: Downloading https://files.pythonhosted.org/packages/6f/37/4790144c32e9dc7748c71b4b5c5edd21aac9bb1a4f44c8a301e0fd18ec60/voltorb-0.1.0.tar.gz
+[2024-05-01 11:24:26] INFO root fetch - processPackages [voltorb]: executing diffoscope
+[2024-05-01 11:24:26] INFO root fetch - processPackages [voltorb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/voltorb-0.0.0.tar.gz tmp/voltorb-0.1.0.tar.gz --markdown 20240501/v/voltorb/0.0.0-0.1.0/README.md --exclude *.pyd
+[2024-05-01 11:24:26] INFO root fetch - processPackages [voltorb]: Remove: archive file [/home/abi/fetcher/tmp/voltorb-0.0.0.tar.gz]
+[2024-05-01 11:24:26] INFO root fetch - processPackages [voltorb]: Remove: archive file [/home/abi/fetcher/tmp/voltorb-0.1.0.tar.gz]
+[2024-05-01 11:24:26] INFO root fetch - main [MainThread]: End processing [voltorb]: success
+[2024-05-01 11:24:26] INFO root fetch - main [MainThread]: Store serial: [23014676]
