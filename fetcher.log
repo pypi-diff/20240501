@@ -2055,3 +2055,51 @@
 [2024-05-01 02:17:50] INFO root fetch - processPackages [layerborn.cdk-iam-policy-builder-helper]: Remove: archive file [/home/abi/fetcher/tmp/layerborn.cdk-iam-policy-builder-helper-0.0.6.tar.gz]
 [2024-05-01 02:17:50] INFO root fetch - main [MainThread]: End processing [layerborn.cdk-iam-policy-builder-helper]: success
 [2024-05-01 02:17:50] INFO root fetch - main [MainThread]: Store serial: [23009578]
+[2024-05-01 02:19:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23009578]
+[2024-05-01 02:19:59] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-01 02:19:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-secret-manager-wrapper-layer
+[2024-05-01 02:19:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-budibase
+[2024-05-01 02:19:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-gitlab-runner
+[2024-05-01 02:19:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pxutil
+[2024-05-01 02:19:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pytgpt-bot
+[2024-05-01 02:19:59] INFO root fetch - processPackages [pytgpt-bot]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-05-01 02:19:59] INFO root fetch - processPackages [cdk-budibase]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-01 02:19:59] INFO root fetch - processPackages [cdk-gitlab-runner]: New version: [2.2.99] Old Version: [2.2.98]
+[2024-05-01 02:19:59] INFO root fetch - processPackages [cdk-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/07/29/9f2cc8590770873b6073743e94ff15a2a7913eb0de3e6a4d2fc133008f62/cdk-gitlab-runner-2.2.98.tar.gz
+[2024-05-01 02:19:59] INFO root fetch - processPackages [cdk-budibase]: Downloading https://files.pythonhosted.org/packages/4f/0a/01c6428b0ea2e78dd2dd9e10aba3ba8252b6cd0992b5a90ea9ba90983551/cdk-budibase-0.0.98.tar.gz
+[2024-05-01 02:19:59] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-05-01 02:19:59] INFO root fetch - processPackages [pytgpt-bot]: Downloading https://files.pythonhosted.org/packages/9b/2a/a2d4ed562a950df071a1989122df7bd52d5e5bc55bb168a63acd3e622ad0/pytgpt_bot-0.1.6.tar.gz
+[2024-05-01 02:19:59] INFO root fetch - processPackages [pxutil]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-01 02:19:59] INFO root fetch - processPackages [cdk-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/16/61/e9f00b4e877a6352bd641de360f7577c27548fbcedc3aab19b1cf3852b9a/cdk-gitlab-runner-2.2.99.tar.gz
+[2024-05-01 02:19:59] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Downloading https://files.pythonhosted.org/packages/00/91/545869a3cc999dbc9750aad345d775087610ebf834517c928a0d0e289c4e/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz
+[2024-05-01 02:19:59] INFO root fetch - processPackages [pytgpt-bot]: Downloading https://files.pythonhosted.org/packages/99/92/4dac2ab9e029b649b4652a38bd606f9add0c0c98e8206e924c8dc07f9503/pytgpt_bot-0.1.7.tar.gz
+[2024-05-01 02:19:59] INFO root fetch - processPackages [cdk-budibase]: Downloading https://files.pythonhosted.org/packages/3d/b1/10d1c8f0601959fd0771f3dc7b94b15e702b81729d74397e80ca3dd66c88/cdk-budibase-0.0.99.tar.gz
+[2024-05-01 02:19:59] INFO root fetch - processPackages [pxutil]: Downloading https://files.pythonhosted.org/packages/08/08/a20d5bafe5968608bb243365578c4b4de4dc08e5854c8490951b1e38dcab/pxutil-0.0.8.tar.gz
+[2024-05-01 02:19:59] INFO root fetch - processPackages [pytgpt-bot]: executing diffoscope
+[2024-05-01 02:19:59] INFO root fetch - processPackages [pytgpt-bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytgpt_bot-0.1.6.tar.gz tmp/pytgpt_bot-0.1.7.tar.gz --markdown 20240501/p/pytgpt-bot/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-05-01 02:19:59] INFO root fetch - processPackages [cdk-gitlab-runner]: executing diffoscope
+[2024-05-01 02:19:59] INFO root fetch - processPackages [cdk-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-gitlab-runner-2.2.98.tar.gz tmp/cdk-gitlab-runner-2.2.99.tar.gz --markdown 20240501/c/cdk-gitlab-runner/2.2.98-2.2.99/README.md --exclude *.pyd
+[2024-05-01 02:20:00] INFO root fetch - processPackages [cdk-budibase]: executing diffoscope
+[2024-05-01 02:20:00] INFO root fetch - processPackages [cdk-budibase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-budibase-0.0.98.tar.gz tmp/cdk-budibase-0.0.99.tar.gz --markdown 20240501/c/cdk-budibase/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-01 02:20:00] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Downloading https://files.pythonhosted.org/packages/c2/c5/a8a13bb72ea375e2ce99dd389e945478ce7d95d8628acf6db64f14f674f5/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz
+[2024-05-01 02:20:00] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: executing diffoscope
+[2024-05-01 02:20:00] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz tmp/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz --markdown 20240501/c/cdk-secret-manager-wrapper-layer/2.0.98-2.0.99/README.md --exclude *.pyd
+[2024-05-01 02:20:00] INFO root fetch - processPackages [pxutil]: Downloading https://files.pythonhosted.org/packages/90/df/f60fc33beb2bac107f453dbd7493779ff1208cbe453c0c76ddf0888645ff/pxutil-0.0.9.tar.gz
+[2024-05-01 02:20:00] INFO root fetch - processPackages [pxutil]: executing diffoscope
+[2024-05-01 02:20:00] INFO root fetch - processPackages [pxutil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pxutil-0.0.8.tar.gz tmp/pxutil-0.0.9.tar.gz --markdown 20240501/p/pxutil/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-01 02:20:00] INFO root fetch - processPackages [cdk-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdk-gitlab-runner-2.2.98.tar.gz]
+[2024-05-01 02:20:00] INFO root fetch - processPackages [cdk-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdk-gitlab-runner-2.2.99.tar.gz]
+[2024-05-01 02:20:00] INFO root fetch - main [MainThread]: End processing [cdk-gitlab-runner]: success
+[2024-05-01 02:20:00] INFO root fetch - processPackages [pytgpt-bot]: Remove: archive file [/home/abi/fetcher/tmp/pytgpt_bot-0.1.6.tar.gz]
+[2024-05-01 02:20:00] INFO root fetch - processPackages [pytgpt-bot]: Remove: archive file [/home/abi/fetcher/tmp/pytgpt_bot-0.1.7.tar.gz]
+[2024-05-01 02:20:00] INFO root fetch - main [MainThread]: End processing [pytgpt-bot]: success
+[2024-05-01 02:20:00] INFO root fetch - processPackages [cdk-budibase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-budibase-0.0.98.tar.gz]
+[2024-05-01 02:20:00] INFO root fetch - processPackages [cdk-budibase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-budibase-0.0.99.tar.gz]
+[2024-05-01 02:20:00] INFO root fetch - main [MainThread]: End processing [cdk-budibase]: success
+[2024-05-01 02:20:00] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Remove: archive file [/home/abi/fetcher/tmp/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz]
+[2024-05-01 02:20:00] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Remove: archive file [/home/abi/fetcher/tmp/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz]
+[2024-05-01 02:20:00] INFO root fetch - main [MainThread]: End processing [cdk-secret-manager-wrapper-layer]: success
+[2024-05-01 02:20:01] INFO root fetch - processPackages [pxutil]: Remove: archive file [/home/abi/fetcher/tmp/pxutil-0.0.8.tar.gz]
+[2024-05-01 02:20:01] INFO root fetch - processPackages [pxutil]: Remove: archive file [/home/abi/fetcher/tmp/pxutil-0.0.9.tar.gz]
+[2024-05-01 02:20:01] INFO root fetch - main [MainThread]: End processing [pxutil]: success
+[2024-05-01 02:20:01] INFO root fetch - main [MainThread]: Store serial: [23009591]
