@@ -17650,3 +17650,86 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-01 13:51:40] INFO root fetch - main [MainThread]: End processing [pytorch-accelerated]: success
 [2024-05-01 13:51:40] INFO root fetch - main [MainThread]: End processing [trytond-product-kit]: success
 [2024-05-01 13:51:40] INFO root fetch - main [MainThread]: Store serial: [23016026]
+[2024-05-01 13:53:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23016026]
+[2024-05-01 13:53:48] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-01 13:53:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dbrownell-DevTools
+[2024-05-01 13:53:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-cloudflare
+[2024-05-01 13:53:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: trytond-production-work
+[2024-05-01 13:53:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aqueduc
+[2024-05-01 13:53:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: trytond-production
+[2024-05-01 13:53:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: NODE-deconvolution
+[2024-05-01 13:53:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: certora-cli-alpha-master
+[2024-05-01 13:53:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pulumi-digitalocean
+[2024-05-01 13:53:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: trytond-product-image
+[2024-05-01 13:53:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: roarquery
+[2024-05-01 13:53:49] INFO root fetch - processPackages [roarquery]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-05-01 13:53:49] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20240501.9.55.192458] Old Version: [20240501.8.15.777844]
+[2024-05-01 13:53:49] INFO root fetch - processPackages [aqueduc]: New version: [1.0.7] Old Version: [1.0.6]
+[2024-05-01 13:53:49] INFO root fetch - processPackages [pulumi-cloudflare]: New version: [5.9.0a1692854882] Old Version: [5.9.0a1692851897]
+[2024-05-01 13:53:49] INFO root fetch - processPackages [roarquery]: Downloading https://files.pythonhosted.org/packages/a2/55/460d9e3dacf7384473393427994c886b4f2650893fcf0c00e0c29c60cbdc/roarquery-1.0.4.tar.gz
+[2024-05-01 13:53:49] INFO root fetch - processPackages [trytond-product-image]: New version: [7.2.1] Old Version: [7.2.0]
+[2024-05-01 13:53:49] WARNING root fetch - processPackages [NODE-deconvolution]: Skipping, unable to determine old version
+[2024-05-01 13:53:49] INFO root fetch - main [MainThread]: End processing [NODE-deconvolution] error
+[2024-05-01 13:53:49] INFO root fetch - processPackages [dbrownell-DevTools]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-05-01 13:53:49] INFO root fetch - processPackages [trytond-production]: New version: [7.2.1] Old Version: [7.2.0]
+[2024-05-01 13:53:49] INFO root fetch - processPackages [trytond-production-work]: New version: [7.2.1] Old Version: [7.2.0]
+[2024-05-01 13:53:49] INFO root fetch - processPackages [pulumi-digitalocean]: New version: [4.9.0a1637244514] Old Version: [4.9.0]
+[2024-05-01 13:53:49] INFO root fetch - processPackages [aqueduc]: Downloading https://files.pythonhosted.org/packages/81/af/b526f911376a4e4a071791eed62af531479df9a5770ebd04b22eb0e3a0fd/aqueduc-1.0.6.tar.gz
+[2024-05-01 13:53:49] INFO root fetch - processPackages [pulumi-cloudflare]: Downloading https://files.pythonhosted.org/packages/ce/4c/bbf50ef75d6a6dc70780f846ef13e19b5ec009e8657c5b847defde7a8dd9/pulumi_cloudflare-5.9.0a1692851897.tar.gz
+[2024-05-01 13:53:49] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/02/38/0e310b19f2817341b466ae224ab4c972709225d70137f4f1e760741e404f/certora-cli-alpha-master-20240501.8.15.777844.tar.gz
+[2024-05-01 13:53:49] INFO root fetch - processPackages [trytond-product-image]: Downloading https://files.pythonhosted.org/packages/e1/d1/e64af878c98b1588ea8f423cbe001aa16cc070f4312c7692aeb7326d8589/trytond_product_image-7.2.0.tar.gz
+[2024-05-01 13:53:49] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 14536598>=10485760
+[2024-05-01 13:53:49] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2024-05-01 13:53:49] INFO root fetch - processPackages [dbrownell-DevTools]: Downloading https://files.pythonhosted.org/packages/e4/4d/0e19372b5607400e51d720966eaf41f18a1b6b007cc87ac6eb6d9f8becb6/dbrownell_DevTools-0.8.1-py3-none-any.whl
+[2024-05-01 13:53:49] INFO root fetch - processPackages [trytond-production]: Downloading https://files.pythonhosted.org/packages/b9/26/1621500e17cc99642a58d91fc94c5c743a7af1629cbce9000ed50dbe53f1/trytond_production-7.2.0.tar.gz
+[2024-05-01 13:53:49] INFO root fetch - processPackages [trytond-production-work]: Downloading https://files.pythonhosted.org/packages/12/f9/b897891b9de09dba92f2ce71615b61e080eb403b453518a924e75c4bf368/trytond_production_work-7.2.0.tar.gz
+[2024-05-01 13:53:49] INFO root fetch - processPackages [roarquery]: Downloading https://files.pythonhosted.org/packages/7a/bd/c5317072815d2d63e48c7cf6a3105874663e872a181ae5caab4630a663d9/roarquery-1.0.5.tar.gz
+[2024-05-01 13:53:49] INFO root fetch - processPackages [pulumi-digitalocean]: Downloading https://files.pythonhosted.org/packages/27/fe/88f79d9daf961f609409c5330a59d5bf5ff3effa841b5317256e773c92dd/pulumi_digitalocean-4.9.0.tar.gz
+[2024-05-01 13:53:49] INFO root fetch - processPackages [roarquery]: executing diffoscope
+[2024-05-01 13:53:49] INFO root fetch - processPackages [roarquery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roarquery-1.0.4.tar.gz tmp/roarquery-1.0.5.tar.gz --markdown 20240501/r/roarquery/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-05-01 13:53:49] INFO root fetch - processPackages [aqueduc]: Downloading https://files.pythonhosted.org/packages/16/0f/ac62558a36a33f2664ca102af1e34fc4d6983c6fc145800b7277991f83f0/aqueduc-1.0.7.tar.gz
+[2024-05-01 13:53:49] INFO root fetch - processPackages [pulumi-cloudflare]: Downloading https://files.pythonhosted.org/packages/aa/45/e2040e3054cffd9ce633539517dc7f0063c0b789d73bac75a2b832e469de/pulumi_cloudflare-5.9.0a1692854882.tar.gz
+[2024-05-01 13:53:49] INFO root fetch - processPackages [aqueduc]: executing diffoscope
+[2024-05-01 13:53:49] INFO root fetch - processPackages [aqueduc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aqueduc-1.0.6.tar.gz tmp/aqueduc-1.0.7.tar.gz --markdown 20240501/a/aqueduc/1.0.6-1.0.7/README.md --exclude *.pyd
+[2024-05-01 13:53:49] INFO root fetch - processPackages [trytond-product-image]: Downloading https://files.pythonhosted.org/packages/2c/bd/50251b5f998636abf3293e27ab294876ec12c1b646bbe4b5ed1984219e3e/trytond_product_image-7.2.1.tar.gz
+[2024-05-01 13:53:49] INFO root fetch - processPackages [dbrownell-DevTools]: Downloading https://files.pythonhosted.org/packages/6a/4c/d64b516137d9b57df6580e99ae3c7beb287715418efefbdf0c8260ba6e5d/dbrownell_DevTools-0.9.0-py3-none-any.whl
+[2024-05-01 13:53:49] INFO root fetch - processPackages [trytond-production]: Downloading https://files.pythonhosted.org/packages/8c/51/07f6fcba6e8fae37e1048aa797a35c03415dfd65e8f94a49048d6d3e1256/trytond_production-7.2.1.tar.gz
+[2024-05-01 13:53:49] INFO root fetch - processPackages [pulumi-cloudflare]: executing diffoscope
+[2024-05-01 13:53:49] INFO root fetch - processPackages [pulumi-cloudflare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_cloudflare-5.9.0a1692851897.tar.gz tmp/pulumi_cloudflare-5.9.0a1692854882.tar.gz --markdown 20240501/p/pulumi-cloudflare/5.9.0a1692851897-5.9.0a1692854882/README.md --exclude *.pyd
+[2024-05-01 13:53:49] INFO root fetch - processPackages [trytond-product-image]: executing diffoscope
+[2024-05-01 13:53:49] INFO root fetch - processPackages [trytond-product-image]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_product_image-7.2.0.tar.gz tmp/trytond_product_image-7.2.1.tar.gz --markdown 20240501/t/trytond-product-image/7.2.0-7.2.1/README.md --exclude *.pyd
+[2024-05-01 13:53:49] INFO root fetch - processPackages [pulumi-digitalocean]: Downloading https://files.pythonhosted.org/packages/aa/e4/0dfa539667fb3462b4c16072050ebf8e1a80d862ac88c8b00ae29b019195/pulumi_digitalocean-4.9.0a1637244514.tar.gz
+[2024-05-01 13:53:49] INFO root fetch - processPackages [trytond-production]: executing diffoscope
+[2024-05-01 13:53:49] INFO root fetch - processPackages [trytond-production]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_production-7.2.0.tar.gz tmp/trytond_production-7.2.1.tar.gz --markdown 20240501/t/trytond-production/7.2.0-7.2.1/README.md --exclude *.pyd
+[2024-05-01 13:53:50] INFO root fetch - processPackages [trytond-production-work]: Downloading https://files.pythonhosted.org/packages/39/6a/046dc734117325f2ea425a9a8046067c360c97a93b8a34a3bdb6452a642f/trytond_production_work-7.2.1.tar.gz
+[2024-05-01 13:53:50] INFO root fetch - processPackages [dbrownell-DevTools]: executing diffoscope
+[2024-05-01 13:53:50] INFO root fetch - processPackages [dbrownell-DevTools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbrownell_DevTools-0.8.1-py3-none-any.whl.zip tmp/dbrownell_DevTools-0.9.0-py3-none-any.whl.zip --markdown 20240501/d/dbrownell-DevTools/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-05-01 13:53:50] INFO root fetch - processPackages [pulumi-digitalocean]: executing diffoscope
+[2024-05-01 13:53:50] INFO root fetch - processPackages [pulumi-digitalocean]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_digitalocean-4.9.0.tar.gz tmp/pulumi_digitalocean-4.9.0a1637244514.tar.gz --markdown 20240501/p/pulumi-digitalocean/4.9.0-4.9.0a1637244514/README.md --exclude *.pyd
+[2024-05-01 13:53:50] INFO root fetch - processPackages [trytond-production-work]: executing diffoscope
+[2024-05-01 13:53:50] INFO root fetch - processPackages [trytond-production-work]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_production_work-7.2.0.tar.gz tmp/trytond_production_work-7.2.1.tar.gz --markdown 20240501/t/trytond-production-work/7.2.0-7.2.1/README.md --exclude *.pyd
+[2024-05-01 13:53:50] INFO root fetch - processPackages [roarquery]: Remove: archive file [/home/abi/fetcher/tmp/roarquery-1.0.4.tar.gz]
+[2024-05-01 13:53:50] INFO root fetch - processPackages [roarquery]: Remove: archive file [/home/abi/fetcher/tmp/roarquery-1.0.5.tar.gz]
+[2024-05-01 13:53:50] INFO root fetch - main [MainThread]: End processing [roarquery]: success
+[2024-05-01 13:53:50] INFO root fetch - processPackages [aqueduc]: Remove: archive file [/home/abi/fetcher/tmp/aqueduc-1.0.6.tar.gz]
+[2024-05-01 13:53:50] INFO root fetch - processPackages [aqueduc]: Remove: archive file [/home/abi/fetcher/tmp/aqueduc-1.0.7.tar.gz]
+[2024-05-01 13:53:50] INFO root fetch - main [MainThread]: End processing [aqueduc]: success
+[2024-05-01 13:53:50] INFO root fetch - processPackages [dbrownell-DevTools]: Remove: archive file [/home/abi/fetcher/tmp/dbrownell_DevTools-0.8.1-py3-none-any.whl.zip]
+[2024-05-01 13:53:50] INFO root fetch - processPackages [dbrownell-DevTools]: Remove: archive file [/home/abi/fetcher/tmp/dbrownell_DevTools-0.9.0-py3-none-any.whl.zip]
+[2024-05-01 13:53:50] INFO root fetch - main [MainThread]: End processing [dbrownell-DevTools]: success
+[2024-05-01 13:53:50] INFO root fetch - processPackages [trytond-product-image]: Remove: archive file [/home/abi/fetcher/tmp/trytond_product_image-7.2.0.tar.gz]
+[2024-05-01 13:53:50] INFO root fetch - processPackages [trytond-product-image]: Remove: archive file [/home/abi/fetcher/tmp/trytond_product_image-7.2.1.tar.gz]
+[2024-05-01 13:53:50] INFO root fetch - main [MainThread]: End processing [trytond-product-image]: success
+[2024-05-01 13:53:50] INFO root fetch - processPackages [trytond-production-work]: Remove: archive file [/home/abi/fetcher/tmp/trytond_production_work-7.2.0.tar.gz]
+[2024-05-01 13:53:50] INFO root fetch - processPackages [trytond-production-work]: Remove: archive file [/home/abi/fetcher/tmp/trytond_production_work-7.2.1.tar.gz]
+[2024-05-01 13:53:50] INFO root fetch - main [MainThread]: End processing [trytond-production-work]: success
+[2024-05-01 13:53:51] INFO root fetch - processPackages [pulumi-digitalocean]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_digitalocean-4.9.0.tar.gz]
+[2024-05-01 13:53:51] INFO root fetch - processPackages [pulumi-digitalocean]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_digitalocean-4.9.0a1637244514.tar.gz]
+[2024-05-01 13:53:51] INFO root fetch - main [MainThread]: End processing [pulumi-digitalocean]: success
+[2024-05-01 13:53:51] INFO root fetch - processPackages [pulumi-cloudflare]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_cloudflare-5.9.0a1692851897.tar.gz]
+[2024-05-01 13:53:51] INFO root fetch - processPackages [pulumi-cloudflare]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_cloudflare-5.9.0a1692854882.tar.gz]
+[2024-05-01 13:53:51] INFO root fetch - main [MainThread]: End processing [pulumi-cloudflare]: success
+[2024-05-01 13:53:51] INFO root fetch - processPackages [trytond-production]: Remove: archive file [/home/abi/fetcher/tmp/trytond_production-7.2.0.tar.gz]
+[2024-05-01 13:53:51] INFO root fetch - processPackages [trytond-production]: Remove: archive file [/home/abi/fetcher/tmp/trytond_production-7.2.1.tar.gz]
+[2024-05-01 13:53:51] INFO root fetch - main [MainThread]: End processing [trytond-production]: success
+[2024-05-01 13:53:51] INFO root fetch - main [MainThread]: Store serial: [23016057]
