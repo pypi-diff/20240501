@@ -6821,3 +6821,47 @@
 [2024-05-01 03:41:48] INFO root fetch - processPackages [helpful-assistant]: Remove: archive file [/home/abi/fetcher/tmp/helpful_assistant-0.1.0.tar.gz]
 [2024-05-01 03:41:48] INFO root fetch - main [MainThread]: End processing [helpful-assistant]: success
 [2024-05-01 03:41:48] INFO root fetch - main [MainThread]: Store serial: [23011296]
+[2024-05-01 03:43:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23011296]
+[2024-05-01 03:43:57] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-01 03:43:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: autopipeline
+[2024-05-01 03:43:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cellworld-game
+[2024-05-01 03:43:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sincomp
+[2024-05-01 03:43:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cellworld-gym
+[2024-05-01 03:43:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: stoobly-agent
+[2024-05-01 03:43:57] INFO root fetch - processPackages [cellworld-gym]: New version: [0.0.9] Old Version: [0.0.80]
+[2024-05-01 03:43:57] INFO root fetch - processPackages [cellworld-game]: New version: [0.0.68] Old Version: [0.0.61]
+[2024-05-01 03:43:57] INFO root fetch - processPackages [stoobly-agent]: New version: [0.9.7] Old Version: [0.9.6]
+[2024-05-01 03:43:57] INFO root fetch - processPackages [autopipeline]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-05-01 03:43:57] INFO root fetch - processPackages [sincomp]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-01 03:43:57] INFO root fetch - processPackages [autopipeline]: Downloading https://files.pythonhosted.org/packages/5f/0f/9eaf209b6d540115afdc9ae31de828df0234756277bceae49a4d1a0ea8b3/autopipeline-0.1.98.tar.gz
+[2024-05-01 03:43:57] INFO root fetch - processPackages [stoobly-agent]: Downloading https://files.pythonhosted.org/packages/e9/78/2350cae18a65474161019a795a652b6b64841323787b44192e8f739ac86a/stoobly-agent-0.9.6.tar.gz
+[2024-05-01 03:43:57] INFO root fetch - processPackages [cellworld-gym]: Downloading https://files.pythonhosted.org/packages/06/e5/5a52ff47c63d8421213d7df8dff842dc35ee53ed768320e628027c6415e8/cellworld_gym-0.0.80.tar.gz
+[2024-05-01 03:43:57] INFO root fetch - processPackages [cellworld-game]: Downloading https://files.pythonhosted.org/packages/3b/8f/bc8be5bc90e0188c57d11f46130b8e60eba35c885fbeb7030a61376f95e7/cellworld_game-0.0.61.tar.gz
+[2024-05-01 03:43:57] INFO root fetch - processPackages [sincomp]: Downloading https://files.pythonhosted.org/packages/fb/31/11c22d5b047ba2f4cecbde9ecc37fb09ab7cbfc1db79c9fbe56b166629ec/sincomp-0.1.0.tar.gz
+[2024-05-01 03:43:57] INFO root fetch - processPackages [autopipeline]: Downloading https://files.pythonhosted.org/packages/5f/4a/f3df97d414e0a5e9120459fd5c7ab663092d540df59f7deacc45810deb41/autopipeline-0.1.99.tar.gz
+[2024-05-01 03:43:57] INFO root fetch - processPackages [stoobly-agent]: Downloading https://files.pythonhosted.org/packages/45/f8/01a12e6de49e8f9a58b3c7a511a2a2b6259be0af19738d4fefcfb2af88f5/stoobly-agent-0.9.7.tar.gz
+[2024-05-01 03:43:57] WARNING root fetch - processPackages [sincomp]: Skipping package: exceeds size limit 54171332>=10485760
+[2024-05-01 03:43:57] INFO root fetch - main [MainThread]: End processing [sincomp] error
+[2024-05-01 03:43:57] INFO root fetch - processPackages [autopipeline]: executing diffoscope
+[2024-05-01 03:43:57] INFO root fetch - processPackages [autopipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autopipeline-0.1.98.tar.gz tmp/autopipeline-0.1.99.tar.gz --markdown 20240501/a/autopipeline/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-05-01 03:43:57] INFO root fetch - processPackages [stoobly-agent]: executing diffoscope
+[2024-05-01 03:43:57] INFO root fetch - processPackages [stoobly-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stoobly-agent-0.9.6.tar.gz tmp/stoobly-agent-0.9.7.tar.gz --markdown 20240501/s/stoobly-agent/0.9.6-0.9.7/README.md --exclude *.pyd
+[2024-05-01 03:43:58] INFO root fetch - processPackages [cellworld-gym]: Downloading https://files.pythonhosted.org/packages/9d/53/7082a6dd25f1a1b4bf7e78a266aefe1f1a8f04ca5adb408522f49a869f12/cellworld_gym-0.0.9.tar.gz
+[2024-05-01 03:43:58] INFO root fetch - processPackages [cellworld-game]: Downloading https://files.pythonhosted.org/packages/a4/9b/179ddfb4bda90d42f66ff497e1db58942f14a1f731fa846156f79c5aa2ca/cellworld_game-0.0.68.tar.gz
+[2024-05-01 03:43:58] INFO root fetch - processPackages [cellworld-gym]: executing diffoscope
+[2024-05-01 03:43:58] INFO root fetch - processPackages [cellworld-gym]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cellworld_gym-0.0.80.tar.gz tmp/cellworld_gym-0.0.9.tar.gz --markdown 20240501/c/cellworld-gym/0.0.80-0.0.9/README.md --exclude *.pyd
+[2024-05-01 03:43:58] INFO root fetch - processPackages [cellworld-game]: executing diffoscope
+[2024-05-01 03:43:58] INFO root fetch - processPackages [cellworld-game]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cellworld_game-0.0.61.tar.gz tmp/cellworld_game-0.0.68.tar.gz --markdown 20240501/c/cellworld-game/0.0.61-0.0.68/README.md --exclude *.pyd
+[2024-05-01 03:43:58] INFO root fetch - processPackages [autopipeline]: Remove: archive file [/home/abi/fetcher/tmp/autopipeline-0.1.98.tar.gz]
+[2024-05-01 03:43:58] INFO root fetch - processPackages [autopipeline]: Remove: archive file [/home/abi/fetcher/tmp/autopipeline-0.1.99.tar.gz]
+[2024-05-01 03:43:58] INFO root fetch - main [MainThread]: End processing [autopipeline]: success
+[2024-05-01 03:43:58] INFO root fetch - processPackages [cellworld-gym]: Remove: archive file [/home/abi/fetcher/tmp/cellworld_gym-0.0.80.tar.gz]
+[2024-05-01 03:43:58] INFO root fetch - processPackages [cellworld-gym]: Remove: archive file [/home/abi/fetcher/tmp/cellworld_gym-0.0.9.tar.gz]
+[2024-05-01 03:43:58] INFO root fetch - main [MainThread]: End processing [cellworld-gym]: success
+[2024-05-01 03:43:58] INFO root fetch - processPackages [stoobly-agent]: Remove: archive file [/home/abi/fetcher/tmp/stoobly-agent-0.9.6.tar.gz]
+[2024-05-01 03:43:58] INFO root fetch - processPackages [stoobly-agent]: Remove: archive file [/home/abi/fetcher/tmp/stoobly-agent-0.9.7.tar.gz]
+[2024-05-01 03:43:58] INFO root fetch - main [MainThread]: End processing [stoobly-agent]: success
+[2024-05-01 03:43:59] INFO root fetch - processPackages [cellworld-game]: Remove: archive file [/home/abi/fetcher/tmp/cellworld_game-0.0.61.tar.gz]
+[2024-05-01 03:43:59] INFO root fetch - processPackages [cellworld-game]: Remove: archive file [/home/abi/fetcher/tmp/cellworld_game-0.0.68.tar.gz]
+[2024-05-01 03:43:59] INFO root fetch - main [MainThread]: End processing [cellworld-game]: success
+[2024-05-01 03:43:59] INFO root fetch - main [MainThread]: Store serial: [23011310]
