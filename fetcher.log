@@ -15802,3 +15802,42 @@
 [2024-05-01 12:48:37] INFO root fetch - processPackages [selfclean]: Remove: archive file [/home/abi/fetcher/tmp/selfclean-0.0.9.tar.gz]
 [2024-05-01 12:48:37] INFO root fetch - main [MainThread]: End processing [selfclean]: success
 [2024-05-01 12:48:37] INFO root fetch - main [MainThread]: Store serial: [23015331]
+[2024-05-01 12:50:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23015331]
+[2024-05-01 12:50:45] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-01 12:50:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mimllearning
+[2024-05-01 12:50:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aiinitiate
+[2024-05-01 12:50:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qBitrr2
+[2024-05-01 12:50:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: unione
+[2024-05-01 12:50:45] INFO root fetch - processPackages [unione]: New version: [0.2] Old Version: [0.1]
+[2024-05-01 12:50:45] INFO root fetch - processPackages [mimllearning]: New version: [0.2.8] Old Version: [0.2.7]
+[2024-05-01 12:50:45] INFO root fetch - processPackages [aiinitiate]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-01 12:50:45] INFO root fetch - processPackages [qBitrr2]: New version: [4.5.3] Old Version: [4.5.2]
+[2024-05-01 12:50:45] INFO root fetch - processPackages [unione]: Downloading https://files.pythonhosted.org/packages/53/e7/6445f53ae428aa6332e799eef4cf9b5412e8ad96794f5a57ca948f65b8b3/unione-0.1.tar.gz
+[2024-05-01 12:50:45] INFO root fetch - processPackages [mimllearning]: Downloading https://files.pythonhosted.org/packages/13/b9/8bb20d442048ff0f02ace28fa1714fba7126b12be0fd8f2a9cb25c223e06/mimllearning-0.2.7.tar.gz
+[2024-05-01 12:50:45] INFO root fetch - processPackages [aiinitiate]: Downloading https://files.pythonhosted.org/packages/54/25/d7eb4fd2ebb3aef9f23af7d7b1a76ef4dd36f754029e602e841ad8c00370/aiinitiate-0.1.4.tar.gz
+[2024-05-01 12:50:46] INFO root fetch - processPackages [qBitrr2]: Downloading https://files.pythonhosted.org/packages/39/64/ed81760d49d1ef6785b2bdbaa1e2d719ea1cf5e2301b55aeac4682fe3c63/qbitrr2-4.5.2.tar.gz
+[2024-05-01 12:50:46] INFO root fetch - processPackages [unione]: Downloading https://files.pythonhosted.org/packages/4e/f3/8c696284cb1e6284fe65d4b84b8d5f432459e33677560b1551072438df70/unione-0.2.tar.gz
+[2024-05-01 12:50:46] INFO root fetch - processPackages [mimllearning]: Downloading https://files.pythonhosted.org/packages/36/1c/993a41e739f8874ea307c16f8f57c4e8d6f00573d4939419a1d160b6d424/mimllearning-0.2.8.tar.gz
+[2024-05-01 12:50:46] INFO root fetch - processPackages [aiinitiate]: Downloading https://files.pythonhosted.org/packages/83/98/847895c7b371b104ddc56d8f2dce509609a530043481881c67996c568636/aiinitiate-0.1.5.tar.gz
+[2024-05-01 12:50:46] INFO root fetch - processPackages [unione]: executing diffoscope
+[2024-05-01 12:50:46] INFO root fetch - processPackages [unione]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unione-0.1.tar.gz tmp/unione-0.2.tar.gz --markdown 20240501/u/unione/0.1-0.2/README.md --exclude *.pyd
+[2024-05-01 12:50:46] INFO root fetch - processPackages [aiinitiate]: executing diffoscope
+[2024-05-01 12:50:46] INFO root fetch - processPackages [aiinitiate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiinitiate-0.1.4.tar.gz tmp/aiinitiate-0.1.5.tar.gz --markdown 20240501/a/aiinitiate/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-01 12:50:46] INFO root fetch - processPackages [mimllearning]: executing diffoscope
+[2024-05-01 12:50:46] INFO root fetch - processPackages [mimllearning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mimllearning-0.2.7.tar.gz tmp/mimllearning-0.2.8.tar.gz --markdown 20240501/m/mimllearning/0.2.7-0.2.8/README.md --exclude *.pyd
+[2024-05-01 12:50:46] INFO root fetch - processPackages [qBitrr2]: Downloading https://files.pythonhosted.org/packages/b5/de/b4b99f23b35dd93d4414d22511562e4f6fb451b1884c64399da80a5ec087/qbitrr2-4.5.3.tar.gz
+[2024-05-01 12:50:46] INFO root fetch - processPackages [qBitrr2]: executing diffoscope
+[2024-05-01 12:50:46] INFO root fetch - processPackages [qBitrr2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qbitrr2-4.5.2.tar.gz tmp/qbitrr2-4.5.3.tar.gz --markdown 20240501/q/qBitrr2/4.5.2-4.5.3/README.md --exclude *.pyd
+[2024-05-01 12:50:46] INFO root fetch - processPackages [unione]: Remove: archive file [/home/abi/fetcher/tmp/unione-0.1.tar.gz]
+[2024-05-01 12:50:46] INFO root fetch - processPackages [unione]: Remove: archive file [/home/abi/fetcher/tmp/unione-0.2.tar.gz]
+[2024-05-01 12:50:46] INFO root fetch - main [MainThread]: End processing [unione]: success
+[2024-05-01 12:50:46] INFO root fetch - processPackages [aiinitiate]: Remove: archive file [/home/abi/fetcher/tmp/aiinitiate-0.1.4.tar.gz]
+[2024-05-01 12:50:46] INFO root fetch - processPackages [aiinitiate]: Remove: archive file [/home/abi/fetcher/tmp/aiinitiate-0.1.5.tar.gz]
+[2024-05-01 12:50:46] INFO root fetch - main [MainThread]: End processing [aiinitiate]: success
+[2024-05-01 12:50:47] INFO root fetch - processPackages [mimllearning]: Remove: archive file [/home/abi/fetcher/tmp/mimllearning-0.2.7.tar.gz]
+[2024-05-01 12:50:47] INFO root fetch - processPackages [mimllearning]: Remove: archive file [/home/abi/fetcher/tmp/mimllearning-0.2.8.tar.gz]
+[2024-05-01 12:50:47] INFO root fetch - main [MainThread]: End processing [mimllearning]: success
+[2024-05-01 12:50:47] INFO root fetch - processPackages [qBitrr2]: Remove: archive file [/home/abi/fetcher/tmp/qbitrr2-4.5.2.tar.gz]
+[2024-05-01 12:50:47] INFO root fetch - processPackages [qBitrr2]: Remove: archive file [/home/abi/fetcher/tmp/qbitrr2-4.5.3.tar.gz]
+[2024-05-01 12:50:47] INFO root fetch - main [MainThread]: End processing [qBitrr2]: success
+[2024-05-01 12:50:47] INFO root fetch - main [MainThread]: Store serial: [23015342]
