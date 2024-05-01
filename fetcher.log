@@ -9492,3 +9492,15 @@
 [2024-05-01 07:08:39] INFO root fetch - processPackages [flowetl]: Remove: archive file [/home/abi/fetcher/tmp/flowetl-1.9.4.post0.dev76-py3-none-any.whl.zip]
 [2024-05-01 07:08:39] INFO root fetch - main [MainThread]: End processing [flowetl]: success
 [2024-05-01 07:08:39] INFO root fetch - main [MainThread]: Store serial: [23012558]
+[2024-05-01 07:10:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23012558]
+[2024-05-01 07:10:48] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-01 07:10:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: economic-complexity
+[2024-05-01 07:10:48] INFO root fetch - processPackages [economic-complexity]: New version: [0.2.4] Old Version: [0.2.2]
+[2024-05-01 07:10:48] INFO root fetch - processPackages [economic-complexity]: Downloading https://files.pythonhosted.org/packages/04/ef/6e0a0a7f2e8a83628366f3dea533545e79c811e7303b5fcb8d9c3748b39f/economic_complexity-0.2.2.tar.gz
+[2024-05-01 07:10:49] INFO root fetch - processPackages [economic-complexity]: Downloading https://files.pythonhosted.org/packages/ec/64/ecb202e571072404a7000e0bac9df817ecee8eef2a4a40ed38a8708008a7/economic_complexity-0.2.4.tar.gz
+[2024-05-01 07:10:49] INFO root fetch - processPackages [economic-complexity]: executing diffoscope
+[2024-05-01 07:10:49] INFO root fetch - processPackages [economic-complexity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/economic_complexity-0.2.2.tar.gz tmp/economic_complexity-0.2.4.tar.gz --markdown 20240501/e/economic-complexity/0.2.2-0.2.4/README.md --exclude *.pyd
+[2024-05-01 07:10:49] INFO root fetch - processPackages [economic-complexity]: Remove: archive file [/home/abi/fetcher/tmp/economic_complexity-0.2.2.tar.gz]
+[2024-05-01 07:10:49] INFO root fetch - processPackages [economic-complexity]: Remove: archive file [/home/abi/fetcher/tmp/economic_complexity-0.2.4.tar.gz]
+[2024-05-01 07:10:49] INFO root fetch - main [MainThread]: End processing [economic-complexity]: success
+[2024-05-01 07:10:49] INFO root fetch - main [MainThread]: Store serial: [23012561]
