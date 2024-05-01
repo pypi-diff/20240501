@@ -10089,3 +10089,51 @@
 [2024-05-01 07:41:28] INFO root fetch - processPackages [flowmachine]: Remove: archive file [/home/abi/fetcher/tmp/flowmachine-1.9.4.post0.dev76-py3-none-any.whl.zip]
 [2024-05-01 07:41:28] INFO root fetch - main [MainThread]: End processing [flowmachine]: success
 [2024-05-01 07:41:28] INFO root fetch - main [MainThread]: Store serial: [23012747]
+[2024-05-01 07:43:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23012747]
+[2024-05-01 07:43:37] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-01 07:43:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aranet4
+[2024-05-01 07:43:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-cloudflare
+[2024-05-01 07:43:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: khoj-assistant
+[2024-05-01 07:43:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-consul
+[2024-05-01 07:43:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nehushtan
+[2024-05-01 07:43:38] INFO root fetch - processPackages [pulumi-consul]: New version: [3.9.0a1687670569] Old Version: [3.9.0a1687054376]
+[2024-05-01 07:43:38] INFO root fetch - processPackages [pulumi-cloudflare]: New version: [5.9.0a1692854882] Old Version: [5.9.0a1692851897]
+[2024-05-01 07:43:38] INFO root fetch - processPackages [khoj-assistant]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev74]
+[2024-05-01 07:43:38] INFO root fetch - processPackages [nehushtan]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-05-01 07:43:38] INFO root fetch - processPackages [pulumi-consul]: Downloading https://files.pythonhosted.org/packages/b2/0b/a9aea9bd557425d918ea238feabf49fb698d827f1dfeaf4613d70eae31a2/pulumi_consul-3.9.0a1687054376.tar.gz
+[2024-05-01 07:43:38] INFO root fetch - processPackages [pulumi-cloudflare]: Downloading https://files.pythonhosted.org/packages/ce/4c/bbf50ef75d6a6dc70780f846ef13e19b5ec009e8657c5b847defde7a8dd9/pulumi_cloudflare-5.9.0a1692851897.tar.gz
+[2024-05-01 07:43:38] INFO root fetch - processPackages [aranet4]: New version: [2.3.4b1] Old Version: [2.3.3]
+[2024-05-01 07:43:38] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/fc/89/bbf1c812c39a0f341fea130ae430c11fcdd5fdcc5ca61fbaed2682cc4df7/khoj_assistant-1.9.1.dev74.tar.gz
+[2024-05-01 07:43:38] INFO root fetch - processPackages [aranet4]: Downloading https://files.pythonhosted.org/packages/69/4c/9439b4d9a9d36bc34071e1b34f6842ecc46ef445fd537b6bb7be85757641/aranet4-2.3.3.tar.gz
+[2024-05-01 07:43:38] INFO root fetch - processPackages [nehushtan]: Downloading https://files.pythonhosted.org/packages/d8/d0/4f787b5a1b7eb76b27f8363851c5dc59a7a4a45691a1d1783f7b80fb70b4/nehushtan-0.4.8.tar.gz
+[2024-05-01 07:43:38] INFO root fetch - processPackages [pulumi-consul]: Downloading https://files.pythonhosted.org/packages/aa/10/eaf50f0d8ecb4103cac140429d33cf0fbed0a84ade857f6a5d9e9dda5e71/pulumi_consul-3.9.0a1687670569.tar.gz
+[2024-05-01 07:43:38] INFO root fetch - processPackages [pulumi-cloudflare]: Downloading https://files.pythonhosted.org/packages/aa/45/e2040e3054cffd9ce633539517dc7f0063c0b789d73bac75a2b832e469de/pulumi_cloudflare-5.9.0a1692854882.tar.gz
+[2024-05-01 07:43:38] INFO root fetch - processPackages [pulumi-consul]: executing diffoscope
+[2024-05-01 07:43:38] INFO root fetch - processPackages [pulumi-consul]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_consul-3.9.0a1687054376.tar.gz tmp/pulumi_consul-3.9.0a1687670569.tar.gz --markdown 20240501/p/pulumi-consul/3.9.0a1687054376-3.9.0a1687670569/README.md --exclude *.pyd
+[2024-05-01 07:43:38] INFO root fetch - processPackages [pulumi-cloudflare]: executing diffoscope
+[2024-05-01 07:43:38] INFO root fetch - processPackages [pulumi-cloudflare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_cloudflare-5.9.0a1692851897.tar.gz tmp/pulumi_cloudflare-5.9.0a1692854882.tar.gz --markdown 20240501/p/pulumi-cloudflare/5.9.0a1692851897-5.9.0a1692854882/README.md --exclude *.pyd
+[2024-05-01 07:43:38] INFO root fetch - processPackages [aranet4]: Downloading https://files.pythonhosted.org/packages/5b/b3/71266983042e0f0710021a6bd3d8e63302a23be3a1de8475e1ce12bbfa0c/aranet4-2.3.4b1.tar.gz
+[2024-05-01 07:43:38] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/47/ae/446626ff585bb336b70b59402ea6a46bf52326a51b81fd9ead920cde4c8a/khoj_assistant-1.9.1.dev8.tar.gz
+[2024-05-01 07:43:38] INFO root fetch - processPackages [nehushtan]: Downloading https://files.pythonhosted.org/packages/62/c0/5b1839b231467a5cf3ce4579647d6d4706014f9b725ae8bc59c6956da40c/nehushtan-0.4.9.tar.gz
+[2024-05-01 07:43:38] INFO root fetch - processPackages [khoj-assistant]: executing diffoscope
+[2024-05-01 07:43:38] INFO root fetch - processPackages [khoj-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/khoj_assistant-1.9.1.dev74.tar.gz tmp/khoj_assistant-1.9.1.dev8.tar.gz --markdown 20240501/k/khoj-assistant/1.9.1.dev74-1.9.1.dev8/README.md --exclude *.pyd
+[2024-05-01 07:43:38] INFO root fetch - processPackages [aranet4]: executing diffoscope
+[2024-05-01 07:43:38] INFO root fetch - processPackages [aranet4]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aranet4-2.3.3.tar.gz tmp/aranet4-2.3.4b1.tar.gz --markdown 20240501/a/aranet4/2.3.3-2.3.4b1/README.md --exclude *.pyd
+[2024-05-01 07:43:39] INFO root fetch - processPackages [nehushtan]: executing diffoscope
+[2024-05-01 07:43:39] INFO root fetch - processPackages [nehushtan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nehushtan-0.4.8.tar.gz tmp/nehushtan-0.4.9.tar.gz --markdown 20240501/n/nehushtan/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-05-01 07:43:39] INFO root fetch - processPackages [pulumi-consul]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_consul-3.9.0a1687054376.tar.gz]
+[2024-05-01 07:43:39] INFO root fetch - processPackages [pulumi-consul]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_consul-3.9.0a1687670569.tar.gz]
+[2024-05-01 07:43:39] INFO root fetch - main [MainThread]: End processing [pulumi-consul]: success
+[2024-05-01 07:43:39] INFO root fetch - processPackages [aranet4]: Remove: archive file [/home/abi/fetcher/tmp/aranet4-2.3.3.tar.gz]
+[2024-05-01 07:43:39] INFO root fetch - processPackages [aranet4]: Remove: archive file [/home/abi/fetcher/tmp/aranet4-2.3.4b1.tar.gz]
+[2024-05-01 07:43:39] INFO root fetch - main [MainThread]: End processing [aranet4]: success
+[2024-05-01 07:43:39] INFO root fetch - processPackages [pulumi-cloudflare]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_cloudflare-5.9.0a1692851897.tar.gz]
+[2024-05-01 07:43:39] INFO root fetch - processPackages [pulumi-cloudflare]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_cloudflare-5.9.0a1692854882.tar.gz]
+[2024-05-01 07:43:39] INFO root fetch - main [MainThread]: End processing [pulumi-cloudflare]: success
+[2024-05-01 07:43:39] INFO root fetch - processPackages [nehushtan]: Remove: archive file [/home/abi/fetcher/tmp/nehushtan-0.4.8.tar.gz]
+[2024-05-01 07:43:39] INFO root fetch - processPackages [nehushtan]: Remove: archive file [/home/abi/fetcher/tmp/nehushtan-0.4.9.tar.gz]
+[2024-05-01 07:43:39] INFO root fetch - main [MainThread]: End processing [nehushtan]: success
+[2024-05-01 07:43:40] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-1.9.1.dev74.tar.gz]
+[2024-05-01 07:43:40] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-1.9.1.dev8.tar.gz]
+[2024-05-01 07:43:40] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
+[2024-05-01 07:43:40] INFO root fetch - main [MainThread]: Store serial: [23012761]
