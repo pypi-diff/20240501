@@ -22150,3 +22150,63 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-01 16:07:28] INFO root fetch - processPackages [mesido]: Remove: archive file [/home/abi/fetcher/tmp/mesido-0.1.3.tar.gz]
 [2024-05-01 16:07:28] INFO root fetch - main [MainThread]: End processing [mesido]: success
 [2024-05-01 16:07:28] INFO root fetch - main [MainThread]: Store serial: [23017785]
+[2024-05-01 16:09:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23017785]
+[2024-05-01 16:09:37] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-01 16:09:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fizzbuzz-draw
+[2024-05-01 16:09:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: parea-ai
+[2024-05-01 16:09:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cogflow
+[2024-05-01 16:09:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: streamlit-passwordless
+[2024-05-01 16:09:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: scrapkit
+[2024-05-01 16:09:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: domolibrary-extensions
+[2024-05-01 16:09:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Flask-Super
+[2024-05-01 16:09:37] INFO root fetch - processPackages [parea-ai]: New version: [0.2.99] Old Version: [0.2.98]
+[2024-05-01 16:09:37] INFO root fetch - processPackages [cogflow]: New version: [1.9.4] Old Version: [1.9.3]
+[2024-05-01 16:09:37] INFO root fetch - processPackages [fizzbuzz-draw]: New version: [1.0.8] Old Version: [1.0.7]
+[2024-05-01 16:09:37] INFO root fetch - processPackages [parea-ai]: Downloading https://files.pythonhosted.org/packages/cd/80/fcef2226405a0fb8e3a9a7fbda2b47a712f63d9294eac7e3fc336bbf5b0f/parea_ai-0.2.98.tar.gz
+[2024-05-01 16:09:37] INFO root fetch - processPackages [cogflow]: Downloading https://files.pythonhosted.org/packages/d2/96/633130021a408a5ad9f179eb13591cbe0a8361d23e836e631bb4b548b752/cogflow-1.9.3.tar.gz
+[2024-05-01 16:09:37] INFO root fetch - processPackages [streamlit-passwordless]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-05-01 16:09:37] INFO root fetch - processPackages [domolibrary-extensions]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-01 16:09:37] WARNING root fetch - processPackages [scrapkit]: Skipping, unable to determine old version
+[2024-05-01 16:09:37] INFO root fetch - main [MainThread]: End processing [scrapkit] error
+[2024-05-01 16:09:37] INFO root fetch - processPackages [Flask-Super]: New version: [0.2.7] Old Version: [0.2.6]
+[2024-05-01 16:09:37] INFO root fetch - processPackages [fizzbuzz-draw]: Downloading https://files.pythonhosted.org/packages/d9/bc/7911809e2acd63f44559e4080f2a410bbc18c569091c97b30cce2e7b8c71/fizzbuzz_draw-1.0.7.tar.gz
+[2024-05-01 16:09:37] INFO root fetch - processPackages [streamlit-passwordless]: Downloading https://files.pythonhosted.org/packages/12/e4/60446e64dc51063b840e2d2ea3eb90471cedbd662abe358c875d9a840017/streamlit_passwordless-0.2.0.tar.gz
+[2024-05-01 16:09:37] INFO root fetch - processPackages [domolibrary-extensions]: Downloading https://files.pythonhosted.org/packages/c5/f4/5838a5baf88ee97be5790576b69b25bea9c52b2c6bb57e10f8349a0ac178/domolibrary_extensions-0.0.8.tar.gz
+[2024-05-01 16:09:37] INFO root fetch - processPackages [Flask-Super]: Downloading https://files.pythonhosted.org/packages/23/ad/22d3a6e0ef63ca914354f5ed6edbd98b18f3d143ec27e532ec2d830a1afe/flask_super-0.2.6.tar.gz
+[2024-05-01 16:09:37] INFO root fetch - processPackages [cogflow]: Downloading https://files.pythonhosted.org/packages/6e/85/794cc03bdc4128136ad34969c1d1fbedf52acc286fce200c929e349a566c/cogflow-1.9.4.tar.gz
+[2024-05-01 16:09:38] INFO root fetch - processPackages [fizzbuzz-draw]: Downloading https://files.pythonhosted.org/packages/23/e5/e0c04ac6ab2ee957ce76c89bd09015049fbd3c72b4b98748faebba03d28f/fizzbuzz_draw-1.0.8.tar.gz
+[2024-05-01 16:09:38] INFO root fetch - processPackages [cogflow]: executing diffoscope
+[2024-05-01 16:09:38] INFO root fetch - processPackages [cogflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cogflow-1.9.3.tar.gz tmp/cogflow-1.9.4.tar.gz --markdown 20240501/c/cogflow/1.9.3-1.9.4/README.md --exclude *.pyd
+[2024-05-01 16:09:38] INFO root fetch - processPackages [fizzbuzz-draw]: executing diffoscope
+[2024-05-01 16:09:38] INFO root fetch - processPackages [fizzbuzz-draw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fizzbuzz_draw-1.0.7.tar.gz tmp/fizzbuzz_draw-1.0.8.tar.gz --markdown 20240501/f/fizzbuzz-draw/1.0.7-1.0.8/README.md --exclude *.pyd
+[2024-05-01 16:09:38] INFO root fetch - processPackages [Flask-Super]: Downloading https://files.pythonhosted.org/packages/e1/9f/aaad5310781a66ff4f4fb18661a69c90f8e218bae8d6fce6df1f8f643db1/flask_super-0.2.7.tar.gz
+[2024-05-01 16:09:38] INFO root fetch - processPackages [streamlit-passwordless]: Downloading https://files.pythonhosted.org/packages/80/e7/c170c3cb0aaf49f078ad6959881ef2fab4e601267ddf44debe862b299a66/streamlit_passwordless-0.3.0.tar.gz
+[2024-05-01 16:09:38] INFO root fetch - processPackages [Flask-Super]: executing diffoscope
+[2024-05-01 16:09:38] INFO root fetch - processPackages [Flask-Super]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask_super-0.2.6.tar.gz tmp/flask_super-0.2.7.tar.gz --markdown 20240501/F/Flask-Super/0.2.6-0.2.7/README.md --exclude *.pyd
+[2024-05-01 16:09:38] INFO root fetch - processPackages [domolibrary-extensions]: Downloading https://files.pythonhosted.org/packages/41/10/6e957b13beda7ab0f29eb3dd8dbb4c5f64d6ae6468cc6103b7d387a516c1/domolibrary_extensions-0.0.9.tar.gz
+[2024-05-01 16:09:38] INFO root fetch - processPackages [streamlit-passwordless]: executing diffoscope
+[2024-05-01 16:09:38] INFO root fetch - processPackages [streamlit-passwordless]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit_passwordless-0.2.0.tar.gz tmp/streamlit_passwordless-0.3.0.tar.gz --markdown 20240501/s/streamlit-passwordless/0.2.0-0.3.0/README.md --exclude *.pyd
+[2024-05-01 16:09:38] INFO root fetch - processPackages [domolibrary-extensions]: executing diffoscope
+[2024-05-01 16:09:38] INFO root fetch - processPackages [domolibrary-extensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domolibrary_extensions-0.0.8.tar.gz tmp/domolibrary_extensions-0.0.9.tar.gz --markdown 20240501/d/domolibrary-extensions/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-01 16:09:38] INFO root fetch - processPackages [parea-ai]: Downloading https://files.pythonhosted.org/packages/9d/1c/c389e28a1a12c54ff1c8111a2f00058e77ba07333943eb06d3592659a691/parea_ai-0.2.99.tar.gz
+[2024-05-01 16:09:38] INFO root fetch - processPackages [cogflow]: Remove: archive file [/home/abi/fetcher/tmp/cogflow-1.9.3.tar.gz]
+[2024-05-01 16:09:38] INFO root fetch - processPackages [cogflow]: Remove: archive file [/home/abi/fetcher/tmp/cogflow-1.9.4.tar.gz]
+[2024-05-01 16:09:38] INFO root fetch - main [MainThread]: End processing [cogflow]: success
+[2024-05-01 16:09:38] INFO root fetch - processPackages [Flask-Super]: Remove: archive file [/home/abi/fetcher/tmp/flask_super-0.2.6.tar.gz]
+[2024-05-01 16:09:38] INFO root fetch - processPackages [Flask-Super]: Remove: archive file [/home/abi/fetcher/tmp/flask_super-0.2.7.tar.gz]
+[2024-05-01 16:09:38] INFO root fetch - main [MainThread]: End processing [Flask-Super]: success
+[2024-05-01 16:09:39] INFO root fetch - processPackages [fizzbuzz-draw]: Remove: archive file [/home/abi/fetcher/tmp/fizzbuzz_draw-1.0.7.tar.gz]
+[2024-05-01 16:09:39] INFO root fetch - processPackages [fizzbuzz-draw]: Remove: archive file [/home/abi/fetcher/tmp/fizzbuzz_draw-1.0.8.tar.gz]
+[2024-05-01 16:09:39] INFO root fetch - main [MainThread]: End processing [fizzbuzz-draw]: success
+[2024-05-01 16:09:39] INFO root fetch - processPackages [parea-ai]: executing diffoscope
+[2024-05-01 16:09:39] INFO root fetch - processPackages [parea-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parea_ai-0.2.98.tar.gz tmp/parea_ai-0.2.99.tar.gz --markdown 20240501/p/parea-ai/0.2.98-0.2.99/README.md --exclude *.pyd
+[2024-05-01 16:09:39] INFO root fetch - processPackages [domolibrary-extensions]: Remove: archive file [/home/abi/fetcher/tmp/domolibrary_extensions-0.0.8.tar.gz]
+[2024-05-01 16:09:39] INFO root fetch - processPackages [domolibrary-extensions]: Remove: archive file [/home/abi/fetcher/tmp/domolibrary_extensions-0.0.9.tar.gz]
+[2024-05-01 16:09:39] INFO root fetch - main [MainThread]: End processing [domolibrary-extensions]: success
+[2024-05-01 16:09:39] INFO root fetch - processPackages [parea-ai]: Remove: archive file [/home/abi/fetcher/tmp/parea_ai-0.2.98.tar.gz]
+[2024-05-01 16:09:39] INFO root fetch - processPackages [parea-ai]: Remove: archive file [/home/abi/fetcher/tmp/parea_ai-0.2.99.tar.gz]
+[2024-05-01 16:09:39] INFO root fetch - main [MainThread]: End processing [parea-ai]: success
+[2024-05-01 16:09:44] INFO root fetch - processPackages [streamlit-passwordless]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_passwordless-0.2.0.tar.gz]
+[2024-05-01 16:09:44] INFO root fetch - processPackages [streamlit-passwordless]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_passwordless-0.3.0.tar.gz]
+[2024-05-01 16:09:44] INFO root fetch - main [MainThread]: End processing [streamlit-passwordless]: success
+[2024-05-01 16:09:44] INFO root fetch - main [MainThread]: Store serial: [23017810]
