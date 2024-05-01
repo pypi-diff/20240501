@@ -13247,3 +13247,32 @@
 [2024-05-01 10:40:50] INFO root fetch - processPackages [stepcounter]: Remove: archive file [/home/abi/fetcher/tmp/stepcounter-1.0.6-cp312-cp312-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2024-05-01 10:40:50] INFO root fetch - main [MainThread]: End processing [stepcounter]: success
 [2024-05-01 10:40:50] INFO root fetch - main [MainThread]: Store serial: [23014238]
+[2024-05-01 10:42:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23014238]
+[2024-05-01 10:42:59] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-01 10:42:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: idvpackage
+[2024-05-01 10:42:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kuzu
+[2024-05-01 10:42:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: austrakka
+[2024-05-01 10:42:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fizzbuzz-draw
+[2024-05-01 10:42:59] INFO root fetch - processPackages [austrakka]: New version: [0.53.0] Old Version: [0.52.3]
+[2024-05-01 10:42:59] WARNING root fetch - processPackages [fizzbuzz-draw]: Skipping, unable to determine old version
+[2024-05-01 10:42:59] INFO root fetch - main [MainThread]: End processing [fizzbuzz-draw] error
+[2024-05-01 10:42:59] INFO root fetch - processPackages [idvpackage]: New version: [1.9.9] Old Version: [1.9.8]
+[2024-05-01 10:42:59] INFO root fetch - processPackages [kuzu]: New version: [0.3.3.dev52] Old Version: [0.3.3.dev51]
+[2024-05-01 10:42:59] INFO root fetch - processPackages [idvpackage]: Downloading https://files.pythonhosted.org/packages/6c/7c/65b70ff47604461688a9475630c0e6f7b3f0809d59034ee93c3a20a856cd/idvpackage-1.9.8.tar.gz
+[2024-05-01 10:42:59] INFO root fetch - processPackages [austrakka]: Downloading https://files.pythonhosted.org/packages/2c/12/65794c70f29b64e846a9481ccb3a34cf4305e2a99818118a58eac3f1bb65/austrakka-0.52.3-py3-none-any.whl
+[2024-05-01 10:43:00] WARNING root fetch - processPackages [idvpackage]: Skipping package: exceeds size limit 28247832>=10485760
+[2024-05-01 10:43:00] INFO root fetch - main [MainThread]: End processing [idvpackage] error
+[2024-05-01 10:43:00] INFO root fetch - processPackages [kuzu]: Downloading https://files.pythonhosted.org/packages/59/97/d7a717d2207e9c50694151452e1279891da740cfa946acded648af316731/kuzu-0.3.3.dev51.tar.gz
+[2024-05-01 10:43:00] INFO root fetch - processPackages [austrakka]: Downloading https://files.pythonhosted.org/packages/a1/e9/8ff0137e0c124ef68fcf88c934c7f2a41e442453fa7a7f1d2a358ed7f965/austrakka-0.53.0-py3-none-any.whl
+[2024-05-01 10:43:00] INFO root fetch - processPackages [austrakka]: executing diffoscope
+[2024-05-01 10:43:00] INFO root fetch - processPackages [austrakka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/austrakka-0.52.3-py3-none-any.whl.zip tmp/austrakka-0.53.0-py3-none-any.whl.zip --markdown 20240501/a/austrakka/0.52.3-0.53.0/README.md --exclude *.pyd
+[2024-05-01 10:43:00] INFO root fetch - processPackages [kuzu]: Downloading https://files.pythonhosted.org/packages/80/24/2658be47498bf5b72207e91670906b5bfe81ed5fc246671bc6b682818bdc/kuzu-0.3.3.dev52-cp39-cp39-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl
+[2024-05-01 10:43:01] INFO root fetch - processPackages [austrakka]: Remove: archive file [/home/abi/fetcher/tmp/austrakka-0.52.3-py3-none-any.whl.zip]
+[2024-05-01 10:43:01] INFO root fetch - processPackages [austrakka]: Remove: archive file [/home/abi/fetcher/tmp/austrakka-0.53.0-py3-none-any.whl.zip]
+[2024-05-01 10:43:01] INFO root fetch - main [MainThread]: End processing [austrakka]: success
+[2024-05-01 10:43:03] INFO root fetch - processPackages [kuzu]: executing diffoscope
+[2024-05-01 10:43:03] INFO root fetch - processPackages [kuzu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kuzu-0.3.3.dev51.tar.gz tmp/kuzu-0.3.3.dev52-cp39-cp39-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl.zip --markdown 20240501/k/kuzu/0.3.3.dev51-0.3.3.dev52/README.md --exclude *.pyd
+[2024-05-01 10:43:04] INFO root fetch - processPackages [kuzu]: Remove: archive file [/home/abi/fetcher/tmp/kuzu-0.3.3.dev51.tar.gz]
+[2024-05-01 10:43:04] INFO root fetch - processPackages [kuzu]: Remove: archive file [/home/abi/fetcher/tmp/kuzu-0.3.3.dev52-cp39-cp39-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl.zip]
+[2024-05-01 10:43:04] INFO root fetch - main [MainThread]: End processing [kuzu]: success
+[2024-05-01 10:43:04] INFO root fetch - main [MainThread]: Store serial: [23014274]
