@@ -8066,3 +8066,33 @@
 [2024-05-01 05:20:58] INFO root fetch - processPackages [cdpcli]: Remove: archive file [/home/abi/fetcher/tmp/cdpcli-0.9.99.tar.gz]
 [2024-05-01 05:20:58] INFO root fetch - main [MainThread]: End processing [cdpcli]: success
 [2024-05-01 05:20:58] INFO root fetch - main [MainThread]: Store serial: [23011857]
+[2024-05-01 05:23:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23011857]
+[2024-05-01 05:23:06] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-01 05:23:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: keras-nightly
+[2024-05-01 05:23:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: autopipeline
+[2024-05-01 05:23:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-cooperator
+[2024-05-01 05:23:07] INFO root fetch - processPackages [autopipeline]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-05-01 05:23:07] INFO root fetch - processPackages [keras-nightly]: New version: [3.3.3.dev2024043003] Old Version: [3.3.3.dev2024042903]
+[2024-05-01 05:23:07] INFO root fetch - processPackages [odoo-addon-cooperator]: New version: [16.0.1.0.2.2] Old Version: [16.0.1.0.2.1]
+[2024-05-01 05:23:07] INFO root fetch - processPackages [autopipeline]: Downloading https://files.pythonhosted.org/packages/5f/0f/9eaf209b6d540115afdc9ae31de828df0234756277bceae49a4d1a0ea8b3/autopipeline-0.1.98.tar.gz
+[2024-05-01 05:23:07] INFO root fetch - processPackages [keras-nightly]: Downloading https://files.pythonhosted.org/packages/88/8b/ea7dab7f9b2e89b80facf8d10e9fb6c14f67059f4ee4e52c9ce67278ce1f/keras_nightly-3.3.3.dev2024042903.tar.gz
+[2024-05-01 05:23:07] INFO root fetch - processPackages [autopipeline]: Downloading https://files.pythonhosted.org/packages/5f/4a/f3df97d414e0a5e9120459fd5c7ab663092d540df59f7deacc45810deb41/autopipeline-0.1.99.tar.gz
+[2024-05-01 05:23:07] INFO root fetch - processPackages [odoo-addon-cooperator]: Downloading https://files.pythonhosted.org/packages/8d/35/dd0e1086f410cbddc0bc3b346ddb359289734d6c702a5870d98e258ff722/odoo_addon_cooperator-16.0.1.0.2.1-py3-none-any.whl
+[2024-05-01 05:23:07] INFO root fetch - processPackages [autopipeline]: executing diffoscope
+[2024-05-01 05:23:07] INFO root fetch - processPackages [autopipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autopipeline-0.1.98.tar.gz tmp/autopipeline-0.1.99.tar.gz --markdown 20240501/a/autopipeline/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-05-01 05:23:07] INFO root fetch - processPackages [keras-nightly]: Downloading https://files.pythonhosted.org/packages/42/73/4053e6c6b8db7a506bbf6f36f640d552a5b166b06c0b2396dc24e0b244c9/keras_nightly-3.3.3.dev2024043003.tar.gz
+[2024-05-01 05:23:07] INFO root fetch - processPackages [keras-nightly]: executing diffoscope
+[2024-05-01 05:23:07] INFO root fetch - processPackages [keras-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras_nightly-3.3.3.dev2024042903.tar.gz tmp/keras_nightly-3.3.3.dev2024043003.tar.gz --markdown 20240501/k/keras-nightly/3.3.3.dev2024042903-3.3.3.dev2024043003/README.md --exclude *.pyd
+[2024-05-01 05:23:07] INFO root fetch - processPackages [odoo-addon-cooperator]: Downloading https://files.pythonhosted.org/packages/1a/7f/988f664e257349ea7ee4bedb8e223db1c1eedc3ec82103df519eee278d13/odoo_addon_cooperator-16.0.1.0.2.2-py3-none-any.whl
+[2024-05-01 05:23:07] INFO root fetch - processPackages [odoo-addon-cooperator]: executing diffoscope
+[2024-05-01 05:23:07] INFO root fetch - processPackages [odoo-addon-cooperator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_cooperator-16.0.1.0.2.1-py3-none-any.whl.zip tmp/odoo_addon_cooperator-16.0.1.0.2.2-py3-none-any.whl.zip --markdown 20240501/o/odoo-addon-cooperator/16.0.1.0.2.1-16.0.1.0.2.2/README.md --exclude *.pyd
+[2024-05-01 05:23:07] INFO root fetch - processPackages [autopipeline]: Remove: archive file [/home/abi/fetcher/tmp/autopipeline-0.1.98.tar.gz]
+[2024-05-01 05:23:07] INFO root fetch - processPackages [autopipeline]: Remove: archive file [/home/abi/fetcher/tmp/autopipeline-0.1.99.tar.gz]
+[2024-05-01 05:23:07] INFO root fetch - main [MainThread]: End processing [autopipeline]: success
+[2024-05-01 05:23:08] INFO root fetch - processPackages [odoo-addon-cooperator]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_cooperator-16.0.1.0.2.1-py3-none-any.whl.zip]
+[2024-05-01 05:23:08] INFO root fetch - processPackages [odoo-addon-cooperator]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_cooperator-16.0.1.0.2.2-py3-none-any.whl.zip]
+[2024-05-01 05:23:08] INFO root fetch - main [MainThread]: End processing [odoo-addon-cooperator]: success
+[2024-05-01 05:23:09] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-3.3.3.dev2024042903.tar.gz]
+[2024-05-01 05:23:09] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-3.3.3.dev2024043003.tar.gz]
+[2024-05-01 05:23:09] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
+[2024-05-01 05:23:09] INFO root fetch - main [MainThread]: Store serial: [23011867]
