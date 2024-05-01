@@ -13512,3 +13512,33 @@
 [2024-05-01 10:54:03] INFO root fetch - processPackages [VisionCraft]: Remove: archive file [/home/abi/fetcher/tmp/VisionCraft-0.1.25.tar.gz]
 [2024-05-01 10:54:03] INFO root fetch - main [MainThread]: End processing [VisionCraft]: success
 [2024-05-01 10:54:03] INFO root fetch - main [MainThread]: Store serial: [23014366]
+[2024-05-01 10:56:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23014366]
+[2024-05-01 10:56:12] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-01 10:56:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: socketsecurity
+[2024-05-01 10:56:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flightdata
+[2024-05-01 10:56:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: librus-apix
+[2024-05-01 10:56:12] INFO root fetch - processPackages [socketsecurity]: New version: [0.0.41] Old Version: [0.0.40]
+[2024-05-01 10:56:12] INFO root fetch - processPackages [librus-apix]: New version: [0.7.5] Old Version: [0.7.4]
+[2024-05-01 10:56:12] INFO root fetch - processPackages [flightdata]: New version: [0.2.7] Old Version: [0.2.6]
+[2024-05-01 10:56:12] INFO root fetch - processPackages [socketsecurity]: Downloading https://files.pythonhosted.org/packages/61/9b/9077aae88a561d109af653ce8d0640eefb17bcfd697283658b6c399bf7a9/socketsecurity-0.0.40.tar.gz
+[2024-05-01 10:56:12] INFO root fetch - processPackages [librus-apix]: Downloading https://files.pythonhosted.org/packages/5a/f9/0020f1ee60b38063aeb00d810aab829f68dd2ebaf1b55ccca93934970fdc/librus_apix-0.7.4.tar.gz
+[2024-05-01 10:56:12] INFO root fetch - processPackages [flightdata]: Downloading https://files.pythonhosted.org/packages/f4/ac/cb3742cf0273d25a797db4747a19a3f9b60538429503b3691dd6832dcbf8/flightdata-0.2.6.tar.gz
+[2024-05-01 10:56:13] INFO root fetch - processPackages [socketsecurity]: Downloading https://files.pythonhosted.org/packages/0a/e9/9edbea3ce4fe548959a0aa1bebf45d6cdc9fe22f4f06d9b9b5ce2c8b6461/socketsecurity-0.0.41.tar.gz
+[2024-05-01 10:56:13] INFO root fetch - processPackages [librus-apix]: Downloading https://files.pythonhosted.org/packages/d9/92/a54b6a228fb9420d665160b8abbfcc552c1eb780793ab987f6be735629d5/librus_apix-0.7.5.tar.gz
+[2024-05-01 10:56:13] INFO root fetch - processPackages [flightdata]: Downloading https://files.pythonhosted.org/packages/4b/77/1dfeead0445598bcad8f1f88191e30794ff90e91396b300d89a84b18cfd9/flightdata-0.2.7.tar.gz
+[2024-05-01 10:56:13] INFO root fetch - processPackages [socketsecurity]: executing diffoscope
+[2024-05-01 10:56:13] INFO root fetch - processPackages [socketsecurity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/socketsecurity-0.0.40.tar.gz tmp/socketsecurity-0.0.41.tar.gz --markdown 20240501/s/socketsecurity/0.0.40-0.0.41/README.md --exclude *.pyd
+[2024-05-01 10:56:13] INFO root fetch - processPackages [librus-apix]: executing diffoscope
+[2024-05-01 10:56:13] INFO root fetch - processPackages [librus-apix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/librus_apix-0.7.4.tar.gz tmp/librus_apix-0.7.5.tar.gz --markdown 20240501/l/librus-apix/0.7.4-0.7.5/README.md --exclude *.pyd
+[2024-05-01 10:56:13] INFO root fetch - processPackages [flightdata]: executing diffoscope
+[2024-05-01 10:56:13] INFO root fetch - processPackages [flightdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flightdata-0.2.6.tar.gz tmp/flightdata-0.2.7.tar.gz --markdown 20240501/f/flightdata/0.2.6-0.2.7/README.md --exclude *.pyd
+[2024-05-01 10:56:13] INFO root fetch - processPackages [socketsecurity]: Remove: archive file [/home/abi/fetcher/tmp/socketsecurity-0.0.40.tar.gz]
+[2024-05-01 10:56:13] INFO root fetch - processPackages [socketsecurity]: Remove: archive file [/home/abi/fetcher/tmp/socketsecurity-0.0.41.tar.gz]
+[2024-05-01 10:56:13] INFO root fetch - main [MainThread]: End processing [socketsecurity]: success
+[2024-05-01 10:56:13] INFO root fetch - processPackages [librus-apix]: Remove: archive file [/home/abi/fetcher/tmp/librus_apix-0.7.4.tar.gz]
+[2024-05-01 10:56:13] INFO root fetch - processPackages [librus-apix]: Remove: archive file [/home/abi/fetcher/tmp/librus_apix-0.7.5.tar.gz]
+[2024-05-01 10:56:13] INFO root fetch - main [MainThread]: End processing [librus-apix]: success
+[2024-05-01 10:56:14] INFO root fetch - processPackages [flightdata]: Remove: archive file [/home/abi/fetcher/tmp/flightdata-0.2.6.tar.gz]
+[2024-05-01 10:56:14] INFO root fetch - processPackages [flightdata]: Remove: archive file [/home/abi/fetcher/tmp/flightdata-0.2.7.tar.gz]
+[2024-05-01 10:56:14] INFO root fetch - main [MainThread]: End processing [flightdata]: success
+[2024-05-01 10:56:14] INFO root fetch - main [MainThread]: Store serial: [23014375]
