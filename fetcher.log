@@ -7796,3 +7796,18 @@
 [2024-05-01 05:03:32] INFO root fetch - main [MainThread]: End processing [lielab]: success
 [2024-05-01 05:03:32] INFO root fetch - main [MainThread]: End processing [lielab]: success
 [2024-05-01 05:03:32] INFO root fetch - main [MainThread]: Store serial: [23011762]
+[2024-05-01 05:05:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23011762]
+[2024-05-01 05:05:40] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-01 05:05:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: leap-data-management-utils
+[2024-05-01 05:05:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: manyhttps
+[2024-05-01 05:05:40] INFO root fetch - processPackages [leap-data-management-utils]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-01 05:05:40] INFO root fetch - processPackages [leap-data-management-utils]: Downloading https://files.pythonhosted.org/packages/83/7a/9e260411c8f4530cf2fa29ad5d73918bf6495720bd298a2aeb8d507c1263/leap_data_management_utils-0.0.6.tar.gz
+[2024-05-01 05:05:40] WARNING root fetch - processPackages [manyhttps]: Skipping, unable to determine old version
+[2024-05-01 05:05:40] INFO root fetch - main [MainThread]: End processing [manyhttps] error
+[2024-05-01 05:05:41] INFO root fetch - processPackages [leap-data-management-utils]: Downloading https://files.pythonhosted.org/packages/b5/90/74aaf2fd52158fc5e28c2e4690ee29ffa8ea4846fb96cb6a4147b747eef0/leap_data_management_utils-0.0.7.tar.gz
+[2024-05-01 05:05:41] INFO root fetch - processPackages [leap-data-management-utils]: executing diffoscope
+[2024-05-01 05:05:41] INFO root fetch - processPackages [leap-data-management-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leap_data_management_utils-0.0.6.tar.gz tmp/leap_data_management_utils-0.0.7.tar.gz --markdown 20240501/l/leap-data-management-utils/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-01 05:05:41] INFO root fetch - processPackages [leap-data-management-utils]: Remove: archive file [/home/abi/fetcher/tmp/leap_data_management_utils-0.0.6.tar.gz]
+[2024-05-01 05:05:41] INFO root fetch - processPackages [leap-data-management-utils]: Remove: archive file [/home/abi/fetcher/tmp/leap_data_management_utils-0.0.7.tar.gz]
+[2024-05-01 05:05:41] INFO root fetch - main [MainThread]: End processing [leap-data-management-utils]: success
+[2024-05-01 05:05:41] INFO root fetch - main [MainThread]: Store serial: [23011770]
