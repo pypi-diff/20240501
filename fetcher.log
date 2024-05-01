@@ -7332,3 +7332,33 @@
 [2024-05-01 04:32:14] INFO root fetch - processPackages [hexdoc]: Remove: archive file [/home/abi/fetcher/tmp/hexdoc-1!0.1.0a9.tar.gz]
 [2024-05-01 04:32:14] INFO root fetch - main [MainThread]: End processing [hexdoc]: success
 [2024-05-01 04:32:14] INFO root fetch - main [MainThread]: Store serial: [23011525]
+[2024-05-01 04:34:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23011525]
+[2024-05-01 04:34:23] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-01 04:34:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: GPTPlugins4All
+[2024-05-01 04:34:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: alacorder
+[2024-05-01 04:34:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xss-shield
+[2024-05-01 04:34:23] INFO root fetch - processPackages [xss-shield]: New version: [0.1.0] Old Version: [0.0.3]
+[2024-05-01 04:34:23] INFO root fetch - processPackages [alacorder]: New version: [81.2.9] Old Version: [81.2.8]
+[2024-05-01 04:34:23] INFO root fetch - processPackages [GPTPlugins4All]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-01 04:34:23] INFO root fetch - processPackages [xss-shield]: Downloading https://files.pythonhosted.org/packages/5d/a3/f449fbec37abf78a04406339f9faaf78cb950b5619ceacb35aa956b0de33/xss_shield-0.0.3.tar.gz
+[2024-05-01 04:34:23] INFO root fetch - processPackages [alacorder]: Downloading https://files.pythonhosted.org/packages/3c/8b/06b6c641077ef571cfce00037b04fbed587c976602b1864a039adf4a6cc5/alacorder-81.2.8.tar.gz
+[2024-05-01 04:34:23] INFO root fetch - processPackages [GPTPlugins4All]: Downloading https://files.pythonhosted.org/packages/5a/b5/97b0775cb4c951d2872d6c4e33db266a0dba4dc2207a3dbac7ed55f6b995/GPTPlugins4All-1.0.8.tar.gz
+[2024-05-01 04:34:24] INFO root fetch - processPackages [alacorder]: Downloading https://files.pythonhosted.org/packages/19/45/ba44b965f3cdfef0cc322e5c74a77dae65a86854c8efd06a64a5003cb675/alacorder-81.2.9.tar.gz
+[2024-05-01 04:34:24] INFO root fetch - processPackages [xss-shield]: Downloading https://files.pythonhosted.org/packages/66/c4/16d3e42570a77440b2b0ad88b56a1f5c8dbd5d7b29f30323aa70072c74f7/xss_shield-0.1.0.tar.gz
+[2024-05-01 04:34:24] INFO root fetch - processPackages [alacorder]: executing diffoscope
+[2024-05-01 04:34:24] INFO root fetch - processPackages [alacorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alacorder-81.2.8.tar.gz tmp/alacorder-81.2.9.tar.gz --markdown 20240501/a/alacorder/81.2.8-81.2.9/README.md --exclude *.pyd
+[2024-05-01 04:34:24] INFO root fetch - processPackages [GPTPlugins4All]: Downloading https://files.pythonhosted.org/packages/fb/16/af06befd4a411c5c48cd6f713bca08893d0e33bde8c93250203608d1ef03/GPTPlugins4All-1.0.9.tar.gz
+[2024-05-01 04:34:24] INFO root fetch - processPackages [xss-shield]: executing diffoscope
+[2024-05-01 04:34:24] INFO root fetch - processPackages [xss-shield]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xss_shield-0.0.3.tar.gz tmp/xss_shield-0.1.0.tar.gz --markdown 20240501/x/xss-shield/0.0.3-0.1.0/README.md --exclude *.pyd
+[2024-05-01 04:34:24] INFO root fetch - processPackages [GPTPlugins4All]: executing diffoscope
+[2024-05-01 04:34:24] INFO root fetch - processPackages [GPTPlugins4All]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GPTPlugins4All-1.0.8.tar.gz tmp/GPTPlugins4All-1.0.9.tar.gz --markdown 20240501/G/GPTPlugins4All/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-01 04:34:24] INFO root fetch - processPackages [xss-shield]: Remove: archive file [/home/abi/fetcher/tmp/xss_shield-0.0.3.tar.gz]
+[2024-05-01 04:34:24] INFO root fetch - processPackages [xss-shield]: Remove: archive file [/home/abi/fetcher/tmp/xss_shield-0.1.0.tar.gz]
+[2024-05-01 04:34:24] INFO root fetch - main [MainThread]: End processing [xss-shield]: success
+[2024-05-01 04:34:24] INFO root fetch - processPackages [GPTPlugins4All]: Remove: archive file [/home/abi/fetcher/tmp/GPTPlugins4All-1.0.8.tar.gz]
+[2024-05-01 04:34:24] INFO root fetch - processPackages [GPTPlugins4All]: Remove: archive file [/home/abi/fetcher/tmp/GPTPlugins4All-1.0.9.tar.gz]
+[2024-05-01 04:34:24] INFO root fetch - main [MainThread]: End processing [GPTPlugins4All]: success
+[2024-05-01 04:34:24] INFO root fetch - processPackages [alacorder]: Remove: archive file [/home/abi/fetcher/tmp/alacorder-81.2.8.tar.gz]
+[2024-05-01 04:34:24] INFO root fetch - processPackages [alacorder]: Remove: archive file [/home/abi/fetcher/tmp/alacorder-81.2.9.tar.gz]
+[2024-05-01 04:34:24] INFO root fetch - main [MainThread]: End processing [alacorder]: success
+[2024-05-01 04:34:24] INFO root fetch - main [MainThread]: Store serial: [23011536]
