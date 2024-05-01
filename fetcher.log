@@ -20363,3 +20363,66 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-01 14:45:01] INFO root fetch - processPackages [Tooldelta]: Remove: archive file [/home/abi/fetcher/tmp/tooldelta-0.5.9.tar.gz]
 [2024-05-01 14:45:01] INFO root fetch - main [MainThread]: End processing [Tooldelta]: success
 [2024-05-01 14:45:01] INFO root fetch - main [MainThread]: Store serial: [23017005]
+[2024-05-01 14:47:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23017005]
+[2024-05-01 14:47:09] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-01 14:47:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-github
+[2024-05-01 14:47:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tutor-contrib-aspects
+[2024-05-01 14:47:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PyLauncherMPI
+[2024-05-01 14:47:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: duckcuts
+[2024-05-01 14:47:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: homeassistant-stubs
+[2024-05-01 14:47:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: PyTorchLab
+[2024-05-01 14:47:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: stigg-api-client
+[2024-05-01 14:47:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tebbytools
+[2024-05-01 14:47:09] INFO root fetch - processPackages [PyLauncherMPI]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-01 14:47:09] WARNING root fetch - processPackages [duckcuts]: Skipping, unable to determine old version
+[2024-05-01 14:47:09] INFO root fetch - main [MainThread]: End processing [duckcuts] error
+[2024-05-01 14:47:09] INFO root fetch - processPackages [pulumi-github]: New version: [6.3.0a1714541722] Old Version: [6.3.0a1714455620]
+[2024-05-01 14:47:09] INFO root fetch - processPackages [homeassistant-stubs]: New version: [2024.5.0b4] Old Version: [2024.5.0b3]
+[2024-05-01 14:47:09] INFO root fetch - processPackages [tebbytools]: New version: [0.3.3] Old Version: [0.2.5]
+[2024-05-01 14:47:09] WARNING root fetch - processPackages [PyTorchLab]: Skipping, unable to determine old version
+[2024-05-01 14:47:09] INFO root fetch - main [MainThread]: End processing [PyTorchLab] error
+[2024-05-01 14:47:09] INFO root fetch - processPackages [pulumi-github]: Downloading https://files.pythonhosted.org/packages/d7/cb/0d8392079f4db48ae39c57428b6bf40b033b3713ddfb9787be117feae748/pulumi_github-6.3.0a1714455620.tar.gz
+[2024-05-01 14:47:09] INFO root fetch - processPackages [stigg-api-client]: New version: [1.98.1] Old Version: [1.98.0]
+[2024-05-01 14:47:09] INFO root fetch - processPackages [tutor-contrib-aspects]: New version: [0.99.0] Old Version: [0.98.0]
+[2024-05-01 14:47:09] INFO root fetch - processPackages [homeassistant-stubs]: Downloading https://files.pythonhosted.org/packages/25/f0/518084fd8aaab80ed373be56fd94931792ed1c79130963d3b9b90cdc31eb/homeassistant_stubs-2024.5.0b3.tar.gz
+[2024-05-01 14:47:09] INFO root fetch - processPackages [PyLauncherMPI]: Downloading https://files.pythonhosted.org/packages/b8/88/0a7a737f259f01d2adc5c65cbc7ed403f029d136d3ca5dc5735abfcff229/PyLauncherMPI-0.1.0.tar.gz
+[2024-05-01 14:47:10] INFO root fetch - processPackages [tutor-contrib-aspects]: Downloading https://files.pythonhosted.org/packages/28/f9/e5b5acc7871d533081fe8f9132f522e980e8b199203163960e49075a9376/tutor-contrib-aspects-0.98.0.tar.gz
+[2024-05-01 14:47:10] INFO root fetch - processPackages [tebbytools]: Downloading https://files.pythonhosted.org/packages/2b/6a/be407f879e1be1ff630fa1fe2d8698844f71a5b0d10a7185a3bc9ef74f23/tebbytools-0.2.5.tar.gz
+[2024-05-01 14:47:10] INFO root fetch - processPackages [stigg-api-client]: Downloading https://files.pythonhosted.org/packages/98/38/1422eb2135687adff8e0844dc4afcdcdd3c44140b3b89335819f7a678037/stigg_api_client-1.98.0.tar.gz
+[2024-05-01 14:47:10] INFO root fetch - processPackages [pulumi-github]: Downloading https://files.pythonhosted.org/packages/59/fe/ae0526f4eadff0ef1426f8bcbfdf40e08219039bdcf9244bc663e47a9094/pulumi_github-6.3.0a1714541722.tar.gz
+[2024-05-01 14:47:10] INFO root fetch - processPackages [PyLauncherMPI]: Downloading https://files.pythonhosted.org/packages/47/ab/fa55a2c7574f8a49f1a28e4a016da3ffac8ad058edd67607a5f3e27ecd2b/PyLauncherMPI-0.1.1.tar.gz
+[2024-05-01 14:47:10] INFO root fetch - processPackages [homeassistant-stubs]: Downloading https://files.pythonhosted.org/packages/a7/f4/6d1e75a59c95814a11e36c41789fe898a4569fb43a4dc147ce71bf07a31b/homeassistant_stubs-2024.5.0b4.tar.gz
+[2024-05-01 14:47:10] INFO root fetch - processPackages [PyLauncherMPI]: executing diffoscope
+[2024-05-01 14:47:10] INFO root fetch - processPackages [PyLauncherMPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyLauncherMPI-0.1.0.tar.gz tmp/PyLauncherMPI-0.1.1.tar.gz --markdown 20240501/P/PyLauncherMPI/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-01 14:47:10] INFO root fetch - processPackages [pulumi-github]: executing diffoscope
+[2024-05-01 14:47:10] INFO root fetch - processPackages [pulumi-github]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_github-6.3.0a1714455620.tar.gz tmp/pulumi_github-6.3.0a1714541722.tar.gz --markdown 20240501/p/pulumi-github/6.3.0a1714455620-6.3.0a1714541722/README.md --exclude *.pyd
+[2024-05-01 14:47:10] INFO root fetch - processPackages [tebbytools]: Downloading https://files.pythonhosted.org/packages/99/27/81eab29527b7672c7e0c62cb8c217290e0cc7c287359fc8ff64ef476f642/tebbytools-0.3.3.tar.gz
+[2024-05-01 14:47:10] INFO root fetch - processPackages [tutor-contrib-aspects]: Downloading https://files.pythonhosted.org/packages/dc/b7/f7f7c91176006dc6f51e9559f3bd584fd054c6f9c3d70e942646e6981139/tutor-contrib-aspects-0.99.0.tar.gz
+[2024-05-01 14:47:10] INFO root fetch - processPackages [tebbytools]: executing diffoscope
+[2024-05-01 14:47:10] INFO root fetch - processPackages [tebbytools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tebbytools-0.2.5.tar.gz tmp/tebbytools-0.3.3.tar.gz --markdown 20240501/t/tebbytools/0.2.5-0.3.3/README.md --exclude *.pyd
+[2024-05-01 14:47:10] INFO root fetch - processPackages [stigg-api-client]: Downloading https://files.pythonhosted.org/packages/da/d2/6b7a0c4e4205896d09042773fe56913ad646e6493900cc11613eabb26e05/stigg_api_client-1.98.1.tar.gz
+[2024-05-01 14:47:10] INFO root fetch - processPackages [homeassistant-stubs]: executing diffoscope
+[2024-05-01 14:47:10] INFO root fetch - processPackages [homeassistant-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/homeassistant_stubs-2024.5.0b3.tar.gz tmp/homeassistant_stubs-2024.5.0b4.tar.gz --markdown 20240501/h/homeassistant-stubs/2024.5.0b3-2024.5.0b4/README.md --exclude *.pyd
+[2024-05-01 14:47:10] INFO root fetch - processPackages [tutor-contrib-aspects]: executing diffoscope
+[2024-05-01 14:47:10] INFO root fetch - processPackages [tutor-contrib-aspects]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tutor-contrib-aspects-0.98.0.tar.gz tmp/tutor-contrib-aspects-0.99.0.tar.gz --markdown 20240501/t/tutor-contrib-aspects/0.98.0-0.99.0/README.md --exclude *.pyd
+[2024-05-01 14:47:10] INFO root fetch - processPackages [stigg-api-client]: executing diffoscope
+[2024-05-01 14:47:10] INFO root fetch - processPackages [stigg-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stigg_api_client-1.98.0.tar.gz tmp/stigg_api_client-1.98.1.tar.gz --markdown 20240501/s/stigg-api-client/1.98.0-1.98.1/README.md --exclude *.pyd
+[2024-05-01 14:47:10] INFO root fetch - processPackages [PyLauncherMPI]: Remove: archive file [/home/abi/fetcher/tmp/PyLauncherMPI-0.1.0.tar.gz]
+[2024-05-01 14:47:10] INFO root fetch - processPackages [PyLauncherMPI]: Remove: archive file [/home/abi/fetcher/tmp/PyLauncherMPI-0.1.1.tar.gz]
+[2024-05-01 14:47:10] INFO root fetch - main [MainThread]: End processing [PyLauncherMPI]: success
+[2024-05-01 14:47:11] INFO root fetch - processPackages [tebbytools]: Remove: archive file [/home/abi/fetcher/tmp/tebbytools-0.2.5.tar.gz]
+[2024-05-01 14:47:11] INFO root fetch - processPackages [tebbytools]: Remove: archive file [/home/abi/fetcher/tmp/tebbytools-0.3.3.tar.gz]
+[2024-05-01 14:47:11] INFO root fetch - main [MainThread]: End processing [tebbytools]: success
+[2024-05-01 14:47:11] INFO root fetch - processPackages [pulumi-github]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_github-6.3.0a1714455620.tar.gz]
+[2024-05-01 14:47:11] INFO root fetch - processPackages [pulumi-github]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_github-6.3.0a1714541722.tar.gz]
+[2024-05-01 14:47:11] INFO root fetch - main [MainThread]: End processing [pulumi-github]: success
+[2024-05-01 14:47:11] INFO root fetch - processPackages [stigg-api-client]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client-1.98.0.tar.gz]
+[2024-05-01 14:47:11] INFO root fetch - processPackages [stigg-api-client]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client-1.98.1.tar.gz]
+[2024-05-01 14:47:11] INFO root fetch - main [MainThread]: End processing [stigg-api-client]: success
+[2024-05-01 14:47:12] INFO root fetch - processPackages [tutor-contrib-aspects]: Remove: archive file [/home/abi/fetcher/tmp/tutor-contrib-aspects-0.98.0.tar.gz]
+[2024-05-01 14:47:12] INFO root fetch - processPackages [tutor-contrib-aspects]: Remove: archive file [/home/abi/fetcher/tmp/tutor-contrib-aspects-0.99.0.tar.gz]
+[2024-05-01 14:47:12] INFO root fetch - main [MainThread]: End processing [tutor-contrib-aspects]: success
+[2024-05-01 14:47:23] INFO root fetch - processPackages [homeassistant-stubs]: Remove: archive file [/home/abi/fetcher/tmp/homeassistant_stubs-2024.5.0b3.tar.gz]
+[2024-05-01 14:47:23] INFO root fetch - processPackages [homeassistant-stubs]: Remove: archive file [/home/abi/fetcher/tmp/homeassistant_stubs-2024.5.0b4.tar.gz]
+[2024-05-01 14:47:23] INFO root fetch - main [MainThread]: End processing [homeassistant-stubs]: success
+[2024-05-01 14:47:23] INFO root fetch - main [MainThread]: Store serial: [23017031]
