@@ -9561,3 +9561,42 @@
 [2024-05-01 07:19:29] INFO root fetch - processPackages [rapidpe-rift-pipe]: Remove: archive file [/home/abi/fetcher/tmp/rapidpe_rift_pipe-0.6.9.dev20240319.tar.gz]
 [2024-05-01 07:19:29] INFO root fetch - main [MainThread]: End processing [rapidpe-rift-pipe]: success
 [2024-05-01 07:19:29] INFO root fetch - main [MainThread]: Store serial: [23012581]
+[2024-05-01 07:21:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23012581]
+[2024-05-01 07:21:39] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-01 07:21:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ms-swift
+[2024-05-01 07:21:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ocdskit
+[2024-05-01 07:21:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sphinxnotes-isso
+[2024-05-01 07:21:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: deadpad
+[2024-05-01 07:21:39] INFO root fetch - processPackages [deadpad]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-05-01 07:21:39] INFO root fetch - processPackages [deadpad]: Downloading https://files.pythonhosted.org/packages/ee/2e/0ab11811fa39f08f5ac377ce78ad03f0980d05d4dc33db9337ed681bbd88/deadpad-0.1.0.tar.gz
+[2024-05-01 07:21:39] INFO root fetch - processPackages [sphinxnotes-isso]: New version: [1.1] Old Version: [1.0a2]
+[2024-05-01 07:21:39] INFO root fetch - processPackages [ms-swift]: New version: [2.0.4] Old Version: [2.0.3.post1]
+[2024-05-01 07:21:39] INFO root fetch - processPackages [ocdskit]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-05-01 07:21:39] INFO root fetch - processPackages [sphinxnotes-isso]: Downloading https://files.pythonhosted.org/packages/a9/8f/84879bdd835fb60de56e4a413dcfe2e91b023d31ff160dde4e31b0fcb2a6/sphinxnotes-isso-1.0a2.tar.gz
+[2024-05-01 07:21:39] INFO root fetch - processPackages [ocdskit]: Downloading https://files.pythonhosted.org/packages/4b/fc/d402225919ffc19ff069bf3578e0f16a020a9dc0860aa207acfb6de2aa01/ocdskit-1.1.8.tar.gz
+[2024-05-01 07:21:39] INFO root fetch - processPackages [ms-swift]: Downloading https://files.pythonhosted.org/packages/d9/76/104134e8be27534932ab6137d499120e0143ad5e22b310ed4cc409da4272/ms-swift-2.0.3.post1.tar.gz
+[2024-05-01 07:21:39] INFO root fetch - processPackages [deadpad]: Downloading https://files.pythonhosted.org/packages/1f/b7/139a95c033fd067b6ef4fb395ff07beb76641752a08e4b82559690bbfd0e/deadpad-0.2.0.tar.gz
+[2024-05-01 07:21:39] INFO root fetch - processPackages [sphinxnotes-isso]: Downloading https://files.pythonhosted.org/packages/e0/65/d7c35619542e5ba8b9c422b9f1674f4a5325fc80d1299f1b3da46c5afc5a/sphinxnotes_isso-1.1.tar.gz
+[2024-05-01 07:21:39] INFO root fetch - processPackages [ms-swift]: Downloading https://files.pythonhosted.org/packages/d9/b4/38cc3c94c721fc5e5db3cf0b0e8d11326ef85676236bb844527e26752617/ms-swift-2.0.4.tar.gz
+[2024-05-01 07:21:40] INFO root fetch - processPackages [deadpad]: executing diffoscope
+[2024-05-01 07:21:40] INFO root fetch - processPackages [deadpad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deadpad-0.1.0.tar.gz tmp/deadpad-0.2.0.tar.gz --markdown 20240501/d/deadpad/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-05-01 07:21:40] INFO root fetch - processPackages [sphinxnotes-isso]: executing diffoscope
+[2024-05-01 07:21:40] INFO root fetch - processPackages [sphinxnotes-isso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphinxnotes-isso-1.0a2.tar.gz tmp/sphinxnotes_isso-1.1.tar.gz --markdown 20240501/s/sphinxnotes-isso/1.0a2-1.1/README.md --exclude *.pyd
+[2024-05-01 07:21:40] INFO root fetch - processPackages [ms-swift]: executing diffoscope
+[2024-05-01 07:21:40] INFO root fetch - processPackages [ms-swift]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ms-swift-2.0.3.post1.tar.gz tmp/ms-swift-2.0.4.tar.gz --markdown 20240501/m/ms-swift/2.0.3.post1-2.0.4/README.md --exclude *.pyd
+[2024-05-01 07:21:40] INFO root fetch - processPackages [ocdskit]: Downloading https://files.pythonhosted.org/packages/25/e8/56083ad451ba8fce127c883a0d6f22ae56453d298a4c5c279124df684c2b/ocdskit-1.1.9.tar.gz
+[2024-05-01 07:21:40] INFO root fetch - processPackages [ocdskit]: executing diffoscope
+[2024-05-01 07:21:40] INFO root fetch - processPackages [ocdskit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ocdskit-1.1.8.tar.gz tmp/ocdskit-1.1.9.tar.gz --markdown 20240501/o/ocdskit/1.1.8-1.1.9/README.md --exclude *.pyd
+[2024-05-01 07:21:40] INFO root fetch - processPackages [sphinxnotes-isso]: Remove: archive file [/home/abi/fetcher/tmp/sphinxnotes-isso-1.0a2.tar.gz]
+[2024-05-01 07:21:40] INFO root fetch - processPackages [sphinxnotes-isso]: Remove: archive file [/home/abi/fetcher/tmp/sphinxnotes_isso-1.1.tar.gz]
+[2024-05-01 07:21:40] INFO root fetch - main [MainThread]: End processing [sphinxnotes-isso]: success
+[2024-05-01 07:21:40] INFO root fetch - processPackages [deadpad]: Remove: archive file [/home/abi/fetcher/tmp/deadpad-0.1.0.tar.gz]
+[2024-05-01 07:21:40] INFO root fetch - processPackages [deadpad]: Remove: archive file [/home/abi/fetcher/tmp/deadpad-0.2.0.tar.gz]
+[2024-05-01 07:21:40] INFO root fetch - main [MainThread]: End processing [deadpad]: success
+[2024-05-01 07:21:41] INFO root fetch - processPackages [ocdskit]: Remove: archive file [/home/abi/fetcher/tmp/ocdskit-1.1.8.tar.gz]
+[2024-05-01 07:21:41] INFO root fetch - processPackages [ocdskit]: Remove: archive file [/home/abi/fetcher/tmp/ocdskit-1.1.9.tar.gz]
+[2024-05-01 07:21:41] INFO root fetch - main [MainThread]: End processing [ocdskit]: success
+[2024-05-01 07:21:42] INFO root fetch - processPackages [ms-swift]: Remove: archive file [/home/abi/fetcher/tmp/ms-swift-2.0.3.post1.tar.gz]
+[2024-05-01 07:21:42] INFO root fetch - processPackages [ms-swift]: Remove: archive file [/home/abi/fetcher/tmp/ms-swift-2.0.4.tar.gz]
+[2024-05-01 07:21:42] INFO root fetch - main [MainThread]: End processing [ms-swift]: success
+[2024-05-01 07:21:42] INFO root fetch - main [MainThread]: Store serial: [23012596]
