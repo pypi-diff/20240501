@@ -13990,3 +13990,27 @@
 [2024-05-01 11:15:42] INFO root fetch - main [MainThread]: End processing [tryton]: success
 [2024-05-01 11:15:42] INFO root fetch - main [MainThread]: End processing [tryton]: success
 [2024-05-01 11:15:42] INFO root fetch - main [MainThread]: Store serial: [23014579]
+[2024-05-01 11:17:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23014579]
+[2024-05-01 11:17:51] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-01 11:17:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: phasegen
+[2024-05-01 11:17:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: verbose-name-adder-Sino0on
+[2024-05-01 11:17:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tryton
+[2024-05-01 11:17:51] INFO root fetch - processPackages [tryton]: New version: [7.2.1] Old Version: [7.2.0]
+[2024-05-01 11:17:51] INFO root fetch - processPackages [phasegen]: New version: [0.0.9b0] Old Version: [0.0.8b0]
+[2024-05-01 11:17:51] INFO root fetch - processPackages [tryton]: Downloading https://files.pythonhosted.org/packages/4a/21/167ef40043e84be8a96e4827330b527e0348b0707bf28004d582659c07ca/tryton-7.2.0.tar.gz
+[2024-05-01 11:17:51] WARNING root fetch - processPackages [verbose-name-adder-Sino0on]: Skipping, unable to determine old version
+[2024-05-01 11:17:51] INFO root fetch - main [MainThread]: End processing [verbose-name-adder-Sino0on] error
+[2024-05-01 11:17:51] INFO root fetch - processPackages [phasegen]: Downloading https://files.pythonhosted.org/packages/f6/0e/995c47e0f7c3525e4198491bfe3665056daf5d6a3b6f227106255ebd46ef/phasegen-0.0.8b0.tar.gz
+[2024-05-01 11:17:51] INFO root fetch - processPackages [tryton]: Downloading https://files.pythonhosted.org/packages/cf/c2/6ac907d058e8b170fa98b8d7a1fc28632af8091b1ae3ccf6336cb3dd0c59/tryton-7.2.1.tar.gz
+[2024-05-01 11:17:51] INFO root fetch - processPackages [tryton]: executing diffoscope
+[2024-05-01 11:17:51] INFO root fetch - processPackages [tryton]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tryton-7.2.0.tar.gz tmp/tryton-7.2.1.tar.gz --markdown 20240501/t/tryton/7.2.0-7.2.1/README.md --exclude *.pyd
+[2024-05-01 11:17:51] INFO root fetch - processPackages [phasegen]: Downloading https://files.pythonhosted.org/packages/77/80/72d40e4e9d74af7b23ec52f54905c5845afdc96c5ebd66eb83e5fe2579e5/phasegen-0.0.9b0.tar.gz
+[2024-05-01 11:17:52] INFO root fetch - processPackages [phasegen]: executing diffoscope
+[2024-05-01 11:17:52] INFO root fetch - processPackages [phasegen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phasegen-0.0.8b0.tar.gz tmp/phasegen-0.0.9b0.tar.gz --markdown 20240501/p/phasegen/0.0.8b0-0.0.9b0/README.md --exclude *.pyd
+[2024-05-01 11:17:52] INFO root fetch - processPackages [phasegen]: Remove: archive file [/home/abi/fetcher/tmp/phasegen-0.0.8b0.tar.gz]
+[2024-05-01 11:17:52] INFO root fetch - processPackages [phasegen]: Remove: archive file [/home/abi/fetcher/tmp/phasegen-0.0.9b0.tar.gz]
+[2024-05-01 11:17:52] INFO root fetch - main [MainThread]: End processing [phasegen]: success
+[2024-05-01 11:17:53] INFO root fetch - processPackages [tryton]: Remove: archive file [/home/abi/fetcher/tmp/tryton-7.2.0.tar.gz]
+[2024-05-01 11:17:53] INFO root fetch - processPackages [tryton]: Remove: archive file [/home/abi/fetcher/tmp/tryton-7.2.1.tar.gz]
+[2024-05-01 11:17:53] INFO root fetch - main [MainThread]: End processing [tryton]: success
+[2024-05-01 11:17:53] INFO root fetch - main [MainThread]: Store serial: [23014600]
