@@ -20971,3 +20971,40 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-01 15:12:43] INFO root fetch - processPackages [wagtail]: Remove: archive file [/home/abi/fetcher/tmp/wagtail-6.1rc2.tar.gz]
 [2024-05-01 15:12:43] INFO root fetch - main [MainThread]: End processing [wagtail]: success
 [2024-05-01 15:12:43] INFO root fetch - main [MainThread]: Store serial: [23017251]
+[2024-05-01 15:14:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23017251]
+[2024-05-01 15:14:51] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-01 15:14:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyrt-lib-rasmusklitgaard
+[2024-05-01 15:14:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pycloudlib
+[2024-05-01 15:14:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fbgemm-gpu-nightly-cpu
+[2024-05-01 15:14:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyrt-lib-rasmusklitgaard
+[2024-05-01 15:14:52] INFO root fetch - processPackages [pyrt-lib-rasmusklitgaard]: New version: [0.3.7] Old Version: [0.2.7]
+[2024-05-01 15:14:52] INFO root fetch - processPackages [pyrt-lib-rasmusklitgaard]: New version: [0.3.7] Old Version: [0.2.7]
+[2024-05-01 15:14:52] INFO root fetch - processPackages [pyrt-lib-rasmusklitgaard]: Downloading https://files.pythonhosted.org/packages/f2/1b/ce9d5ab43adb0df386bd7990781809244ae76c30acc4e157689029c6ffe6/pyrt_lib_rasmusklitgaard-0.2.7.tar.gz
+[2024-05-01 15:14:52] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: New version: [2024.5.1] Old Version: [2024.4.30]
+[2024-05-01 15:14:52] INFO root fetch - processPackages [pycloudlib]: New version: [18.8] Old Version: [18.7]
+[2024-05-01 15:14:52] INFO root fetch - processPackages [pyrt-lib-rasmusklitgaard]: Downloading https://files.pythonhosted.org/packages/f2/1b/ce9d5ab43adb0df386bd7990781809244ae76c30acc4e157689029c6ffe6/pyrt_lib_rasmusklitgaard-0.2.7.tar.gz
+[2024-05-01 15:14:52] INFO root fetch - processPackages [pycloudlib]: Downloading https://files.pythonhosted.org/packages/b4/b3/256ce90cc58f246bf143f0ea7feb695013cd5f55958af99b8d1b9ded19d5/pycloudlib-18.7.tar.gz
+[2024-05-01 15:14:52] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/88/f1/8fb00e3b8cde7eda24909e96b635a91c40cdd4f99a224fc4251af2d841a9/fbgemm_gpu_nightly_cpu-2024.4.30-cp39-cp39-manylinux2014_x86_64.whl
+[2024-05-01 15:14:52] INFO root fetch - processPackages [pyrt-lib-rasmusklitgaard]: Downloading https://files.pythonhosted.org/packages/f8/0a/ff06b7c6aad193966c8aba265581683a624a61fb61c1886a9e0a5f36e347/pyrt_lib_rasmusklitgaard-0.3.7.tar.gz
+[2024-05-01 15:14:52] INFO root fetch - processPackages [pyrt-lib-rasmusklitgaard]: Downloading https://files.pythonhosted.org/packages/f8/0a/ff06b7c6aad193966c8aba265581683a624a61fb61c1886a9e0a5f36e347/pyrt_lib_rasmusklitgaard-0.3.7.tar.gz
+[2024-05-01 15:14:52] INFO root fetch - processPackages [pyrt-lib-rasmusklitgaard]: executing diffoscope
+[2024-05-01 15:14:52] INFO root fetch - processPackages [pyrt-lib-rasmusklitgaard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrt_lib_rasmusklitgaard-0.2.7.tar.gz tmp/pyrt_lib_rasmusklitgaard-0.3.7.tar.gz --markdown 20240501/p/pyrt-lib-rasmusklitgaard/0.2.7-0.3.7/README.md --exclude *.pyd
+[2024-05-01 15:14:52] INFO root fetch - processPackages [pyrt-lib-rasmusklitgaard]: executing diffoscope
+[2024-05-01 15:14:52] INFO root fetch - processPackages [pyrt-lib-rasmusklitgaard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrt_lib_rasmusklitgaard-0.2.7.tar.gz tmp/pyrt_lib_rasmusklitgaard-0.3.7.tar.gz --markdown 20240501/p/pyrt-lib-rasmusklitgaard/0.2.7-0.3.7/README.md --exclude *.pyd
+[2024-05-01 15:14:52] INFO root fetch - processPackages [pycloudlib]: Downloading https://files.pythonhosted.org/packages/62/b0/59f3c2c5507d62557aff2e04e4aee94470596d1461bfe074b7248a6d10c6/pycloudlib-18.8.tar.gz
+[2024-05-01 15:14:52] INFO root fetch - processPackages [pycloudlib]: executing diffoscope
+[2024-05-01 15:14:52] INFO root fetch - processPackages [pycloudlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycloudlib-18.7.tar.gz tmp/pycloudlib-18.8.tar.gz --markdown 20240501/p/pycloudlib/18.7-18.8/README.md --exclude *.pyd
+[2024-05-01 15:14:53] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/b2/c4/de2d807cf58f4ec636afa8e66fa4870703e9476645ad655fa2fb612c3f9e/fbgemm_gpu_nightly_cpu-2024.5.1-cp39-cp39-manylinux2014_x86_64.whl
+[2024-05-01 15:14:53] INFO root fetch - processPackages [pyrt-lib-rasmusklitgaard]: Remove: archive file [/home/abi/fetcher/tmp/pyrt_lib_rasmusklitgaard-0.2.7.tar.gz]
+[2024-05-01 15:14:53] INFO root fetch - processPackages [pyrt-lib-rasmusklitgaard]: Remove: archive file [/home/abi/fetcher/tmp/pyrt_lib_rasmusklitgaard-0.3.7.tar.gz]
+[2024-05-01 15:14:53] INFO root fetch - main [MainThread]: End processing [pyrt-lib-rasmusklitgaard]: success
+[2024-05-01 15:14:53] INFO root fetch - main [MainThread]: End processing [pyrt-lib-rasmusklitgaard]: success
+[2024-05-01 15:14:53] INFO root fetch - processPackages [pycloudlib]: Remove: archive file [/home/abi/fetcher/tmp/pycloudlib-18.7.tar.gz]
+[2024-05-01 15:14:53] INFO root fetch - processPackages [pycloudlib]: Remove: archive file [/home/abi/fetcher/tmp/pycloudlib-18.8.tar.gz]
+[2024-05-01 15:14:53] INFO root fetch - main [MainThread]: End processing [pycloudlib]: success
+[2024-05-01 15:14:53] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: executing diffoscope
+[2024-05-01 15:14:53] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fbgemm_gpu_nightly_cpu-2024.4.30-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/fbgemm_gpu_nightly_cpu-2024.5.1-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20240501/f/fbgemm-gpu-nightly-cpu/2024.4.30-2024.5.1/README.md --exclude *.pyd
+[2024-05-01 15:14:54] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/fbgemm_gpu_nightly_cpu-2024.4.30-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2024-05-01 15:14:54] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/fbgemm_gpu_nightly_cpu-2024.5.1-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2024-05-01 15:14:54] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly-cpu]: success
+[2024-05-01 15:14:54] INFO root fetch - main [MainThread]: Store serial: [23017267]
