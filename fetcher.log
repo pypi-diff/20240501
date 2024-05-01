@@ -22614,3 +22614,127 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-01 16:36:45] ERROR root fetch - processPackages [sgkit]: Timeout during execution of pkgdiff
 [2024-05-01 16:36:45] INFO root fetch - main [MainThread]: End processing [sgkit] error
 [2024-05-01 16:36:45] INFO root fetch - main [MainThread]: Store serial: [23018053]
+[2024-05-01 16:38:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23018053]
+[2024-05-01 16:38:54] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2024-05-01 16:38:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: orquestra-sdk
+[2024-05-01 16:38:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cudf-cu12
+[2024-05-01 16:38:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: weld-deps
+[2024-05-01 16:38:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulsekit
+[2024-05-01 16:38:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vrt-python
+[2024-05-01 16:38:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: weld-deps
+[2024-05-01 16:38:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: daxa
+[2024-05-01 16:38:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: Japr
+[2024-05-01 16:38:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: scrapkit
+[2024-05-01 16:38:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ecs_connect_cli
+[2024-05-01 16:38:54] INFO root fetch - processPackages [scrapkit]: New version: [1.2] Old Version: [1.1]
+[2024-05-01 16:38:54] INFO root fetch - processPackages [ecs_connect_cli]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-01 16:38:54] INFO root fetch - processPackages [orquestra-sdk]: New version: [0.63.0] Old Version: [0.62.0]
+[2024-05-01 16:38:54] INFO root fetch - processPackages [weld-deps]: New version: [0.6.2] Old Version: [0.6.1]
+[2024-05-01 16:38:54] INFO root fetch - processPackages [weld-deps]: New version: [0.6.2] Old Version: [0.6.1]
+[2024-05-01 16:38:54] WARNING root fetch - processPackages [pulsekit]: Skipping, unable to determine old version
+[2024-05-01 16:38:54] INFO root fetch - processPackages [pulsekit]: Start processing: stakefish-web3-utils
+[2024-05-01 16:38:54] INFO root fetch - main [MainThread]: End processing [pulsekit] error
+[2024-05-01 16:38:54] INFO root fetch - processPackages [Japr]: New version: [1.2.0] Old Version: [1.1.0]
+[2024-05-01 16:38:54] WARNING root fetch - processPackages [vrt-python]: Skipping, unable to determine old version
+[2024-05-01 16:38:54] INFO root fetch - processPackages [vrt-python]: Start processing: polyapi-python
+[2024-05-01 16:38:54] INFO root fetch - main [MainThread]: End processing [vrt-python] error
+[2024-05-01 16:38:54] INFO root fetch - processPackages [daxa]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-01 16:38:54] INFO root fetch - processPackages [cudf-cu12]: New version: [24.4.1] Old Version: [24.4.0]
+[2024-05-01 16:38:54] INFO root fetch - processPackages [ecs_connect_cli]: Downloading https://files.pythonhosted.org/packages/f1/30/c59ed14a35bb35a6c0d8b9864d7f4967fd8ef888c3a0dcba57bd03094efb/ecs_connect_cli-1.8.0.tar.gz
+[2024-05-01 16:38:54] INFO root fetch - processPackages [scrapkit]: Downloading https://files.pythonhosted.org/packages/4d/1f/bcaf4264a0e1dac235267bfd7a0464cd52cd3c54ae82d3f8fa131a83f39d/scrapkit-1.1.tar.gz
+[2024-05-01 16:38:55] INFO root fetch - processPackages [orquestra-sdk]: Downloading https://files.pythonhosted.org/packages/1b/7d/9027fede6327c75c174220ca709eb4fe3e67c608a7b5f957ae677b5dc65f/orquestra_sdk-0.62.0-py3-none-any.whl
+[2024-05-01 16:38:55] INFO root fetch - processPackages [stakefish-web3-utils]: New version: [0.7.1] Old Version: [0.5.0]
+[2024-05-01 16:38:55] INFO root fetch - processPackages [polyapi-python]: New version: [0.2.5.dev1] Old Version: [0.2.4.dev9]
+[2024-05-01 16:38:55] INFO root fetch - processPackages [daxa]: Downloading https://files.pythonhosted.org/packages/23/c8/9974f289e6752b8819ee5dd850326e39162aeebeab414f33768388358684/daxa-0.0.4.tar.gz
+[2024-05-01 16:38:55] INFO root fetch - processPackages [weld-deps]: Downloading https://files.pythonhosted.org/packages/38/f1/233e82274954036fbb33f6465083f7cc932e39d0a05680a1db811601245e/weld_deps-0.6.1.tar.gz
+[2024-05-01 16:38:55] INFO root fetch - processPackages [weld-deps]: Downloading https://files.pythonhosted.org/packages/38/f1/233e82274954036fbb33f6465083f7cc932e39d0a05680a1db811601245e/weld_deps-0.6.1.tar.gz
+[2024-05-01 16:38:55] INFO root fetch - processPackages [Japr]: Downloading https://files.pythonhosted.org/packages/ed/3c/c678b7652aa8d2d203ce805bbc7ebc2d377123b65d9d20d99bf0a6ddbe66/japr-1.1.0.tar.gz
+[2024-05-01 16:38:55] INFO root fetch - processPackages [cudf-cu12]: Downloading https://files.pythonhosted.org/packages/8c/52/c186b184d9a7cba9f867256b9830c36a4ba1fdbd782d8f763a220d78356d/cudf_cu12-24.4.0.tar.gz
+[2024-05-01 16:38:55] INFO root fetch - processPackages [ecs_connect_cli]: Downloading https://files.pythonhosted.org/packages/d2/9e/cf9e7df20db578dde20dc70f68db66d6c110bc6345af989b4628c62dd168/ecs_connect_cli-1.9.0.tar.gz
+[2024-05-01 16:38:55] INFO root fetch - processPackages [polyapi-python]: Downloading https://files.pythonhosted.org/packages/3b/1b/a8ae58798bb582fb56c62bcd313ddb0ce64e050dfa2b793b6c8375f5bead/polyapi_python-0.2.4.dev9.tar.gz
+[2024-05-01 16:38:55] INFO root fetch - processPackages [stakefish-web3-utils]: Downloading https://files.pythonhosted.org/packages/02/f7/a18ad18b714346f7877389589153642cc14fc14e3a02401bebdc256234e9/stakefish_web3_utils-0.5.0.tar.gz
+[2024-05-01 16:38:55] INFO root fetch - processPackages [scrapkit]: Downloading https://files.pythonhosted.org/packages/61/7b/fefb64c04194620e84a77dbeca2ed1546150bcff98fc4c062fead895e3c2/scrapkit-1.2.tar.gz
+[2024-05-01 16:38:55] INFO root fetch - processPackages [ecs_connect_cli]: executing diffoscope
+[2024-05-01 16:38:55] INFO root fetch - processPackages [ecs_connect_cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecs_connect_cli-1.8.0.tar.gz tmp/ecs_connect_cli-1.9.0.tar.gz --markdown 20240501/e/ecs_connect_cli/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-05-01 16:38:55] INFO root fetch - processPackages [scrapkit]: executing diffoscope
+[2024-05-01 16:38:55] INFO root fetch - processPackages [scrapkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrapkit-1.1.tar.gz tmp/scrapkit-1.2.tar.gz --markdown 20240501/s/scrapkit/1.1-1.2/README.md --exclude *.pyd
+[2024-05-01 16:38:55] INFO root fetch - processPackages [orquestra-sdk]: Downloading https://files.pythonhosted.org/packages/9c/bc/b7ff1a460fda088c1c71b8c598647e57f928114086f08097c17a9bba0381/orquestra_sdk-0.63.0-py3-none-any.whl
+[2024-05-01 16:38:55] INFO root fetch - processPackages [weld-deps]: Downloading https://files.pythonhosted.org/packages/69/d8/8ff310c471ed222bb68529b10fccc839205d91eb5cab1186e089aa03f58a/weld_deps-0.6.2.tar.gz
+[2024-05-01 16:38:55] INFO root fetch - processPackages [weld-deps]: Downloading https://files.pythonhosted.org/packages/69/d8/8ff310c471ed222bb68529b10fccc839205d91eb5cab1186e089aa03f58a/weld_deps-0.6.2.tar.gz
+[2024-05-01 16:38:55] INFO root fetch - processPackages [Japr]: Downloading https://files.pythonhosted.org/packages/fa/21/dfe2d992dade89c77e52d8f32dc0e8db1d9b2878adc989c56a52460f0020/japr-1.2.0.tar.gz
+[2024-05-01 16:38:55] INFO root fetch - processPackages [daxa]: Downloading https://files.pythonhosted.org/packages/b9/6b/ad2d51331d51dde435b60055daa2739561b982fe5b352f42671b69ce2c83/daxa-0.0.5.tar.gz
+[2024-05-01 16:38:55] INFO root fetch - processPackages [cudf-cu12]: Downloading https://files.pythonhosted.org/packages/98/9d/17c6c36eef1f148d10588fed321dc44f17c3464784b887381a3bb363f637/cudf_cu12-24.4.1.tar.gz
+[2024-05-01 16:38:55] INFO root fetch - processPackages [weld-deps]: executing diffoscope
+[2024-05-01 16:38:55] INFO root fetch - processPackages [weld-deps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weld_deps-0.6.1.tar.gz tmp/weld_deps-0.6.2.tar.gz --markdown 20240501/w/weld-deps/0.6.1-0.6.2/README.md --exclude *.pyd
+[2024-05-01 16:38:55] INFO root fetch - processPackages [orquestra-sdk]: executing diffoscope
+[2024-05-01 16:38:55] INFO root fetch - processPackages [orquestra-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/orquestra_sdk-0.62.0-py3-none-any.whl.zip tmp/orquestra_sdk-0.63.0-py3-none-any.whl.zip --markdown 20240501/o/orquestra-sdk/0.62.0-0.63.0/README.md --exclude *.pyd
+[2024-05-01 16:38:55] INFO root fetch - processPackages [weld-deps]: executing diffoscope
+[2024-05-01 16:38:55] INFO root fetch - processPackages [weld-deps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weld_deps-0.6.1.tar.gz tmp/weld_deps-0.6.2.tar.gz --markdown 20240501/w/weld-deps/0.6.1-0.6.2/README.md --exclude *.pyd
+[2024-05-01 16:38:55] INFO root fetch - processPackages [polyapi-python]: Downloading https://files.pythonhosted.org/packages/fa/5e/5017890b9fb3d977b7962ef69ec15302de750edda8a8d32883f97acb796a/polyapi_python-0.2.5.dev1.tar.gz
+[2024-05-01 16:38:55] INFO root fetch - processPackages [stakefish-web3-utils]: Downloading https://files.pythonhosted.org/packages/78/71/61796bf9d323548f5e8d1b26f65fac31a5a60d518b5073cd61a0e2723c9e/stakefish_web3_utils-0.7.1.tar.gz
+[2024-05-01 16:38:55] INFO root fetch - processPackages [cudf-cu12]: executing diffoscope
+[2024-05-01 16:38:55] INFO root fetch - processPackages [cudf-cu12]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cudf_cu12-24.4.0.tar.gz tmp/cudf_cu12-24.4.1.tar.gz --markdown 20240501/c/cudf-cu12/24.4.0-24.4.1/README.md --exclude *.pyd
+[2024-05-01 16:38:55] INFO root fetch - processPackages [Japr]: executing diffoscope
+[2024-05-01 16:38:55] INFO root fetch - processPackages [Japr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/japr-1.1.0.tar.gz tmp/japr-1.2.0.tar.gz --markdown 20240501/J/Japr/1.1.0-1.2.0/README.md --exclude *.pyd
+[2024-05-01 16:38:55] INFO root fetch - processPackages [stakefish-web3-utils]: executing diffoscope
+[2024-05-01 16:38:55] INFO root fetch - processPackages [stakefish-web3-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stakefish_web3_utils-0.5.0.tar.gz tmp/stakefish_web3_utils-0.7.1.tar.gz --markdown 20240501/s/stakefish-web3-utils/0.5.0-0.7.1/README.md --exclude *.pyd
+[2024-05-01 16:38:55] INFO root fetch - processPackages [polyapi-python]: executing diffoscope
+[2024-05-01 16:38:55] INFO root fetch - processPackages [polyapi-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polyapi_python-0.2.4.dev9.tar.gz tmp/polyapi_python-0.2.5.dev1.tar.gz --markdown 20240501/p/polyapi-python/0.2.4.dev9-0.2.5.dev1/README.md --exclude *.pyd
+[2024-05-01 16:38:55] INFO root fetch - processPackages [daxa]: executing diffoscope
+[2024-05-01 16:38:55] INFO root fetch - processPackages [daxa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/daxa-0.0.4.tar.gz tmp/daxa-0.0.5.tar.gz --markdown 20240501/d/daxa/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-01 16:38:56] INFO root fetch - processPackages [scrapkit]: Remove: archive file [/home/abi/fetcher/tmp/scrapkit-1.1.tar.gz]
+[2024-05-01 16:38:56] INFO root fetch - processPackages [scrapkit]: Remove: archive file [/home/abi/fetcher/tmp/scrapkit-1.2.tar.gz]
+[2024-05-01 16:38:56] INFO root fetch - processPackages [scrapkit]: Start processing: langchain-nvidia-ai-endpoints
+[2024-05-01 16:38:56] INFO root fetch - main [MainThread]: End processing [scrapkit]: success
+[2024-05-01 16:38:56] INFO root fetch - processPackages [weld-deps]: Remove: archive file [/home/abi/fetcher/tmp/weld_deps-0.6.1.tar.gz]
+[2024-05-01 16:38:56] INFO root fetch - processPackages [weld-deps]: Remove: archive file [/home/abi/fetcher/tmp/weld_deps-0.6.2.tar.gz]
+[2024-05-01 16:38:56] INFO root fetch - processPackages [weld-deps]: Start processing: ikabot
+[2024-05-01 16:38:56] INFO root fetch - main [MainThread]: End processing [weld-deps]: success
+[2024-05-01 16:38:56] INFO root fetch - processPackages [langchain-nvidia-ai-endpoints]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-01 16:38:56] INFO root fetch - processPackages [ecs_connect_cli]: Remove: archive file [/home/abi/fetcher/tmp/ecs_connect_cli-1.8.0.tar.gz]
+[2024-05-01 16:38:56] INFO root fetch - processPackages [ecs_connect_cli]: Remove: archive file [/home/abi/fetcher/tmp/ecs_connect_cli-1.9.0.tar.gz]
+[2024-05-01 16:38:56] INFO root fetch - processPackages [ecs_connect_cli]: Start processing: kmport
+[2024-05-01 16:38:56] INFO root fetch - main [MainThread]: End processing [ecs_connect_cli]: success
+[2024-05-01 16:38:56] INFO root fetch - processPackages [ikabot]: New version: [7.0.3] Old Version: [7.0.2]
+[2024-05-01 16:38:56] INFO root fetch - main [MainThread]: End processing [weld-deps]: success
+[2024-05-01 16:38:56] INFO root fetch - processPackages [langchain-nvidia-ai-endpoints]: Downloading https://files.pythonhosted.org/packages/2e/22/aab3a282711d8f4b0c7e1fcdaf8e0af09e7313beace92862f81d9604e448/langchain_nvidia_ai_endpoints-0.0.8.tar.gz
+[2024-05-01 16:38:56] INFO root fetch - processPackages [cudf-cu12]: Remove: archive file [/home/abi/fetcher/tmp/cudf_cu12-24.4.0.tar.gz]
+[2024-05-01 16:38:56] INFO root fetch - processPackages [cudf-cu12]: Remove: archive file [/home/abi/fetcher/tmp/cudf_cu12-24.4.1.tar.gz]
+[2024-05-01 16:38:56] INFO root fetch - main [MainThread]: End processing [cudf-cu12]: success
+[2024-05-01 16:38:56] INFO root fetch - processPackages [kmport]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-05-01 16:38:56] INFO root fetch - processPackages [stakefish-web3-utils]: Remove: archive file [/home/abi/fetcher/tmp/stakefish_web3_utils-0.5.0.tar.gz]
+[2024-05-01 16:38:56] INFO root fetch - processPackages [stakefish-web3-utils]: Remove: archive file [/home/abi/fetcher/tmp/stakefish_web3_utils-0.7.1.tar.gz]
+[2024-05-01 16:38:56] INFO root fetch - main [MainThread]: End processing [stakefish-web3-utils]: success
+[2024-05-01 16:38:56] INFO root fetch - processPackages [Japr]: Remove: archive file [/home/abi/fetcher/tmp/japr-1.1.0.tar.gz]
+[2024-05-01 16:38:56] INFO root fetch - processPackages [Japr]: Remove: archive file [/home/abi/fetcher/tmp/japr-1.2.0.tar.gz]
+[2024-05-01 16:38:56] INFO root fetch - main [MainThread]: End processing [Japr]: success
+[2024-05-01 16:38:56] INFO root fetch - processPackages [ikabot]: Downloading https://files.pythonhosted.org/packages/81/df/64149a72389728e047f1d6bde2ae9dbcb28283e2dc78f125f13a3d6cf97c/ikabot-7.0.2.tar.gz
+[2024-05-01 16:38:56] INFO root fetch - processPackages [polyapi-python]: Remove: archive file [/home/abi/fetcher/tmp/polyapi_python-0.2.4.dev9.tar.gz]
+[2024-05-01 16:38:56] INFO root fetch - processPackages [polyapi-python]: Remove: archive file [/home/abi/fetcher/tmp/polyapi_python-0.2.5.dev1.tar.gz]
+[2024-05-01 16:38:56] INFO root fetch - main [MainThread]: End processing [polyapi-python]: success
+[2024-05-01 16:38:56] INFO root fetch - processPackages [kmport]: Downloading https://files.pythonhosted.org/packages/07/5f/fdd706ea07c1da0d10178206ddb7c55847c3b9301a2b783deb2e1ed75771/kmport-2.1.8.tar.gz
+[2024-05-01 16:38:56] INFO root fetch - processPackages [langchain-nvidia-ai-endpoints]: Downloading https://files.pythonhosted.org/packages/b6/03/8df6b61933dfcf3ab80a5b663e4508f722d1375339b9919bfe00796f5676/langchain_nvidia_ai_endpoints-0.0.9.tar.gz
+[2024-05-01 16:38:57] INFO root fetch - processPackages [daxa]: Remove: archive file [/home/abi/fetcher/tmp/daxa-0.0.4.tar.gz]
+[2024-05-01 16:38:57] INFO root fetch - processPackages [daxa]: Remove: archive file [/home/abi/fetcher/tmp/daxa-0.0.5.tar.gz]
+[2024-05-01 16:38:57] INFO root fetch - main [MainThread]: End processing [daxa]: success
+[2024-05-01 16:38:57] INFO root fetch - processPackages [langchain-nvidia-ai-endpoints]: executing diffoscope
+[2024-05-01 16:38:57] INFO root fetch - processPackages [langchain-nvidia-ai-endpoints]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain_nvidia_ai_endpoints-0.0.8.tar.gz tmp/langchain_nvidia_ai_endpoints-0.0.9.tar.gz --markdown 20240501/l/langchain-nvidia-ai-endpoints/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-01 16:38:57] INFO root fetch - processPackages [ikabot]: Downloading https://files.pythonhosted.org/packages/aa/4a/cb3b223489269f8916cf3906619325d23578f481d3adebab86158d06e0e2/ikabot-7.0.3.tar.gz
+[2024-05-01 16:38:57] INFO root fetch - processPackages [kmport]: Downloading https://files.pythonhosted.org/packages/cf/a6/a45040db97aabb2edc05bde1a372786067c777c4dd2decbccb1a7869e501/kmport-2.1.9.tar.gz
+[2024-05-01 16:38:57] INFO root fetch - processPackages [kmport]: executing diffoscope
+[2024-05-01 16:38:57] INFO root fetch - processPackages [kmport]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kmport-2.1.8.tar.gz tmp/kmport-2.1.9.tar.gz --markdown 20240501/k/kmport/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-05-01 16:38:57] INFO root fetch - processPackages [orquestra-sdk]: Remove: archive file [/home/abi/fetcher/tmp/orquestra_sdk-0.62.0-py3-none-any.whl.zip]
+[2024-05-01 16:38:57] INFO root fetch - processPackages [orquestra-sdk]: Remove: archive file [/home/abi/fetcher/tmp/orquestra_sdk-0.63.0-py3-none-any.whl.zip]
+[2024-05-01 16:38:57] INFO root fetch - main [MainThread]: End processing [orquestra-sdk]: success
+[2024-05-01 16:38:57] INFO root fetch - processPackages [ikabot]: executing diffoscope
+[2024-05-01 16:38:57] INFO root fetch - processPackages [ikabot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ikabot-7.0.2.tar.gz tmp/ikabot-7.0.3.tar.gz --markdown 20240501/i/ikabot/7.0.2-7.0.3/README.md --exclude *.pyd
+[2024-05-01 16:38:57] INFO root fetch - processPackages [langchain-nvidia-ai-endpoints]: Remove: archive file [/home/abi/fetcher/tmp/langchain_nvidia_ai_endpoints-0.0.8.tar.gz]
+[2024-05-01 16:38:57] INFO root fetch - processPackages [langchain-nvidia-ai-endpoints]: Remove: archive file [/home/abi/fetcher/tmp/langchain_nvidia_ai_endpoints-0.0.9.tar.gz]
+[2024-05-01 16:38:57] INFO root fetch - main [MainThread]: End processing [langchain-nvidia-ai-endpoints]: success
+[2024-05-01 16:38:58] INFO root fetch - processPackages [kmport]: Remove: archive file [/home/abi/fetcher/tmp/kmport-2.1.8.tar.gz]
+[2024-05-01 16:38:58] INFO root fetch - processPackages [kmport]: Remove: archive file [/home/abi/fetcher/tmp/kmport-2.1.9.tar.gz]
+[2024-05-01 16:38:58] INFO root fetch - main [MainThread]: End processing [kmport]: success
+[2024-05-01 16:38:58] INFO root fetch - processPackages [ikabot]: Remove: archive file [/home/abi/fetcher/tmp/ikabot-7.0.2.tar.gz]
+[2024-05-01 16:38:58] INFO root fetch - processPackages [ikabot]: Remove: archive file [/home/abi/fetcher/tmp/ikabot-7.0.3.tar.gz]
+[2024-05-01 16:38:58] INFO root fetch - main [MainThread]: End processing [ikabot]: success
+[2024-05-01 16:38:58] INFO root fetch - main [MainThread]: Store serial: [23018128]
