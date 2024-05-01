@@ -9297,3 +9297,24 @@
 [2024-05-01 06:53:21] INFO root fetch - processPackages [pulumi-vault]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_vault-6.2.0a1714458820.tar.gz]
 [2024-05-01 06:53:21] INFO root fetch - main [MainThread]: End processing [pulumi-vault]: success
 [2024-05-01 06:53:21] INFO root fetch - main [MainThread]: Store serial: [23012414]
+[2024-05-01 06:55:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23012414]
+[2024-05-01 06:55:30] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-01 06:55:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: SWELib
+[2024-05-01 06:55:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pytgpt-bot
+[2024-05-01 06:55:30] INFO root fetch - processPackages [SWELib]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-01 06:55:30] INFO root fetch - processPackages [pytgpt-bot]: New version: [0.1.7.1] Old Version: [0.1.7]
+[2024-05-01 06:55:30] INFO root fetch - processPackages [SWELib]: Downloading https://files.pythonhosted.org/packages/c9/d4/c4289fffb611485383b5fea3b91a1e60e92f8a74f04ac26aff3576daf421/SWELib-1.0.1.tar.gz
+[2024-05-01 06:55:30] INFO root fetch - processPackages [pytgpt-bot]: Downloading https://files.pythonhosted.org/packages/99/92/4dac2ab9e029b649b4652a38bd606f9add0c0c98e8206e924c8dc07f9503/pytgpt_bot-0.1.7.tar.gz
+[2024-05-01 06:55:31] INFO root fetch - processPackages [SWELib]: Downloading https://files.pythonhosted.org/packages/5a/42/458c6a2f7b5c59a6a050451d9a3ab8535cfb17e0e8f6a493f5c9f0f38aeb/SWELib-1.0.2.tar.gz
+[2024-05-01 06:55:31] INFO root fetch - processPackages [pytgpt-bot]: Downloading https://files.pythonhosted.org/packages/7c/72/aed34d9a3dee863ad0020e40b6541d2dfb904cdc2e16fab449d3ec4fee39/pytgpt_bot-0.1.7.1.tar.gz
+[2024-05-01 06:55:31] INFO root fetch - processPackages [SWELib]: executing diffoscope
+[2024-05-01 06:55:31] INFO root fetch - processPackages [SWELib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SWELib-1.0.1.tar.gz tmp/SWELib-1.0.2.tar.gz --markdown 20240501/S/SWELib/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-01 06:55:31] INFO root fetch - processPackages [pytgpt-bot]: executing diffoscope
+[2024-05-01 06:55:31] INFO root fetch - processPackages [pytgpt-bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytgpt_bot-0.1.7.tar.gz tmp/pytgpt_bot-0.1.7.1.tar.gz --markdown 20240501/p/pytgpt-bot/0.1.7-0.1.7.1/README.md --exclude *.pyd
+[2024-05-01 06:55:31] INFO root fetch - processPackages [SWELib]: Remove: archive file [/home/abi/fetcher/tmp/SWELib-1.0.1.tar.gz]
+[2024-05-01 06:55:31] INFO root fetch - processPackages [SWELib]: Remove: archive file [/home/abi/fetcher/tmp/SWELib-1.0.2.tar.gz]
+[2024-05-01 06:55:31] INFO root fetch - main [MainThread]: End processing [SWELib]: success
+[2024-05-01 06:55:31] INFO root fetch - processPackages [pytgpt-bot]: Remove: archive file [/home/abi/fetcher/tmp/pytgpt_bot-0.1.7.tar.gz]
+[2024-05-01 06:55:31] INFO root fetch - processPackages [pytgpt-bot]: Remove: archive file [/home/abi/fetcher/tmp/pytgpt_bot-0.1.7.1.tar.gz]
+[2024-05-01 06:55:31] INFO root fetch - main [MainThread]: End processing [pytgpt-bot]: success
+[2024-05-01 06:55:31] INFO root fetch - main [MainThread]: Store serial: [23012420]
