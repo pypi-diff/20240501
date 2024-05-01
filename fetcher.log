@@ -1899,3 +1899,33 @@
 [2024-05-01 02:11:18] INFO root fetch - processPackages [openbb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/openbb_nightly-4.1.7.dev202404300009.tar.gz]
 [2024-05-01 02:11:18] INFO root fetch - main [MainThread]: End processing [openbb-nightly]: success
 [2024-05-01 02:11:18] INFO root fetch - main [MainThread]: Store serial: [23009527]
+[2024-05-01 02:13:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23009527]
+[2024-05-01 02:13:27] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-01 02:13:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mct-quantizers-nightly
+[2024-05-01 02:13:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-events-notify
+[2024-05-01 02:13:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-nag
+[2024-05-01 02:13:27] INFO root fetch - processPackages [mct-quantizers-nightly]: New version: [1.5.0.20240430.post1009] Old Version: [1.5.0.20240429.post1040]
+[2024-05-01 02:13:27] INFO root fetch - processPackages [cdk-nag]: New version: [2.9.7] Old Version: [2.9.6]
+[2024-05-01 02:13:27] INFO root fetch - processPackages [cdk-events-notify]: New version: [2.2.99] Old Version: [2.2.98]
+[2024-05-01 02:13:27] INFO root fetch - processPackages [mct-quantizers-nightly]: Downloading https://files.pythonhosted.org/packages/35/9b/11cc6b0da5d5b06f58901333cb1dc69a9e219acf70921c155253ee08159b/mct-quantizers-nightly-1.5.0.20240429.post1040.tar.gz
+[2024-05-01 02:13:27] INFO root fetch - processPackages [cdk-nag]: Downloading https://files.pythonhosted.org/packages/26/bc/b8768e307b8d360b78f45303ac30baa4232637f372296203b0005cd07cd4/cdk-nag-2.9.6.tar.gz
+[2024-05-01 02:13:27] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/b7/7d/50ca1bff3db85ede28826faf2d11bb449770cac87fe89483636e0fe57d94/cdk-events-notify-2.2.98.tar.gz
+[2024-05-01 02:13:27] INFO root fetch - processPackages [cdk-nag]: Downloading https://files.pythonhosted.org/packages/71/78/6a2d0c627f1033774d5be3d2faca465e0bc0b07cf97cec491c795775999a/cdk-nag-2.9.7.tar.gz
+[2024-05-01 02:13:27] INFO root fetch - processPackages [mct-quantizers-nightly]: Downloading https://files.pythonhosted.org/packages/74/3d/fe7fc62eb026e62e6b472d2b6fcbb6fc456acd89b7a0a252f44b9f064e13/mct-quantizers-nightly-1.5.0.20240430.post1009.tar.gz
+[2024-05-01 02:13:28] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/56/4a/9c2a145913d7a35ac252cb2bddabca89cdc95c802a8e342f192100f709be/cdk-events-notify-2.2.99.tar.gz
+[2024-05-01 02:13:28] INFO root fetch - processPackages [mct-quantizers-nightly]: executing diffoscope
+[2024-05-01 02:13:28] INFO root fetch - processPackages [mct-quantizers-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mct-quantizers-nightly-1.5.0.20240429.post1040.tar.gz tmp/mct-quantizers-nightly-1.5.0.20240430.post1009.tar.gz --markdown 20240501/m/mct-quantizers-nightly/1.5.0.20240429.post1040-1.5.0.20240430.post1009/README.md --exclude *.pyd
+[2024-05-01 02:13:28] INFO root fetch - processPackages [cdk-events-notify]: executing diffoscope
+[2024-05-01 02:13:28] INFO root fetch - processPackages [cdk-events-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-events-notify-2.2.98.tar.gz tmp/cdk-events-notify-2.2.99.tar.gz --markdown 20240501/c/cdk-events-notify/2.2.98-2.2.99/README.md --exclude *.pyd
+[2024-05-01 02:13:28] INFO root fetch - processPackages [cdk-nag]: executing diffoscope
+[2024-05-01 02:13:28] INFO root fetch - processPackages [cdk-nag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-nag-2.9.6.tar.gz tmp/cdk-nag-2.9.7.tar.gz --markdown 20240501/c/cdk-nag/2.9.6-2.9.7/README.md --exclude *.pyd
+[2024-05-01 02:13:28] INFO root fetch - processPackages [cdk-events-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-events-notify-2.2.98.tar.gz]
+[2024-05-01 02:13:28] INFO root fetch - processPackages [cdk-events-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-events-notify-2.2.99.tar.gz]
+[2024-05-01 02:13:28] INFO root fetch - main [MainThread]: End processing [cdk-events-notify]: success
+[2024-05-01 02:13:28] INFO root fetch - processPackages [cdk-nag]: Remove: archive file [/home/abi/fetcher/tmp/cdk-nag-2.9.6.tar.gz]
+[2024-05-01 02:13:28] INFO root fetch - processPackages [cdk-nag]: Remove: archive file [/home/abi/fetcher/tmp/cdk-nag-2.9.7.tar.gz]
+[2024-05-01 02:13:28] INFO root fetch - main [MainThread]: End processing [cdk-nag]: success
+[2024-05-01 02:13:28] INFO root fetch - processPackages [mct-quantizers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-quantizers-nightly-1.5.0.20240429.post1040.tar.gz]
+[2024-05-01 02:13:28] INFO root fetch - processPackages [mct-quantizers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-quantizers-nightly-1.5.0.20240430.post1009.tar.gz]
+[2024-05-01 02:13:28] INFO root fetch - main [MainThread]: End processing [mct-quantizers-nightly]: success
+[2024-05-01 02:13:28] INFO root fetch - main [MainThread]: Store serial: [23009537]
