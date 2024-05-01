@@ -11751,3 +11751,33 @@
 [2024-05-01 09:17:20] INFO root fetch - processPackages [python-sdk-remote]: Remove: archive file [/home/abi/fetcher/tmp/python_sdk_remote-0.0.90.tar.gz]
 [2024-05-01 09:17:20] INFO root fetch - main [MainThread]: End processing [python-sdk-remote]: success
 [2024-05-01 09:17:20] INFO root fetch - main [MainThread]: Store serial: [23013558]
+[2024-05-01 09:19:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23013558]
+[2024-05-01 09:19:29] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-01 09:19:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: th2-grpc-codec
+[2024-05-01 09:19:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qrawl
+[2024-05-01 09:19:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sc_guard_post
+[2024-05-01 09:19:29] INFO root fetch - processPackages [qrawl]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-05-01 09:19:29] INFO root fetch - processPackages [sc_guard_post]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-05-01 09:19:29] INFO root fetch - processPackages [qrawl]: Downloading https://files.pythonhosted.org/packages/e1/e7/8f7542a7f4859f6ee2930c38d11a30203133ef37a4ed34e5bbc002e8bcda/qrawl-0.1.6.tar.gz
+[2024-05-01 09:19:29] INFO root fetch - processPackages [th2-grpc-codec]: New version: [0.2.0rc1] Old Version: [0.2.0.dev8875064369]
+[2024-05-01 09:19:29] INFO root fetch - processPackages [sc_guard_post]: Downloading https://files.pythonhosted.org/packages/f4/0b/3421f1efa23f3f20602cc226c6e821db9cc4b187838513be4222d0906627/sc_guard_post-0.3.0.tar.gz
+[2024-05-01 09:19:29] INFO root fetch - processPackages [th2-grpc-codec]: Downloading https://files.pythonhosted.org/packages/ab/16/8f4bab1e061c39f909d428cca204686b0b8cf380a3bbd459959b7cd188ca/th2_grpc_codec-0.2.0.dev8875064369.tar.gz
+[2024-05-01 09:19:29] INFO root fetch - processPackages [qrawl]: Downloading https://files.pythonhosted.org/packages/fa/7d/fc4bff9f75872c166183469c38a9862354d6ed184a5a4d7f103f362d1424/qrawl-0.1.7.tar.gz
+[2024-05-01 09:19:29] INFO root fetch - processPackages [qrawl]: executing diffoscope
+[2024-05-01 09:19:29] INFO root fetch - processPackages [qrawl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qrawl-0.1.6.tar.gz tmp/qrawl-0.1.7.tar.gz --markdown 20240501/q/qrawl/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-05-01 09:19:29] INFO root fetch - processPackages [sc_guard_post]: Downloading https://files.pythonhosted.org/packages/fb/6a/9ded4ad54215ecf55e614971e49d42b2bb058c27bf2ea9d65ba148df6584/sc_guard_post-0.3.1.tar.gz
+[2024-05-01 09:19:30] INFO root fetch - processPackages [sc_guard_post]: executing diffoscope
+[2024-05-01 09:19:30] INFO root fetch - processPackages [sc_guard_post]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sc_guard_post-0.3.0.tar.gz tmp/sc_guard_post-0.3.1.tar.gz --markdown 20240501/s/sc_guard_post/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-05-01 09:19:30] INFO root fetch - processPackages [th2-grpc-codec]: Downloading https://files.pythonhosted.org/packages/ef/a2/b01c92ddbdf8a17c3c057c20d441b161890aaa3a8102bfe2f80dff3a7368/th2_grpc_codec-0.2.0rc1.tar.gz
+[2024-05-01 09:19:30] INFO root fetch - processPackages [th2-grpc-codec]: executing diffoscope
+[2024-05-01 09:19:30] INFO root fetch - processPackages [th2-grpc-codec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_grpc_codec-0.2.0.dev8875064369.tar.gz tmp/th2_grpc_codec-0.2.0rc1.tar.gz --markdown 20240501/t/th2-grpc-codec/0.2.0.dev8875064369-0.2.0rc1/README.md --exclude *.pyd
+[2024-05-01 09:19:30] INFO root fetch - processPackages [qrawl]: Remove: archive file [/home/abi/fetcher/tmp/qrawl-0.1.6.tar.gz]
+[2024-05-01 09:19:30] INFO root fetch - processPackages [qrawl]: Remove: archive file [/home/abi/fetcher/tmp/qrawl-0.1.7.tar.gz]
+[2024-05-01 09:19:30] INFO root fetch - main [MainThread]: End processing [qrawl]: success
+[2024-05-01 09:19:30] INFO root fetch - processPackages [sc_guard_post]: Remove: archive file [/home/abi/fetcher/tmp/sc_guard_post-0.3.0.tar.gz]
+[2024-05-01 09:19:30] INFO root fetch - processPackages [sc_guard_post]: Remove: archive file [/home/abi/fetcher/tmp/sc_guard_post-0.3.1.tar.gz]
+[2024-05-01 09:19:30] INFO root fetch - main [MainThread]: End processing [sc_guard_post]: success
+[2024-05-01 09:19:30] INFO root fetch - processPackages [th2-grpc-codec]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_codec-0.2.0.dev8875064369.tar.gz]
+[2024-05-01 09:19:30] INFO root fetch - processPackages [th2-grpc-codec]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_codec-0.2.0rc1.tar.gz]
+[2024-05-01 09:19:30] INFO root fetch - main [MainThread]: End processing [th2-grpc-codec]: success
+[2024-05-01 09:19:30] INFO root fetch - main [MainThread]: Store serial: [23013566]
