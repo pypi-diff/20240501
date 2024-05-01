@@ -15652,3 +15652,27 @@
 [2024-05-01 12:37:35] INFO root fetch - processPackages [pyrle]: Remove: archive file [/home/abi/fetcher/tmp/pyrle-0.0.9.tar.gz]
 [2024-05-01 12:37:35] INFO root fetch - main [MainThread]: End processing [pyrle]: success
 [2024-05-01 12:37:35] INFO root fetch - main [MainThread]: Store serial: [23015272]
+[2024-05-01 12:39:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23015272]
+[2024-05-01 12:39:44] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-01 12:39:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: figuralib
+[2024-05-01 12:39:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: avanza-api
+[2024-05-01 12:39:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: skypilot-nightly
+[2024-05-01 12:39:44] INFO root fetch - processPackages [skypilot-nightly]: New version: [1.0.0.dev20240430] Old Version: [1.0.0.dev20240429]
+[2024-05-01 12:39:45] WARNING root fetch - processPackages [figuralib]: Skipping, unable to determine old version
+[2024-05-01 12:39:45] INFO root fetch - main [MainThread]: End processing [figuralib] error
+[2024-05-01 12:39:45] INFO root fetch - processPackages [avanza-api]: New version: [9.1.1] Old Version: [9.1.0]
+[2024-05-01 12:39:45] INFO root fetch - processPackages [skypilot-nightly]: Downloading https://files.pythonhosted.org/packages/7d/7c/14d1f2ee73d7758bde5d5be9108b085243bcfa997bc1b63a50d69315318f/skypilot_nightly-1.0.0.dev20240429.tar.gz
+[2024-05-01 12:39:45] INFO root fetch - processPackages [avanza-api]: Downloading https://files.pythonhosted.org/packages/29/a4/39b7abd3817c964e430c06a858a5046bd5aad359eba62c75f05ef9e825cf/avanza_api-9.1.0.tar.gz
+[2024-05-01 12:39:45] INFO root fetch - processPackages [skypilot-nightly]: Downloading https://files.pythonhosted.org/packages/22/9d/0f6c2e2d10cf6965965f843398aa27ab2e61d3bdee7a095fcb85648c456b/skypilot_nightly-1.0.0.dev20240430.tar.gz
+[2024-05-01 12:39:45] INFO root fetch - processPackages [avanza-api]: Downloading https://files.pythonhosted.org/packages/a2/8d/93e7e5d71c1c6e7a0e80043fb5e2dbbc09c8d99785e41b5066c4236e612d/avanza_api-9.1.1.tar.gz
+[2024-05-01 12:39:45] INFO root fetch - processPackages [avanza-api]: executing diffoscope
+[2024-05-01 12:39:45] INFO root fetch - processPackages [avanza-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/avanza_api-9.1.0.tar.gz tmp/avanza_api-9.1.1.tar.gz --markdown 20240501/a/avanza-api/9.1.0-9.1.1/README.md --exclude *.pyd
+[2024-05-01 12:39:45] INFO root fetch - processPackages [skypilot-nightly]: executing diffoscope
+[2024-05-01 12:39:45] INFO root fetch - processPackages [skypilot-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skypilot_nightly-1.0.0.dev20240429.tar.gz tmp/skypilot_nightly-1.0.0.dev20240430.tar.gz --markdown 20240501/s/skypilot-nightly/1.0.0.dev20240429-1.0.0.dev20240430/README.md --exclude *.pyd
+[2024-05-01 12:39:46] INFO root fetch - processPackages [avanza-api]: Remove: archive file [/home/abi/fetcher/tmp/avanza_api-9.1.0.tar.gz]
+[2024-05-01 12:39:46] INFO root fetch - processPackages [avanza-api]: Remove: archive file [/home/abi/fetcher/tmp/avanza_api-9.1.1.tar.gz]
+[2024-05-01 12:39:46] INFO root fetch - main [MainThread]: End processing [avanza-api]: success
+[2024-05-01 12:39:47] INFO root fetch - processPackages [skypilot-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skypilot_nightly-1.0.0.dev20240429.tar.gz]
+[2024-05-01 12:39:47] INFO root fetch - processPackages [skypilot-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skypilot_nightly-1.0.0.dev20240430.tar.gz]
+[2024-05-01 12:39:47] INFO root fetch - main [MainThread]: End processing [skypilot-nightly]: success
+[2024-05-01 12:39:47] INFO root fetch - main [MainThread]: Store serial: [23015283]
