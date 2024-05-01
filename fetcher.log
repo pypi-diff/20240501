@@ -22738,3 +22738,25 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-01 16:38:58] INFO root fetch - processPackages [ikabot]: Remove: archive file [/home/abi/fetcher/tmp/ikabot-7.0.3.tar.gz]
 [2024-05-01 16:38:58] INFO root fetch - main [MainThread]: End processing [ikabot]: success
 [2024-05-01 16:38:58] INFO root fetch - main [MainThread]: Store serial: [23018128]
+[2024-05-01 16:41:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23018128]
+[2024-05-01 16:41:08] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-01 16:41:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: quadplots
+[2024-05-01 16:41:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: prometheus-eval
+[2024-05-01 16:41:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: prometheus-eval
+[2024-05-01 16:41:08] INFO root fetch - processPackages [prometheus-eval]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-01 16:41:08] INFO root fetch - processPackages [prometheus-eval]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-01 16:41:08] WARNING root fetch - processPackages [quadplots]: Skipping, unable to determine old version
+[2024-05-01 16:41:08] INFO root fetch - main [MainThread]: End processing [quadplots] error
+[2024-05-01 16:41:08] INFO root fetch - processPackages [prometheus-eval]: Downloading https://files.pythonhosted.org/packages/e1/4a/ba4e632455d27066c8fc74050c103ad71fdd0b4611b9661c84f985e98b4b/prometheus_eval-0.1.1.tar.gz
+[2024-05-01 16:41:08] INFO root fetch - processPackages [prometheus-eval]: Downloading https://files.pythonhosted.org/packages/e1/4a/ba4e632455d27066c8fc74050c103ad71fdd0b4611b9661c84f985e98b4b/prometheus_eval-0.1.1.tar.gz
+[2024-05-01 16:41:08] INFO root fetch - processPackages [prometheus-eval]: Downloading https://files.pythonhosted.org/packages/11/25/908e478409257e21184cbb9f7853fad3ff5aea1176822ce4577329355aa2/prometheus_eval-0.1.2.tar.gz
+[2024-05-01 16:41:08] INFO root fetch - processPackages [prometheus-eval]: Downloading https://files.pythonhosted.org/packages/11/25/908e478409257e21184cbb9f7853fad3ff5aea1176822ce4577329355aa2/prometheus_eval-0.1.2.tar.gz
+[2024-05-01 16:41:08] INFO root fetch - processPackages [prometheus-eval]: executing diffoscope
+[2024-05-01 16:41:08] INFO root fetch - processPackages [prometheus-eval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prometheus_eval-0.1.1.tar.gz tmp/prometheus_eval-0.1.2.tar.gz --markdown 20240501/p/prometheus-eval/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-01 16:41:08] INFO root fetch - processPackages [prometheus-eval]: executing diffoscope
+[2024-05-01 16:41:08] INFO root fetch - processPackages [prometheus-eval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prometheus_eval-0.1.1.tar.gz tmp/prometheus_eval-0.1.2.tar.gz --markdown 20240501/p/prometheus-eval/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-01 16:41:09] INFO root fetch - processPackages [prometheus-eval]: Remove: archive file [/home/abi/fetcher/tmp/prometheus_eval-0.1.1.tar.gz]
+[2024-05-01 16:41:09] INFO root fetch - processPackages [prometheus-eval]: Remove: archive file [/home/abi/fetcher/tmp/prometheus_eval-0.1.2.tar.gz]
+[2024-05-01 16:41:09] INFO root fetch - main [MainThread]: End processing [prometheus-eval]: success
+[2024-05-01 16:41:09] INFO root fetch - main [MainThread]: End processing [prometheus-eval]: success
+[2024-05-01 16:41:09] INFO root fetch - main [MainThread]: Store serial: [23018138]
