@@ -11097,3 +11097,96 @@
 [2024-05-01 08:39:07] INFO root fetch - processPackages [compas-eve]: Remove: archive file [/home/abi/fetcher/tmp/compas_eve-0.4.0.tar.gz]
 [2024-05-01 08:39:07] INFO root fetch - main [MainThread]: End processing [compas-eve]: success
 [2024-05-01 08:39:07] INFO root fetch - main [MainThread]: Store serial: [23013244]
+[2024-05-01 08:41:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23013244]
+[2024-05-01 08:41:16] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-01 08:41:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sora-sdk
+[2024-05-01 08:41:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: magplan
+[2024-05-01 08:41:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: assemblyline-service-client
+[2024-05-01 08:41:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-slack
+[2024-05-01 08:41:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: assemblyline-service-server
+[2024-05-01 08:41:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hilda
+[2024-05-01 08:41:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: assemblyline-ui
+[2024-05-01 08:41:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: irisml-tasks-training
+[2024-05-01 08:41:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: assemblyline-v4-service
+[2024-05-01 08:41:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: flexa
+[2024-05-01 08:41:16] INFO root fetch - processPackages [magplan]: New version: [3.3.0] Old Version: [3.2.0]
+[2024-05-01 08:41:16] INFO root fetch - processPackages [assemblyline-service-client]: New version: [4.5.1.dev99] Old Version: [4.5.1.dev98]
+[2024-05-01 08:41:16] INFO root fetch - processPackages [pulumi-slack]: New version: [0.5.0a1714457590] Old Version: [0.4.5a1714112741]
+[2024-05-01 08:41:16] INFO root fetch - processPackages [assemblyline-v4-service]: New version: [4.5.1.dev99] Old Version: [4.5.1.dev98]
+[2024-05-01 08:41:16] INFO root fetch - processPackages [assemblyline-ui]: New version: [4.5.1.dev99] Old Version: [4.5.1.dev98]
+[2024-05-01 08:41:16] INFO root fetch - processPackages [assemblyline-service-server]: New version: [4.5.1.dev99] Old Version: [4.5.1.dev98]
+[2024-05-01 08:41:16] INFO root fetch - processPackages [magplan]: Downloading https://files.pythonhosted.org/packages/cb/ed/b285ca80e32d7935fa240657ead894d0ab5a4c2fb0f2b93d9da3c3d39125/magplan-3.2.0.tar.gz
+[2024-05-01 08:41:16] INFO root fetch - processPackages [flexa]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-01 08:41:16] INFO root fetch - processPackages [hilda]: New version: [1.4.3] Old Version: [1.4.2]
+[2024-05-01 08:41:16] INFO root fetch - processPackages [irisml-tasks-training]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-01 08:41:16] INFO root fetch - processPackages [assemblyline-service-client]: Downloading https://files.pythonhosted.org/packages/09/f6/461581aa3df5df687f3412c4e34ee4b73d2e6bffec292b864c2b7703ce20/assemblyline_service_client-4.5.1.dev98-py3-none-any.whl
+[2024-05-01 08:41:16] INFO root fetch - processPackages [sora-sdk]: New version: [2024.3.0.dev0] Old Version: [2024.2.0.dev2]
+[2024-05-01 08:41:16] INFO root fetch - processPackages [assemblyline-service-server]: Downloading https://files.pythonhosted.org/packages/f2/74/b8237d72f5bff6c82a740d48ec21ed2b8942846129c189028d0c66238da1/assemblyline_service_server-4.5.1.dev98-py3-none-any.whl
+[2024-05-01 08:41:16] INFO root fetch - processPackages [assemblyline-v4-service]: Downloading https://files.pythonhosted.org/packages/e9/5c/01c9c0751191f7c8a1219ba8ca8d35521ba24c6f4e0b3b30f123968022a4/assemblyline_v4_service-4.5.1.dev98-py3-none-any.whl
+[2024-05-01 08:41:16] INFO root fetch - processPackages [assemblyline-ui]: Downloading https://files.pythonhosted.org/packages/b5/68/4bf2882ecdfd3493ba5557cff1c06d2e527fe7e8ba2963a37bcad30bf714/assemblyline_ui-4.5.1.dev98-py3-none-any.whl
+[2024-05-01 08:41:16] INFO root fetch - processPackages [pulumi-slack]: Downloading https://files.pythonhosted.org/packages/05/86/cabbd04d8baa1ac6a97bcf1ad1f77bd6cf36c24f3ba940f0520dbf7717c4/pulumi_slack-0.4.5a1714112741.tar.gz
+[2024-05-01 08:41:16] INFO root fetch - processPackages [hilda]: Downloading https://files.pythonhosted.org/packages/c1/81/ca6a62a74bdf4a9dd79b285b65866fce174711afb681bcaa0c970cc1adb3/hilda-1.4.2.tar.gz
+[2024-05-01 08:41:16] INFO root fetch - processPackages [flexa]: Downloading https://files.pythonhosted.org/packages/b0/35/dee87e5afcd4c7ab39d3f8058013982e3f446426f85329c2799b9a1c137b/flexa-0.1.8.tar.gz
+[2024-05-01 08:41:16] INFO root fetch - processPackages [irisml-tasks-training]: Downloading https://files.pythonhosted.org/packages/65/c9/9aae8e45128d7d6ec17c9b0bc4dc4764a47b158c360ee2987b6bd5927b7a/irisml-tasks-training-0.0.98.tar.gz
+[2024-05-01 08:41:16] INFO root fetch - processPackages [sora-sdk]: Downloading https://files.pythonhosted.org/packages/ad/10/1d3aab48d3097631a2271d58bcdc672aad4e52fc517edbee308c3512d31e/sora_sdk-2024.2.0.dev2.tar.gz
+[2024-05-01 08:41:17] INFO root fetch - processPackages [assemblyline-service-client]: Downloading https://files.pythonhosted.org/packages/71/b9/931accceaab4b85f0403f7e1e99c5e67613d62945cec643f8cbe392edb99/assemblyline_service_client-4.5.1.dev99-py3-none-any.whl
+[2024-05-01 08:41:17] INFO root fetch - processPackages [assemblyline-service-server]: Downloading https://files.pythonhosted.org/packages/56/40/7aa376ad2c2a5e676da4626e03b7f92a1e4368e86ecfac6183027c093511/assemblyline_service_server-4.5.1.dev99-py3-none-any.whl
+[2024-05-01 08:41:17] INFO root fetch - processPackages [magplan]: Downloading https://files.pythonhosted.org/packages/eb/a4/64996799e343536508520bf60683908b9dc24c8e4b9cd0700b4b6fce0121/magplan-3.3.0.tar.gz
+[2024-05-01 08:41:17] INFO root fetch - processPackages [pulumi-slack]: Downloading https://files.pythonhosted.org/packages/28/5f/88a34ca8b2b9ba452f12fb2091b54d7c756b4f7d60c7885097fa9348217b/pulumi_slack-0.5.0a1714457590.tar.gz
+[2024-05-01 08:41:17] INFO root fetch - processPackages [assemblyline-v4-service]: Downloading https://files.pythonhosted.org/packages/6c/18/d6496f3a9ea60866c419e3c1e5cf618fc2709d7fb2b7dc4bd270f6fcbbc1/assemblyline_v4_service-4.5.1.dev99-py3-none-any.whl
+[2024-05-01 08:41:17] INFO root fetch - processPackages [assemblyline-ui]: Downloading https://files.pythonhosted.org/packages/fb/ac/688fc1bf55eadae3eb16a0bc260554cc144adfd2057b87015cb6e58ed6d9/assemblyline_ui-4.5.1.dev99-py3-none-any.whl
+[2024-05-01 08:41:17] INFO root fetch - processPackages [assemblyline-service-client]: executing diffoscope
+[2024-05-01 08:41:17] INFO root fetch - processPackages [assemblyline-service-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_service_client-4.5.1.dev98-py3-none-any.whl.zip tmp/assemblyline_service_client-4.5.1.dev99-py3-none-any.whl.zip --markdown 20240501/a/assemblyline-service-client/4.5.1.dev98-4.5.1.dev99/README.md --exclude *.pyd
+[2024-05-01 08:41:17] INFO root fetch - processPackages [assemblyline-service-server]: executing diffoscope
+[2024-05-01 08:41:17] INFO root fetch - processPackages [assemblyline-service-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_service_server-4.5.1.dev98-py3-none-any.whl.zip tmp/assemblyline_service_server-4.5.1.dev99-py3-none-any.whl.zip --markdown 20240501/a/assemblyline-service-server/4.5.1.dev98-4.5.1.dev99/README.md --exclude *.pyd
+[2024-05-01 08:41:17] INFO root fetch - processPackages [pulumi-slack]: executing diffoscope
+[2024-05-01 08:41:17] INFO root fetch - processPackages [pulumi-slack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_slack-0.4.5a1714112741.tar.gz tmp/pulumi_slack-0.5.0a1714457590.tar.gz --markdown 20240501/p/pulumi-slack/0.4.5a1714112741-0.5.0a1714457590/README.md --exclude *.pyd
+[2024-05-01 08:41:17] INFO root fetch - processPackages [assemblyline-v4-service]: executing diffoscope
+[2024-05-01 08:41:17] INFO root fetch - processPackages [assemblyline-v4-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_v4_service-4.5.1.dev98-py3-none-any.whl.zip tmp/assemblyline_v4_service-4.5.1.dev99-py3-none-any.whl.zip --markdown 20240501/a/assemblyline-v4-service/4.5.1.dev98-4.5.1.dev99/README.md --exclude *.pyd
+[2024-05-01 08:41:17] INFO root fetch - processPackages [assemblyline-ui]: executing diffoscope
+[2024-05-01 08:41:17] INFO root fetch - processPackages [assemblyline-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_ui-4.5.1.dev98-py3-none-any.whl.zip tmp/assemblyline_ui-4.5.1.dev99-py3-none-any.whl.zip --markdown 20240501/a/assemblyline-ui/4.5.1.dev98-4.5.1.dev99/README.md --exclude *.pyd
+[2024-05-01 08:41:17] INFO root fetch - processPackages [magplan]: executing diffoscope
+[2024-05-01 08:41:17] INFO root fetch - processPackages [magplan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/magplan-3.2.0.tar.gz tmp/magplan-3.3.0.tar.gz --markdown 20240501/m/magplan/3.2.0-3.3.0/README.md --exclude *.pyd
+[2024-05-01 08:41:17] INFO root fetch - processPackages [flexa]: Downloading https://files.pythonhosted.org/packages/d3/0d/26fb3ce0e91e18a3b1e8aae3f42a638d6a53a7ca28dfbfc3cf70bb72330e/flexa-0.1.9.tar.gz
+[2024-05-01 08:41:17] INFO root fetch - processPackages [hilda]: Downloading https://files.pythonhosted.org/packages/25/cc/03a0e31029475e19960b1ece59b0682a14348c291be0dfe6bc738f1bc1a8/hilda-1.4.3.tar.gz
+[2024-05-01 08:41:17] INFO root fetch - processPackages [irisml-tasks-training]: Downloading https://files.pythonhosted.org/packages/99/2a/62484e7c2626ac6a7ca4df416c9365d5588725c31f6fed8ed7a24da7e5cd/irisml-tasks-training-0.0.99.tar.gz
+[2024-05-01 08:41:17] INFO root fetch - processPackages [flexa]: executing diffoscope
+[2024-05-01 08:41:17] INFO root fetch - processPackages [flexa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flexa-0.1.8.tar.gz tmp/flexa-0.1.9.tar.gz --markdown 20240501/f/flexa/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-01 08:41:17] INFO root fetch - processPackages [hilda]: executing diffoscope
+[2024-05-01 08:41:17] INFO root fetch - processPackages [hilda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hilda-1.4.2.tar.gz tmp/hilda-1.4.3.tar.gz --markdown 20240501/h/hilda/1.4.2-1.4.3/README.md --exclude *.pyd
+[2024-05-01 08:41:17] INFO root fetch - processPackages [irisml-tasks-training]: executing diffoscope
+[2024-05-01 08:41:17] INFO root fetch - processPackages [irisml-tasks-training]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irisml-tasks-training-0.0.98.tar.gz tmp/irisml-tasks-training-0.0.99.tar.gz --markdown 20240501/i/irisml-tasks-training/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-01 08:41:18] INFO root fetch - processPackages [assemblyline-service-server]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_service_server-4.5.1.dev98-py3-none-any.whl.zip]
+[2024-05-01 08:41:18] INFO root fetch - processPackages [assemblyline-service-server]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_service_server-4.5.1.dev99-py3-none-any.whl.zip]
+[2024-05-01 08:41:18] INFO root fetch - main [MainThread]: End processing [assemblyline-service-server]: success
+[2024-05-01 08:41:18] INFO root fetch - processPackages [assemblyline-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_service_client-4.5.1.dev98-py3-none-any.whl.zip]
+[2024-05-01 08:41:18] INFO root fetch - processPackages [assemblyline-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_service_client-4.5.1.dev99-py3-none-any.whl.zip]
+[2024-05-01 08:41:18] INFO root fetch - main [MainThread]: End processing [assemblyline-service-client]: success
+[2024-05-01 08:41:18] INFO root fetch - processPackages [pulumi-slack]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_slack-0.4.5a1714112741.tar.gz]
+[2024-05-01 08:41:18] INFO root fetch - processPackages [pulumi-slack]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_slack-0.5.0a1714457590.tar.gz]
+[2024-05-01 08:41:18] INFO root fetch - main [MainThread]: End processing [pulumi-slack]: success
+[2024-05-01 08:41:18] INFO root fetch - processPackages [assemblyline-v4-service]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_v4_service-4.5.1.dev98-py3-none-any.whl.zip]
+[2024-05-01 08:41:18] INFO root fetch - processPackages [assemblyline-v4-service]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_v4_service-4.5.1.dev99-py3-none-any.whl.zip]
+[2024-05-01 08:41:18] INFO root fetch - main [MainThread]: End processing [assemblyline-v4-service]: success
+[2024-05-01 08:41:18] INFO root fetch - processPackages [assemblyline-ui]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_ui-4.5.1.dev98-py3-none-any.whl.zip]
+[2024-05-01 08:41:18] INFO root fetch - processPackages [assemblyline-ui]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_ui-4.5.1.dev99-py3-none-any.whl.zip]
+[2024-05-01 08:41:18] INFO root fetch - main [MainThread]: End processing [assemblyline-ui]: success
+[2024-05-01 08:41:18] INFO root fetch - processPackages [flexa]: Remove: archive file [/home/abi/fetcher/tmp/flexa-0.1.8.tar.gz]
+[2024-05-01 08:41:18] INFO root fetch - processPackages [flexa]: Remove: archive file [/home/abi/fetcher/tmp/flexa-0.1.9.tar.gz]
+[2024-05-01 08:41:18] INFO root fetch - main [MainThread]: End processing [flexa]: success
+[2024-05-01 08:41:18] INFO root fetch - processPackages [hilda]: Remove: archive file [/home/abi/fetcher/tmp/hilda-1.4.2.tar.gz]
+[2024-05-01 08:41:18] INFO root fetch - processPackages [hilda]: Remove: archive file [/home/abi/fetcher/tmp/hilda-1.4.3.tar.gz]
+[2024-05-01 08:41:18] INFO root fetch - main [MainThread]: End processing [hilda]: success
+[2024-05-01 08:41:18] INFO root fetch - processPackages [magplan]: Remove: archive file [/home/abi/fetcher/tmp/magplan-3.2.0.tar.gz]
+[2024-05-01 08:41:18] INFO root fetch - processPackages [magplan]: Remove: archive file [/home/abi/fetcher/tmp/magplan-3.3.0.tar.gz]
+[2024-05-01 08:41:18] INFO root fetch - main [MainThread]: End processing [magplan]: success
+[2024-05-01 08:41:18] INFO root fetch - processPackages [sora-sdk]: Downloading https://files.pythonhosted.org/packages/99/fc/c21a5df37d09d13f04713fec88d83343fc823c0b2cc9f82d66ff2162758f/sora_sdk-2024.3.0.dev0.tar.gz
+[2024-05-01 08:41:18] INFO root fetch - processPackages [irisml-tasks-training]: Remove: archive file [/home/abi/fetcher/tmp/irisml-tasks-training-0.0.98.tar.gz]
+[2024-05-01 08:41:18] INFO root fetch - processPackages [irisml-tasks-training]: Remove: archive file [/home/abi/fetcher/tmp/irisml-tasks-training-0.0.99.tar.gz]
+[2024-05-01 08:41:18] INFO root fetch - main [MainThread]: End processing [irisml-tasks-training]: success
+[2024-05-01 08:41:19] INFO root fetch - processPackages [sora-sdk]: executing diffoscope
+[2024-05-01 08:41:19] INFO root fetch - processPackages [sora-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sora_sdk-2024.2.0.dev2.tar.gz tmp/sora_sdk-2024.3.0.dev0.tar.gz --markdown 20240501/s/sora-sdk/2024.2.0.dev2-2024.3.0.dev0/README.md --exclude *.pyd
+[2024-05-01 08:41:30] INFO root fetch - processPackages [sora-sdk]: Remove: archive file [/home/abi/fetcher/tmp/sora_sdk-2024.2.0.dev2.tar.gz]
+[2024-05-01 08:41:30] INFO root fetch - processPackages [sora-sdk]: Remove: archive file [/home/abi/fetcher/tmp/sora_sdk-2024.3.0.dev0.tar.gz]
+[2024-05-01 08:41:30] INFO root fetch - main [MainThread]: End processing [sora-sdk]: success
+[2024-05-01 08:41:30] INFO root fetch - main [MainThread]: Store serial: [23013284]
