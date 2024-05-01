@@ -10149,3 +10149,51 @@
 [2024-05-01 07:45:51] INFO root fetch - processPackages [pulumi-databricks]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_databricks-1.9.0a1678745257.tar.gz]
 [2024-05-01 07:45:51] INFO root fetch - main [MainThread]: End processing [pulumi-databricks]: success
 [2024-05-01 07:45:51] INFO root fetch - main [MainThread]: Store serial: [23012764]
+[2024-05-01 07:47:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23012764]
+[2024-05-01 07:48:00] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-01 07:48:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bcmapi
+[2024-05-01 07:48:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: thermaPy
+[2024-05-01 07:48:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: quickstart-vdk
+[2024-05-01 07:48:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: magictk
+[2024-05-01 07:48:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: deadpad
+[2024-05-01 07:48:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ncmlistdownloader
+[2024-05-01 07:48:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: SparkleLogging
+[2024-05-01 07:48:00] INFO root fetch - processPackages [deadpad]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-05-01 07:48:00] INFO root fetch - processPackages [magictk]: New version: [1.0.1.61] Old Version: [1.0.1.60]
+[2024-05-01 07:48:00] INFO root fetch - processPackages [quickstart-vdk]: New version: [0.2.999091100.dev13356] Old Version: [0.2.998635022.dev13355]
+[2024-05-01 07:48:00] WARNING root fetch - processPackages [bcmapi]: Skipping, unable to determine old version
+[2024-05-01 07:48:00] INFO root fetch - main [MainThread]: End processing [bcmapi] error
+[2024-05-01 07:48:00] WARNING root fetch - processPackages [thermaPy]: Skipping, unable to determine old version
+[2024-05-01 07:48:00] INFO root fetch - main [MainThread]: End processing [thermaPy] error
+[2024-05-01 07:48:00] INFO root fetch - processPackages [ncmlistdownloader]: New version: [1.1.0.240430a1] Old Version: [1.0.7.240501]
+[2024-05-01 07:48:00] WARNING root fetch - processPackages [SparkleLogging]: Skipping, unable to determine old version
+[2024-05-01 07:48:00] INFO root fetch - processPackages [deadpad]: Downloading https://files.pythonhosted.org/packages/75/1f/f136ee1e2be10e5934e743607d11155e50f26bdc6e4b4cd67ef25e930c26/deadpad-0.2.1.tar.gz
+[2024-05-01 07:48:00] INFO root fetch - main [MainThread]: End processing [SparkleLogging] error
+[2024-05-01 07:48:00] INFO root fetch - processPackages [magictk]: Downloading https://files.pythonhosted.org/packages/43/54/0267a3c8c3dec2fdba6f3da6c9346227d3ef52e5bc8050323916f8c28369/magictk-1.0.1.60.tar.gz
+[2024-05-01 07:48:00] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/e3/a6/b7424a3be777980068df32f41ef9085422b79289fef725cba5cabf2b502e/quickstart-vdk-0.2.998635022.dev13355.tar.gz
+[2024-05-01 07:48:00] INFO root fetch - processPackages [ncmlistdownloader]: Downloading https://files.pythonhosted.org/packages/fe/4e/d582f7f97367eb24b690a8652d72eb48ce63fe25eb9d7760220c015e1440/ncmlistdownloader-1.0.7.240501.tar.gz
+[2024-05-01 07:48:00] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/fa/72/2a48eb94b876fa0c01eda0450a3e80c80101dd5fdfe10124d5474b64f5fd/quickstart-vdk-0.2.999091100.dev13356.tar.gz
+[2024-05-01 07:48:00] INFO root fetch - processPackages [quickstart-vdk]: executing diffoscope
+[2024-05-01 07:48:00] INFO root fetch - processPackages [quickstart-vdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickstart-vdk-0.2.998635022.dev13355.tar.gz tmp/quickstart-vdk-0.2.999091100.dev13356.tar.gz --markdown 20240501/q/quickstart-vdk/0.2.998635022.dev13355-0.2.999091100.dev13356/README.md --exclude *.pyd
+[2024-05-01 07:48:00] INFO root fetch - processPackages [magictk]: Downloading https://files.pythonhosted.org/packages/d0/e2/210cbb4054436dc4c869d8c5a59b8c0a979059864f7017867b125bfa8023/magictk-1.0.1.61.tar.gz
+[2024-05-01 07:48:01] INFO root fetch - processPackages [deadpad]: Downloading https://files.pythonhosted.org/packages/1a/03/62f75a47917dd1f94205f0e1779355179d0f3b679d2e4837bddd7e4d93ac/deadpad-0.2.2.tar.gz
+[2024-05-01 07:48:01] INFO root fetch - processPackages [magictk]: executing diffoscope
+[2024-05-01 07:48:01] INFO root fetch - processPackages [magictk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/magictk-1.0.1.60.tar.gz tmp/magictk-1.0.1.61.tar.gz --markdown 20240501/m/magictk/1.0.1.60-1.0.1.61/README.md --exclude *.pyd
+[2024-05-01 07:48:01] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.998635022.dev13355.tar.gz]
+[2024-05-01 07:48:01] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.999091100.dev13356.tar.gz]
+[2024-05-01 07:48:01] INFO root fetch - main [MainThread]: End processing [quickstart-vdk]: success
+[2024-05-01 07:48:01] INFO root fetch - processPackages [deadpad]: executing diffoscope
+[2024-05-01 07:48:01] INFO root fetch - processPackages [deadpad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deadpad-0.2.1.tar.gz tmp/deadpad-0.2.2.tar.gz --markdown 20240501/d/deadpad/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-05-01 07:48:01] INFO root fetch - processPackages [ncmlistdownloader]: Downloading https://files.pythonhosted.org/packages/b5/af/620b1371bf6cc8c95c296120df670935975098ee268a27e57d17a1dbda75/ncmlistdownloader-1.1.0.240430a1.tar.gz
+[2024-05-01 07:48:01] INFO root fetch - processPackages [ncmlistdownloader]: executing diffoscope
+[2024-05-01 07:48:01] INFO root fetch - processPackages [ncmlistdownloader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ncmlistdownloader-1.0.7.240501.tar.gz tmp/ncmlistdownloader-1.1.0.240430a1.tar.gz --markdown 20240501/n/ncmlistdownloader/1.0.7.240501-1.1.0.240430a1/README.md --exclude *.pyd
+[2024-05-01 07:48:02] INFO root fetch - processPackages [deadpad]: Remove: archive file [/home/abi/fetcher/tmp/deadpad-0.2.1.tar.gz]
+[2024-05-01 07:48:02] INFO root fetch - processPackages [deadpad]: Remove: archive file [/home/abi/fetcher/tmp/deadpad-0.2.2.tar.gz]
+[2024-05-01 07:48:02] INFO root fetch - main [MainThread]: End processing [deadpad]: success
+[2024-05-01 07:48:02] INFO root fetch - processPackages [magictk]: Remove: archive file [/home/abi/fetcher/tmp/magictk-1.0.1.60.tar.gz]
+[2024-05-01 07:48:02] INFO root fetch - processPackages [magictk]: Remove: archive file [/home/abi/fetcher/tmp/magictk-1.0.1.61.tar.gz]
+[2024-05-01 07:48:02] INFO root fetch - main [MainThread]: End processing [magictk]: success
+[2024-05-01 07:48:02] INFO root fetch - processPackages [ncmlistdownloader]: Remove: archive file [/home/abi/fetcher/tmp/ncmlistdownloader-1.0.7.240501.tar.gz]
+[2024-05-01 07:48:02] INFO root fetch - processPackages [ncmlistdownloader]: Remove: archive file [/home/abi/fetcher/tmp/ncmlistdownloader-1.1.0.240430a1.tar.gz]
+[2024-05-01 07:48:02] INFO root fetch - main [MainThread]: End processing [ncmlistdownloader]: success
+[2024-05-01 07:48:02] INFO root fetch - main [MainThread]: Store serial: [23012783]
