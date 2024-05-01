@@ -9126,3 +9126,51 @@
 [2024-05-01 06:42:24] INFO root fetch - processPackages [draw-rna]: Remove: archive file [/home/abi/fetcher/tmp/draw_rna-0.1.1.tar.gz]
 [2024-05-01 06:42:24] INFO root fetch - main [MainThread]: End processing [draw-rna]: success
 [2024-05-01 06:42:24] INFO root fetch - main [MainThread]: Store serial: [23012345]
+[2024-05-01 06:44:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23012345]
+[2024-05-01 06:44:33] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-01 06:44:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-linode
+[2024-05-01 06:44:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: refnx
+[2024-05-01 06:44:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-mysql
+[2024-05-01 06:44:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nvidia-dali-tf-plugin-nightly-cuda120
+[2024-05-01 06:44:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: humanloop
+[2024-05-01 06:44:33] INFO root fetch - processPackages [pulumi-linode]: New version: [4.9.1] Old Version: [4.9.0a1700248892]
+[2024-05-01 06:44:33] INFO root fetch - processPackages [pulumi-mysql]: New version: [3.3.0a1714456358] Old Version: [3.3.0a1714110882]
+[2024-05-01 06:44:33] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: New version: [1.38.0.dev20240430] Old Version: [1.38.0.dev20240429]
+[2024-05-01 06:44:33] INFO root fetch - processPackages [refnx]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-01 06:44:33] INFO root fetch - processPackages [humanloop]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-05-01 06:44:33] INFO root fetch - processPackages [pulumi-mysql]: Downloading https://files.pythonhosted.org/packages/3b/d9/7644b5299d360f3b7576db1382c9105355f0e29cb9a15ed9256995d6f0a9/pulumi_mysql-3.3.0a1714110882.tar.gz
+[2024-05-01 06:44:33] INFO root fetch - processPackages [pulumi-linode]: Downloading https://files.pythonhosted.org/packages/df/eb/e8d27e31574126cebb3db17960087d6e1cf94c88143b981d26b7b94fef71/pulumi_linode-4.9.0a1700248892.tar.gz
+[2024-05-01 06:44:33] INFO root fetch - processPackages [refnx]: Downloading https://files.pythonhosted.org/packages/13/76/d5abf74e726036eff9698aad9d4fc1312f309b9834e5fb78e3c95f05f684/refnx-0.1.8.tar.gz
+[2024-05-01 06:44:33] INFO root fetch - processPackages [pulumi-mysql]: Downloading https://files.pythonhosted.org/packages/ea/f4/cbc65ffc534f3c47d265961da6a6f8af06511b521260eae23782cca0ee8a/pulumi_mysql-3.3.0a1714456358.tar.gz
+[2024-05-01 06:44:33] INFO root fetch - processPackages [humanloop]: Downloading https://files.pythonhosted.org/packages/f3/0f/6563d7ec6757564521491230927d66f8f32f7eede6f247c15caa702aeddd/humanloop-0.7.8.tar.gz
+[2024-05-01 06:44:33] INFO root fetch - processPackages [pulumi-linode]: Downloading https://files.pythonhosted.org/packages/1d/8f/908b3d1b357dcb4b00198e9afd3e1c31b7f20023adddd41e8a53a4577ee0/pulumi_linode-4.9.1.tar.gz
+[2024-05-01 06:44:33] INFO root fetch - processPackages [pulumi-mysql]: executing diffoscope
+[2024-05-01 06:44:33] INFO root fetch - processPackages [pulumi-mysql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_mysql-3.3.0a1714110882.tar.gz tmp/pulumi_mysql-3.3.0a1714456358.tar.gz --markdown 20240501/p/pulumi-mysql/3.3.0a1714110882-3.3.0a1714456358/README.md --exclude *.pyd
+[2024-05-01 06:44:33] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: Downloading https://files.pythonhosted.org/packages/75/16/f11bc1a0016491ce97310a7cce61637277983cc16f115795c9d524a2bd3b/nvidia_dali_tf_plugin_nightly_cuda120-1.38.0.dev20240429.tar.gz
+[2024-05-01 06:44:34] INFO root fetch - processPackages [pulumi-linode]: executing diffoscope
+[2024-05-01 06:44:34] INFO root fetch - processPackages [pulumi-linode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_linode-4.9.0a1700248892.tar.gz tmp/pulumi_linode-4.9.1.tar.gz --markdown 20240501/p/pulumi-linode/4.9.0a1700248892-4.9.1/README.md --exclude *.pyd
+[2024-05-01 06:44:34] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: Downloading https://files.pythonhosted.org/packages/41/cb/0f566279872e0e6321bb1ff6638995dd33202313e5408cbab12f1d08f633/nvidia_dali_tf_plugin_nightly_cuda120-1.38.0.dev20240430.tar.gz
+[2024-05-01 06:44:34] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: executing diffoscope
+[2024-05-01 06:44:34] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvidia_dali_tf_plugin_nightly_cuda120-1.38.0.dev20240429.tar.gz tmp/nvidia_dali_tf_plugin_nightly_cuda120-1.38.0.dev20240430.tar.gz --markdown 20240501/n/nvidia-dali-tf-plugin-nightly-cuda120/1.38.0.dev20240429-1.38.0.dev20240430/README.md --exclude *.pyd
+[2024-05-01 06:44:34] INFO root fetch - processPackages [humanloop]: Downloading https://files.pythonhosted.org/packages/42/49/2e50db62f54004990b08a1ec75901635bb6ce90d3f84155b1af3de5c750f/humanloop-0.7.9.tar.gz
+[2024-05-01 06:44:34] INFO root fetch - processPackages [pulumi-mysql]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_mysql-3.3.0a1714110882.tar.gz]
+[2024-05-01 06:44:34] INFO root fetch - processPackages [pulumi-mysql]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_mysql-3.3.0a1714456358.tar.gz]
+[2024-05-01 06:44:34] INFO root fetch - main [MainThread]: End processing [pulumi-mysql]: success
+[2024-05-01 06:44:34] INFO root fetch - processPackages [humanloop]: executing diffoscope
+[2024-05-01 06:44:34] INFO root fetch - processPackages [humanloop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/humanloop-0.7.8.tar.gz tmp/humanloop-0.7.9.tar.gz --markdown 20240501/h/humanloop/0.7.8-0.7.9/README.md --exclude *.pyd
+[2024-05-01 06:44:34] INFO root fetch - processPackages [pulumi-linode]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_linode-4.9.0a1700248892.tar.gz]
+[2024-05-01 06:44:34] INFO root fetch - processPackages [pulumi-linode]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_linode-4.9.1.tar.gz]
+[2024-05-01 06:44:34] INFO root fetch - main [MainThread]: End processing [pulumi-linode]: success
+[2024-05-01 06:44:35] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: Remove: archive file [/home/abi/fetcher/tmp/nvidia_dali_tf_plugin_nightly_cuda120-1.38.0.dev20240429.tar.gz]
+[2024-05-01 06:44:35] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: Remove: archive file [/home/abi/fetcher/tmp/nvidia_dali_tf_plugin_nightly_cuda120-1.38.0.dev20240430.tar.gz]
+[2024-05-01 06:44:35] INFO root fetch - main [MainThread]: End processing [nvidia-dali-tf-plugin-nightly-cuda120]: success
+[2024-05-01 06:44:35] INFO root fetch - processPackages [refnx]: Downloading https://files.pythonhosted.org/packages/00/ea/41c5310e4637fdc34ce783bf02ec315a7590f0dc184dc89291d299fe8857/refnx-0.1.9.tar.gz
+[2024-05-01 06:44:37] INFO root fetch - processPackages [refnx]: executing diffoscope
+[2024-05-01 06:44:37] INFO root fetch - processPackages [refnx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/refnx-0.1.8.tar.gz tmp/refnx-0.1.9.tar.gz --markdown 20240501/r/refnx/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-01 06:44:38] INFO root fetch - processPackages [humanloop]: Remove: archive file [/home/abi/fetcher/tmp/humanloop-0.7.8.tar.gz]
+[2024-05-01 06:44:38] INFO root fetch - processPackages [humanloop]: Remove: archive file [/home/abi/fetcher/tmp/humanloop-0.7.9.tar.gz]
+[2024-05-01 06:44:38] INFO root fetch - main [MainThread]: End processing [humanloop]: success
+[2024-05-01 06:44:39] INFO root fetch - processPackages [refnx]: Remove: archive file [/home/abi/fetcher/tmp/refnx-0.1.8.tar.gz]
+[2024-05-01 06:44:39] INFO root fetch - processPackages [refnx]: Remove: archive file [/home/abi/fetcher/tmp/refnx-0.1.9.tar.gz]
+[2024-05-01 06:44:39] INFO root fetch - main [MainThread]: End processing [refnx]: success
+[2024-05-01 06:44:39] INFO root fetch - main [MainThread]: Store serial: [23012378]
