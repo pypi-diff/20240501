@@ -14400,3 +14400,51 @@
 [2024-05-01 11:46:48] INFO root fetch - processPackages [libfsntfs-python]: Remove: archive file [/home/abi/fetcher/tmp/libfsntfs-python-20240501.tar.gz]
 [2024-05-01 11:46:48] INFO root fetch - main [MainThread]: End processing [libfsntfs-python]: success
 [2024-05-01 11:46:48] INFO root fetch - main [MainThread]: Store serial: [23014807]
+[2024-05-01 11:48:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23014807]
+[2024-05-01 11:48:57] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-01 11:48:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mongodb-orm
+[2024-05-01 11:48:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: galgebra
+[2024-05-01 11:48:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: attribox
+[2024-05-01 11:48:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: phonopy
+[2024-05-01 11:48:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mwcleric
+[2024-05-01 11:48:57] INFO root fetch - processPackages [mwcleric]: New version: [0.9.6] Old Version: [0.9.5]
+[2024-05-01 11:48:57] INFO root fetch - processPackages [attribox]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-01 11:48:57] INFO root fetch - processPackages [phonopy]: New version: [2.9.3] Old Version: [2.9.2]
+[2024-05-01 11:48:57] INFO root fetch - processPackages [mwcleric]: Downloading https://files.pythonhosted.org/packages/9c/8c/530908c1d2b3364373b7c57f87d82677d0030663a695d42c15694feef71d/mwcleric-0.9.5.tar.gz
+[2024-05-01 11:48:57] INFO root fetch - processPackages [attribox]: Downloading https://files.pythonhosted.org/packages/b0/1b/afc61ed4af69d170a0c4bd0272fdd2e586a48c0c1828c0cf9fb03718795b/attribox-0.1.8.tar.gz
+[2024-05-01 11:48:57] INFO root fetch - processPackages [galgebra]: New version: [0.5.2rc1] Old Version: [0.5.1]
+[2024-05-01 11:48:57] INFO root fetch - processPackages [mongodb-orm]: New version: [0.0.129a1] Old Version: [0.0.129]
+[2024-05-01 11:48:57] INFO root fetch - processPackages [phonopy]: Downloading https://files.pythonhosted.org/packages/84/1e/3519305bf862954f9104c48532bf4dedf4690143de290d7ea7533bd8b8f5/phonopy-2.9.2.tar.gz
+[2024-05-01 11:48:57] INFO root fetch - processPackages [mongodb-orm]: Downloading https://files.pythonhosted.org/packages/8c/69/3e5c22c98ea5237ccf3645dba27aa4f07d172c5d276c3187ca74fd3ab7ba/mongodb_orm-0.0.129.tar.gz
+[2024-05-01 11:48:57] INFO root fetch - processPackages [galgebra]: Downloading https://files.pythonhosted.org/packages/e4/51/e5c34fe85ea928f813cf9b9bc91b5afe6bbe2a734107a2e044b384086a4b/galgebra-0.5.1.tar.gz
+[2024-05-01 11:48:57] INFO root fetch - processPackages [attribox]: Downloading https://files.pythonhosted.org/packages/b1/e6/a20bbaa9e0f051b656d86826235dcdfa648da889d34b564acef9329d3455/attribox-0.1.9.tar.gz
+[2024-05-01 11:48:57] INFO root fetch - processPackages [mwcleric]: Downloading https://files.pythonhosted.org/packages/9e/5d/d05fc549f9ee5eb41db4ee01257d16aaa606ef308dca0764dbfe63071713/mwcleric-0.9.6.tar.gz
+[2024-05-01 11:48:58] INFO root fetch - processPackages [attribox]: executing diffoscope
+[2024-05-01 11:48:58] INFO root fetch - processPackages [attribox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/attribox-0.1.8.tar.gz tmp/attribox-0.1.9.tar.gz --markdown 20240501/a/attribox/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-01 11:48:58] INFO root fetch - processPackages [mwcleric]: executing diffoscope
+[2024-05-01 11:48:58] INFO root fetch - processPackages [mwcleric]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mwcleric-0.9.5.tar.gz tmp/mwcleric-0.9.6.tar.gz --markdown 20240501/m/mwcleric/0.9.5-0.9.6/README.md --exclude *.pyd
+[2024-05-01 11:48:58] INFO root fetch - processPackages [mongodb-orm]: Downloading https://files.pythonhosted.org/packages/b7/2f/844d8ef3e67fcd43c2d52822202d29fc15a666d75d7d8a19b8bafeb69166/mongodb_orm-0.0.129a1.tar.gz
+[2024-05-01 11:48:58] INFO root fetch - processPackages [galgebra]: Downloading https://files.pythonhosted.org/packages/15/55/e207d9039169727cd6fef6debbbf840708acc5d5be2bc60d35b50e3bfa9a/galgebra-0.5.2rc1.tar.gz
+[2024-05-01 11:48:58] INFO root fetch - processPackages [mongodb-orm]: executing diffoscope
+[2024-05-01 11:48:58] INFO root fetch - processPackages [mongodb-orm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mongodb_orm-0.0.129.tar.gz tmp/mongodb_orm-0.0.129a1.tar.gz --markdown 20240501/m/mongodb-orm/0.0.129-0.0.129a1/README.md --exclude *.pyd
+[2024-05-01 11:48:58] INFO root fetch - processPackages [galgebra]: executing diffoscope
+[2024-05-01 11:48:58] INFO root fetch - processPackages [galgebra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/galgebra-0.5.1.tar.gz tmp/galgebra-0.5.2rc1.tar.gz --markdown 20240501/g/galgebra/0.5.1-0.5.2rc1/README.md --exclude *.pyd
+[2024-05-01 11:48:58] INFO root fetch - processPackages [mwcleric]: Remove: archive file [/home/abi/fetcher/tmp/mwcleric-0.9.5.tar.gz]
+[2024-05-01 11:48:58] INFO root fetch - processPackages [mwcleric]: Remove: archive file [/home/abi/fetcher/tmp/mwcleric-0.9.6.tar.gz]
+[2024-05-01 11:48:58] INFO root fetch - main [MainThread]: End processing [mwcleric]: success
+[2024-05-01 11:48:58] INFO root fetch - processPackages [attribox]: Remove: archive file [/home/abi/fetcher/tmp/attribox-0.1.8.tar.gz]
+[2024-05-01 11:48:58] INFO root fetch - processPackages [attribox]: Remove: archive file [/home/abi/fetcher/tmp/attribox-0.1.9.tar.gz]
+[2024-05-01 11:48:58] INFO root fetch - main [MainThread]: End processing [attribox]: success
+[2024-05-01 11:48:58] INFO root fetch - processPackages [phonopy]: Downloading https://files.pythonhosted.org/packages/fa/5a/99dbd3cfcc12439b61db6acbe1bf3599e8e72f880e71f6c7cad350ff6c7a/phonopy-2.9.3.tar.gz
+[2024-05-01 11:48:58] INFO root fetch - processPackages [mongodb-orm]: Remove: archive file [/home/abi/fetcher/tmp/mongodb_orm-0.0.129.tar.gz]
+[2024-05-01 11:48:58] INFO root fetch - processPackages [mongodb-orm]: Remove: archive file [/home/abi/fetcher/tmp/mongodb_orm-0.0.129a1.tar.gz]
+[2024-05-01 11:48:58] INFO root fetch - main [MainThread]: End processing [mongodb-orm]: success
+[2024-05-01 11:48:59] INFO root fetch - processPackages [galgebra]: Remove: archive file [/home/abi/fetcher/tmp/galgebra-0.5.1.tar.gz]
+[2024-05-01 11:48:59] INFO root fetch - processPackages [galgebra]: Remove: archive file [/home/abi/fetcher/tmp/galgebra-0.5.2rc1.tar.gz]
+[2024-05-01 11:48:59] INFO root fetch - main [MainThread]: End processing [galgebra]: success
+[2024-05-01 11:48:59] INFO root fetch - processPackages [phonopy]: executing diffoscope
+[2024-05-01 11:48:59] INFO root fetch - processPackages [phonopy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phonopy-2.9.2.tar.gz tmp/phonopy-2.9.3.tar.gz --markdown 20240501/p/phonopy/2.9.2-2.9.3/README.md --exclude *.pyd
+[2024-05-01 11:49:03] INFO root fetch - processPackages [phonopy]: Remove: archive file [/home/abi/fetcher/tmp/phonopy-2.9.2.tar.gz]
+[2024-05-01 11:49:03] INFO root fetch - processPackages [phonopy]: Remove: archive file [/home/abi/fetcher/tmp/phonopy-2.9.3.tar.gz]
+[2024-05-01 11:49:03] INFO root fetch - main [MainThread]: End processing [phonopy]: success
+[2024-05-01 11:49:03] INFO root fetch - main [MainThread]: Store serial: [23014821]
