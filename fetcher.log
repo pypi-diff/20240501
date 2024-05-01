@@ -7823,3 +7823,39 @@
 [2024-05-01 05:07:51] INFO root fetch - processPackages [MHCInc]: Remove: archive file [/home/abi/fetcher/tmp/mhcinc-0.2.8.tar.gz]
 [2024-05-01 05:07:51] INFO root fetch - main [MainThread]: End processing [MHCInc]: success
 [2024-05-01 05:07:51] INFO root fetch - main [MainThread]: Store serial: [23011773]
+[2024-05-01 05:09:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23011773]
+[2024-05-01 05:10:01] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-01 05:10:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: logkontrol
+[2024-05-01 05:10:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: unmand
+[2024-05-01 05:10:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tracking-markers
+[2024-05-01 05:10:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aocstat
+[2024-05-01 05:10:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: magictk
+[2024-05-01 05:10:01] INFO root fetch - processPackages [unmand]: New version: [2.0.0] Old Version: [1.0.1]
+[2024-05-01 05:10:01] INFO root fetch - processPackages [aocstat]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-05-01 05:10:01] INFO root fetch - processPackages [magictk]: New version: [1.0.1.60] Old Version: [1.0.1.59]
+[2024-05-01 05:10:01] INFO root fetch - processPackages [unmand]: Downloading https://files.pythonhosted.org/packages/f4/05/9ceca47c9a6ccf064fe240766792333c18321b595d8eb30cd8fda39b74f0/unmand-1.0.1.tar.gz
+[2024-05-01 05:10:01] WARNING root fetch - processPackages [logkontrol]: Skipping, unable to determine old version
+[2024-05-01 05:10:01] INFO root fetch - main [MainThread]: End processing [logkontrol] error
+[2024-05-01 05:10:01] INFO root fetch - processPackages [magictk]: Downloading https://files.pythonhosted.org/packages/5a/16/b849a52880df4954a5c2d86c488f4f7599dfc7f0827fc3fcd340bc12993a/magictk-1.0.1.59.tar.gz
+[2024-05-01 05:10:01] WARNING root fetch - processPackages [tracking-markers]: Skipping, unable to determine old version
+[2024-05-01 05:10:01] INFO root fetch - main [MainThread]: End processing [tracking-markers] error
+[2024-05-01 05:10:01] INFO root fetch - processPackages [aocstat]: Downloading https://files.pythonhosted.org/packages/80/0e/5200a048ffd8fe8fc6f5934b23ae5d3fb9957786dc20223bfa1a9eac8983/aocstat-0.2.2.tar.gz
+[2024-05-01 05:10:01] INFO root fetch - processPackages [unmand]: Downloading https://files.pythonhosted.org/packages/a1/ac/410628d0d6e81459a0a12ffa196ed4723c41f5b94f9621bf539af2d4caeb/unmand-2.0.0.tar.gz
+[2024-05-01 05:10:01] INFO root fetch - processPackages [unmand]: executing diffoscope
+[2024-05-01 05:10:01] INFO root fetch - processPackages [unmand]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unmand-1.0.1.tar.gz tmp/unmand-2.0.0.tar.gz --markdown 20240501/u/unmand/1.0.1-2.0.0/README.md --exclude *.pyd
+[2024-05-01 05:10:02] INFO root fetch - processPackages [aocstat]: Downloading https://files.pythonhosted.org/packages/2c/1b/6fbf0c18566ed2ae4f80cd9b3b5ffca42e699d0296484b8cfcb2794fbac5/aocstat-0.2.3.tar.gz
+[2024-05-01 05:10:02] INFO root fetch - processPackages [magictk]: Downloading https://files.pythonhosted.org/packages/43/54/0267a3c8c3dec2fdba6f3da6c9346227d3ef52e5bc8050323916f8c28369/magictk-1.0.1.60.tar.gz
+[2024-05-01 05:10:02] INFO root fetch - processPackages [aocstat]: executing diffoscope
+[2024-05-01 05:10:02] INFO root fetch - processPackages [aocstat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aocstat-0.2.2.tar.gz tmp/aocstat-0.2.3.tar.gz --markdown 20240501/a/aocstat/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-05-01 05:10:02] INFO root fetch - processPackages [magictk]: executing diffoscope
+[2024-05-01 05:10:02] INFO root fetch - processPackages [magictk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/magictk-1.0.1.59.tar.gz tmp/magictk-1.0.1.60.tar.gz --markdown 20240501/m/magictk/1.0.1.59-1.0.1.60/README.md --exclude *.pyd
+[2024-05-01 05:10:02] INFO root fetch - processPackages [unmand]: Remove: archive file [/home/abi/fetcher/tmp/unmand-1.0.1.tar.gz]
+[2024-05-01 05:10:02] INFO root fetch - processPackages [unmand]: Remove: archive file [/home/abi/fetcher/tmp/unmand-2.0.0.tar.gz]
+[2024-05-01 05:10:02] INFO root fetch - main [MainThread]: End processing [unmand]: success
+[2024-05-01 05:10:02] INFO root fetch - processPackages [aocstat]: Remove: archive file [/home/abi/fetcher/tmp/aocstat-0.2.2.tar.gz]
+[2024-05-01 05:10:02] INFO root fetch - processPackages [aocstat]: Remove: archive file [/home/abi/fetcher/tmp/aocstat-0.2.3.tar.gz]
+[2024-05-01 05:10:02] INFO root fetch - main [MainThread]: End processing [aocstat]: success
+[2024-05-01 05:10:03] INFO root fetch - processPackages [magictk]: Remove: archive file [/home/abi/fetcher/tmp/magictk-1.0.1.59.tar.gz]
+[2024-05-01 05:10:03] INFO root fetch - processPackages [magictk]: Remove: archive file [/home/abi/fetcher/tmp/magictk-1.0.1.60.tar.gz]
+[2024-05-01 05:10:03] INFO root fetch - main [MainThread]: End processing [magictk]: success
+[2024-05-01 05:10:03] INFO root fetch - main [MainThread]: Store serial: [23011792]
