@@ -12140,3 +12140,42 @@
 [2024-05-01 09:45:49] INFO root fetch - processPackages [mkdocs-swagger-ui-tag]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs-swagger-ui-tag-0.6.9.tar.gz]
 [2024-05-01 09:45:49] INFO root fetch - main [MainThread]: End processing [mkdocs-swagger-ui-tag]: success
 [2024-05-01 09:45:49] INFO root fetch - main [MainThread]: Store serial: [23013696]
+[2024-05-01 09:47:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23013696]
+[2024-05-01 09:47:59] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-01 09:47:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qrawl
+[2024-05-01 09:47:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gridengine-framework
+[2024-05-01 09:47:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lhs
+[2024-05-01 09:47:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: stemu
+[2024-05-01 09:47:59] INFO root fetch - processPackages [qrawl]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-01 09:47:59] INFO root fetch - processPackages [qrawl]: Downloading https://files.pythonhosted.org/packages/95/24/f534e89b1dedebae75559db59ce112e357ce4778cb88c1f09ecc88ad72ab/qrawl-0.1.8.tar.gz
+[2024-05-01 09:47:59] INFO root fetch - processPackages [lhs]: New version: [0.4.2] Old Version: [0.4.1]
+[2024-05-01 09:47:59] INFO root fetch - processPackages [stemu]: New version: [0.0.1] Old Version: [0.0.0]
+[2024-05-01 09:47:59] INFO root fetch - processPackages [gridengine-framework]: New version: [0.8.5] Old Version: [0.8.4]
+[2024-05-01 09:47:59] INFO root fetch - processPackages [lhs]: Downloading https://files.pythonhosted.org/packages/d7/ba/f0038014e87f4eaec525bae9355c5073c9ce0562cb20bd844b444b686985/lhs-0.4.1-py3-none-any.whl
+[2024-05-01 09:47:59] INFO root fetch - processPackages [stemu]: Downloading https://files.pythonhosted.org/packages/98/0e/14efb0d2e995ecb25cae7efcc3b86a24cf8262cf223aedc0d2ce4e34351f/stemu-0.0.0.tar.gz
+[2024-05-01 09:47:59] INFO root fetch - processPackages [gridengine-framework]: Downloading https://files.pythonhosted.org/packages/92/f6/c0b7467580dc68eb6c044df0bd39011b21f72bd597b7268dfd35bcbb50aa/gridengine_framework-0.8.4.tar.gz
+[2024-05-01 09:47:59] INFO root fetch - processPackages [qrawl]: Downloading https://files.pythonhosted.org/packages/d8/60/f0f85eebfb560a8f2c94cf5f5756e54fb21b3856424d08079ff45eebcee4/qrawl-0.1.9.tar.gz
+[2024-05-01 09:47:59] INFO root fetch - processPackages [qrawl]: executing diffoscope
+[2024-05-01 09:47:59] INFO root fetch - processPackages [qrawl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qrawl-0.1.8.tar.gz tmp/qrawl-0.1.9.tar.gz --markdown 20240501/q/qrawl/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-01 09:47:59] INFO root fetch - processPackages [gridengine-framework]: Downloading https://files.pythonhosted.org/packages/2d/ee/3a616259401ed62935d0a61ac2e35ccdaab0aa37d65f24998f3d3d99bbf0/gridengine_framework-0.8.5.tar.gz
+[2024-05-01 09:47:59] INFO root fetch - processPackages [stemu]: Downloading https://files.pythonhosted.org/packages/b9/59/371639ea31a184e2d25b2e407b25b39419299b392067fa72b96f1e5e1a53/stemu-0.0.1.tar.gz
+[2024-05-01 09:48:00] INFO root fetch - processPackages [lhs]: Downloading https://files.pythonhosted.org/packages/12/b7/04d680c659b2fce6b981028dc23d45e9ad19576f01cbe3b92da145a95213/lhs-0.4.2-py3-none-any.whl
+[2024-05-01 09:48:00] INFO root fetch - processPackages [gridengine-framework]: executing diffoscope
+[2024-05-01 09:48:00] INFO root fetch - processPackages [gridengine-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gridengine_framework-0.8.4.tar.gz tmp/gridengine_framework-0.8.5.tar.gz --markdown 20240501/g/gridengine-framework/0.8.4-0.8.5/README.md --exclude *.pyd
+[2024-05-01 09:48:00] INFO root fetch - processPackages [lhs]: executing diffoscope
+[2024-05-01 09:48:00] INFO root fetch - processPackages [lhs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lhs-0.4.1-py3-none-any.whl.zip tmp/lhs-0.4.2-py3-none-any.whl.zip --markdown 20240501/l/lhs/0.4.1-0.4.2/README.md --exclude *.pyd
+[2024-05-01 09:48:00] INFO root fetch - processPackages [stemu]: executing diffoscope
+[2024-05-01 09:48:00] INFO root fetch - processPackages [stemu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stemu-0.0.0.tar.gz tmp/stemu-0.0.1.tar.gz --markdown 20240501/s/stemu/0.0.0-0.0.1/README.md --exclude *.pyd
+[2024-05-01 09:48:00] INFO root fetch - processPackages [qrawl]: Remove: archive file [/home/abi/fetcher/tmp/qrawl-0.1.8.tar.gz]
+[2024-05-01 09:48:00] INFO root fetch - processPackages [qrawl]: Remove: archive file [/home/abi/fetcher/tmp/qrawl-0.1.9.tar.gz]
+[2024-05-01 09:48:00] INFO root fetch - main [MainThread]: End processing [qrawl]: success
+[2024-05-01 09:48:00] INFO root fetch - processPackages [stemu]: Remove: archive file [/home/abi/fetcher/tmp/stemu-0.0.0.tar.gz]
+[2024-05-01 09:48:00] INFO root fetch - processPackages [stemu]: Remove: archive file [/home/abi/fetcher/tmp/stemu-0.0.1.tar.gz]
+[2024-05-01 09:48:00] INFO root fetch - main [MainThread]: End processing [stemu]: success
+[2024-05-01 09:48:00] INFO root fetch - processPackages [lhs]: Remove: archive file [/home/abi/fetcher/tmp/lhs-0.4.1-py3-none-any.whl.zip]
+[2024-05-01 09:48:00] INFO root fetch - processPackages [lhs]: Remove: archive file [/home/abi/fetcher/tmp/lhs-0.4.2-py3-none-any.whl.zip]
+[2024-05-01 09:48:00] INFO root fetch - main [MainThread]: End processing [lhs]: success
+[2024-05-01 09:48:00] INFO root fetch - processPackages [gridengine-framework]: Remove: archive file [/home/abi/fetcher/tmp/gridengine_framework-0.8.4.tar.gz]
+[2024-05-01 09:48:00] INFO root fetch - processPackages [gridengine-framework]: Remove: archive file [/home/abi/fetcher/tmp/gridengine_framework-0.8.5.tar.gz]
+[2024-05-01 09:48:00] INFO root fetch - main [MainThread]: End processing [gridengine-framework]: success
+[2024-05-01 09:48:00] INFO root fetch - main [MainThread]: Store serial: [23013709]
