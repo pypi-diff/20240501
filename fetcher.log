@@ -7513,3 +7513,27 @@
 [2024-05-01 04:41:51] INFO root fetch - processPackages [fplab]: Remove: archive file [/home/abi/fetcher/tmp/fplab-0.0.2.9.tar.gz]
 [2024-05-01 04:41:51] INFO root fetch - main [MainThread]: End processing [fplab]: success
 [2024-05-01 04:41:51] INFO root fetch - main [MainThread]: Store serial: [23011583]
+[2024-05-01 04:43:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23011583]
+[2024-05-01 04:44:01] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-01 04:44:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: alacorder
+[2024-05-01 04:44:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: e2b
+[2024-05-01 04:44:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: myfigure
+[2024-05-01 04:44:01] INFO root fetch - processPackages [alacorder]: New version: [81.2.9] Old Version: [81.2.8]
+[2024-05-01 04:44:01] WARNING root fetch - processPackages [myfigure]: Skipping, unable to determine old version
+[2024-05-01 04:44:01] INFO root fetch - main [MainThread]: End processing [myfigure] error
+[2024-05-01 04:44:01] INFO root fetch - processPackages [e2b]: New version: [0.9.7] Old Version: [0.9.6]
+[2024-05-01 04:44:01] INFO root fetch - processPackages [alacorder]: Downloading https://files.pythonhosted.org/packages/3c/8b/06b6c641077ef571cfce00037b04fbed587c976602b1864a039adf4a6cc5/alacorder-81.2.8.tar.gz
+[2024-05-01 04:44:01] INFO root fetch - processPackages [alacorder]: Downloading https://files.pythonhosted.org/packages/19/45/ba44b965f3cdfef0cc322e5c74a77dae65a86854c8efd06a64a5003cb675/alacorder-81.2.9.tar.gz
+[2024-05-01 04:44:01] INFO root fetch - processPackages [e2b]: Downloading https://files.pythonhosted.org/packages/1a/e1/7d8dabb6aec21fb6f0f2ba8d50e6b15954150f88b9165be6672e515b5743/e2b-0.9.6.tar.gz
+[2024-05-01 04:44:01] INFO root fetch - processPackages [alacorder]: executing diffoscope
+[2024-05-01 04:44:01] INFO root fetch - processPackages [alacorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alacorder-81.2.8.tar.gz tmp/alacorder-81.2.9.tar.gz --markdown 20240501/a/alacorder/81.2.8-81.2.9/README.md --exclude *.pyd
+[2024-05-01 04:44:02] INFO root fetch - processPackages [e2b]: Downloading https://files.pythonhosted.org/packages/12/97/8baccc64ce0664cccbd82d6b4190193beb6b7513a26751e9019aa4339c95/e2b-0.9.7.tar.gz
+[2024-05-01 04:44:02] INFO root fetch - processPackages [e2b]: executing diffoscope
+[2024-05-01 04:44:02] INFO root fetch - processPackages [e2b]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/e2b-0.9.6.tar.gz tmp/e2b-0.9.7.tar.gz --markdown 20240501/e/e2b/0.9.6-0.9.7/README.md --exclude *.pyd
+[2024-05-01 04:44:02] INFO root fetch - processPackages [alacorder]: Remove: archive file [/home/abi/fetcher/tmp/alacorder-81.2.8.tar.gz]
+[2024-05-01 04:44:02] INFO root fetch - processPackages [alacorder]: Remove: archive file [/home/abi/fetcher/tmp/alacorder-81.2.9.tar.gz]
+[2024-05-01 04:44:02] INFO root fetch - main [MainThread]: End processing [alacorder]: success
+[2024-05-01 04:44:02] INFO root fetch - processPackages [e2b]: Remove: archive file [/home/abi/fetcher/tmp/e2b-0.9.6.tar.gz]
+[2024-05-01 04:44:02] INFO root fetch - processPackages [e2b]: Remove: archive file [/home/abi/fetcher/tmp/e2b-0.9.7.tar.gz]
+[2024-05-01 04:44:02] INFO root fetch - main [MainThread]: End processing [e2b]: success
+[2024-05-01 04:44:02] INFO root fetch - main [MainThread]: Store serial: [23011594]
