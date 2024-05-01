@@ -9648,3 +9648,81 @@
 [2024-05-01 07:23:54] INFO root fetch - processPackages [ork.build]: Remove: archive file [/home/abi/fetcher/tmp/ork.build-0.0.99.tar.gz]
 [2024-05-01 07:23:54] INFO root fetch - main [MainThread]: End processing [ork.build]: success
 [2024-05-01 07:23:54] INFO root fetch - main [MainThread]: Store serial: [23012611]
+[2024-05-01 07:25:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23012611]
+[2024-05-01 07:26:04] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-01 07:26:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: stylepy
+[2024-05-01 07:26:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openimis-be-core
+[2024-05-01 07:26:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: openimis-be-individual
+[2024-05-01 07:26:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cpop
+[2024-05-01 07:26:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: drf-secure-token
+[2024-05-01 07:26:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: openimis-be-policy
+[2024-05-01 07:26:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: robotframework-rpycremote
+[2024-05-01 07:26:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: openimis-be-payment
+[2024-05-01 07:26:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: openimis-be-calculation
+[2024-05-01 07:26:04] INFO root fetch - processPackages [openimis-be-payment]: New version: [1.7.0] Old Version: [1.6.0]
+[2024-05-01 07:26:04] INFO root fetch - processPackages [openimis-be-core]: New version: [1.7.0] Old Version: [1.6.0]
+[2024-05-01 07:26:04] INFO root fetch - processPackages [openimis-be-individual]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-05-01 07:26:04] INFO root fetch - processPackages [openimis-be-calculation]: New version: [1.7.0] Old Version: [1.6.0]
+[2024-05-01 07:26:04] INFO root fetch - processPackages [openimis-be-policy]: New version: [1.7.0] Old Version: [1.6.0]
+[2024-05-01 07:26:04] INFO root fetch - processPackages [drf-secure-token]: New version: [1.2.0] Old Version: [1.1.0]
+[2024-05-01 07:26:04] WARNING root fetch - processPackages [stylepy]: Skipping, unable to determine old version
+[2024-05-01 07:26:04] INFO root fetch - main [MainThread]: End processing [stylepy] error
+[2024-05-01 07:26:04] INFO root fetch - processPackages [openimis-be-individual]: Downloading https://files.pythonhosted.org/packages/fd/28/fac98afb61ff57da3caecb57a51d70ae7fe341173a38e9fd553b02f326b8/openimis-be-individual-1.0.0.tar.gz
+[2024-05-01 07:26:04] INFO root fetch - processPackages [cpop]: New version: [35.5.0] Old Version: [35.4.0]
+[2024-05-01 07:26:04] INFO root fetch - processPackages [robotframework-rpycremote]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-01 07:26:04] INFO root fetch - processPackages [openimis-be-payment]: Downloading https://files.pythonhosted.org/packages/8e/95/a42a1aaecc718c5c8caeb09b0bc1f794655ad73d6495488e6c499353364b/openimis-be-payment-1.6.0.tar.gz
+[2024-05-01 07:26:04] INFO root fetch - processPackages [openimis-be-core]: Downloading https://files.pythonhosted.org/packages/96/d0/3029b09b8c2dcf0f5f4f4413093f103ad0975e8f9139c323697a66bbb76c/openimis-be-core-1.6.0.tar.gz
+[2024-05-01 07:26:04] INFO root fetch - processPackages [openimis-be-policy]: Downloading https://files.pythonhosted.org/packages/25/e8/3ef065d67c8e54dbf76f197c3a93b796fd076f65969a1ec8184a707f4f3c/openimis-be-policy-1.6.0.tar.gz
+[2024-05-01 07:26:04] INFO root fetch - processPackages [openimis-be-calculation]: Downloading https://files.pythonhosted.org/packages/6f/c6/82e41a9819a420b2c4cabd01ba7c2aa1866e7548b6bffe033c7882ced38a/openimis-be-calculation-1.6.0.tar.gz
+[2024-05-01 07:26:04] INFO root fetch - processPackages [cpop]: Downloading https://files.pythonhosted.org/packages/c7/d7/ff638d6f1227e1a536bff6a56dd58a025dcd711e63b54a0d86954e994d4c/cpop-35.4.0.tar.gz
+[2024-05-01 07:26:04] INFO root fetch - processPackages [drf-secure-token]: Downloading https://files.pythonhosted.org/packages/e0/cc/bf4007755137afa92445d787d8b45b57f0afe0275575d48e448dd0bf92e0/drf-secure-token-1.1.0.tar.gz
+[2024-05-01 07:26:05] INFO root fetch - processPackages [openimis-be-individual]: Downloading https://files.pythonhosted.org/packages/89/cd/8a2d839138d41d62f0b249eef51e3572841579f20c15113787db2128bc3c/openimis_be_individual-1.1.0.tar.gz
+[2024-05-01 07:26:05] INFO root fetch - processPackages [robotframework-rpycremote]: Downloading https://files.pythonhosted.org/packages/5c/2e/3d7131c1b4277e7be86fd40a2923a576aec5d430f2fb2b0c3805763819bf/robotframework_rpycremote-0.0.4.tar.gz
+[2024-05-01 07:26:05] INFO root fetch - processPackages [openimis-be-payment]: Downloading https://files.pythonhosted.org/packages/fb/c9/0bedf048fc946ed05bd008a1e2337a906e4953c5f083bf48a2206d01af9c/openimis_be_payment-1.7.0.tar.gz
+[2024-05-01 07:26:05] INFO root fetch - processPackages [openimis-be-core]: Downloading https://files.pythonhosted.org/packages/46/e4/83e1d96cab0d836eec2564db2716c7f3b5f48a65e97302cac0381713777a/openimis_be_core-1.7.0.tar.gz
+[2024-05-01 07:26:05] INFO root fetch - processPackages [openimis-be-policy]: Downloading https://files.pythonhosted.org/packages/8f/58/8eafc2c2ad0cc1deaf7d711841bcaae6f1ada66041ad3f33ccbfdbf64648/openimis_be_policy-1.7.0.tar.gz
+[2024-05-01 07:26:05] INFO root fetch - processPackages [openimis-be-calculation]: Downloading https://files.pythonhosted.org/packages/16/b3/c60c583e96d57b220e733d753aff90292a0d28cc024ca08651aa9ae38e87/openimis_be_calculation-1.7.0.tar.gz
+[2024-05-01 07:26:05] INFO root fetch - processPackages [openimis-be-individual]: executing diffoscope
+[2024-05-01 07:26:05] INFO root fetch - processPackages [openimis-be-individual]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openimis-be-individual-1.0.0.tar.gz tmp/openimis_be_individual-1.1.0.tar.gz --markdown 20240501/o/openimis-be-individual/1.0.0-1.1.0/README.md --exclude *.pyd
+[2024-05-01 07:26:05] INFO root fetch - processPackages [openimis-be-payment]: executing diffoscope
+[2024-05-01 07:26:05] INFO root fetch - processPackages [openimis-be-payment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openimis-be-payment-1.6.0.tar.gz tmp/openimis_be_payment-1.7.0.tar.gz --markdown 20240501/o/openimis-be-payment/1.6.0-1.7.0/README.md --exclude *.pyd
+[2024-05-01 07:26:05] INFO root fetch - processPackages [openimis-be-core]: executing diffoscope
+[2024-05-01 07:26:05] INFO root fetch - processPackages [openimis-be-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openimis-be-core-1.6.0.tar.gz tmp/openimis_be_core-1.7.0.tar.gz --markdown 20240501/o/openimis-be-core/1.6.0-1.7.0/README.md --exclude *.pyd
+[2024-05-01 07:26:05] INFO root fetch - processPackages [cpop]: Downloading https://files.pythonhosted.org/packages/99/a6/48510deea7115141c153b9b0abdac8ec12c50e37b04c5935f082f8393063/cpop-35.5.0.tar.gz
+[2024-05-01 07:26:05] INFO root fetch - processPackages [openimis-be-policy]: executing diffoscope
+[2024-05-01 07:26:05] INFO root fetch - processPackages [openimis-be-calculation]: executing diffoscope
+[2024-05-01 07:26:05] INFO root fetch - processPackages [openimis-be-calculation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openimis-be-calculation-1.6.0.tar.gz tmp/openimis_be_calculation-1.7.0.tar.gz --markdown 20240501/o/openimis-be-calculation/1.6.0-1.7.0/README.md --exclude *.pyd
+[2024-05-01 07:26:05] INFO root fetch - processPackages [openimis-be-policy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openimis-be-policy-1.6.0.tar.gz tmp/openimis_be_policy-1.7.0.tar.gz --markdown 20240501/o/openimis-be-policy/1.6.0-1.7.0/README.md --exclude *.pyd
+[2024-05-01 07:26:05] INFO root fetch - processPackages [drf-secure-token]: Downloading https://files.pythonhosted.org/packages/be/3e/1a24deac335e5896fb8de91f17b1b9acb6530ab0916b5dbd2edb78f44576/drf-secure-token-1.2.0.tar.gz
+[2024-05-01 07:26:05] INFO root fetch - processPackages [cpop]: executing diffoscope
+[2024-05-01 07:26:05] INFO root fetch - processPackages [cpop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cpop-35.4.0.tar.gz tmp/cpop-35.5.0.tar.gz --markdown 20240501/c/cpop/35.4.0-35.5.0/README.md --exclude *.pyd
+[2024-05-01 07:26:05] INFO root fetch - processPackages [robotframework-rpycremote]: Downloading https://files.pythonhosted.org/packages/5b/3a/43407e4013ae46f9df4df2eff7e5fce550e7d1ab44f5fdf4da1de959f77b/robotframework_rpycremote-0.0.5.tar.gz
+[2024-05-01 07:26:05] INFO root fetch - processPackages [drf-secure-token]: executing diffoscope
+[2024-05-01 07:26:05] INFO root fetch - processPackages [drf-secure-token]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drf-secure-token-1.1.0.tar.gz tmp/drf-secure-token-1.2.0.tar.gz --markdown 20240501/d/drf-secure-token/1.1.0-1.2.0/README.md --exclude *.pyd
+[2024-05-01 07:26:05] INFO root fetch - processPackages [robotframework-rpycremote]: executing diffoscope
+[2024-05-01 07:26:05] INFO root fetch - processPackages [robotframework-rpycremote]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotframework_rpycremote-0.0.4.tar.gz tmp/robotframework_rpycremote-0.0.5.tar.gz --markdown 20240501/r/robotframework-rpycremote/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-01 07:26:06] INFO root fetch - processPackages [openimis-be-payment]: Remove: archive file [/home/abi/fetcher/tmp/openimis-be-payment-1.6.0.tar.gz]
+[2024-05-01 07:26:06] INFO root fetch - processPackages [openimis-be-payment]: Remove: archive file [/home/abi/fetcher/tmp/openimis_be_payment-1.7.0.tar.gz]
+[2024-05-01 07:26:06] INFO root fetch - main [MainThread]: End processing [openimis-be-payment]: success
+[2024-05-01 07:26:06] INFO root fetch - processPackages [openimis-be-individual]: Remove: archive file [/home/abi/fetcher/tmp/openimis-be-individual-1.0.0.tar.gz]
+[2024-05-01 07:26:06] INFO root fetch - processPackages [openimis-be-individual]: Remove: archive file [/home/abi/fetcher/tmp/openimis_be_individual-1.1.0.tar.gz]
+[2024-05-01 07:26:06] INFO root fetch - main [MainThread]: End processing [openimis-be-individual]: success
+[2024-05-01 07:26:06] INFO root fetch - processPackages [openimis-be-calculation]: Remove: archive file [/home/abi/fetcher/tmp/openimis-be-calculation-1.6.0.tar.gz]
+[2024-05-01 07:26:06] INFO root fetch - processPackages [openimis-be-calculation]: Remove: archive file [/home/abi/fetcher/tmp/openimis_be_calculation-1.7.0.tar.gz]
+[2024-05-01 07:26:06] INFO root fetch - main [MainThread]: End processing [openimis-be-calculation]: success
+[2024-05-01 07:26:06] INFO root fetch - processPackages [robotframework-rpycremote]: Remove: archive file [/home/abi/fetcher/tmp/robotframework_rpycremote-0.0.4.tar.gz]
+[2024-05-01 07:26:06] INFO root fetch - processPackages [robotframework-rpycremote]: Remove: archive file [/home/abi/fetcher/tmp/robotframework_rpycremote-0.0.5.tar.gz]
+[2024-05-01 07:26:06] INFO root fetch - main [MainThread]: End processing [robotframework-rpycremote]: success
+[2024-05-01 07:26:06] INFO root fetch - processPackages [drf-secure-token]: Remove: archive file [/home/abi/fetcher/tmp/drf-secure-token-1.1.0.tar.gz]
+[2024-05-01 07:26:06] INFO root fetch - processPackages [drf-secure-token]: Remove: archive file [/home/abi/fetcher/tmp/drf-secure-token-1.2.0.tar.gz]
+[2024-05-01 07:26:06] INFO root fetch - main [MainThread]: End processing [drf-secure-token]: success
+[2024-05-01 07:26:06] INFO root fetch - processPackages [openimis-be-core]: Remove: archive file [/home/abi/fetcher/tmp/openimis-be-core-1.6.0.tar.gz]
+[2024-05-01 07:26:06] INFO root fetch - processPackages [openimis-be-core]: Remove: archive file [/home/abi/fetcher/tmp/openimis_be_core-1.7.0.tar.gz]
+[2024-05-01 07:26:06] INFO root fetch - main [MainThread]: End processing [openimis-be-core]: success
+[2024-05-01 07:26:06] INFO root fetch - processPackages [cpop]: Remove: archive file [/home/abi/fetcher/tmp/cpop-35.4.0.tar.gz]
+[2024-05-01 07:26:06] INFO root fetch - processPackages [cpop]: Remove: archive file [/home/abi/fetcher/tmp/cpop-35.5.0.tar.gz]
+[2024-05-01 07:26:06] INFO root fetch - main [MainThread]: End processing [cpop]: success
+[2024-05-01 07:26:06] INFO root fetch - processPackages [openimis-be-policy]: Remove: archive file [/home/abi/fetcher/tmp/openimis-be-policy-1.6.0.tar.gz]
+[2024-05-01 07:26:06] INFO root fetch - processPackages [openimis-be-policy]: Remove: archive file [/home/abi/fetcher/tmp/openimis_be_policy-1.7.0.tar.gz]
+[2024-05-01 07:26:06] INFO root fetch - main [MainThread]: End processing [openimis-be-policy]: success
+[2024-05-01 07:26:06] INFO root fetch - main [MainThread]: Store serial: [23012637]
