@@ -18862,3 +18862,78 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-01 14:03:06] INFO root fetch - processPackages [spaceone-api]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-api-2.0.dev89.tar.gz]
 [2024-05-01 14:03:06] INFO root fetch - main [MainThread]: End processing [spaceone-api]: success
 [2024-05-01 14:03:06] INFO root fetch - main [MainThread]: Store serial: [23016414]
+[2024-05-01 14:05:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23016414]
+[2024-05-01 14:05:15] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-01 14:05:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-keycloak
+[2024-05-01 14:05:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: trytond-carrier-weight
+[2024-05-01 14:05:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-ec
+[2024-05-01 14:05:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: avro-py
+[2024-05-01 14:05:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-gitlab
+[2024-05-01 14:05:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi-kafka
+[2024-05-01 14:05:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: trytond-bank
+[2024-05-01 14:05:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mama
+[2024-05-01 14:05:15] INFO root fetch - processPackages [pulumi-kafka]: New version: [3.8.0a1714542007] Old Version: [3.8.0a1714537311]
+[2024-05-01 14:05:15] INFO root fetch - processPackages [pulumi-ec]: New version: [0.9.0a1714541767] Old Version: [0.9.0a1714455359]
+[2024-05-01 14:05:15] INFO root fetch - processPackages [pulumi-keycloak]: New version: [5.4.0a1714542232] Old Version: [5.4.0a1714455729]
+[2024-05-01 14:05:15] INFO root fetch - processPackages [pulumi-gitlab]: New version: [6.9.0a1708340471] Old Version: [6.9.0a1708063247]
+[2024-05-01 14:05:15] INFO root fetch - processPackages [mama]: New version: [0.9.5] Old Version: [0.9.4]
+[2024-05-01 14:05:16] INFO root fetch - processPackages [trytond-bank]: New version: [7.2.1] Old Version: [7.2.0]
+[2024-05-01 14:05:16] INFO root fetch - processPackages [trytond-carrier-weight]: New version: [7.2.1] Old Version: [7.2.0]
+[2024-05-01 14:05:16] INFO root fetch - processPackages [avro-py]: New version: [2024.5.1] Old Version: [2024.4.7]
+[2024-05-01 14:05:16] INFO root fetch - processPackages [pulumi-ec]: Downloading https://files.pythonhosted.org/packages/a8/77/723cc5b31d7171e1f9f396a8e6896567b13258b55c68cc0e77bc5edead78/pulumi_ec-0.9.0a1714455359.tar.gz
+[2024-05-01 14:05:16] INFO root fetch - processPackages [pulumi-kafka]: Downloading https://files.pythonhosted.org/packages/61/b2/161bf4f760ca840f1b0fa44eed076b719367d9ef428e222157a05d2307e0/pulumi_kafka-3.8.0a1714537311.tar.gz
+[2024-05-01 14:05:16] INFO root fetch - processPackages [pulumi-keycloak]: Downloading https://files.pythonhosted.org/packages/19/91/6274e2d29782183b326ba094ff825efda2bda85561fff35cb09bd94e9b34/pulumi_keycloak-5.4.0a1714455729.tar.gz
+[2024-05-01 14:05:16] INFO root fetch - processPackages [mama]: Downloading https://files.pythonhosted.org/packages/89/4f/3f1407f1960c594c1e197a5e9bc98b3aab8d3392d3cbcd2c85195fc34a28/mama-0.9.4.tar.gz
+[2024-05-01 14:05:16] INFO root fetch - processPackages [pulumi-gitlab]: Downloading https://files.pythonhosted.org/packages/58/07/ab2778876b4db96da370ecc6d084f38b132c7d1e47cda0350b3de396d7e4/pulumi_gitlab-6.9.0a1708063247.tar.gz
+[2024-05-01 14:05:16] INFO root fetch - processPackages [pulumi-kafka]: Downloading https://files.pythonhosted.org/packages/ea/34/5ab4d5db48aa6f982f42a93bcf30fb458aceea53af3f3df9f4cf57eef8bd/pulumi_kafka-3.8.0a1714542007.tar.gz
+[2024-05-01 14:05:16] INFO root fetch - processPackages [trytond-carrier-weight]: Downloading https://files.pythonhosted.org/packages/a5/64/844fd298144879fe9a4140de36fbeb29e92945c8e939f76e23bdc98473ad/trytond_carrier_weight-7.2.0.tar.gz
+[2024-05-01 14:05:16] INFO root fetch - processPackages [trytond-bank]: Downloading https://files.pythonhosted.org/packages/c2/10/93b6d8a28049842a8eb87576aa547458da22686af5928a3298c1f990d04c/trytond_bank-7.2.0.tar.gz
+[2024-05-01 14:05:16] INFO root fetch - processPackages [avro-py]: Downloading https://files.pythonhosted.org/packages/88/6d/42c6af7dbdafc8935cc2dc6cecdde476153794078e30c5cd7149dcc6e1ff/avro.py-2024.4.7.tar.gz
+[2024-05-01 14:05:16] INFO root fetch - processPackages [mama]: Downloading https://files.pythonhosted.org/packages/b1/90/87e353b48e35ec2ae7781c3321936c45470d0cc6db940aaf78ebff5be46c/mama-0.9.5.tar.gz
+[2024-05-01 14:05:16] INFO root fetch - processPackages [pulumi-gitlab]: Downloading https://files.pythonhosted.org/packages/ec/de/e27b5fc2f3f3a7a5f878850b1b8d0f82d5624c70b642a39146c756ea3d5c/pulumi_gitlab-6.9.0a1708340471.tar.gz
+[2024-05-01 14:05:16] INFO root fetch - processPackages [pulumi-kafka]: executing diffoscope
+[2024-05-01 14:05:16] INFO root fetch - processPackages [pulumi-kafka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_kafka-3.8.0a1714537311.tar.gz tmp/pulumi_kafka-3.8.0a1714542007.tar.gz --markdown 20240501/p/pulumi-kafka/3.8.0a1714537311-3.8.0a1714542007/README.md --exclude *.pyd
+[2024-05-01 14:05:16] INFO root fetch - processPackages [pulumi-ec]: Downloading https://files.pythonhosted.org/packages/9c/da/ff67354767e8f3cf101971f65e6ca0920bc5a291c62e13bf6ab7448e77a0/pulumi_ec-0.9.0a1714541767.tar.gz
+[2024-05-01 14:05:16] INFO root fetch - processPackages [mama]: executing diffoscope
+[2024-05-01 14:05:16] INFO root fetch - processPackages [mama]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mama-0.9.4.tar.gz tmp/mama-0.9.5.tar.gz --markdown 20240501/m/mama/0.9.4-0.9.5/README.md --exclude *.pyd
+[2024-05-01 14:05:16] INFO root fetch - processPackages [pulumi-ec]: executing diffoscope
+[2024-05-01 14:05:16] INFO root fetch - processPackages [pulumi-ec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_ec-0.9.0a1714455359.tar.gz tmp/pulumi_ec-0.9.0a1714541767.tar.gz --markdown 20240501/p/pulumi-ec/0.9.0a1714455359-0.9.0a1714541767/README.md --exclude *.pyd
+[2024-05-01 14:05:16] INFO root fetch - processPackages [pulumi-keycloak]: Downloading https://files.pythonhosted.org/packages/40/9d/90134b4090aff4fd65e7569fb005d8e3f414d9700d3c4742ab0d1a8b63bf/pulumi_keycloak-5.4.0a1714542232.tar.gz
+[2024-05-01 14:05:16] INFO root fetch - processPackages [pulumi-gitlab]: executing diffoscope
+[2024-05-01 14:05:16] INFO root fetch - processPackages [pulumi-gitlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_gitlab-6.9.0a1708063247.tar.gz tmp/pulumi_gitlab-6.9.0a1708340471.tar.gz --markdown 20240501/p/pulumi-gitlab/6.9.0a1708063247-6.9.0a1708340471/README.md --exclude *.pyd
+[2024-05-01 14:05:16] INFO root fetch - processPackages [trytond-carrier-weight]: Downloading https://files.pythonhosted.org/packages/31/e3/50b38ad72e5c2349cc49b00116c92cb2d82b9319ad1b8bb84afa08cf4dee/trytond_carrier_weight-7.2.1.tar.gz
+[2024-05-01 14:05:16] INFO root fetch - processPackages [trytond-bank]: Downloading https://files.pythonhosted.org/packages/c3/b8/5bc549cc14b539252db7e716ae7ed53e68eddee0af7eb9c951ed451ef674/trytond_bank-7.2.1.tar.gz
+[2024-05-01 14:05:16] INFO root fetch - processPackages [avro-py]: Downloading https://files.pythonhosted.org/packages/6a/04/8601aefb5df8049d0ed0b4f6a1ddb42c504d4d6972f0c4faf729064ce093/avro_py-2024.5.1.tar.gz
+[2024-05-01 14:05:16] INFO root fetch - processPackages [pulumi-keycloak]: executing diffoscope
+[2024-05-01 14:05:16] INFO root fetch - processPackages [pulumi-keycloak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_keycloak-5.4.0a1714455729.tar.gz tmp/pulumi_keycloak-5.4.0a1714542232.tar.gz --markdown 20240501/p/pulumi-keycloak/5.4.0a1714455729-5.4.0a1714542232/README.md --exclude *.pyd
+[2024-05-01 14:05:16] INFO root fetch - processPackages [trytond-carrier-weight]: executing diffoscope
+[2024-05-01 14:05:16] INFO root fetch - processPackages [trytond-carrier-weight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_carrier_weight-7.2.0.tar.gz tmp/trytond_carrier_weight-7.2.1.tar.gz --markdown 20240501/t/trytond-carrier-weight/7.2.0-7.2.1/README.md --exclude *.pyd
+[2024-05-01 14:05:16] INFO root fetch - processPackages [trytond-bank]: executing diffoscope
+[2024-05-01 14:05:16] INFO root fetch - processPackages [trytond-bank]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_bank-7.2.0.tar.gz tmp/trytond_bank-7.2.1.tar.gz --markdown 20240501/t/trytond-bank/7.2.0-7.2.1/README.md --exclude *.pyd
+[2024-05-01 14:05:16] INFO root fetch - processPackages [avro-py]: executing diffoscope
+[2024-05-01 14:05:16] INFO root fetch - processPackages [avro-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/avro.py-2024.4.7.tar.gz tmp/avro_py-2024.5.1.tar.gz --markdown 20240501/a/avro-py/2024.4.7-2024.5.1/README.md --exclude *.pyd
+[2024-05-01 14:05:17] INFO root fetch - processPackages [pulumi-kafka]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kafka-3.8.0a1714537311.tar.gz]
+[2024-05-01 14:05:17] INFO root fetch - processPackages [pulumi-kafka]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kafka-3.8.0a1714542007.tar.gz]
+[2024-05-01 14:05:17] INFO root fetch - main [MainThread]: End processing [pulumi-kafka]: success
+[2024-05-01 14:05:17] INFO root fetch - processPackages [mama]: Remove: archive file [/home/abi/fetcher/tmp/mama-0.9.4.tar.gz]
+[2024-05-01 14:05:17] INFO root fetch - processPackages [mama]: Remove: archive file [/home/abi/fetcher/tmp/mama-0.9.5.tar.gz]
+[2024-05-01 14:05:17] INFO root fetch - main [MainThread]: End processing [mama]: success
+[2024-05-01 14:05:17] INFO root fetch - processPackages [pulumi-ec]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_ec-0.9.0a1714455359.tar.gz]
+[2024-05-01 14:05:17] INFO root fetch - processPackages [pulumi-ec]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_ec-0.9.0a1714541767.tar.gz]
+[2024-05-01 14:05:17] INFO root fetch - main [MainThread]: End processing [pulumi-ec]: success
+[2024-05-01 14:05:17] INFO root fetch - processPackages [avro-py]: Remove: archive file [/home/abi/fetcher/tmp/avro.py-2024.4.7.tar.gz]
+[2024-05-01 14:05:17] INFO root fetch - processPackages [avro-py]: Remove: archive file [/home/abi/fetcher/tmp/avro_py-2024.5.1.tar.gz]
+[2024-05-01 14:05:17] INFO root fetch - main [MainThread]: End processing [avro-py]: success
+[2024-05-01 14:05:17] INFO root fetch - processPackages [trytond-carrier-weight]: Remove: archive file [/home/abi/fetcher/tmp/trytond_carrier_weight-7.2.0.tar.gz]
+[2024-05-01 14:05:17] INFO root fetch - processPackages [trytond-carrier-weight]: Remove: archive file [/home/abi/fetcher/tmp/trytond_carrier_weight-7.2.1.tar.gz]
+[2024-05-01 14:05:17] INFO root fetch - main [MainThread]: End processing [trytond-carrier-weight]: success
+[2024-05-01 14:05:17] INFO root fetch - processPackages [trytond-bank]: Remove: archive file [/home/abi/fetcher/tmp/trytond_bank-7.2.0.tar.gz]
+[2024-05-01 14:05:17] INFO root fetch - processPackages [trytond-bank]: Remove: archive file [/home/abi/fetcher/tmp/trytond_bank-7.2.1.tar.gz]
+[2024-05-01 14:05:17] INFO root fetch - main [MainThread]: End processing [trytond-bank]: success
+[2024-05-01 14:05:17] INFO root fetch - processPackages [pulumi-keycloak]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_keycloak-5.4.0a1714455729.tar.gz]
+[2024-05-01 14:05:17] INFO root fetch - processPackages [pulumi-keycloak]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_keycloak-5.4.0a1714542232.tar.gz]
+[2024-05-01 14:05:17] INFO root fetch - main [MainThread]: End processing [pulumi-keycloak]: success
+[2024-05-01 14:05:18] INFO root fetch - processPackages [pulumi-gitlab]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_gitlab-6.9.0a1708063247.tar.gz]
+[2024-05-01 14:05:18] INFO root fetch - processPackages [pulumi-gitlab]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_gitlab-6.9.0a1708340471.tar.gz]
+[2024-05-01 14:05:18] INFO root fetch - main [MainThread]: End processing [pulumi-gitlab]: success
+[2024-05-01 14:05:18] INFO root fetch - main [MainThread]: Store serial: [23016468]
