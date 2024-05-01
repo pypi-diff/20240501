@@ -20737,3 +20737,20 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-01 15:01:04] INFO root fetch - processPackages [cybrid-api-bank-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-bank-python-0.99.0.tar.gz]
 [2024-05-01 15:01:04] INFO root fetch - main [MainThread]: End processing [cybrid-api-bank-python]: success
 [2024-05-01 15:01:04] INFO root fetch - main [MainThread]: Store serial: [23017163]
+[2024-05-01 15:03:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23017163]
+[2024-05-01 15:03:13] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-01 15:03:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yalexs
+[2024-05-01 15:03:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vemmio-client
+[2024-05-01 15:03:14] INFO root fetch - processPackages [vemmio-client]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-05-01 15:03:14] INFO root fetch - processPackages [yalexs]: New version: [3.1.0] Old Version: [3.0.1]
+[2024-05-01 15:03:14] INFO root fetch - processPackages [vemmio-client]: Downloading https://files.pythonhosted.org/packages/8f/5b/e5c42f1e32352435e78c53ef0e6c3a69473bc03769f43734cdab513d2db0/vemmio_client-0.1.0.tar.gz
+[2024-05-01 15:03:14] INFO root fetch - processPackages [yalexs]: Downloading https://files.pythonhosted.org/packages/82/10/7d29f4f587e99a8ed76c8159025bd89e55c745a3f19d7ff715b185adf9ae/yalexs-3.0.1.tar.gz
+[2024-05-01 15:03:14] ERROR root fetch - processPackages [vemmio-client]: Unable to fetch info: No such project/version 'vemmio-client' 0.2.0
+[2024-05-01 15:03:14] INFO root fetch - main [MainThread]: End processing [vemmio-client] error
+[2024-05-01 15:03:14] INFO root fetch - processPackages [yalexs]: Downloading https://files.pythonhosted.org/packages/33/64/2b492ecb94fee851af36aaede4e86f59d22d75c83b4b7a7fa120834c9bd1/yalexs-3.1.0.tar.gz
+[2024-05-01 15:03:14] INFO root fetch - processPackages [yalexs]: executing diffoscope
+[2024-05-01 15:03:14] INFO root fetch - processPackages [yalexs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yalexs-3.0.1.tar.gz tmp/yalexs-3.1.0.tar.gz --markdown 20240501/y/yalexs/3.0.1-3.1.0/README.md --exclude *.pyd
+[2024-05-01 15:03:15] INFO root fetch - processPackages [yalexs]: Remove: archive file [/home/abi/fetcher/tmp/yalexs-3.0.1.tar.gz]
+[2024-05-01 15:03:15] INFO root fetch - processPackages [yalexs]: Remove: archive file [/home/abi/fetcher/tmp/yalexs-3.1.0.tar.gz]
+[2024-05-01 15:03:15] INFO root fetch - main [MainThread]: End processing [yalexs]: success
+[2024-05-01 15:03:15] INFO root fetch - main [MainThread]: Store serial: [23017173]
