@@ -13605,3 +13605,132 @@
 [2024-05-01 11:02:47] INFO root fetch - processPackages [sc_guard_post]: Remove: archive file [/home/abi/fetcher/tmp/sc_guard_post-0.3.2.tar.gz]
 [2024-05-01 11:02:47] INFO root fetch - main [MainThread]: End processing [sc_guard_post]: success
 [2024-05-01 11:02:47] INFO root fetch - main [MainThread]: Store serial: [23014392]
+[2024-05-01 11:04:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23014392]
+[2024-05-01 11:04:56] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2024-05-01 11:04:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nonebot2
+[2024-05-01 11:04:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flightplotting
+[2024-05-01 11:04:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cg-feedback-helpers
+[2024-05-01 11:04:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: windmill-api
+[2024-05-01 11:04:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wah
+[2024-05-01 11:04:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: wmill
+[2024-05-01 11:04:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: wmill-pg
+[2024-05-01 11:04:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: autogluon.common
+[2024-05-01 11:04:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: attribox
+[2024-05-01 11:04:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: autogluon.core
+[2024-05-01 11:04:56] INFO root fetch - processPackages [windmill-api]: New version: [1.99.0] Old Version: [1.98.0]
+[2024-05-01 11:04:56] INFO root fetch - processPackages [wah]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-01 11:04:56] INFO root fetch - processPackages [attribox]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-01 11:04:56] INFO root fetch - processPackages [wmill]: New version: [1.99.0] Old Version: [1.98.0]
+[2024-05-01 11:04:56] INFO root fetch - processPackages [autogluon.common]: New version: [1.1.1b20240430] Old Version: [1.1.1b20240429]
+[2024-05-01 11:04:56] INFO root fetch - processPackages [wmill-pg]: New version: [1.99.0] Old Version: [1.98.0]
+[2024-05-01 11:04:56] INFO root fetch - processPackages [autogluon.core]: New version: [1.1.1b20240430] Old Version: [1.1.1b20240429]
+[2024-05-01 11:04:56] INFO root fetch - processPackages [flightplotting]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-05-01 11:04:56] INFO root fetch - processPackages [nonebot2]: New version: [2.3.0] Old Version: [2.2.1]
+[2024-05-01 11:04:56] INFO root fetch - processPackages [cg-feedback-helpers]: New version: [2024.2.26.1339] Old Version: [2024.2.13.1323]
+[2024-05-01 11:04:56] INFO root fetch - processPackages [wah]: Downloading https://files.pythonhosted.org/packages/1e/98/86b56f53d2270da5a315b2f0d5733e61fd0dabbbde1d17bcff2dd938939e/wah-0.1.8.tar.gz
+[2024-05-01 11:04:56] INFO root fetch - processPackages [windmill-api]: Downloading https://files.pythonhosted.org/packages/bd/de/5d29ca258adee967295dbf926ab306c480527c234336f0725d4c2bc1d718/windmill_api-1.98.0.tar.gz
+[2024-05-01 11:04:57] INFO root fetch - processPackages [autogluon.core]: Downloading https://files.pythonhosted.org/packages/01/2d/1b6cfd8ee18b224d96d5453959f8704fd02f5236dceecd033698526ca736/autogluon.core-1.1.1b20240429.tar.gz
+[2024-05-01 11:04:57] INFO root fetch - processPackages [attribox]: Downloading https://files.pythonhosted.org/packages/b0/1b/afc61ed4af69d170a0c4bd0272fdd2e586a48c0c1828c0cf9fb03718795b/attribox-0.1.8.tar.gz
+[2024-05-01 11:04:57] INFO root fetch - processPackages [wmill]: Downloading https://files.pythonhosted.org/packages/6d/91/6b6052c80b8d367e051cc2905d1d921bf9a11f63e27a0f802b5c1277aa20/wmill-1.98.0.tar.gz
+[2024-05-01 11:04:57] INFO root fetch - processPackages [wmill-pg]: Downloading https://files.pythonhosted.org/packages/a1/22/f7655b5ea090afc59651b874c61bf7bea4694e3fa9720a46058fa34c71ef/wmill_pg-1.98.0.tar.gz
+[2024-05-01 11:04:57] INFO root fetch - processPackages [autogluon.common]: Downloading https://files.pythonhosted.org/packages/87/bc/5d85e5593a2a9e558f646dd9878cec80bfcf486ea2c5214afc3686d475cd/autogluon.common-1.1.1b20240429.tar.gz
+[2024-05-01 11:04:57] INFO root fetch - processPackages [nonebot2]: Downloading https://files.pythonhosted.org/packages/1a/3c/15ba0f9057c0b5319a5eb3e0c487eb4f2884c0ef6c4ef764372624357971/nonebot2-2.2.1.tar.gz
+[2024-05-01 11:04:57] INFO root fetch - processPackages [flightplotting]: Downloading https://files.pythonhosted.org/packages/33/87/f70f1ae01311224c04e5d0f7fa70bcdb5735f0c3e4253e47fb702f1064b0/flightplotting-0.2.3.tar.gz
+[2024-05-01 11:04:57] INFO root fetch - processPackages [cg-feedback-helpers]: Downloading https://files.pythonhosted.org/packages/98/c0/89ed24c77476f471fbd32e44783c266fae740380aec3399836d0f719bcd5/cg_feedback_helpers-2024.2.13.1323.tar.gz
+[2024-05-01 11:04:57] INFO root fetch - processPackages [wah]: Downloading https://files.pythonhosted.org/packages/6c/57/7be641139065b67640542a312a3988d0a93024cdc145ea667b7e8d432eb8/wah-0.1.9.tar.gz
+[2024-05-01 11:04:57] INFO root fetch - processPackages [attribox]: Downloading https://files.pythonhosted.org/packages/b1/e6/a20bbaa9e0f051b656d86826235dcdfa648da889d34b564acef9329d3455/attribox-0.1.9.tar.gz
+[2024-05-01 11:04:57] INFO root fetch - processPackages [wmill]: Downloading https://files.pythonhosted.org/packages/f1/d1/eb5b4c7d25f969fc3603441c8e90a5a8e00688be43ce0631166287977a65/wmill-1.99.0.tar.gz
+[2024-05-01 11:04:57] INFO root fetch - processPackages [windmill-api]: Downloading https://files.pythonhosted.org/packages/32/94/9431b41ce6b9c2670fbc125624f7ebc3d186482c80c271e3d7acde511319/windmill_api-1.99.0.tar.gz
+[2024-05-01 11:04:57] INFO root fetch - processPackages [wmill-pg]: Downloading https://files.pythonhosted.org/packages/26/ac/296bc5f7193d111c826ef99b60bf75fe1605158a73d728a5fad8aa771331/wmill_pg-1.99.0.tar.gz
+[2024-05-01 11:04:57] INFO root fetch - processPackages [wah]: executing diffoscope
+[2024-05-01 11:04:57] INFO root fetch - processPackages [wah]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wah-0.1.8.tar.gz tmp/wah-0.1.9.tar.gz --markdown 20240501/w/wah/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-01 11:04:57] INFO root fetch - processPackages [attribox]: executing diffoscope
+[2024-05-01 11:04:57] INFO root fetch - processPackages [attribox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/attribox-0.1.8.tar.gz tmp/attribox-0.1.9.tar.gz --markdown 20240501/a/attribox/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-01 11:04:57] INFO root fetch - processPackages [autogluon.core]: Downloading https://files.pythonhosted.org/packages/15/75/df7348e7646c1bf946f17dab2d6243ac3d6597867d49aa84506727130723/autogluon.core-1.1.1b20240430.tar.gz
+[2024-05-01 11:04:57] INFO root fetch - processPackages [wmill]: executing diffoscope
+[2024-05-01 11:04:57] INFO root fetch - processPackages [wmill]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wmill-1.98.0.tar.gz tmp/wmill-1.99.0.tar.gz --markdown 20240501/w/wmill/1.98.0-1.99.0/README.md --exclude *.pyd
+[2024-05-01 11:04:57] INFO root fetch - processPackages [wmill-pg]: executing diffoscope
+[2024-05-01 11:04:57] INFO root fetch - processPackages [wmill-pg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wmill_pg-1.98.0.tar.gz tmp/wmill_pg-1.99.0.tar.gz --markdown 20240501/w/wmill-pg/1.98.0-1.99.0/README.md --exclude *.pyd
+[2024-05-01 11:04:57] INFO root fetch - processPackages [windmill-api]: executing diffoscope
+[2024-05-01 11:04:57] INFO root fetch - processPackages [windmill-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/windmill_api-1.98.0.tar.gz tmp/windmill_api-1.99.0.tar.gz --markdown 20240501/w/windmill-api/1.98.0-1.99.0/README.md --exclude *.pyd
+[2024-05-01 11:04:57] INFO root fetch - processPackages [autogluon.common]: Downloading https://files.pythonhosted.org/packages/5f/c7/770245e6bb38964ec74e6e86b6a8c10c7972ee019f87afa8f9c89083ad39/autogluon.common-1.1.1b20240430.tar.gz
+[2024-05-01 11:04:57] INFO root fetch - processPackages [nonebot2]: Downloading https://files.pythonhosted.org/packages/33/33/f6b59399886264ec01433342e27bf1d60d70160c397098e61d2a1f533a28/nonebot2-2.3.0.tar.gz
+[2024-05-01 11:04:57] INFO root fetch - processPackages [cg-feedback-helpers]: Downloading https://files.pythonhosted.org/packages/9e/11/6501d3eb13c88a26204e6513a338ea954a392c75283dd7dd72d6414569b2/cg_feedback_helpers-2024.2.26.1339.tar.gz
+[2024-05-01 11:04:57] INFO root fetch - processPackages [autogluon.core]: executing diffoscope
+[2024-05-01 11:04:57] INFO root fetch - processPackages [autogluon.core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.core-1.1.1b20240429.tar.gz tmp/autogluon.core-1.1.1b20240430.tar.gz --markdown 20240501/a/autogluon.core/1.1.1b20240429-1.1.1b20240430/README.md --exclude *.pyd
+[2024-05-01 11:04:57] INFO root fetch - processPackages [flightplotting]: Downloading https://files.pythonhosted.org/packages/74/50/708ddb7c681dcb20fc2b0ce53e1001016d7e3a3105e44b1dadf55f999278/flightplotting-0.2.4.tar.gz
+[2024-05-01 11:04:57] INFO root fetch - processPackages [autogluon.common]: executing diffoscope
+[2024-05-01 11:04:57] INFO root fetch - processPackages [autogluon.common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.common-1.1.1b20240429.tar.gz tmp/autogluon.common-1.1.1b20240430.tar.gz --markdown 20240501/a/autogluon.common/1.1.1b20240429-1.1.1b20240430/README.md --exclude *.pyd
+[2024-05-01 11:04:57] INFO root fetch - processPackages [cg-feedback-helpers]: executing diffoscope
+[2024-05-01 11:04:57] INFO root fetch - processPackages [cg-feedback-helpers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg_feedback_helpers-2024.2.13.1323.tar.gz tmp/cg_feedback_helpers-2024.2.26.1339.tar.gz --markdown 20240501/c/cg-feedback-helpers/2024.2.13.1323-2024.2.26.1339/README.md --exclude *.pyd
+[2024-05-01 11:04:57] INFO root fetch - processPackages [nonebot2]: executing diffoscope
+[2024-05-01 11:04:57] INFO root fetch - processPackages [nonebot2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot2-2.2.1.tar.gz tmp/nonebot2-2.3.0.tar.gz --markdown 20240501/n/nonebot2/2.2.1-2.3.0/README.md --exclude *.pyd
+[2024-05-01 11:04:57] INFO root fetch - processPackages [flightplotting]: executing diffoscope
+[2024-05-01 11:04:57] INFO root fetch - processPackages [flightplotting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flightplotting-0.2.3.tar.gz tmp/flightplotting-0.2.4.tar.gz --markdown 20240501/f/flightplotting/0.2.3-0.2.4/README.md --exclude *.pyd
+[2024-05-01 11:04:58] INFO root fetch - processPackages [wah]: Remove: archive file [/home/abi/fetcher/tmp/wah-0.1.8.tar.gz]
+[2024-05-01 11:04:58] INFO root fetch - processPackages [wah]: Remove: archive file [/home/abi/fetcher/tmp/wah-0.1.9.tar.gz]
+[2024-05-01 11:04:58] INFO root fetch - processPackages [wah]: Start processing: pyspartn
+[2024-05-01 11:04:58] INFO root fetch - main [MainThread]: End processing [wah]: success
+[2024-05-01 11:04:58] INFO root fetch - processPackages [wmill]: Remove: archive file [/home/abi/fetcher/tmp/wmill-1.98.0.tar.gz]
+[2024-05-01 11:04:58] INFO root fetch - processPackages [wmill]: Remove: archive file [/home/abi/fetcher/tmp/wmill-1.99.0.tar.gz]
+[2024-05-01 11:04:58] INFO root fetch - processPackages [wmill]: Start processing: autogluon.features
+[2024-05-01 11:04:58] INFO root fetch - main [MainThread]: End processing [wmill]: success
+[2024-05-01 11:04:58] INFO root fetch - processPackages [autogluon.features]: New version: [1.1.1b20240430] Old Version: [1.1.1b20240429]
+[2024-05-01 11:04:58] INFO root fetch - processPackages [attribox]: Remove: archive file [/home/abi/fetcher/tmp/attribox-0.1.8.tar.gz]
+[2024-05-01 11:04:58] INFO root fetch - processPackages [attribox]: Remove: archive file [/home/abi/fetcher/tmp/attribox-0.1.9.tar.gz]
+[2024-05-01 11:04:58] INFO root fetch - processPackages [attribox]: Start processing: autogluon.tabular
+[2024-05-01 11:04:58] INFO root fetch - main [MainThread]: End processing [attribox]: success
+[2024-05-01 11:04:58] INFO root fetch - processPackages [wmill-pg]: Remove: archive file [/home/abi/fetcher/tmp/wmill_pg-1.98.0.tar.gz]
+[2024-05-01 11:04:58] INFO root fetch - processPackages [wmill-pg]: Remove: archive file [/home/abi/fetcher/tmp/wmill_pg-1.99.0.tar.gz]
+[2024-05-01 11:04:58] INFO root fetch - processPackages [wmill-pg]: Start processing: pySmartHashtag
+[2024-05-01 11:04:58] INFO root fetch - main [MainThread]: End processing [wmill-pg]: success
+[2024-05-01 11:04:58] INFO root fetch - processPackages [pyspartn]: New version: [0.4.0] Old Version: [0.3.3]
+[2024-05-01 11:04:58] INFO root fetch - processPackages [autogluon.features]: Downloading https://files.pythonhosted.org/packages/77/16/bbb26d1ceaf8d841a18906f85cf4de0b0c4a0e98c9b36d2d976c5fc55826/autogluon.features-1.1.1b20240429.tar.gz
+[2024-05-01 11:04:58] INFO root fetch - processPackages [pySmartHashtag]: New version: [0.3.4] Old Version: [0.3.3]
+[2024-05-01 11:04:58] INFO root fetch - processPackages [autogluon.tabular]: New version: [1.1.1b20240501] Old Version: [1.1.1b20240430]
+[2024-05-01 11:04:58] INFO root fetch - processPackages [autogluon.common]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.common-1.1.1b20240429.tar.gz]
+[2024-05-01 11:04:58] INFO root fetch - processPackages [autogluon.common]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.common-1.1.1b20240430.tar.gz]
+[2024-05-01 11:04:58] INFO root fetch - main [MainThread]: End processing [autogluon.common]: success
+[2024-05-01 11:04:58] INFO root fetch - processPackages [pyspartn]: Downloading https://files.pythonhosted.org/packages/51/ae/d9588e2d84ccf55ba35db605d375817b1d3214af216d3f409c45190b948e/pyspartn-0.3.3.tar.gz
+[2024-05-01 11:04:58] INFO root fetch - processPackages [autogluon.core]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.core-1.1.1b20240429.tar.gz]
+[2024-05-01 11:04:58] INFO root fetch - processPackages [autogluon.core]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.core-1.1.1b20240430.tar.gz]
+[2024-05-01 11:04:58] INFO root fetch - main [MainThread]: End processing [autogluon.core]: success
+[2024-05-01 11:04:58] INFO root fetch - processPackages [flightplotting]: Remove: archive file [/home/abi/fetcher/tmp/flightplotting-0.2.3.tar.gz]
+[2024-05-01 11:04:58] INFO root fetch - processPackages [flightplotting]: Remove: archive file [/home/abi/fetcher/tmp/flightplotting-0.2.4.tar.gz]
+[2024-05-01 11:04:58] INFO root fetch - main [MainThread]: End processing [flightplotting]: success
+[2024-05-01 11:04:58] INFO root fetch - processPackages [cg-feedback-helpers]: Remove: archive file [/home/abi/fetcher/tmp/cg_feedback_helpers-2024.2.13.1323.tar.gz]
+[2024-05-01 11:04:58] INFO root fetch - processPackages [cg-feedback-helpers]: Remove: archive file [/home/abi/fetcher/tmp/cg_feedback_helpers-2024.2.26.1339.tar.gz]
+[2024-05-01 11:04:58] INFO root fetch - main [MainThread]: End processing [cg-feedback-helpers]: success
+[2024-05-01 11:04:59] INFO root fetch - processPackages [pySmartHashtag]: Downloading https://files.pythonhosted.org/packages/ab/c5/0ffa6dcdaf140b6700d588ff6ffe4f581105c8e586284bd3ea529e381ebd/pySmartHashtag-0.3.3.tar.gz
+[2024-05-01 11:04:59] INFO root fetch - processPackages [autogluon.tabular]: Downloading https://files.pythonhosted.org/packages/2b/35/1ae2f92507b1a46de6c7c046dbc664b39148ec4bf0eb18aeed4650a44e47/autogluon.tabular-1.1.1b20240430.tar.gz
+[2024-05-01 11:04:59] INFO root fetch - processPackages [autogluon.features]: Downloading https://files.pythonhosted.org/packages/c2/95/d34855c401f9503de8ba971817735d41738e032b81ee8935357aa71e435d/autogluon.features-1.1.1b20240430.tar.gz
+[2024-05-01 11:04:59] INFO root fetch - processPackages [pyspartn]: Downloading https://files.pythonhosted.org/packages/72/7b/8b3c801ca8c00942be15f0bfc01481e21844ade47409f79ea5177ca3e56b/pyspartn-0.4.0.tar.gz
+[2024-05-01 11:04:59] INFO root fetch - processPackages [autogluon.features]: executing diffoscope
+[2024-05-01 11:04:59] INFO root fetch - processPackages [autogluon.features]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.features-1.1.1b20240429.tar.gz tmp/autogluon.features-1.1.1b20240430.tar.gz --markdown 20240501/a/autogluon.features/1.1.1b20240429-1.1.1b20240430/README.md --exclude *.pyd
+[2024-05-01 11:04:59] INFO root fetch - processPackages [nonebot2]: Remove: archive file [/home/abi/fetcher/tmp/nonebot2-2.2.1.tar.gz]
+[2024-05-01 11:04:59] INFO root fetch - processPackages [nonebot2]: Remove: archive file [/home/abi/fetcher/tmp/nonebot2-2.3.0.tar.gz]
+[2024-05-01 11:04:59] INFO root fetch - main [MainThread]: End processing [nonebot2]: success
+[2024-05-01 11:04:59] INFO root fetch - processPackages [pySmartHashtag]: Downloading https://files.pythonhosted.org/packages/d8/1a/e645d82fe6bd16da220ec4054128d2f9373c5b9a34b7a2052afb8b5868d6/pysmarthashtag-0.3.4.tar.gz
+[2024-05-01 11:04:59] INFO root fetch - processPackages [pyspartn]: executing diffoscope
+[2024-05-01 11:04:59] INFO root fetch - processPackages [pyspartn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyspartn-0.3.3.tar.gz tmp/pyspartn-0.4.0.tar.gz --markdown 20240501/p/pyspartn/0.3.3-0.4.0/README.md --exclude *.pyd
+[2024-05-01 11:04:59] INFO root fetch - processPackages [autogluon.tabular]: Downloading https://files.pythonhosted.org/packages/38/44/b20562f3e2070a8ebddc925e07e76f95929ed7d44c4acd34d8a0503ff419/autogluon.tabular-1.1.1b20240501.tar.gz
+[2024-05-01 11:04:59] INFO root fetch - processPackages [pySmartHashtag]: executing diffoscope
+[2024-05-01 11:04:59] INFO root fetch - processPackages [pySmartHashtag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pySmartHashtag-0.3.3.tar.gz tmp/pysmarthashtag-0.3.4.tar.gz --markdown 20240501/p/pySmartHashtag/0.3.3-0.3.4/README.md --exclude *.pyd
+[2024-05-01 11:04:59] INFO root fetch - processPackages [autogluon.tabular]: executing diffoscope
+[2024-05-01 11:04:59] INFO root fetch - processPackages [autogluon.tabular]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.tabular-1.1.1b20240430.tar.gz tmp/autogluon.tabular-1.1.1b20240501.tar.gz --markdown 20240501/a/autogluon.tabular/1.1.1b20240430-1.1.1b20240501/README.md --exclude *.pyd
+[2024-05-01 11:04:59] INFO root fetch - processPackages [autogluon.features]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.features-1.1.1b20240429.tar.gz]
+[2024-05-01 11:04:59] INFO root fetch - processPackages [autogluon.features]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.features-1.1.1b20240430.tar.gz]
+[2024-05-01 11:04:59] INFO root fetch - main [MainThread]: End processing [autogluon.features]: success
+[2024-05-01 11:04:59] INFO root fetch - processPackages [pyspartn]: Remove: archive file [/home/abi/fetcher/tmp/pyspartn-0.3.3.tar.gz]
+[2024-05-01 11:04:59] INFO root fetch - processPackages [pyspartn]: Remove: archive file [/home/abi/fetcher/tmp/pyspartn-0.4.0.tar.gz]
+[2024-05-01 11:04:59] INFO root fetch - main [MainThread]: End processing [pyspartn]: success
+[2024-05-01 11:05:00] INFO root fetch - processPackages [pySmartHashtag]: Remove: archive file [/home/abi/fetcher/tmp/pySmartHashtag-0.3.3.tar.gz]
+[2024-05-01 11:05:00] INFO root fetch - processPackages [pySmartHashtag]: Remove: archive file [/home/abi/fetcher/tmp/pysmarthashtag-0.3.4.tar.gz]
+[2024-05-01 11:05:00] INFO root fetch - main [MainThread]: End processing [pySmartHashtag]: success
+[2024-05-01 11:05:00] INFO root fetch - processPackages [autogluon.tabular]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.tabular-1.1.1b20240430.tar.gz]
+[2024-05-01 11:05:00] INFO root fetch - processPackages [autogluon.tabular]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.tabular-1.1.1b20240501.tar.gz]
+[2024-05-01 11:05:00] INFO root fetch - main [MainThread]: End processing [autogluon.tabular]: success
+[2024-05-01 11:05:02] INFO root fetch - processPackages [windmill-api]: Remove: archive file [/home/abi/fetcher/tmp/windmill_api-1.98.0.tar.gz]
+[2024-05-01 11:05:02] INFO root fetch - processPackages [windmill-api]: Remove: archive file [/home/abi/fetcher/tmp/windmill_api-1.99.0.tar.gz]
+[2024-05-01 11:05:02] INFO root fetch - main [MainThread]: End processing [windmill-api]: success
+[2024-05-01 11:05:02] INFO root fetch - main [MainThread]: Store serial: [23014432]
