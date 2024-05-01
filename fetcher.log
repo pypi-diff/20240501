@@ -22904,3 +22904,60 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-01 16:47:43] INFO root fetch - processPackages [systemathics.apis]: Remove: archive file [/home/abi/fetcher/tmp/systemathics_apis-2.39.0.tar.gz]
 [2024-05-01 16:47:43] INFO root fetch - main [MainThread]: End processing [systemathics.apis]: success
 [2024-05-01 16:47:43] INFO root fetch - main [MainThread]: Store serial: [23018194]
+[2024-05-01 16:49:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23018194]
+[2024-05-01 16:49:51] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-01 16:49:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: YaraForge
+[2024-05-01 16:49:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: scrapkit
+[2024-05-01 16:49:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: uk-bin-collection
+[2024-05-01 16:49:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sbcli-mig
+[2024-05-01 16:49:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cellworld-game
+[2024-05-01 16:49:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: copy-spotter
+[2024-05-01 16:49:52] INFO root fetch - processPackages [cellworld-game]: New version: [0.0.73] Old Version: [0.0.72]
+[2024-05-01 16:49:52] INFO root fetch - processPackages [scrapkit]: New version: [1.3] Old Version: [1.2]
+[2024-05-01 16:49:52] INFO root fetch - processPackages [YaraForge]: New version: [0.1.9b1] Old Version: [0.1.8b1]
+[2024-05-01 16:49:52] INFO root fetch - processPackages [uk-bin-collection]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-01 16:49:52] INFO root fetch - processPackages [copy-spotter]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-01 16:49:52] INFO root fetch - processPackages [sbcli-mig]: New version: [1.0.9] Old Version: [1.0.81]
+[2024-05-01 16:49:52] INFO root fetch - processPackages [cellworld-game]: Downloading https://files.pythonhosted.org/packages/79/c0/a9653a2f859f37598b04c364aa21792ee3d468f5fac3433212a2e596cd27/cellworld_game-0.0.72.tar.gz
+[2024-05-01 16:49:52] INFO root fetch - processPackages [scrapkit]: Downloading https://files.pythonhosted.org/packages/61/7b/fefb64c04194620e84a77dbeca2ed1546150bcff98fc4c062fead895e3c2/scrapkit-1.2.tar.gz
+[2024-05-01 16:49:52] INFO root fetch - processPackages [YaraForge]: Downloading https://files.pythonhosted.org/packages/a3/b3/23b6a5d5405b678138d4a0f15f52e253a6c052d1dc5b167a89605aa68308/YaraForge-0.1.8b1.tar.gz
+[2024-05-01 16:49:52] INFO root fetch - processPackages [sbcli-mig]: Downloading https://files.pythonhosted.org/packages/a0/0e/aeaa84cfee005195621ef6c5ba445ece606f0d5c80d6db2528480f7538b0/sbcli_mig-1.0.81.zip
+[2024-05-01 16:49:52] INFO root fetch - processPackages [copy-spotter]: Downloading https://files.pythonhosted.org/packages/16/b5/6342789113e6001232d29843f586514af8bde80c637762c423b6f95c2e45/copy-spotter-0.1.3.tar.gz
+[2024-05-01 16:49:52] INFO root fetch - processPackages [uk-bin-collection]: Downloading https://files.pythonhosted.org/packages/f6/3c/e25a4eb0a28d67a6748fdb9acd0380565c1585a1ff833d282a9d2acc90a1/uk_bin_collection-0.8.0.tar.gz
+[2024-05-01 16:49:52] INFO root fetch - processPackages [scrapkit]: Downloading https://files.pythonhosted.org/packages/75/c2/1c2f9b8715450bb44ea8742ba33d7c95b7094b93295cec323127a7154176/scrapkit-1.3.tar.gz
+[2024-05-01 16:49:52] INFO root fetch - processPackages [cellworld-game]: Downloading https://files.pythonhosted.org/packages/d9/19/25db5a2e302bc25f706c599429178b9f8209317dc3105aef703d036881c2/cellworld_game-0.0.73.tar.gz
+[2024-05-01 16:49:52] INFO root fetch - processPackages [scrapkit]: executing diffoscope
+[2024-05-01 16:49:52] INFO root fetch - processPackages [scrapkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrapkit-1.2.tar.gz tmp/scrapkit-1.3.tar.gz --markdown 20240501/s/scrapkit/1.2-1.3/README.md --exclude *.pyd
+[2024-05-01 16:49:52] INFO root fetch - processPackages [cellworld-game]: executing diffoscope
+[2024-05-01 16:49:52] INFO root fetch - processPackages [cellworld-game]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cellworld_game-0.0.72.tar.gz tmp/cellworld_game-0.0.73.tar.gz --markdown 20240501/c/cellworld-game/0.0.72-0.0.73/README.md --exclude *.pyd
+[2024-05-01 16:49:52] INFO root fetch - processPackages [sbcli-mig]: Downloading https://files.pythonhosted.org/packages/4b/15/9c1afe915f08547ce582aeae079f597b2a173df003109bcd1d0f0bbf037e/sbcli-mig-1.0.9.zip
+[2024-05-01 16:49:52] INFO root fetch - processPackages [copy-spotter]: Downloading https://files.pythonhosted.org/packages/4f/4b/d2d6b88a22222bca37cf3b23f443f2999e486555b38ab7a9729b835b8eb4/copy-spotter-0.1.4.tar.gz
+[2024-05-01 16:49:52] INFO root fetch - processPackages [YaraForge]: Downloading https://files.pythonhosted.org/packages/d6/8b/f38a30b0409cefc74e067a146bfd79bbcc199e47cc8d5efb2f765bccb0bd/YaraForge-0.1.9b1.tar.gz
+[2024-05-01 16:49:52] INFO root fetch - processPackages [uk-bin-collection]: Downloading https://files.pythonhosted.org/packages/55/0e/a2cb2057f203540273a20c67ef245d13d61a542934302f0475c939494a96/uk_bin_collection-0.9.0.tar.gz
+[2024-05-01 16:49:52] INFO root fetch - processPackages [copy-spotter]: executing diffoscope
+[2024-05-01 16:49:52] INFO root fetch - processPackages [copy-spotter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/copy-spotter-0.1.3.tar.gz tmp/copy-spotter-0.1.4.tar.gz --markdown 20240501/c/copy-spotter/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-01 16:49:52] INFO root fetch - processPackages [sbcli-mig]: executing diffoscope
+[2024-05-01 16:49:52] INFO root fetch - processPackages [sbcli-mig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sbcli_mig-1.0.81.zip tmp/sbcli-mig-1.0.9.zip --markdown 20240501/s/sbcli-mig/1.0.81-1.0.9/README.md --exclude *.pyd
+[2024-05-01 16:49:52] INFO root fetch - processPackages [uk-bin-collection]: executing diffoscope
+[2024-05-01 16:49:52] INFO root fetch - processPackages [uk-bin-collection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uk_bin_collection-0.8.0.tar.gz tmp/uk_bin_collection-0.9.0.tar.gz --markdown 20240501/u/uk-bin-collection/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-01 16:49:53] INFO root fetch - processPackages [YaraForge]: executing diffoscope
+[2024-05-01 16:49:53] INFO root fetch - processPackages [YaraForge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/YaraForge-0.1.8b1.tar.gz tmp/YaraForge-0.1.9b1.tar.gz --markdown 20240501/Y/YaraForge/0.1.8b1-0.1.9b1/README.md --exclude *.pyd
+[2024-05-01 16:49:53] INFO root fetch - processPackages [scrapkit]: Remove: archive file [/home/abi/fetcher/tmp/scrapkit-1.2.tar.gz]
+[2024-05-01 16:49:53] INFO root fetch - processPackages [scrapkit]: Remove: archive file [/home/abi/fetcher/tmp/scrapkit-1.3.tar.gz]
+[2024-05-01 16:49:53] INFO root fetch - main [MainThread]: End processing [scrapkit]: success
+[2024-05-01 16:49:53] INFO root fetch - processPackages [cellworld-game]: Remove: archive file [/home/abi/fetcher/tmp/cellworld_game-0.0.72.tar.gz]
+[2024-05-01 16:49:53] INFO root fetch - processPackages [cellworld-game]: Remove: archive file [/home/abi/fetcher/tmp/cellworld_game-0.0.73.tar.gz]
+[2024-05-01 16:49:53] INFO root fetch - main [MainThread]: End processing [cellworld-game]: success
+[2024-05-01 16:49:53] INFO root fetch - processPackages [copy-spotter]: Remove: archive file [/home/abi/fetcher/tmp/copy-spotter-0.1.3.tar.gz]
+[2024-05-01 16:49:53] INFO root fetch - processPackages [copy-spotter]: Remove: archive file [/home/abi/fetcher/tmp/copy-spotter-0.1.4.tar.gz]
+[2024-05-01 16:49:53] INFO root fetch - main [MainThread]: End processing [copy-spotter]: success
+[2024-05-01 16:49:54] INFO root fetch - processPackages [uk-bin-collection]: Remove: archive file [/home/abi/fetcher/tmp/uk_bin_collection-0.8.0.tar.gz]
+[2024-05-01 16:49:54] INFO root fetch - processPackages [uk-bin-collection]: Remove: archive file [/home/abi/fetcher/tmp/uk_bin_collection-0.9.0.tar.gz]
+[2024-05-01 16:49:54] INFO root fetch - main [MainThread]: End processing [uk-bin-collection]: success
+[2024-05-01 16:49:54] INFO root fetch - processPackages [YaraForge]: Remove: archive file [/home/abi/fetcher/tmp/YaraForge-0.1.8b1.tar.gz]
+[2024-05-01 16:49:54] INFO root fetch - processPackages [YaraForge]: Remove: archive file [/home/abi/fetcher/tmp/YaraForge-0.1.9b1.tar.gz]
+[2024-05-01 16:49:54] INFO root fetch - main [MainThread]: End processing [YaraForge]: success
+[2024-05-01 16:49:54] INFO root fetch - processPackages [sbcli-mig]: Remove: archive file [/home/abi/fetcher/tmp/sbcli_mig-1.0.81.zip]
+[2024-05-01 16:49:54] INFO root fetch - processPackages [sbcli-mig]: Remove: archive file [/home/abi/fetcher/tmp/sbcli-mig-1.0.9.zip]
+[2024-05-01 16:49:54] INFO root fetch - main [MainThread]: End processing [sbcli-mig]: success
+[2024-05-01 16:49:54] INFO root fetch - main [MainThread]: Store serial: [23018211]
