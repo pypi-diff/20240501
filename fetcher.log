@@ -19875,3 +19875,75 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-01 14:27:27] INFO root fetch - processPackages [trytond-account-asset]: Remove: archive file [/home/abi/fetcher/tmp/trytond_account_asset-7.2.1.tar.gz]
 [2024-05-01 14:27:27] INFO root fetch - main [MainThread]: End processing [trytond-account-asset]: success
 [2024-05-01 14:27:27] INFO root fetch - main [MainThread]: Store serial: [23016811]
+[2024-05-01 14:29:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23016811]
+[2024-05-01 14:29:36] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-01 14:29:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: duckcuts
+[2024-05-01 14:29:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mexca
+[2024-05-01 14:29:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-postgresql
+[2024-05-01 14:29:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: oslactionspotting
+[2024-05-01 14:29:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-okta
+[2024-05-01 14:29:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: legend-pydataobj
+[2024-05-01 14:29:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pulumi-openstack
+[2024-05-01 14:29:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pulumi-rabbitmq
+[2024-05-01 14:29:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pulumi-pagerduty
+[2024-05-01 14:29:36] INFO root fetch - processPackages [mexca]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-01 14:29:36] WARNING root fetch - processPackages [duckcuts]: Skipping, unable to determine old version
+[2024-05-01 14:29:36] INFO root fetch - main [MainThread]: End processing [duckcuts] error
+[2024-05-01 14:29:36] INFO root fetch - processPackages [pulumi-postgresql]: New version: [3.9.0a1689896978] Old Version: [3.9.0a1689315090]
+[2024-05-01 14:29:36] INFO root fetch - processPackages [pulumi-pagerduty]: New version: [4.9.0a1709566454] Old Version: [4.9.0a1709366773]
+[2024-05-01 14:29:36] INFO root fetch - processPackages [pulumi-openstack]: New version: [3.9.0a1659603007] Old Version: [3.9.0a1654086724]
+[2024-05-01 14:29:36] INFO root fetch - processPackages [pulumi-okta]: New version: [4.9.0a1714543321] Old Version: [4.9.0a1714456879]
+[2024-05-01 14:29:36] INFO root fetch - processPackages [pulumi-rabbitmq]: New version: [3.4.0a1714543707] Old Version: [3.4.0a1714457313]
+[2024-05-01 14:29:36] WARNING root fetch - processPackages [oslactionspotting]: Skipping, unable to determine old version
+[2024-05-01 14:29:36] INFO root fetch - main [MainThread]: End processing [oslactionspotting] error
+[2024-05-01 14:29:36] INFO root fetch - processPackages [mexca]: Downloading https://files.pythonhosted.org/packages/71/90/0b15986f249b105427d29c0413cea5a18df5597804fb48fcc9b6b82980c7/mexca-1.0.1.tar.gz
+[2024-05-01 14:29:36] INFO root fetch - processPackages [legend-pydataobj]: New version: [1.6.2] Old Version: [1.6.1]
+[2024-05-01 14:29:36] INFO root fetch - processPackages [pulumi-postgresql]: Downloading https://files.pythonhosted.org/packages/ed/e0/7fdde90ef74fd102795261322b0ac8625336995854691a442d881f55cb87/pulumi_postgresql-3.9.0a1689315090.tar.gz
+[2024-05-01 14:29:36] INFO root fetch - processPackages [pulumi-pagerduty]: Downloading https://files.pythonhosted.org/packages/ba/dc/468cc1cc3ab57e83660f1775ea0d9f1dcfc62c6de9c10832b834d737ec1a/pulumi_pagerduty-4.9.0a1709366773.tar.gz
+[2024-05-01 14:29:36] INFO root fetch - processPackages [pulumi-openstack]: Downloading https://files.pythonhosted.org/packages/bb/93/e4acd0fd6ccecb8338145c7929b4f11bbbcda13bd5c5523254ce8f946bd2/pulumi_openstack-3.9.0a1654086724.tar.gz
+[2024-05-01 14:29:36] INFO root fetch - processPackages [pulumi-rabbitmq]: Downloading https://files.pythonhosted.org/packages/be/5f/38ae9df303829814891cdb8aa114790043fdadb793333bca545213e5bdef/pulumi_rabbitmq-3.4.0a1714457313.tar.gz
+[2024-05-01 14:29:36] INFO root fetch - processPackages [pulumi-okta]: Downloading https://files.pythonhosted.org/packages/41/0c/e51d2e6e73a99e6107a399a19027a65d8db3eb19b9b661e2fbab983f557c/pulumi_okta-4.9.0a1714456879.tar.gz
+[2024-05-01 14:29:37] INFO root fetch - processPackages [legend-pydataobj]: Downloading https://files.pythonhosted.org/packages/b5/87/ca48d4d88c68dc352b9438cf27faefc9a94da36c78242f8feedee16c268a/legend_pydataobj-1.6.1.tar.gz
+[2024-05-01 14:29:37] INFO root fetch - processPackages [pulumi-postgresql]: Downloading https://files.pythonhosted.org/packages/a0/7c/da57549229c7dc197fea08a82cd8c820b56d0bf8e0ed12fafc5fec8b3eff/pulumi_postgresql-3.9.0a1689896978.tar.gz
+[2024-05-01 14:29:37] INFO root fetch - processPackages [mexca]: Downloading https://files.pythonhosted.org/packages/3c/9a/d510e8a580627d13ddb4834a4447d3a51ec5df0340b9d9e27f64a4c5c5a8/mexca-1.0.2.tar.gz
+[2024-05-01 14:29:37] INFO root fetch - processPackages [pulumi-pagerduty]: Downloading https://files.pythonhosted.org/packages/ea/4e/a77d2efabe6daeb6878eeed9b4c2b3c43c2b854c19e3be4b3d627c2c0427/pulumi_pagerduty-4.9.0a1709566454.tar.gz
+[2024-05-01 14:29:37] INFO root fetch - processPackages [pulumi-openstack]: Downloading https://files.pythonhosted.org/packages/cf/b9/1f6195a962138e9e532ea6da486cd8eab11855d8b0284a83af9bb290e254/pulumi_openstack-3.9.0a1659603007.tar.gz
+[2024-05-01 14:29:37] INFO root fetch - processPackages [pulumi-postgresql]: executing diffoscope
+[2024-05-01 14:29:37] INFO root fetch - processPackages [pulumi-postgresql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_postgresql-3.9.0a1689315090.tar.gz tmp/pulumi_postgresql-3.9.0a1689896978.tar.gz --markdown 20240501/p/pulumi-postgresql/3.9.0a1689315090-3.9.0a1689896978/README.md --exclude *.pyd
+[2024-05-01 14:29:37] INFO root fetch - processPackages [mexca]: executing diffoscope
+[2024-05-01 14:29:37] INFO root fetch - processPackages [mexca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mexca-1.0.1.tar.gz tmp/mexca-1.0.2.tar.gz --markdown 20240501/m/mexca/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-01 14:29:37] INFO root fetch - processPackages [pulumi-pagerduty]: executing diffoscope
+[2024-05-01 14:29:37] INFO root fetch - processPackages [pulumi-pagerduty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_pagerduty-4.9.0a1709366773.tar.gz tmp/pulumi_pagerduty-4.9.0a1709566454.tar.gz --markdown 20240501/p/pulumi-pagerduty/4.9.0a1709366773-4.9.0a1709566454/README.md --exclude *.pyd
+[2024-05-01 14:29:37] INFO root fetch - processPackages [pulumi-rabbitmq]: Downloading https://files.pythonhosted.org/packages/ab/cd/1c3dfbd98535ba2d68a080db4eb515754b70d72842f980fb28fba9bd9c6f/pulumi_rabbitmq-3.4.0a1714543707.tar.gz
+[2024-05-01 14:29:37] INFO root fetch - processPackages [pulumi-okta]: Downloading https://files.pythonhosted.org/packages/f1/de/3912b458d98670c1176f62b2763e20c8b8d608930a3aae067d62b4366667/pulumi_okta-4.9.0a1714543321.tar.gz
+[2024-05-01 14:29:37] INFO root fetch - processPackages [pulumi-openstack]: executing diffoscope
+[2024-05-01 14:29:37] INFO root fetch - processPackages [pulumi-openstack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_openstack-3.9.0a1654086724.tar.gz tmp/pulumi_openstack-3.9.0a1659603007.tar.gz --markdown 20240501/p/pulumi-openstack/3.9.0a1654086724-3.9.0a1659603007/README.md --exclude *.pyd
+[2024-05-01 14:29:37] INFO root fetch - processPackages [pulumi-rabbitmq]: executing diffoscope
+[2024-05-01 14:29:37] INFO root fetch - processPackages [pulumi-rabbitmq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_rabbitmq-3.4.0a1714457313.tar.gz tmp/pulumi_rabbitmq-3.4.0a1714543707.tar.gz --markdown 20240501/p/pulumi-rabbitmq/3.4.0a1714457313-3.4.0a1714543707/README.md --exclude *.pyd
+[2024-05-01 14:29:37] INFO root fetch - processPackages [pulumi-okta]: executing diffoscope
+[2024-05-01 14:29:37] INFO root fetch - processPackages [pulumi-okta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_okta-4.9.0a1714456879.tar.gz tmp/pulumi_okta-4.9.0a1714543321.tar.gz --markdown 20240501/p/pulumi-okta/4.9.0a1714456879-4.9.0a1714543321/README.md --exclude *.pyd
+[2024-05-01 14:29:37] INFO root fetch - processPackages [legend-pydataobj]: Downloading https://files.pythonhosted.org/packages/25/8f/eb7266ab21894b90f6d739b9b6ed3eee7cc2480cc236057527ea00751a22/legend_pydataobj-1.6.2.tar.gz
+[2024-05-01 14:29:37] INFO root fetch - processPackages [legend-pydataobj]: executing diffoscope
+[2024-05-01 14:29:37] INFO root fetch - processPackages [legend-pydataobj]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/legend_pydataobj-1.6.1.tar.gz tmp/legend_pydataobj-1.6.2.tar.gz --markdown 20240501/l/legend-pydataobj/1.6.1-1.6.2/README.md --exclude *.pyd
+[2024-05-01 14:29:38] INFO root fetch - processPackages [pulumi-postgresql]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_postgresql-3.9.0a1689315090.tar.gz]
+[2024-05-01 14:29:38] INFO root fetch - processPackages [pulumi-postgresql]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_postgresql-3.9.0a1689896978.tar.gz]
+[2024-05-01 14:29:38] INFO root fetch - main [MainThread]: End processing [pulumi-postgresql]: success
+[2024-05-01 14:29:38] INFO root fetch - processPackages [mexca]: Remove: archive file [/home/abi/fetcher/tmp/mexca-1.0.1.tar.gz]
+[2024-05-01 14:29:38] INFO root fetch - processPackages [mexca]: Remove: archive file [/home/abi/fetcher/tmp/mexca-1.0.2.tar.gz]
+[2024-05-01 14:29:38] INFO root fetch - main [MainThread]: End processing [mexca]: success
+[2024-05-01 14:29:38] INFO root fetch - processPackages [pulumi-rabbitmq]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_rabbitmq-3.4.0a1714457313.tar.gz]
+[2024-05-01 14:29:38] INFO root fetch - processPackages [pulumi-rabbitmq]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_rabbitmq-3.4.0a1714543707.tar.gz]
+[2024-05-01 14:29:38] INFO root fetch - main [MainThread]: End processing [pulumi-rabbitmq]: success
+[2024-05-01 14:29:38] INFO root fetch - processPackages [pulumi-pagerduty]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_pagerduty-4.9.0a1709366773.tar.gz]
+[2024-05-01 14:29:38] INFO root fetch - processPackages [pulumi-pagerduty]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_pagerduty-4.9.0a1709566454.tar.gz]
+[2024-05-01 14:29:38] INFO root fetch - main [MainThread]: End processing [pulumi-pagerduty]: success
+[2024-05-01 14:29:38] INFO root fetch - processPackages [legend-pydataobj]: Remove: archive file [/home/abi/fetcher/tmp/legend_pydataobj-1.6.1.tar.gz]
+[2024-05-01 14:29:38] INFO root fetch - processPackages [legend-pydataobj]: Remove: archive file [/home/abi/fetcher/tmp/legend_pydataobj-1.6.2.tar.gz]
+[2024-05-01 14:29:38] INFO root fetch - main [MainThread]: End processing [legend-pydataobj]: success
+[2024-05-01 14:29:38] INFO root fetch - processPackages [pulumi-okta]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_okta-4.9.0a1714456879.tar.gz]
+[2024-05-01 14:29:38] INFO root fetch - processPackages [pulumi-okta]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_okta-4.9.0a1714543321.tar.gz]
+[2024-05-01 14:29:38] INFO root fetch - main [MainThread]: End processing [pulumi-okta]: success
+[2024-05-01 14:29:40] INFO root fetch - processPackages [pulumi-openstack]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_openstack-3.9.0a1654086724.tar.gz]
+[2024-05-01 14:29:40] INFO root fetch - processPackages [pulumi-openstack]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_openstack-3.9.0a1659603007.tar.gz]
+[2024-05-01 14:29:40] INFO root fetch - main [MainThread]: End processing [pulumi-openstack]: success
+[2024-05-01 14:29:40] INFO root fetch - main [MainThread]: Store serial: [23016841]
