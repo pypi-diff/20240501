@@ -10842,3 +10842,45 @@
 [2024-05-01 08:25:58] INFO root fetch - processPackages [pulumi-onelogin]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_onelogin-0.7.0a1714537431.tar.gz]
 [2024-05-01 08:25:58] INFO root fetch - main [MainThread]: End processing [pulumi-onelogin]: success
 [2024-05-01 08:25:58] INFO root fetch - main [MainThread]: Store serial: [23013123]
+[2024-05-01 08:28:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23013123]
+[2024-05-01 08:28:07] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-01 08:28:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Akatosh
+[2024-05-01 08:28:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: magplan
+[2024-05-01 08:28:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: amiya
+[2024-05-01 08:28:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: scikit-robot
+[2024-05-01 08:28:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: AutoRAG
+[2024-05-01 08:28:07] WARNING root fetch - processPackages [amiya]: Skipping, unable to determine old version
+[2024-05-01 08:28:07] INFO root fetch - main [MainThread]: End processing [amiya] error
+[2024-05-01 08:28:07] INFO root fetch - processPackages [Akatosh]: New version: [3.0.3] Old Version: [3.0.2]
+[2024-05-01 08:28:07] INFO root fetch - processPackages [scikit-robot]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-01 08:28:07] INFO root fetch - processPackages [magplan]: New version: [3.3.0] Old Version: [3.2.0]
+[2024-05-01 08:28:07] INFO root fetch - processPackages [AutoRAG]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-01 08:28:07] INFO root fetch - processPackages [Akatosh]: Downloading https://files.pythonhosted.org/packages/7b/09/81693b20bc27df2a1180808f7ee165ded8879c481340e7afeef3350c1882/akatosh-3.0.2.tar.gz
+[2024-05-01 08:28:07] INFO root fetch - processPackages [scikit-robot]: Downloading https://files.pythonhosted.org/packages/ea/5f/c190dc52a33c54ebfaa592b9e1ddf945c15b9ae65dd27d9826b5a9d792a2/scikit-robot-0.0.8.tar.gz
+[2024-05-01 08:28:07] INFO root fetch - processPackages [magplan]: Downloading https://files.pythonhosted.org/packages/cb/ed/b285ca80e32d7935fa240657ead894d0ab5a4c2fb0f2b93d9da3c3d39125/magplan-3.2.0.tar.gz
+[2024-05-01 08:28:07] INFO root fetch - processPackages [AutoRAG]: Downloading https://files.pythonhosted.org/packages/f1/2c/1c3985b409daf16000cda2bbf34a668793821334677a3369c5a7413b0e05/autorag-0.1.8.tar.gz
+[2024-05-01 08:28:07] INFO root fetch - processPackages [Akatosh]: Downloading https://files.pythonhosted.org/packages/10/a0/1ab6e78fa7181a10df4f1e251b058adb72cac40b0ac400be3e968a696a5c/akatosh-3.0.3.tar.gz
+[2024-05-01 08:28:08] INFO root fetch - processPackages [scikit-robot]: Downloading https://files.pythonhosted.org/packages/de/72/5cfd650a69fa6c2eac08c9bce28f0517ba5662ee06a3bd9316c94d4bcc70/scikit-robot-0.0.9.tar.gz
+[2024-05-01 08:28:08] INFO root fetch - processPackages [Akatosh]: executing diffoscope
+[2024-05-01 08:28:08] INFO root fetch - processPackages [Akatosh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akatosh-3.0.2.tar.gz tmp/akatosh-3.0.3.tar.gz --markdown 20240501/A/Akatosh/3.0.2-3.0.3/README.md --exclude *.pyd
+[2024-05-01 08:28:08] INFO root fetch - processPackages [magplan]: Downloading https://files.pythonhosted.org/packages/eb/a4/64996799e343536508520bf60683908b9dc24c8e4b9cd0700b4b6fce0121/magplan-3.3.0.tar.gz
+[2024-05-01 08:28:08] INFO root fetch - processPackages [scikit-robot]: executing diffoscope
+[2024-05-01 08:28:08] INFO root fetch - processPackages [scikit-robot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scikit-robot-0.0.8.tar.gz tmp/scikit-robot-0.0.9.tar.gz --markdown 20240501/s/scikit-robot/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-01 08:28:08] INFO root fetch - processPackages [magplan]: executing diffoscope
+[2024-05-01 08:28:08] INFO root fetch - processPackages [magplan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/magplan-3.2.0.tar.gz tmp/magplan-3.3.0.tar.gz --markdown 20240501/m/magplan/3.2.0-3.3.0/README.md --exclude *.pyd
+[2024-05-01 08:28:08] INFO root fetch - processPackages [AutoRAG]: Downloading https://files.pythonhosted.org/packages/a2/f5/be03930ff4d732a42750b98e50016b7b10fac8668234e1f79c4bf78dc37a/autorag-0.1.9.tar.gz
+[2024-05-01 08:28:08] INFO root fetch - processPackages [Akatosh]: Remove: archive file [/home/abi/fetcher/tmp/akatosh-3.0.2.tar.gz]
+[2024-05-01 08:28:08] INFO root fetch - processPackages [Akatosh]: Remove: archive file [/home/abi/fetcher/tmp/akatosh-3.0.3.tar.gz]
+[2024-05-01 08:28:08] INFO root fetch - main [MainThread]: End processing [Akatosh]: success
+[2024-05-01 08:28:09] INFO root fetch - processPackages [scikit-robot]: Remove: archive file [/home/abi/fetcher/tmp/scikit-robot-0.0.8.tar.gz]
+[2024-05-01 08:28:09] INFO root fetch - processPackages [scikit-robot]: Remove: archive file [/home/abi/fetcher/tmp/scikit-robot-0.0.9.tar.gz]
+[2024-05-01 08:28:09] INFO root fetch - main [MainThread]: End processing [scikit-robot]: success
+[2024-05-01 08:28:09] INFO root fetch - processPackages [magplan]: Remove: archive file [/home/abi/fetcher/tmp/magplan-3.2.0.tar.gz]
+[2024-05-01 08:28:09] INFO root fetch - processPackages [magplan]: Remove: archive file [/home/abi/fetcher/tmp/magplan-3.3.0.tar.gz]
+[2024-05-01 08:28:09] INFO root fetch - main [MainThread]: End processing [magplan]: success
+[2024-05-01 08:28:09] INFO root fetch - processPackages [AutoRAG]: executing diffoscope
+[2024-05-01 08:28:09] INFO root fetch - processPackages [AutoRAG]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autorag-0.1.8.tar.gz tmp/autorag-0.1.9.tar.gz --markdown 20240501/A/AutoRAG/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-01 08:28:11] INFO root fetch - processPackages [AutoRAG]: Remove: archive file [/home/abi/fetcher/tmp/autorag-0.1.8.tar.gz]
+[2024-05-01 08:28:11] INFO root fetch - processPackages [AutoRAG]: Remove: archive file [/home/abi/fetcher/tmp/autorag-0.1.9.tar.gz]
+[2024-05-01 08:28:11] INFO root fetch - main [MainThread]: End processing [AutoRAG]: success
+[2024-05-01 08:28:11] INFO root fetch - main [MainThread]: Store serial: [23013153]
