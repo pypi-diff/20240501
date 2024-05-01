@@ -10332,3 +10332,24 @@
 [2024-05-01 07:56:53] INFO root fetch - processPackages [pulumi-datadog]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_datadog-4.9.0a1653604828.tar.gz]
 [2024-05-01 07:56:53] INFO root fetch - main [MainThread]: End processing [pulumi-datadog]: success
 [2024-05-01 07:56:53] INFO root fetch - main [MainThread]: Store serial: [23012830]
+[2024-05-01 07:58:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23012830]
+[2024-05-01 07:59:02] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-01 07:59:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-fastly
+[2024-05-01 07:59:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: streamlit-shortcuts
+[2024-05-01 07:59:02] INFO root fetch - processPackages [pulumi-fastly]: New version: [8.7.0a1714455234] Old Version: [8.7.0a1714109672]
+[2024-05-01 07:59:02] INFO root fetch - processPackages [streamlit-shortcuts]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-01 07:59:02] INFO root fetch - processPackages [pulumi-fastly]: Downloading https://files.pythonhosted.org/packages/96/db/bcce02fe0ad3423ec491b54db6ff67f383477e7fac97a9b6e3f3d1c89020/pulumi_fastly-8.7.0a1714109672.tar.gz
+[2024-05-01 07:59:02] INFO root fetch - processPackages [streamlit-shortcuts]: Downloading https://files.pythonhosted.org/packages/d3/d2/98c2f57e73239c28adea074e0ad983b4fe9fbc90975fc427df4656333657/streamlit-shortcuts-0.1.2.tar.gz
+[2024-05-01 07:59:02] INFO root fetch - processPackages [pulumi-fastly]: Downloading https://files.pythonhosted.org/packages/38/d6/1147132a89d2d1ce16a86eeaa4da2ecad97841ae1ad49dd0faa2889c1c09/pulumi_fastly-8.7.0a1714455234.tar.gz
+[2024-05-01 07:59:03] INFO root fetch - processPackages [pulumi-fastly]: executing diffoscope
+[2024-05-01 07:59:03] INFO root fetch - processPackages [pulumi-fastly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_fastly-8.7.0a1714109672.tar.gz tmp/pulumi_fastly-8.7.0a1714455234.tar.gz --markdown 20240501/p/pulumi-fastly/8.7.0a1714109672-8.7.0a1714455234/README.md --exclude *.pyd
+[2024-05-01 07:59:03] INFO root fetch - processPackages [streamlit-shortcuts]: Downloading https://files.pythonhosted.org/packages/62/de/f210c798f80ba1b19fdcc21983a3c2eeadcc9dde7ed258d6de60bf083981/streamlit-shortcuts-0.1.3.tar.gz
+[2024-05-01 07:59:03] INFO root fetch - processPackages [streamlit-shortcuts]: executing diffoscope
+[2024-05-01 07:59:03] INFO root fetch - processPackages [streamlit-shortcuts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-shortcuts-0.1.2.tar.gz tmp/streamlit-shortcuts-0.1.3.tar.gz --markdown 20240501/s/streamlit-shortcuts/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-01 07:59:03] INFO root fetch - processPackages [streamlit-shortcuts]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-shortcuts-0.1.2.tar.gz]
+[2024-05-01 07:59:03] INFO root fetch - processPackages [streamlit-shortcuts]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-shortcuts-0.1.3.tar.gz]
+[2024-05-01 07:59:03] INFO root fetch - main [MainThread]: End processing [streamlit-shortcuts]: success
+[2024-05-01 07:59:03] INFO root fetch - processPackages [pulumi-fastly]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_fastly-8.7.0a1714109672.tar.gz]
+[2024-05-01 07:59:03] INFO root fetch - processPackages [pulumi-fastly]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_fastly-8.7.0a1714455234.tar.gz]
+[2024-05-01 07:59:03] INFO root fetch - main [MainThread]: End processing [pulumi-fastly]: success
+[2024-05-01 07:59:03] INFO root fetch - main [MainThread]: Store serial: [23012837]
