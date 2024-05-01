@@ -6865,3 +6865,42 @@
 [2024-05-01 03:43:59] INFO root fetch - processPackages [cellworld-game]: Remove: archive file [/home/abi/fetcher/tmp/cellworld_game-0.0.68.tar.gz]
 [2024-05-01 03:43:59] INFO root fetch - main [MainThread]: End processing [cellworld-game]: success
 [2024-05-01 03:43:59] INFO root fetch - main [MainThread]: Store serial: [23011310]
+[2024-05-01 03:46:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23011310]
+[2024-05-01 03:46:09] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-01 03:46:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: agixt
+[2024-05-01 03:46:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cf2tf
+[2024-05-01 03:46:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bxsolana-trader
+[2024-05-01 03:46:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: v4-proto
+[2024-05-01 03:46:09] INFO root fetch - processPackages [v4-proto]: New version: [5.0.0.dev0] Old Version: [4.1.1]
+[2024-05-01 03:46:09] INFO root fetch - processPackages [cf2tf]: New version: [0.7.2a6] Old Version: [0.7.2a5]
+[2024-05-01 03:46:09] INFO root fetch - processPackages [bxsolana-trader]: New version: [2.1.0] Old Version: [2.0.2]
+[2024-05-01 03:46:09] INFO root fetch - processPackages [agixt]: New version: [1.5.7] Old Version: [1.5.6]
+[2024-05-01 03:46:09] INFO root fetch - processPackages [v4-proto]: Downloading https://files.pythonhosted.org/packages/c1/de/88d50bece5d1acff904e8724cc3c385a814d32bfee6c4573c230caf81d93/v4-proto-4.1.1.tar.gz
+[2024-05-01 03:46:09] INFO root fetch - processPackages [bxsolana-trader]: Downloading https://files.pythonhosted.org/packages/4d/fa/688052789b2b7c1f1afa40ab5efb7401e930a94f13d1b92fa534e1518dd1/bxsolana_trader-2.0.2.tar.gz
+[2024-05-01 03:46:09] INFO root fetch - processPackages [cf2tf]: Downloading https://files.pythonhosted.org/packages/c9/c1/dbff7cc2b5245e5ba890e3d2db36485e4652087ceaa455768ee1b3fa6508/cf2tf-0.7.2a5.tar.gz
+[2024-05-01 03:46:09] INFO root fetch - processPackages [agixt]: Downloading https://files.pythonhosted.org/packages/bf/8e/0b82729d954c0ec8f5ccc011594c6e219cb29777c6427530a09fff6040a4/agixt-1.5.6-py3-none-any.whl
+[2024-05-01 03:46:09] INFO root fetch - processPackages [v4-proto]: Downloading https://files.pythonhosted.org/packages/71/15/0bc0568edc00e5e4f1fcff2a40ea2584a765f14f97b0417327b194acec24/v4-proto-5.0.0.dev0.tar.gz
+[2024-05-01 03:46:09] INFO root fetch - processPackages [bxsolana-trader]: Downloading https://files.pythonhosted.org/packages/e1/f0/859ffb0401bd2ee8363abe691a0fa1648acab4f9b62c0ca18875a5c254fa/bxsolana-trader-2.1.0.tar.gz
+[2024-05-01 03:46:09] INFO root fetch - processPackages [v4-proto]: executing diffoscope
+[2024-05-01 03:46:09] INFO root fetch - processPackages [v4-proto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/v4-proto-4.1.1.tar.gz tmp/v4-proto-5.0.0.dev0.tar.gz --markdown 20240501/v/v4-proto/4.1.1-5.0.0.dev0/README.md --exclude *.pyd
+[2024-05-01 03:46:09] INFO root fetch - processPackages [cf2tf]: Downloading https://files.pythonhosted.org/packages/b3/2a/b3a3573434d401fc3c91c507e9f64ce9f5453999735d42f5bdbc7f0b745e/cf2tf-0.7.2a6.tar.gz
+[2024-05-01 03:46:09] INFO root fetch - processPackages [agixt]: Downloading https://files.pythonhosted.org/packages/14/2b/bb2fbf59b84aa73725e1c6159be96c1c3d8176edebd248d8b4423bbf8d57/agixt-1.5.7-py3-none-any.whl
+[2024-05-01 03:46:09] INFO root fetch - processPackages [bxsolana-trader]: executing diffoscope
+[2024-05-01 03:46:09] INFO root fetch - processPackages [bxsolana-trader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bxsolana_trader-2.0.2.tar.gz tmp/bxsolana-trader-2.1.0.tar.gz --markdown 20240501/b/bxsolana-trader/2.0.2-2.1.0/README.md --exclude *.pyd
+[2024-05-01 03:46:09] INFO root fetch - processPackages [cf2tf]: executing diffoscope
+[2024-05-01 03:46:09] INFO root fetch - processPackages [cf2tf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cf2tf-0.7.2a5.tar.gz tmp/cf2tf-0.7.2a6.tar.gz --markdown 20240501/c/cf2tf/0.7.2a5-0.7.2a6/README.md --exclude *.pyd
+[2024-05-01 03:46:09] INFO root fetch - processPackages [agixt]: executing diffoscope
+[2024-05-01 03:46:09] INFO root fetch - processPackages [agixt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agixt-1.5.6-py3-none-any.whl.zip tmp/agixt-1.5.7-py3-none-any.whl.zip --markdown 20240501/a/agixt/1.5.6-1.5.7/README.md --exclude *.pyd
+[2024-05-01 03:46:10] INFO root fetch - processPackages [cf2tf]: Remove: archive file [/home/abi/fetcher/tmp/cf2tf-0.7.2a5.tar.gz]
+[2024-05-01 03:46:10] INFO root fetch - processPackages [cf2tf]: Remove: archive file [/home/abi/fetcher/tmp/cf2tf-0.7.2a6.tar.gz]
+[2024-05-01 03:46:10] INFO root fetch - main [MainThread]: End processing [cf2tf]: success
+[2024-05-01 03:46:10] INFO root fetch - processPackages [bxsolana-trader]: Remove: archive file [/home/abi/fetcher/tmp/bxsolana_trader-2.0.2.tar.gz]
+[2024-05-01 03:46:10] INFO root fetch - processPackages [bxsolana-trader]: Remove: archive file [/home/abi/fetcher/tmp/bxsolana-trader-2.1.0.tar.gz]
+[2024-05-01 03:46:10] INFO root fetch - main [MainThread]: End processing [bxsolana-trader]: success
+[2024-05-01 03:46:10] INFO root fetch - processPackages [agixt]: Remove: archive file [/home/abi/fetcher/tmp/agixt-1.5.6-py3-none-any.whl.zip]
+[2024-05-01 03:46:10] INFO root fetch - processPackages [agixt]: Remove: archive file [/home/abi/fetcher/tmp/agixt-1.5.7-py3-none-any.whl.zip]
+[2024-05-01 03:46:10] INFO root fetch - main [MainThread]: End processing [agixt]: success
+[2024-05-01 03:46:13] INFO root fetch - processPackages [v4-proto]: Remove: archive file [/home/abi/fetcher/tmp/v4-proto-4.1.1.tar.gz]
+[2024-05-01 03:46:13] INFO root fetch - processPackages [v4-proto]: Remove: archive file [/home/abi/fetcher/tmp/v4-proto-5.0.0.dev0.tar.gz]
+[2024-05-01 03:46:13] INFO root fetch - main [MainThread]: End processing [v4-proto]: success
+[2024-05-01 03:46:13] INFO root fetch - main [MainThread]: Store serial: [23011321]
