@@ -16106,3 +16106,48 @@
 [2024-05-01 12:55:53] INFO root fetch - processPackages [lusid-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-sdk-preview-1.1.98.tar.gz]
 [2024-05-01 12:55:53] INFO root fetch - main [MainThread]: End processing [lusid-sdk-preview]: success
 [2024-05-01 12:55:53] INFO root fetch - main [MainThread]: Store serial: [23015444]
+[2024-05-01 12:57:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23015444]
+[2024-05-01 12:58:02] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-01 12:58:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-docker
+[2024-05-01 12:58:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dcspy
+[2024-05-01 12:58:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: traceloop-sdk
+[2024-05-01 12:58:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mimllearning
+[2024-05-01 12:58:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pytest-neos
+[2024-05-01 12:58:03] INFO root fetch - processPackages [mimllearning]: New version: [0.2.8] Old Version: [0.2.7]
+[2024-05-01 12:58:03] INFO root fetch - processPackages [pulumi-docker]: New version: [4.7.0a1705628423] Old Version: [4.7.0a1705607229]
+[2024-05-01 12:58:03] INFO root fetch - processPackages [dcspy]: New version: [3.4.0] Old Version: [3.3.0]
+[2024-05-01 12:58:03] INFO root fetch - processPackages [mimllearning]: Downloading https://files.pythonhosted.org/packages/13/b9/8bb20d442048ff0f02ace28fa1714fba7126b12be0fd8f2a9cb25c223e06/mimllearning-0.2.7.tar.gz
+[2024-05-01 12:58:03] INFO root fetch - processPackages [traceloop-sdk]: New version: [0.9.4] Old Version: [0.9.3]
+[2024-05-01 12:58:03] INFO root fetch - processPackages [pulumi-docker]: Downloading https://files.pythonhosted.org/packages/60/4d/20db01394ae207e38e34244a087a77010c3163b5176d5ed60b9e938b94df/pulumi_docker-4.7.0a1705607229.tar.gz
+[2024-05-01 12:58:03] INFO root fetch - processPackages [pytest-neos]: New version: [0.1.0] Old Version: [0.0.1]
+[2024-05-01 12:58:03] INFO root fetch - processPackages [dcspy]: Downloading https://files.pythonhosted.org/packages/2f/60/f38ab237fdc153a888d328fa73cb7fef1483406909b46e44fe1f9ea17efd/dcspy-3.3.0.tar.gz
+[2024-05-01 12:58:03] INFO root fetch - processPackages [pulumi-docker]: Downloading https://files.pythonhosted.org/packages/3a/93/a866b50173039bae813e131505cf7ed97c33cb79c113926b2b63dfd1caf2/pulumi_docker-4.7.0a1705628423.tar.gz
+[2024-05-01 12:58:03] INFO root fetch - processPackages [traceloop-sdk]: Downloading https://files.pythonhosted.org/packages/71/52/a865ce901951f5201da24334b1278104b1b370b18ce9595ea9035a6c3a0e/traceloop_sdk-0.9.3.tar.gz
+[2024-05-01 12:58:03] INFO root fetch - processPackages [pytest-neos]: Downloading https://files.pythonhosted.org/packages/1a/b2/bd186562fe31e8fdd6424037b58788ebaa1d7124df1fc29c1f083408ffb1/pytest_neos-0.0.1.tar.gz
+[2024-05-01 12:58:03] INFO root fetch - processPackages [mimllearning]: Downloading https://files.pythonhosted.org/packages/36/1c/993a41e739f8874ea307c16f8f57c4e8d6f00573d4939419a1d160b6d424/mimllearning-0.2.8.tar.gz
+[2024-05-01 12:58:03] INFO root fetch - processPackages [pulumi-docker]: executing diffoscope
+[2024-05-01 12:58:03] INFO root fetch - processPackages [pulumi-docker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_docker-4.7.0a1705607229.tar.gz tmp/pulumi_docker-4.7.0a1705628423.tar.gz --markdown 20240501/p/pulumi-docker/4.7.0a1705607229-4.7.0a1705628423/README.md --exclude *.pyd
+[2024-05-01 12:58:03] INFO root fetch - processPackages [mimllearning]: executing diffoscope
+[2024-05-01 12:58:03] INFO root fetch - processPackages [mimllearning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mimllearning-0.2.7.tar.gz tmp/mimllearning-0.2.8.tar.gz --markdown 20240501/m/mimllearning/0.2.7-0.2.8/README.md --exclude *.pyd
+[2024-05-01 12:58:03] INFO root fetch - processPackages [traceloop-sdk]: Downloading https://files.pythonhosted.org/packages/ae/ca/192dff20dadbfa74c05ff4b865462f41b6cb019752812778ed2fbe2b45db/traceloop_sdk-0.9.4.tar.gz
+[2024-05-01 12:58:04] INFO root fetch - processPackages [pytest-neos]: Downloading https://files.pythonhosted.org/packages/6e/cd/f6860b2fcfe1ef594dfe22c390d95474ed622717db4d0aec10560968334e/pytest_neos-0.1.0-py3-none-any.whl
+[2024-05-01 12:58:04] INFO root fetch - processPackages [traceloop-sdk]: executing diffoscope
+[2024-05-01 12:58:04] INFO root fetch - processPackages [traceloop-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/traceloop_sdk-0.9.3.tar.gz tmp/traceloop_sdk-0.9.4.tar.gz --markdown 20240501/t/traceloop-sdk/0.9.3-0.9.4/README.md --exclude *.pyd
+[2024-05-01 12:58:04] INFO root fetch - processPackages [pytest-neos]: executing diffoscope
+[2024-05-01 12:58:04] INFO root fetch - processPackages [pytest-neos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_neos-0.0.1.tar.gz tmp/pytest_neos-0.1.0-py3-none-any.whl.zip --markdown 20240501/p/pytest-neos/0.0.1-0.1.0/README.md --exclude *.pyd
+[2024-05-01 12:58:04] INFO root fetch - processPackages [pulumi-docker]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_docker-4.7.0a1705607229.tar.gz]
+[2024-05-01 12:58:04] INFO root fetch - processPackages [pulumi-docker]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_docker-4.7.0a1705628423.tar.gz]
+[2024-05-01 12:58:04] INFO root fetch - main [MainThread]: End processing [pulumi-docker]: success
+[2024-05-01 12:58:04] INFO root fetch - processPackages [traceloop-sdk]: Remove: archive file [/home/abi/fetcher/tmp/traceloop_sdk-0.9.3.tar.gz]
+[2024-05-01 12:58:04] INFO root fetch - processPackages [traceloop-sdk]: Remove: archive file [/home/abi/fetcher/tmp/traceloop_sdk-0.9.4.tar.gz]
+[2024-05-01 12:58:04] INFO root fetch - main [MainThread]: End processing [traceloop-sdk]: success
+[2024-05-01 12:58:04] INFO root fetch - processPackages [dcspy]: Downloading https://files.pythonhosted.org/packages/ea/00/b8ae24277ddb5fdd7ecc7198b2e4f372fe312dbefe534dc9326a4bf60e76/dcspy-3.4.0.tar.gz
+[2024-05-01 12:58:04] WARNING root fetch - processPackages [dcspy]: Skipping package: exceeds size limit 14031117>=10485760
+[2024-05-01 12:58:04] INFO root fetch - main [MainThread]: End processing [dcspy] error
+[2024-05-01 12:58:04] INFO root fetch - processPackages [mimllearning]: Remove: archive file [/home/abi/fetcher/tmp/mimllearning-0.2.7.tar.gz]
+[2024-05-01 12:58:04] INFO root fetch - processPackages [mimllearning]: Remove: archive file [/home/abi/fetcher/tmp/mimllearning-0.2.8.tar.gz]
+[2024-05-01 12:58:04] INFO root fetch - main [MainThread]: End processing [mimllearning]: success
+[2024-05-01 12:58:04] INFO root fetch - processPackages [pytest-neos]: Remove: archive file [/home/abi/fetcher/tmp/pytest_neos-0.0.1.tar.gz]
+[2024-05-01 12:58:04] INFO root fetch - processPackages [pytest-neos]: Remove: archive file [/home/abi/fetcher/tmp/pytest_neos-0.1.0-py3-none-any.whl.zip]
+[2024-05-01 12:58:04] INFO root fetch - main [MainThread]: End processing [pytest-neos]: success
+[2024-05-01 12:58:04] INFO root fetch - main [MainThread]: Store serial: [23015456]
