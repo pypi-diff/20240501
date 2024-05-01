@@ -13200,3 +13200,24 @@
 [2024-05-01 10:36:28] INFO root fetch - processPackages [rofimoji]: Remove: archive file [/home/abi/fetcher/tmp/rofimoji-6.3.0.tar.gz]
 [2024-05-01 10:36:28] INFO root fetch - main [MainThread]: End processing [rofimoji]: success
 [2024-05-01 10:36:28] INFO root fetch - main [MainThread]: Store serial: [23014223]
+[2024-05-01 10:38:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23014223]
+[2024-05-01 10:38:37] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-01 10:38:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: asusrouter
+[2024-05-01 10:38:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wah
+[2024-05-01 10:38:37] INFO root fetch - processPackages [wah]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-01 10:38:37] INFO root fetch - processPackages [wah]: Downloading https://files.pythonhosted.org/packages/1e/98/86b56f53d2270da5a315b2f0d5733e61fd0dabbbde1d17bcff2dd938939e/wah-0.1.8.tar.gz
+[2024-05-01 10:38:37] INFO root fetch - processPackages [asusrouter]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-01 10:38:37] INFO root fetch - processPackages [wah]: Downloading https://files.pythonhosted.org/packages/6c/57/7be641139065b67640542a312a3988d0a93024cdc145ea667b7e8d432eb8/wah-0.1.9.tar.gz
+[2024-05-01 10:38:38] INFO root fetch - processPackages [asusrouter]: Downloading https://files.pythonhosted.org/packages/c9/52/73dbd448a60e3a123f126af03b3af0ef7598048b28123d904e6f5a791401/asusrouter-1.8.0.tar.gz
+[2024-05-01 10:38:38] INFO root fetch - processPackages [wah]: executing diffoscope
+[2024-05-01 10:38:38] INFO root fetch - processPackages [wah]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wah-0.1.8.tar.gz tmp/wah-0.1.9.tar.gz --markdown 20240501/w/wah/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-01 10:38:38] INFO root fetch - processPackages [asusrouter]: Downloading https://files.pythonhosted.org/packages/26/39/f023d9f55f5e5c6fe0e76cca81af1c17ef5389b48d8e95410c159ca75629/asusrouter-1.9.0.tar.gz
+[2024-05-01 10:38:38] INFO root fetch - processPackages [wah]: Remove: archive file [/home/abi/fetcher/tmp/wah-0.1.8.tar.gz]
+[2024-05-01 10:38:38] INFO root fetch - processPackages [wah]: Remove: archive file [/home/abi/fetcher/tmp/wah-0.1.9.tar.gz]
+[2024-05-01 10:38:38] INFO root fetch - main [MainThread]: End processing [wah]: success
+[2024-05-01 10:38:38] INFO root fetch - processPackages [asusrouter]: executing diffoscope
+[2024-05-01 10:38:38] INFO root fetch - processPackages [asusrouter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asusrouter-1.8.0.tar.gz tmp/asusrouter-1.9.0.tar.gz --markdown 20240501/a/asusrouter/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-05-01 10:38:39] INFO root fetch - processPackages [asusrouter]: Remove: archive file [/home/abi/fetcher/tmp/asusrouter-1.8.0.tar.gz]
+[2024-05-01 10:38:39] INFO root fetch - processPackages [asusrouter]: Remove: archive file [/home/abi/fetcher/tmp/asusrouter-1.9.0.tar.gz]
+[2024-05-01 10:38:39] INFO root fetch - main [MainThread]: End processing [asusrouter]: success
+[2024-05-01 10:38:39] INFO root fetch - main [MainThread]: Store serial: [23014229]
