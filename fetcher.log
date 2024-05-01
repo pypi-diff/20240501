@@ -1664,3 +1664,44 @@
 [2024-05-01 01:58:16] INFO root fetch - processPackages [DiadFit]: Remove: archive file [/home/abi/fetcher/tmp/DiadFit-0.0.90.tar.gz]
 [2024-05-01 01:58:16] INFO root fetch - main [MainThread]: End processing [DiadFit]: success
 [2024-05-01 01:58:16] INFO root fetch - main [MainThread]: Store serial: [23009445]
+[2024-05-01 02:00:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23009445]
+[2024-05-01 02:00:25] INFO root fetch - main [MainThread]: No changed packages found
+[2024-05-01 02:02:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23009446]
+[2024-05-01 02:02:30] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-01 02:02:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: efficientvit-gml
+[2024-05-01 02:02:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: reactivated
+[2024-05-01 02:02:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: camlhmp
+[2024-05-01 02:02:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: airbyte-source-salesforce
+[2024-05-01 02:02:31] INFO root fetch - processPackages [airbyte-source-salesforce]: New version: [2.5.7] Old Version: [2.5.6]
+[2024-05-01 02:02:31] INFO root fetch - processPackages [reactivated]: New version: [3.0.0a64] Old Version: [0.9.0]
+[2024-05-01 02:02:31] INFO root fetch - processPackages [efficientvit-gml]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-05-01 02:02:31] INFO root fetch - processPackages [airbyte-source-salesforce]: Downloading https://files.pythonhosted.org/packages/64/2c/0554a93a989ec7d715168ff7a3ae6b93177409524c966f6d9d752bd1b64a/airbyte_source_salesforce-2.5.6.tar.gz
+[2024-05-01 02:02:31] INFO root fetch - processPackages [camlhmp]: New version: [0.1.0] Old Version: [0.0.1]
+[2024-05-01 02:02:31] INFO root fetch - processPackages [reactivated]: Downloading https://files.pythonhosted.org/packages/1a/71/35446a123e19409f94888e6e11acb49110c8ff7c7a45a894cb072e06ec46/reactivated-0.9.0.tar.gz
+[2024-05-01 02:02:31] INFO root fetch - processPackages [efficientvit-gml]: Downloading https://files.pythonhosted.org/packages/3f/72/83b8afbce0fd47db92a1ab0a5f46e35b78c0568303a021f592d5be8bdbcf/efficientvit_gml-0.1.7-py3-none-any.whl
+[2024-05-01 02:02:31] INFO root fetch - processPackages [airbyte-source-salesforce]: Downloading https://files.pythonhosted.org/packages/89/c6/b6ab7d7e970da1396e4812f9bb648cc2e1fffe7dbf8daa31854c15a02655/airbyte_source_salesforce-2.5.7.tar.gz
+[2024-05-01 02:02:31] INFO root fetch - processPackages [camlhmp]: Downloading https://files.pythonhosted.org/packages/06/53/0dd3333039d138f42cd5dfc3a733ed0a1de4d4cfd1f6bceab16790d9acba/camlhmp-0.0.1.tar.gz
+[2024-05-01 02:02:31] INFO root fetch - processPackages [reactivated]: Downloading https://files.pythonhosted.org/packages/bc/d8/5e07e04244e84ca0f743649c1aa5514ec10843e552f82eb830dbb5e7cca7/reactivated-3.0.0a64.tar.gz
+[2024-05-01 02:02:31] INFO root fetch - processPackages [airbyte-source-salesforce]: executing diffoscope
+[2024-05-01 02:02:31] INFO root fetch - processPackages [airbyte-source-salesforce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte_source_salesforce-2.5.6.tar.gz tmp/airbyte_source_salesforce-2.5.7.tar.gz --markdown 20240501/a/airbyte-source-salesforce/2.5.6-2.5.7/README.md --exclude *.pyd
+[2024-05-01 02:02:31] INFO root fetch - processPackages [reactivated]: executing diffoscope
+[2024-05-01 02:02:31] INFO root fetch - processPackages [reactivated]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reactivated-0.9.0.tar.gz tmp/reactivated-3.0.0a64.tar.gz --markdown 20240501/r/reactivated/0.9.0-3.0.0a64/README.md --exclude *.pyd
+[2024-05-01 02:02:31] INFO root fetch - processPackages [efficientvit-gml]: Downloading https://files.pythonhosted.org/packages/bf/c2/24c146967f55d4171abbc7457e8e34d7f565912e79f947507a2c74e0f6c4/efficientvit_gml-0.1.8-py3-none-any.whl
+[2024-05-01 02:02:31] INFO root fetch - processPackages [camlhmp]: Downloading https://files.pythonhosted.org/packages/4d/f0/90bcd69982dcc0de0b3269b7f3fe1227ccef6e55c447cecd4eee3ad36826/camlhmp-0.1.0.tar.gz
+[2024-05-01 02:02:31] INFO root fetch - processPackages [efficientvit-gml]: executing diffoscope
+[2024-05-01 02:02:31] INFO root fetch - processPackages [efficientvit-gml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/efficientvit_gml-0.1.7-py3-none-any.whl.zip tmp/efficientvit_gml-0.1.8-py3-none-any.whl.zip --markdown 20240501/e/efficientvit-gml/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-05-01 02:02:31] INFO root fetch - processPackages [camlhmp]: executing diffoscope
+[2024-05-01 02:02:31] INFO root fetch - processPackages [camlhmp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/camlhmp-0.0.1.tar.gz tmp/camlhmp-0.1.0.tar.gz --markdown 20240501/c/camlhmp/0.0.1-0.1.0/README.md --exclude *.pyd
+[2024-05-01 02:02:32] INFO root fetch - processPackages [airbyte-source-salesforce]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_salesforce-2.5.6.tar.gz]
+[2024-05-01 02:02:32] INFO root fetch - processPackages [airbyte-source-salesforce]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_salesforce-2.5.7.tar.gz]
+[2024-05-01 02:02:32] INFO root fetch - main [MainThread]: End processing [airbyte-source-salesforce]: success
+[2024-05-01 02:02:32] INFO root fetch - processPackages [reactivated]: Remove: archive file [/home/abi/fetcher/tmp/reactivated-0.9.0.tar.gz]
+[2024-05-01 02:02:32] INFO root fetch - processPackages [reactivated]: Remove: archive file [/home/abi/fetcher/tmp/reactivated-3.0.0a64.tar.gz]
+[2024-05-01 02:02:32] INFO root fetch - main [MainThread]: End processing [reactivated]: success
+[2024-05-01 02:02:32] INFO root fetch - processPackages [camlhmp]: Remove: archive file [/home/abi/fetcher/tmp/camlhmp-0.0.1.tar.gz]
+[2024-05-01 02:02:32] INFO root fetch - processPackages [camlhmp]: Remove: archive file [/home/abi/fetcher/tmp/camlhmp-0.1.0.tar.gz]
+[2024-05-01 02:02:32] INFO root fetch - main [MainThread]: End processing [camlhmp]: success
+[2024-05-01 02:02:32] INFO root fetch - processPackages [efficientvit-gml]: Remove: archive file [/home/abi/fetcher/tmp/efficientvit_gml-0.1.7-py3-none-any.whl.zip]
+[2024-05-01 02:02:32] INFO root fetch - processPackages [efficientvit-gml]: Remove: archive file [/home/abi/fetcher/tmp/efficientvit_gml-0.1.8-py3-none-any.whl.zip]
+[2024-05-01 02:02:32] INFO root fetch - main [MainThread]: End processing [efficientvit-gml]: success
+[2024-05-01 02:02:32] INFO root fetch - main [MainThread]: Store serial: [23009457]
