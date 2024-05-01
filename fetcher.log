@@ -13113,3 +13113,33 @@
 [2024-05-01 10:32:05] INFO root fetch - processPackages [pysma-plus]: Remove: archive file [/home/abi/fetcher/tmp/pysma_plus-0.2.0.tar.gz]
 [2024-05-01 10:32:05] INFO root fetch - main [MainThread]: End processing [pysma-plus]: success
 [2024-05-01 10:32:05] INFO root fetch - main [MainThread]: Store serial: [23014187]
+[2024-05-01 10:34:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23014187]
+[2024-05-01 10:34:14] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-01 10:34:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: studcamp-yandex-hse
+[2024-05-01 10:34:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: data-factory-testing-framework
+[2024-05-01 10:34:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: flickr-photos-api
+[2024-05-01 10:34:14] INFO root fetch - processPackages [data-factory-testing-framework]: New version: [0.2.7] Old Version: [0.2.6]
+[2024-05-01 10:34:14] INFO root fetch - processPackages [data-factory-testing-framework]: Downloading https://files.pythonhosted.org/packages/e8/e2/9578003c06d9c0f094879b8a0f1a88ba9d2736922cf9f173fef85e5dc030/data_factory_testing_framework-0.2.6.tar.gz
+[2024-05-01 10:34:14] INFO root fetch - processPackages [flickr-photos-api]: New version: [2.1.2] Old Version: [2.1.1]
+[2024-05-01 10:34:14] INFO root fetch - processPackages [studcamp-yandex-hse]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-01 10:34:14] INFO root fetch - processPackages [studcamp-yandex-hse]: Downloading https://files.pythonhosted.org/packages/e1/89/47459c38c3b0351664e05712886b4aac01fccd78224e0a7b0196dd4f2523/studcamp_yandex_hse-0.1.1.tar.gz
+[2024-05-01 10:34:14] INFO root fetch - processPackages [flickr-photos-api]: Downloading https://files.pythonhosted.org/packages/b7/71/98f60c5fc9c109c19b580f14bdcac2595c9b3a4ec6b8f419a873278bc769/flickr_photos_api-2.1.1.tar.gz
+[2024-05-01 10:34:14] INFO root fetch - processPackages [data-factory-testing-framework]: Downloading https://files.pythonhosted.org/packages/8d/5e/c95a488931083a217459b7c786bf8fc57e0c14bff1e99e45b33934539939/data_factory_testing_framework-0.2.7.tar.gz
+[2024-05-01 10:34:15] INFO root fetch - processPackages [data-factory-testing-framework]: executing diffoscope
+[2024-05-01 10:34:15] INFO root fetch - processPackages [data-factory-testing-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data_factory_testing_framework-0.2.6.tar.gz tmp/data_factory_testing_framework-0.2.7.tar.gz --markdown 20240501/d/data-factory-testing-framework/0.2.6-0.2.7/README.md --exclude *.pyd
+[2024-05-01 10:34:15] INFO root fetch - processPackages [studcamp-yandex-hse]: Downloading https://files.pythonhosted.org/packages/16/cf/77416702228aee68fdf383c23bcbb73e28379ea1095f083f3c31401edcca/studcamp_yandex_hse-0.1.2.tar.gz
+[2024-05-01 10:34:15] INFO root fetch - processPackages [flickr-photos-api]: Downloading https://files.pythonhosted.org/packages/fc/41/2ca83c6d1732a50cb7098164e1a9fc0d8fa3ae44723c8f7d4c2d43200b5c/flickr_photos_api-2.1.2.tar.gz
+[2024-05-01 10:34:15] INFO root fetch - processPackages [studcamp-yandex-hse]: executing diffoscope
+[2024-05-01 10:34:15] INFO root fetch - processPackages [studcamp-yandex-hse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/studcamp_yandex_hse-0.1.1.tar.gz tmp/studcamp_yandex_hse-0.1.2.tar.gz --markdown 20240501/s/studcamp-yandex-hse/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-01 10:34:15] INFO root fetch - processPackages [flickr-photos-api]: executing diffoscope
+[2024-05-01 10:34:15] INFO root fetch - processPackages [flickr-photos-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flickr_photos_api-2.1.1.tar.gz tmp/flickr_photos_api-2.1.2.tar.gz --markdown 20240501/f/flickr-photos-api/2.1.1-2.1.2/README.md --exclude *.pyd
+[2024-05-01 10:34:15] INFO root fetch - processPackages [data-factory-testing-framework]: Remove: archive file [/home/abi/fetcher/tmp/data_factory_testing_framework-0.2.6.tar.gz]
+[2024-05-01 10:34:15] INFO root fetch - processPackages [data-factory-testing-framework]: Remove: archive file [/home/abi/fetcher/tmp/data_factory_testing_framework-0.2.7.tar.gz]
+[2024-05-01 10:34:15] INFO root fetch - main [MainThread]: End processing [data-factory-testing-framework]: success
+[2024-05-01 10:34:15] INFO root fetch - processPackages [flickr-photos-api]: Remove: archive file [/home/abi/fetcher/tmp/flickr_photos_api-2.1.1.tar.gz]
+[2024-05-01 10:34:15] INFO root fetch - processPackages [flickr-photos-api]: Remove: archive file [/home/abi/fetcher/tmp/flickr_photos_api-2.1.2.tar.gz]
+[2024-05-01 10:34:15] INFO root fetch - main [MainThread]: End processing [flickr-photos-api]: success
+[2024-05-01 10:34:15] INFO root fetch - processPackages [studcamp-yandex-hse]: Remove: archive file [/home/abi/fetcher/tmp/studcamp_yandex_hse-0.1.1.tar.gz]
+[2024-05-01 10:34:15] INFO root fetch - processPackages [studcamp-yandex-hse]: Remove: archive file [/home/abi/fetcher/tmp/studcamp_yandex_hse-0.1.2.tar.gz]
+[2024-05-01 10:34:15] INFO root fetch - main [MainThread]: End processing [studcamp-yandex-hse]: success
+[2024-05-01 10:34:15] INFO root fetch - main [MainThread]: Store serial: [23014197]
