@@ -14261,3 +14261,27 @@
 [2024-05-01 11:33:36] INFO root fetch - processPackages [pyntcli]: Remove: archive file [/home/abi/fetcher/tmp/pyntcli-0.1.81-py3-none-any.whl.zip]
 [2024-05-01 11:33:36] INFO root fetch - main [MainThread]: End processing [pyntcli]: success
 [2024-05-01 11:33:36] INFO root fetch - main [MainThread]: Store serial: [23014755]
+[2024-05-01 11:35:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23014755]
+[2024-05-01 11:35:44] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-01 11:35:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: impresso-text-importer
+[2024-05-01 11:35:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nvfuser-cu118
+[2024-05-01 11:35:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: manyhttp
+[2024-05-01 11:35:45] INFO root fetch - processPackages [impresso-text-importer]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-05-01 11:35:45] WARNING root fetch - processPackages [manyhttp]: Skipping, unable to determine old version
+[2024-05-01 11:35:45] INFO root fetch - main [MainThread]: End processing [manyhttp] error
+[2024-05-01 11:35:45] INFO root fetch - processPackages [nvfuser-cu118]: New version: [0.2.3.dev20240501] Old Version: [0.2.3.dev20240428]
+[2024-05-01 11:35:45] INFO root fetch - processPackages [impresso-text-importer]: Downloading https://files.pythonhosted.org/packages/3d/3e/1a3c2cc8e6fe99fc5087fc779b6648c852121377d18fa030801c84051182/impresso_text_importer-1.0.0.tar.gz
+[2024-05-01 11:35:45] INFO root fetch - processPackages [nvfuser-cu118]: Downloading https://files.pythonhosted.org/packages/9a/ff/1a87571f00891221274ef4d347a604ea771d193d616f4fcf469676ef6410/nvfuser_cu118-0.2.3.dev20240428.tar.gz
+[2024-05-01 11:35:45] INFO root fetch - processPackages [impresso-text-importer]: Downloading https://files.pythonhosted.org/packages/cc/7e/48bc0bb9ecadaa3d9535940ed7d72be27de27f2b128cac3bf4acb9e37bb9/impresso_text_importer-1.1.0.tar.gz
+[2024-05-01 11:35:45] INFO root fetch - processPackages [nvfuser-cu118]: Downloading https://files.pythonhosted.org/packages/40/97/230f68336985c19d5317466cf2f3ae66c05b161bb93c44edbeda440e53dd/nvfuser_cu118-0.2.3.dev20240501.tar.gz
+[2024-05-01 11:35:45] INFO root fetch - processPackages [nvfuser-cu118]: executing diffoscope
+[2024-05-01 11:35:45] INFO root fetch - processPackages [nvfuser-cu118]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvfuser_cu118-0.2.3.dev20240428.tar.gz tmp/nvfuser_cu118-0.2.3.dev20240501.tar.gz --markdown 20240501/n/nvfuser-cu118/0.2.3.dev20240428-0.2.3.dev20240501/README.md --exclude *.pyd
+[2024-05-01 11:35:45] INFO root fetch - processPackages [impresso-text-importer]: executing diffoscope
+[2024-05-01 11:35:45] INFO root fetch - processPackages [impresso-text-importer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/impresso_text_importer-1.0.0.tar.gz tmp/impresso_text_importer-1.1.0.tar.gz --markdown 20240501/i/impresso-text-importer/1.0.0-1.1.0/README.md --exclude *.pyd
+[2024-05-01 11:35:46] INFO root fetch - processPackages [nvfuser-cu118]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu118-0.2.3.dev20240428.tar.gz]
+[2024-05-01 11:35:46] INFO root fetch - processPackages [nvfuser-cu118]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu118-0.2.3.dev20240501.tar.gz]
+[2024-05-01 11:35:46] INFO root fetch - main [MainThread]: End processing [nvfuser-cu118]: success
+[2024-05-01 11:35:46] INFO root fetch - processPackages [impresso-text-importer]: Remove: archive file [/home/abi/fetcher/tmp/impresso_text_importer-1.0.0.tar.gz]
+[2024-05-01 11:35:46] INFO root fetch - processPackages [impresso-text-importer]: Remove: archive file [/home/abi/fetcher/tmp/impresso_text_importer-1.1.0.tar.gz]
+[2024-05-01 11:35:46] INFO root fetch - main [MainThread]: End processing [impresso-text-importer]: success
+[2024-05-01 11:35:46] INFO root fetch - main [MainThread]: Store serial: [23014767]
