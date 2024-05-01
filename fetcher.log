@@ -22760,3 +22760,84 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-01 16:41:09] INFO root fetch - main [MainThread]: End processing [prometheus-eval]: success
 [2024-05-01 16:41:09] INFO root fetch - main [MainThread]: End processing [prometheus-eval]: success
 [2024-05-01 16:41:09] INFO root fetch - main [MainThread]: Store serial: [23018138]
+[2024-05-01 16:43:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23018138]
+[2024-05-01 16:43:17] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-01 16:43:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mimllearning
+[2024-05-01 16:43:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cudf-cu11
+[2024-05-01 16:43:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sentry-forked-djangorestframework-stubs
+[2024-05-01 16:43:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyscf-dispersion
+[2024-05-01 16:43:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: datajunction-server
+[2024-05-01 16:43:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: datajunction-query
+[2024-05-01 16:43:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: homeassistant
+[2024-05-01 16:43:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: datajunction-reflection
+[2024-05-01 16:43:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: prometheus-eval
+[2024-05-01 16:43:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: izio-cli
+[2024-05-01 16:43:18] INFO root fetch - processPackages [prometheus-eval]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-01 16:43:18] INFO root fetch - processPackages [homeassistant]: New version: [2024.5.0b6] Old Version: [2024.5.0b5]
+[2024-05-01 16:43:18] INFO root fetch - processPackages [mimllearning]: New version: [0.2.8] Old Version: [0.2.7]
+[2024-05-01 16:43:18] INFO root fetch - processPackages [sentry-forked-djangorestframework-stubs]: New version: [3.15.0.post1] Old Version: [3.14.5.post1]
+[2024-05-01 16:43:18] INFO root fetch - processPackages [pyscf-dispersion]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-01 16:43:18] INFO root fetch - processPackages [cudf-cu11]: New version: [24.4.1] Old Version: [24.4.0]
+[2024-05-01 16:43:18] INFO root fetch - processPackages [datajunction-query]: New version: [0.0.1a46] Old Version: [0.0.1a45]
+[2024-05-01 16:43:18] INFO root fetch - processPackages [datajunction-server]: New version: [0.0.1a8] Old Version: [0.0.1a7]
+[2024-05-01 16:43:18] INFO root fetch - processPackages [datajunction-reflection]: New version: [0.0.1a46] Old Version: [0.0.1a45]
+[2024-05-01 16:43:18] INFO root fetch - processPackages [izio-cli]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-01 16:43:18] INFO root fetch - processPackages [mimllearning]: Downloading https://files.pythonhosted.org/packages/13/b9/8bb20d442048ff0f02ace28fa1714fba7126b12be0fd8f2a9cb25c223e06/mimllearning-0.2.7.tar.gz
+[2024-05-01 16:43:18] INFO root fetch - processPackages [pyscf-dispersion]: Downloading https://files.pythonhosted.org/packages/35/db/2d1930d42bbe9abe282e876e9709ae6f139a1ebc1c75face9f6a2085cffb/pyscf_dispersion-1.0.1-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-01 16:43:18] INFO root fetch - processPackages [sentry-forked-djangorestframework-stubs]: Downloading https://files.pythonhosted.org/packages/70/50/7a66ccd293636685ce6ea204819211cd87bef130e9f2f37ccae3bdb21981/sentry-forked-djangorestframework-stubs-3.14.5.post1.tar.gz
+[2024-05-01 16:43:18] INFO root fetch - processPackages [prometheus-eval]: Downloading https://files.pythonhosted.org/packages/3e/4a/ab039c8cfd2119ce524f6eeb8ae7d9da4a529c3c7f04fb3f575cb03a9c57/prometheus_eval-0.1.3.tar.gz
+[2024-05-01 16:43:18] INFO root fetch - processPackages [cudf-cu11]: Downloading https://files.pythonhosted.org/packages/e6/1f/cad0aa1727e2af1c52c2fb518375f4d28938318c23854f6e5859f47db643/cudf_cu11-24.4.0.tar.gz
+[2024-05-01 16:43:18] INFO root fetch - processPackages [homeassistant]: Downloading https://files.pythonhosted.org/packages/e3/ea/62af37e72c23faaf038e17c283843e236fc79ae6a91942539d35b7c74635/homeassistant-2024.5.0b5.tar.gz
+[2024-05-01 16:43:18] WARNING root fetch - processPackages [pyscf-dispersion]: Skipping package: exceeds size limit 12081818>=10485760
+[2024-05-01 16:43:18] INFO root fetch - main [MainThread]: End processing [pyscf-dispersion] error
+[2024-05-01 16:43:18] INFO root fetch - processPackages [datajunction-query]: Downloading https://files.pythonhosted.org/packages/74/f3/7a80ef311bd5b86cc89a2d69917ebcf2cbc83e6bf3082b853cf39a33ee5d/datajunction_query-0.0.1a45.tar.gz
+[2024-05-01 16:43:18] INFO root fetch - processPackages [datajunction-reflection]: Downloading https://files.pythonhosted.org/packages/47/f0/c7e7f8fe3ad544045ba6f2311798e4a282d8cf9ecd28458be85c53fc774b/datajunction_reflection-0.0.1a45.tar.gz
+[2024-05-01 16:43:18] WARNING root fetch - processPackages [homeassistant]: Skipping package: exceeds size limit 20968006>=10485760
+[2024-05-01 16:43:18] INFO root fetch - main [MainThread]: End processing [homeassistant] error
+[2024-05-01 16:43:18] INFO root fetch - processPackages [izio-cli]: Downloading https://files.pythonhosted.org/packages/a2/fa/7415836bcb3404268510376d5f98ab14557fa58de5e52d955f4ebc1c9a49/izio_cli-0.2.8.tar.gz
+[2024-05-01 16:43:18] INFO root fetch - processPackages [mimllearning]: Downloading https://files.pythonhosted.org/packages/36/1c/993a41e739f8874ea307c16f8f57c4e8d6f00573d4939419a1d160b6d424/mimllearning-0.2.8.tar.gz
+[2024-05-01 16:43:18] INFO root fetch - processPackages [datajunction-server]: Downloading https://files.pythonhosted.org/packages/5e/74/837b55d32da7e6b69cec7b2da69fbb3dcc2a71dc1ee1e0d3dd407363f091/datajunction_server-0.0.1a8.tar.gz
+[2024-05-01 16:43:18] INFO root fetch - processPackages [sentry-forked-djangorestframework-stubs]: Downloading https://files.pythonhosted.org/packages/84/3f/3359e05109c3cf85f5dd29401149d04f19d56f688d2cbcbc9ab8b27b6636/sentry_forked_djangorestframework_stubs-3.15.0.post1.tar.gz
+[2024-05-01 16:43:18] WARNING root fetch - processPackages [datajunction-server]: Skipping package: exceeds size limit 25698763>=10485760
+[2024-05-01 16:43:18] INFO root fetch - main [MainThread]: End processing [datajunction-server] error
+[2024-05-01 16:43:18] INFO root fetch - processPackages [cudf-cu11]: Downloading https://files.pythonhosted.org/packages/a7/65/53c47fc831b40f363af00989099732446d9d267fc11785a0b8a2cbbef414/cudf_cu11-24.4.1.tar.gz
+[2024-05-01 16:43:18] INFO root fetch - processPackages [prometheus-eval]: Downloading https://files.pythonhosted.org/packages/08/16/ac4c4ee4a8f4eaec7942c1f43751e0228373d83ffbb28b079c4af26d54b9/prometheus_eval-0.1.4.tar.gz
+[2024-05-01 16:43:18] INFO root fetch - processPackages [datajunction-query]: Downloading https://files.pythonhosted.org/packages/b5/94/1baf5df2426552a5a535f70405742e367b9043f5cae438b1e3e507f56fd1/datajunction_query-0.0.1a46.tar.gz
+[2024-05-01 16:43:18] INFO root fetch - processPackages [sentry-forked-djangorestframework-stubs]: executing diffoscope
+[2024-05-01 16:43:18] INFO root fetch - processPackages [sentry-forked-djangorestframework-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sentry-forked-djangorestframework-stubs-3.14.5.post1.tar.gz tmp/sentry_forked_djangorestframework_stubs-3.15.0.post1.tar.gz --markdown 20240501/s/sentry-forked-djangorestframework-stubs/3.14.5.post1-3.15.0.post1/README.md --exclude *.pyd
+[2024-05-01 16:43:18] INFO root fetch - processPackages [mimllearning]: executing diffoscope
+[2024-05-01 16:43:18] INFO root fetch - processPackages [mimllearning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mimllearning-0.2.7.tar.gz tmp/mimllearning-0.2.8.tar.gz --markdown 20240501/m/mimllearning/0.2.7-0.2.8/README.md --exclude *.pyd
+[2024-05-01 16:43:18] INFO root fetch - processPackages [izio-cli]: Downloading https://files.pythonhosted.org/packages/2b/87/ab94e8cd21535490bc4669fb23428be99257a6aa020addd80f0040fa50f8/izio_cli-0.2.9.tar.gz
+[2024-05-01 16:43:18] INFO root fetch - processPackages [cudf-cu11]: executing diffoscope
+[2024-05-01 16:43:18] INFO root fetch - processPackages [cudf-cu11]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cudf_cu11-24.4.0.tar.gz tmp/cudf_cu11-24.4.1.tar.gz --markdown 20240501/c/cudf-cu11/24.4.0-24.4.1/README.md --exclude *.pyd
+[2024-05-01 16:43:18] INFO root fetch - processPackages [prometheus-eval]: executing diffoscope
+[2024-05-01 16:43:18] INFO root fetch - processPackages [prometheus-eval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prometheus_eval-0.1.3.tar.gz tmp/prometheus_eval-0.1.4.tar.gz --markdown 20240501/p/prometheus-eval/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-01 16:43:18] INFO root fetch - processPackages [datajunction-reflection]: Downloading https://files.pythonhosted.org/packages/b4/f5/d2963e136a66467ed9ccbf7cbd487830045811dafe63961f92405d565eda/datajunction_reflection-0.0.1a46-py3-none-any.whl
+[2024-05-01 16:43:19] INFO root fetch - processPackages [izio-cli]: executing diffoscope
+[2024-05-01 16:43:19] INFO root fetch - processPackages [izio-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/izio_cli-0.2.8.tar.gz tmp/izio_cli-0.2.9.tar.gz --markdown 20240501/i/izio-cli/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-01 16:43:19] INFO root fetch - processPackages [datajunction-query]: executing diffoscope
+[2024-05-01 16:43:19] INFO root fetch - processPackages [datajunction-query]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datajunction_query-0.0.1a45.tar.gz tmp/datajunction_query-0.0.1a46.tar.gz --markdown 20240501/d/datajunction-query/0.0.1a45-0.0.1a46/README.md --exclude *.pyd
+[2024-05-01 16:43:19] INFO root fetch - processPackages [datajunction-reflection]: executing diffoscope
+[2024-05-01 16:43:19] INFO root fetch - processPackages [datajunction-reflection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datajunction_reflection-0.0.1a45.tar.gz tmp/datajunction_reflection-0.0.1a46-py3-none-any.whl.zip --markdown 20240501/d/datajunction-reflection/0.0.1a45-0.0.1a46/README.md --exclude *.pyd
+[2024-05-01 16:43:19] INFO root fetch - processPackages [prometheus-eval]: Remove: archive file [/home/abi/fetcher/tmp/prometheus_eval-0.1.3.tar.gz]
+[2024-05-01 16:43:19] INFO root fetch - processPackages [prometheus-eval]: Remove: archive file [/home/abi/fetcher/tmp/prometheus_eval-0.1.4.tar.gz]
+[2024-05-01 16:43:19] INFO root fetch - main [MainThread]: End processing [prometheus-eval]: success
+[2024-05-01 16:43:19] INFO root fetch - processPackages [datajunction-reflection]: Remove: archive file [/home/abi/fetcher/tmp/datajunction_reflection-0.0.1a45.tar.gz]
+[2024-05-01 16:43:19] INFO root fetch - processPackages [datajunction-reflection]: Remove: archive file [/home/abi/fetcher/tmp/datajunction_reflection-0.0.1a46-py3-none-any.whl.zip]
+[2024-05-01 16:43:19] INFO root fetch - main [MainThread]: End processing [datajunction-reflection]: success
+[2024-05-01 16:43:19] INFO root fetch - processPackages [izio-cli]: Remove: archive file [/home/abi/fetcher/tmp/izio_cli-0.2.8.tar.gz]
+[2024-05-01 16:43:19] INFO root fetch - processPackages [izio-cli]: Remove: archive file [/home/abi/fetcher/tmp/izio_cli-0.2.9.tar.gz]
+[2024-05-01 16:43:19] INFO root fetch - main [MainThread]: End processing [izio-cli]: success
+[2024-05-01 16:43:20] INFO root fetch - processPackages [mimllearning]: Remove: archive file [/home/abi/fetcher/tmp/mimllearning-0.2.7.tar.gz]
+[2024-05-01 16:43:20] INFO root fetch - processPackages [mimllearning]: Remove: archive file [/home/abi/fetcher/tmp/mimllearning-0.2.8.tar.gz]
+[2024-05-01 16:43:20] INFO root fetch - main [MainThread]: End processing [mimllearning]: success
+[2024-05-01 16:43:20] INFO root fetch - processPackages [cudf-cu11]: Remove: archive file [/home/abi/fetcher/tmp/cudf_cu11-24.4.0.tar.gz]
+[2024-05-01 16:43:20] INFO root fetch - processPackages [cudf-cu11]: Remove: archive file [/home/abi/fetcher/tmp/cudf_cu11-24.4.1.tar.gz]
+[2024-05-01 16:43:20] INFO root fetch - main [MainThread]: End processing [cudf-cu11]: success
+[2024-05-01 16:43:20] INFO root fetch - processPackages [sentry-forked-djangorestframework-stubs]: Remove: archive file [/home/abi/fetcher/tmp/sentry-forked-djangorestframework-stubs-3.14.5.post1.tar.gz]
+[2024-05-01 16:43:20] INFO root fetch - processPackages [sentry-forked-djangorestframework-stubs]: Remove: archive file [/home/abi/fetcher/tmp/sentry_forked_djangorestframework_stubs-3.15.0.post1.tar.gz]
+[2024-05-01 16:43:20] INFO root fetch - main [MainThread]: End processing [sentry-forked-djangorestframework-stubs]: success
+[2024-05-01 16:43:20] INFO root fetch - processPackages [datajunction-query]: Remove: archive file [/home/abi/fetcher/tmp/datajunction_query-0.0.1a45.tar.gz]
+[2024-05-01 16:43:20] INFO root fetch - processPackages [datajunction-query]: Remove: archive file [/home/abi/fetcher/tmp/datajunction_query-0.0.1a46.tar.gz]
+[2024-05-01 16:43:20] INFO root fetch - main [MainThread]: End processing [datajunction-query]: success
+[2024-05-01 16:43:20] INFO root fetch - main [MainThread]: Store serial: [23018168]
