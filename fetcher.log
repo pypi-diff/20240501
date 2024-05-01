@@ -14087,3 +14087,42 @@
 [2024-05-01 11:20:06] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221130.tar.gz]
 [2024-05-01 11:20:06] INFO root fetch - main [MainThread]: End processing [tbp-nightly]: success
 [2024-05-01 11:20:06] INFO root fetch - main [MainThread]: Store serial: [23014638]
+[2024-05-01 11:22:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23014638]
+[2024-05-01 11:22:14] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-01 11:22:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: twinlab
+[2024-05-01 11:22:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lecert
+[2024-05-01 11:22:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: figurify
+[2024-05-01 11:22:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: codecarbon
+[2024-05-01 11:22:15] INFO root fetch - processPackages [figurify]: New version: [0.1.0] Old Version: [0.0.9]
+[2024-05-01 11:22:15] INFO root fetch - processPackages [figurify]: Downloading https://files.pythonhosted.org/packages/3c/47/a3cf746e1836c334bbf90b023b6e7e2700c82df5a9d8c9ee62e6452d2006/figurify-0.0.9.tar.gz
+[2024-05-01 11:22:15] INFO root fetch - processPackages [lecert]: New version: [1.1] Old Version: [1.0]
+[2024-05-01 11:22:15] INFO root fetch - processPackages [twinlab]: New version: [2.6.1] Old Version: [2.6.0]
+[2024-05-01 11:22:15] INFO root fetch - processPackages [codecarbon]: New version: [2.4.0rc0] Old Version: [2.3.5]
+[2024-05-01 11:22:15] INFO root fetch - processPackages [figurify]: Downloading https://files.pythonhosted.org/packages/1f/87/a8fa2188d46d3d4bab5e3ea37bc96fc847add570cb1b080f62310fbadebb/figurify-0.1.0.tar.gz
+[2024-05-01 11:22:15] INFO root fetch - processPackages [twinlab]: Downloading https://files.pythonhosted.org/packages/6d/4a/f1a46ec9dcca9bfe10e714044317f64602578b6a63dff7bf989ef19325cd/twinlab-2.6.0.tar.gz
+[2024-05-01 11:22:15] INFO root fetch - processPackages [lecert]: Downloading https://files.pythonhosted.org/packages/62/0f/ded25e5fb604ed0e80a1466facc5dbb8afabff6a0e2e6871d823abe31ece/lecert-1.0.tar.gz
+[2024-05-01 11:22:15] INFO root fetch - processPackages [codecarbon]: Downloading https://files.pythonhosted.org/packages/7d/a1/89d52cdb690e9ed297a22fc76f495c7ab3345b24e5444630e857e53be491/codecarbon-2.3.5.tar.gz
+[2024-05-01 11:22:15] INFO root fetch - processPackages [figurify]: executing diffoscope
+[2024-05-01 11:22:15] INFO root fetch - processPackages [figurify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/figurify-0.0.9.tar.gz tmp/figurify-0.1.0.tar.gz --markdown 20240501/f/figurify/0.0.9-0.1.0/README.md --exclude *.pyd
+[2024-05-01 11:22:15] INFO root fetch - processPackages [twinlab]: Downloading https://files.pythonhosted.org/packages/9e/c3/8f9288e0272a4db542e3eda40eb1cd24db761ce28791c04ccb4169bb5475/twinlab-2.6.1.tar.gz
+[2024-05-01 11:22:15] INFO root fetch - processPackages [lecert]: Downloading https://files.pythonhosted.org/packages/3d/44/e8e0bce393b95a6ef3b2d072be283a30db2f290f8fda5c059599dbad6c48/lecert-1.1.tar.gz
+[2024-05-01 11:22:15] INFO root fetch - processPackages [codecarbon]: Downloading https://files.pythonhosted.org/packages/0a/d4/965ff2dad23b7f536b94b9c6449e16d742f228ca2cde8dd6e18b7b8a496b/codecarbon-2.4.0rc0.tar.gz
+[2024-05-01 11:22:15] INFO root fetch - processPackages [twinlab]: executing diffoscope
+[2024-05-01 11:22:15] INFO root fetch - processPackages [twinlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twinlab-2.6.0.tar.gz tmp/twinlab-2.6.1.tar.gz --markdown 20240501/t/twinlab/2.6.0-2.6.1/README.md --exclude *.pyd
+[2024-05-01 11:22:15] INFO root fetch - processPackages [lecert]: executing diffoscope
+[2024-05-01 11:22:15] INFO root fetch - processPackages [lecert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lecert-1.0.tar.gz tmp/lecert-1.1.tar.gz --markdown 20240501/l/lecert/1.0-1.1/README.md --exclude *.pyd
+[2024-05-01 11:22:16] INFO root fetch - processPackages [codecarbon]: executing diffoscope
+[2024-05-01 11:22:16] INFO root fetch - processPackages [codecarbon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codecarbon-2.3.5.tar.gz tmp/codecarbon-2.4.0rc0.tar.gz --markdown 20240501/c/codecarbon/2.3.5-2.4.0rc0/README.md --exclude *.pyd
+[2024-05-01 11:22:16] INFO root fetch - processPackages [figurify]: Remove: archive file [/home/abi/fetcher/tmp/figurify-0.0.9.tar.gz]
+[2024-05-01 11:22:16] INFO root fetch - processPackages [figurify]: Remove: archive file [/home/abi/fetcher/tmp/figurify-0.1.0.tar.gz]
+[2024-05-01 11:22:16] INFO root fetch - main [MainThread]: End processing [figurify]: success
+[2024-05-01 11:22:16] INFO root fetch - processPackages [lecert]: Remove: archive file [/home/abi/fetcher/tmp/lecert-1.0.tar.gz]
+[2024-05-01 11:22:16] INFO root fetch - processPackages [lecert]: Remove: archive file [/home/abi/fetcher/tmp/lecert-1.1.tar.gz]
+[2024-05-01 11:22:16] INFO root fetch - main [MainThread]: End processing [lecert]: success
+[2024-05-01 11:22:16] INFO root fetch - processPackages [twinlab]: Remove: archive file [/home/abi/fetcher/tmp/twinlab-2.6.0.tar.gz]
+[2024-05-01 11:22:16] INFO root fetch - processPackages [twinlab]: Remove: archive file [/home/abi/fetcher/tmp/twinlab-2.6.1.tar.gz]
+[2024-05-01 11:22:16] INFO root fetch - main [MainThread]: End processing [twinlab]: success
+[2024-05-01 11:22:16] INFO root fetch - processPackages [codecarbon]: Remove: archive file [/home/abi/fetcher/tmp/codecarbon-2.3.5.tar.gz]
+[2024-05-01 11:22:16] INFO root fetch - processPackages [codecarbon]: Remove: archive file [/home/abi/fetcher/tmp/codecarbon-2.4.0rc0.tar.gz]
+[2024-05-01 11:22:16] INFO root fetch - main [MainThread]: End processing [codecarbon]: success
+[2024-05-01 11:22:16] INFO root fetch - main [MainThread]: Store serial: [23014664]
