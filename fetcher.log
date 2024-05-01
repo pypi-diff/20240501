@@ -22210,3 +22210,15 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-01 16:09:44] INFO root fetch - processPackages [streamlit-passwordless]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_passwordless-0.3.0.tar.gz]
 [2024-05-01 16:09:44] INFO root fetch - main [MainThread]: End processing [streamlit-passwordless]: success
 [2024-05-01 16:09:44] INFO root fetch - main [MainThread]: Store serial: [23017810]
+[2024-05-01 16:11:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23017810]
+[2024-05-01 16:11:53] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-01 16:11:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tlparse
+[2024-05-01 16:11:53] INFO root fetch - processPackages [tlparse]: New version: [0.3.7] Old Version: [0.3.6]
+[2024-05-01 16:11:53] INFO root fetch - processPackages [tlparse]: Downloading https://files.pythonhosted.org/packages/35/03/174d547b3ccdd3b04eb335a607d5c40007b1d0a3f1fa1647a1e4319a9b00/tlparse-0.3.6.tar.gz
+[2024-05-01 16:11:54] INFO root fetch - processPackages [tlparse]: Downloading https://files.pythonhosted.org/packages/b1/9f/84459ac6f0623acadc83a6d9888fe93fd68968346f1b9589165ba329a76c/tlparse-0.3.7.tar.gz
+[2024-05-01 16:11:54] INFO root fetch - processPackages [tlparse]: executing diffoscope
+[2024-05-01 16:11:54] INFO root fetch - processPackages [tlparse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tlparse-0.3.6.tar.gz tmp/tlparse-0.3.7.tar.gz --markdown 20240501/t/tlparse/0.3.6-0.3.7/README.md --exclude *.pyd
+[2024-05-01 16:11:54] INFO root fetch - processPackages [tlparse]: Remove: archive file [/home/abi/fetcher/tmp/tlparse-0.3.6.tar.gz]
+[2024-05-01 16:11:54] INFO root fetch - processPackages [tlparse]: Remove: archive file [/home/abi/fetcher/tmp/tlparse-0.3.7.tar.gz]
+[2024-05-01 16:11:54] INFO root fetch - main [MainThread]: End processing [tlparse]: success
+[2024-05-01 16:11:54] INFO root fetch - main [MainThread]: Store serial: [23017826]
