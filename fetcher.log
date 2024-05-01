@@ -15055,3 +15055,81 @@
 [2024-05-01 12:09:11] INFO root fetch - processPackages [tf-keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_keras_nightly-2.17.0.dev2024043009.tar.gz]
 [2024-05-01 12:09:11] INFO root fetch - main [MainThread]: End processing [tf-keras-nightly]: success
 [2024-05-01 12:09:11] INFO root fetch - main [MainThread]: Store serial: [23015036]
+[2024-05-01 12:11:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23015036]
+[2024-05-01 12:11:20] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-01 12:11:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: composio-crewai
+[2024-05-01 12:11:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: composio-langchain
+[2024-05-01 12:11:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: composio-lyzr
+[2024-05-01 12:11:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fizzbuzz-draw
+[2024-05-01 12:11:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: app-store-scraper-mod
+[2024-05-01 12:11:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tdi-rust-python-tools
+[2024-05-01 12:11:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: qstd-logger-json-formatter
+[2024-05-01 12:11:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: massmarket-hash-event
+[2024-05-01 12:11:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pulumi-cloudflare
+[2024-05-01 12:11:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: CTDFjorder
+[2024-05-01 12:11:20] WARNING root fetch - processPackages [CTDFjorder]: Skipping, unable to determine old version
+[2024-05-01 12:11:20] INFO root fetch - main [MainThread]: End processing [CTDFjorder] error
+[2024-05-01 12:11:20] INFO root fetch - processPackages [composio-langchain]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-01 12:11:20] INFO root fetch - processPackages [composio-crewai]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-01 12:11:20] INFO root fetch - processPackages [composio-lyzr]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-01 12:11:20] INFO root fetch - processPackages [app-store-scraper-mod]: New version: [0.3.7] Old Version: [0.3.6]
+[2024-05-01 12:11:21] INFO root fetch - processPackages [pulumi-cloudflare]: New version: [5.9.0a1692854882] Old Version: [5.9.0a1692851897]
+[2024-05-01 12:11:21] INFO root fetch - processPackages [massmarket-hash-event]: New version: [0.1.5] Old Version: [0.1.1]
+[2024-05-01 12:11:21] INFO root fetch - processPackages [composio-langchain]: Downloading https://files.pythonhosted.org/packages/d9/aa/a337096fd78499738e0aa7ec352af9337f71606fed7bd03770fbcb2bab20/composio_langchain-0.2.8.tar.gz
+[2024-05-01 12:11:21] WARNING root fetch - processPackages [fizzbuzz-draw]: Skipping, unable to determine old version
+[2024-05-01 12:11:21] INFO root fetch - processPackages [tdi-rust-python-tools]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-05-01 12:11:21] INFO root fetch - processPackages [qstd-logger-json-formatter]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-01 12:11:21] INFO root fetch - main [MainThread]: End processing [fizzbuzz-draw] error
+[2024-05-01 12:11:21] INFO root fetch - processPackages [composio-crewai]: Downloading https://files.pythonhosted.org/packages/88/9f/34a831a3e85ce61a77e7c13def18aa7650b80acd1b81f83211cb4f1aa6df/composio_crewai-0.2.8.tar.gz
+[2024-05-01 12:11:21] INFO root fetch - processPackages [composio-lyzr]: Downloading https://files.pythonhosted.org/packages/37/69/164ec40db4e3ad845e6fa990d125cb69a7da612383090011884e3d5f2232/composio_lyzr-0.2.8.tar.gz
+[2024-05-01 12:11:21] INFO root fetch - processPackages [pulumi-cloudflare]: Downloading https://files.pythonhosted.org/packages/ce/4c/bbf50ef75d6a6dc70780f846ef13e19b5ec009e8657c5b847defde7a8dd9/pulumi_cloudflare-5.9.0a1692851897.tar.gz
+[2024-05-01 12:11:21] INFO root fetch - processPackages [app-store-scraper-mod]: Downloading https://files.pythonhosted.org/packages/1e/ed/7546f896b683230886abee3038859e1bd8cc2027ef0d1204f8082fff25b8/app-store-scraper-mod-0.3.6.tar.gz
+[2024-05-01 12:11:21] INFO root fetch - processPackages [massmarket-hash-event]: Downloading https://files.pythonhosted.org/packages/3c/99/34c763b91f9fa333d529f80c1111bcd00efdc8fcd896bf05696368978915/massmarket_hash_event-0.1.1.tar.gz
+[2024-05-01 12:11:21] INFO root fetch - processPackages [qstd-logger-json-formatter]: Downloading https://files.pythonhosted.org/packages/a1/bd/2c4b7d94ff332535c17905cbd9d160c5964fac6550fa639f2dba11920f3b/qstd_logger_json_formatter-0.1.1.tar.gz
+[2024-05-01 12:11:21] INFO root fetch - processPackages [composio-crewai]: Downloading https://files.pythonhosted.org/packages/97/a6/2c53777d13baa01b09f04ac5d33fc096b73fc91135f58b366e81e7435738/composio_crewai-0.2.9.tar.gz
+[2024-05-01 12:11:21] INFO root fetch - processPackages [tdi-rust-python-tools]: Downloading https://files.pythonhosted.org/packages/17/e6/05e5e714d53d47e2382dae1b2957344d4c6931c62fe8b099bcd1c996099a/tdi_rust_python_tools-0.2.0.tar.gz
+[2024-05-01 12:11:21] INFO root fetch - processPackages [composio-lyzr]: Downloading https://files.pythonhosted.org/packages/16/f3/6e7e1d4182294ad089b3c5a760cdc78dc19ceb6c9650bfe69c0bba248396/composio_lyzr-0.2.9.tar.gz
+[2024-05-01 12:11:21] INFO root fetch - processPackages [composio-langchain]: Downloading https://files.pythonhosted.org/packages/7d/d9/ea6d9de983484f5151914b9e2dbd7009903c7af4e9ad1cab3b6d9607fed1/composio_langchain-0.2.9.tar.gz
+[2024-05-01 12:11:21] INFO root fetch - processPackages [pulumi-cloudflare]: Downloading https://files.pythonhosted.org/packages/aa/45/e2040e3054cffd9ce633539517dc7f0063c0b789d73bac75a2b832e469de/pulumi_cloudflare-5.9.0a1692854882.tar.gz
+[2024-05-01 12:11:21] INFO root fetch - processPackages [composio-crewai]: executing diffoscope
+[2024-05-01 12:11:21] INFO root fetch - processPackages [composio-crewai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_crewai-0.2.8.tar.gz tmp/composio_crewai-0.2.9.tar.gz --markdown 20240501/c/composio-crewai/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-01 12:11:21] INFO root fetch - processPackages [composio-lyzr]: executing diffoscope
+[2024-05-01 12:11:21] INFO root fetch - processPackages [composio-lyzr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_lyzr-0.2.8.tar.gz tmp/composio_lyzr-0.2.9.tar.gz --markdown 20240501/c/composio-lyzr/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-01 12:11:21] INFO root fetch - processPackages [composio-langchain]: executing diffoscope
+[2024-05-01 12:11:21] INFO root fetch - processPackages [composio-langchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_langchain-0.2.8.tar.gz tmp/composio_langchain-0.2.9.tar.gz --markdown 20240501/c/composio-langchain/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-01 12:11:21] INFO root fetch - processPackages [app-store-scraper-mod]: Downloading https://files.pythonhosted.org/packages/dc/b6/1c35d3e784a92443015bd1ea3df090ef9c6c0c35014d3c7ed224573157cf/app_store_scraper_mod-0.3.7-py3-none-any.whl
+[2024-05-01 12:11:21] INFO root fetch - processPackages [pulumi-cloudflare]: executing diffoscope
+[2024-05-01 12:11:21] INFO root fetch - processPackages [pulumi-cloudflare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_cloudflare-5.9.0a1692851897.tar.gz tmp/pulumi_cloudflare-5.9.0a1692854882.tar.gz --markdown 20240501/p/pulumi-cloudflare/5.9.0a1692851897-5.9.0a1692854882/README.md --exclude *.pyd
+[2024-05-01 12:11:21] INFO root fetch - processPackages [app-store-scraper-mod]: executing diffoscope
+[2024-05-01 12:11:21] INFO root fetch - processPackages [app-store-scraper-mod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/app-store-scraper-mod-0.3.6.tar.gz tmp/app_store_scraper_mod-0.3.7-py3-none-any.whl.zip --markdown 20240501/a/app-store-scraper-mod/0.3.6-0.3.7/README.md --exclude *.pyd
+[2024-05-01 12:11:21] INFO root fetch - processPackages [massmarket-hash-event]: Downloading https://files.pythonhosted.org/packages/bb/20/abe29d1a7090a27942d561a017cb03bc54c866fbfa013b3b78b0298d9f38/massmarket_hash_event-0.1.5.tar.gz
+[2024-05-01 12:11:21] INFO root fetch - processPackages [qstd-logger-json-formatter]: Downloading https://files.pythonhosted.org/packages/43/cd/35899372bd50e95175ae80f9edab0d0b55fc7b790c254078c196203fcefc/qstd_logger_json_formatter-0.1.2.tar.gz
+[2024-05-01 12:11:21] INFO root fetch - processPackages [massmarket-hash-event]: executing diffoscope
+[2024-05-01 12:11:21] INFO root fetch - processPackages [massmarket-hash-event]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/massmarket_hash_event-0.1.1.tar.gz tmp/massmarket_hash_event-0.1.5.tar.gz --markdown 20240501/m/massmarket-hash-event/0.1.1-0.1.5/README.md --exclude *.pyd
+[2024-05-01 12:11:22] INFO root fetch - processPackages [qstd-logger-json-formatter]: executing diffoscope
+[2024-05-01 12:11:22] INFO root fetch - processPackages [qstd-logger-json-formatter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qstd_logger_json_formatter-0.1.1.tar.gz tmp/qstd_logger_json_formatter-0.1.2.tar.gz --markdown 20240501/q/qstd-logger-json-formatter/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-01 12:11:22] INFO root fetch - processPackages [composio-langchain]: Remove: archive file [/home/abi/fetcher/tmp/composio_langchain-0.2.8.tar.gz]
+[2024-05-01 12:11:22] INFO root fetch - processPackages [composio-langchain]: Remove: archive file [/home/abi/fetcher/tmp/composio_langchain-0.2.9.tar.gz]
+[2024-05-01 12:11:22] INFO root fetch - main [MainThread]: End processing [composio-langchain]: success
+[2024-05-01 12:11:22] INFO root fetch - processPackages [composio-crewai]: Remove: archive file [/home/abi/fetcher/tmp/composio_crewai-0.2.8.tar.gz]
+[2024-05-01 12:11:22] INFO root fetch - processPackages [composio-crewai]: Remove: archive file [/home/abi/fetcher/tmp/composio_crewai-0.2.9.tar.gz]
+[2024-05-01 12:11:22] INFO root fetch - main [MainThread]: End processing [composio-crewai]: success
+[2024-05-01 12:11:22] INFO root fetch - processPackages [composio-lyzr]: Remove: archive file [/home/abi/fetcher/tmp/composio_lyzr-0.2.8.tar.gz]
+[2024-05-01 12:11:22] INFO root fetch - processPackages [composio-lyzr]: Remove: archive file [/home/abi/fetcher/tmp/composio_lyzr-0.2.9.tar.gz]
+[2024-05-01 12:11:22] INFO root fetch - main [MainThread]: End processing [composio-lyzr]: success
+[2024-05-01 12:11:22] INFO root fetch - processPackages [app-store-scraper-mod]: Remove: archive file [/home/abi/fetcher/tmp/app-store-scraper-mod-0.3.6.tar.gz]
+[2024-05-01 12:11:22] INFO root fetch - processPackages [app-store-scraper-mod]: Remove: archive file [/home/abi/fetcher/tmp/app_store_scraper_mod-0.3.7-py3-none-any.whl.zip]
+[2024-05-01 12:11:22] INFO root fetch - main [MainThread]: End processing [app-store-scraper-mod]: success
+[2024-05-01 12:11:22] INFO root fetch - processPackages [qstd-logger-json-formatter]: Remove: archive file [/home/abi/fetcher/tmp/qstd_logger_json_formatter-0.1.1.tar.gz]
+[2024-05-01 12:11:22] INFO root fetch - processPackages [qstd-logger-json-formatter]: Remove: archive file [/home/abi/fetcher/tmp/qstd_logger_json_formatter-0.1.2.tar.gz]
+[2024-05-01 12:11:22] INFO root fetch - main [MainThread]: End processing [qstd-logger-json-formatter]: success
+[2024-05-01 12:11:22] INFO root fetch - processPackages [massmarket-hash-event]: Remove: archive file [/home/abi/fetcher/tmp/massmarket_hash_event-0.1.1.tar.gz]
+[2024-05-01 12:11:22] INFO root fetch - processPackages [massmarket-hash-event]: Remove: archive file [/home/abi/fetcher/tmp/massmarket_hash_event-0.1.5.tar.gz]
+[2024-05-01 12:11:22] INFO root fetch - main [MainThread]: End processing [massmarket-hash-event]: success
+[2024-05-01 12:11:22] INFO root fetch - processPackages [tdi-rust-python-tools]: Downloading https://files.pythonhosted.org/packages/bd/12/4e59ab067a809175d1211d940abf84e63092410b029cc79b450d1e65aa2b/tdi_rust_python_tools-0.3.0.tar.gz
+[2024-05-01 12:11:22] WARNING root fetch - processPackages [tdi-rust-python-tools]: Skipping package: exceeds size limit 12822263>=10485760
+[2024-05-01 12:11:22] INFO root fetch - main [MainThread]: End processing [tdi-rust-python-tools] error
+[2024-05-01 12:11:22] INFO root fetch - processPackages [pulumi-cloudflare]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_cloudflare-5.9.0a1692851897.tar.gz]
+[2024-05-01 12:11:22] INFO root fetch - processPackages [pulumi-cloudflare]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_cloudflare-5.9.0a1692854882.tar.gz]
+[2024-05-01 12:11:22] INFO root fetch - main [MainThread]: End processing [pulumi-cloudflare]: success
+[2024-05-01 12:11:22] INFO root fetch - main [MainThread]: Store serial: [23015066]
