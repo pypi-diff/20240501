@@ -7212,3 +7212,24 @@
 [2024-05-01 04:21:17] INFO root fetch - processPackages [zyx]: Remove: archive file [/home/abi/fetcher/tmp/zyx-0.0.10.tar.gz]
 [2024-05-01 04:21:17] INFO root fetch - main [MainThread]: End processing [zyx]: success
 [2024-05-01 04:21:17] INFO root fetch - main [MainThread]: Store serial: [23011486]
+[2024-05-01 04:23:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23011486]
+[2024-05-01 04:23:25] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-01 04:23:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: types-jsonschema
+[2024-05-01 04:23:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: types-docker
+[2024-05-01 04:23:25] INFO root fetch - processPackages [types-docker]: New version: [7.0.0.20240430] Old Version: [7.0.0.20240424]
+[2024-05-01 04:23:25] INFO root fetch - processPackages [types-docker]: Downloading https://files.pythonhosted.org/packages/6a/13/01bb71aa379e9b4e4f01f27d19916a2219ae63314e523bae201ce0934ea5/types-docker-7.0.0.20240424.tar.gz
+[2024-05-01 04:23:25] INFO root fetch - processPackages [types-jsonschema]: New version: [4.9.0] Old Version: [4.7.0]
+[2024-05-01 04:23:26] INFO root fetch - processPackages [types-jsonschema]: Downloading https://files.pythonhosted.org/packages/c6/e1/278379da0b28700f9f6cf017cf3fa5863afdfe70a724fe2b2ee18a4758ec/types-jsonschema-4.7.0.tar.gz
+[2024-05-01 04:23:26] INFO root fetch - processPackages [types-docker]: Downloading https://files.pythonhosted.org/packages/4b/98/c2b085a751247ff220920305a9a7394dd01fd0e3592e66f28dc834413a29/types-docker-7.0.0.20240430.tar.gz
+[2024-05-01 04:23:26] INFO root fetch - processPackages [types-jsonschema]: Downloading https://files.pythonhosted.org/packages/e4/92/a22669e12621f1f6ecbe4a0df317ec38af90b5f4e5432685f9b6b44cb647/types-jsonschema-4.9.0.tar.gz
+[2024-05-01 04:23:26] INFO root fetch - processPackages [types-docker]: executing diffoscope
+[2024-05-01 04:23:26] INFO root fetch - processPackages [types-docker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-docker-7.0.0.20240424.tar.gz tmp/types-docker-7.0.0.20240430.tar.gz --markdown 20240501/t/types-docker/7.0.0.20240424-7.0.0.20240430/README.md --exclude *.pyd
+[2024-05-01 04:23:26] INFO root fetch - processPackages [types-jsonschema]: executing diffoscope
+[2024-05-01 04:23:26] INFO root fetch - processPackages [types-jsonschema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-jsonschema-4.7.0.tar.gz tmp/types-jsonschema-4.9.0.tar.gz --markdown 20240501/t/types-jsonschema/4.7.0-4.9.0/README.md --exclude *.pyd
+[2024-05-01 04:23:26] INFO root fetch - processPackages [types-docker]: Remove: archive file [/home/abi/fetcher/tmp/types-docker-7.0.0.20240424.tar.gz]
+[2024-05-01 04:23:26] INFO root fetch - processPackages [types-docker]: Remove: archive file [/home/abi/fetcher/tmp/types-docker-7.0.0.20240430.tar.gz]
+[2024-05-01 04:23:26] INFO root fetch - main [MainThread]: End processing [types-docker]: success
+[2024-05-01 04:23:27] INFO root fetch - processPackages [types-jsonschema]: Remove: archive file [/home/abi/fetcher/tmp/types-jsonschema-4.7.0.tar.gz]
+[2024-05-01 04:23:27] INFO root fetch - processPackages [types-jsonschema]: Remove: archive file [/home/abi/fetcher/tmp/types-jsonschema-4.9.0.tar.gz]
+[2024-05-01 04:23:27] INFO root fetch - main [MainThread]: End processing [types-jsonschema]: success
+[2024-05-01 04:23:27] INFO root fetch - main [MainThread]: Store serial: [23011492]
