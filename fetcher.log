@@ -9600,3 +9600,51 @@
 [2024-05-01 07:21:42] INFO root fetch - processPackages [ms-swift]: Remove: archive file [/home/abi/fetcher/tmp/ms-swift-2.0.4.tar.gz]
 [2024-05-01 07:21:42] INFO root fetch - main [MainThread]: End processing [ms-swift]: success
 [2024-05-01 07:21:42] INFO root fetch - main [MainThread]: Store serial: [23012596]
+[2024-05-01 07:23:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23012596]
+[2024-05-01 07:23:51] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-01 07:23:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: frontengine
+[2024-05-01 07:23:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: frontengine-dev
+[2024-05-01 07:23:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-archive
+[2024-05-01 07:23:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ork.build
+[2024-05-01 07:23:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bambot
+[2024-05-01 07:23:52] INFO root fetch - processPackages [frontengine-dev]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-01 07:23:52] INFO root fetch - processPackages [frontengine]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-01 07:23:52] INFO root fetch - processPackages [pulumi-archive]: New version: [0.1.0a1714536509] Old Version: [0.1.0a1714453987]
+[2024-05-01 07:23:52] INFO root fetch - processPackages [ork.build]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-01 07:23:52] INFO root fetch - processPackages [bambot]: New version: [0.4.0] Old Version: [0.3.9]
+[2024-05-01 07:23:52] INFO root fetch - processPackages [frontengine-dev]: Downloading https://files.pythonhosted.org/packages/23/e2/01e0fe02ca6b73e163f3f0d080231bc0c783a63e766e5524eb246350518d/frontengine_dev-0.0.8.tar.gz
+[2024-05-01 07:23:52] INFO root fetch - processPackages [pulumi-archive]: Downloading https://files.pythonhosted.org/packages/7f/1c/b5a60ae2b4074f6435afcede314e810c05f0de18391648ac79ac1216f3e3/pulumi_archive-0.1.0a1714453987.tar.gz
+[2024-05-01 07:23:52] INFO root fetch - processPackages [frontengine]: Downloading https://files.pythonhosted.org/packages/62/88/6d99d7b463365da48db6f37c9bde41e7f7f20eeb1a13653a273586e81d3a/frontengine-0.0.8.tar.gz
+[2024-05-01 07:23:52] INFO root fetch - processPackages [ork.build]: Downloading https://files.pythonhosted.org/packages/3d/f4/8ad5f3e93d32785fbcc2c448d2821991024fbf7a8add8d1ce6def33a2c89/ork.build-0.0.98.tar.gz
+[2024-05-01 07:23:52] INFO root fetch - processPackages [bambot]: Downloading https://files.pythonhosted.org/packages/2e/47/63e66ffa8b4bc1dd6a925d7fc9a90ca032a0cd82223499a99d1fcc3ff848/bambot-0.3.9.tar.gz
+[2024-05-01 07:23:52] INFO root fetch - processPackages [frontengine-dev]: Downloading https://files.pythonhosted.org/packages/bd/40/ac58f5e1633b3b2ea3574839a03ddc6a124459f3e721986a4208fbe06488/frontengine_dev-0.0.9.tar.gz
+[2024-05-01 07:23:52] INFO root fetch - processPackages [pulumi-archive]: Downloading https://files.pythonhosted.org/packages/e9/9a/9b72fe4081e05db5e2d4d3989b0061ffb09a3e82a3a2bd9aad90e3a943ff/pulumi_archive-0.1.0a1714536509.tar.gz
+[2024-05-01 07:23:52] INFO root fetch - processPackages [frontengine]: Downloading https://files.pythonhosted.org/packages/a5/8e/4bb92b2db27649b96b46469f263e2fdd091c8283ff06a24534624c34be9d/frontengine-0.0.9.tar.gz
+[2024-05-01 07:23:52] INFO root fetch - processPackages [frontengine-dev]: executing diffoscope
+[2024-05-01 07:23:52] INFO root fetch - processPackages [frontengine-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frontengine_dev-0.0.8.tar.gz tmp/frontengine_dev-0.0.9.tar.gz --markdown 20240501/f/frontengine-dev/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-01 07:23:52] INFO root fetch - processPackages [ork.build]: Downloading https://files.pythonhosted.org/packages/57/6c/cdc688ee4714601fa2294fce5ed69c29405197d09e82485271d2ba7a76c2/ork.build-0.0.99.tar.gz
+[2024-05-01 07:23:52] INFO root fetch - processPackages [pulumi-archive]: executing diffoscope
+[2024-05-01 07:23:52] INFO root fetch - processPackages [pulumi-archive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_archive-0.1.0a1714453987.tar.gz tmp/pulumi_archive-0.1.0a1714536509.tar.gz --markdown 20240501/p/pulumi-archive/0.1.0a1714453987-0.1.0a1714536509/README.md --exclude *.pyd
+[2024-05-01 07:23:52] INFO root fetch - processPackages [frontengine]: executing diffoscope
+[2024-05-01 07:23:52] INFO root fetch - processPackages [frontengine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frontengine-0.0.8.tar.gz tmp/frontengine-0.0.9.tar.gz --markdown 20240501/f/frontengine/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-01 07:23:52] INFO root fetch - processPackages [bambot]: Downloading https://files.pythonhosted.org/packages/33/83/866ac61ea5ebed764ffb2f0d0a53fc0755b1cf685c31946f771d1ea74111/bambot-0.4.0.tar.gz
+[2024-05-01 07:23:52] INFO root fetch - processPackages [bambot]: executing diffoscope
+[2024-05-01 07:23:52] INFO root fetch - processPackages [bambot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bambot-0.3.9.tar.gz tmp/bambot-0.4.0.tar.gz --markdown 20240501/b/bambot/0.3.9-0.4.0/README.md --exclude *.pyd
+[2024-05-01 07:23:52] INFO root fetch - processPackages [ork.build]: executing diffoscope
+[2024-05-01 07:23:52] INFO root fetch - processPackages [ork.build]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ork.build-0.0.98.tar.gz tmp/ork.build-0.0.99.tar.gz --markdown 20240501/o/ork.build/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-01 07:23:53] INFO root fetch - processPackages [pulumi-archive]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_archive-0.1.0a1714453987.tar.gz]
+[2024-05-01 07:23:53] INFO root fetch - processPackages [pulumi-archive]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_archive-0.1.0a1714536509.tar.gz]
+[2024-05-01 07:23:53] INFO root fetch - main [MainThread]: End processing [pulumi-archive]: success
+[2024-05-01 07:23:53] INFO root fetch - processPackages [frontengine-dev]: Remove: archive file [/home/abi/fetcher/tmp/frontengine_dev-0.0.8.tar.gz]
+[2024-05-01 07:23:53] INFO root fetch - processPackages [frontengine-dev]: Remove: archive file [/home/abi/fetcher/tmp/frontengine_dev-0.0.9.tar.gz]
+[2024-05-01 07:23:53] INFO root fetch - main [MainThread]: End processing [frontengine-dev]: success
+[2024-05-01 07:23:53] INFO root fetch - processPackages [bambot]: Remove: archive file [/home/abi/fetcher/tmp/bambot-0.3.9.tar.gz]
+[2024-05-01 07:23:53] INFO root fetch - processPackages [bambot]: Remove: archive file [/home/abi/fetcher/tmp/bambot-0.4.0.tar.gz]
+[2024-05-01 07:23:53] INFO root fetch - main [MainThread]: End processing [bambot]: success
+[2024-05-01 07:23:53] INFO root fetch - processPackages [frontengine]: Remove: archive file [/home/abi/fetcher/tmp/frontengine-0.0.8.tar.gz]
+[2024-05-01 07:23:53] INFO root fetch - processPackages [frontengine]: Remove: archive file [/home/abi/fetcher/tmp/frontengine-0.0.9.tar.gz]
+[2024-05-01 07:23:53] INFO root fetch - main [MainThread]: End processing [frontengine]: success
+[2024-05-01 07:23:54] INFO root fetch - processPackages [ork.build]: Remove: archive file [/home/abi/fetcher/tmp/ork.build-0.0.98.tar.gz]
+[2024-05-01 07:23:54] INFO root fetch - processPackages [ork.build]: Remove: archive file [/home/abi/fetcher/tmp/ork.build-0.0.99.tar.gz]
+[2024-05-01 07:23:54] INFO root fetch - main [MainThread]: End processing [ork.build]: success
+[2024-05-01 07:23:54] INFO root fetch - main [MainThread]: Store serial: [23012611]
