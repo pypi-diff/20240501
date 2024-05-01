@@ -8464,3 +8464,47 @@
 [2024-05-01 05:52:18] INFO root fetch - processPackages [triton-xpu]: Remove: archive file [/home/abi/fetcher/tmp/triton_xpu-3.0.0b2-cp39-cp39-manylinux_2_34_x86_64.manylinux_2_35_x86_64.whl.zip]
 [2024-05-01 05:52:18] INFO root fetch - main [MainThread]: End processing [triton-xpu]: success
 [2024-05-01 05:52:18] INFO root fetch - main [MainThread]: Store serial: [23012070]
+[2024-05-01 05:54:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23012070]
+[2024-05-01 05:54:28] INFO root fetch - main [MainThread]: No changed packages found
+[2024-05-01 05:56:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23012081]
+[2024-05-01 05:56:33] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-01 05:56:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fixms
+[2024-05-01 05:56:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: interopt
+[2024-05-01 05:56:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: omniconfig
+[2024-05-01 05:56:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PACMAN-charge
+[2024-05-01 05:56:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: supamodel
+[2024-05-01 05:56:34] INFO root fetch - processPackages [fixms]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-05-01 05:56:34] INFO root fetch - processPackages [interopt]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-01 05:56:34] WARNING root fetch - processPackages [PACMAN-charge]: Skipping, unable to determine old version
+[2024-05-01 05:56:34] INFO root fetch - main [MainThread]: End processing [PACMAN-charge] error
+[2024-05-01 05:56:34] INFO root fetch - processPackages [fixms]: Downloading https://files.pythonhosted.org/packages/23/93/9060ab0a0458f208256a53e14b78b97849186878a5516916db8bee8378ff/fixms-0.2.4.tar.gz
+[2024-05-01 05:56:34] INFO root fetch - processPackages [interopt]: Downloading https://files.pythonhosted.org/packages/a1/2d/1b105c26a42c56d0f579460cfd03b174a84233a4429a6fddef3efd758b27/interopt-0.1.1.tar.gz
+[2024-05-01 05:56:34] INFO root fetch - processPackages [supamodel]: New version: [0.5.7] Old Version: [0.5.6]
+[2024-05-01 05:56:34] INFO root fetch - processPackages [omniconfig]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-01 05:56:34] INFO root fetch - processPackages [fixms]: Downloading https://files.pythonhosted.org/packages/9b/10/4374bde733acf68f26ff06f3da52ad58dc08cc61cc1b264f493854735eed/fixms-0.2.5.tar.gz
+[2024-05-01 05:56:34] INFO root fetch - processPackages [interopt]: Downloading https://files.pythonhosted.org/packages/97/96/18fc96ccc3bdf25162307aacd61f021430e89b28f52241b3490ba6faeb27/interopt-0.1.2.tar.gz
+[2024-05-01 05:56:34] INFO root fetch - processPackages [omniconfig]: Downloading https://files.pythonhosted.org/packages/87/7b/34c0f52d50b4fb510ebebee2ebb39f42f2ed723642826e9e1ade7564f3f5/omniconfig-0.1.4.tar.gz
+[2024-05-01 05:56:34] INFO root fetch - processPackages [supamodel]: Downloading https://files.pythonhosted.org/packages/65/e1/f221ddeab47e8b161bda61f6bce5dd66aeef7e8a490a3432de16224fc49f/supamodel-0.5.6.tar.gz
+[2024-05-01 05:56:34] INFO root fetch - processPackages [interopt]: executing diffoscope
+[2024-05-01 05:56:34] INFO root fetch - processPackages [interopt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/interopt-0.1.1.tar.gz tmp/interopt-0.1.2.tar.gz --markdown 20240501/i/interopt/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-01 05:56:34] INFO root fetch - processPackages [fixms]: executing diffoscope
+[2024-05-01 05:56:34] INFO root fetch - processPackages [fixms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fixms-0.2.4.tar.gz tmp/fixms-0.2.5.tar.gz --markdown 20240501/f/fixms/0.2.4-0.2.5/README.md --exclude *.pyd
+[2024-05-01 05:56:34] INFO root fetch - processPackages [supamodel]: Downloading https://files.pythonhosted.org/packages/60/db/48de9ec2e9102236232cac55a917108002e6a06864fe7921e20b818f0d92/supamodel-0.5.7.tar.gz
+[2024-05-01 05:56:34] INFO root fetch - processPackages [omniconfig]: Downloading https://files.pythonhosted.org/packages/92/db/f614eab91431a95dc1ecec6911a463c2edb048b98f035201db17dffadda1/omniconfig-0.1.5.tar.gz
+[2024-05-01 05:56:34] INFO root fetch - processPackages [omniconfig]: executing diffoscope
+[2024-05-01 05:56:34] INFO root fetch - processPackages [omniconfig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omniconfig-0.1.4.tar.gz tmp/omniconfig-0.1.5.tar.gz --markdown 20240501/o/omniconfig/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-01 05:56:34] INFO root fetch - processPackages [supamodel]: executing diffoscope
+[2024-05-01 05:56:34] INFO root fetch - processPackages [supamodel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/supamodel-0.5.6.tar.gz tmp/supamodel-0.5.7.tar.gz --markdown 20240501/s/supamodel/0.5.6-0.5.7/README.md --exclude *.pyd
+[2024-05-01 05:56:35] INFO root fetch - processPackages [interopt]: Remove: archive file [/home/abi/fetcher/tmp/interopt-0.1.1.tar.gz]
+[2024-05-01 05:56:35] INFO root fetch - processPackages [interopt]: Remove: archive file [/home/abi/fetcher/tmp/interopt-0.1.2.tar.gz]
+[2024-05-01 05:56:35] INFO root fetch - main [MainThread]: End processing [interopt]: success
+[2024-05-01 05:56:35] INFO root fetch - processPackages [omniconfig]: Remove: archive file [/home/abi/fetcher/tmp/omniconfig-0.1.4.tar.gz]
+[2024-05-01 05:56:35] INFO root fetch - processPackages [omniconfig]: Remove: archive file [/home/abi/fetcher/tmp/omniconfig-0.1.5.tar.gz]
+[2024-05-01 05:56:35] INFO root fetch - main [MainThread]: End processing [omniconfig]: success
+[2024-05-01 05:56:35] INFO root fetch - processPackages [fixms]: Remove: archive file [/home/abi/fetcher/tmp/fixms-0.2.4.tar.gz]
+[2024-05-01 05:56:35] INFO root fetch - processPackages [fixms]: Remove: archive file [/home/abi/fetcher/tmp/fixms-0.2.5.tar.gz]
+[2024-05-01 05:56:35] INFO root fetch - main [MainThread]: End processing [fixms]: success
+[2024-05-01 05:56:35] INFO root fetch - processPackages [supamodel]: Remove: archive file [/home/abi/fetcher/tmp/supamodel-0.5.6.tar.gz]
+[2024-05-01 05:56:35] INFO root fetch - processPackages [supamodel]: Remove: archive file [/home/abi/fetcher/tmp/supamodel-0.5.7.tar.gz]
+[2024-05-01 05:56:35] INFO root fetch - main [MainThread]: End processing [supamodel]: success
+[2024-05-01 05:56:35] INFO root fetch - main [MainThread]: Store serial: [23012097]
