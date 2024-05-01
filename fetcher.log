@@ -11262,3 +11262,52 @@
 [2024-05-01 08:45:51] INFO root fetch - processPackages [pulumi-rancher2]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_rancher2-6.2.0a1714543834.tar.gz]
 [2024-05-01 08:45:51] INFO root fetch - main [MainThread]: End processing [pulumi-rancher2]: success
 [2024-05-01 08:45:51] INFO root fetch - main [MainThread]: Store serial: [23013308]
+[2024-05-01 08:47:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23013308]
+[2024-05-01 08:48:00] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-01 08:48:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: llama-cpp-agent
+[2024-05-01 08:48:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-venafi
+[2024-05-01 08:48:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-sumologic
+[2024-05-01 08:48:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: CTDFjorder
+[2024-05-01 08:48:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: stepcount
+[2024-05-01 08:48:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: llama-cpp-agent
+[2024-05-01 08:48:00] INFO root fetch - processPackages [llama-cpp-agent]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-01 08:48:00] INFO root fetch - processPackages [pulumi-venafi]: New version: [1.9.0a1713292049] Old Version: [1.9.0a1712991486]
+[2024-05-01 08:48:00] INFO root fetch - processPackages [llama-cpp-agent]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-01 08:48:00] INFO root fetch - processPackages [pulumi-sumologic]: New version: [0.9.1a1663799436] Old Version: [0.9.0]
+[2024-05-01 08:48:00] INFO root fetch - processPackages [llama-cpp-agent]: Downloading https://files.pythonhosted.org/packages/b1/dc/cf0fbb161c3d3c231fcd4737a8f55f4183bbbf8030ccb12b79a20348556e/llama-cpp-agent-0.0.8.tar.gz
+[2024-05-01 08:48:00] WARNING root fetch - processPackages [CTDFjorder]: Skipping, unable to determine old version
+[2024-05-01 08:48:00] INFO root fetch - main [MainThread]: End processing [CTDFjorder] error
+[2024-05-01 08:48:00] INFO root fetch - processPackages [stepcount]: New version: [3.6.0] Old Version: [3.5.0]
+[2024-05-01 08:48:00] INFO root fetch - processPackages [pulumi-venafi]: Downloading https://files.pythonhosted.org/packages/d4/ba/b7bda1ab1fe8291faacca84d278acd6abaf9f99bfd9ed88965e8fcc7d6af/pulumi_venafi-1.9.0a1712991486.tar.gz
+[2024-05-01 08:48:00] INFO root fetch - processPackages [llama-cpp-agent]: Downloading https://files.pythonhosted.org/packages/b1/dc/cf0fbb161c3d3c231fcd4737a8f55f4183bbbf8030ccb12b79a20348556e/llama-cpp-agent-0.0.8.tar.gz
+[2024-05-01 08:48:00] INFO root fetch - processPackages [pulumi-sumologic]: Downloading https://files.pythonhosted.org/packages/6e/f2/ba414f5902bee40f219e9fb7e62d763f8263329614fc12ed2b5b02a34627/pulumi_sumologic-0.9.0.tar.gz
+[2024-05-01 08:48:01] INFO root fetch - processPackages [stepcount]: Downloading https://files.pythonhosted.org/packages/31/fd/471d5781f49f4b3a195fd30b54b05399cb6a4e7bebf5e1c948814c9c1231/stepcount-3.5.0.tar.gz
+[2024-05-01 08:48:01] INFO root fetch - processPackages [pulumi-venafi]: Downloading https://files.pythonhosted.org/packages/db/01/dcb11920f0787807e87c2c697ce7f79b7068f63cdc9de29171958916432b/pulumi_venafi-1.9.0a1713292049.tar.gz
+[2024-05-01 08:48:01] INFO root fetch - processPackages [llama-cpp-agent]: Downloading https://files.pythonhosted.org/packages/72/d2/fe669d324be099dc10673e05fdedaa55577529de265f254f94bf2c1eca23/llama-cpp-agent-0.0.9.tar.gz
+[2024-05-01 08:48:01] INFO root fetch - processPackages [llama-cpp-agent]: Downloading https://files.pythonhosted.org/packages/72/d2/fe669d324be099dc10673e05fdedaa55577529de265f254f94bf2c1eca23/llama-cpp-agent-0.0.9.tar.gz
+[2024-05-01 08:48:01] INFO root fetch - processPackages [pulumi-sumologic]: Downloading https://files.pythonhosted.org/packages/67/c4/8f95a0de8aac6e9d9348bd2698c48e05211e3a2fabda9b0e7bcaa7b80ca8/pulumi_sumologic-0.9.1a1663799436.tar.gz
+[2024-05-01 08:48:01] INFO root fetch - processPackages [pulumi-venafi]: executing diffoscope
+[2024-05-01 08:48:01] INFO root fetch - processPackages [pulumi-venafi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_venafi-1.9.0a1712991486.tar.gz tmp/pulumi_venafi-1.9.0a1713292049.tar.gz --markdown 20240501/p/pulumi-venafi/1.9.0a1712991486-1.9.0a1713292049/README.md --exclude *.pyd
+[2024-05-01 08:48:01] INFO root fetch - processPackages [llama-cpp-agent]: executing diffoscope
+[2024-05-01 08:48:01] INFO root fetch - processPackages [llama-cpp-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama-cpp-agent-0.0.8.tar.gz tmp/llama-cpp-agent-0.0.9.tar.gz --markdown 20240501/l/llama-cpp-agent/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-01 08:48:01] INFO root fetch - processPackages [llama-cpp-agent]: executing diffoscope
+[2024-05-01 08:48:01] INFO root fetch - processPackages [llama-cpp-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama-cpp-agent-0.0.8.tar.gz tmp/llama-cpp-agent-0.0.9.tar.gz --markdown 20240501/l/llama-cpp-agent/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-01 08:48:01] INFO root fetch - processPackages [pulumi-sumologic]: executing diffoscope
+[2024-05-01 08:48:01] INFO root fetch - processPackages [pulumi-sumologic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_sumologic-0.9.0.tar.gz tmp/pulumi_sumologic-0.9.1a1663799436.tar.gz --markdown 20240501/p/pulumi-sumologic/0.9.0-0.9.1a1663799436/README.md --exclude *.pyd
+[2024-05-01 08:48:01] INFO root fetch - processPackages [stepcount]: Downloading https://files.pythonhosted.org/packages/98/af/42af409baba3dc5b5c61aaf3f31bfc44fdf08334be2a2faf1cc2da391b32/stepcount-3.6.0.tar.gz
+[2024-05-01 08:48:01] INFO root fetch - processPackages [stepcount]: executing diffoscope
+[2024-05-01 08:48:01] INFO root fetch - processPackages [stepcount]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stepcount-3.5.0.tar.gz tmp/stepcount-3.6.0.tar.gz --markdown 20240501/s/stepcount/3.5.0-3.6.0/README.md --exclude *.pyd
+[2024-05-01 08:48:02] INFO root fetch - processPackages [llama-cpp-agent]: Remove: archive file [/home/abi/fetcher/tmp/llama-cpp-agent-0.0.8.tar.gz]
+[2024-05-01 08:48:02] INFO root fetch - processPackages [llama-cpp-agent]: Remove: archive file [/home/abi/fetcher/tmp/llama-cpp-agent-0.0.9.tar.gz]
+[2024-05-01 08:48:02] INFO root fetch - main [MainThread]: End processing [llama-cpp-agent]: success
+[2024-05-01 08:48:02] INFO root fetch - processPackages [pulumi-venafi]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_venafi-1.9.0a1712991486.tar.gz]
+[2024-05-01 08:48:02] INFO root fetch - processPackages [pulumi-venafi]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_venafi-1.9.0a1713292049.tar.gz]
+[2024-05-01 08:48:02] INFO root fetch - main [MainThread]: End processing [pulumi-venafi]: success
+[2024-05-01 08:48:02] INFO root fetch - main [MainThread]: End processing [llama-cpp-agent]: success
+[2024-05-01 08:48:02] INFO root fetch - processPackages [stepcount]: Remove: archive file [/home/abi/fetcher/tmp/stepcount-3.5.0.tar.gz]
+[2024-05-01 08:48:02] INFO root fetch - processPackages [stepcount]: Remove: archive file [/home/abi/fetcher/tmp/stepcount-3.6.0.tar.gz]
+[2024-05-01 08:48:02] INFO root fetch - main [MainThread]: End processing [stepcount]: success
+[2024-05-01 08:48:02] INFO root fetch - processPackages [pulumi-sumologic]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_sumologic-0.9.0.tar.gz]
+[2024-05-01 08:48:02] INFO root fetch - processPackages [pulumi-sumologic]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_sumologic-0.9.1a1663799436.tar.gz]
+[2024-05-01 08:48:02] INFO root fetch - main [MainThread]: End processing [pulumi-sumologic]: success
+[2024-05-01 08:48:02] INFO root fetch - main [MainThread]: Store serial: [23013328]
