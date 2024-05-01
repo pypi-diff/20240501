@@ -12083,3 +12083,60 @@
 [2024-05-01 09:41:45] INFO root fetch - processPackages [ops]: Remove: archive file [/home/abi/fetcher/tmp/ops-2.9.0.tar.gz]
 [2024-05-01 09:41:45] INFO root fetch - main [MainThread]: End processing [ops]: success
 [2024-05-01 09:41:45] INFO root fetch - main [MainThread]: Store serial: [23013681]
+[2024-05-01 09:43:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23013681]
+[2024-05-01 09:43:54] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-01 09:43:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wagtail-editorjs
+[2024-05-01 09:43:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mkdocs-swagger-ui-tag
+[2024-05-01 09:43:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: homeconnect-webthing
+[2024-05-01 09:43:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bio2zarr
+[2024-05-01 09:43:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: LuBanPy
+[2024-05-01 09:43:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dir-content-diff
+[2024-05-01 09:43:55] INFO root fetch - processPackages [LuBanPy]: New version: [0.1.9] Old Version: [0.1.7]
+[2024-05-01 09:43:55] INFO root fetch - processPackages [wagtail-editorjs]: New version: [1.6.1rc3] Old Version: [1.6.1rc2]
+[2024-05-01 09:43:55] INFO root fetch - processPackages [homeconnect-webthing]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-05-01 09:43:55] INFO root fetch - processPackages [dir-content-diff]: New version: [1.8.1] Old Version: [1.8.0]
+[2024-05-01 09:43:55] INFO root fetch - processPackages [mkdocs-swagger-ui-tag]: New version: [0.6.9] Old Version: [0.6.8]
+[2024-05-01 09:43:55] INFO root fetch - processPackages [bio2zarr]: New version: [0.0.8] Old Version: [0.0.6]
+[2024-05-01 09:43:55] INFO root fetch - processPackages [LuBanPy]: Downloading https://files.pythonhosted.org/packages/56/da/c1a104d4b834f04c0441a2021da07a0d2fa21d41fa076d73f5d3cd36a231/LuBanPy-0.1.7-cp38-cp38-win_amd64.whl
+[2024-05-01 09:43:55] INFO root fetch - processPackages [wagtail-editorjs]: Downloading https://files.pythonhosted.org/packages/8c/71/ce7c16f612003a8e65e24b8b0062360ffb367592737b73aa6000a6ffaf60/wagtail_editorjs-1.6.1rc2.tar.gz
+[2024-05-01 09:43:55] INFO root fetch - processPackages [homeconnect-webthing]: Downloading https://files.pythonhosted.org/packages/c4/6e/5cb75b27963c1c8c2dd80f0b763e5a1b9897836d1b4418ee81b304ed7c06/homeconnect_webthing-1.0.4.tar.gz
+[2024-05-01 09:43:55] INFO root fetch - processPackages [mkdocs-swagger-ui-tag]: Downloading https://files.pythonhosted.org/packages/09/ce/fdb9a09a3d6777c4ee8e319c31477816c07e9dd999a263f35fe600b1eeee/mkdocs-swagger-ui-tag-0.6.8.tar.gz
+[2024-05-01 09:43:55] INFO root fetch - processPackages [bio2zarr]: Downloading https://files.pythonhosted.org/packages/b8/d4/be75e2248ac2cfb7cde6bce498235f825ba4f34a54456d6742668085d40f/bio2zarr-0.0.6.tar.gz
+[2024-05-01 09:43:55] INFO root fetch - processPackages [dir-content-diff]: Downloading https://files.pythonhosted.org/packages/ca/1f/b6841ec9e4b031ce49fc0cd086aefec2e2763bb42452bba4dc033c6b5785/dir-content-diff-1.8.0.tar.gz
+[2024-05-01 09:43:55] INFO root fetch - processPackages [homeconnect-webthing]: Downloading https://files.pythonhosted.org/packages/ae/e9/99dc5cd1978de94bbcd8dc8ed6da8b2f6704b961765020eca317b8f8b584/homeconnect_webthing-1.0.5.tar.gz
+[2024-05-01 09:43:55] INFO root fetch - processPackages [wagtail-editorjs]: Downloading https://files.pythonhosted.org/packages/28/f7/f4d14551e298abf4d99f35a7011c1da91723fe4602dc9b55fa58ff9cc3d4/wagtail_editorjs-1.6.1rc3.tar.gz
+[2024-05-01 09:43:55] INFO root fetch - processPackages [LuBanPy]: Downloading https://files.pythonhosted.org/packages/d8/80/6ec38830c73dc214a34d0bcdfc9eac19ee0a5ff2f7e661427b5f1b926500/LuBanPy-0.1.9-cp38-cp38-win_amd64.whl
+[2024-05-01 09:43:55] INFO root fetch - processPackages [homeconnect-webthing]: executing diffoscope
+[2024-05-01 09:43:55] INFO root fetch - processPackages [homeconnect-webthing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/homeconnect_webthing-1.0.4.tar.gz tmp/homeconnect_webthing-1.0.5.tar.gz --markdown 20240501/h/homeconnect-webthing/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-05-01 09:43:55] INFO root fetch - processPackages [wagtail-editorjs]: executing diffoscope
+[2024-05-01 09:43:55] INFO root fetch - processPackages [wagtail-editorjs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wagtail_editorjs-1.6.1rc2.tar.gz tmp/wagtail_editorjs-1.6.1rc3.tar.gz --markdown 20240501/w/wagtail-editorjs/1.6.1rc2-1.6.1rc3/README.md --exclude *.pyd
+[2024-05-01 09:43:55] INFO root fetch - processPackages [bio2zarr]: Downloading https://files.pythonhosted.org/packages/dd/31/7442344ead34c0254577b1112e77c4791a34eca3b5f306008eb741e29149/bio2zarr-0.0.8.tar.gz
+[2024-05-01 09:43:55] INFO root fetch - processPackages [LuBanPy]: executing diffoscope
+[2024-05-01 09:43:55] INFO root fetch - processPackages [LuBanPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LuBanPy-0.1.7-cp38-cp38-win_amd64.whl.zip tmp/LuBanPy-0.1.9-cp38-cp38-win_amd64.whl.zip --markdown 20240501/L/LuBanPy/0.1.7-0.1.9/README.md --exclude *.pyd
+[2024-05-01 09:43:55] INFO root fetch - processPackages [dir-content-diff]: Downloading https://files.pythonhosted.org/packages/b5/c3/ba37c4423bc81a3edcd53fcb842c28b455b9bb614699ca2aff053abc8846/dir_content_diff-1.8.1.tar.gz
+[2024-05-01 09:43:55] INFO root fetch - processPackages [bio2zarr]: executing diffoscope
+[2024-05-01 09:43:55] INFO root fetch - processPackages [bio2zarr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bio2zarr-0.0.6.tar.gz tmp/bio2zarr-0.0.8.tar.gz --markdown 20240501/b/bio2zarr/0.0.6-0.0.8/README.md --exclude *.pyd
+[2024-05-01 09:43:56] INFO root fetch - processPackages [dir-content-diff]: executing diffoscope
+[2024-05-01 09:43:56] INFO root fetch - processPackages [dir-content-diff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dir-content-diff-1.8.0.tar.gz tmp/dir_content_diff-1.8.1.tar.gz --markdown 20240501/d/dir-content-diff/1.8.0-1.8.1/README.md --exclude *.pyd
+[2024-05-01 09:43:56] INFO root fetch - processPackages [mkdocs-swagger-ui-tag]: Downloading https://files.pythonhosted.org/packages/82/7c/559138509e5f5e4a5679056899a0a29c2b0aec6549297c6f0bcca242f769/mkdocs-swagger-ui-tag-0.6.9.tar.gz
+[2024-05-01 09:43:56] INFO root fetch - processPackages [homeconnect-webthing]: Remove: archive file [/home/abi/fetcher/tmp/homeconnect_webthing-1.0.4.tar.gz]
+[2024-05-01 09:43:56] INFO root fetch - processPackages [homeconnect-webthing]: Remove: archive file [/home/abi/fetcher/tmp/homeconnect_webthing-1.0.5.tar.gz]
+[2024-05-01 09:43:56] INFO root fetch - main [MainThread]: End processing [homeconnect-webthing]: success
+[2024-05-01 09:43:56] INFO root fetch - processPackages [LuBanPy]: Remove: archive file [/home/abi/fetcher/tmp/LuBanPy-0.1.7-cp38-cp38-win_amd64.whl.zip]
+[2024-05-01 09:43:56] INFO root fetch - processPackages [LuBanPy]: Remove: archive file [/home/abi/fetcher/tmp/LuBanPy-0.1.9-cp38-cp38-win_amd64.whl.zip]
+[2024-05-01 09:43:56] INFO root fetch - main [MainThread]: End processing [LuBanPy]: success
+[2024-05-01 09:43:56] INFO root fetch - processPackages [wagtail-editorjs]: Remove: archive file [/home/abi/fetcher/tmp/wagtail_editorjs-1.6.1rc2.tar.gz]
+[2024-05-01 09:43:56] INFO root fetch - processPackages [wagtail-editorjs]: Remove: archive file [/home/abi/fetcher/tmp/wagtail_editorjs-1.6.1rc3.tar.gz]
+[2024-05-01 09:43:56] INFO root fetch - main [MainThread]: End processing [wagtail-editorjs]: success
+[2024-05-01 09:43:56] INFO root fetch - processPackages [bio2zarr]: Remove: archive file [/home/abi/fetcher/tmp/bio2zarr-0.0.6.tar.gz]
+[2024-05-01 09:43:56] INFO root fetch - processPackages [bio2zarr]: Remove: archive file [/home/abi/fetcher/tmp/bio2zarr-0.0.8.tar.gz]
+[2024-05-01 09:43:56] INFO root fetch - main [MainThread]: End processing [bio2zarr]: success
+[2024-05-01 09:43:56] INFO root fetch - processPackages [mkdocs-swagger-ui-tag]: executing diffoscope
+[2024-05-01 09:43:56] INFO root fetch - processPackages [mkdocs-swagger-ui-tag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs-swagger-ui-tag-0.6.8.tar.gz tmp/mkdocs-swagger-ui-tag-0.6.9.tar.gz --markdown 20240501/m/mkdocs-swagger-ui-tag/0.6.8-0.6.9/README.md --exclude *.pyd
+[2024-05-01 09:43:56] INFO root fetch - processPackages [dir-content-diff]: Remove: archive file [/home/abi/fetcher/tmp/dir-content-diff-1.8.0.tar.gz]
+[2024-05-01 09:43:56] INFO root fetch - processPackages [dir-content-diff]: Remove: archive file [/home/abi/fetcher/tmp/dir_content_diff-1.8.1.tar.gz]
+[2024-05-01 09:43:56] INFO root fetch - main [MainThread]: End processing [dir-content-diff]: success
+[2024-05-01 09:45:49] INFO root fetch - processPackages [mkdocs-swagger-ui-tag]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs-swagger-ui-tag-0.6.8.tar.gz]
+[2024-05-01 09:45:49] INFO root fetch - processPackages [mkdocs-swagger-ui-tag]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs-swagger-ui-tag-0.6.9.tar.gz]
+[2024-05-01 09:45:49] INFO root fetch - main [MainThread]: End processing [mkdocs-swagger-ui-tag]: success
+[2024-05-01 09:45:49] INFO root fetch - main [MainThread]: Store serial: [23013696]
