@@ -9504,3 +9504,24 @@
 [2024-05-01 07:10:49] INFO root fetch - processPackages [economic-complexity]: Remove: archive file [/home/abi/fetcher/tmp/economic_complexity-0.2.4.tar.gz]
 [2024-05-01 07:10:49] INFO root fetch - main [MainThread]: End processing [economic-complexity]: success
 [2024-05-01 07:10:49] INFO root fetch - main [MainThread]: Store serial: [23012561]
+[2024-05-01 07:12:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23012561]
+[2024-05-01 07:12:58] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-01 07:12:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: arnie
+[2024-05-01 07:12:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo14-addon-partner-affiliate
+[2024-05-01 07:12:58] INFO root fetch - processPackages [arnie]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-01 07:12:58] INFO root fetch - processPackages [odoo14-addon-partner-affiliate]: New version: [14.0.1.0.2.dev9] Old Version: [14.0.1.0.2.dev8]
+[2024-05-01 07:12:58] INFO root fetch - processPackages [arnie]: Downloading https://files.pythonhosted.org/packages/fa/77/155a4457290bacadf41c192d4a156329ef54c2019e638557cb5c80d56e9d/arnie-0.1.5.tar.gz
+[2024-05-01 07:12:58] INFO root fetch - processPackages [odoo14-addon-partner-affiliate]: Downloading https://files.pythonhosted.org/packages/36/f2/cb56b8fbedda36a63ec99eeafa9db11c514531b95ac7699e907a7cd6b7a5/odoo14_addon_partner_affiliate-14.0.1.0.2.dev8-py3-none-any.whl
+[2024-05-01 07:12:59] INFO root fetch - processPackages [arnie]: Downloading https://files.pythonhosted.org/packages/e3/64/c72166bf329a09dc9eac48c25678f0155e07620b17d520862335bd0d5444/arnie-0.1.6.tar.gz
+[2024-05-01 07:12:59] INFO root fetch - processPackages [arnie]: executing diffoscope
+[2024-05-01 07:12:59] INFO root fetch - processPackages [arnie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arnie-0.1.5.tar.gz tmp/arnie-0.1.6.tar.gz --markdown 20240501/a/arnie/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-01 07:12:59] INFO root fetch - processPackages [odoo14-addon-partner-affiliate]: Downloading https://files.pythonhosted.org/packages/50/9b/45d6bec84b46d0ef63ee7106e3f962955038333dd24077da062139c0a8e8/odoo14_addon_partner_affiliate-14.0.1.0.2.dev9-py3-none-any.whl
+[2024-05-01 07:12:59] INFO root fetch - processPackages [odoo14-addon-partner-affiliate]: executing diffoscope
+[2024-05-01 07:12:59] INFO root fetch - processPackages [odoo14-addon-partner-affiliate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_partner_affiliate-14.0.1.0.2.dev8-py3-none-any.whl.zip tmp/odoo14_addon_partner_affiliate-14.0.1.0.2.dev9-py3-none-any.whl.zip --markdown 20240501/o/odoo14-addon-partner-affiliate/14.0.1.0.2.dev8-14.0.1.0.2.dev9/README.md --exclude *.pyd
+[2024-05-01 07:12:59] INFO root fetch - processPackages [arnie]: Remove: archive file [/home/abi/fetcher/tmp/arnie-0.1.5.tar.gz]
+[2024-05-01 07:12:59] INFO root fetch - processPackages [arnie]: Remove: archive file [/home/abi/fetcher/tmp/arnie-0.1.6.tar.gz]
+[2024-05-01 07:12:59] INFO root fetch - main [MainThread]: End processing [arnie]: success
+[2024-05-01 07:13:00] INFO root fetch - processPackages [odoo14-addon-partner-affiliate]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_partner_affiliate-14.0.1.0.2.dev8-py3-none-any.whl.zip]
+[2024-05-01 07:13:00] INFO root fetch - processPackages [odoo14-addon-partner-affiliate]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_partner_affiliate-14.0.1.0.2.dev9-py3-none-any.whl.zip]
+[2024-05-01 07:13:00] INFO root fetch - main [MainThread]: End processing [odoo14-addon-partner-affiliate]: success
+[2024-05-01 07:13:00] INFO root fetch - main [MainThread]: Store serial: [23012566]
