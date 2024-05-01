@@ -14721,3 +14721,33 @@
 [2024-05-01 11:58:11] INFO root fetch - processPackages [luminesce-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/luminesce-sdk-preview-1.9.92.tar.gz]
 [2024-05-01 11:58:11] INFO root fetch - main [MainThread]: End processing [luminesce-sdk-preview]: success
 [2024-05-01 11:58:11] INFO root fetch - main [MainThread]: Store serial: [23014926]
+[2024-05-01 12:00:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23014926]
+[2024-05-01 12:00:20] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-01 12:00:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: luminesce-sdk-preview
+[2024-05-01 12:00:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-mailgun
+[2024-05-01 12:00:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: trytond-stock-product-location
+[2024-05-01 12:00:20] INFO root fetch - processPackages [trytond-stock-product-location]: New version: [7.2.0] Old Version: [7.0.2]
+[2024-05-01 12:00:20] INFO root fetch - processPackages [pulumi-mailgun]: New version: [3.6.0a1714542487] Old Version: [3.6.0a1714456243]
+[2024-05-01 12:00:20] INFO root fetch - processPackages [luminesce-sdk-preview]: New version: [1.9.92] Old Version: [1.9.88]
+[2024-05-01 12:00:20] INFO root fetch - processPackages [trytond-stock-product-location]: Downloading https://files.pythonhosted.org/packages/69/8d/3be1c0e9f61dae9e8f2e8244724e51bcacfeb2c134126f0fa60dcf9ba30e/trytond_stock_product_location-7.0.2.tar.gz
+[2024-05-01 12:00:20] INFO root fetch - processPackages [pulumi-mailgun]: Downloading https://files.pythonhosted.org/packages/77/78/0c999f7275ca10a0535bb28664e56885b1bf10ddd007ad66f2719baa044a/pulumi_mailgun-3.6.0a1714456243.tar.gz
+[2024-05-01 12:00:20] INFO root fetch - processPackages [luminesce-sdk-preview]: Downloading https://files.pythonhosted.org/packages/d3/7b/a9c3e829fb03ae79379224fe34adb99d80c6dbfc5f00ccc44cf429d34f61/luminesce-sdk-preview-1.9.88.tar.gz
+[2024-05-01 12:00:20] INFO root fetch - processPackages [trytond-stock-product-location]: Downloading https://files.pythonhosted.org/packages/9f/26/69c7991bd88af999d93de61b0a296ca47c36371ef454528ae154a532cb71/trytond_stock_product_location-7.2.0.tar.gz
+[2024-05-01 12:00:20] INFO root fetch - processPackages [luminesce-sdk-preview]: Downloading https://files.pythonhosted.org/packages/b4/a1/29e30342ad6b0ee5f31f57c9ebeee25c12a4805f3f972e1908bf31abd599/luminesce-sdk-preview-1.9.92.tar.gz
+[2024-05-01 12:00:21] INFO root fetch - processPackages [trytond-stock-product-location]: executing diffoscope
+[2024-05-01 12:00:21] INFO root fetch - processPackages [trytond-stock-product-location]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_stock_product_location-7.0.2.tar.gz tmp/trytond_stock_product_location-7.2.0.tar.gz --markdown 20240501/t/trytond-stock-product-location/7.0.2-7.2.0/README.md --exclude *.pyd
+[2024-05-01 12:00:21] INFO root fetch - processPackages [luminesce-sdk-preview]: executing diffoscope
+[2024-05-01 12:00:21] INFO root fetch - processPackages [luminesce-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/luminesce-sdk-preview-1.9.88.tar.gz tmp/luminesce-sdk-preview-1.9.92.tar.gz --markdown 20240501/l/luminesce-sdk-preview/1.9.88-1.9.92/README.md --exclude *.pyd
+[2024-05-01 12:00:21] INFO root fetch - processPackages [pulumi-mailgun]: Downloading https://files.pythonhosted.org/packages/14/b4/92cf38d4609865cf370994b38ce718c2e5b84f1710ad77df5b3833b96364/pulumi_mailgun-3.6.0a1714542487.tar.gz
+[2024-05-01 12:00:21] INFO root fetch - processPackages [pulumi-mailgun]: executing diffoscope
+[2024-05-01 12:00:21] INFO root fetch - processPackages [pulumi-mailgun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_mailgun-3.6.0a1714456243.tar.gz tmp/pulumi_mailgun-3.6.0a1714542487.tar.gz --markdown 20240501/p/pulumi-mailgun/3.6.0a1714456243-3.6.0a1714542487/README.md --exclude *.pyd
+[2024-05-01 12:00:21] INFO root fetch - processPackages [trytond-stock-product-location]: Remove: archive file [/home/abi/fetcher/tmp/trytond_stock_product_location-7.0.2.tar.gz]
+[2024-05-01 12:00:21] INFO root fetch - processPackages [trytond-stock-product-location]: Remove: archive file [/home/abi/fetcher/tmp/trytond_stock_product_location-7.2.0.tar.gz]
+[2024-05-01 12:00:21] INFO root fetch - main [MainThread]: End processing [trytond-stock-product-location]: success
+[2024-05-01 12:00:21] INFO root fetch - processPackages [pulumi-mailgun]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_mailgun-3.6.0a1714456243.tar.gz]
+[2024-05-01 12:00:21] INFO root fetch - processPackages [pulumi-mailgun]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_mailgun-3.6.0a1714542487.tar.gz]
+[2024-05-01 12:00:21] INFO root fetch - main [MainThread]: End processing [pulumi-mailgun]: success
+[2024-05-01 12:00:21] INFO root fetch - processPackages [luminesce-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/luminesce-sdk-preview-1.9.88.tar.gz]
+[2024-05-01 12:00:21] INFO root fetch - processPackages [luminesce-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/luminesce-sdk-preview-1.9.92.tar.gz]
+[2024-05-01 12:00:21] INFO root fetch - main [MainThread]: End processing [luminesce-sdk-preview]: success
+[2024-05-01 12:00:21] INFO root fetch - main [MainThread]: Store serial: [23014935]
