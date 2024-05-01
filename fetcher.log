@@ -7576,3 +7576,44 @@
 [2024-05-01 04:46:13] INFO root fetch - processPackages [modal]: Remove: archive file [/home/abi/fetcher/tmp/modal-0.62.99-py3-none-any.whl.zip]
 [2024-05-01 04:46:13] INFO root fetch - main [MainThread]: End processing [modal]: success
 [2024-05-01 04:46:13] INFO root fetch - main [MainThread]: Store serial: [23011604]
+[2024-05-01 04:48:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23011604]
+[2024-05-01 04:48:21] INFO root fetch - main [MainThread]: No changed packages found
+[2024-05-01 04:50:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23011604]
+[2024-05-01 04:50:28] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-01 04:50:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pypipr
+[2024-05-01 04:50:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: trycourier
+[2024-05-01 04:50:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sembansurga
+[2024-05-01 04:50:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PicImageSearch
+[2024-05-01 04:50:28] INFO root fetch - processPackages [pypipr]: New version: [1.0.99] Old Version: [1.0.98]
+[2024-05-01 04:50:28] INFO root fetch - processPackages [sembansurga]: New version: [1.1.3] Old Version: [1.0.4]
+[2024-05-01 04:50:28] INFO root fetch - processPackages [pypipr]: Downloading https://files.pythonhosted.org/packages/41/8e/296646c6a3d68ecf6c58c3ec52ece636443172c24750f76c7001939e52d3/pypipr-1.0.98.tar.gz
+[2024-05-01 04:50:28] INFO root fetch - processPackages [trycourier]: New version: [6.0.3] Old Version: [6.0.2]
+[2024-05-01 04:50:28] INFO root fetch - processPackages [PicImageSearch]: New version: [3.9.7] Old Version: [3.9.6]
+[2024-05-01 04:50:29] INFO root fetch - processPackages [sembansurga]: Downloading https://files.pythonhosted.org/packages/65/ef/3bf568d31003344c02460bd2e150ab0efdd8199514160776f4a34f12196c/sembansurga-1.0.4.tar.gz
+[2024-05-01 04:50:29] INFO root fetch - processPackages [pypipr]: Downloading https://files.pythonhosted.org/packages/49/d0/c23afc67d1fa03531bbd97cc72ad024e79b8e25678a6a5674d469d19cdf9/pypipr-1.0.99.tar.gz
+[2024-05-01 04:50:29] INFO root fetch - processPackages [trycourier]: Downloading https://files.pythonhosted.org/packages/14/1b/4ad35a7b5e3d1fb73162a6e7ab98cad737614f4460f8d2b99a9c2bd81abc/trycourier-6.0.2.tar.gz
+[2024-05-01 04:50:29] INFO root fetch - processPackages [PicImageSearch]: Downloading https://files.pythonhosted.org/packages/2f/8b/efbe359e1bcce780aa1d72a28b13e90a4f84f35f10026b5c2a2ac9686ec3/picimagesearch-3.9.6.tar.gz
+[2024-05-01 04:50:29] INFO root fetch - processPackages [pypipr]: executing diffoscope
+[2024-05-01 04:50:29] INFO root fetch - processPackages [pypipr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypipr-1.0.98.tar.gz tmp/pypipr-1.0.99.tar.gz --markdown 20240501/p/pypipr/1.0.98-1.0.99/README.md --exclude *.pyd
+[2024-05-01 04:50:29] INFO root fetch - processPackages [sembansurga]: Downloading https://files.pythonhosted.org/packages/4e/c1/d19e852f399811afa1c05f0296bb871d5a705a8f443a535b8942c7fa9d52/sembansurga-1.1.3.tar.gz
+[2024-05-01 04:50:29] INFO root fetch - processPackages [trycourier]: Downloading https://files.pythonhosted.org/packages/57/6c/42d5d7f1e379acdee29cd1d0d3e6914e954a629a8a595c542adc1c8aed3b/trycourier-6.0.3.tar.gz
+[2024-05-01 04:50:29] INFO root fetch - processPackages [PicImageSearch]: Downloading https://files.pythonhosted.org/packages/24/de/a4a806db624033d994ed41d6f614d0304ec2a357e69bc30034a8b2c62da8/picimagesearch-3.9.7.tar.gz
+[2024-05-01 04:50:29] INFO root fetch - processPackages [sembansurga]: executing diffoscope
+[2024-05-01 04:50:29] INFO root fetch - processPackages [sembansurga]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sembansurga-1.0.4.tar.gz tmp/sembansurga-1.1.3.tar.gz --markdown 20240501/s/sembansurga/1.0.4-1.1.3/README.md --exclude *.pyd
+[2024-05-01 04:50:29] INFO root fetch - processPackages [trycourier]: executing diffoscope
+[2024-05-01 04:50:29] INFO root fetch - processPackages [trycourier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trycourier-6.0.2.tar.gz tmp/trycourier-6.0.3.tar.gz --markdown 20240501/t/trycourier/6.0.2-6.0.3/README.md --exclude *.pyd
+[2024-05-01 04:50:29] INFO root fetch - processPackages [PicImageSearch]: executing diffoscope
+[2024-05-01 04:50:29] INFO root fetch - processPackages [PicImageSearch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/picimagesearch-3.9.6.tar.gz tmp/picimagesearch-3.9.7.tar.gz --markdown 20240501/P/PicImageSearch/3.9.6-3.9.7/README.md --exclude *.pyd
+[2024-05-01 04:50:30] INFO root fetch - processPackages [pypipr]: Remove: archive file [/home/abi/fetcher/tmp/pypipr-1.0.98.tar.gz]
+[2024-05-01 04:50:30] INFO root fetch - processPackages [pypipr]: Remove: archive file [/home/abi/fetcher/tmp/pypipr-1.0.99.tar.gz]
+[2024-05-01 04:50:30] INFO root fetch - main [MainThread]: End processing [pypipr]: success
+[2024-05-01 04:50:30] INFO root fetch - processPackages [sembansurga]: Remove: archive file [/home/abi/fetcher/tmp/sembansurga-1.0.4.tar.gz]
+[2024-05-01 04:50:30] INFO root fetch - processPackages [sembansurga]: Remove: archive file [/home/abi/fetcher/tmp/sembansurga-1.1.3.tar.gz]
+[2024-05-01 04:50:30] INFO root fetch - main [MainThread]: End processing [sembansurga]: success
+[2024-05-01 04:50:30] INFO root fetch - processPackages [PicImageSearch]: Remove: archive file [/home/abi/fetcher/tmp/picimagesearch-3.9.6.tar.gz]
+[2024-05-01 04:50:30] INFO root fetch - processPackages [PicImageSearch]: Remove: archive file [/home/abi/fetcher/tmp/picimagesearch-3.9.7.tar.gz]
+[2024-05-01 04:50:30] INFO root fetch - main [MainThread]: End processing [PicImageSearch]: success
+[2024-05-01 04:50:31] INFO root fetch - processPackages [trycourier]: Remove: archive file [/home/abi/fetcher/tmp/trycourier-6.0.2.tar.gz]
+[2024-05-01 04:50:31] INFO root fetch - processPackages [trycourier]: Remove: archive file [/home/abi/fetcher/tmp/trycourier-6.0.3.tar.gz]
+[2024-05-01 04:50:31] INFO root fetch - main [MainThread]: End processing [trycourier]: success
+[2024-05-01 04:50:31] INFO root fetch - main [MainThread]: Store serial: [23011616]
