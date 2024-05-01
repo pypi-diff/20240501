@@ -8847,3 +8847,15 @@
 [2024-05-01 06:24:49] INFO root fetch - processPackages [odoo12-addon-l10n-it-ddt]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_l10n_it_ddt-12.0.1.9.5.99.dev4-py3-none-any.whl.zip]
 [2024-05-01 06:24:49] INFO root fetch - main [MainThread]: End processing [odoo12-addon-l10n-it-ddt]: success
 [2024-05-01 06:24:49] INFO root fetch - main [MainThread]: Store serial: [23012218]
+[2024-05-01 06:26:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23012218]
+[2024-05-01 06:26:57] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-01 06:26:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-cloudinit
+[2024-05-01 06:26:57] INFO root fetch - processPackages [pulumi-cloudinit]: New version: [1.5.0a1714454566] Old Version: [1.5.0a1714108936]
+[2024-05-01 06:26:58] INFO root fetch - processPackages [pulumi-cloudinit]: Downloading https://files.pythonhosted.org/packages/55/c2/85b6738d381dc01e2306fecf7276c3b176fa7f2ba46233b8cdf81248954e/pulumi_cloudinit-1.5.0a1714108936.tar.gz
+[2024-05-01 06:26:58] INFO root fetch - processPackages [pulumi-cloudinit]: Downloading https://files.pythonhosted.org/packages/ee/d7/301da079cbfb3b782d5e36941a9e6b3d9aa409001503f64db64526d78c64/pulumi_cloudinit-1.5.0a1714454566.tar.gz
+[2024-05-01 06:26:58] INFO root fetch - processPackages [pulumi-cloudinit]: executing diffoscope
+[2024-05-01 06:26:58] INFO root fetch - processPackages [pulumi-cloudinit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_cloudinit-1.5.0a1714108936.tar.gz tmp/pulumi_cloudinit-1.5.0a1714454566.tar.gz --markdown 20240501/p/pulumi-cloudinit/1.5.0a1714108936-1.5.0a1714454566/README.md --exclude *.pyd
+[2024-05-01 06:26:58] INFO root fetch - processPackages [pulumi-cloudinit]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_cloudinit-1.5.0a1714108936.tar.gz]
+[2024-05-01 06:26:58] INFO root fetch - processPackages [pulumi-cloudinit]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_cloudinit-1.5.0a1714454566.tar.gz]
+[2024-05-01 06:26:58] INFO root fetch - main [MainThread]: End processing [pulumi-cloudinit]: success
+[2024-05-01 06:26:58] INFO root fetch - main [MainThread]: Store serial: [23012221]
