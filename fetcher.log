@@ -13432,3 +13432,83 @@
 [2024-05-01 10:51:51] INFO root fetch - processPackages [potatorch]: Remove: archive file [/home/abi/fetcher/tmp/potatorch-0.0.4.tar.gz]
 [2024-05-01 10:51:51] INFO root fetch - main [MainThread]: End processing [potatorch]: success
 [2024-05-01 10:51:51] INFO root fetch - main [MainThread]: Store serial: [23014339]
+[2024-05-01 10:53:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23014339]
+[2024-05-01 10:53:59] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-01 10:53:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: radix-engine-toolkit
+[2024-05-01 10:53:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: composio-core
+[2024-05-01 10:53:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: composio-autogen
+[2024-05-01 10:53:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: composio-crewai
+[2024-05-01 10:53:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: composio-langchain
+[2024-05-01 10:53:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: composio-lyzr
+[2024-05-01 10:53:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: RenewablesAutomate
+[2024-05-01 10:53:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: VisionCraft
+[2024-05-01 10:53:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: attribox
+[2024-05-01 10:53:59] INFO root fetch - processPackages [composio-core]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-01 10:54:00] INFO root fetch - processPackages [composio-autogen]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-01 10:54:00] INFO root fetch - processPackages [composio-lyzr]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-01 10:54:00] INFO root fetch - processPackages [composio-core]: Downloading https://files.pythonhosted.org/packages/e1/61/65a4ab92fc35b0f7d7ac34d9749b9ea8dbba3561ac6b93873c1d96dd225c/composio_core-0.2.8.tar.gz
+[2024-05-01 10:54:00] INFO root fetch - processPackages [composio-lyzr]: Downloading https://files.pythonhosted.org/packages/37/69/164ec40db4e3ad845e6fa990d125cb69a7da612383090011884e3d5f2232/composio_lyzr-0.2.8.tar.gz
+[2024-05-01 10:54:00] INFO root fetch - processPackages [attribox]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-01 10:54:00] INFO root fetch - processPackages [RenewablesAutomate]: New version: [1.0.5] Old Version: [1.0.3]
+[2024-05-01 10:54:00] INFO root fetch - processPackages [radix-engine-toolkit]: New version: [2.1.0.dev1] Old Version: [2.0.0]
+[2024-05-01 10:54:00] INFO root fetch - processPackages [composio-crewai]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-01 10:54:00] INFO root fetch - processPackages [composio-langchain]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-01 10:54:00] INFO root fetch - processPackages [VisionCraft]: New version: [0.1.25] Old Version: [0.1.24]
+[2024-05-01 10:54:00] INFO root fetch - processPackages [composio-autogen]: Downloading https://files.pythonhosted.org/packages/fb/23/2e4ee5e8659e2c09f33c94a956bea488d2ff01a8dd24ac08a9afd154a693/composio_autogen-0.2.8.tar.gz
+[2024-05-01 10:54:00] INFO root fetch - processPackages [composio-crewai]: Downloading https://files.pythonhosted.org/packages/88/9f/34a831a3e85ce61a77e7c13def18aa7650b80acd1b81f83211cb4f1aa6df/composio_crewai-0.2.8.tar.gz
+[2024-05-01 10:54:00] INFO root fetch - processPackages [composio-langchain]: Downloading https://files.pythonhosted.org/packages/d9/aa/a337096fd78499738e0aa7ec352af9337f71606fed7bd03770fbcb2bab20/composio_langchain-0.2.8.tar.gz
+[2024-05-01 10:54:00] INFO root fetch - processPackages [composio-core]: Downloading https://files.pythonhosted.org/packages/bb/10/944d3b8a7818ed202c24d2156abff8a7c41752baf6ecafb53b6437b6f09f/composio_core-0.2.9.tar.gz
+[2024-05-01 10:54:00] INFO root fetch - processPackages [RenewablesAutomate]: Downloading https://files.pythonhosted.org/packages/8d/bd/efe5db5de1fab25a5ba52660d51d7590813a018b080d2f51c0565f2817bd/RenewablesAutomate-1.0.3.tar.gz
+[2024-05-01 10:54:00] INFO root fetch - processPackages [radix-engine-toolkit]: Downloading https://files.pythonhosted.org/packages/5b/c6/6aa5789efbbc5bbc6e82953f3e72eb32a3a5c474a9e759d1b8953588b911/radix_engine_toolkit-2.0.0-py3-none-any.whl
+[2024-05-01 10:54:00] INFO root fetch - processPackages [attribox]: Downloading https://files.pythonhosted.org/packages/b0/1b/afc61ed4af69d170a0c4bd0272fdd2e586a48c0c1828c0cf9fb03718795b/attribox-0.1.8.tar.gz
+[2024-05-01 10:54:00] INFO root fetch - processPackages [VisionCraft]: Downloading https://files.pythonhosted.org/packages/68/be/3076909e239141b29c001cd8b2bf2109e48e0d5dc42ab22268fa4f3941ef/VisionCraft-0.1.24.tar.gz
+[2024-05-01 10:54:00] INFO root fetch - processPackages [composio-autogen]: Downloading https://files.pythonhosted.org/packages/ea/aa/9d4fb67c2f917ce757a4c5faade1aec312b379274fb73517beed1f721f97/composio_autogen-0.2.9.tar.gz
+[2024-05-01 10:54:00] INFO root fetch - processPackages [composio-lyzr]: Downloading https://files.pythonhosted.org/packages/16/f3/6e7e1d4182294ad089b3c5a760cdc78dc19ceb6c9650bfe69c0bba248396/composio_lyzr-0.2.9.tar.gz
+[2024-05-01 10:54:00] INFO root fetch - processPackages [composio-crewai]: Downloading https://files.pythonhosted.org/packages/97/a6/2c53777d13baa01b09f04ac5d33fc096b73fc91135f58b366e81e7435738/composio_crewai-0.2.9.tar.gz
+[2024-05-01 10:54:00] INFO root fetch - processPackages [composio-core]: executing diffoscope
+[2024-05-01 10:54:00] INFO root fetch - processPackages [composio-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_core-0.2.8.tar.gz tmp/composio_core-0.2.9.tar.gz --markdown 20240501/c/composio-core/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-01 10:54:00] INFO root fetch - processPackages [composio-langchain]: Downloading https://files.pythonhosted.org/packages/7d/d9/ea6d9de983484f5151914b9e2dbd7009903c7af4e9ad1cab3b6d9607fed1/composio_langchain-0.2.9.tar.gz
+[2024-05-01 10:54:00] WARNING root fetch - processPackages [radix-engine-toolkit]: Skipping package: exceeds size limit 29351603>=10485760
+[2024-05-01 10:54:00] INFO root fetch - main [MainThread]: End processing [radix-engine-toolkit] error
+[2024-05-01 10:54:00] INFO root fetch - processPackages [composio-autogen]: executing diffoscope
+[2024-05-01 10:54:00] INFO root fetch - processPackages [composio-autogen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_autogen-0.2.8.tar.gz tmp/composio_autogen-0.2.9.tar.gz --markdown 20240501/c/composio-autogen/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-01 10:54:00] INFO root fetch - processPackages [composio-crewai]: executing diffoscope
+[2024-05-01 10:54:00] INFO root fetch - processPackages [composio-crewai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_crewai-0.2.8.tar.gz tmp/composio_crewai-0.2.9.tar.gz --markdown 20240501/c/composio-crewai/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-01 10:54:00] INFO root fetch - processPackages [composio-lyzr]: executing diffoscope
+[2024-05-01 10:54:00] INFO root fetch - processPackages [composio-lyzr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_lyzr-0.2.8.tar.gz tmp/composio_lyzr-0.2.9.tar.gz --markdown 20240501/c/composio-lyzr/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-01 10:54:00] INFO root fetch - processPackages [composio-langchain]: executing diffoscope
+[2024-05-01 10:54:00] INFO root fetch - processPackages [composio-langchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_langchain-0.2.8.tar.gz tmp/composio_langchain-0.2.9.tar.gz --markdown 20240501/c/composio-langchain/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-01 10:54:00] INFO root fetch - processPackages [attribox]: Downloading https://files.pythonhosted.org/packages/b1/e6/a20bbaa9e0f051b656d86826235dcdfa648da889d34b564acef9329d3455/attribox-0.1.9.tar.gz
+[2024-05-01 10:54:00] INFO root fetch - processPackages [RenewablesAutomate]: Downloading https://files.pythonhosted.org/packages/8c/05/8e98aa1070fd5c8c5bee197b3ba1123986442987da4d7636e62cc058c467/RenewablesAutomate-1.0.5.tar.gz
+[2024-05-01 10:54:01] INFO root fetch - processPackages [attribox]: executing diffoscope
+[2024-05-01 10:54:01] INFO root fetch - processPackages [attribox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/attribox-0.1.8.tar.gz tmp/attribox-0.1.9.tar.gz --markdown 20240501/a/attribox/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-01 10:54:01] INFO root fetch - processPackages [RenewablesAutomate]: executing diffoscope
+[2024-05-01 10:54:01] INFO root fetch - processPackages [RenewablesAutomate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RenewablesAutomate-1.0.3.tar.gz tmp/RenewablesAutomate-1.0.5.tar.gz --markdown 20240501/R/RenewablesAutomate/1.0.3-1.0.5/README.md --exclude *.pyd
+[2024-05-01 10:54:01] INFO root fetch - processPackages [VisionCraft]: Downloading https://files.pythonhosted.org/packages/2d/3c/c472ebf23e1f526dc138a2fc8a3aefe96c93a4c1a6f8b778efe6601fde06/VisionCraft-0.1.25.tar.gz
+[2024-05-01 10:54:01] INFO root fetch - processPackages [composio-autogen]: Remove: archive file [/home/abi/fetcher/tmp/composio_autogen-0.2.8.tar.gz]
+[2024-05-01 10:54:01] INFO root fetch - processPackages [composio-autogen]: Remove: archive file [/home/abi/fetcher/tmp/composio_autogen-0.2.9.tar.gz]
+[2024-05-01 10:54:01] INFO root fetch - main [MainThread]: End processing [composio-autogen]: success
+[2024-05-01 10:54:01] INFO root fetch - processPackages [composio-core]: Remove: archive file [/home/abi/fetcher/tmp/composio_core-0.2.8.tar.gz]
+[2024-05-01 10:54:01] INFO root fetch - processPackages [composio-core]: Remove: archive file [/home/abi/fetcher/tmp/composio_core-0.2.9.tar.gz]
+[2024-05-01 10:54:01] INFO root fetch - main [MainThread]: End processing [composio-core]: success
+[2024-05-01 10:54:01] INFO root fetch - processPackages [composio-crewai]: Remove: archive file [/home/abi/fetcher/tmp/composio_crewai-0.2.8.tar.gz]
+[2024-05-01 10:54:01] INFO root fetch - processPackages [composio-crewai]: Remove: archive file [/home/abi/fetcher/tmp/composio_crewai-0.2.9.tar.gz]
+[2024-05-01 10:54:01] INFO root fetch - main [MainThread]: End processing [composio-crewai]: success
+[2024-05-01 10:54:01] INFO root fetch - processPackages [composio-langchain]: Remove: archive file [/home/abi/fetcher/tmp/composio_langchain-0.2.8.tar.gz]
+[2024-05-01 10:54:01] INFO root fetch - processPackages [composio-langchain]: Remove: archive file [/home/abi/fetcher/tmp/composio_langchain-0.2.9.tar.gz]
+[2024-05-01 10:54:01] INFO root fetch - main [MainThread]: End processing [composio-langchain]: success
+[2024-05-01 10:54:01] INFO root fetch - processPackages [attribox]: Remove: archive file [/home/abi/fetcher/tmp/attribox-0.1.8.tar.gz]
+[2024-05-01 10:54:01] INFO root fetch - processPackages [attribox]: Remove: archive file [/home/abi/fetcher/tmp/attribox-0.1.9.tar.gz]
+[2024-05-01 10:54:01] INFO root fetch - main [MainThread]: End processing [attribox]: success
+[2024-05-01 10:54:01] INFO root fetch - processPackages [composio-lyzr]: Remove: archive file [/home/abi/fetcher/tmp/composio_lyzr-0.2.8.tar.gz]
+[2024-05-01 10:54:01] INFO root fetch - processPackages [composio-lyzr]: Remove: archive file [/home/abi/fetcher/tmp/composio_lyzr-0.2.9.tar.gz]
+[2024-05-01 10:54:01] INFO root fetch - main [MainThread]: End processing [composio-lyzr]: success
+[2024-05-01 10:54:02] INFO root fetch - processPackages [VisionCraft]: executing diffoscope
+[2024-05-01 10:54:02] INFO root fetch - processPackages [VisionCraft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/VisionCraft-0.1.24.tar.gz tmp/VisionCraft-0.1.25.tar.gz --markdown 20240501/V/VisionCraft/0.1.24-0.1.25/README.md --exclude *.pyd
+[2024-05-01 10:54:03] INFO root fetch - processPackages [RenewablesAutomate]: Remove: archive file [/home/abi/fetcher/tmp/RenewablesAutomate-1.0.3.tar.gz]
+[2024-05-01 10:54:03] INFO root fetch - processPackages [RenewablesAutomate]: Remove: archive file [/home/abi/fetcher/tmp/RenewablesAutomate-1.0.5.tar.gz]
+[2024-05-01 10:54:03] INFO root fetch - main [MainThread]: End processing [RenewablesAutomate]: success
+[2024-05-01 10:54:03] INFO root fetch - processPackages [VisionCraft]: Remove: archive file [/home/abi/fetcher/tmp/VisionCraft-0.1.24.tar.gz]
+[2024-05-01 10:54:03] INFO root fetch - processPackages [VisionCraft]: Remove: archive file [/home/abi/fetcher/tmp/VisionCraft-0.1.25.tar.gz]
+[2024-05-01 10:54:03] INFO root fetch - main [MainThread]: End processing [VisionCraft]: success
+[2024-05-01 10:54:03] INFO root fetch - main [MainThread]: Store serial: [23014366]
