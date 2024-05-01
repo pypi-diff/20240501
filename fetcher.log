@@ -16350,3 +16350,51 @@
 [2024-05-01 13:06:57] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-1.9.1.dev8.tar.gz]
 [2024-05-01 13:06:57] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
 [2024-05-01 13:06:57] INFO root fetch - main [MainThread]: Store serial: [23015556]
+[2024-05-01 13:09:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23015556]
+[2024-05-01 13:09:06] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-01 13:09:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mama
+[2024-05-01 13:09:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tui-dsmt
+[2024-05-01 13:09:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: twined
+[2024-05-01 13:09:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: supamodel
+[2024-05-01 13:09:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ncmlistdownloader
+[2024-05-01 13:09:06] INFO root fetch - processPackages [supamodel]: New version: [0.5.7] Old Version: [0.5.6]
+[2024-05-01 13:09:06] INFO root fetch - processPackages [tui-dsmt]: New version: [202405011058] Old Version: [202404300905]
+[2024-05-01 13:09:06] INFO root fetch - processPackages [twined]: New version: [0.5.5] Old Version: [0.5.4]
+[2024-05-01 13:09:06] INFO root fetch - processPackages [supamodel]: Downloading https://files.pythonhosted.org/packages/65/e1/f221ddeab47e8b161bda61f6bce5dd66aeef7e8a490a3432de16224fc49f/supamodel-0.5.6.tar.gz
+[2024-05-01 13:09:06] INFO root fetch - processPackages [ncmlistdownloader]: New version: [1.1.0.240430a1] Old Version: [1.0.8.240501]
+[2024-05-01 13:09:06] INFO root fetch - processPackages [mama]: New version: [0.9.5] Old Version: [0.9.4]
+[2024-05-01 13:09:06] INFO root fetch - processPackages [twined]: Downloading https://files.pythonhosted.org/packages/e6/e0/dc35d9bba9e2c19a516a546d8958128c799fdb550abfa854528627314ec9/twined-0.5.4.tar.gz
+[2024-05-01 13:09:06] INFO root fetch - processPackages [ncmlistdownloader]: Downloading https://files.pythonhosted.org/packages/17/4d/e9443739def45713b748223ee402b2c5426a35879c2f435109589b123716/ncmlistdownloader-1.0.8.240501.tar.gz
+[2024-05-01 13:09:06] INFO root fetch - processPackages [tui-dsmt]: Downloading https://files.pythonhosted.org/packages/0d/9e/3e5c52bbca87ef3676ff3c23eba8fd636159bfecaa2faa512f30827d1b72/tui_dsmt-202404300905.tar.gz
+[2024-05-01 13:09:06] INFO root fetch - processPackages [mama]: Downloading https://files.pythonhosted.org/packages/89/4f/3f1407f1960c594c1e197a5e9bc98b3aab8d3392d3cbcd2c85195fc34a28/mama-0.9.4.tar.gz
+[2024-05-01 13:09:06] INFO root fetch - processPackages [supamodel]: Downloading https://files.pythonhosted.org/packages/60/db/48de9ec2e9102236232cac55a917108002e6a06864fe7921e20b818f0d92/supamodel-0.5.7.tar.gz
+[2024-05-01 13:09:06] INFO root fetch - processPackages [supamodel]: executing diffoscope
+[2024-05-01 13:09:06] INFO root fetch - processPackages [supamodel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/supamodel-0.5.6.tar.gz tmp/supamodel-0.5.7.tar.gz --markdown 20240501/s/supamodel/0.5.6-0.5.7/README.md --exclude *.pyd
+[2024-05-01 13:09:06] INFO root fetch - processPackages [twined]: Downloading https://files.pythonhosted.org/packages/b0/91/a2e3b20f1cc389bb806383bcbcf248baa49a14deb2dac9f6a859f34a5cd7/twined-0.5.5.tar.gz
+[2024-05-01 13:09:06] INFO root fetch - processPackages [tui-dsmt]: Downloading https://files.pythonhosted.org/packages/49/81/c376e28ab81bbd1300166ba75a0501bfd086023b177447bd534bc2340df6/tui_dsmt-202405011058.tar.gz
+[2024-05-01 13:09:06] INFO root fetch - processPackages [mama]: Downloading https://files.pythonhosted.org/packages/b1/90/87e353b48e35ec2ae7781c3321936c45470d0cc6db940aaf78ebff5be46c/mama-0.9.5.tar.gz
+[2024-05-01 13:09:06] INFO root fetch - processPackages [ncmlistdownloader]: Downloading https://files.pythonhosted.org/packages/b5/af/620b1371bf6cc8c95c296120df670935975098ee268a27e57d17a1dbda75/ncmlistdownloader-1.1.0.240430a1.tar.gz
+[2024-05-01 13:09:07] INFO root fetch - processPackages [tui-dsmt]: executing diffoscope
+[2024-05-01 13:09:07] INFO root fetch - processPackages [tui-dsmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tui_dsmt-202404300905.tar.gz tmp/tui_dsmt-202405011058.tar.gz --markdown 20240501/t/tui-dsmt/202404300905-202405011058/README.md --exclude *.pyd
+[2024-05-01 13:09:07] INFO root fetch - processPackages [twined]: executing diffoscope
+[2024-05-01 13:09:07] INFO root fetch - processPackages [twined]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twined-0.5.4.tar.gz tmp/twined-0.5.5.tar.gz --markdown 20240501/t/twined/0.5.4-0.5.5/README.md --exclude *.pyd
+[2024-05-01 13:09:07] INFO root fetch - processPackages [mama]: executing diffoscope
+[2024-05-01 13:09:07] INFO root fetch - processPackages [mama]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mama-0.9.4.tar.gz tmp/mama-0.9.5.tar.gz --markdown 20240501/m/mama/0.9.4-0.9.5/README.md --exclude *.pyd
+[2024-05-01 13:09:07] INFO root fetch - processPackages [ncmlistdownloader]: executing diffoscope
+[2024-05-01 13:09:07] INFO root fetch - processPackages [ncmlistdownloader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ncmlistdownloader-1.0.8.240501.tar.gz tmp/ncmlistdownloader-1.1.0.240430a1.tar.gz --markdown 20240501/n/ncmlistdownloader/1.0.8.240501-1.1.0.240430a1/README.md --exclude *.pyd
+[2024-05-01 13:09:07] INFO root fetch - processPackages [supamodel]: Remove: archive file [/home/abi/fetcher/tmp/supamodel-0.5.6.tar.gz]
+[2024-05-01 13:09:07] INFO root fetch - processPackages [supamodel]: Remove: archive file [/home/abi/fetcher/tmp/supamodel-0.5.7.tar.gz]
+[2024-05-01 13:09:07] INFO root fetch - main [MainThread]: End processing [supamodel]: success
+[2024-05-01 13:09:07] INFO root fetch - processPackages [tui-dsmt]: Remove: archive file [/home/abi/fetcher/tmp/tui_dsmt-202404300905.tar.gz]
+[2024-05-01 13:09:07] INFO root fetch - processPackages [tui-dsmt]: Remove: archive file [/home/abi/fetcher/tmp/tui_dsmt-202405011058.tar.gz]
+[2024-05-01 13:09:07] INFO root fetch - main [MainThread]: End processing [tui-dsmt]: success
+[2024-05-01 13:09:07] INFO root fetch - processPackages [ncmlistdownloader]: Remove: archive file [/home/abi/fetcher/tmp/ncmlistdownloader-1.0.8.240501.tar.gz]
+[2024-05-01 13:09:07] INFO root fetch - processPackages [ncmlistdownloader]: Remove: archive file [/home/abi/fetcher/tmp/ncmlistdownloader-1.1.0.240430a1.tar.gz]
+[2024-05-01 13:09:07] INFO root fetch - main [MainThread]: End processing [ncmlistdownloader]: success
+[2024-05-01 13:09:07] INFO root fetch - processPackages [twined]: Remove: archive file [/home/abi/fetcher/tmp/twined-0.5.4.tar.gz]
+[2024-05-01 13:09:07] INFO root fetch - processPackages [twined]: Remove: archive file [/home/abi/fetcher/tmp/twined-0.5.5.tar.gz]
+[2024-05-01 13:09:07] INFO root fetch - main [MainThread]: End processing [twined]: success
+[2024-05-01 13:09:07] INFO root fetch - processPackages [mama]: Remove: archive file [/home/abi/fetcher/tmp/mama-0.9.4.tar.gz]
+[2024-05-01 13:09:07] INFO root fetch - processPackages [mama]: Remove: archive file [/home/abi/fetcher/tmp/mama-0.9.5.tar.gz]
+[2024-05-01 13:09:07] INFO root fetch - main [MainThread]: End processing [mama]: success
+[2024-05-01 13:09:07] INFO root fetch - main [MainThread]: Store serial: [23015572]
