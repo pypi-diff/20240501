@@ -8859,3 +8859,24 @@
 [2024-05-01 06:26:58] INFO root fetch - processPackages [pulumi-cloudinit]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_cloudinit-1.5.0a1714454566.tar.gz]
 [2024-05-01 06:26:58] INFO root fetch - main [MainThread]: End processing [pulumi-cloudinit]: success
 [2024-05-01 06:26:58] INFO root fetch - main [MainThread]: Store serial: [23012221]
+[2024-05-01 06:29:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23012221]
+[2024-05-01 06:29:08] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-01 06:29:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: llama-cpp-agent
+[2024-05-01 06:29:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: manyhttps
+[2024-05-01 06:29:08] INFO root fetch - processPackages [llama-cpp-agent]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-01 06:29:08] INFO root fetch - processPackages [manyhttps]: New version: [2.33.8] Old Version: [2.33.7]
+[2024-05-01 06:29:08] INFO root fetch - processPackages [llama-cpp-agent]: Downloading https://files.pythonhosted.org/packages/b1/dc/cf0fbb161c3d3c231fcd4737a8f55f4183bbbf8030ccb12b79a20348556e/llama-cpp-agent-0.0.8.tar.gz
+[2024-05-01 06:29:08] INFO root fetch - processPackages [manyhttps]: Downloading https://files.pythonhosted.org/packages/32/a0/fec41e6443a112e087a60fdf1631a1b3e65f0449b82e8d2c75051d8b079d/manyhttps-2.33.7.tar.gz
+[2024-05-01 06:29:09] INFO root fetch - processPackages [llama-cpp-agent]: Downloading https://files.pythonhosted.org/packages/72/d2/fe669d324be099dc10673e05fdedaa55577529de265f254f94bf2c1eca23/llama-cpp-agent-0.0.9.tar.gz
+[2024-05-01 06:29:09] INFO root fetch - processPackages [llama-cpp-agent]: executing diffoscope
+[2024-05-01 06:29:09] INFO root fetch - processPackages [llama-cpp-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama-cpp-agent-0.0.8.tar.gz tmp/llama-cpp-agent-0.0.9.tar.gz --markdown 20240501/l/llama-cpp-agent/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-01 06:29:09] INFO root fetch - processPackages [manyhttps]: Downloading https://files.pythonhosted.org/packages/fd/fe/9d540d992247de99bd5d9d6a7b795e8d1c199016753477876ce869157c14/manyhttps-2.33.8.tar.gz
+[2024-05-01 06:29:09] INFO root fetch - processPackages [manyhttps]: executing diffoscope
+[2024-05-01 06:29:09] INFO root fetch - processPackages [manyhttps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/manyhttps-2.33.7.tar.gz tmp/manyhttps-2.33.8.tar.gz --markdown 20240501/m/manyhttps/2.33.7-2.33.8/README.md --exclude *.pyd
+[2024-05-01 06:29:09] INFO root fetch - processPackages [llama-cpp-agent]: Remove: archive file [/home/abi/fetcher/tmp/llama-cpp-agent-0.0.8.tar.gz]
+[2024-05-01 06:29:09] INFO root fetch - processPackages [llama-cpp-agent]: Remove: archive file [/home/abi/fetcher/tmp/llama-cpp-agent-0.0.9.tar.gz]
+[2024-05-01 06:29:09] INFO root fetch - main [MainThread]: End processing [llama-cpp-agent]: success
+[2024-05-01 06:29:09] INFO root fetch - processPackages [manyhttps]: Remove: archive file [/home/abi/fetcher/tmp/manyhttps-2.33.7.tar.gz]
+[2024-05-01 06:29:09] INFO root fetch - processPackages [manyhttps]: Remove: archive file [/home/abi/fetcher/tmp/manyhttps-2.33.8.tar.gz]
+[2024-05-01 06:29:09] INFO root fetch - main [MainThread]: End processing [manyhttps]: success
+[2024-05-01 06:29:09] INFO root fetch - main [MainThread]: Store serial: [23012226]
