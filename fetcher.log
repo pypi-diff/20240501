@@ -16751,3 +16751,184 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-01 13:22:51] INFO root fetch - processPackages [drf-spectacular-sidecar]: Remove: archive file [/home/abi/fetcher/tmp/drf_spectacular_sidecar-2024.5.1.tar.gz]
 [2024-05-01 13:22:51] INFO root fetch - main [MainThread]: End processing [drf-spectacular-sidecar]: success
 [2024-05-01 13:22:51] INFO root fetch - main [MainThread]: Store serial: [23015671]
+[2024-05-01 13:24:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23015671]
+[2024-05-01 13:25:02] INFO root fetch - main [MainThread]: Found 24 changed packages
+[2024-05-01 13:25:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: trytond-sale-promotion
+[2024-05-01 13:25:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: trytond-sale-point
+[2024-05-01 13:25:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bigdl-core-xe
+[2024-05-01 13:25:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pypfilt
+[2024-05-01 13:25:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: trytond-sale-payment
+[2024-05-01 13:25:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: npcolony
+[2024-05-01 13:25:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: trytond-sale-opportunity
+[2024-05-01 13:25:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: trytond-sale-opportunity
+[2024-05-01 13:25:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bigdl-core-xe-21
+[2024-05-01 13:25:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: django-bulk-updater
+[2024-05-01 13:25:02] INFO root fetch - processPackages [trytond-sale-promotion]: New version: [7.2.1] Old Version: [7.2.0]
+[2024-05-01 13:25:03] INFO root fetch - processPackages [trytond-sale-promotion]: Downloading https://files.pythonhosted.org/packages/fa/1c/4f9046c70291cd13b02974d79a37b5e069645ba8f95e0ef58b7209afd4cf/trytond_sale_promotion-7.2.0.tar.gz
+[2024-05-01 13:25:03] INFO root fetch - processPackages [trytond-sale-point]: New version: [7.2.1] Old Version: [7.2.0]
+[2024-05-01 13:25:03] INFO root fetch - processPackages [bigdl-core-xe-21]: New version: [2.5.0b20240501] Old Version: [2.5.0b20240430]
+[2024-05-01 13:25:03] INFO root fetch - processPackages [bigdl-core-xe]: New version: [2.5.0b20240501] Old Version: [2.5.0b20240430]
+[2024-05-01 13:25:03] WARNING root fetch - processPackages [npcolony]: Skipping, unable to determine old version
+[2024-05-01 13:25:03] INFO root fetch - processPackages [npcolony]: Start processing: minecraft-resource-pack
+[2024-05-01 13:25:03] INFO root fetch - main [MainThread]: End processing [npcolony] error
+[2024-05-01 13:25:03] INFO root fetch - processPackages [trytond-sale-opportunity]: New version: [7.2.1] Old Version: [7.2.0]
+[2024-05-01 13:25:03] INFO root fetch - processPackages [trytond-sale-opportunity]: New version: [7.2.1] Old Version: [7.2.0]
+[2024-05-01 13:25:03] WARNING root fetch - processPackages [django-bulk-updater]: Skipping, unable to determine old version
+[2024-05-01 13:25:03] INFO root fetch - processPackages [django-bulk-updater]: Start processing: uvx
+[2024-05-01 13:25:03] INFO root fetch - processPackages [pypfilt]: New version: [0.8.3] Old Version: [0.8.2]
+[2024-05-01 13:25:03] INFO root fetch - main [MainThread]: End processing [django-bulk-updater] error
+[2024-05-01 13:25:03] INFO root fetch - processPackages [trytond-sale-payment]: New version: [7.2.1] Old Version: [7.2.0]
+[2024-05-01 13:25:03] INFO root fetch - processPackages [trytond-sale-opportunity]: Downloading https://files.pythonhosted.org/packages/05/a4/5cd58c80bbac4568bc56778f7fb3d5a5b23ffce5618168ea4cbba9b32b33/trytond_sale_opportunity-7.2.0.tar.gz
+[2024-05-01 13:25:03] INFO root fetch - processPackages [trytond-sale-opportunity]: Downloading https://files.pythonhosted.org/packages/05/a4/5cd58c80bbac4568bc56778f7fb3d5a5b23ffce5618168ea4cbba9b32b33/trytond_sale_opportunity-7.2.0.tar.gz
+[2024-05-01 13:25:03] INFO root fetch - processPackages [minecraft-resource-pack]: New version: [1.4.2] Old Version: [1.4.1]
+[2024-05-01 13:25:03] INFO root fetch - processPackages [uvx]: New version: [2.0.7] Old Version: [2.0.6]
+[2024-05-01 13:25:03] INFO root fetch - processPackages [trytond-sale-point]: Downloading https://files.pythonhosted.org/packages/ac/d9/b986bb3c33f48201001248994f71bfb52f9f1cfa8704bd9cd5217b325b70/trytond_sale_point-7.2.0.tar.gz
+[2024-05-01 13:25:03] INFO root fetch - processPackages [bigdl-core-xe-21]: Downloading https://files.pythonhosted.org/packages/f9/a6/1554f0bdc91bc7aef47f6432840b7ec2553a38f3e80ec29449361d0cd25a/bigdl_core_xe_21-2.5.0b20240430-cp39-cp39-win_amd64.whl
+[2024-05-01 13:25:03] INFO root fetch - processPackages [bigdl-core-xe]: Downloading https://files.pythonhosted.org/packages/a6/d9/84c54a6fa252b4cd293fb1411277b898d15706c311b0c0186cf5a92c4092/bigdl_core_xe-2.5.0b20240430-cp39-cp39-manylinux2010_x86_64.whl
+[2024-05-01 13:25:03] INFO root fetch - processPackages [pypfilt]: Downloading https://files.pythonhosted.org/packages/2a/b6/d4c94bb915f19cc014b98dc6f8bf6128e5a3455ea1a15c241f03a3a5a781/pypfilt-0.8.2-py3-none-any.whl
+[2024-05-01 13:25:03] INFO root fetch - processPackages [trytond-sale-promotion]: Downloading https://files.pythonhosted.org/packages/9a/62/b915a6c2455146d185e65c179c3e339c49588d30b52499d38cafe5f1d7db/trytond_sale_promotion-7.2.1.tar.gz
+[2024-05-01 13:25:03] INFO root fetch - processPackages [trytond-sale-payment]: Downloading https://files.pythonhosted.org/packages/bb/1e/ec61f32b84b542c983fb8869fb1bb15cac501a4df7246883fc40e3869066/trytond_sale_payment-7.2.0.tar.gz
+[2024-05-01 13:25:03] INFO root fetch - processPackages [minecraft-resource-pack]: Downloading https://files.pythonhosted.org/packages/d2/51/b04e7b84732d8d8d00204e785f702595b5650bafa73f26af070921cc3196/minecraft-resource-pack-1.4.1.tar.gz
+[2024-05-01 13:25:03] WARNING root fetch - processPackages [bigdl-core-xe-21]: Skipping package: exceeds size limit 28998868>=10485760
+[2024-05-01 13:25:03] INFO root fetch - processPackages [bigdl-core-xe-21]: Start processing: parsee-core
+[2024-05-01 13:25:03] INFO root fetch - main [MainThread]: End processing [bigdl-core-xe-21] error
+[2024-05-01 13:25:03] WARNING root fetch - processPackages [bigdl-core-xe]: Skipping package: exceeds size limit 105668127>=10485760
+[2024-05-01 13:25:03] INFO root fetch - processPackages [bigdl-core-xe]: Start processing: trytond-sale-opportunity
+[2024-05-01 13:25:03] INFO root fetch - processPackages [uvx]: Downloading https://files.pythonhosted.org/packages/80/ba/68266034cd9db46a721544a706c19e5bb2710fa459bfb6400ad13fcfb602/uvx-2.0.6.tar.gz
+[2024-05-01 13:25:03] INFO root fetch - main [MainThread]: End processing [bigdl-core-xe] error
+[2024-05-01 13:25:03] INFO root fetch - processPackages [trytond-sale-promotion]: executing diffoscope
+[2024-05-01 13:25:03] INFO root fetch - processPackages [trytond-sale-promotion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_sale_promotion-7.2.0.tar.gz tmp/trytond_sale_promotion-7.2.1.tar.gz --markdown 20240501/t/trytond-sale-promotion/7.2.0-7.2.1/README.md --exclude *.pyd
+[2024-05-01 13:25:03] INFO root fetch - processPackages [parsee-core]: New version: [0.1.4.9] Old Version: [0.1.4.8]
+[2024-05-01 13:25:03] INFO root fetch - processPackages [trytond-sale-opportunity]: New version: [7.2.1] Old Version: [7.2.0]
+[2024-05-01 13:25:03] INFO root fetch - processPackages [trytond-sale-opportunity]: Downloading https://files.pythonhosted.org/packages/a8/c0/a95a8bf48209e2b8762d52940ba60c1b87582c24092336d6698539eef9a8/trytond_sale_opportunity-7.2.1.tar.gz
+[2024-05-01 13:25:03] INFO root fetch - processPackages [trytond-sale-opportunity]: Downloading https://files.pythonhosted.org/packages/a8/c0/a95a8bf48209e2b8762d52940ba60c1b87582c24092336d6698539eef9a8/trytond_sale_opportunity-7.2.1.tar.gz
+[2024-05-01 13:25:03] INFO root fetch - processPackages [trytond-sale-point]: Downloading https://files.pythonhosted.org/packages/c4/b6/30c1e4e1ca9053cc79f2b83c37d0ce2d6574de277986db63621cd81ef432/trytond_sale_point-7.2.1.tar.gz
+[2024-05-01 13:25:03] INFO root fetch - processPackages [parsee-core]: Downloading https://files.pythonhosted.org/packages/7a/50/254187550fba83da8e34776ce7e4c5844d1785b705b16a1ee835f8b7f74e/parsee_core-0.1.4.8.tar.gz
+[2024-05-01 13:25:03] INFO root fetch - processPackages [pypfilt]: Downloading https://files.pythonhosted.org/packages/54/c7/ddba58c70cdc142744aae7abd9bc5e961f56ceff4a59ced723b5653cc2e7/pypfilt-0.8.3-py3-none-any.whl
+[2024-05-01 13:25:03] INFO root fetch - processPackages [trytond-sale-payment]: Downloading https://files.pythonhosted.org/packages/b4/35/c7e6e2a6797e2c28c2bf2f4f183887d3a4293f000a4b5e3fe830c6bf63a6/trytond_sale_payment-7.2.1.tar.gz
+[2024-05-01 13:25:03] INFO root fetch - processPackages [trytond-sale-opportunity]: executing diffoscope
+[2024-05-01 13:25:03] INFO root fetch - processPackages [trytond-sale-opportunity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_sale_opportunity-7.2.0.tar.gz tmp/trytond_sale_opportunity-7.2.1.tar.gz --markdown 20240501/t/trytond-sale-opportunity/7.2.0-7.2.1/README.md --exclude *.pyd
+[2024-05-01 13:25:03] INFO root fetch - processPackages [trytond-sale-opportunity]: executing diffoscope
+[2024-05-01 13:25:03] INFO root fetch - processPackages [trytond-sale-opportunity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_sale_opportunity-7.2.0.tar.gz tmp/trytond_sale_opportunity-7.2.1.tar.gz --markdown 20240501/t/trytond-sale-opportunity/7.2.0-7.2.1/README.md --exclude *.pyd
+[2024-05-01 13:25:03] INFO root fetch - processPackages [trytond-sale-point]: executing diffoscope
+[2024-05-01 13:25:03] INFO root fetch - processPackages [trytond-sale-point]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_sale_point-7.2.0.tar.gz tmp/trytond_sale_point-7.2.1.tar.gz --markdown 20240501/t/trytond-sale-point/7.2.0-7.2.1/README.md --exclude *.pyd
+[2024-05-01 13:25:03] INFO root fetch - processPackages [minecraft-resource-pack]: Downloading https://files.pythonhosted.org/packages/71/e9/2b1439037ef7989f340bae1362072d397a2148d8bc71f6d78ba761c45f6a/minecraft_resource_pack-1.4.2.tar.gz
+[2024-05-01 13:25:03] INFO root fetch - processPackages [pypfilt]: executing diffoscope
+[2024-05-01 13:25:03] INFO root fetch - processPackages [pypfilt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypfilt-0.8.2-py3-none-any.whl.zip tmp/pypfilt-0.8.3-py3-none-any.whl.zip --markdown 20240501/p/pypfilt/0.8.2-0.8.3/README.md --exclude *.pyd
+[2024-05-01 13:25:03] INFO root fetch - processPackages [trytond-sale-payment]: executing diffoscope
+[2024-05-01 13:25:03] INFO root fetch - processPackages [trytond-sale-payment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_sale_payment-7.2.0.tar.gz tmp/trytond_sale_payment-7.2.1.tar.gz --markdown 20240501/t/trytond-sale-payment/7.2.0-7.2.1/README.md --exclude *.pyd
+[2024-05-01 13:25:04] INFO root fetch - processPackages [parsee-core]: Downloading https://files.pythonhosted.org/packages/87/4f/31752247b806b1f52883033ecb4efbcec34d8a58a18a3a051c733dd38686/parsee_core-0.1.4.9.tar.gz
+[2024-05-01 13:25:04] INFO root fetch - processPackages [uvx]: Downloading https://files.pythonhosted.org/packages/61/64/edb888bb46ae100685ef4efcd1cda3d0869c6ab15f3344c79419b7c662d3/uvx-2.0.7.tar.gz
+[2024-05-01 13:25:04] INFO root fetch - processPackages [trytond-sale-opportunity]: executing diffoscope
+[2024-05-01 13:25:04] INFO root fetch - processPackages [trytond-sale-opportunity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_sale_opportunity-7.2.0.tar.gz tmp/trytond_sale_opportunity-7.2.1.tar.gz --markdown 20240501/t/trytond-sale-opportunity/7.2.0-7.2.1/README.md --exclude *.pyd
+[2024-05-01 13:25:04] INFO root fetch - processPackages [minecraft-resource-pack]: executing diffoscope
+[2024-05-01 13:25:04] INFO root fetch - processPackages [minecraft-resource-pack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/minecraft-resource-pack-1.4.1.tar.gz tmp/minecraft_resource_pack-1.4.2.tar.gz --markdown 20240501/m/minecraft-resource-pack/1.4.1-1.4.2/README.md --exclude *.pyd
+[2024-05-01 13:25:04] INFO root fetch - processPackages [parsee-core]: executing diffoscope
+[2024-05-01 13:25:04] INFO root fetch - processPackages [parsee-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parsee_core-0.1.4.8.tar.gz tmp/parsee_core-0.1.4.9.tar.gz --markdown 20240501/p/parsee-core/0.1.4.8-0.1.4.9/README.md --exclude *.pyd
+[2024-05-01 13:25:04] INFO root fetch - processPackages [uvx]: executing diffoscope
+[2024-05-01 13:25:04] INFO root fetch - processPackages [uvx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uvx-2.0.6.tar.gz tmp/uvx-2.0.7.tar.gz --markdown 20240501/u/uvx/2.0.6-2.0.7/README.md --exclude *.pyd
+[2024-05-01 13:25:04] INFO root fetch - processPackages [trytond-sale-promotion]: Remove: archive file [/home/abi/fetcher/tmp/trytond_sale_promotion-7.2.0.tar.gz]
+[2024-05-01 13:25:04] INFO root fetch - processPackages [trytond-sale-promotion]: Remove: archive file [/home/abi/fetcher/tmp/trytond_sale_promotion-7.2.1.tar.gz]
+[2024-05-01 13:25:04] INFO root fetch - processPackages [trytond-sale-promotion]: Start processing: hospitalpy
+[2024-05-01 13:25:04] INFO root fetch - main [MainThread]: End processing [trytond-sale-promotion]: success
+[2024-05-01 13:25:04] WARNING root fetch - processPackages [hospitalpy]: Skipping, unable to determine old version
+[2024-05-01 13:25:04] INFO root fetch - processPackages [hospitalpy]: Start processing: torch-model-manager
+[2024-05-01 13:25:04] INFO root fetch - main [MainThread]: End processing [hospitalpy] error
+[2024-05-01 13:25:04] INFO root fetch - processPackages [torch-model-manager]: New version: [0.1.0.dev2] Old Version: [0.1.0.dev1]
+[2024-05-01 13:25:04] INFO root fetch - processPackages [trytond-sale-payment]: Remove: archive file [/home/abi/fetcher/tmp/trytond_sale_payment-7.2.0.tar.gz]
+[2024-05-01 13:25:04] INFO root fetch - processPackages [trytond-sale-payment]: Remove: archive file [/home/abi/fetcher/tmp/trytond_sale_payment-7.2.1.tar.gz]
+[2024-05-01 13:25:04] INFO root fetch - processPackages [trytond-sale-payment]: Start processing: pulumi-archive
+[2024-05-01 13:25:04] INFO root fetch - main [MainThread]: End processing [trytond-sale-payment]: success
+[2024-05-01 13:25:04] INFO root fetch - processPackages [torch-model-manager]: Downloading https://files.pythonhosted.org/packages/80/c0/17e0b306c6708d302120a8b0aa947a0e8ad2dd9d83d421c2a059d8340131/torch_model_manager-0.1.0.dev1.tar.gz
+[2024-05-01 13:25:04] INFO root fetch - processPackages [pypfilt]: Remove: archive file [/home/abi/fetcher/tmp/pypfilt-0.8.2-py3-none-any.whl.zip]
+[2024-05-01 13:25:04] INFO root fetch - processPackages [pypfilt]: Remove: archive file [/home/abi/fetcher/tmp/pypfilt-0.8.3-py3-none-any.whl.zip]
+[2024-05-01 13:25:04] INFO root fetch - processPackages [pypfilt]: Start processing: trytond-sale-gift-card
+[2024-05-01 13:25:04] INFO root fetch - main [MainThread]: End processing [pypfilt]: success
+[2024-05-01 13:25:05] INFO root fetch - processPackages [pulumi-archive]: New version: [0.1.0a1714540174] Old Version: [0.1.0a1714536509]
+[2024-05-01 13:25:05] INFO root fetch - processPackages [trytond-sale-point]: Remove: archive file [/home/abi/fetcher/tmp/trytond_sale_point-7.2.0.tar.gz]
+[2024-05-01 13:25:05] INFO root fetch - processPackages [trytond-sale-point]: Remove: archive file [/home/abi/fetcher/tmp/trytond_sale_point-7.2.1.tar.gz]
+[2024-05-01 13:25:05] INFO root fetch - processPackages [trytond-sale-point]: Start processing: airflow-yeedu-operator
+[2024-05-01 13:25:05] INFO root fetch - main [MainThread]: End processing [trytond-sale-point]: success
+[2024-05-01 13:25:05] INFO root fetch - processPackages [pulumi-archive]: Downloading https://files.pythonhosted.org/packages/e9/9a/9b72fe4081e05db5e2d4d3989b0061ffb09a3e82a3a2bd9aad90e3a943ff/pulumi_archive-0.1.0a1714536509.tar.gz
+[2024-05-01 13:25:05] INFO root fetch - processPackages [trytond-sale-gift-card]: New version: [7.2.1] Old Version: [7.2.0]
+[2024-05-01 13:25:05] INFO root fetch - processPackages [airflow-yeedu-operator]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-01 13:25:05] INFO root fetch - processPackages [uvx]: Remove: archive file [/home/abi/fetcher/tmp/uvx-2.0.6.tar.gz]
+[2024-05-01 13:25:05] INFO root fetch - processPackages [uvx]: Remove: archive file [/home/abi/fetcher/tmp/uvx-2.0.7.tar.gz]
+[2024-05-01 13:25:05] INFO root fetch - processPackages [uvx]: Start processing: alwhatsapp
+[2024-05-01 13:25:05] INFO root fetch - main [MainThread]: End processing [uvx]: success
+[2024-05-01 13:25:05] INFO root fetch - processPackages [trytond-sale-gift-card]: Downloading https://files.pythonhosted.org/packages/c5/45/c00d009758b3bd66c5ea549a754293690e58c5c4dbd4a0686055430953e5/trytond_sale_gift_card-7.2.0.tar.gz
+[2024-05-01 13:25:05] INFO root fetch - processPackages [trytond-sale-opportunity]: Remove: archive file [/home/abi/fetcher/tmp/trytond_sale_opportunity-7.2.0.tar.gz]
+[2024-05-01 13:25:05] INFO root fetch - processPackages [trytond-sale-opportunity]: Remove: archive file [/home/abi/fetcher/tmp/trytond_sale_opportunity-7.2.1.tar.gz]
+[2024-05-01 13:25:05] INFO root fetch - processPackages [trytond-sale-opportunity]: Start processing: trytond-sale-complaint
+[2024-05-01 13:25:05] INFO root fetch - main [MainThread]: End processing [trytond-sale-opportunity]: success
+[2024-05-01 13:25:05] WARNING root fetch - processPackages [alwhatsapp]: Skipping, unable to determine old version
+[2024-05-01 13:25:05] INFO root fetch - processPackages [alwhatsapp]: Start processing: hgraph
+[2024-05-01 13:25:05] INFO root fetch - main [MainThread]: End processing [alwhatsapp] error
+[2024-05-01 13:25:05] INFO root fetch - processPackages [trytond-sale-opportunity]: Start processing: mimllearning
+[2024-05-01 13:25:05] INFO root fetch - main [MainThread]: End processing [trytond-sale-opportunity]: success
+[2024-05-01 13:25:05] INFO root fetch - processPackages [parsee-core]: Remove: archive file [/home/abi/fetcher/tmp/parsee_core-0.1.4.8.tar.gz]
+[2024-05-01 13:25:05] INFO root fetch - processPackages [parsee-core]: Remove: archive file [/home/abi/fetcher/tmp/parsee_core-0.1.4.9.tar.gz]
+[2024-05-01 13:25:05] INFO root fetch - processPackages [parsee-core]: Start processing: torchrl-nightly
+[2024-05-01 13:25:05] INFO root fetch - main [MainThread]: End processing [parsee-core]: success
+[2024-05-01 13:25:05] INFO root fetch - processPackages [torch-model-manager]: Downloading https://files.pythonhosted.org/packages/09/0b/136291052421289c5cf709ca99e1173c8b72f21983e3e7e9931be92944af/torch_model_manager-0.1.0.dev2.tar.gz
+[2024-05-01 13:25:05] INFO root fetch - processPackages [airflow-yeedu-operator]: Downloading https://files.pythonhosted.org/packages/80/8f/9968afb5472a320998dee622c502cf62ed86f5f9d125ce7f137fee8e177f/airflow-yeedu-operator-1.0.8.tar.gz
+[2024-05-01 13:25:05] INFO root fetch - processPackages [mimllearning]: New version: [0.2.8] Old Version: [0.2.7]
+[2024-05-01 13:25:05] INFO root fetch - main [MainThread]: End processing [trytond-sale-opportunity]: success
+[2024-05-01 13:25:05] INFO root fetch - processPackages [pulumi-archive]: Downloading https://files.pythonhosted.org/packages/2f/3e/c8508a92e9c6298b7f6a4d6dbabe07aa28604aee05d88ef1b20e6262d7ae/pulumi_archive-0.1.0a1714540174.tar.gz
+[2024-05-01 13:25:05] INFO root fetch - processPackages [trytond-sale-complaint]: New version: [7.2.1] Old Version: [7.2.0]
+[2024-05-01 13:25:05] INFO root fetch - processPackages [mimllearning]: Downloading https://files.pythonhosted.org/packages/13/b9/8bb20d442048ff0f02ace28fa1714fba7126b12be0fd8f2a9cb25c223e06/mimllearning-0.2.7.tar.gz
+[2024-05-01 13:25:05] INFO root fetch - processPackages [hgraph]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-01 13:25:05] INFO root fetch - processPackages [torch-model-manager]: executing diffoscope
+[2024-05-01 13:25:05] INFO root fetch - processPackages [torch-model-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_model_manager-0.1.0.dev1.tar.gz tmp/torch_model_manager-0.1.0.dev2.tar.gz --markdown 20240501/t/torch-model-manager/0.1.0.dev1-0.1.0.dev2/README.md --exclude *.pyd
+[2024-05-01 13:25:05] INFO root fetch - processPackages [pulumi-archive]: executing diffoscope
+[2024-05-01 13:25:05] INFO root fetch - processPackages [pulumi-archive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_archive-0.1.0a1714536509.tar.gz tmp/pulumi_archive-0.1.0a1714540174.tar.gz --markdown 20240501/p/pulumi-archive/0.1.0a1714536509-0.1.0a1714540174/README.md --exclude *.pyd
+[2024-05-01 13:25:05] INFO root fetch - processPackages [trytond-sale-complaint]: Downloading https://files.pythonhosted.org/packages/d7/51/7b9c6c7ae316efdc139087b04092d5898a5f6d8408c60ca4730cc1480ff5/trytond_sale_complaint-7.2.0.tar.gz
+[2024-05-01 13:25:05] INFO root fetch - processPackages [trytond-sale-gift-card]: Downloading https://files.pythonhosted.org/packages/f2/22/aaf0c7d6ae130c805abc1f2c20c8a85c077c708e3751582e97b3bbb7e273/trytond_sale_gift_card-7.2.1.tar.gz
+[2024-05-01 13:25:05] INFO root fetch - processPackages [hgraph]: Downloading https://files.pythonhosted.org/packages/da/ad/e83b1d8661a0e583d3a8e4e301911d6797358607dad40d27057574e75081/hgraph-0.2.8.tar.gz
+[2024-05-01 13:25:05] INFO root fetch - processPackages [minecraft-resource-pack]: Remove: archive file [/home/abi/fetcher/tmp/minecraft-resource-pack-1.4.1.tar.gz]
+[2024-05-01 13:25:05] INFO root fetch - processPackages [minecraft-resource-pack]: Remove: archive file [/home/abi/fetcher/tmp/minecraft_resource_pack-1.4.2.tar.gz]
+[2024-05-01 13:25:05] INFO root fetch - main [MainThread]: End processing [minecraft-resource-pack]: success
+[2024-05-01 13:25:05] INFO root fetch - processPackages [torchrl-nightly]: New version: [2024.5.1] Old Version: [2024.4.30]
+[2024-05-01 13:25:05] INFO root fetch - processPackages [trytond-sale-gift-card]: executing diffoscope
+[2024-05-01 13:25:05] INFO root fetch - processPackages [trytond-sale-gift-card]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_sale_gift_card-7.2.0.tar.gz tmp/trytond_sale_gift_card-7.2.1.tar.gz --markdown 20240501/t/trytond-sale-gift-card/7.2.0-7.2.1/README.md --exclude *.pyd
+[2024-05-01 13:25:05] INFO root fetch - processPackages [airflow-yeedu-operator]: Downloading https://files.pythonhosted.org/packages/14/2e/01a5f1457c6bc383beb14de928fc4afc1863a7cb7c239645729c6ecc71e1/airflow_yeedu_operator-1.0.9-py3-none-any.whl
+[2024-05-01 13:25:05] INFO root fetch - processPackages [mimllearning]: Downloading https://files.pythonhosted.org/packages/36/1c/993a41e739f8874ea307c16f8f57c4e8d6f00573d4939419a1d160b6d424/mimllearning-0.2.8.tar.gz
+[2024-05-01 13:25:06] INFO root fetch - processPackages [torchrl-nightly]: Downloading https://files.pythonhosted.org/packages/fb/cb/b2c71188b27896d3e55d12880166aabb848c2656acce5f81506620818fa6/torchrl_nightly-2024.4.30-cp39-cp39-win_amd64.whl
+[2024-05-01 13:25:06] INFO root fetch - processPackages [trytond-sale-complaint]: Downloading https://files.pythonhosted.org/packages/15/d4/5d5a8ce8b6b4db0a76ec49f856b73566c18dc050fae556404787b2594d95/trytond_sale_complaint-7.2.1.tar.gz
+[2024-05-01 13:25:06] INFO root fetch - processPackages [mimllearning]: executing diffoscope
+[2024-05-01 13:25:06] INFO root fetch - processPackages [mimllearning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mimllearning-0.2.7.tar.gz tmp/mimllearning-0.2.8.tar.gz --markdown 20240501/m/mimllearning/0.2.7-0.2.8/README.md --exclude *.pyd
+[2024-05-01 13:25:06] INFO root fetch - processPackages [airflow-yeedu-operator]: executing diffoscope
+[2024-05-01 13:25:06] INFO root fetch - processPackages [airflow-yeedu-operator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airflow-yeedu-operator-1.0.8.tar.gz tmp/airflow_yeedu_operator-1.0.9-py3-none-any.whl.zip --markdown 20240501/a/airflow-yeedu-operator/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-01 13:25:06] INFO root fetch - processPackages [hgraph]: Downloading https://files.pythonhosted.org/packages/22/05/43ea3ada7d538f8592b51d36721d624366793ada729a497eaaff2db9b540/hgraph-0.2.9.tar.gz
+[2024-05-01 13:25:06] INFO root fetch - processPackages [pulumi-archive]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_archive-0.1.0a1714536509.tar.gz]
+[2024-05-01 13:25:06] INFO root fetch - processPackages [pulumi-archive]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_archive-0.1.0a1714540174.tar.gz]
+[2024-05-01 13:25:06] INFO root fetch - main [MainThread]: End processing [pulumi-archive]: success
+[2024-05-01 13:25:06] INFO root fetch - processPackages [trytond-sale-complaint]: executing diffoscope
+[2024-05-01 13:25:06] INFO root fetch - processPackages [trytond-sale-complaint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_sale_complaint-7.2.0.tar.gz tmp/trytond_sale_complaint-7.2.1.tar.gz --markdown 20240501/t/trytond-sale-complaint/7.2.0-7.2.1/README.md --exclude *.pyd
+[2024-05-01 13:25:06] INFO root fetch - processPackages [hgraph]: executing diffoscope
+[2024-05-01 13:25:06] INFO root fetch - processPackages [hgraph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hgraph-0.2.8.tar.gz tmp/hgraph-0.2.9.tar.gz --markdown 20240501/h/hgraph/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-01 13:25:06] INFO root fetch - processPackages [torch-model-manager]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_manager-0.1.0.dev1.tar.gz]
+[2024-05-01 13:25:06] INFO root fetch - processPackages [torch-model-manager]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_manager-0.1.0.dev2.tar.gz]
+[2024-05-01 13:25:06] INFO root fetch - main [MainThread]: End processing [torch-model-manager]: success
+[2024-05-01 13:25:06] INFO root fetch - processPackages [trytond-sale-gift-card]: Remove: archive file [/home/abi/fetcher/tmp/trytond_sale_gift_card-7.2.0.tar.gz]
+[2024-05-01 13:25:06] INFO root fetch - processPackages [trytond-sale-gift-card]: Remove: archive file [/home/abi/fetcher/tmp/trytond_sale_gift_card-7.2.1.tar.gz]
+[2024-05-01 13:25:06] INFO root fetch - main [MainThread]: End processing [trytond-sale-gift-card]: success
+[2024-05-01 13:25:06] INFO root fetch - processPackages [torchrl-nightly]: Downloading https://files.pythonhosted.org/packages/ee/c3/bbb9cfe39a1171bb073302b7b04fe32b8f57aed43db8d06a4c859a1581ea/torchrl_nightly-2024.5.1-cp39-cp39-manylinux1_x86_64.whl
+[2024-05-01 13:25:06] INFO root fetch - processPackages [airflow-yeedu-operator]: Remove: archive file [/home/abi/fetcher/tmp/airflow-yeedu-operator-1.0.8.tar.gz]
+[2024-05-01 13:25:06] INFO root fetch - processPackages [airflow-yeedu-operator]: Remove: archive file [/home/abi/fetcher/tmp/airflow_yeedu_operator-1.0.9-py3-none-any.whl.zip]
+[2024-05-01 13:25:06] INFO root fetch - main [MainThread]: End processing [airflow-yeedu-operator]: success
+[2024-05-01 13:25:07] INFO root fetch - processPackages [trytond-sale-complaint]: Remove: archive file [/home/abi/fetcher/tmp/trytond_sale_complaint-7.2.0.tar.gz]
+[2024-05-01 13:25:07] INFO root fetch - processPackages [trytond-sale-complaint]: Remove: archive file [/home/abi/fetcher/tmp/trytond_sale_complaint-7.2.1.tar.gz]
+[2024-05-01 13:25:07] INFO root fetch - main [MainThread]: End processing [trytond-sale-complaint]: success
+[2024-05-01 13:25:07] INFO root fetch - processPackages [mimllearning]: Remove: archive file [/home/abi/fetcher/tmp/mimllearning-0.2.7.tar.gz]
+[2024-05-01 13:25:07] INFO root fetch - processPackages [mimllearning]: Remove: archive file [/home/abi/fetcher/tmp/mimllearning-0.2.8.tar.gz]
+[2024-05-01 13:25:07] INFO root fetch - main [MainThread]: End processing [mimllearning]: success
+[2024-05-01 13:25:07] INFO root fetch - processPackages [hgraph]: Remove: archive file [/home/abi/fetcher/tmp/hgraph-0.2.8.tar.gz]
+[2024-05-01 13:25:07] INFO root fetch - processPackages [hgraph]: Remove: archive file [/home/abi/fetcher/tmp/hgraph-0.2.9.tar.gz]
+[2024-05-01 13:25:07] INFO root fetch - main [MainThread]: End processing [hgraph]: success
+[2024-05-01 13:25:08] INFO root fetch - processPackages [torchrl-nightly]: executing diffoscope
+[2024-05-01 13:25:08] INFO root fetch - processPackages [torchrl-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchrl_nightly-2024.4.30-cp39-cp39-win_amd64.whl.zip tmp/torchrl_nightly-2024.5.1-cp39-cp39-manylinux1_x86_64.whl.zip --markdown 20240501/t/torchrl-nightly/2024.4.30-2024.5.1/README.md --exclude *.pyd
+[2024-05-01 13:25:11] INFO root fetch - processPackages [torchrl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrl_nightly-2024.4.30-cp39-cp39-win_amd64.whl.zip]
+[2024-05-01 13:25:11] INFO root fetch - processPackages [torchrl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrl_nightly-2024.5.1-cp39-cp39-manylinux1_x86_64.whl.zip]
+[2024-05-01 13:25:11] INFO root fetch - main [MainThread]: End processing [torchrl-nightly]: success
+[2024-05-01 13:25:11] INFO root fetch - main [MainThread]: Store serial: [23015763]
