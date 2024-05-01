@@ -22060,3 +22060,93 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-01 16:05:17] INFO root fetch - processPackages [aliceio]: Remove: archive file [/home/abi/fetcher/tmp/aliceio-0.0.3.tar.gz]
 [2024-05-01 16:05:17] INFO root fetch - main [MainThread]: End processing [aliceio]: success
 [2024-05-01 16:05:17] INFO root fetch - main [MainThread]: Store serial: [23017754]
+[2024-05-01 16:07:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23017754]
+[2024-05-01 16:07:25] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-01 16:07:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: stigg-api-client
+[2024-05-01 16:07:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rats-processors
+[2024-05-01 16:07:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rats-apps
+[2024-05-01 16:07:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rats-pipelines
+[2024-05-01 16:07:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: stigg-api-client-v2
+[2024-05-01 16:07:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lyygui
+[2024-05-01 16:07:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lyytkmain
+[2024-05-01 16:07:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: safety
+[2024-05-01 16:07:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: hyperfine
+[2024-05-01 16:07:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mesido
+[2024-05-01 16:07:26] INFO root fetch - processPackages [rats-apps]: New version: [0.1.3.dev9] Old Version: [0.1.3.dev8]
+[2024-05-01 16:07:26] INFO root fetch - processPackages [rats-processors]: New version: [0.1.3.dev9] Old Version: [0.1.3.dev8]
+[2024-05-01 16:07:26] INFO root fetch - processPackages [rats-pipelines]: New version: [0.1.3.dev9] Old Version: [0.1.3.dev8]
+[2024-05-01 16:07:26] INFO root fetch - processPackages [stigg-api-client]: New version: [1.98.1] Old Version: [1.98.0]
+[2024-05-01 16:07:26] INFO root fetch - processPackages [lyygui]: New version: [1.6] Old Version: [1.5]
+[2024-05-01 16:07:26] INFO root fetch - processPackages [safety]: New version: [3.1.0] Old Version: [3.0.1]
+[2024-05-01 16:07:26] INFO root fetch - processPackages [stigg-api-client-v2]: New version: [1.98.1] Old Version: [1.98.0]
+[2024-05-01 16:07:26] INFO root fetch - processPackages [mesido]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-01 16:07:26] INFO root fetch - processPackages [rats-apps]: Downloading https://files.pythonhosted.org/packages/2b/ac/7cdd84e9d923505e71fd914f800c3d7199d0e4a098aa8259413f06395c30/rats_apps-0.1.3.dev8-py3-none-any.whl
+[2024-05-01 16:07:26] INFO root fetch - processPackages [hyperfine]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-01 16:07:26] WARNING root fetch - processPackages [lyytkmain]: Skipping, unable to determine old version
+[2024-05-01 16:07:26] INFO root fetch - processPackages [lyytkmain]: Start processing: prometheus-eval
+[2024-05-01 16:07:26] INFO root fetch - main [MainThread]: End processing [lyytkmain] error
+[2024-05-01 16:07:26] INFO root fetch - processPackages [rats-processors]: Downloading https://files.pythonhosted.org/packages/ee/14/9e43a65d4c611c1fd72f73131b77c7f2d0b9dec99834658b01571114c849/rats_processors-0.1.3.dev8-py3-none-any.whl
+[2024-05-01 16:07:26] INFO root fetch - processPackages [stigg-api-client]: Downloading https://files.pythonhosted.org/packages/98/38/1422eb2135687adff8e0844dc4afcdcdd3c44140b3b89335819f7a678037/stigg_api_client-1.98.0.tar.gz
+[2024-05-01 16:07:26] INFO root fetch - processPackages [rats-pipelines]: Downloading https://files.pythonhosted.org/packages/ec/dd/e1571a4a4be4a6e8a24f82ab1b058ced7ac30426c5fa734e21c3bb791cd1/rats_pipelines-0.1.3.dev8-py3-none-any.whl
+[2024-05-01 16:07:26] INFO root fetch - processPackages [lyygui]: Downloading https://files.pythonhosted.org/packages/85/90/210819bc3ba408748a8272a7e7e27cd88853095583a18abf22b4234962f6/lyygui-1.5.tar.gz
+[2024-05-01 16:07:26] WARNING root fetch - processPackages [prometheus-eval]: Skipping, unable to determine old version
+[2024-05-01 16:07:26] INFO root fetch - main [MainThread]: End processing [prometheus-eval] error
+[2024-05-01 16:07:26] INFO root fetch - processPackages [stigg-api-client-v2]: Downloading https://files.pythonhosted.org/packages/9e/ad/1fefc56e33c405d4aa0b5a382414f77d27efc7861a1cedce255c72c8f7d7/stigg_api_client_v2-1.98.0.tar.gz
+[2024-05-01 16:07:26] INFO root fetch - processPackages [safety]: Downloading https://files.pythonhosted.org/packages/35/cf/ee5d8b41f067c056e7060e9de4acc3e7fa5b497af1202c6a4b35b11b6091/safety-3.0.1.tar.gz
+[2024-05-01 16:07:26] INFO root fetch - processPackages [mesido]: Downloading https://files.pythonhosted.org/packages/b9/81/62b65e7f5d883f8a0810f57fdf0531eacde810710ca45dd3bc581f5b0f7a/mesido-0.1.2.tar.gz
+[2024-05-01 16:07:26] INFO root fetch - processPackages [hyperfine]: Downloading https://files.pythonhosted.org/packages/73/6e/eab5b2fc7afdb1af96cb563ce41d5b4e0c338146f7a37d8dc440751b2df6/hyperfine-0.0.2.tar.gz
+[2024-05-01 16:07:26] INFO root fetch - processPackages [rats-apps]: Downloading https://files.pythonhosted.org/packages/63/25/d3d6e41dfb5bd98bcbf7f79d3856cc774212467e002a6abf0eb6cd14bd96/rats_apps-0.1.3.dev9-py3-none-any.whl
+[2024-05-01 16:07:26] INFO root fetch - processPackages [rats-pipelines]: Downloading https://files.pythonhosted.org/packages/b8/2d/79bd6c94d590e76f61506daaf64bbb07726287dd538e4b8a5d5a3fd64ad7/rats_pipelines-0.1.3.dev9-py3-none-any.whl
+[2024-05-01 16:07:26] INFO root fetch - processPackages [rats-processors]: Downloading https://files.pythonhosted.org/packages/83/b6/122ea8648f16d78861cb7c33e0f599e2421b03f295f46bbf34d66c3d399a/rats_processors-0.1.3.dev9-py3-none-any.whl
+[2024-05-01 16:07:26] INFO root fetch - processPackages [lyygui]: Downloading https://files.pythonhosted.org/packages/aa/48/46d7b713b4ff498e2701d32dedfdc3f3f0b94d7b0dd702876f7aaef06065/lyygui-1.6.tar.gz
+[2024-05-01 16:07:26] INFO root fetch - processPackages [stigg-api-client]: Downloading https://files.pythonhosted.org/packages/da/d2/6b7a0c4e4205896d09042773fe56913ad646e6493900cc11613eabb26e05/stigg_api_client-1.98.1.tar.gz
+[2024-05-01 16:07:26] INFO root fetch - processPackages [stigg-api-client-v2]: Downloading https://files.pythonhosted.org/packages/e4/6e/6806296621be882a70042a1d47ba321aad0c99c69b0e1a5f16346a41b4b5/stigg_api_client_v2-1.98.1.tar.gz
+[2024-05-01 16:07:26] INFO root fetch - processPackages [rats-apps]: executing diffoscope
+[2024-05-01 16:07:26] INFO root fetch - processPackages [rats-apps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rats_apps-0.1.3.dev8-py3-none-any.whl.zip tmp/rats_apps-0.1.3.dev9-py3-none-any.whl.zip --markdown 20240501/r/rats-apps/0.1.3.dev8-0.1.3.dev9/README.md --exclude *.pyd
+[2024-05-01 16:07:26] INFO root fetch - processPackages [rats-pipelines]: executing diffoscope
+[2024-05-01 16:07:26] INFO root fetch - processPackages [rats-pipelines]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rats_pipelines-0.1.3.dev8-py3-none-any.whl.zip tmp/rats_pipelines-0.1.3.dev9-py3-none-any.whl.zip --markdown 20240501/r/rats-pipelines/0.1.3.dev8-0.1.3.dev9/README.md --exclude *.pyd
+[2024-05-01 16:07:26] INFO root fetch - processPackages [lyygui]: executing diffoscope
+[2024-05-01 16:07:26] INFO root fetch - processPackages [lyygui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lyygui-1.5.tar.gz tmp/lyygui-1.6.tar.gz --markdown 20240501/l/lyygui/1.5-1.6/README.md --exclude *.pyd
+[2024-05-01 16:07:26] INFO root fetch - processPackages [stigg-api-client]: executing diffoscope
+[2024-05-01 16:07:26] INFO root fetch - processPackages [stigg-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stigg_api_client-1.98.0.tar.gz tmp/stigg_api_client-1.98.1.tar.gz --markdown 20240501/s/stigg-api-client/1.98.0-1.98.1/README.md --exclude *.pyd
+[2024-05-01 16:07:26] INFO root fetch - processPackages [rats-processors]: executing diffoscope
+[2024-05-01 16:07:26] INFO root fetch - processPackages [rats-processors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rats_processors-0.1.3.dev8-py3-none-any.whl.zip tmp/rats_processors-0.1.3.dev9-py3-none-any.whl.zip --markdown 20240501/r/rats-processors/0.1.3.dev8-0.1.3.dev9/README.md --exclude *.pyd
+[2024-05-01 16:07:27] INFO root fetch - processPackages [stigg-api-client-v2]: executing diffoscope
+[2024-05-01 16:07:27] INFO root fetch - processPackages [stigg-api-client-v2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stigg_api_client_v2-1.98.0.tar.gz tmp/stigg_api_client_v2-1.98.1.tar.gz --markdown 20240501/s/stigg-api-client-v2/1.98.0-1.98.1/README.md --exclude *.pyd
+[2024-05-01 16:07:27] INFO root fetch - processPackages [safety]: Downloading https://files.pythonhosted.org/packages/fc/06/c45642965c608acd96b5896bfd7fd06b4ba3fa874fd8e164df838be1cbc8/safety-3.1.0.tar.gz
+[2024-05-01 16:07:27] INFO root fetch - processPackages [hyperfine]: Downloading https://files.pythonhosted.org/packages/10/fe/4d4e1a328ee5e661e7ae22a57f4df0a2b6d9c4425187aadf9670ce328738/hyperfine-0.0.3.tar.gz
+[2024-05-01 16:07:27] INFO root fetch - processPackages [mesido]: Downloading https://files.pythonhosted.org/packages/c5/a1/ca121001f64a613d01a21edb7915f6eab36fb151670229c23ba09eb43821/mesido-0.1.3.tar.gz
+[2024-05-01 16:07:27] INFO root fetch - processPackages [hyperfine]: executing diffoscope
+[2024-05-01 16:07:27] INFO root fetch - processPackages [hyperfine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyperfine-0.0.2.tar.gz tmp/hyperfine-0.0.3.tar.gz --markdown 20240501/h/hyperfine/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-01 16:07:27] INFO root fetch - processPackages [safety]: executing diffoscope
+[2024-05-01 16:07:27] INFO root fetch - processPackages [safety]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/safety-3.0.1.tar.gz tmp/safety-3.1.0.tar.gz --markdown 20240501/s/safety/3.0.1-3.1.0/README.md --exclude *.pyd
+[2024-05-01 16:07:27] INFO root fetch - processPackages [mesido]: executing diffoscope
+[2024-05-01 16:07:27] INFO root fetch - processPackages [mesido]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mesido-0.1.2.tar.gz tmp/mesido-0.1.3.tar.gz --markdown 20240501/m/mesido/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-01 16:07:27] INFO root fetch - processPackages [rats-apps]: Remove: archive file [/home/abi/fetcher/tmp/rats_apps-0.1.3.dev8-py3-none-any.whl.zip]
+[2024-05-01 16:07:27] INFO root fetch - processPackages [rats-apps]: Remove: archive file [/home/abi/fetcher/tmp/rats_apps-0.1.3.dev9-py3-none-any.whl.zip]
+[2024-05-01 16:07:27] INFO root fetch - main [MainThread]: End processing [rats-apps]: success
+[2024-05-01 16:07:27] INFO root fetch - processPackages [lyygui]: Remove: archive file [/home/abi/fetcher/tmp/lyygui-1.5.tar.gz]
+[2024-05-01 16:07:27] INFO root fetch - processPackages [lyygui]: Remove: archive file [/home/abi/fetcher/tmp/lyygui-1.6.tar.gz]
+[2024-05-01 16:07:27] INFO root fetch - main [MainThread]: End processing [lyygui]: success
+[2024-05-01 16:07:27] INFO root fetch - processPackages [rats-pipelines]: Remove: archive file [/home/abi/fetcher/tmp/rats_pipelines-0.1.3.dev8-py3-none-any.whl.zip]
+[2024-05-01 16:07:27] INFO root fetch - processPackages [rats-pipelines]: Remove: archive file [/home/abi/fetcher/tmp/rats_pipelines-0.1.3.dev9-py3-none-any.whl.zip]
+[2024-05-01 16:07:27] INFO root fetch - main [MainThread]: End processing [rats-pipelines]: success
+[2024-05-01 16:07:27] INFO root fetch - processPackages [stigg-api-client]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client-1.98.0.tar.gz]
+[2024-05-01 16:07:27] INFO root fetch - processPackages [stigg-api-client]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client-1.98.1.tar.gz]
+[2024-05-01 16:07:27] INFO root fetch - main [MainThread]: End processing [stigg-api-client]: success
+[2024-05-01 16:07:28] INFO root fetch - processPackages [rats-processors]: Remove: archive file [/home/abi/fetcher/tmp/rats_processors-0.1.3.dev8-py3-none-any.whl.zip]
+[2024-05-01 16:07:28] INFO root fetch - processPackages [rats-processors]: Remove: archive file [/home/abi/fetcher/tmp/rats_processors-0.1.3.dev9-py3-none-any.whl.zip]
+[2024-05-01 16:07:28] INFO root fetch - main [MainThread]: End processing [rats-processors]: success
+[2024-05-01 16:07:28] INFO root fetch - processPackages [hyperfine]: Remove: archive file [/home/abi/fetcher/tmp/hyperfine-0.0.2.tar.gz]
+[2024-05-01 16:07:28] INFO root fetch - processPackages [hyperfine]: Remove: archive file [/home/abi/fetcher/tmp/hyperfine-0.0.3.tar.gz]
+[2024-05-01 16:07:28] INFO root fetch - main [MainThread]: End processing [hyperfine]: success
+[2024-05-01 16:07:28] INFO root fetch - processPackages [safety]: Remove: archive file [/home/abi/fetcher/tmp/safety-3.0.1.tar.gz]
+[2024-05-01 16:07:28] INFO root fetch - processPackages [safety]: Remove: archive file [/home/abi/fetcher/tmp/safety-3.1.0.tar.gz]
+[2024-05-01 16:07:28] INFO root fetch - main [MainThread]: End processing [safety]: success
+[2024-05-01 16:07:28] INFO root fetch - processPackages [stigg-api-client-v2]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client_v2-1.98.0.tar.gz]
+[2024-05-01 16:07:28] INFO root fetch - processPackages [stigg-api-client-v2]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client_v2-1.98.1.tar.gz]
+[2024-05-01 16:07:28] INFO root fetch - main [MainThread]: End processing [stigg-api-client-v2]: success
+[2024-05-01 16:07:28] INFO root fetch - processPackages [mesido]: Remove: archive file [/home/abi/fetcher/tmp/mesido-0.1.2.tar.gz]
+[2024-05-01 16:07:28] INFO root fetch - processPackages [mesido]: Remove: archive file [/home/abi/fetcher/tmp/mesido-0.1.3.tar.gz]
+[2024-05-01 16:07:28] INFO root fetch - main [MainThread]: End processing [mesido]: success
+[2024-05-01 16:07:28] INFO root fetch - main [MainThread]: Store serial: [23017785]
