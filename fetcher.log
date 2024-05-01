@@ -7053,3 +7053,24 @@
 [2024-05-01 03:59:17] INFO root fetch - processPackages [stellar-sdk]: Remove: archive file [/home/abi/fetcher/tmp/stellar_sdk-9.4.0.tar.gz]
 [2024-05-01 03:59:17] INFO root fetch - main [MainThread]: End processing [stellar-sdk]: success
 [2024-05-01 03:59:17] INFO root fetch - main [MainThread]: Store serial: [23011392]
+[2024-05-01 04:01:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23011392]
+[2024-05-01 04:01:26] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-01 04:01:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fgo-api-types
+[2024-05-01 04:01:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: GSG
+[2024-05-01 04:01:26] INFO root fetch - processPackages [GSG]: New version: [0.5.5] Old Version: [0.5.4]
+[2024-05-01 04:01:26] INFO root fetch - processPackages [fgo-api-types]: New version: [2024.5.1.1.59.10] Old Version: [2024.4.6.2.22.3]
+[2024-05-01 04:01:26] INFO root fetch - processPackages [fgo-api-types]: Downloading https://files.pythonhosted.org/packages/b9/41/3dbb26f0f980c564a1e8ae75299afc724991934ffaf1a8a59ab70aafb784/fgo_api_types-2024.4.6.2.22.3.tar.gz
+[2024-05-01 04:01:26] INFO root fetch - processPackages [GSG]: Downloading https://files.pythonhosted.org/packages/77/2b/823177e21a24bd5ac595f2fa103ac56d5ca806ef5370fc957dd5cbd3beb7/GSG-0.5.4.tar.gz
+[2024-05-01 04:01:26] INFO root fetch - processPackages [GSG]: Downloading https://files.pythonhosted.org/packages/4a/c6/e9c1fdbe1f546bbf465c3b898acff9031919894bf13ca7453b0ffa5c43d8/GSG-0.5.5.tar.gz
+[2024-05-01 04:01:27] INFO root fetch - processPackages [fgo-api-types]: Downloading https://files.pythonhosted.org/packages/c7/c6/796b6d74fafbcd88f934eaf27a5f875743f51a0113129ace231f510b6a4d/fgo_api_types-2024.5.1.1.59.10.tar.gz
+[2024-05-01 04:01:27] INFO root fetch - processPackages [GSG]: executing diffoscope
+[2024-05-01 04:01:27] INFO root fetch - processPackages [GSG]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GSG-0.5.4.tar.gz tmp/GSG-0.5.5.tar.gz --markdown 20240501/G/GSG/0.5.4-0.5.5/README.md --exclude *.pyd
+[2024-05-01 04:01:27] INFO root fetch - processPackages [fgo-api-types]: executing diffoscope
+[2024-05-01 04:01:27] INFO root fetch - processPackages [fgo-api-types]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fgo_api_types-2024.4.6.2.22.3.tar.gz tmp/fgo_api_types-2024.5.1.1.59.10.tar.gz --markdown 20240501/f/fgo-api-types/2024.4.6.2.22.3-2024.5.1.1.59.10/README.md --exclude *.pyd
+[2024-05-01 04:01:27] INFO root fetch - processPackages [GSG]: Remove: archive file [/home/abi/fetcher/tmp/GSG-0.5.4.tar.gz]
+[2024-05-01 04:01:27] INFO root fetch - processPackages [GSG]: Remove: archive file [/home/abi/fetcher/tmp/GSG-0.5.5.tar.gz]
+[2024-05-01 04:01:27] INFO root fetch - main [MainThread]: End processing [GSG]: success
+[2024-05-01 04:01:27] INFO root fetch - processPackages [fgo-api-types]: Remove: archive file [/home/abi/fetcher/tmp/fgo_api_types-2024.4.6.2.22.3.tar.gz]
+[2024-05-01 04:01:27] INFO root fetch - processPackages [fgo-api-types]: Remove: archive file [/home/abi/fetcher/tmp/fgo_api_types-2024.5.1.1.59.10.tar.gz]
+[2024-05-01 04:01:27] INFO root fetch - main [MainThread]: End processing [fgo-api-types]: success
+[2024-05-01 04:01:27] INFO root fetch - main [MainThread]: Store serial: [23011398]
