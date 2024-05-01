@@ -1804,3 +1804,36 @@
 [2024-05-01 02:06:54] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-2.0.0.20240430.357.tar.gz]
 [2024-05-01 02:06:54] INFO root fetch - main [MainThread]: End processing [mct-nightly]: success
 [2024-05-01 02:06:54] INFO root fetch - main [MainThread]: Store serial: [23009493]
+[2024-05-01 02:08:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23009493]
+[2024-05-01 02:09:03] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-01 02:09:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: chalkpy
+[2024-05-01 02:09:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aocstat
+[2024-05-01 02:09:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kframe
+[2024-05-01 02:09:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ansi-string
+[2024-05-01 02:09:03] WARNING root fetch - processPackages [aocstat]: Skipping, unable to determine old version
+[2024-05-01 02:09:03] INFO root fetch - main [MainThread]: End processing [aocstat] error
+[2024-05-01 02:09:03] INFO root fetch - processPackages [kframe]: New version: [0.2.3rc1] Old Version: [0.2.3.dev8901407152]
+[2024-05-01 02:09:03] INFO root fetch - processPackages [kframe]: Downloading https://files.pythonhosted.org/packages/9d/3b/945f4ab2d36956f5b5b6185b7a6adc9eadd178aa44b8b0e4f812bf546c56/kframe-0.2.3.dev8901407152.tar.gz
+[2024-05-01 02:09:03] INFO root fetch - processPackages [ansi-string]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-05-01 02:09:03] INFO root fetch - processPackages [chalkpy]: New version: [2.9.9] Old Version: [2.9.8]
+[2024-05-01 02:09:03] INFO root fetch - processPackages [ansi-string]: Downloading https://files.pythonhosted.org/packages/4a/02/46f65c9be2ec2fa1fd996a9c54a40d43b2bc30d2d2d1f10496d7b2960968/ansi-string-1.0.4.tar.gz
+[2024-05-01 02:09:03] INFO root fetch - processPackages [chalkpy]: Downloading https://files.pythonhosted.org/packages/37/52/5c69a74a70d94d61d88e81cf17862496f7cd9ebd0725d75f357f252f3052/chalkpy-2.9.8.tar.gz
+[2024-05-01 02:09:03] INFO root fetch - processPackages [kframe]: Downloading https://files.pythonhosted.org/packages/55/ba/19cc94ed4c2f303d8c84e1ebb6a57c13022ebceea02c0fce5376ec9833aa/kframe-0.2.3rc1.tar.gz
+[2024-05-01 02:09:03] INFO root fetch - processPackages [kframe]: executing diffoscope
+[2024-05-01 02:09:03] INFO root fetch - processPackages [kframe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kframe-0.2.3.dev8901407152.tar.gz tmp/kframe-0.2.3rc1.tar.gz --markdown 20240501/k/kframe/0.2.3.dev8901407152-0.2.3rc1/README.md --exclude *.pyd
+[2024-05-01 02:09:03] INFO root fetch - processPackages [ansi-string]: Downloading https://files.pythonhosted.org/packages/1e/e6/5d6800d4148b447b49b29b2ddb14221a5f4a352db0f2b47158f6af593d93/ansi-string-1.0.5.tar.gz
+[2024-05-01 02:09:04] INFO root fetch - processPackages [chalkpy]: Downloading https://files.pythonhosted.org/packages/f1/ff/9cdb492bac7076766dffbc16bbff1773bfc5635cfb81b130f720883912c7/chalkpy-2.9.9.tar.gz
+[2024-05-01 02:09:04] INFO root fetch - processPackages [ansi-string]: executing diffoscope
+[2024-05-01 02:09:04] INFO root fetch - processPackages [ansi-string]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansi-string-1.0.4.tar.gz tmp/ansi-string-1.0.5.tar.gz --markdown 20240501/a/ansi-string/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-05-01 02:09:04] INFO root fetch - processPackages [chalkpy]: executing diffoscope
+[2024-05-01 02:09:04] INFO root fetch - processPackages [chalkpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chalkpy-2.9.8.tar.gz tmp/chalkpy-2.9.9.tar.gz --markdown 20240501/c/chalkpy/2.9.8-2.9.9/README.md --exclude *.pyd
+[2024-05-01 02:09:04] INFO root fetch - processPackages [kframe]: Remove: archive file [/home/abi/fetcher/tmp/kframe-0.2.3.dev8901407152.tar.gz]
+[2024-05-01 02:09:04] INFO root fetch - processPackages [kframe]: Remove: archive file [/home/abi/fetcher/tmp/kframe-0.2.3rc1.tar.gz]
+[2024-05-01 02:09:04] INFO root fetch - main [MainThread]: End processing [kframe]: success
+[2024-05-01 02:09:04] INFO root fetch - processPackages [ansi-string]: Remove: archive file [/home/abi/fetcher/tmp/ansi-string-1.0.4.tar.gz]
+[2024-05-01 02:09:04] INFO root fetch - processPackages [ansi-string]: Remove: archive file [/home/abi/fetcher/tmp/ansi-string-1.0.5.tar.gz]
+[2024-05-01 02:09:04] INFO root fetch - main [MainThread]: End processing [ansi-string]: success
+[2024-05-01 02:09:05] INFO root fetch - processPackages [chalkpy]: Remove: archive file [/home/abi/fetcher/tmp/chalkpy-2.9.8.tar.gz]
+[2024-05-01 02:09:05] INFO root fetch - processPackages [chalkpy]: Remove: archive file [/home/abi/fetcher/tmp/chalkpy-2.9.9.tar.gz]
+[2024-05-01 02:09:05] INFO root fetch - main [MainThread]: End processing [chalkpy]: success
+[2024-05-01 02:09:05] INFO root fetch - main [MainThread]: Store serial: [23009505]
