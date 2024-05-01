@@ -15631,3 +15631,24 @@
 [2024-05-01 12:35:25] WARNING root fetch - processPackages [morningstar-fund-scraper]: Skipping, unable to determine old version
 [2024-05-01 12:35:25] INFO root fetch - main [MainThread]: End processing [morningstar-fund-scraper] error
 [2024-05-01 12:35:25] INFO root fetch - main [MainThread]: Store serial: [23015267]
+[2024-05-01 12:37:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23015267]
+[2024-05-01 12:37:33] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-01 12:37:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: selfclean
+[2024-05-01 12:37:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyrle
+[2024-05-01 12:37:34] INFO root fetch - processPackages [selfclean]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-01 12:37:34] INFO root fetch - processPackages [selfclean]: Downloading https://files.pythonhosted.org/packages/20/76/7a2986cad202384e6f5d86c9c91b6f12d0a729f7108a6fbaeaac86b28339/selfclean-0.0.8.tar.gz
+[2024-05-01 12:37:34] INFO root fetch - processPackages [pyrle]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-01 12:37:34] INFO root fetch - processPackages [pyrle]: Downloading https://files.pythonhosted.org/packages/74/0e/b38bf14f67f954e15c4534ff8f9ea52d07b7fc4f8bcda330f5b98bd23c9d/pyrle-0.0.8.tar.gz
+[2024-05-01 12:37:34] INFO root fetch - processPackages [selfclean]: Downloading https://files.pythonhosted.org/packages/8b/6a/9e37be9ae2abd5141320c45e70feebf1f14002f5da5ecc7ac1478c0e5803/selfclean-0.0.9.tar.gz
+[2024-05-01 12:37:34] INFO root fetch - processPackages [selfclean]: executing diffoscope
+[2024-05-01 12:37:34] INFO root fetch - processPackages [selfclean]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/selfclean-0.0.8.tar.gz tmp/selfclean-0.0.9.tar.gz --markdown 20240501/s/selfclean/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-01 12:37:34] INFO root fetch - processPackages [pyrle]: Downloading https://files.pythonhosted.org/packages/18/42/b4fe2ccf9c909bf690e74695ea49a524909e4d918cdad15079e9dd268e7f/pyrle-0.0.9.tar.gz
+[2024-05-01 12:37:35] INFO root fetch - processPackages [pyrle]: executing diffoscope
+[2024-05-01 12:37:35] INFO root fetch - processPackages [pyrle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrle-0.0.8.tar.gz tmp/pyrle-0.0.9.tar.gz --markdown 20240501/p/pyrle/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-01 12:37:35] INFO root fetch - processPackages [selfclean]: Remove: archive file [/home/abi/fetcher/tmp/selfclean-0.0.8.tar.gz]
+[2024-05-01 12:37:35] INFO root fetch - processPackages [selfclean]: Remove: archive file [/home/abi/fetcher/tmp/selfclean-0.0.9.tar.gz]
+[2024-05-01 12:37:35] INFO root fetch - main [MainThread]: End processing [selfclean]: success
+[2024-05-01 12:37:35] INFO root fetch - processPackages [pyrle]: Remove: archive file [/home/abi/fetcher/tmp/pyrle-0.0.8.tar.gz]
+[2024-05-01 12:37:35] INFO root fetch - processPackages [pyrle]: Remove: archive file [/home/abi/fetcher/tmp/pyrle-0.0.9.tar.gz]
+[2024-05-01 12:37:35] INFO root fetch - main [MainThread]: End processing [pyrle]: success
+[2024-05-01 12:37:35] INFO root fetch - main [MainThread]: Store serial: [23015272]
