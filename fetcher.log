@@ -9384,3 +9384,15 @@
 [2024-05-01 07:02:05] INFO root fetch - processPackages [CyRK]: Remove: archive file [/home/abi/fetcher/tmp/CyRK-0.8.8-cp311-cp311-musllinux_1_1_x86_64.whl.zip]
 [2024-05-01 07:02:05] INFO root fetch - main [MainThread]: End processing [CyRK]: success
 [2024-05-01 07:02:05] INFO root fetch - main [MainThread]: Store serial: [23012450]
+[2024-05-01 07:04:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23012450]
+[2024-05-01 07:04:14] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-01 07:04:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jcvi
+[2024-05-01 07:04:14] INFO root fetch - processPackages [jcvi]: New version: [1.4.7] Old Version: [1.4.6]
+[2024-05-01 07:04:14] INFO root fetch - processPackages [jcvi]: Downloading https://files.pythonhosted.org/packages/81/04/68a236566397d00837955821accdf60957c5392275ca1c771be612f75233/jcvi-1.4.6.tar.gz
+[2024-05-01 07:04:14] INFO root fetch - processPackages [jcvi]: Downloading https://files.pythonhosted.org/packages/41/a1/b896c756bc2dcc234491c42efe482f21f87adbd48a37e92574274c2c9d30/jcvi-1.4.7.tar.gz
+[2024-05-01 07:04:14] INFO root fetch - processPackages [jcvi]: executing diffoscope
+[2024-05-01 07:04:14] INFO root fetch - processPackages [jcvi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jcvi-1.4.6.tar.gz tmp/jcvi-1.4.7.tar.gz --markdown 20240501/j/jcvi/1.4.6-1.4.7/README.md --exclude *.pyd
+[2024-05-01 07:04:17] INFO root fetch - processPackages [jcvi]: Remove: archive file [/home/abi/fetcher/tmp/jcvi-1.4.6.tar.gz]
+[2024-05-01 07:04:17] INFO root fetch - processPackages [jcvi]: Remove: archive file [/home/abi/fetcher/tmp/jcvi-1.4.7.tar.gz]
+[2024-05-01 07:04:17] INFO root fetch - main [MainThread]: End processing [jcvi]: success
+[2024-05-01 07:04:17] INFO root fetch - main [MainThread]: Store serial: [23012480]
