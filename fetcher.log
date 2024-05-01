@@ -12306,3 +12306,45 @@
 [2024-05-01 09:54:37] INFO root fetch - processPackages [fiddler-client]: Remove: archive file [/home/abi/fetcher/tmp/fiddler-client-3.1.0.dev3.tar.gz]
 [2024-05-01 09:54:37] INFO root fetch - main [MainThread]: End processing [fiddler-client]: success
 [2024-05-01 09:54:37] INFO root fetch - main [MainThread]: Store serial: [23013772]
+[2024-05-01 09:56:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23013772]
+[2024-05-01 09:56:46] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-01 09:56:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fiddler-client
+[2024-05-01 09:56:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: duckcuts
+[2024-05-01 09:56:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django_forms_plus
+[2024-05-01 09:56:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mypy-dev
+[2024-05-01 09:56:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: testfixtures
+[2024-05-01 09:56:46] INFO root fetch - processPackages [fiddler-client]: New version: [3.1.0.dev3] Old Version: [3.1.0.dev2]
+[2024-05-01 09:56:46] INFO root fetch - processPackages [fiddler-client]: Downloading https://files.pythonhosted.org/packages/6b/e1/fe45637429f8e65ff11237bc987705ca8295c863471ec6144d9ecb525221/fiddler-client-3.1.0.dev2.tar.gz
+[2024-05-01 09:56:46] ERROR root fetch - processPackages [duckcuts]: Unable to get metadata: No such project 'duckcuts'
+[2024-05-01 09:56:46] INFO root fetch - main [MainThread]: End processing [duckcuts] error
+[2024-05-01 09:56:46] INFO root fetch - processPackages [django_forms_plus]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-01 09:56:46] INFO root fetch - processPackages [mypy-dev]: New version: [1.9.0b1] Old Version: [1.11.0a1]
+[2024-05-01 09:56:46] INFO root fetch - processPackages [testfixtures]: New version: [8.2.0] Old Version: [8.1.0]
+[2024-05-01 09:56:47] INFO root fetch - processPackages [django_forms_plus]: Downloading https://files.pythonhosted.org/packages/17/0e/f79e56cbbdc79f927f3c0a84be419ffe6da4dae45bde17f62e4a9620af0f/django_forms_plus-0.8.0.tar.gz
+[2024-05-01 09:56:47] INFO root fetch - processPackages [testfixtures]: Downloading https://files.pythonhosted.org/packages/7f/9f/0b077b02d8a2f6a1499519666991c092c2a740cc4c5c986ffc35159266c8/testfixtures-8.1.0.tar.gz
+[2024-05-01 09:56:47] INFO root fetch - processPackages [mypy-dev]: Downloading https://files.pythonhosted.org/packages/d0/c4/83cbd708a3ccc5414ba0e2d96ad51f2c26e5081cc98663f240a6a5c28bea/mypy_dev-1.11.0a1.tar.gz
+[2024-05-01 09:56:47] INFO root fetch - processPackages [fiddler-client]: Downloading https://files.pythonhosted.org/packages/43/fb/2a39b11c92c91266d6c6c5107acb317438cb839d0795d222d916476c4ce8/fiddler-client-3.1.0.dev3.tar.gz
+[2024-05-01 09:56:47] INFO root fetch - processPackages [fiddler-client]: executing diffoscope
+[2024-05-01 09:56:47] INFO root fetch - processPackages [fiddler-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fiddler-client-3.1.0.dev2.tar.gz tmp/fiddler-client-3.1.0.dev3.tar.gz --markdown 20240501/f/fiddler-client/3.1.0.dev2-3.1.0.dev3/README.md --exclude *.pyd
+[2024-05-01 09:56:47] INFO root fetch - processPackages [testfixtures]: Downloading https://files.pythonhosted.org/packages/f1/5c/33ef24191205ddfa5cffe0c5b03e226e6705b0186dce47e5ad76a0c3459f/testfixtures-8.2.0.tar.gz
+[2024-05-01 09:56:47] INFO root fetch - processPackages [django_forms_plus]: Downloading https://files.pythonhosted.org/packages/54/f3/c85ac8ce94145bb3872c12320f60f50e48053a66266349c0d4cbf452a9dd/django_forms_plus-0.9.0.tar.gz
+[2024-05-01 09:56:47] INFO root fetch - processPackages [testfixtures]: executing diffoscope
+[2024-05-01 09:56:47] INFO root fetch - processPackages [testfixtures]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testfixtures-8.1.0.tar.gz tmp/testfixtures-8.2.0.tar.gz --markdown 20240501/t/testfixtures/8.1.0-8.2.0/README.md --exclude *.pyd
+[2024-05-01 09:56:47] INFO root fetch - processPackages [django_forms_plus]: executing diffoscope
+[2024-05-01 09:56:47] INFO root fetch - processPackages [django_forms_plus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_forms_plus-0.8.0.tar.gz tmp/django_forms_plus-0.9.0.tar.gz --markdown 20240501/d/django_forms_plus/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-01 09:56:48] INFO root fetch - processPackages [fiddler-client]: Remove: archive file [/home/abi/fetcher/tmp/fiddler-client-3.1.0.dev2.tar.gz]
+[2024-05-01 09:56:48] INFO root fetch - processPackages [fiddler-client]: Remove: archive file [/home/abi/fetcher/tmp/fiddler-client-3.1.0.dev3.tar.gz]
+[2024-05-01 09:56:48] INFO root fetch - main [MainThread]: End processing [fiddler-client]: success
+[2024-05-01 09:56:48] INFO root fetch - processPackages [mypy-dev]: Downloading https://files.pythonhosted.org/packages/0a/c9/b1cb7aa83f1f8021ba21b86d30cc467ad15491547ea48cff030d07f4d858/mypy-dev-1.9.0b1.tar.gz
+[2024-05-01 09:56:48] INFO root fetch - processPackages [testfixtures]: Remove: archive file [/home/abi/fetcher/tmp/testfixtures-8.1.0.tar.gz]
+[2024-05-01 09:56:48] INFO root fetch - processPackages [testfixtures]: Remove: archive file [/home/abi/fetcher/tmp/testfixtures-8.2.0.tar.gz]
+[2024-05-01 09:56:48] INFO root fetch - main [MainThread]: End processing [testfixtures]: success
+[2024-05-01 09:56:48] INFO root fetch - processPackages [mypy-dev]: executing diffoscope
+[2024-05-01 09:56:48] INFO root fetch - processPackages [mypy-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypy_dev-1.11.0a1.tar.gz tmp/mypy-dev-1.9.0b1.tar.gz --markdown 20240501/m/mypy-dev/1.11.0a1-1.9.0b1/README.md --exclude *.pyd
+[2024-05-01 09:56:57] INFO root fetch - processPackages [mypy-dev]: Remove: archive file [/home/abi/fetcher/tmp/mypy_dev-1.11.0a1.tar.gz]
+[2024-05-01 09:56:57] INFO root fetch - processPackages [mypy-dev]: Remove: archive file [/home/abi/fetcher/tmp/mypy-dev-1.9.0b1.tar.gz]
+[2024-05-01 09:56:57] INFO root fetch - main [MainThread]: End processing [mypy-dev]: success
+[2024-05-01 09:56:58] INFO root fetch - processPackages [django_forms_plus]: Remove: archive file [/home/abi/fetcher/tmp/django_forms_plus-0.8.0.tar.gz]
+[2024-05-01 09:56:58] INFO root fetch - processPackages [django_forms_plus]: Remove: archive file [/home/abi/fetcher/tmp/django_forms_plus-0.9.0.tar.gz]
+[2024-05-01 09:56:58] INFO root fetch - main [MainThread]: End processing [django_forms_plus]: success
+[2024-05-01 09:56:58] INFO root fetch - main [MainThread]: Store serial: [23013810]
