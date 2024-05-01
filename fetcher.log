@@ -8616,3 +8616,72 @@
 [2024-05-01 06:05:18] INFO root fetch - processPackages [chromedriver-binary]: Remove: archive file [/home/abi/fetcher/tmp/chromedriver-binary-99.0.4844.51.0.tar.gz]
 [2024-05-01 06:05:18] INFO root fetch - main [MainThread]: End processing [chromedriver-binary]: success
 [2024-05-01 06:05:18] INFO root fetch - main [MainThread]: Store serial: [23012132]
+[2024-05-01 06:07:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23012132]
+[2024-05-01 06:07:26] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-01 06:07:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jupyter-server-ydoc
+[2024-05-01 06:07:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jupyter-collaboration-ui
+[2024-05-01 06:07:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: echobox
+[2024-05-01 06:07:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jupyter-docprovider
+[2024-05-01 06:07:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jupyter-collaboration
+[2024-05-01 06:07:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: yaconfiglib
+[2024-05-01 06:07:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lbrlabs-pulumi-eks
+[2024-05-01 06:07:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: easy-llama
+[2024-05-01 06:07:26] INFO root fetch - processPackages [lbrlabs-pulumi-eks]: New version: [0.9.1a1707243566] Old Version: [0.9.0]
+[2024-05-01 06:07:26] INFO root fetch - processPackages [jupyter-docprovider]: New version: [1.0.0a1] Old Version: [1.0.0a0]
+[2024-05-01 06:07:26] INFO root fetch - processPackages [lbrlabs-pulumi-eks]: Downloading https://files.pythonhosted.org/packages/21/d7/aef8d104afe3ce2ea7de7a0d57a6fe58ed7d3eda4674da284fbeaea82f93/lbrlabs_pulumi_eks-0.9.0.tar.gz
+[2024-05-01 06:07:26] WARNING root fetch - processPackages [easy-llama]: Skipping, unable to determine old version
+[2024-05-01 06:07:26] INFO root fetch - main [MainThread]: End processing [easy-llama] error
+[2024-05-01 06:07:26] INFO root fetch - processPackages [jupyter-server-ydoc]: New version: [1.0.0a1] Old Version: [1.0.0a0]
+[2024-05-01 06:07:26] INFO root fetch - processPackages [echobox]: New version: [1.5.41] Old Version: [1.5.40]
+[2024-05-01 06:07:26] INFO root fetch - processPackages [yaconfiglib]: New version: [0.3.5] Old Version: [0.3.2]
+[2024-05-01 06:07:26] INFO root fetch - processPackages [jupyter-collaboration]: New version: [3.0.0a1] Old Version: [2.0.5]
+[2024-05-01 06:07:26] INFO root fetch - processPackages [jupyter-collaboration-ui]: New version: [1.0.0a1] Old Version: [1.0.0a0]
+[2024-05-01 06:07:26] INFO root fetch - processPackages [jupyter-docprovider]: Downloading https://files.pythonhosted.org/packages/fc/b7/4e6a3eb638bdcf5f210b8b2d9cb7272e83fa7add7261dc072bbf7def9b85/jupyter_docprovider-1.0.0a0.tar.gz
+[2024-05-01 06:07:26] INFO root fetch - processPackages [jupyter-server-ydoc]: Downloading https://files.pythonhosted.org/packages/ab/ea/8dbb47f3ef2374e0bc8aeecbf14dcc3b3b43d98c7a40d510e45b96eaac42/jupyter_server_ydoc-1.0.0a0.tar.gz
+[2024-05-01 06:07:26] INFO root fetch - processPackages [echobox]: Downloading https://files.pythonhosted.org/packages/f0/c2/0333531e941382d7ed1824ef6eae1b163e90c0ca3e535d8cac8635e36e47/echobox-1.5.40.tar.gz
+[2024-05-01 06:07:26] INFO root fetch - processPackages [lbrlabs-pulumi-eks]: Downloading https://files.pythonhosted.org/packages/f3/44/61d0eab4adc9a0cce0c9886829dc5f49c1c49864fc2a85eb3d49ce88bb30/lbrlabs_pulumi_eks-0.9.1a1707243566.tar.gz
+[2024-05-01 06:07:26] INFO root fetch - processPackages [jupyter-collaboration-ui]: Downloading https://files.pythonhosted.org/packages/38/92/92ec19e1e25ed677e506bf65cd56902cfc0ec9d188fc9c36b46a833d37f4/jupyter_collaboration_ui-1.0.0a0.tar.gz
+[2024-05-01 06:07:26] INFO root fetch - processPackages [jupyter-collaboration]: Downloading https://files.pythonhosted.org/packages/a9/53/00a2e40b0ebf1cba7525d58a9b0aee1c7a95a4b7dccbb8a5c155280d519b/jupyter_collaboration-2.0.5.tar.gz
+[2024-05-01 06:07:26] INFO root fetch - processPackages [yaconfiglib]: Downloading https://files.pythonhosted.org/packages/b8/3f/c3c142169b9aa2f5db463632227706b33cc8014fc977bfe37c62578b14f7/yaconfiglib-0.3.2.tar.gz
+[2024-05-01 06:07:27] INFO root fetch - processPackages [lbrlabs-pulumi-eks]: executing diffoscope
+[2024-05-01 06:07:27] INFO root fetch - processPackages [lbrlabs-pulumi-eks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbrlabs_pulumi_eks-0.9.0.tar.gz tmp/lbrlabs_pulumi_eks-0.9.1a1707243566.tar.gz --markdown 20240501/l/lbrlabs-pulumi-eks/0.9.0-0.9.1a1707243566/README.md --exclude *.pyd
+[2024-05-01 06:07:27] INFO root fetch - processPackages [jupyter-server-ydoc]: Downloading https://files.pythonhosted.org/packages/54/49/b69d7e3d82749a6640218581d5de182f587840b84c7268b4a370a5cea24f/jupyter_server_ydoc-1.0.0a1.tar.gz
+[2024-05-01 06:07:27] INFO root fetch - processPackages [echobox]: Downloading https://files.pythonhosted.org/packages/29/d0/2368164e88e346058bee90e01a976064bae06d507dfcc025134ea0ff54e6/echobox-1.5.41.tar.gz
+[2024-05-01 06:07:27] INFO root fetch - processPackages [yaconfiglib]: Downloading https://files.pythonhosted.org/packages/cf/d0/5b797658bbdc5a3de56031ebdc784ccdcbfe409aed27ddd93c9e7a331d8f/yaconfiglib-0.3.5.tar.gz
+[2024-05-01 06:07:27] INFO root fetch - processPackages [jupyter-server-ydoc]: executing diffoscope
+[2024-05-01 06:07:27] INFO root fetch - processPackages [jupyter-server-ydoc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyter_server_ydoc-1.0.0a0.tar.gz tmp/jupyter_server_ydoc-1.0.0a1.tar.gz --markdown 20240501/j/jupyter-server-ydoc/1.0.0a0-1.0.0a1/README.md --exclude *.pyd
+[2024-05-01 06:07:27] INFO root fetch - processPackages [echobox]: executing diffoscope
+[2024-05-01 06:07:27] INFO root fetch - processPackages [echobox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/echobox-1.5.40.tar.gz tmp/echobox-1.5.41.tar.gz --markdown 20240501/e/echobox/1.5.40-1.5.41/README.md --exclude *.pyd
+[2024-05-01 06:07:27] INFO root fetch - processPackages [yaconfiglib]: executing diffoscope
+[2024-05-01 06:07:27] INFO root fetch - processPackages [yaconfiglib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yaconfiglib-0.3.2.tar.gz tmp/yaconfiglib-0.3.5.tar.gz --markdown 20240501/y/yaconfiglib/0.3.2-0.3.5/README.md --exclude *.pyd
+[2024-05-01 06:07:27] INFO root fetch - processPackages [jupyter-docprovider]: Downloading https://files.pythonhosted.org/packages/92/a3/6379e927c5b0e12efb8c1d6ebd69fc2996aed12f06d007339804647a39f2/jupyter_docprovider-1.0.0a1.tar.gz
+[2024-05-01 06:07:27] INFO root fetch - processPackages [jupyter-collaboration-ui]: Downloading https://files.pythonhosted.org/packages/e5/60/0b970ba48004c1764d2a000bb2522af2d38de250ad2de0280e1992f64803/jupyter_collaboration_ui-1.0.0a1.tar.gz
+[2024-05-01 06:07:27] INFO root fetch - processPackages [lbrlabs-pulumi-eks]: Remove: archive file [/home/abi/fetcher/tmp/lbrlabs_pulumi_eks-0.9.0.tar.gz]
+[2024-05-01 06:07:27] INFO root fetch - processPackages [lbrlabs-pulumi-eks]: Remove: archive file [/home/abi/fetcher/tmp/lbrlabs_pulumi_eks-0.9.1a1707243566.tar.gz]
+[2024-05-01 06:07:27] INFO root fetch - main [MainThread]: End processing [lbrlabs-pulumi-eks]: success
+[2024-05-01 06:07:27] INFO root fetch - processPackages [jupyter-docprovider]: executing diffoscope
+[2024-05-01 06:07:27] INFO root fetch - processPackages [jupyter-docprovider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyter_docprovider-1.0.0a0.tar.gz tmp/jupyter_docprovider-1.0.0a1.tar.gz --markdown 20240501/j/jupyter-docprovider/1.0.0a0-1.0.0a1/README.md --exclude *.pyd
+[2024-05-01 06:07:27] INFO root fetch - processPackages [jupyter-collaboration-ui]: executing diffoscope
+[2024-05-01 06:07:27] INFO root fetch - processPackages [jupyter-collaboration-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyter_collaboration_ui-1.0.0a0.tar.gz tmp/jupyter_collaboration_ui-1.0.0a1.tar.gz --markdown 20240501/j/jupyter-collaboration-ui/1.0.0a0-1.0.0a1/README.md --exclude *.pyd
+[2024-05-01 06:07:28] INFO root fetch - processPackages [jupyter-server-ydoc]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_server_ydoc-1.0.0a0.tar.gz]
+[2024-05-01 06:07:28] INFO root fetch - processPackages [jupyter-server-ydoc]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_server_ydoc-1.0.0a1.tar.gz]
+[2024-05-01 06:07:28] INFO root fetch - main [MainThread]: End processing [jupyter-server-ydoc]: success
+[2024-05-01 06:07:28] INFO root fetch - processPackages [yaconfiglib]: Remove: archive file [/home/abi/fetcher/tmp/yaconfiglib-0.3.2.tar.gz]
+[2024-05-01 06:07:28] INFO root fetch - processPackages [yaconfiglib]: Remove: archive file [/home/abi/fetcher/tmp/yaconfiglib-0.3.5.tar.gz]
+[2024-05-01 06:07:28] INFO root fetch - main [MainThread]: End processing [yaconfiglib]: success
+[2024-05-01 06:07:28] INFO root fetch - processPackages [jupyter-collaboration]: Downloading https://files.pythonhosted.org/packages/3d/6b/ce5e1e3955dc5e280d60ea7d699390694bd1222124b36c62fce7fbd55370/jupyter_collaboration-3.0.0a1.tar.gz
+[2024-05-01 06:07:28] INFO root fetch - processPackages [echobox]: Remove: archive file [/home/abi/fetcher/tmp/echobox-1.5.40.tar.gz]
+[2024-05-01 06:07:28] INFO root fetch - processPackages [echobox]: Remove: archive file [/home/abi/fetcher/tmp/echobox-1.5.41.tar.gz]
+[2024-05-01 06:07:28] INFO root fetch - main [MainThread]: End processing [echobox]: success
+[2024-05-01 06:07:28] INFO root fetch - processPackages [jupyter-collaboration]: executing diffoscope
+[2024-05-01 06:07:28] INFO root fetch - processPackages [jupyter-collaboration]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyter_collaboration-2.0.5.tar.gz tmp/jupyter_collaboration-3.0.0a1.tar.gz --markdown 20240501/j/jupyter-collaboration/2.0.5-3.0.0a1/README.md --exclude *.pyd
+[2024-05-01 06:07:29] INFO root fetch - processPackages [jupyter-collaboration]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_collaboration-2.0.5.tar.gz]
+[2024-05-01 06:07:29] INFO root fetch - processPackages [jupyter-collaboration]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_collaboration-3.0.0a1.tar.gz]
+[2024-05-01 06:07:29] INFO root fetch - main [MainThread]: End processing [jupyter-collaboration]: success
+[2024-05-01 06:07:30] INFO root fetch - processPackages [jupyter-docprovider]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_docprovider-1.0.0a0.tar.gz]
+[2024-05-01 06:07:30] INFO root fetch - processPackages [jupyter-docprovider]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_docprovider-1.0.0a1.tar.gz]
+[2024-05-01 06:07:30] INFO root fetch - main [MainThread]: End processing [jupyter-docprovider]: success
+[2024-05-01 06:07:30] INFO root fetch - processPackages [jupyter-collaboration-ui]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_collaboration_ui-1.0.0a0.tar.gz]
+[2024-05-01 06:07:30] INFO root fetch - processPackages [jupyter-collaboration-ui]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_collaboration_ui-1.0.0a1.tar.gz]
+[2024-05-01 06:07:30] INFO root fetch - main [MainThread]: End processing [jupyter-collaboration-ui]: success
+[2024-05-01 06:07:30] INFO root fetch - main [MainThread]: Store serial: [23012155]
