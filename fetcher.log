@@ -12209,3 +12209,31 @@
 [2024-05-01 09:50:12] INFO root fetch - processPackages [llm-benchmark]: Remove: archive file [/home/abi/fetcher/tmp/llm_benchmark-0.3.9.tar.gz]
 [2024-05-01 09:50:12] INFO root fetch - main [MainThread]: End processing [llm-benchmark]: success
 [2024-05-01 09:50:12] INFO root fetch - main [MainThread]: Store serial: [23013724]
+[2024-05-01 09:52:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23013724]
+[2024-05-01 09:52:21] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-01 09:52:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: opendp
+[2024-05-01 09:52:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: opendp
+[2024-05-01 09:52:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: walle-ids
+[2024-05-01 09:52:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: plateparser
+[2024-05-01 09:52:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mteb
+[2024-05-01 09:52:21] INFO root fetch - processPackages [mteb]: New version: [1.7.9] Old Version: [1.7.8]
+[2024-05-01 09:52:21] INFO root fetch - processPackages [opendp]: New version: [0.9.2b20240207001] Old Version: [0.9.2a20240416001]
+[2024-05-01 09:52:21] INFO root fetch - processPackages [opendp]: New version: [0.9.2b20240207001] Old Version: [0.9.2a20240416001]
+[2024-05-01 09:52:21] WARNING root fetch - processPackages [walle-ids]: Skipping, unable to determine old version
+[2024-05-01 09:52:21] INFO root fetch - main [MainThread]: End processing [walle-ids] error
+[2024-05-01 09:52:21] WARNING root fetch - processPackages [plateparser]: Skipping, unable to determine old version
+[2024-05-01 09:52:21] INFO root fetch - main [MainThread]: End processing [plateparser] error
+[2024-05-01 09:52:21] INFO root fetch - processPackages [mteb]: Downloading https://files.pythonhosted.org/packages/b5/e7/1ffcd000a118bd6a4b183610de5d0891ab9c767ccabb6c7e3f63ba9edb45/mteb-1.7.8.tar.gz
+[2024-05-01 09:52:21] INFO root fetch - processPackages [opendp]: Downloading https://files.pythonhosted.org/packages/1c/31/4ebee2e092efb0f95ee7fe527220aa20edc7675a16e59057bd779d3633ed/opendp-0.9.2a20240416001-py3-none-any.whl
+[2024-05-01 09:52:21] INFO root fetch - processPackages [opendp]: Downloading https://files.pythonhosted.org/packages/1c/31/4ebee2e092efb0f95ee7fe527220aa20edc7675a16e59057bd779d3633ed/opendp-0.9.2a20240416001-py3-none-any.whl
+[2024-05-01 09:52:21] INFO root fetch - processPackages [mteb]: Downloading https://files.pythonhosted.org/packages/eb/d9/b925270f0a2467b3204b0f467cc702668d24bd9a8e876306ea7e3da17507/mteb-1.7.9.tar.gz
+[2024-05-01 09:52:21] WARNING root fetch - processPackages [opendp]: Skipping package: exceeds size limit 36076642>=10485760
+[2024-05-01 09:52:21] INFO root fetch - main [MainThread]: End processing [opendp] error
+[2024-05-01 09:52:21] WARNING root fetch - processPackages [opendp]: Skipping package: exceeds size limit 36076642>=10485760
+[2024-05-01 09:52:21] INFO root fetch - main [MainThread]: End processing [opendp] error
+[2024-05-01 09:52:21] INFO root fetch - processPackages [mteb]: executing diffoscope
+[2024-05-01 09:52:21] INFO root fetch - processPackages [mteb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mteb-1.7.8.tar.gz tmp/mteb-1.7.9.tar.gz --markdown 20240501/m/mteb/1.7.8-1.7.9/README.md --exclude *.pyd
+[2024-05-01 09:52:23] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.7.8.tar.gz]
+[2024-05-01 09:52:23] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.7.9.tar.gz]
+[2024-05-01 09:52:23] INFO root fetch - main [MainThread]: End processing [mteb]: success
+[2024-05-01 09:52:23] INFO root fetch - main [MainThread]: Store serial: [23013748]
