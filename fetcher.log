@@ -10379,3 +10379,33 @@
 [2024-05-01 08:01:14] INFO root fetch - processPackages [pulumi-hcloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_hcloud-1.9.0a1657117726.tar.gz]
 [2024-05-01 08:01:14] INFO root fetch - main [MainThread]: End processing [pulumi-hcloud]: success
 [2024-05-01 08:01:14] INFO root fetch - main [MainThread]: Store serial: [23012853]
+[2024-05-01 08:03:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23012853]
+[2024-05-01 08:03:23] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-01 08:03:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyxel
+[2024-05-01 08:03:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-keycloak
+[2024-05-01 08:03:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lino
+[2024-05-01 08:03:23] INFO root fetch - processPackages [pulumi-keycloak]: New version: [5.4.0a1714455729] Old Version: [5.4.0a1714364451]
+[2024-05-01 08:03:23] INFO root fetch - processPackages [pulumi-keycloak]: Downloading https://files.pythonhosted.org/packages/15/d9/878bda4402a4a901c12178ef5847ae1730fda6b674235b5c31aa2585c05d/pulumi_keycloak-5.4.0a1714364451.tar.gz
+[2024-05-01 08:03:23] INFO root fetch - processPackages [lino]: New version: [24.5.0] Old Version: [24.4.1]
+[2024-05-01 08:03:23] INFO root fetch - processPackages [pyxel]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-05-01 08:03:23] INFO root fetch - processPackages [pulumi-keycloak]: Downloading https://files.pythonhosted.org/packages/19/91/6274e2d29782183b326ba094ff825efda2bda85561fff35cb09bd94e9b34/pulumi_keycloak-5.4.0a1714455729.tar.gz
+[2024-05-01 08:03:23] INFO root fetch - processPackages [lino]: Downloading https://files.pythonhosted.org/packages/b4/53/a60904ee5260929d314b102932e4ff9b3056ebb924a3fc5e3d911187d268/lino-24.4.1.tar.gz
+[2024-05-01 08:03:23] INFO root fetch - processPackages [pyxel]: Downloading https://files.pythonhosted.org/packages/b7/65/f5508dc7e379c46447acabc03f7e9b1142133dbfc02b335bd9316d65e9c0/pyxel-2.0.8-cp37-abi3-win_amd64.whl
+[2024-05-01 08:03:24] INFO root fetch - processPackages [pulumi-keycloak]: executing diffoscope
+[2024-05-01 08:03:24] INFO root fetch - processPackages [pulumi-keycloak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_keycloak-5.4.0a1714364451.tar.gz tmp/pulumi_keycloak-5.4.0a1714455729.tar.gz --markdown 20240501/p/pulumi-keycloak/5.4.0a1714364451-5.4.0a1714455729/README.md --exclude *.pyd
+[2024-05-01 08:03:24] INFO root fetch - processPackages [pyxel]: Downloading https://files.pythonhosted.org/packages/1a/c3/5faae21b3f85c3252e5682b5fcdf749c839454addec09027c2e15e4f82df/pyxel-2.0.9-cp37-abi3-win_amd64.whl
+[2024-05-01 08:03:24] INFO root fetch - processPackages [lino]: Downloading https://files.pythonhosted.org/packages/08/2b/1126a789755237f915b5f945d836a81cefcaac0dc134b08e36d694eeb71b/lino-24.5.0.tar.gz
+[2024-05-01 08:03:24] INFO root fetch - processPackages [pyxel]: executing diffoscope
+[2024-05-01 08:03:24] INFO root fetch - processPackages [pyxel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyxel-2.0.8-cp37-abi3-win_amd64.whl.zip tmp/pyxel-2.0.9-cp37-abi3-win_amd64.whl.zip --markdown 20240501/p/pyxel/2.0.8-2.0.9/README.md --exclude *.pyd
+[2024-05-01 08:03:25] INFO root fetch - processPackages [pulumi-keycloak]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_keycloak-5.4.0a1714364451.tar.gz]
+[2024-05-01 08:03:25] INFO root fetch - processPackages [pulumi-keycloak]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_keycloak-5.4.0a1714455729.tar.gz]
+[2024-05-01 08:03:25] INFO root fetch - main [MainThread]: End processing [pulumi-keycloak]: success
+[2024-05-01 08:03:25] INFO root fetch - processPackages [pyxel]: Remove: archive file [/home/abi/fetcher/tmp/pyxel-2.0.8-cp37-abi3-win_amd64.whl.zip]
+[2024-05-01 08:03:25] INFO root fetch - processPackages [pyxel]: Remove: archive file [/home/abi/fetcher/tmp/pyxel-2.0.9-cp37-abi3-win_amd64.whl.zip]
+[2024-05-01 08:03:25] INFO root fetch - main [MainThread]: End processing [pyxel]: success
+[2024-05-01 08:03:26] INFO root fetch - processPackages [lino]: executing diffoscope
+[2024-05-01 08:03:26] INFO root fetch - processPackages [lino]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lino-24.4.1.tar.gz tmp/lino-24.5.0.tar.gz --markdown 20240501/l/lino/24.4.1-24.5.0/README.md --exclude *.pyd
+[2024-05-01 08:03:51] INFO root fetch - processPackages [lino]: Remove: archive file [/home/abi/fetcher/tmp/lino-24.4.1.tar.gz]
+[2024-05-01 08:03:51] INFO root fetch - processPackages [lino]: Remove: archive file [/home/abi/fetcher/tmp/lino-24.5.0.tar.gz]
+[2024-05-01 08:03:51] INFO root fetch - main [MainThread]: End processing [lino]: success
+[2024-05-01 08:03:51] INFO root fetch - main [MainThread]: Store serial: [23012905]
