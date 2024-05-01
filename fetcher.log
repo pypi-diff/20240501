@@ -21073,3 +21073,32 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-01 15:17:14] INFO root fetch - processPackages [tflite-micro]: Remove: archive file [/home/abi/fetcher/tmp/tflite_micro-0.dev20240429173907-cp311-cp311-manylinux_2_28_x86_64.whl.zip]
 [2024-05-01 15:17:14] INFO root fetch - main [MainThread]: End processing [tflite-micro]: success
 [2024-05-01 15:17:14] INFO root fetch - main [MainThread]: Store serial: [23017320]
+[2024-05-01 15:19:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23017320]
+[2024-05-01 15:19:27] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-01 15:19:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: integreat-cms
+[2024-05-01 15:19:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: casagui
+[2024-05-01 15:19:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyrt-lib-rasmusklitgaard
+[2024-05-01 15:19:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: texase
+[2024-05-01 15:19:27] INFO root fetch - processPackages [pyrt-lib-rasmusklitgaard]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-01 15:19:27] INFO root fetch - processPackages [casagui]: New version: [0.3.9] Old Version: [0.3.81]
+[2024-05-01 15:19:27] INFO root fetch - processPackages [integreat-cms]: New version: [2024.5.0] Old Version: [2024.3.2]
+[2024-05-01 15:19:27] WARNING root fetch - processPackages [texase]: Skipping, unable to determine old version
+[2024-05-01 15:19:27] INFO root fetch - main [MainThread]: End processing [texase] error
+[2024-05-01 15:19:27] INFO root fetch - processPackages [casagui]: Downloading https://files.pythonhosted.org/packages/44/5f/a4bb2811916c7d519bbd36a9868ad565156e9e2c4629cc7f71d12e227d23/casagui-0.3.81.tar.gz
+[2024-05-01 15:19:28] INFO root fetch - processPackages [pyrt-lib-rasmusklitgaard]: Downloading https://files.pythonhosted.org/packages/d3/47/1e3e6a849a7c173e197244024568171a93fc6b371647f7e2a971271be1cf/pyrt_lib_rasmusklitgaard-0.3.8.tar.gz
+[2024-05-01 15:19:28] INFO root fetch - processPackages [integreat-cms]: Downloading https://files.pythonhosted.org/packages/7b/93/ed3384eccdefae305d0d2471c0a7a6df59c1c9aab5776850e00fae23182b/integreat-cms-2024.3.2.tar.gz
+[2024-05-01 15:19:28] WARNING root fetch - processPackages [integreat-cms]: Skipping package: exceeds size limit 16512817>=10485760
+[2024-05-01 15:19:28] INFO root fetch - main [MainThread]: End processing [integreat-cms] error
+[2024-05-01 15:19:28] INFO root fetch - processPackages [pyrt-lib-rasmusklitgaard]: Downloading https://files.pythonhosted.org/packages/50/52/58a38fb347b178e592723404228ca162219c343692c036deb63552c9ab4b/pyrt_lib_rasmusklitgaard-0.3.9.tar.gz
+[2024-05-01 15:19:28] INFO root fetch - processPackages [pyrt-lib-rasmusklitgaard]: executing diffoscope
+[2024-05-01 15:19:28] INFO root fetch - processPackages [pyrt-lib-rasmusklitgaard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrt_lib_rasmusklitgaard-0.3.8.tar.gz tmp/pyrt_lib_rasmusklitgaard-0.3.9.tar.gz --markdown 20240501/p/pyrt-lib-rasmusklitgaard/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-01 15:19:28] INFO root fetch - processPackages [casagui]: Downloading https://files.pythonhosted.org/packages/70/f1/a7710edfe82e62b142455a80c80cf8c7fb3ddb338ddea498b2b978212506/casagui-0.3.9.tar.gz
+[2024-05-01 15:19:28] INFO root fetch - processPackages [casagui]: executing diffoscope
+[2024-05-01 15:19:28] INFO root fetch - processPackages [casagui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/casagui-0.3.81.tar.gz tmp/casagui-0.3.9.tar.gz --markdown 20240501/c/casagui/0.3.81-0.3.9/README.md --exclude *.pyd
+[2024-05-01 15:19:29] INFO root fetch - processPackages [pyrt-lib-rasmusklitgaard]: Remove: archive file [/home/abi/fetcher/tmp/pyrt_lib_rasmusklitgaard-0.3.8.tar.gz]
+[2024-05-01 15:19:29] INFO root fetch - processPackages [pyrt-lib-rasmusklitgaard]: Remove: archive file [/home/abi/fetcher/tmp/pyrt_lib_rasmusklitgaard-0.3.9.tar.gz]
+[2024-05-01 15:19:29] INFO root fetch - main [MainThread]: End processing [pyrt-lib-rasmusklitgaard]: success
+[2024-05-01 15:19:30] INFO root fetch - processPackages [casagui]: Remove: archive file [/home/abi/fetcher/tmp/casagui-0.3.81.tar.gz]
+[2024-05-01 15:19:30] INFO root fetch - processPackages [casagui]: Remove: archive file [/home/abi/fetcher/tmp/casagui-0.3.9.tar.gz]
+[2024-05-01 15:19:30] INFO root fetch - main [MainThread]: End processing [casagui]: success
+[2024-05-01 15:19:30] INFO root fetch - main [MainThread]: Store serial: [23017344]
