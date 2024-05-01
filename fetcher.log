@@ -13575,3 +13575,33 @@
 [2024-05-01 11:00:37] INFO root fetch - processPackages [pineboo]: Remove: archive file [/home/abi/fetcher/tmp/pineboo-0.99.83.1.tar.gz]
 [2024-05-01 11:00:37] INFO root fetch - main [MainThread]: End processing [pineboo]: success
 [2024-05-01 11:00:37] INFO root fetch - main [MainThread]: Store serial: [23014383]
+[2024-05-01 11:02:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23014383]
+[2024-05-01 11:02:46] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-01 11:02:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cloudpy-org
+[2024-05-01 11:02:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mongo-Vconnect
+[2024-05-01 11:02:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sc_guard_post
+[2024-05-01 11:02:46] INFO root fetch - processPackages [sc_guard_post]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-05-01 11:02:46] INFO root fetch - processPackages [mongo-Vconnect]: New version: [0.0.61] Old Version: [0.0.6]
+[2024-05-01 11:02:46] INFO root fetch - processPackages [cloudpy-org]: New version: [1.5.1] Old Version: [1.5.0]
+[2024-05-01 11:02:46] INFO root fetch - processPackages [sc_guard_post]: Downloading https://files.pythonhosted.org/packages/fb/6a/9ded4ad54215ecf55e614971e49d42b2bb058c27bf2ea9d65ba148df6584/sc_guard_post-0.3.1.tar.gz
+[2024-05-01 11:02:46] INFO root fetch - processPackages [mongo-Vconnect]: Downloading https://files.pythonhosted.org/packages/16/2e/e0270a0a1f4c6087f673af17fedbc0a3f90b401b1bb31b7e92a227edc385/mongo_vconnect-0.0.6.tar.gz
+[2024-05-01 11:02:46] INFO root fetch - processPackages [cloudpy-org]: Downloading https://files.pythonhosted.org/packages/24/a8/96b15f3789f435bc6cc1ff7f3783e69b38e78ccfbb9d3fc959e2f0f49b71/cloudpy_org-1.5.0.tar.gz
+[2024-05-01 11:02:46] INFO root fetch - processPackages [sc_guard_post]: Downloading https://files.pythonhosted.org/packages/71/44/e98c089289653fd4f883aa0bdfce774bc2c81078da17d3ab5f5693c56ac6/sc_guard_post-0.3.2.tar.gz
+[2024-05-01 11:02:47] INFO root fetch - processPackages [mongo-Vconnect]: Downloading https://files.pythonhosted.org/packages/5c/c0/8ae6ccbce319f8ecda36438f3f7923ed67874f8a64cba109d4f57bef7f5a/mongo_vconnect-0.0.61.tar.gz
+[2024-05-01 11:02:47] INFO root fetch - processPackages [cloudpy-org]: Downloading https://files.pythonhosted.org/packages/e6/04/adf25a3c278fad3e755ee7ec0929acd7c4799a65fe8431636a9e2afd8eef/cloudpy_org-1.5.1.tar.gz
+[2024-05-01 11:02:47] INFO root fetch - processPackages [sc_guard_post]: executing diffoscope
+[2024-05-01 11:02:47] INFO root fetch - processPackages [sc_guard_post]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sc_guard_post-0.3.1.tar.gz tmp/sc_guard_post-0.3.2.tar.gz --markdown 20240501/s/sc_guard_post/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-05-01 11:02:47] INFO root fetch - processPackages [mongo-Vconnect]: executing diffoscope
+[2024-05-01 11:02:47] INFO root fetch - processPackages [mongo-Vconnect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mongo_vconnect-0.0.6.tar.gz tmp/mongo_vconnect-0.0.61.tar.gz --markdown 20240501/m/mongo-Vconnect/0.0.6-0.0.61/README.md --exclude *.pyd
+[2024-05-01 11:02:47] INFO root fetch - processPackages [cloudpy-org]: executing diffoscope
+[2024-05-01 11:02:47] INFO root fetch - processPackages [cloudpy-org]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudpy_org-1.5.0.tar.gz tmp/cloudpy_org-1.5.1.tar.gz --markdown 20240501/c/cloudpy-org/1.5.0-1.5.1/README.md --exclude *.pyd
+[2024-05-01 11:02:47] INFO root fetch - processPackages [mongo-Vconnect]: Remove: archive file [/home/abi/fetcher/tmp/mongo_vconnect-0.0.6.tar.gz]
+[2024-05-01 11:02:47] INFO root fetch - processPackages [mongo-Vconnect]: Remove: archive file [/home/abi/fetcher/tmp/mongo_vconnect-0.0.61.tar.gz]
+[2024-05-01 11:02:47] INFO root fetch - main [MainThread]: End processing [mongo-Vconnect]: success
+[2024-05-01 11:02:47] INFO root fetch - processPackages [cloudpy-org]: Remove: archive file [/home/abi/fetcher/tmp/cloudpy_org-1.5.0.tar.gz]
+[2024-05-01 11:02:47] INFO root fetch - processPackages [cloudpy-org]: Remove: archive file [/home/abi/fetcher/tmp/cloudpy_org-1.5.1.tar.gz]
+[2024-05-01 11:02:47] INFO root fetch - main [MainThread]: End processing [cloudpy-org]: success
+[2024-05-01 11:02:47] INFO root fetch - processPackages [sc_guard_post]: Remove: archive file [/home/abi/fetcher/tmp/sc_guard_post-0.3.1.tar.gz]
+[2024-05-01 11:02:47] INFO root fetch - processPackages [sc_guard_post]: Remove: archive file [/home/abi/fetcher/tmp/sc_guard_post-0.3.2.tar.gz]
+[2024-05-01 11:02:47] INFO root fetch - main [MainThread]: End processing [sc_guard_post]: success
+[2024-05-01 11:02:47] INFO root fetch - main [MainThread]: Store serial: [23014392]
