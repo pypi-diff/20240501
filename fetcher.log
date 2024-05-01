@@ -22532,3 +22532,27 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-01 16:29:24] INFO root fetch - processPackages [postnl-ecommerce-sdk]: Remove: archive file [/home/abi/fetcher/tmp/postnl_ecommerce_sdk-1.0.2.tar.gz]
 [2024-05-01 16:29:24] INFO root fetch - main [MainThread]: End processing [postnl-ecommerce-sdk]: success
 [2024-05-01 16:29:24] INFO root fetch - main [MainThread]: Store serial: [23018016]
+[2024-05-01 16:31:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23018016]
+[2024-05-01 16:31:33] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-01 16:31:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pysma-plus
+[2024-05-01 16:31:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tarpies
+[2024-05-01 16:31:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-oscar-bluelight
+[2024-05-01 16:31:33] INFO root fetch - processPackages [pysma-plus]: New version: [0.2.2] Old Version: [0.2.1.1]
+[2024-05-01 16:31:33] INFO root fetch - processPackages [pysma-plus]: Downloading https://files.pythonhosted.org/packages/4d/96/6dd5806e56c3971525bfc3108b9640956d190034a2f2cb3534ba384453db/pysma_plus-0.2.1.1.tar.gz
+[2024-05-01 16:31:33] WARNING root fetch - processPackages [tarpies]: Skipping, unable to determine old version
+[2024-05-01 16:31:33] INFO root fetch - main [MainThread]: End processing [tarpies] error
+[2024-05-01 16:31:33] INFO root fetch - processPackages [django-oscar-bluelight]: New version: [5.5.9] Old Version: [5.5.8]
+[2024-05-01 16:31:34] INFO root fetch - processPackages [django-oscar-bluelight]: Downloading https://files.pythonhosted.org/packages/0a/4f/f6bee9c35fcd32dd5477961a2bd2be3ac874516a395f16b81a8e1cfd7670/django_oscar_bluelight-5.5.8.tar.gz
+[2024-05-01 16:31:34] INFO root fetch - processPackages [pysma-plus]: Downloading https://files.pythonhosted.org/packages/03/97/1138aaa2c39120e3af86678660fa4c94e3f307861df17c2c5deaaeb03ef1/pysma_plus-0.2.2.tar.gz
+[2024-05-01 16:31:34] INFO root fetch - processPackages [pysma-plus]: executing diffoscope
+[2024-05-01 16:31:34] INFO root fetch - processPackages [pysma-plus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysma_plus-0.2.1.1.tar.gz tmp/pysma_plus-0.2.2.tar.gz --markdown 20240501/p/pysma-plus/0.2.1.1-0.2.2/README.md --exclude *.pyd
+[2024-05-01 16:31:34] INFO root fetch - processPackages [django-oscar-bluelight]: Downloading https://files.pythonhosted.org/packages/42/6b/e3988845cf826cff81b898cc167197004a1f7ce931571874e636d1373657/django_oscar_bluelight-5.5.9.tar.gz
+[2024-05-01 16:31:34] INFO root fetch - processPackages [django-oscar-bluelight]: executing diffoscope
+[2024-05-01 16:31:34] INFO root fetch - processPackages [django-oscar-bluelight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_oscar_bluelight-5.5.8.tar.gz tmp/django_oscar_bluelight-5.5.9.tar.gz --markdown 20240501/d/django-oscar-bluelight/5.5.8-5.5.9/README.md --exclude *.pyd
+[2024-05-01 16:31:34] INFO root fetch - processPackages [pysma-plus]: Remove: archive file [/home/abi/fetcher/tmp/pysma_plus-0.2.1.1.tar.gz]
+[2024-05-01 16:31:34] INFO root fetch - processPackages [pysma-plus]: Remove: archive file [/home/abi/fetcher/tmp/pysma_plus-0.2.2.tar.gz]
+[2024-05-01 16:31:34] INFO root fetch - main [MainThread]: End processing [pysma-plus]: success
+[2024-05-01 16:31:35] INFO root fetch - processPackages [django-oscar-bluelight]: Remove: archive file [/home/abi/fetcher/tmp/django_oscar_bluelight-5.5.8.tar.gz]
+[2024-05-01 16:31:35] INFO root fetch - processPackages [django-oscar-bluelight]: Remove: archive file [/home/abi/fetcher/tmp/django_oscar_bluelight-5.5.9.tar.gz]
+[2024-05-01 16:31:35] INFO root fetch - main [MainThread]: End processing [django-oscar-bluelight]: success
+[2024-05-01 16:31:35] INFO root fetch - main [MainThread]: Store serial: [23018028]
