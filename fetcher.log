@@ -9336,3 +9336,51 @@
 [2024-05-01 06:59:50] WARNING root fetch - processPackages [wellwiz]: Skipping, unable to determine old version
 [2024-05-01 06:59:50] INFO root fetch - main [MainThread]: End processing [wellwiz] error
 [2024-05-01 06:59:50] INFO root fetch - main [MainThread]: Store serial: [23012428]
+[2024-05-01 07:01:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23012428]
+[2024-05-01 07:01:59] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-01 07:01:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: malet
+[2024-05-01 07:01:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: SWELib
+[2024-05-01 07:01:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: metasequoia-sql
+[2024-05-01 07:01:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: limelightlib-python
+[2024-05-01 07:01:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: CyRK
+[2024-05-01 07:01:59] INFO root fetch - processPackages [SWELib]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-05-01 07:01:59] INFO root fetch - processPackages [limelightlib-python]: New version: [0.9.5] Old Version: [0.9.4]
+[2024-05-01 07:01:59] INFO root fetch - processPackages [limelightlib-python]: Downloading https://files.pythonhosted.org/packages/02/99/6cb08279786b4ba6d00e9c6648bbd3d82f762c2ee9f5c29a9858e27f6beb/limelightlib_python-0.9.4.tar.gz
+[2024-05-01 07:01:59] INFO root fetch - processPackages [SWELib]: Downloading https://files.pythonhosted.org/packages/5a/42/458c6a2f7b5c59a6a050451d9a3ab8535cfb17e0e8f6a493f5c9f0f38aeb/SWELib-1.0.2.tar.gz
+[2024-05-01 07:01:59] INFO root fetch - processPackages [metasequoia-sql]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-05-01 07:01:59] INFO root fetch - processPackages [malet]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-01 07:01:59] INFO root fetch - processPackages [CyRK]: New version: [0.8.8] Old Version: [0.8.7]
+[2024-05-01 07:01:59] INFO root fetch - processPackages [metasequoia-sql]: Downloading https://files.pythonhosted.org/packages/d4/86/c0d669ac9283e56b1850a47bb254211738a9607f198215097112c99bfe44/metasequoia-sql-0.3.0.tar.gz
+[2024-05-01 07:01:59] INFO root fetch - processPackages [malet]: Downloading https://files.pythonhosted.org/packages/37/d3/a5d7477a20c6fd6f8f1c1417ef57e3ab5c60831aac980952a01cb2329cd5/malet-0.1.8.tar.gz
+[2024-05-01 07:01:59] INFO root fetch - processPackages [limelightlib-python]: Downloading https://files.pythonhosted.org/packages/2c/18/91b78fecd5a649e4c502496a813c9e4ae0e34d898a6227a52fadd63de725/limelightlib_python-0.9.5.tar.gz
+[2024-05-01 07:01:59] INFO root fetch - processPackages [CyRK]: Downloading https://files.pythonhosted.org/packages/1e/40/afa62e647783526c7979a94664a3c3783b7ae932698009fc9444af2621bb/cyrk-0.8.7.tar.gz
+[2024-05-01 07:02:00] INFO root fetch - processPackages [SWELib]: Downloading https://files.pythonhosted.org/packages/09/00/c225de534c2e104deb02d8781618d0e568819a6249ba232be8c6e60e28e7/SWELib-1.0.3.tar.gz
+[2024-05-01 07:02:00] INFO root fetch - processPackages [limelightlib-python]: executing diffoscope
+[2024-05-01 07:02:00] INFO root fetch - processPackages [limelightlib-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/limelightlib_python-0.9.4.tar.gz tmp/limelightlib_python-0.9.5.tar.gz --markdown 20240501/l/limelightlib-python/0.9.4-0.9.5/README.md --exclude *.pyd
+[2024-05-01 07:02:00] INFO root fetch - processPackages [SWELib]: executing diffoscope
+[2024-05-01 07:02:00] INFO root fetch - processPackages [SWELib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SWELib-1.0.2.tar.gz tmp/SWELib-1.0.3.tar.gz --markdown 20240501/S/SWELib/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-05-01 07:02:00] INFO root fetch - processPackages [metasequoia-sql]: Downloading https://files.pythonhosted.org/packages/6e/08/fd7ea4a947d03a0b59de266671b284e007b7cc2ff38f5b9b3ce84860d1e8/metasequoia-sql-0.4.0.tar.gz
+[2024-05-01 07:02:00] INFO root fetch - processPackages [malet]: Downloading https://files.pythonhosted.org/packages/bb/27/d7404ebdb123f6eab488ed06813316bb532043dd267554a30981adbd25b8/malet-0.1.9.tar.gz
+[2024-05-01 07:02:00] INFO root fetch - processPackages [metasequoia-sql]: executing diffoscope
+[2024-05-01 07:02:00] INFO root fetch - processPackages [metasequoia-sql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metasequoia-sql-0.3.0.tar.gz tmp/metasequoia-sql-0.4.0.tar.gz --markdown 20240501/m/metasequoia-sql/0.3.0-0.4.0/README.md --exclude *.pyd
+[2024-05-01 07:02:00] INFO root fetch - processPackages [malet]: executing diffoscope
+[2024-05-01 07:02:00] INFO root fetch - processPackages [malet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/malet-0.1.8.tar.gz tmp/malet-0.1.9.tar.gz --markdown 20240501/m/malet/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-01 07:02:00] INFO root fetch - processPackages [CyRK]: Downloading https://files.pythonhosted.org/packages/53/13/fc2405d2f7567a03b6377e4bb12004613250ef86814b3a3a9fe0e7332327/CyRK-0.8.8-cp311-cp311-musllinux_1_1_x86_64.whl
+[2024-05-01 07:02:00] INFO root fetch - processPackages [limelightlib-python]: Remove: archive file [/home/abi/fetcher/tmp/limelightlib_python-0.9.4.tar.gz]
+[2024-05-01 07:02:00] INFO root fetch - processPackages [limelightlib-python]: Remove: archive file [/home/abi/fetcher/tmp/limelightlib_python-0.9.5.tar.gz]
+[2024-05-01 07:02:00] INFO root fetch - main [MainThread]: End processing [limelightlib-python]: success
+[2024-05-01 07:02:00] INFO root fetch - processPackages [SWELib]: Remove: archive file [/home/abi/fetcher/tmp/SWELib-1.0.2.tar.gz]
+[2024-05-01 07:02:00] INFO root fetch - processPackages [SWELib]: Remove: archive file [/home/abi/fetcher/tmp/SWELib-1.0.3.tar.gz]
+[2024-05-01 07:02:00] INFO root fetch - main [MainThread]: End processing [SWELib]: success
+[2024-05-01 07:02:00] INFO root fetch - processPackages [metasequoia-sql]: Remove: archive file [/home/abi/fetcher/tmp/metasequoia-sql-0.3.0.tar.gz]
+[2024-05-01 07:02:00] INFO root fetch - processPackages [metasequoia-sql]: Remove: archive file [/home/abi/fetcher/tmp/metasequoia-sql-0.4.0.tar.gz]
+[2024-05-01 07:02:00] INFO root fetch - main [MainThread]: End processing [metasequoia-sql]: success
+[2024-05-01 07:02:01] INFO root fetch - processPackages [malet]: Remove: archive file [/home/abi/fetcher/tmp/malet-0.1.8.tar.gz]
+[2024-05-01 07:02:01] INFO root fetch - processPackages [malet]: Remove: archive file [/home/abi/fetcher/tmp/malet-0.1.9.tar.gz]
+[2024-05-01 07:02:01] INFO root fetch - main [MainThread]: End processing [malet]: success
+[2024-05-01 07:02:03] INFO root fetch - processPackages [CyRK]: executing diffoscope
+[2024-05-01 07:02:03] INFO root fetch - processPackages [CyRK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cyrk-0.8.7.tar.gz tmp/CyRK-0.8.8-cp311-cp311-musllinux_1_1_x86_64.whl.zip --markdown 20240501/C/CyRK/0.8.7-0.8.8/README.md --exclude *.pyd
+[2024-05-01 07:02:05] INFO root fetch - processPackages [CyRK]: Remove: archive file [/home/abi/fetcher/tmp/cyrk-0.8.7.tar.gz]
+[2024-05-01 07:02:05] INFO root fetch - processPackages [CyRK]: Remove: archive file [/home/abi/fetcher/tmp/CyRK-0.8.8-cp311-cp311-musllinux_1_1_x86_64.whl.zip]
+[2024-05-01 07:02:05] INFO root fetch - main [MainThread]: End processing [CyRK]: success
+[2024-05-01 07:02:05] INFO root fetch - main [MainThread]: Store serial: [23012450]
