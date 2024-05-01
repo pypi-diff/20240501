@@ -7629,3 +7629,18 @@
 [2024-05-01 04:52:40] INFO root fetch - processPackages [specklia]: Remove: archive file [/home/abi/fetcher/tmp/specklia-1.8.9.tar.gz]
 [2024-05-01 04:52:40] INFO root fetch - main [MainThread]: End processing [specklia]: success
 [2024-05-01 04:52:40] INFO root fetch - main [MainThread]: Store serial: [23011619]
+[2024-05-01 04:54:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23011619]
+[2024-05-01 04:54:49] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-01 04:54:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dependify
+[2024-05-01 04:54:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-purchase-invoicing-no-zero-line
+[2024-05-01 04:54:49] WARNING root fetch - processPackages [dependify]: Skipping, unable to determine old version
+[2024-05-01 04:54:49] INFO root fetch - main [MainThread]: End processing [dependify] error
+[2024-05-01 04:54:49] INFO root fetch - processPackages [odoo-addon-purchase-invoicing-no-zero-line]: New version: [16.0.1.0.0.8] Old Version: [16.0.1.0.0.5]
+[2024-05-01 04:54:49] INFO root fetch - processPackages [odoo-addon-purchase-invoicing-no-zero-line]: Downloading https://files.pythonhosted.org/packages/12/a7/8f17d16cf56a39ea3987388f713416e5629c2122423bb11afaecc767f85f/odoo_addon_purchase_invoicing_no_zero_line-16.0.1.0.0.5-py3-none-any.whl
+[2024-05-01 04:54:49] INFO root fetch - processPackages [odoo-addon-purchase-invoicing-no-zero-line]: Downloading https://files.pythonhosted.org/packages/d5/31/15360f641d1cd1acce8bad597547b2e8dd0497856af6471272b169190f66/odoo_addon_purchase_invoicing_no_zero_line-16.0.1.0.0.8-py3-none-any.whl
+[2024-05-01 04:54:50] INFO root fetch - processPackages [odoo-addon-purchase-invoicing-no-zero-line]: executing diffoscope
+[2024-05-01 04:54:50] INFO root fetch - processPackages [odoo-addon-purchase-invoicing-no-zero-line]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_purchase_invoicing_no_zero_line-16.0.1.0.0.5-py3-none-any.whl.zip tmp/odoo_addon_purchase_invoicing_no_zero_line-16.0.1.0.0.8-py3-none-any.whl.zip --markdown 20240501/o/odoo-addon-purchase-invoicing-no-zero-line/16.0.1.0.0.5-16.0.1.0.0.8/README.md --exclude *.pyd
+[2024-05-01 04:54:50] INFO root fetch - processPackages [odoo-addon-purchase-invoicing-no-zero-line]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_invoicing_no_zero_line-16.0.1.0.0.5-py3-none-any.whl.zip]
+[2024-05-01 04:54:50] INFO root fetch - processPackages [odoo-addon-purchase-invoicing-no-zero-line]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_invoicing_no_zero_line-16.0.1.0.0.8-py3-none-any.whl.zip]
+[2024-05-01 04:54:50] INFO root fetch - main [MainThread]: End processing [odoo-addon-purchase-invoicing-no-zero-line]: success
+[2024-05-01 04:54:50] INFO root fetch - main [MainThread]: Store serial: [23011626]
