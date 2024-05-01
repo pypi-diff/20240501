@@ -12542,3 +12542,32 @@
 [2024-05-01 10:08:03] INFO root fetch - processPackages [pinjected]: Remove: archive file [/home/abi/fetcher/tmp/pinjected-0.2.48.tar.gz]
 [2024-05-01 10:08:03] INFO root fetch - main [MainThread]: End processing [pinjected]: success
 [2024-05-01 10:08:03] INFO root fetch - main [MainThread]: Store serial: [23013900]
+[2024-05-01 10:10:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23013900]
+[2024-05-01 10:10:12] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-01 10:10:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyglove
+[2024-05-01 10:10:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: email-address-local
+[2024-05-01 10:10:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bluecellulab
+[2024-05-01 10:10:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: duckcuts
+[2024-05-01 10:10:12] INFO root fetch - processPackages [bluecellulab]: New version: [2.6.4] Old Version: [2.6.3]
+[2024-05-01 10:10:12] INFO root fetch - processPackages [pyglove]: New version: [0.4.5.dev20240430] Old Version: [0.4.5.dev20240429]
+[2024-05-01 10:10:12] INFO root fetch - processPackages [email-address-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-01 10:10:12] ERROR root fetch - processPackages [duckcuts]: Unable to get metadata: No such project 'duckcuts'
+[2024-05-01 10:10:12] INFO root fetch - main [MainThread]: End processing [duckcuts] error
+[2024-05-01 10:10:12] INFO root fetch - processPackages [bluecellulab]: Downloading https://files.pythonhosted.org/packages/e9/e8/5d4f527e31e998447d554dcbc1b5818cd11fd0395e4f1dbeb89aff77c042/bluecellulab-2.6.3.tar.gz
+[2024-05-01 10:10:12] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/bd/80/ae75d4ba0127f8a1ef1784840fa231a6a3745188ee04581b617b1d697608/pyglove-0.4.5.dev20240429.tar.gz
+[2024-05-01 10:10:12] WARNING root fetch - processPackages [bluecellulab]: Skipping package: exceeds size limit 16112637>=10485760
+[2024-05-01 10:10:12] INFO root fetch - main [MainThread]: End processing [bluecellulab] error
+[2024-05-01 10:10:12] INFO root fetch - processPackages [email-address-local]: Downloading https://files.pythonhosted.org/packages/a8/f2/75317f90ccacb6655c8fefd773dce9c2359b86e434bf4e98c3aa377dd835/email-address-local-0.0.8.tar.gz
+[2024-05-01 10:10:12] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/9a/62/7d0c8ff1e0653f352ed8bf07e9ec4105863ef85bfed94d873433ff4de22a/pyglove-0.4.5.dev20240430.tar.gz
+[2024-05-01 10:10:12] INFO root fetch - processPackages [email-address-local]: Downloading https://files.pythonhosted.org/packages/33/0b/4f49c0e576b54988a9115fa0e8fd17a049b0cfaffdd95e2b721055a03b07/email-address-local-0.0.9.tar.gz
+[2024-05-01 10:10:12] INFO root fetch - processPackages [pyglove]: executing diffoscope
+[2024-05-01 10:10:12] INFO root fetch - processPackages [pyglove]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyglove-0.4.5.dev20240429.tar.gz tmp/pyglove-0.4.5.dev20240430.tar.gz --markdown 20240501/p/pyglove/0.4.5.dev20240429-0.4.5.dev20240430/README.md --exclude *.pyd
+[2024-05-01 10:10:13] INFO root fetch - processPackages [email-address-local]: executing diffoscope
+[2024-05-01 10:10:13] INFO root fetch - processPackages [email-address-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/email-address-local-0.0.8.tar.gz tmp/email-address-local-0.0.9.tar.gz --markdown 20240501/e/email-address-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-01 10:10:13] INFO root fetch - processPackages [email-address-local]: Remove: archive file [/home/abi/fetcher/tmp/email-address-local-0.0.8.tar.gz]
+[2024-05-01 10:10:13] INFO root fetch - processPackages [email-address-local]: Remove: archive file [/home/abi/fetcher/tmp/email-address-local-0.0.9.tar.gz]
+[2024-05-01 10:10:13] INFO root fetch - main [MainThread]: End processing [email-address-local]: success
+[2024-05-01 10:10:14] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.4.5.dev20240429.tar.gz]
+[2024-05-01 10:10:14] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.4.5.dev20240430.tar.gz]
+[2024-05-01 10:10:14] INFO root fetch - main [MainThread]: End processing [pyglove]: success
+[2024-05-01 10:10:14] INFO root fetch - main [MainThread]: Store serial: [23013913]
