@@ -7233,3 +7233,36 @@
 [2024-05-01 04:23:27] INFO root fetch - processPackages [types-jsonschema]: Remove: archive file [/home/abi/fetcher/tmp/types-jsonschema-4.9.0.tar.gz]
 [2024-05-01 04:23:27] INFO root fetch - main [MainThread]: End processing [types-jsonschema]: success
 [2024-05-01 04:23:27] INFO root fetch - main [MainThread]: Store serial: [23011492]
+[2024-05-01 04:25:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23011492]
+[2024-05-01 04:25:35] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-01 04:25:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ex-cd
+[2024-05-01 04:25:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: basic-interpreter
+[2024-05-01 04:25:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mphapi
+[2024-05-01 04:25:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: iam-actions
+[2024-05-01 04:25:35] INFO root fetch - processPackages [iam-actions]: New version: [1.2.20240430] Old Version: [1.2.20240429]
+[2024-05-01 04:25:35] INFO root fetch - processPackages [mphapi]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-05-01 04:25:35] WARNING root fetch - processPackages [basic-interpreter]: Skipping, unable to determine old version
+[2024-05-01 04:25:35] INFO root fetch - main [MainThread]: End processing [basic-interpreter] error
+[2024-05-01 04:25:35] INFO root fetch - processPackages [ex-cd]: New version: [1.9.4] Old Version: [1.9.3]
+[2024-05-01 04:25:35] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/5a/31/0df44425a3a7873854b7c60187430a6012a0615eec69a1725f6dc730e755/iam_actions-1.2.20240429.tar.gz
+[2024-05-01 04:25:35] INFO root fetch - processPackages [mphapi]: Downloading https://files.pythonhosted.org/packages/46/10/6df5dd6a6f1a8ca49f47022641f425560c7dfc4441350f9197a32e81ad30/mphapi-0.3.0.tar.gz
+[2024-05-01 04:25:35] INFO root fetch - processPackages [ex-cd]: Downloading https://files.pythonhosted.org/packages/7a/ae/343cb345397b334a6d65c7ada5e706a763683d89aa5e9f7424bc8e9be9b4/ex_cd-1.9.3.tar.gz
+[2024-05-01 04:25:36] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/16/3f/4a53d7671690b6ac0de6be84daa9689cd9d744365cf22aaf874c27d8bf21/iam_actions-1.2.20240430.tar.gz
+[2024-05-01 04:25:36] INFO root fetch - processPackages [iam-actions]: executing diffoscope
+[2024-05-01 04:25:36] INFO root fetch - processPackages [iam-actions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iam_actions-1.2.20240429.tar.gz tmp/iam_actions-1.2.20240430.tar.gz --markdown 20240501/i/iam-actions/1.2.20240429-1.2.20240430/README.md --exclude *.pyd
+[2024-05-01 04:25:36] INFO root fetch - processPackages [mphapi]: Downloading https://files.pythonhosted.org/packages/19/f4/75cb03d472eef0cfd6c04f68e8cd7a157677304284646ba8d3c27e0c1920/mphapi-0.4.0.tar.gz
+[2024-05-01 04:25:36] INFO root fetch - processPackages [ex-cd]: Downloading https://files.pythonhosted.org/packages/fe/a7/907e1f4930a5e56cb16271b81480a86740c2521ac86bde937b3000441ac1/ex_cd-1.9.4.tar.gz
+[2024-05-01 04:25:36] INFO root fetch - processPackages [mphapi]: executing diffoscope
+[2024-05-01 04:25:36] INFO root fetch - processPackages [mphapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mphapi-0.3.0.tar.gz tmp/mphapi-0.4.0.tar.gz --markdown 20240501/m/mphapi/0.3.0-0.4.0/README.md --exclude *.pyd
+[2024-05-01 04:25:36] INFO root fetch - processPackages [ex-cd]: executing diffoscope
+[2024-05-01 04:25:36] INFO root fetch - processPackages [ex-cd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ex_cd-1.9.3.tar.gz tmp/ex_cd-1.9.4.tar.gz --markdown 20240501/e/ex-cd/1.9.3-1.9.4/README.md --exclude *.pyd
+[2024-05-01 04:25:36] INFO root fetch - processPackages [mphapi]: Remove: archive file [/home/abi/fetcher/tmp/mphapi-0.3.0.tar.gz]
+[2024-05-01 04:25:36] INFO root fetch - processPackages [mphapi]: Remove: archive file [/home/abi/fetcher/tmp/mphapi-0.4.0.tar.gz]
+[2024-05-01 04:25:36] INFO root fetch - main [MainThread]: End processing [mphapi]: success
+[2024-05-01 04:25:37] INFO root fetch - processPackages [ex-cd]: Remove: archive file [/home/abi/fetcher/tmp/ex_cd-1.9.3.tar.gz]
+[2024-05-01 04:25:37] INFO root fetch - processPackages [ex-cd]: Remove: archive file [/home/abi/fetcher/tmp/ex_cd-1.9.4.tar.gz]
+[2024-05-01 04:25:37] INFO root fetch - main [MainThread]: End processing [ex-cd]: success
+[2024-05-01 04:25:41] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20240429.tar.gz]
+[2024-05-01 04:25:41] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20240430.tar.gz]
+[2024-05-01 04:25:41] INFO root fetch - main [MainThread]: End processing [iam-actions]: success
+[2024-05-01 04:25:41] INFO root fetch - main [MainThread]: Store serial: [23011504]
