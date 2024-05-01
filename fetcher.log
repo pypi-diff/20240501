@@ -14306,3 +14306,22 @@
 [2024-05-01 11:37:57] INFO root fetch - processPackages [alga]: Remove: archive file [/home/abi/fetcher/tmp/alga-0.3.0.tar.gz]
 [2024-05-01 11:37:57] INFO root fetch - main [MainThread]: End processing [alga]: success
 [2024-05-01 11:37:57] INFO root fetch - main [MainThread]: Store serial: [23014774]
+[2024-05-01 11:40:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23014774]
+[2024-05-01 11:40:06] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-01 11:40:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: duckcuts
+[2024-05-01 11:40:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: duckcuts
+[2024-05-01 11:40:06] INFO root fetch - processPackages [duckcuts]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-01 11:40:06] INFO root fetch - processPackages [duckcuts]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-01 11:40:06] INFO root fetch - processPackages [duckcuts]: Downloading https://files.pythonhosted.org/packages/c1/44/62bdf0ce7668309b1201c60d1cffb3c48d0cc5da2ef193f60faebf63e475/duckcuts-1.0.1.tar.gz
+[2024-05-01 11:40:06] INFO root fetch - processPackages [duckcuts]: Downloading https://files.pythonhosted.org/packages/c1/44/62bdf0ce7668309b1201c60d1cffb3c48d0cc5da2ef193f60faebf63e475/duckcuts-1.0.1.tar.gz
+[2024-05-01 11:40:06] INFO root fetch - processPackages [duckcuts]: Downloading https://files.pythonhosted.org/packages/3c/0a/555c9419afb87c5b60e3c02bd5ff7ea29fb06e0cd8f60fc95249b54d626b/duckcuts-1.0.2.tar.gz
+[2024-05-01 11:40:06] INFO root fetch - processPackages [duckcuts]: Downloading https://files.pythonhosted.org/packages/3c/0a/555c9419afb87c5b60e3c02bd5ff7ea29fb06e0cd8f60fc95249b54d626b/duckcuts-1.0.2.tar.gz
+[2024-05-01 11:40:06] INFO root fetch - processPackages [duckcuts]: executing diffoscope
+[2024-05-01 11:40:06] INFO root fetch - processPackages [duckcuts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/duckcuts-1.0.1.tar.gz tmp/duckcuts-1.0.2.tar.gz --markdown 20240501/d/duckcuts/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-01 11:40:06] INFO root fetch - processPackages [duckcuts]: executing diffoscope
+[2024-05-01 11:40:06] INFO root fetch - processPackages [duckcuts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/duckcuts-1.0.1.tar.gz tmp/duckcuts-1.0.2.tar.gz --markdown 20240501/d/duckcuts/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-01 11:40:07] INFO root fetch - processPackages [duckcuts]: Remove: archive file [/home/abi/fetcher/tmp/duckcuts-1.0.1.tar.gz]
+[2024-05-01 11:40:07] INFO root fetch - processPackages [duckcuts]: Remove: archive file [/home/abi/fetcher/tmp/duckcuts-1.0.2.tar.gz]
+[2024-05-01 11:40:07] INFO root fetch - main [MainThread]: End processing [duckcuts]: success
+[2024-05-01 11:40:07] INFO root fetch - main [MainThread]: End processing [duckcuts]: success
+[2024-05-01 11:40:07] INFO root fetch - main [MainThread]: Store serial: [23014781]
