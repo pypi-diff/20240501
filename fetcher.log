@@ -8574,3 +8574,24 @@
 [2024-05-01 06:00:56] INFO root fetch - processPackages [glcl]: Remove: archive file [/home/abi/fetcher/tmp/glcl-0.0.7.tar.gz]
 [2024-05-01 06:00:56] INFO root fetch - main [MainThread]: End processing [glcl]: success
 [2024-05-01 06:00:56] INFO root fetch - main [MainThread]: Store serial: [23012123]
+[2024-05-01 06:03:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23012123]
+[2024-05-01 06:03:05] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-01 06:03:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flowmachine
+[2024-05-01 06:03:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flowclient
+[2024-05-01 06:03:05] INFO root fetch - processPackages [flowmachine]: New version: [1.9.4.post0.dev76] Old Version: [1.9.4.post0.dev70]
+[2024-05-01 06:03:05] INFO root fetch - processPackages [flowclient]: New version: [1.9.4.post0.dev76] Old Version: [1.9.4.post0.dev70]
+[2024-05-01 06:03:05] INFO root fetch - processPackages [flowmachine]: Downloading https://files.pythonhosted.org/packages/ff/bf/14ac068a066254bcc3b11ea0939b748a8b86f4e7e01bff260e84c6428c02/flowmachine-1.9.4.post0.dev70-py3-none-any.whl
+[2024-05-01 06:03:05] INFO root fetch - processPackages [flowclient]: Downloading https://files.pythonhosted.org/packages/6e/37/bfddd70659fed8e7ba3a486ccedc2b55d3a84bf6338dbd6fda2fc4b2d415/flowclient-1.9.4.post0.dev70-py3-none-any.whl
+[2024-05-01 06:03:05] INFO root fetch - processPackages [flowclient]: Downloading https://files.pythonhosted.org/packages/3e/ea/cf6edcf54b4b9f2c2c6149b4a6c3d8c57011245b7036b7468a43028bb1db/flowclient-1.9.4.post0.dev76-py3-none-any.whl
+[2024-05-01 06:03:05] INFO root fetch - processPackages [flowmachine]: Downloading https://files.pythonhosted.org/packages/25/d8/7f2f3ed6764c57835d2e49a0547b3be72952a62e845b2f82cfb00d4847df/flowmachine-1.9.4.post0.dev76-py3-none-any.whl
+[2024-05-01 06:03:06] INFO root fetch - processPackages [flowclient]: executing diffoscope
+[2024-05-01 06:03:06] INFO root fetch - processPackages [flowclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowclient-1.9.4.post0.dev70-py3-none-any.whl.zip tmp/flowclient-1.9.4.post0.dev76-py3-none-any.whl.zip --markdown 20240501/f/flowclient/1.9.4.post0.dev70-1.9.4.post0.dev76/README.md --exclude *.pyd
+[2024-05-01 06:03:06] INFO root fetch - processPackages [flowmachine]: executing diffoscope
+[2024-05-01 06:03:06] INFO root fetch - processPackages [flowmachine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowmachine-1.9.4.post0.dev70-py3-none-any.whl.zip tmp/flowmachine-1.9.4.post0.dev76-py3-none-any.whl.zip --markdown 20240501/f/flowmachine/1.9.4.post0.dev70-1.9.4.post0.dev76/README.md --exclude *.pyd
+[2024-05-01 06:03:06] INFO root fetch - processPackages [flowclient]: Remove: archive file [/home/abi/fetcher/tmp/flowclient-1.9.4.post0.dev70-py3-none-any.whl.zip]
+[2024-05-01 06:03:06] INFO root fetch - processPackages [flowclient]: Remove: archive file [/home/abi/fetcher/tmp/flowclient-1.9.4.post0.dev76-py3-none-any.whl.zip]
+[2024-05-01 06:03:06] INFO root fetch - main [MainThread]: End processing [flowclient]: success
+[2024-05-01 06:03:06] INFO root fetch - processPackages [flowmachine]: Remove: archive file [/home/abi/fetcher/tmp/flowmachine-1.9.4.post0.dev70-py3-none-any.whl.zip]
+[2024-05-01 06:03:06] INFO root fetch - processPackages [flowmachine]: Remove: archive file [/home/abi/fetcher/tmp/flowmachine-1.9.4.post0.dev76-py3-none-any.whl.zip]
+[2024-05-01 06:03:06] INFO root fetch - main [MainThread]: End processing [flowmachine]: success
+[2024-05-01 06:03:06] INFO root fetch - main [MainThread]: Store serial: [23012127]
