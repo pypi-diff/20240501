@@ -7281,3 +7281,24 @@
 [2024-05-01 04:27:52] INFO root fetch - processPackages [zyx]: Remove: archive file [/home/abi/fetcher/tmp/zyx-0.0.10.tar.gz]
 [2024-05-01 04:27:52] INFO root fetch - main [MainThread]: End processing [zyx]: success
 [2024-05-01 04:27:52] INFO root fetch - main [MainThread]: Store serial: [23011510]
+[2024-05-01 04:29:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23011510]
+[2024-05-01 04:30:00] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-01 04:30:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: smartlink-remote-restapi
+[2024-05-01 04:30:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: azure-communication-callautomation
+[2024-05-01 04:30:00] INFO root fetch - processPackages [azure-communication-callautomation]: New version: [1.2.0] Old Version: [1.1.0b1]
+[2024-05-01 04:30:00] INFO root fetch - processPackages [smartlink-remote-restapi]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-01 04:30:01] INFO root fetch - processPackages [azure-communication-callautomation]: Downloading https://files.pythonhosted.org/packages/99/30/f4abab7a7b9ab7533c7cd1c618394f70114ea684b72da519df5d59241bdb/azure-communication-callautomation-1.1.0b1.zip
+[2024-05-01 04:30:01] INFO root fetch - processPackages [smartlink-remote-restapi]: Downloading https://files.pythonhosted.org/packages/bf/3f/6b02542ffe0c59447e8357bf2e62fe136682fbf58296882742a346bd12fb/smartlink-remote-restapi-0.0.8.tar.gz
+[2024-05-01 04:30:01] INFO root fetch - processPackages [azure-communication-callautomation]: Downloading https://files.pythonhosted.org/packages/5e/24/8b7a6d00dd256e65bf5b64a2cc58b08956163e7a8dcf718d1624837381e9/azure-communication-callautomation-1.2.0.tar.gz
+[2024-05-01 04:30:01] INFO root fetch - processPackages [smartlink-remote-restapi]: Downloading https://files.pythonhosted.org/packages/9f/15/c1f285f1a5b18e4cd5e9bab2b6e5bfe01e4d4281c9221ac4bba5a69d2097/smartlink-remote-restapi-0.0.9.tar.gz
+[2024-05-01 04:30:01] INFO root fetch - processPackages [azure-communication-callautomation]: executing diffoscope
+[2024-05-01 04:30:01] INFO root fetch - processPackages [azure-communication-callautomation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure-communication-callautomation-1.1.0b1.zip tmp/azure-communication-callautomation-1.2.0.tar.gz --markdown 20240501/a/azure-communication-callautomation/1.1.0b1-1.2.0/README.md --exclude *.pyd
+[2024-05-01 04:30:01] INFO root fetch - processPackages [smartlink-remote-restapi]: executing diffoscope
+[2024-05-01 04:30:01] INFO root fetch - processPackages [smartlink-remote-restapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartlink-remote-restapi-0.0.8.tar.gz tmp/smartlink-remote-restapi-0.0.9.tar.gz --markdown 20240501/s/smartlink-remote-restapi/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-01 04:30:02] INFO root fetch - processPackages [smartlink-remote-restapi]: Remove: archive file [/home/abi/fetcher/tmp/smartlink-remote-restapi-0.0.8.tar.gz]
+[2024-05-01 04:30:02] INFO root fetch - processPackages [smartlink-remote-restapi]: Remove: archive file [/home/abi/fetcher/tmp/smartlink-remote-restapi-0.0.9.tar.gz]
+[2024-05-01 04:30:02] INFO root fetch - main [MainThread]: End processing [smartlink-remote-restapi]: success
+[2024-05-01 04:30:02] INFO root fetch - processPackages [azure-communication-callautomation]: Remove: archive file [/home/abi/fetcher/tmp/azure-communication-callautomation-1.1.0b1.zip]
+[2024-05-01 04:30:02] INFO root fetch - processPackages [azure-communication-callautomation]: Remove: archive file [/home/abi/fetcher/tmp/azure-communication-callautomation-1.2.0.tar.gz]
+[2024-05-01 04:30:02] INFO root fetch - main [MainThread]: End processing [azure-communication-callautomation]: success
+[2024-05-01 04:30:02] INFO root fetch - main [MainThread]: Store serial: [23011516]
