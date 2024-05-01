@@ -11311,3 +11311,51 @@
 [2024-05-01 08:48:02] INFO root fetch - processPackages [pulumi-sumologic]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_sumologic-0.9.1a1663799436.tar.gz]
 [2024-05-01 08:48:02] INFO root fetch - main [MainThread]: End processing [pulumi-sumologic]: success
 [2024-05-01 08:48:02] INFO root fetch - main [MainThread]: Store serial: [23013328]
+[2024-05-01 08:50:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23013328]
+[2024-05-01 08:50:12] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-01 08:50:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ork.build
+[2024-05-01 08:50:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-tls
+[2024-05-01 08:50:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-tailscale
+[2024-05-01 08:50:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-spotinst
+[2024-05-01 08:50:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lytils
+[2024-05-01 08:50:12] INFO root fetch - processPackages [lytils]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-01 08:50:12] INFO root fetch - processPackages [pulumi-tailscale]: New version: [0.9.1a1656330156] Old Version: [0.9.0]
+[2024-05-01 08:50:12] INFO root fetch - processPackages [pulumi-tls]: New version: [5.1.0a1714459885] Old Version: [5.1.0a1714114176]
+[2024-05-01 08:50:12] INFO root fetch - processPackages [ork.build]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-01 08:50:13] INFO root fetch - processPackages [lytils]: Downloading https://files.pythonhosted.org/packages/1c/e4/caa7ea50f131f6e15b562a2f8e7440bef8230d0f12c8aa67721e6e9c3874/lytils-0.1.4.tar.gz
+[2024-05-01 08:50:13] INFO root fetch - processPackages [pulumi-spotinst]: New version: [3.9.0a1633346805] Old Version: [3.9.0]
+[2024-05-01 08:50:13] INFO root fetch - processPackages [ork.build]: Downloading https://files.pythonhosted.org/packages/3d/f4/8ad5f3e93d32785fbcc2c448d2821991024fbf7a8add8d1ce6def33a2c89/ork.build-0.0.98.tar.gz
+[2024-05-01 08:50:13] INFO root fetch - processPackages [pulumi-tailscale]: Downloading https://files.pythonhosted.org/packages/af/fc/1aa615a8e44d21b520ec05aa57ea2ee6f62de762047b4ad8ccec73544ac3/pulumi_tailscale-0.9.0.tar.gz
+[2024-05-01 08:50:13] INFO root fetch - processPackages [pulumi-spotinst]: Downloading https://files.pythonhosted.org/packages/e0/9f/6d2c1a705d6b6019bea4cba0aa49eceea4eb2d84cfdcb18f45db81e06fb5/pulumi_spotinst-3.9.0.tar.gz
+[2024-05-01 08:50:13] INFO root fetch - processPackages [pulumi-tls]: Downloading https://files.pythonhosted.org/packages/01/78/eb178b93f804a4160a2f7c35710bbb89fae37c35f3f03613de84c5f04ea8/pulumi_tls-5.1.0a1714114176.tar.gz
+[2024-05-01 08:50:13] INFO root fetch - processPackages [lytils]: Downloading https://files.pythonhosted.org/packages/bd/75/bf5f46e8fc1f3d7e55e379723a19f5f8d4d4839993c881dec63e698cfd35/lytils-0.1.5.tar.gz
+[2024-05-01 08:50:13] INFO root fetch - processPackages [ork.build]: Downloading https://files.pythonhosted.org/packages/57/6c/cdc688ee4714601fa2294fce5ed69c29405197d09e82485271d2ba7a76c2/ork.build-0.0.99.tar.gz
+[2024-05-01 08:50:13] INFO root fetch - processPackages [pulumi-tailscale]: Downloading https://files.pythonhosted.org/packages/a3/d6/938674a37f5324fe6d787b4f3efbeeebc5d750fd8c8c25fb2198b11e6a4d/pulumi_tailscale-0.9.1a1656330156.tar.gz
+[2024-05-01 08:50:13] INFO root fetch - processPackages [lytils]: executing diffoscope
+[2024-05-01 08:50:13] INFO root fetch - processPackages [lytils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lytils-0.1.4.tar.gz tmp/lytils-0.1.5.tar.gz --markdown 20240501/l/lytils/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-01 08:50:13] INFO root fetch - processPackages [pulumi-tls]: Downloading https://files.pythonhosted.org/packages/b0/ae/441b54fe961f0fb49df2d2e2ef8e956ca756a9de450935ecd495e3e1e02c/pulumi_tls-5.1.0a1714459885.tar.gz
+[2024-05-01 08:50:13] INFO root fetch - processPackages [pulumi-spotinst]: Downloading https://files.pythonhosted.org/packages/b4/06/83d6eb3763a877d39e3d2a09063ba3fd6542fa6a214e6c3d5240414d041d/pulumi_spotinst-3.9.0a1633346805.tar.gz
+[2024-05-01 08:50:13] INFO root fetch - processPackages [pulumi-tailscale]: executing diffoscope
+[2024-05-01 08:50:13] INFO root fetch - processPackages [pulumi-tailscale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_tailscale-0.9.0.tar.gz tmp/pulumi_tailscale-0.9.1a1656330156.tar.gz --markdown 20240501/p/pulumi-tailscale/0.9.0-0.9.1a1656330156/README.md --exclude *.pyd
+[2024-05-01 08:50:13] INFO root fetch - processPackages [pulumi-tls]: executing diffoscope
+[2024-05-01 08:50:13] INFO root fetch - processPackages [pulumi-tls]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_tls-5.1.0a1714114176.tar.gz tmp/pulumi_tls-5.1.0a1714459885.tar.gz --markdown 20240501/p/pulumi-tls/5.1.0a1714114176-5.1.0a1714459885/README.md --exclude *.pyd
+[2024-05-01 08:50:13] INFO root fetch - processPackages [pulumi-spotinst]: executing diffoscope
+[2024-05-01 08:50:13] INFO root fetch - processPackages [pulumi-spotinst]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_spotinst-3.9.0.tar.gz tmp/pulumi_spotinst-3.9.0a1633346805.tar.gz --markdown 20240501/p/pulumi-spotinst/3.9.0-3.9.0a1633346805/README.md --exclude *.pyd
+[2024-05-01 08:50:13] INFO root fetch - processPackages [ork.build]: executing diffoscope
+[2024-05-01 08:50:13] INFO root fetch - processPackages [ork.build]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ork.build-0.0.98.tar.gz tmp/ork.build-0.0.99.tar.gz --markdown 20240501/o/ork.build/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-01 08:50:14] INFO root fetch - processPackages [lytils]: Remove: archive file [/home/abi/fetcher/tmp/lytils-0.1.4.tar.gz]
+[2024-05-01 08:50:14] INFO root fetch - processPackages [lytils]: Remove: archive file [/home/abi/fetcher/tmp/lytils-0.1.5.tar.gz]
+[2024-05-01 08:50:14] INFO root fetch - main [MainThread]: End processing [lytils]: success
+[2024-05-01 08:50:14] INFO root fetch - processPackages [pulumi-tailscale]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_tailscale-0.9.0.tar.gz]
+[2024-05-01 08:50:14] INFO root fetch - processPackages [pulumi-tailscale]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_tailscale-0.9.1a1656330156.tar.gz]
+[2024-05-01 08:50:14] INFO root fetch - main [MainThread]: End processing [pulumi-tailscale]: success
+[2024-05-01 08:50:14] INFO root fetch - processPackages [pulumi-tls]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_tls-5.1.0a1714114176.tar.gz]
+[2024-05-01 08:50:14] INFO root fetch - processPackages [pulumi-tls]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_tls-5.1.0a1714459885.tar.gz]
+[2024-05-01 08:50:14] INFO root fetch - main [MainThread]: End processing [pulumi-tls]: success
+[2024-05-01 08:50:14] INFO root fetch - processPackages [pulumi-spotinst]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_spotinst-3.9.0.tar.gz]
+[2024-05-01 08:50:14] INFO root fetch - processPackages [pulumi-spotinst]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_spotinst-3.9.0a1633346805.tar.gz]
+[2024-05-01 08:50:14] INFO root fetch - main [MainThread]: End processing [pulumi-spotinst]: success
+[2024-05-01 08:50:15] INFO root fetch - processPackages [ork.build]: Remove: archive file [/home/abi/fetcher/tmp/ork.build-0.0.98.tar.gz]
+[2024-05-01 08:50:15] INFO root fetch - processPackages [ork.build]: Remove: archive file [/home/abi/fetcher/tmp/ork.build-0.0.99.tar.gz]
+[2024-05-01 08:50:15] INFO root fetch - main [MainThread]: End processing [ork.build]: success
+[2024-05-01 08:50:15] INFO root fetch - main [MainThread]: Store serial: [23013343]
