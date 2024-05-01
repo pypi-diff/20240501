@@ -14523,3 +14523,97 @@
 [2024-05-01 11:51:32] INFO root fetch - processPackages [pulumi-aws]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws-6.9.0a1700084435.tar.gz]
 [2024-05-01 11:51:32] INFO root fetch - main [MainThread]: End processing [pulumi-aws]: success
 [2024-05-01 11:51:32] INFO root fetch - main [MainThread]: Store serial: [23014848]
+[2024-05-01 11:53:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23014848]
+[2024-05-01 11:53:41] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-01 11:53:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: scs-analysis
+[2024-05-01 11:53:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rotating-logger
+[2024-05-01 11:53:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: trytond-web-shop
+[2024-05-01 11:53:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rlgym-tools
+[2024-05-01 11:53:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: trytond-timesheet
+[2024-05-01 11:53:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: flickr-photos-api
+[2024-05-01 11:53:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gflanguages
+[2024-05-01 11:53:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: trytond-stock-supply
+[2024-05-01 11:53:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: trytond-stock-shipment-measurements
+[2024-05-01 11:53:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: trytond-stock-shipment-cost
+[2024-05-01 11:53:41] INFO root fetch - processPackages [scs-analysis]: New version: [3.8.7] Old Version: [3.8.6]
+[2024-05-01 11:53:41] INFO root fetch - processPackages [flickr-photos-api]: New version: [2.1.2] Old Version: [2.1.1]
+[2024-05-01 11:53:41] WARNING root fetch - processPackages [rotating-logger]: Skipping, unable to determine old version
+[2024-05-01 11:53:41] INFO root fetch - processPackages [rotating-logger]: Start processing: trytond-stock-shipment-cost
+[2024-05-01 11:53:41] INFO root fetch - main [MainThread]: End processing [rotating-logger] error
+[2024-05-01 11:53:42] INFO root fetch - processPackages [trytond-stock-shipment-measurements]: New version: [7.2.1] Old Version: [7.2.0]
+[2024-05-01 11:53:42] INFO root fetch - processPackages [scs-analysis]: Downloading https://files.pythonhosted.org/packages/60/e3/c5d63383b217367a4c013925c3a9a1b3ff3acb9c06d45fd005a20e184eac/scs_analysis-3.8.6.tar.gz
+[2024-05-01 11:53:42] INFO root fetch - processPackages [gflanguages]: New version: [5.0.4] Old Version: [0.8.9]
+[2024-05-01 11:53:42] INFO root fetch - processPackages [rlgym-tools]: New version: [1.8.3] Old Version: [1.8.2]
+[2024-05-01 11:53:42] INFO root fetch - processPackages [trytond-web-shop]: New version: [7.2.1] Old Version: [7.2.0]
+[2024-05-01 11:53:42] INFO root fetch - processPackages [flickr-photos-api]: Downloading https://files.pythonhosted.org/packages/b7/71/98f60c5fc9c109c19b580f14bdcac2595c9b3a4ec6b8f419a873278bc769/flickr_photos_api-2.1.1.tar.gz
+[2024-05-01 11:53:42] INFO root fetch - processPackages [trytond-stock-shipment-cost]: New version: [7.2.0] Old Version: [7.0.1]
+[2024-05-01 11:53:42] INFO root fetch - processPackages [trytond-stock-shipment-cost]: New version: [7.2.0] Old Version: [7.0.1]
+[2024-05-01 11:53:42] INFO root fetch - processPackages [trytond-timesheet]: New version: [7.2.1] Old Version: [7.2.0]
+[2024-05-01 11:53:42] INFO root fetch - processPackages [trytond-stock-supply]: New version: [7.2.1] Old Version: [7.2.0]
+[2024-05-01 11:53:42] INFO root fetch - processPackages [trytond-stock-shipment-cost]: Downloading https://files.pythonhosted.org/packages/91/af/03f021a9866470c2797c93da0d105978e062a9c7353d4d4492ff79165ff0/trytond_stock_shipment_cost-7.0.1.tar.gz
+[2024-05-01 11:53:42] INFO root fetch - processPackages [trytond-stock-shipment-cost]: Downloading https://files.pythonhosted.org/packages/91/af/03f021a9866470c2797c93da0d105978e062a9c7353d4d4492ff79165ff0/trytond_stock_shipment_cost-7.0.1.tar.gz
+[2024-05-01 11:53:42] INFO root fetch - processPackages [gflanguages]: Downloading https://files.pythonhosted.org/packages/37/dc/ba31d51109a80e56dd2d0f084f2578b28425345f98078759335a10a406c7/gflanguages-0.8.9.tar.gz
+[2024-05-01 11:53:42] INFO root fetch - processPackages [rlgym-tools]: Downloading https://files.pythonhosted.org/packages/8e/44/597b5cdaea12c144559ef9b83ba37aeafebd00c279a66c97c07532937e7d/rlgym_tools-1.8.2.tar.gz
+[2024-05-01 11:53:42] INFO root fetch - processPackages [trytond-web-shop]: Downloading https://files.pythonhosted.org/packages/43/b2/f49e03303abecf5a05b67ad9db693113b20963f912c8d2792cc5ca2b1359/trytond_web_shop-7.2.0.tar.gz
+[2024-05-01 11:53:42] INFO root fetch - processPackages [trytond-stock-supply]: Downloading https://files.pythonhosted.org/packages/cc/cf/1531d34b65e4511c18e0e297bc17243e8f37893cfd483f36c9255f6e65fd/trytond_stock_supply-7.2.0.tar.gz
+[2024-05-01 11:53:42] INFO root fetch - processPackages [trytond-stock-shipment-measurements]: Downloading https://files.pythonhosted.org/packages/75/0b/7b7d56f3e52747fb2d31b29d1d5244db6d42c9c48523b813421ca0b9fed3/trytond_stock_shipment_measurements-7.2.0.tar.gz
+[2024-05-01 11:53:42] INFO root fetch - processPackages [trytond-timesheet]: Downloading https://files.pythonhosted.org/packages/7f/7c/bf6f42e16f61be7fd568e85e3efd9bfc583789bb833f61a6d550552fcb10/trytond_timesheet-7.2.0.tar.gz
+[2024-05-01 11:53:42] INFO root fetch - processPackages [flickr-photos-api]: Downloading https://files.pythonhosted.org/packages/fc/41/2ca83c6d1732a50cb7098164e1a9fc0d8fa3ae44723c8f7d4c2d43200b5c/flickr_photos_api-2.1.2.tar.gz
+[2024-05-01 11:53:42] INFO root fetch - processPackages [scs-analysis]: Downloading https://files.pythonhosted.org/packages/58/05/50911c18440d71c926923f263c6e3fb0a031afb8d5f1874f1e7b7d64c687/scs_analysis-3.8.7.tar.gz
+[2024-05-01 11:53:42] INFO root fetch - processPackages [scs-analysis]: executing diffoscope
+[2024-05-01 11:53:42] INFO root fetch - processPackages [scs-analysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scs_analysis-3.8.6.tar.gz tmp/scs_analysis-3.8.7.tar.gz --markdown 20240501/s/scs-analysis/3.8.6-3.8.7/README.md --exclude *.pyd
+[2024-05-01 11:53:42] INFO root fetch - processPackages [flickr-photos-api]: executing diffoscope
+[2024-05-01 11:53:42] INFO root fetch - processPackages [flickr-photos-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flickr_photos_api-2.1.1.tar.gz tmp/flickr_photos_api-2.1.2.tar.gz --markdown 20240501/f/flickr-photos-api/2.1.1-2.1.2/README.md --exclude *.pyd
+[2024-05-01 11:53:42] INFO root fetch - processPackages [rlgym-tools]: Downloading https://files.pythonhosted.org/packages/24/50/5fe3978839a3165fd93f0b37a4fa5303acfa580f0e19fcf5b3ce6f3fd95e/rlgym_tools-1.8.3.tar.gz
+[2024-05-01 11:53:42] INFO root fetch - processPackages [trytond-web-shop]: Downloading https://files.pythonhosted.org/packages/a7/13/938213211e83a8ecc37eff88fc60b3ae377d4096a19b4d0ceb8694966d52/trytond_web_shop-7.2.1.tar.gz
+[2024-05-01 11:53:42] INFO root fetch - processPackages [trytond-stock-shipment-cost]: Downloading https://files.pythonhosted.org/packages/74/77/951627b3b56067180a9f2dfb0dadfc321d4c800d615b3bb2311e396f3b35/trytond_stock_shipment_cost-7.2.0.tar.gz
+[2024-05-01 11:53:42] INFO root fetch - processPackages [trytond-stock-supply]: Downloading https://files.pythonhosted.org/packages/86/15/ec6c381f306f924ef2501619bd4f642c770ec152a705e5d3d5a254cdcb7d/trytond_stock_supply-7.2.1.tar.gz
+[2024-05-01 11:53:42] INFO root fetch - processPackages [trytond-stock-shipment-measurements]: Downloading https://files.pythonhosted.org/packages/b3/ef/4bdf79388ad34a6b660aa5e3a47258501ed9abec6a22f83fff9d818e1bf3/trytond_stock_shipment_measurements-7.2.1.tar.gz
+[2024-05-01 11:53:42] INFO root fetch - processPackages [trytond-stock-shipment-cost]: Downloading https://files.pythonhosted.org/packages/74/77/951627b3b56067180a9f2dfb0dadfc321d4c800d615b3bb2311e396f3b35/trytond_stock_shipment_cost-7.2.0.tar.gz
+[2024-05-01 11:53:42] INFO root fetch - processPackages [trytond-timesheet]: Downloading https://files.pythonhosted.org/packages/72/62/414f9fad490326b1749368903229eed1692c0eeed07d047eedafd246599a/trytond_timesheet-7.2.1.tar.gz
+[2024-05-01 11:53:42] INFO root fetch - processPackages [gflanguages]: Downloading https://files.pythonhosted.org/packages/39/d2/4f23741d1c0f4618007c38dfc174f8e5630cb7bb35dec13555877eec655e/gflanguages-5.0.4.tar.gz
+[2024-05-01 11:53:42] INFO root fetch - processPackages [trytond-web-shop]: executing diffoscope
+[2024-05-01 11:53:42] INFO root fetch - processPackages [trytond-web-shop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_web_shop-7.2.0.tar.gz tmp/trytond_web_shop-7.2.1.tar.gz --markdown 20240501/t/trytond-web-shop/7.2.0-7.2.1/README.md --exclude *.pyd
+[2024-05-01 11:53:42] INFO root fetch - processPackages [rlgym-tools]: executing diffoscope
+[2024-05-01 11:53:42] INFO root fetch - processPackages [rlgym-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rlgym_tools-1.8.2.tar.gz tmp/rlgym_tools-1.8.3.tar.gz --markdown 20240501/r/rlgym-tools/1.8.2-1.8.3/README.md --exclude *.pyd
+[2024-05-01 11:53:43] INFO root fetch - processPackages [trytond-stock-supply]: executing diffoscope
+[2024-05-01 11:53:43] INFO root fetch - processPackages [trytond-stock-supply]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_stock_supply-7.2.0.tar.gz tmp/trytond_stock_supply-7.2.1.tar.gz --markdown 20240501/t/trytond-stock-supply/7.2.0-7.2.1/README.md --exclude *.pyd
+[2024-05-01 11:53:43] INFO root fetch - processPackages [trytond-stock-shipment-cost]: executing diffoscope
+[2024-05-01 11:53:43] INFO root fetch - processPackages [trytond-stock-shipment-cost]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_stock_shipment_cost-7.0.1.tar.gz tmp/trytond_stock_shipment_cost-7.2.0.tar.gz --markdown 20240501/t/trytond-stock-shipment-cost/7.0.1-7.2.0/README.md --exclude *.pyd
+[2024-05-01 11:53:43] INFO root fetch - processPackages [trytond-stock-shipment-measurements]: executing diffoscope
+[2024-05-01 11:53:43] INFO root fetch - processPackages [trytond-stock-shipment-cost]: executing diffoscope
+[2024-05-01 11:53:43] INFO root fetch - processPackages [trytond-stock-shipment-measurements]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_stock_shipment_measurements-7.2.0.tar.gz tmp/trytond_stock_shipment_measurements-7.2.1.tar.gz --markdown 20240501/t/trytond-stock-shipment-measurements/7.2.0-7.2.1/README.md --exclude *.pyd
+[2024-05-01 11:53:43] INFO root fetch - processPackages [trytond-stock-shipment-cost]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_stock_shipment_cost-7.0.1.tar.gz tmp/trytond_stock_shipment_cost-7.2.0.tar.gz --markdown 20240501/t/trytond-stock-shipment-cost/7.0.1-7.2.0/README.md --exclude *.pyd
+[2024-05-01 11:53:43] INFO root fetch - processPackages [trytond-timesheet]: executing diffoscope
+[2024-05-01 11:53:43] INFO root fetch - processPackages [trytond-timesheet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_timesheet-7.2.0.tar.gz tmp/trytond_timesheet-7.2.1.tar.gz --markdown 20240501/t/trytond-timesheet/7.2.0-7.2.1/README.md --exclude *.pyd
+[2024-05-01 11:53:43] INFO root fetch - processPackages [gflanguages]: executing diffoscope
+[2024-05-01 11:53:43] INFO root fetch - processPackages [gflanguages]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gflanguages-0.8.9.tar.gz tmp/gflanguages-5.0.4.tar.gz --markdown 20240501/g/gflanguages/0.8.9-5.0.4/README.md --exclude *.pyd
+[2024-05-01 11:53:43] INFO root fetch - processPackages [flickr-photos-api]: Remove: archive file [/home/abi/fetcher/tmp/flickr_photos_api-2.1.1.tar.gz]
+[2024-05-01 11:53:43] INFO root fetch - processPackages [flickr-photos-api]: Remove: archive file [/home/abi/fetcher/tmp/flickr_photos_api-2.1.2.tar.gz]
+[2024-05-01 11:53:43] INFO root fetch - main [MainThread]: End processing [flickr-photos-api]: success
+[2024-05-01 11:53:43] INFO root fetch - processPackages [rlgym-tools]: Remove: archive file [/home/abi/fetcher/tmp/rlgym_tools-1.8.2.tar.gz]
+[2024-05-01 11:53:43] INFO root fetch - processPackages [rlgym-tools]: Remove: archive file [/home/abi/fetcher/tmp/rlgym_tools-1.8.3.tar.gz]
+[2024-05-01 11:53:43] INFO root fetch - main [MainThread]: End processing [rlgym-tools]: success
+[2024-05-01 11:53:44] INFO root fetch - processPackages [trytond-stock-shipment-cost]: Remove: archive file [/home/abi/fetcher/tmp/trytond_stock_shipment_cost-7.0.1.tar.gz]
+[2024-05-01 11:53:44] INFO root fetch - processPackages [trytond-stock-shipment-cost]: Remove: archive file [/home/abi/fetcher/tmp/trytond_stock_shipment_cost-7.2.0.tar.gz]
+[2024-05-01 11:53:44] INFO root fetch - main [MainThread]: End processing [trytond-stock-shipment-cost]: success
+[2024-05-01 11:53:44] INFO root fetch - processPackages [trytond-stock-shipment-measurements]: Remove: archive file [/home/abi/fetcher/tmp/trytond_stock_shipment_measurements-7.2.0.tar.gz]
+[2024-05-01 11:53:44] INFO root fetch - processPackages [trytond-stock-shipment-measurements]: Remove: archive file [/home/abi/fetcher/tmp/trytond_stock_shipment_measurements-7.2.1.tar.gz]
+[2024-05-01 11:53:44] INFO root fetch - main [MainThread]: End processing [trytond-stock-shipment-measurements]: success
+[2024-05-01 11:53:44] INFO root fetch - processPackages [trytond-stock-supply]: Remove: archive file [/home/abi/fetcher/tmp/trytond_stock_supply-7.2.0.tar.gz]
+[2024-05-01 11:53:44] INFO root fetch - processPackages [trytond-stock-supply]: Remove: archive file [/home/abi/fetcher/tmp/trytond_stock_supply-7.2.1.tar.gz]
+[2024-05-01 11:53:44] INFO root fetch - main [MainThread]: End processing [trytond-stock-supply]: success
+[2024-05-01 11:53:44] INFO root fetch - processPackages [scs-analysis]: Remove: archive file [/home/abi/fetcher/tmp/scs_analysis-3.8.6.tar.gz]
+[2024-05-01 11:53:44] INFO root fetch - processPackages [scs-analysis]: Remove: archive file [/home/abi/fetcher/tmp/scs_analysis-3.8.7.tar.gz]
+[2024-05-01 11:53:44] INFO root fetch - main [MainThread]: End processing [scs-analysis]: success
+[2024-05-01 11:53:44] INFO root fetch - processPackages [trytond-timesheet]: Remove: archive file [/home/abi/fetcher/tmp/trytond_timesheet-7.2.0.tar.gz]
+[2024-05-01 11:53:44] INFO root fetch - processPackages [trytond-timesheet]: Remove: archive file [/home/abi/fetcher/tmp/trytond_timesheet-7.2.1.tar.gz]
+[2024-05-01 11:53:44] INFO root fetch - main [MainThread]: End processing [trytond-timesheet]: success
+[2024-05-01 11:53:44] INFO root fetch - main [MainThread]: End processing [trytond-stock-shipment-cost]: success
+[2024-05-01 11:53:44] INFO root fetch - processPackages [trytond-web-shop]: Remove: archive file [/home/abi/fetcher/tmp/trytond_web_shop-7.2.0.tar.gz]
+[2024-05-01 11:53:44] INFO root fetch - processPackages [trytond-web-shop]: Remove: archive file [/home/abi/fetcher/tmp/trytond_web_shop-7.2.1.tar.gz]
+[2024-05-01 11:53:44] INFO root fetch - main [MainThread]: End processing [trytond-web-shop]: success
+[2024-05-01 11:53:49] INFO root fetch - processPackages [gflanguages]: Remove: archive file [/home/abi/fetcher/tmp/gflanguages-0.8.9.tar.gz]
+[2024-05-01 11:53:49] INFO root fetch - processPackages [gflanguages]: Remove: archive file [/home/abi/fetcher/tmp/gflanguages-5.0.4.tar.gz]
+[2024-05-01 11:53:49] INFO root fetch - main [MainThread]: End processing [gflanguages]: success
+[2024-05-01 11:53:49] INFO root fetch - main [MainThread]: Store serial: [23014887]
