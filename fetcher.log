@@ -10558,3 +10558,33 @@
 [2024-05-01 08:10:33] INFO root fetch - processPackages [pulumi-alicloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_alicloud-3.9.0a1637592974.tar.gz]
 [2024-05-01 08:10:33] INFO root fetch - main [MainThread]: End processing [pulumi-alicloud]: success
 [2024-05-01 08:10:33] INFO root fetch - main [MainThread]: Store serial: [23012956]
+[2024-05-01 08:12:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23012956]
+[2024-05-01 08:12:43] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-01 08:12:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dummyML
+[2024-05-01 08:12:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyg-nightly
+[2024-05-01 08:12:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-libvirt
+[2024-05-01 08:12:43] INFO root fetch - processPackages [pulumi-libvirt]: New version: [0.5.0a1714537405] Old Version: [0.5.0a1714455892]
+[2024-05-01 08:12:43] INFO root fetch - processPackages [pyg-nightly]: New version: [2.6.0.dev20240430] Old Version: [2.6.0.dev20240429]
+[2024-05-01 08:12:43] INFO root fetch - processPackages [dummyML]: New version: [0.9.5] Old Version: [0.9.4.dev0]
+[2024-05-01 08:12:43] INFO root fetch - processPackages [pulumi-libvirt]: Downloading https://files.pythonhosted.org/packages/cb/45/fe383dfbd418a8c7834654ef90ea61be39726958fedda8afa976fd5abe9e/pulumi_libvirt-0.5.0a1714455892.tar.gz
+[2024-05-01 08:12:43] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/9d/88/58f6fea22d7ce76ff43ecbee5bc69b929ca7330bbd86b2fecfa4b3c64398/pyg_nightly-2.6.0.dev20240429.tar.gz
+[2024-05-01 08:12:43] INFO root fetch - processPackages [dummyML]: Downloading https://files.pythonhosted.org/packages/65/c2/2f3bbfe627d52747b98cf1cea3fc7b73b53644ea67428522343ff0e48e94/dummyML-0.9.4.dev0.tar.gz
+[2024-05-01 08:12:43] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/5c/ea/d3868c80de42597addc5d27401f54d46068c09c2951ba183caf7e05bede0/pyg_nightly-2.6.0.dev20240430.tar.gz
+[2024-05-01 08:12:43] INFO root fetch - processPackages [pulumi-libvirt]: Downloading https://files.pythonhosted.org/packages/5e/f6/e4a7b68d806abcf0d48671e1f567db1bd1007c9859d6a1229f71ac5a0da0/pulumi_libvirt-0.5.0a1714537405.tar.gz
+[2024-05-01 08:12:43] INFO root fetch - processPackages [dummyML]: Downloading https://files.pythonhosted.org/packages/5e/8d/bfff4fd5998f7519435cea71b8450eec979a08344c5f03c7bbb878ada5ea/dummyml-0.9.5.tar.gz
+[2024-05-01 08:12:44] INFO root fetch - processPackages [pulumi-libvirt]: executing diffoscope
+[2024-05-01 08:12:44] INFO root fetch - processPackages [pulumi-libvirt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_libvirt-0.5.0a1714455892.tar.gz tmp/pulumi_libvirt-0.5.0a1714537405.tar.gz --markdown 20240501/p/pulumi-libvirt/0.5.0a1714455892-0.5.0a1714537405/README.md --exclude *.pyd
+[2024-05-01 08:12:44] INFO root fetch - processPackages [pyg-nightly]: executing diffoscope
+[2024-05-01 08:12:44] INFO root fetch - processPackages [pyg-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyg_nightly-2.6.0.dev20240429.tar.gz tmp/pyg_nightly-2.6.0.dev20240430.tar.gz --markdown 20240501/p/pyg-nightly/2.6.0.dev20240429-2.6.0.dev20240430/README.md --exclude *.pyd
+[2024-05-01 08:12:44] INFO root fetch - processPackages [dummyML]: executing diffoscope
+[2024-05-01 08:12:44] INFO root fetch - processPackages [dummyML]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dummyML-0.9.4.dev0.tar.gz tmp/dummyml-0.9.5.tar.gz --markdown 20240501/d/dummyML/0.9.4.dev0-0.9.5/README.md --exclude *.pyd
+[2024-05-01 08:12:44] INFO root fetch - processPackages [pulumi-libvirt]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_libvirt-0.5.0a1714455892.tar.gz]
+[2024-05-01 08:12:44] INFO root fetch - processPackages [pulumi-libvirt]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_libvirt-0.5.0a1714537405.tar.gz]
+[2024-05-01 08:12:44] INFO root fetch - main [MainThread]: End processing [pulumi-libvirt]: success
+[2024-05-01 08:12:44] INFO root fetch - processPackages [dummyML]: Remove: archive file [/home/abi/fetcher/tmp/dummyML-0.9.4.dev0.tar.gz]
+[2024-05-01 08:12:44] INFO root fetch - processPackages [dummyML]: Remove: archive file [/home/abi/fetcher/tmp/dummyml-0.9.5.tar.gz]
+[2024-05-01 08:12:44] INFO root fetch - main [MainThread]: End processing [dummyML]: success
+[2024-05-01 08:12:46] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.6.0.dev20240429.tar.gz]
+[2024-05-01 08:12:46] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.6.0.dev20240430.tar.gz]
+[2024-05-01 08:12:46] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
+[2024-05-01 08:12:46] INFO root fetch - main [MainThread]: Store serial: [23012966]
