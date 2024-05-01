@@ -9087,3 +9087,42 @@
 [2024-05-01 06:40:13] INFO root fetch - processPackages [BayesBoom]: Remove: archive file [/home/abi/fetcher/tmp/BayesBoom-0.1.9.tar.gz]
 [2024-05-01 06:40:13] INFO root fetch - main [MainThread]: End processing [BayesBoom]: success
 [2024-05-01 06:40:13] INFO root fetch - main [MainThread]: Store serial: [23012331]
+[2024-05-01 06:42:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23012331]
+[2024-05-01 06:42:22] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-01 06:42:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: llama-cpp-agent
+[2024-05-01 06:42:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-libvirt
+[2024-05-01 06:42:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: draw-rna
+[2024-05-01 06:42:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: golpy
+[2024-05-01 06:42:22] INFO root fetch - processPackages [llama-cpp-agent]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-01 06:42:22] INFO root fetch - processPackages [pulumi-libvirt]: New version: [0.5.0a1714455892] Old Version: [0.4.6a1714110532]
+[2024-05-01 06:42:23] INFO root fetch - processPackages [llama-cpp-agent]: Downloading https://files.pythonhosted.org/packages/b1/dc/cf0fbb161c3d3c231fcd4737a8f55f4183bbbf8030ccb12b79a20348556e/llama-cpp-agent-0.0.8.tar.gz
+[2024-05-01 06:42:23] INFO root fetch - processPackages [golpy]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-05-01 06:42:23] INFO root fetch - processPackages [draw-rna]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-01 06:42:23] INFO root fetch - processPackages [pulumi-libvirt]: Downloading https://files.pythonhosted.org/packages/c1/70/05ef7aa2ef2fac0e4c79cc1ddd31aa084bec1f4c00cca89a855c5865e587/pulumi_libvirt-0.4.6a1714110532.tar.gz
+[2024-05-01 06:42:23] INFO root fetch - processPackages [draw-rna]: Downloading https://files.pythonhosted.org/packages/44/15/69b51ff8881bfa70d7ca1494cc2090ef9b98d430f31131e9822a63a49450/draw_rna-0.1.0.tar.gz
+[2024-05-01 06:42:23] INFO root fetch - processPackages [golpy]: Downloading https://files.pythonhosted.org/packages/67/fc/d63e01f2ad6a5c94de049c11678463e59fce9cf8c724d7e9fd27650f11ff/golpy-0.2.0.tar.gz
+[2024-05-01 06:42:23] INFO root fetch - processPackages [llama-cpp-agent]: Downloading https://files.pythonhosted.org/packages/72/d2/fe669d324be099dc10673e05fdedaa55577529de265f254f94bf2c1eca23/llama-cpp-agent-0.0.9.tar.gz
+[2024-05-01 06:42:23] INFO root fetch - processPackages [llama-cpp-agent]: executing diffoscope
+[2024-05-01 06:42:23] INFO root fetch - processPackages [llama-cpp-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama-cpp-agent-0.0.8.tar.gz tmp/llama-cpp-agent-0.0.9.tar.gz --markdown 20240501/l/llama-cpp-agent/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-01 06:42:23] INFO root fetch - processPackages [pulumi-libvirt]: Downloading https://files.pythonhosted.org/packages/cb/45/fe383dfbd418a8c7834654ef90ea61be39726958fedda8afa976fd5abe9e/pulumi_libvirt-0.5.0a1714455892.tar.gz
+[2024-05-01 06:42:23] INFO root fetch - processPackages [golpy]: Downloading https://files.pythonhosted.org/packages/6d/2f/b11fecc81c2d510accd8031fe5e9ffeff04fcda9f27fe099b1368a89bf9c/golpy-0.3.0.tar.gz
+[2024-05-01 06:42:23] INFO root fetch - processPackages [pulumi-libvirt]: executing diffoscope
+[2024-05-01 06:42:23] INFO root fetch - processPackages [pulumi-libvirt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_libvirt-0.4.6a1714110532.tar.gz tmp/pulumi_libvirt-0.5.0a1714455892.tar.gz --markdown 20240501/p/pulumi-libvirt/0.4.6a1714110532-0.5.0a1714455892/README.md --exclude *.pyd
+[2024-05-01 06:42:23] INFO root fetch - processPackages [draw-rna]: Downloading https://files.pythonhosted.org/packages/ab/12/749d2a25e50b4b99109cb1720a7233a4db5a836fca11ef23262d2772101c/draw_rna-0.1.1.tar.gz
+[2024-05-01 06:42:23] INFO root fetch - processPackages [golpy]: executing diffoscope
+[2024-05-01 06:42:23] INFO root fetch - processPackages [golpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/golpy-0.2.0.tar.gz tmp/golpy-0.3.0.tar.gz --markdown 20240501/g/golpy/0.2.0-0.3.0/README.md --exclude *.pyd
+[2024-05-01 06:42:23] INFO root fetch - processPackages [draw-rna]: executing diffoscope
+[2024-05-01 06:42:23] INFO root fetch - processPackages [draw-rna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/draw_rna-0.1.0.tar.gz tmp/draw_rna-0.1.1.tar.gz --markdown 20240501/d/draw-rna/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-01 06:42:24] INFO root fetch - processPackages [llama-cpp-agent]: Remove: archive file [/home/abi/fetcher/tmp/llama-cpp-agent-0.0.8.tar.gz]
+[2024-05-01 06:42:24] INFO root fetch - processPackages [llama-cpp-agent]: Remove: archive file [/home/abi/fetcher/tmp/llama-cpp-agent-0.0.9.tar.gz]
+[2024-05-01 06:42:24] INFO root fetch - main [MainThread]: End processing [llama-cpp-agent]: success
+[2024-05-01 06:42:24] INFO root fetch - processPackages [pulumi-libvirt]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_libvirt-0.4.6a1714110532.tar.gz]
+[2024-05-01 06:42:24] INFO root fetch - processPackages [pulumi-libvirt]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_libvirt-0.5.0a1714455892.tar.gz]
+[2024-05-01 06:42:24] INFO root fetch - main [MainThread]: End processing [pulumi-libvirt]: success
+[2024-05-01 06:42:24] INFO root fetch - processPackages [golpy]: Remove: archive file [/home/abi/fetcher/tmp/golpy-0.2.0.tar.gz]
+[2024-05-01 06:42:24] INFO root fetch - processPackages [golpy]: Remove: archive file [/home/abi/fetcher/tmp/golpy-0.3.0.tar.gz]
+[2024-05-01 06:42:24] INFO root fetch - main [MainThread]: End processing [golpy]: success
+[2024-05-01 06:42:24] INFO root fetch - processPackages [draw-rna]: Remove: archive file [/home/abi/fetcher/tmp/draw_rna-0.1.0.tar.gz]
+[2024-05-01 06:42:24] INFO root fetch - processPackages [draw-rna]: Remove: archive file [/home/abi/fetcher/tmp/draw_rna-0.1.1.tar.gz]
+[2024-05-01 06:42:24] INFO root fetch - main [MainThread]: End processing [draw-rna]: success
+[2024-05-01 06:42:24] INFO root fetch - main [MainThread]: Store serial: [23012345]
