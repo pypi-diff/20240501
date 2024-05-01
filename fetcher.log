@@ -21491,3 +21491,67 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-01 15:37:36] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-1.9.1.dev8.tar.gz]
 [2024-05-01 15:37:36] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
 [2024-05-01 15:37:36] INFO root fetch - main [MainThread]: Store serial: [23017493]
+[2024-05-01 15:39:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23017493]
+[2024-05-01 15:39:45] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-01 15:39:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fizzbuzz-draw
+[2024-05-01 15:39:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cryptoadvance.specter
+[2024-05-01 15:39:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gftools
+[2024-05-01 15:39:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: acslib
+[2024-05-01 15:39:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: zero-true
+[2024-05-01 15:39:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: viewORCA
+[2024-05-01 15:39:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: velosaurus-sum
+[2024-05-01 15:39:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lusid-workflow-sdk-preview
+[2024-05-01 15:39:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: OperationBattleshipCommonUtilities
+[2024-05-01 15:39:45] INFO root fetch - processPackages [fizzbuzz-draw]: New version: [1.0.7] Old Version: [1.0.6]
+[2024-05-01 15:39:45] INFO root fetch - processPackages [cryptoadvance.specter]: New version: [2.0.3rc2] Old Version: [2.0.3rc1]
+[2024-05-01 15:39:45] INFO root fetch - processPackages [gftools]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-01 15:39:45] WARNING root fetch - processPackages [viewORCA]: Skipping, unable to determine old version
+[2024-05-01 15:39:45] INFO root fetch - main [MainThread]: End processing [viewORCA] error
+[2024-05-01 15:39:45] INFO root fetch - processPackages [OperationBattleshipCommonUtilities]: New version: [0.4.6] Old Version: [0.4.5]
+[2024-05-01 15:39:45] WARNING root fetch - processPackages [velosaurus-sum]: Skipping, unable to determine old version
+[2024-05-01 15:39:45] INFO root fetch - main [MainThread]: End processing [velosaurus-sum] error
+[2024-05-01 15:39:45] INFO root fetch - processPackages [zero-true]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-01 15:39:45] INFO root fetch - processPackages [fizzbuzz-draw]: Downloading https://files.pythonhosted.org/packages/e2/36/f4bc211b1119a51466401e33536cb3ee1d91dc7cd584b3873535ba923469/fizzbuzz_draw-1.0.6.tar.gz
+[2024-05-01 15:39:45] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: New version: [0.1.963] Old Version: [0.1.954]
+[2024-05-01 15:39:45] INFO root fetch - processPackages [cryptoadvance.specter]: Downloading https://files.pythonhosted.org/packages/d2/e7/8234d6240bc1b682cafbbe31458dffa015b432095e8ac97f5d27db56e518/cryptoadvance.specter-2.0.3rc1.tar.gz
+[2024-05-01 15:39:45] INFO root fetch - processPackages [gftools]: Downloading https://files.pythonhosted.org/packages/6d/5d/f19c961c63554a9224a8abee321b0a8715dc1e05bbe03077b56b75a8bc0b/gftools-0.9.8.tar.gz
+[2024-05-01 15:39:45] WARNING root fetch - processPackages [cryptoadvance.specter]: Skipping package: exceeds size limit 13674433>=10485760
+[2024-05-01 15:39:45] INFO root fetch - main [MainThread]: End processing [cryptoadvance.specter] error
+[2024-05-01 15:39:45] INFO root fetch - processPackages [acslib]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-05-01 15:39:45] INFO root fetch - processPackages [zero-true]: Downloading https://files.pythonhosted.org/packages/c4/67/29ae269b68177959a321cf6abf9448b602c670f8a48e6635e3e8d61a27d5/zero_true-0.1.3.tar.gz
+[2024-05-01 15:39:45] INFO root fetch - processPackages [OperationBattleshipCommonUtilities]: Downloading https://files.pythonhosted.org/packages/c4/b4/1d3b7bc296f65353f92fb11f3dd0cadc5305d6261f95031131c8bd1d2401/operationbattleshipcommonutilities-0.4.5.tar.gz
+[2024-05-01 15:39:45] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: Downloading https://files.pythonhosted.org/packages/8e/bb/4d431fb9ee43df87c48e1cc879cbe9a169f972d0abe09f76d4940e311133/lusid-workflow-sdk-preview-0.1.954.tar.gz
+[2024-05-01 15:39:45] WARNING root fetch - processPackages [zero-true]: Skipping package: exceeds size limit 12648154>=10485760
+[2024-05-01 15:39:45] INFO root fetch - main [MainThread]: End processing [zero-true] error
+[2024-05-01 15:39:45] INFO root fetch - processPackages [fizzbuzz-draw]: Downloading https://files.pythonhosted.org/packages/d9/bc/7911809e2acd63f44559e4080f2a410bbc18c569091c97b30cce2e7b8c71/fizzbuzz_draw-1.0.7.tar.gz
+[2024-05-01 15:39:45] INFO root fetch - processPackages [acslib]: Downloading https://files.pythonhosted.org/packages/d0/c1/8454b2933d525c7c096de4abf1051614568331dc41cd3212c96ec9051337/acslib-0.1.7.tar.gz
+[2024-05-01 15:39:45] INFO root fetch - processPackages [OperationBattleshipCommonUtilities]: Downloading https://files.pythonhosted.org/packages/1a/c3/f1e7689e69ebfcddc8fb99ef9f57395aedc6902b572dba7cad9836f48857/operationbattleshipcommonutilities-0.4.6.tar.gz
+[2024-05-01 15:39:45] INFO root fetch - processPackages [fizzbuzz-draw]: executing diffoscope
+[2024-05-01 15:39:45] INFO root fetch - processPackages [fizzbuzz-draw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fizzbuzz_draw-1.0.6.tar.gz tmp/fizzbuzz_draw-1.0.7.tar.gz --markdown 20240501/f/fizzbuzz-draw/1.0.6-1.0.7/README.md --exclude *.pyd
+[2024-05-01 15:39:46] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: Downloading https://files.pythonhosted.org/packages/59/bb/f90283822b01c01a4ddee65ee18375a540b2016cdaf577f67f93af1b5723/lusid-workflow-sdk-preview-0.1.963.tar.gz
+[2024-05-01 15:39:46] INFO root fetch - processPackages [OperationBattleshipCommonUtilities]: executing diffoscope
+[2024-05-01 15:39:46] INFO root fetch - processPackages [OperationBattleshipCommonUtilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/operationbattleshipcommonutilities-0.4.5.tar.gz tmp/operationbattleshipcommonutilities-0.4.6.tar.gz --markdown 20240501/O/OperationBattleshipCommonUtilities/0.4.5-0.4.6/README.md --exclude *.pyd
+[2024-05-01 15:39:46] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: executing diffoscope
+[2024-05-01 15:39:46] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-workflow-sdk-preview-0.1.954.tar.gz tmp/lusid-workflow-sdk-preview-0.1.963.tar.gz --markdown 20240501/l/lusid-workflow-sdk-preview/0.1.954-0.1.963/README.md --exclude *.pyd
+[2024-05-01 15:39:46] INFO root fetch - processPackages [acslib]: Downloading https://files.pythonhosted.org/packages/2a/f3/f889cdc8a8d24d2f515e719a0781d04ae55f8fd62f2dad0120ced81d9a17/acslib-0.1.8.tar.gz
+[2024-05-01 15:39:46] INFO root fetch - processPackages [acslib]: executing diffoscope
+[2024-05-01 15:39:46] INFO root fetch - processPackages [acslib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acslib-0.1.7.tar.gz tmp/acslib-0.1.8.tar.gz --markdown 20240501/a/acslib/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-05-01 15:39:46] INFO root fetch - processPackages [gftools]: Downloading https://files.pythonhosted.org/packages/4a/43/0695adddf818c751dd6cd94baf605871116827e1297e634d3f4508330908/gftools-0.9.9.tar.gz
+[2024-05-01 15:39:46] INFO root fetch - processPackages [fizzbuzz-draw]: Remove: archive file [/home/abi/fetcher/tmp/fizzbuzz_draw-1.0.6.tar.gz]
+[2024-05-01 15:39:46] INFO root fetch - processPackages [fizzbuzz-draw]: Remove: archive file [/home/abi/fetcher/tmp/fizzbuzz_draw-1.0.7.tar.gz]
+[2024-05-01 15:39:46] INFO root fetch - main [MainThread]: End processing [fizzbuzz-draw]: success
+[2024-05-01 15:39:46] INFO root fetch - processPackages [OperationBattleshipCommonUtilities]: Remove: archive file [/home/abi/fetcher/tmp/operationbattleshipcommonutilities-0.4.5.tar.gz]
+[2024-05-01 15:39:46] INFO root fetch - processPackages [OperationBattleshipCommonUtilities]: Remove: archive file [/home/abi/fetcher/tmp/operationbattleshipcommonutilities-0.4.6.tar.gz]
+[2024-05-01 15:39:46] INFO root fetch - main [MainThread]: End processing [OperationBattleshipCommonUtilities]: success
+[2024-05-01 15:39:46] INFO root fetch - processPackages [acslib]: Remove: archive file [/home/abi/fetcher/tmp/acslib-0.1.7.tar.gz]
+[2024-05-01 15:39:46] INFO root fetch - processPackages [acslib]: Remove: archive file [/home/abi/fetcher/tmp/acslib-0.1.8.tar.gz]
+[2024-05-01 15:39:46] INFO root fetch - main [MainThread]: End processing [acslib]: success
+[2024-05-01 15:39:47] INFO root fetch - processPackages [gftools]: executing diffoscope
+[2024-05-01 15:39:47] INFO root fetch - processPackages [gftools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gftools-0.9.8.tar.gz tmp/gftools-0.9.9.tar.gz --markdown 20240501/g/gftools/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-01 15:39:47] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-workflow-sdk-preview-0.1.954.tar.gz]
+[2024-05-01 15:39:47] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-workflow-sdk-preview-0.1.963.tar.gz]
+[2024-05-01 15:39:47] INFO root fetch - main [MainThread]: End processing [lusid-workflow-sdk-preview]: success
+[2024-05-01 15:39:53] INFO root fetch - processPackages [gftools]: Remove: archive file [/home/abi/fetcher/tmp/gftools-0.9.8.tar.gz]
+[2024-05-01 15:39:53] INFO root fetch - processPackages [gftools]: Remove: archive file [/home/abi/fetcher/tmp/gftools-0.9.9.tar.gz]
+[2024-05-01 15:39:53] INFO root fetch - main [MainThread]: End processing [gftools]: success
+[2024-05-01 15:39:53] INFO root fetch - main [MainThread]: Store serial: [23017523]
