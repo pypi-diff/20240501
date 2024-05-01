@@ -16932,3 +16932,69 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-01 13:25:11] INFO root fetch - processPackages [torchrl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrl_nightly-2024.5.1-cp39-cp39-manylinux1_x86_64.whl.zip]
 [2024-05-01 13:25:11] INFO root fetch - main [MainThread]: End processing [torchrl-nightly]: success
 [2024-05-01 13:25:11] INFO root fetch - main [MainThread]: Store serial: [23015763]
+[2024-05-01 13:27:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23015763]
+[2024-05-01 13:27:21] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-01 13:27:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: torchrl-nightly
+[2024-05-01 13:27:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: trytond-sale-blanket-agreement
+[2024-05-01 13:27:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: libemg
+[2024-05-01 13:27:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: torchx-nightly
+[2024-05-01 13:27:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bellows
+[2024-05-01 13:27:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nmbrs
+[2024-05-01 13:27:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: trytond-sale-amendment
+[2024-05-01 13:27:21] INFO root fetch - processPackages [torchrl-nightly]: New version: [2024.5.1] Old Version: [2024.4.30]
+[2024-05-01 13:27:21] INFO root fetch - processPackages [torchx-nightly]: New version: [2024.4.30] Old Version: [2024.4.29]
+[2024-05-01 13:27:21] INFO root fetch - processPackages [trytond-sale-blanket-agreement]: New version: [7.2.1] Old Version: [7.2.0]
+[2024-05-01 13:27:21] INFO root fetch - processPackages [torchrl-nightly]: Downloading https://files.pythonhosted.org/packages/fb/cb/b2c71188b27896d3e55d12880166aabb848c2656acce5f81506620818fa6/torchrl_nightly-2024.4.30-cp39-cp39-win_amd64.whl
+[2024-05-01 13:27:21] INFO root fetch - processPackages [libemg]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-01 13:27:21] INFO root fetch - processPackages [nmbrs]: New version: [1.0.1] Old Version: [0.2.0]
+[2024-05-01 13:27:21] INFO root fetch - processPackages [bellows]: New version: [0.7.0] Old Version: [0.6.0]
+[2024-05-01 13:27:21] INFO root fetch - processPackages [torchx-nightly]: Downloading https://files.pythonhosted.org/packages/58/88/50193b90a2a8eacaffb84bba704e7b6dec0470ebf2bf678b44fc8cded68a/torchx_nightly-2024.4.29-py3-none-any.whl
+[2024-05-01 13:27:21] INFO root fetch - processPackages [trytond-sale-amendment]: New version: [7.2.1] Old Version: [7.2.0]
+[2024-05-01 13:27:21] INFO root fetch - processPackages [trytond-sale-blanket-agreement]: Downloading https://files.pythonhosted.org/packages/97/ae/0cd3f1a481a6bb7dba1fb3a2699af126f89e3def27d3a39fa50482079685/trytond_sale_blanket_agreement-7.2.0.tar.gz
+[2024-05-01 13:27:21] INFO root fetch - processPackages [libemg]: Downloading https://files.pythonhosted.org/packages/7a/cd/3828eecd3f02f79d406766bb94727a9eab60aebcfa4155232507b95a6982/libemg-0.0.3.tar.gz
+[2024-05-01 13:27:21] INFO root fetch - processPackages [bellows]: Downloading https://files.pythonhosted.org/packages/76/8a/92bc389564609e89b14df7a0f249406d90cdf45036e4dc8239a9f5a37036/bellows-0.6.0.tar.gz
+[2024-05-01 13:27:21] INFO root fetch - processPackages [nmbrs]: Downloading https://files.pythonhosted.org/packages/06/0d/6d0c5ead5be1e39f4843a00f46044b23c4fa2b4945341a4667327da2014a/nmbrs-0.2.0.tar.gz
+[2024-05-01 13:27:21] INFO root fetch - processPackages [trytond-sale-amendment]: Downloading https://files.pythonhosted.org/packages/d0/21/7f15976fa6917973baad8d9645ca2b7f171d785f56d904d94f3710abe0cd/trytond_sale_amendment-7.2.0.tar.gz
+[2024-05-01 13:27:21] INFO root fetch - processPackages [torchrl-nightly]: Downloading https://files.pythonhosted.org/packages/ee/c3/bbb9cfe39a1171bb073302b7b04fe32b8f57aed43db8d06a4c859a1581ea/torchrl_nightly-2024.5.1-cp39-cp39-manylinux1_x86_64.whl
+[2024-05-01 13:27:21] INFO root fetch - processPackages [torchx-nightly]: Downloading https://files.pythonhosted.org/packages/19/40/d615361056ba9bf3d74b28952b97d22faa79b013de804262c64b8379add8/torchx_nightly-2024.4.30-py3-none-any.whl
+[2024-05-01 13:27:21] INFO root fetch - processPackages [trytond-sale-blanket-agreement]: Downloading https://files.pythonhosted.org/packages/9e/a1/451b1fcbcee81931eb23a9463c1eba37fa3f7eedbd87713b00435b15bfa2/trytond_sale_blanket_agreement-7.2.1.tar.gz
+[2024-05-01 13:27:21] INFO root fetch - processPackages [libemg]: Downloading https://files.pythonhosted.org/packages/2a/6b/5543fd1389f22b446417c8483796d517f28588b1338545eb61c48a9cecd4/libemg-0.0.4.tar.gz
+[2024-05-01 13:27:21] INFO root fetch - processPackages [torchx-nightly]: executing diffoscope
+[2024-05-01 13:27:21] INFO root fetch - processPackages [torchx-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchx_nightly-2024.4.29-py3-none-any.whl.zip tmp/torchx_nightly-2024.4.30-py3-none-any.whl.zip --markdown 20240501/t/torchx-nightly/2024.4.29-2024.4.30/README.md --exclude *.pyd
+[2024-05-01 13:27:22] INFO root fetch - processPackages [nmbrs]: Downloading https://files.pythonhosted.org/packages/19/45/b0cd9433a908ac7ddf776bdc23bed1a45670933dde70926e83569f6df9db/nmbrs-1.0.1.tar.gz
+[2024-05-01 13:27:22] INFO root fetch - processPackages [trytond-sale-blanket-agreement]: executing diffoscope
+[2024-05-01 13:27:22] INFO root fetch - processPackages [trytond-sale-blanket-agreement]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_sale_blanket_agreement-7.2.0.tar.gz tmp/trytond_sale_blanket_agreement-7.2.1.tar.gz --markdown 20240501/t/trytond-sale-blanket-agreement/7.2.0-7.2.1/README.md --exclude *.pyd
+[2024-05-01 13:27:22] INFO root fetch - processPackages [bellows]: Downloading https://files.pythonhosted.org/packages/2a/f1/22e8f99e4ecdb6677c6965caa375e9f67608b5ec3f506a96a4b70ccc367e/bellows-0.7.0.tar.gz
+[2024-05-01 13:27:22] INFO root fetch - processPackages [trytond-sale-amendment]: Downloading https://files.pythonhosted.org/packages/6b/57/d4528e87016cb14b5d9193ac0b36f96c55fdfa6e04e76ec143cc20da5f26/trytond_sale_amendment-7.2.1.tar.gz
+[2024-05-01 13:27:22] INFO root fetch - processPackages [nmbrs]: executing diffoscope
+[2024-05-01 13:27:22] INFO root fetch - processPackages [nmbrs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nmbrs-0.2.0.tar.gz tmp/nmbrs-1.0.1.tar.gz --markdown 20240501/n/nmbrs/0.2.0-1.0.1/README.md --exclude *.pyd
+[2024-05-01 13:27:22] INFO root fetch - processPackages [bellows]: executing diffoscope
+[2024-05-01 13:27:22] INFO root fetch - processPackages [bellows]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bellows-0.6.0.tar.gz tmp/bellows-0.7.0.tar.gz --markdown 20240501/b/bellows/0.6.0-0.7.0/README.md --exclude *.pyd
+[2024-05-01 13:27:22] INFO root fetch - processPackages [torchrl-nightly]: executing diffoscope
+[2024-05-01 13:27:22] INFO root fetch - processPackages [torchrl-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchrl_nightly-2024.4.30-cp39-cp39-win_amd64.whl.zip tmp/torchrl_nightly-2024.5.1-cp39-cp39-manylinux1_x86_64.whl.zip --markdown 20240501/t/torchrl-nightly/2024.4.30-2024.5.1/README.md --exclude *.pyd
+[2024-05-01 13:27:22] INFO root fetch - processPackages [trytond-sale-amendment]: executing diffoscope
+[2024-05-01 13:27:22] INFO root fetch - processPackages [trytond-sale-amendment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_sale_amendment-7.2.0.tar.gz tmp/trytond_sale_amendment-7.2.1.tar.gz --markdown 20240501/t/trytond-sale-amendment/7.2.0-7.2.1/README.md --exclude *.pyd
+[2024-05-01 13:27:22] INFO root fetch - processPackages [libemg]: executing diffoscope
+[2024-05-01 13:27:22] INFO root fetch - processPackages [libemg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libemg-0.0.3.tar.gz tmp/libemg-0.0.4.tar.gz --markdown 20240501/l/libemg/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-01 13:27:22] INFO root fetch - processPackages [bellows]: Remove: archive file [/home/abi/fetcher/tmp/bellows-0.6.0.tar.gz]
+[2024-05-01 13:27:22] INFO root fetch - processPackages [bellows]: Remove: archive file [/home/abi/fetcher/tmp/bellows-0.7.0.tar.gz]
+[2024-05-01 13:27:22] INFO root fetch - main [MainThread]: End processing [bellows]: success
+[2024-05-01 13:27:22] INFO root fetch - processPackages [trytond-sale-blanket-agreement]: Remove: archive file [/home/abi/fetcher/tmp/trytond_sale_blanket_agreement-7.2.0.tar.gz]
+[2024-05-01 13:27:22] INFO root fetch - processPackages [trytond-sale-blanket-agreement]: Remove: archive file [/home/abi/fetcher/tmp/trytond_sale_blanket_agreement-7.2.1.tar.gz]
+[2024-05-01 13:27:22] INFO root fetch - main [MainThread]: End processing [trytond-sale-blanket-agreement]: success
+[2024-05-01 13:27:23] INFO root fetch - processPackages [torchx-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchx_nightly-2024.4.29-py3-none-any.whl.zip]
+[2024-05-01 13:27:23] INFO root fetch - processPackages [torchx-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchx_nightly-2024.4.30-py3-none-any.whl.zip]
+[2024-05-01 13:27:23] INFO root fetch - main [MainThread]: End processing [torchx-nightly]: success
+[2024-05-01 13:27:23] INFO root fetch - processPackages [trytond-sale-amendment]: Remove: archive file [/home/abi/fetcher/tmp/trytond_sale_amendment-7.2.0.tar.gz]
+[2024-05-01 13:27:23] INFO root fetch - processPackages [trytond-sale-amendment]: Remove: archive file [/home/abi/fetcher/tmp/trytond_sale_amendment-7.2.1.tar.gz]
+[2024-05-01 13:27:23] INFO root fetch - main [MainThread]: End processing [trytond-sale-amendment]: success
+[2024-05-01 13:27:23] INFO root fetch - processPackages [nmbrs]: Remove: archive file [/home/abi/fetcher/tmp/nmbrs-0.2.0.tar.gz]
+[2024-05-01 13:27:23] INFO root fetch - processPackages [nmbrs]: Remove: archive file [/home/abi/fetcher/tmp/nmbrs-1.0.1.tar.gz]
+[2024-05-01 13:27:23] INFO root fetch - main [MainThread]: End processing [nmbrs]: success
+[2024-05-01 13:27:23] INFO root fetch - processPackages [libemg]: Remove: archive file [/home/abi/fetcher/tmp/libemg-0.0.3.tar.gz]
+[2024-05-01 13:27:23] INFO root fetch - processPackages [libemg]: Remove: archive file [/home/abi/fetcher/tmp/libemg-0.0.4.tar.gz]
+[2024-05-01 13:27:23] INFO root fetch - main [MainThread]: End processing [libemg]: success
+[2024-05-01 13:27:25] INFO root fetch - processPackages [torchrl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrl_nightly-2024.4.30-cp39-cp39-win_amd64.whl.zip]
+[2024-05-01 13:27:25] INFO root fetch - processPackages [torchrl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrl_nightly-2024.5.1-cp39-cp39-manylinux1_x86_64.whl.zip]
+[2024-05-01 13:27:25] INFO root fetch - main [MainThread]: End processing [torchrl-nightly]: success
+[2024-05-01 13:27:25] INFO root fetch - main [MainThread]: Store serial: [23015791]
