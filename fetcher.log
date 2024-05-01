@@ -12009,3 +12009,29 @@
 [2024-05-01 09:37:23] INFO root fetch - processPackages [Ais-cryoET]: Remove: archive file [/home/abi/fetcher/tmp/Ais-cryoET-1.0.24.tar.gz]
 [2024-05-01 09:37:23] INFO root fetch - main [MainThread]: End processing [Ais-cryoET]: success
 [2024-05-01 09:37:23] INFO root fetch - main [MainThread]: Store serial: [23013646]
+[2024-05-01 09:39:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23013646]
+[2024-05-01 09:39:32] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-01 09:39:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lalsuite
+[2024-05-01 09:39:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: twigs
+[2024-05-01 09:39:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: apicurioregistrysdk
+[2024-05-01 09:39:32] INFO root fetch - processPackages [apicurioregistrysdk]: New version: [2.5.9] Old Version: [2.5.7]
+[2024-05-01 09:39:32] INFO root fetch - processPackages [twigs]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-05-01 09:39:32] INFO root fetch - processPackages [lalsuite]: New version: [7.9] Old Version: [7.8]
+[2024-05-01 09:39:32] INFO root fetch - processPackages [twigs]: Downloading https://files.pythonhosted.org/packages/48/d4/68adcc842577341551e4f4268c3f78866b55de0c9e324483d9de1b666386/twigs-1.1.8.tar.gz
+[2024-05-01 09:39:32] INFO root fetch - processPackages [apicurioregistrysdk]: Downloading https://files.pythonhosted.org/packages/c6/95/0eb91782edf41492078ddce76ab5819afccb012bcee5bb647b0a38d85ce5/apicurioregistrysdk-2.5.7.tar.gz
+[2024-05-01 09:39:32] INFO root fetch - processPackages [lalsuite]: Downloading https://files.pythonhosted.org/packages/53/92/fc43211ca56b7c5532fc1b47c701a564c7ddcaf866c62ae45acbfdc34f23/lalsuite-7.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-01 09:39:32] WARNING root fetch - processPackages [lalsuite]: Skipping package: exceeds size limit 48394251>=10485760
+[2024-05-01 09:39:32] INFO root fetch - main [MainThread]: End processing [lalsuite] error
+[2024-05-01 09:39:33] INFO root fetch - processPackages [apicurioregistrysdk]: Downloading https://files.pythonhosted.org/packages/d4/df/8e02ebfb17d2cada86c07a1d1cc9af6e4c83e8513e4c743c69f9bc8e5863/apicurioregistrysdk-2.5.9.tar.gz
+[2024-05-01 09:39:33] INFO root fetch - processPackages [twigs]: Downloading https://files.pythonhosted.org/packages/87/16/2f49ac4cac24277167593805bf404e8590aaab1f2e1fa161752ff48a2074/twigs-1.1.9.tar.gz
+[2024-05-01 09:39:33] INFO root fetch - processPackages [apicurioregistrysdk]: executing diffoscope
+[2024-05-01 09:39:33] INFO root fetch - processPackages [apicurioregistrysdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apicurioregistrysdk-2.5.7.tar.gz tmp/apicurioregistrysdk-2.5.9.tar.gz --markdown 20240501/a/apicurioregistrysdk/2.5.7-2.5.9/README.md --exclude *.pyd
+[2024-05-01 09:39:33] INFO root fetch - processPackages [twigs]: executing diffoscope
+[2024-05-01 09:39:33] INFO root fetch - processPackages [twigs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twigs-1.1.8.tar.gz tmp/twigs-1.1.9.tar.gz --markdown 20240501/t/twigs/1.1.8-1.1.9/README.md --exclude *.pyd
+[2024-05-01 09:39:33] INFO root fetch - processPackages [apicurioregistrysdk]: Remove: archive file [/home/abi/fetcher/tmp/apicurioregistrysdk-2.5.7.tar.gz]
+[2024-05-01 09:39:33] INFO root fetch - processPackages [apicurioregistrysdk]: Remove: archive file [/home/abi/fetcher/tmp/apicurioregistrysdk-2.5.9.tar.gz]
+[2024-05-01 09:39:33] INFO root fetch - main [MainThread]: End processing [apicurioregistrysdk]: success
+[2024-05-01 09:39:34] INFO root fetch - processPackages [twigs]: Remove: archive file [/home/abi/fetcher/tmp/twigs-1.1.8.tar.gz]
+[2024-05-01 09:39:34] INFO root fetch - processPackages [twigs]: Remove: archive file [/home/abi/fetcher/tmp/twigs-1.1.9.tar.gz]
+[2024-05-01 09:39:34] INFO root fetch - main [MainThread]: End processing [twigs]: success
+[2024-05-01 09:39:34] INFO root fetch - main [MainThread]: Store serial: [23013670]
