@@ -21621,3 +21621,42 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-01 15:42:05] INFO root fetch - processPackages [alamos]: Remove: archive file [/home/abi/fetcher/tmp/alamos-0.3.9.tar.gz]
 [2024-05-01 15:42:05] INFO root fetch - main [MainThread]: End processing [alamos]: success
 [2024-05-01 15:42:05] INFO root fetch - main [MainThread]: Store serial: [23017543]
+[2024-05-01 15:44:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23017543]
+[2024-05-01 15:44:13] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-01 15:44:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ragdaemon
+[2024-05-01 15:44:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lusid-sdk
+[2024-05-01 15:44:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: djangoldp-energiepartagee
+[2024-05-01 15:44:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pywaclient
+[2024-05-01 15:44:13] INFO root fetch - processPackages [ragdaemon]: New version: [0.4.0] Old Version: [0.3.3]
+[2024-05-01 15:44:13] INFO root fetch - processPackages [lusid-sdk]: New version: [2.1.76] Old Version: [2.1.70]
+[2024-05-01 15:44:14] INFO root fetch - processPackages [pywaclient]: New version: [1.6.6] Old Version: [1.6.5]
+[2024-05-01 15:44:14] INFO root fetch - processPackages [ragdaemon]: Downloading https://files.pythonhosted.org/packages/82/c4/f76627a4214f2a97d38c6c2a620ba7349eca9f4814ea912e88e168e1f33f/ragdaemon-0.3.3.tar.gz
+[2024-05-01 15:44:14] INFO root fetch - processPackages [djangoldp-energiepartagee]: New version: [2.0.7] Old Version: [2.0.6]
+[2024-05-01 15:44:14] INFO root fetch - processPackages [lusid-sdk]: Downloading https://files.pythonhosted.org/packages/36/af/0fb304b19d0060a01b0da6706410bedf59d1a089a3e8be1669b43862e7fc/lusid_sdk-2.1.70.tar.gz
+[2024-05-01 15:44:14] INFO root fetch - processPackages [pywaclient]: Downloading https://files.pythonhosted.org/packages/8c/c8/84ae2908cc0dc449a8702574e9e95fbc2eb95e46eaab36ddef2c8a6b3e71/pywaclient-1.6.5.tar.gz
+[2024-05-01 15:44:14] INFO root fetch - processPackages [djangoldp-energiepartagee]: Downloading https://files.pythonhosted.org/packages/8e/85/f2481eecc3d34eed8d613de5e1b92436d1306fc75bb2c0affc56a1b9c0ce/djangoldp_energiepartagee-2.0.6.tar.gz
+[2024-05-01 15:44:14] INFO root fetch - processPackages [ragdaemon]: Downloading https://files.pythonhosted.org/packages/11/78/c15aa729c5ac633913ff976195dcf6218dcc35ef364c97c9ce652d97af8e/ragdaemon-0.4.0.tar.gz
+[2024-05-01 15:44:14] INFO root fetch - processPackages [ragdaemon]: executing diffoscope
+[2024-05-01 15:44:14] INFO root fetch - processPackages [ragdaemon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ragdaemon-0.3.3.tar.gz tmp/ragdaemon-0.4.0.tar.gz --markdown 20240501/r/ragdaemon/0.3.3-0.4.0/README.md --exclude *.pyd
+[2024-05-01 15:44:14] INFO root fetch - processPackages [lusid-sdk]: Downloading https://files.pythonhosted.org/packages/68/7e/c5a986ad5690faff3bdde6c65f79940dfdb4c244fde302e4bef319ac8b26/lusid_sdk-2.1.76.tar.gz
+[2024-05-01 15:44:14] INFO root fetch - processPackages [pywaclient]: Downloading https://files.pythonhosted.org/packages/b2/35/53119c3814c3bedb19c2628d4a2d315539f752305925fe85ef5522670498/pywaclient-1.6.6.tar.gz
+[2024-05-01 15:44:14] INFO root fetch - processPackages [djangoldp-energiepartagee]: Downloading https://files.pythonhosted.org/packages/f4/30/a6a0a06135a622609a63cc5f889474962effc42fe7792b6723f185e75317/djangoldp_energiepartagee-2.0.7.tar.gz
+[2024-05-01 15:44:14] INFO root fetch - processPackages [lusid-sdk]: executing diffoscope
+[2024-05-01 15:44:14] INFO root fetch - processPackages [lusid-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid_sdk-2.1.70.tar.gz tmp/lusid_sdk-2.1.76.tar.gz --markdown 20240501/l/lusid-sdk/2.1.70-2.1.76/README.md --exclude *.pyd
+[2024-05-01 15:44:14] INFO root fetch - processPackages [pywaclient]: executing diffoscope
+[2024-05-01 15:44:14] INFO root fetch - processPackages [pywaclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pywaclient-1.6.5.tar.gz tmp/pywaclient-1.6.6.tar.gz --markdown 20240501/p/pywaclient/1.6.5-1.6.6/README.md --exclude *.pyd
+[2024-05-01 15:44:14] INFO root fetch - processPackages [djangoldp-energiepartagee]: executing diffoscope
+[2024-05-01 15:44:14] INFO root fetch - processPackages [djangoldp-energiepartagee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangoldp_energiepartagee-2.0.6.tar.gz tmp/djangoldp_energiepartagee-2.0.7.tar.gz --markdown 20240501/d/djangoldp-energiepartagee/2.0.6-2.0.7/README.md --exclude *.pyd
+[2024-05-01 15:44:15] INFO root fetch - processPackages [ragdaemon]: Remove: archive file [/home/abi/fetcher/tmp/ragdaemon-0.3.3.tar.gz]
+[2024-05-01 15:44:15] INFO root fetch - processPackages [ragdaemon]: Remove: archive file [/home/abi/fetcher/tmp/ragdaemon-0.4.0.tar.gz]
+[2024-05-01 15:44:15] INFO root fetch - main [MainThread]: End processing [ragdaemon]: success
+[2024-05-01 15:44:15] INFO root fetch - processPackages [pywaclient]: Remove: archive file [/home/abi/fetcher/tmp/pywaclient-1.6.5.tar.gz]
+[2024-05-01 15:44:15] INFO root fetch - processPackages [pywaclient]: Remove: archive file [/home/abi/fetcher/tmp/pywaclient-1.6.6.tar.gz]
+[2024-05-01 15:44:15] INFO root fetch - main [MainThread]: End processing [pywaclient]: success
+[2024-05-01 15:44:15] INFO root fetch - processPackages [djangoldp-energiepartagee]: Remove: archive file [/home/abi/fetcher/tmp/djangoldp_energiepartagee-2.0.6.tar.gz]
+[2024-05-01 15:44:15] INFO root fetch - processPackages [djangoldp-energiepartagee]: Remove: archive file [/home/abi/fetcher/tmp/djangoldp_energiepartagee-2.0.7.tar.gz]
+[2024-05-01 15:44:15] INFO root fetch - main [MainThread]: End processing [djangoldp-energiepartagee]: success
+[2024-05-01 15:44:18] INFO root fetch - processPackages [lusid-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_sdk-2.1.70.tar.gz]
+[2024-05-01 15:44:18] INFO root fetch - processPackages [lusid-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_sdk-2.1.76.tar.gz]
+[2024-05-01 15:44:18] INFO root fetch - main [MainThread]: End processing [lusid-sdk]: success
+[2024-05-01 15:44:18] INFO root fetch - main [MainThread]: Store serial: [23017555]
