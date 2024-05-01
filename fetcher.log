@@ -7128,3 +7128,33 @@
 [2024-05-01 04:12:14] INFO root fetch - processPackages [gaphor]: Remove: archive file [/home/abi/fetcher/tmp/gaphor-2.9.2.tar.gz]
 [2024-05-01 04:12:14] INFO root fetch - main [MainThread]: End processing [gaphor]: success
 [2024-05-01 04:12:14] INFO root fetch - main [MainThread]: Store serial: [23011411]
+[2024-05-01 04:14:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23011411]
+[2024-05-01 04:14:23] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-01 04:14:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tensorflow-io-gcs-filesystem
+[2024-05-01 04:14:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bedrock-bot
+[2024-05-01 04:14:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bihyung
+[2024-05-01 04:14:24] INFO root fetch - processPackages [bihyung]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-05-01 04:14:24] INFO root fetch - processPackages [bihyung]: Downloading https://files.pythonhosted.org/packages/fe/30/dc7880e5e58a4bf127b9e635cdd06fac6babbdd1ef6cf102bb13e809c47a/bihyung-0.2.4.tar.gz
+[2024-05-01 04:14:24] INFO root fetch - processPackages [bedrock-bot]: New version: [1.2.6] Old Version: [1.2.4]
+[2024-05-01 04:14:24] INFO root fetch - processPackages [tensorflow-io-gcs-filesystem]: New version: [0.37.0] Old Version: [0.36.0]
+[2024-05-01 04:14:24] INFO root fetch - processPackages [bedrock-bot]: Downloading https://files.pythonhosted.org/packages/c6/80/3f5bede7566cfd9b494a1e07418621cba27c37d9f8196542aa10d482230e/bedrock_bot-1.2.4.tar.gz
+[2024-05-01 04:14:24] INFO root fetch - processPackages [tensorflow-io-gcs-filesystem]: Downloading https://files.pythonhosted.org/packages/19/46/6fd44875e783d71bcc98d2e58592793b412c76c8f02ca90f5fa68986764f/tensorflow_io_gcs_filesystem-0.36.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-01 04:14:24] INFO root fetch - processPackages [bihyung]: Downloading https://files.pythonhosted.org/packages/65/c5/5417483ba1ce45a43780b7a19a3def4fde823346b6a1adaa48f5e5c48cac/bihyung-0.2.5.tar.gz
+[2024-05-01 04:14:24] INFO root fetch - processPackages [bihyung]: executing diffoscope
+[2024-05-01 04:14:24] INFO root fetch - processPackages [bihyung]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bihyung-0.2.4.tar.gz tmp/bihyung-0.2.5.tar.gz --markdown 20240501/b/bihyung/0.2.4-0.2.5/README.md --exclude *.pyd
+[2024-05-01 04:14:24] INFO root fetch - processPackages [bedrock-bot]: Downloading https://files.pythonhosted.org/packages/e2/39/0933464f69e5cd8241098f006d5bce5d4ea45edcbb52b5b1d1fc971ed5d9/bedrock_bot-1.2.6.tar.gz
+[2024-05-01 04:14:24] INFO root fetch - processPackages [bedrock-bot]: executing diffoscope
+[2024-05-01 04:14:24] INFO root fetch - processPackages [bedrock-bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bedrock_bot-1.2.4.tar.gz tmp/bedrock_bot-1.2.6.tar.gz --markdown 20240501/b/bedrock-bot/1.2.4-1.2.6/README.md --exclude *.pyd
+[2024-05-01 04:14:24] INFO root fetch - processPackages [tensorflow-io-gcs-filesystem]: Downloading https://files.pythonhosted.org/packages/44/34/91727e8942ecdcec11fa36ecb02e68530a58d918de83707c21035b4535b6/tensorflow_io_gcs_filesystem-0.37.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-01 04:14:25] INFO root fetch - processPackages [bihyung]: Remove: archive file [/home/abi/fetcher/tmp/bihyung-0.2.4.tar.gz]
+[2024-05-01 04:14:25] INFO root fetch - processPackages [bihyung]: Remove: archive file [/home/abi/fetcher/tmp/bihyung-0.2.5.tar.gz]
+[2024-05-01 04:14:25] INFO root fetch - main [MainThread]: End processing [bihyung]: success
+[2024-05-01 04:14:25] INFO root fetch - processPackages [bedrock-bot]: Remove: archive file [/home/abi/fetcher/tmp/bedrock_bot-1.2.4.tar.gz]
+[2024-05-01 04:14:25] INFO root fetch - processPackages [bedrock-bot]: Remove: archive file [/home/abi/fetcher/tmp/bedrock_bot-1.2.6.tar.gz]
+[2024-05-01 04:14:25] INFO root fetch - main [MainThread]: End processing [bedrock-bot]: success
+[2024-05-01 04:14:26] INFO root fetch - processPackages [tensorflow-io-gcs-filesystem]: executing diffoscope
+[2024-05-01 04:14:26] INFO root fetch - processPackages [tensorflow-io-gcs-filesystem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorflow_io_gcs_filesystem-0.36.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/tensorflow_io_gcs_filesystem-0.37.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240501/t/tensorflow-io-gcs-filesystem/0.36.0-0.37.0/README.md --exclude *.pyd
+[2024-05-01 04:16:38] INFO root fetch - processPackages [tensorflow-io-gcs-filesystem]: Remove: archive file [/home/abi/fetcher/tmp/tensorflow_io_gcs_filesystem-0.36.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-01 04:16:38] INFO root fetch - processPackages [tensorflow-io-gcs-filesystem]: Remove: archive file [/home/abi/fetcher/tmp/tensorflow_io_gcs_filesystem-0.37.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-01 04:16:38] INFO root fetch - main [MainThread]: End processing [tensorflow-io-gcs-filesystem]: success
+[2024-05-01 04:16:38] INFO root fetch - main [MainThread]: Store serial: [23011448]
