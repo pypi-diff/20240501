@@ -8396,3 +8396,24 @@
 [2024-05-01 05:45:47] INFO root fetch - processPackages [mwcleric]: Remove: archive file [/home/abi/fetcher/tmp/mwcleric-0.9.6.tar.gz]
 [2024-05-01 05:45:47] INFO root fetch - main [MainThread]: End processing [mwcleric]: success
 [2024-05-01 05:45:47] INFO root fetch - main [MainThread]: Store serial: [23012025]
+[2024-05-01 05:47:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23012025]
+[2024-05-01 05:47:55] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-01 05:47:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bihyung
+[2024-05-01 05:47:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: glcl
+[2024-05-01 05:47:55] INFO root fetch - processPackages [glcl]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-01 05:47:55] INFO root fetch - processPackages [bihyung]: New version: [0.2.7] Old Version: [0.2.6]
+[2024-05-01 05:47:55] INFO root fetch - processPackages [glcl]: Downloading https://files.pythonhosted.org/packages/91/9c/672ca434f553397a8afa0daaae501866206b8f40bbe95a58cbfb4d43a6d5/glcl-0.0.4.tar.gz
+[2024-05-01 05:47:55] INFO root fetch - processPackages [bihyung]: Downloading https://files.pythonhosted.org/packages/61/2c/cd67ae255d9baeeec51c759513dda4d61cfdf7204a610353e9c21e1f30ce/bihyung-0.2.6.tar.gz
+[2024-05-01 05:47:56] INFO root fetch - processPackages [glcl]: Downloading https://files.pythonhosted.org/packages/cb/c3/d8f1ee7fff15e9cf858320665aea99d1050b4d39f655694c9f3e9f90d72c/glcl-0.0.5.tar.gz
+[2024-05-01 05:47:56] INFO root fetch - processPackages [bihyung]: Downloading https://files.pythonhosted.org/packages/1a/5c/579e9a43157faed37053a2850cf4d3c70081e9eb4b49afb825fe95d4ba7b/bihyung-0.2.7.tar.gz
+[2024-05-01 05:47:56] INFO root fetch - processPackages [bihyung]: executing diffoscope
+[2024-05-01 05:47:56] INFO root fetch - processPackages [bihyung]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bihyung-0.2.6.tar.gz tmp/bihyung-0.2.7.tar.gz --markdown 20240501/b/bihyung/0.2.6-0.2.7/README.md --exclude *.pyd
+[2024-05-01 05:47:56] INFO root fetch - processPackages [glcl]: executing diffoscope
+[2024-05-01 05:47:56] INFO root fetch - processPackages [glcl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glcl-0.0.4.tar.gz tmp/glcl-0.0.5.tar.gz --markdown 20240501/g/glcl/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-01 05:47:56] INFO root fetch - processPackages [bihyung]: Remove: archive file [/home/abi/fetcher/tmp/bihyung-0.2.6.tar.gz]
+[2024-05-01 05:47:56] INFO root fetch - processPackages [bihyung]: Remove: archive file [/home/abi/fetcher/tmp/bihyung-0.2.7.tar.gz]
+[2024-05-01 05:47:56] INFO root fetch - main [MainThread]: End processing [bihyung]: success
+[2024-05-01 05:47:57] INFO root fetch - processPackages [glcl]: Remove: archive file [/home/abi/fetcher/tmp/glcl-0.0.4.tar.gz]
+[2024-05-01 05:47:57] INFO root fetch - processPackages [glcl]: Remove: archive file [/home/abi/fetcher/tmp/glcl-0.0.5.tar.gz]
+[2024-05-01 05:47:57] INFO root fetch - main [MainThread]: End processing [glcl]: success
+[2024-05-01 05:47:57] INFO root fetch - main [MainThread]: Store serial: [23012050]
