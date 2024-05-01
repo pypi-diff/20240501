@@ -17232,3 +17232,60 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-01 13:36:12] INFO root fetch - processPackages [trytond-purchase-request]: Remove: archive file [/home/abi/fetcher/tmp/trytond_purchase_request-7.2.1.tar.gz]
 [2024-05-01 13:36:12] INFO root fetch - main [MainThread]: End processing [trytond-purchase-request]: success
 [2024-05-01 13:36:12] INFO root fetch - main [MainThread]: Store serial: [23015888]
+[2024-05-01 13:38:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23015888]
+[2024-05-01 13:38:21] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-01 13:38:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: trytond-purchase-blanket-agreement
+[2024-05-01 13:38:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fittrackee
+[2024-05-01 13:38:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-cloudamqp
+[2024-05-01 13:38:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: finbourne-access-sdk
+[2024-05-01 13:38:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: YoutubeUser
+[2024-05-01 13:38:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: trytond-purchase-amendment
+[2024-05-01 13:38:21] INFO root fetch - processPackages [finbourne-access-sdk]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-05-01 13:38:21] INFO root fetch - processPackages [fittrackee]: New version: [0.8.1] Old Version: [0.8.0]
+[2024-05-01 13:38:21] INFO root fetch - processPackages [trytond-purchase-blanket-agreement]: New version: [7.2.1] Old Version: [7.2.0]
+[2024-05-01 13:38:21] INFO root fetch - processPackages [YoutubeUser]: New version: [1.2.2] Old Version: [1.0.2]
+[2024-05-01 13:38:21] INFO root fetch - processPackages [trytond-purchase-amendment]: New version: [7.2.1] Old Version: [7.2.0]
+[2024-05-01 13:38:21] INFO root fetch - processPackages [pulumi-cloudamqp]: New version: [3.9.2] Old Version: [3.9.1]
+[2024-05-01 13:38:21] INFO root fetch - processPackages [pulumi-cloudamqp]: Downloading https://files.pythonhosted.org/packages/11/e9/21f7b016e33dfe37759f872bc35e5859819c933ab5e3b90a1a659ab49314/pulumi_cloudamqp-3.9.1.tar.gz
+[2024-05-01 13:38:21] INFO root fetch - processPackages [trytond-purchase-blanket-agreement]: Downloading https://files.pythonhosted.org/packages/5c/06/13b3e1e20235531b134c4e28db5ffc5d26618bb17be55af536c791021444/trytond_purchase_blanket_agreement-7.2.0.tar.gz
+[2024-05-01 13:38:21] INFO root fetch - processPackages [fittrackee]: Downloading https://files.pythonhosted.org/packages/22/6e/f010b766b76cdf8e635fc1fa1bc0df537156b9a0752a69a87914bd4c5fe6/fittrackee-0.8.0.tar.gz
+[2024-05-01 13:38:21] INFO root fetch - processPackages [finbourne-access-sdk]: Downloading https://files.pythonhosted.org/packages/67/5a/2e8d70b51969063ac34619b9a07be19893b64107b4dab37e771b94bd1b03/finbourne_access_sdk-2.1.8.tar.gz
+[2024-05-01 13:38:21] INFO root fetch - processPackages [trytond-purchase-amendment]: Downloading https://files.pythonhosted.org/packages/dc/11/047a59c1d6a5cbae0ee39000bf3b18be644f76a53db3d9bc2764ef9393ae/trytond_purchase_amendment-7.2.0.tar.gz
+[2024-05-01 13:38:21] INFO root fetch - processPackages [YoutubeUser]: Downloading https://files.pythonhosted.org/packages/4b/98/cfde1123700c62a3195c37b3bf65c291095f299a3918b18462286474ead6/youtubeuser-1.0.2.tar.gz
+[2024-05-01 13:38:22] INFO root fetch - processPackages [pulumi-cloudamqp]: Downloading https://files.pythonhosted.org/packages/af/5a/e693fc66be78e5b911198861afba3393be3d0c49d5f64c45c63abd861205/pulumi_cloudamqp-3.9.2.tar.gz
+[2024-05-01 13:38:22] INFO root fetch - processPackages [finbourne-access-sdk]: Downloading https://files.pythonhosted.org/packages/2d/9e/be08614b45729ae547c5c8acd046e8c90ae89d6b812ee70666b6e24bcbe8/finbourne_access_sdk-2.1.9.tar.gz
+[2024-05-01 13:38:22] INFO root fetch - processPackages [pulumi-cloudamqp]: executing diffoscope
+[2024-05-01 13:38:22] INFO root fetch - processPackages [pulumi-cloudamqp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_cloudamqp-3.9.1.tar.gz tmp/pulumi_cloudamqp-3.9.2.tar.gz --markdown 20240501/p/pulumi-cloudamqp/3.9.1-3.9.2/README.md --exclude *.pyd
+[2024-05-01 13:38:22] INFO root fetch - processPackages [trytond-purchase-blanket-agreement]: Downloading https://files.pythonhosted.org/packages/f8/fc/3fdc4b25154eba96b3ab9989836911eeddb62241a6cdf17cbdd033156eee/trytond_purchase_blanket_agreement-7.2.1.tar.gz
+[2024-05-01 13:38:22] INFO root fetch - processPackages [trytond-purchase-amendment]: Downloading https://files.pythonhosted.org/packages/67/7c/f262b66de52ae257a22d1c580b26490f40339f1499bdc5ab5560e1c18d22/trytond_purchase_amendment-7.2.1.tar.gz
+[2024-05-01 13:38:22] INFO root fetch - processPackages [YoutubeUser]: Downloading https://files.pythonhosted.org/packages/12/31/ce5e84546764ccca354b39a689f7c98e9a4e32ac7ac57ce8c48f59f2d420/youtubeuser-1.2.2.tar.gz
+[2024-05-01 13:38:22] INFO root fetch - processPackages [finbourne-access-sdk]: executing diffoscope
+[2024-05-01 13:38:22] INFO root fetch - processPackages [finbourne-access-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne_access_sdk-2.1.8.tar.gz tmp/finbourne_access_sdk-2.1.9.tar.gz --markdown 20240501/f/finbourne-access-sdk/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-05-01 13:38:22] INFO root fetch - processPackages [trytond-purchase-amendment]: executing diffoscope
+[2024-05-01 13:38:22] INFO root fetch - processPackages [trytond-purchase-amendment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_purchase_amendment-7.2.0.tar.gz tmp/trytond_purchase_amendment-7.2.1.tar.gz --markdown 20240501/t/trytond-purchase-amendment/7.2.0-7.2.1/README.md --exclude *.pyd
+[2024-05-01 13:38:22] INFO root fetch - processPackages [trytond-purchase-blanket-agreement]: executing diffoscope
+[2024-05-01 13:38:22] INFO root fetch - processPackages [trytond-purchase-blanket-agreement]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_purchase_blanket_agreement-7.2.0.tar.gz tmp/trytond_purchase_blanket_agreement-7.2.1.tar.gz --markdown 20240501/t/trytond-purchase-blanket-agreement/7.2.0-7.2.1/README.md --exclude *.pyd
+[2024-05-01 13:38:22] INFO root fetch - processPackages [YoutubeUser]: executing diffoscope
+[2024-05-01 13:38:22] INFO root fetch - processPackages [YoutubeUser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/youtubeuser-1.0.2.tar.gz tmp/youtubeuser-1.2.2.tar.gz --markdown 20240501/Y/YoutubeUser/1.0.2-1.2.2/README.md --exclude *.pyd
+[2024-05-01 13:38:22] INFO root fetch - processPackages [fittrackee]: Downloading https://files.pythonhosted.org/packages/ee/5e/bb51b62407246262637115efbcf9da7bb95b1e327ee68d21027946190307/fittrackee-0.8.1.tar.gz
+[2024-05-01 13:38:23] INFO root fetch - processPackages [YoutubeUser]: Remove: archive file [/home/abi/fetcher/tmp/youtubeuser-1.0.2.tar.gz]
+[2024-05-01 13:38:23] INFO root fetch - processPackages [YoutubeUser]: Remove: archive file [/home/abi/fetcher/tmp/youtubeuser-1.2.2.tar.gz]
+[2024-05-01 13:38:23] INFO root fetch - main [MainThread]: End processing [YoutubeUser]: success
+[2024-05-01 13:38:23] INFO root fetch - processPackages [pulumi-cloudamqp]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_cloudamqp-3.9.1.tar.gz]
+[2024-05-01 13:38:23] INFO root fetch - processPackages [pulumi-cloudamqp]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_cloudamqp-3.9.2.tar.gz]
+[2024-05-01 13:38:23] INFO root fetch - main [MainThread]: End processing [pulumi-cloudamqp]: success
+[2024-05-01 13:38:23] INFO root fetch - processPackages [trytond-purchase-amendment]: Remove: archive file [/home/abi/fetcher/tmp/trytond_purchase_amendment-7.2.0.tar.gz]
+[2024-05-01 13:38:23] INFO root fetch - processPackages [trytond-purchase-amendment]: Remove: archive file [/home/abi/fetcher/tmp/trytond_purchase_amendment-7.2.1.tar.gz]
+[2024-05-01 13:38:23] INFO root fetch - main [MainThread]: End processing [trytond-purchase-amendment]: success
+[2024-05-01 13:38:23] INFO root fetch - processPackages [trytond-purchase-blanket-agreement]: Remove: archive file [/home/abi/fetcher/tmp/trytond_purchase_blanket_agreement-7.2.0.tar.gz]
+[2024-05-01 13:38:23] INFO root fetch - processPackages [trytond-purchase-blanket-agreement]: Remove: archive file [/home/abi/fetcher/tmp/trytond_purchase_blanket_agreement-7.2.1.tar.gz]
+[2024-05-01 13:38:23] INFO root fetch - main [MainThread]: End processing [trytond-purchase-blanket-agreement]: success
+[2024-05-01 13:38:23] INFO root fetch - processPackages [fittrackee]: executing diffoscope
+[2024-05-01 13:38:23] INFO root fetch - processPackages [fittrackee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fittrackee-0.8.0.tar.gz tmp/fittrackee-0.8.1.tar.gz --markdown 20240501/f/fittrackee/0.8.0-0.8.1/README.md --exclude *.pyd
+[2024-05-01 13:38:23] INFO root fetch - processPackages [finbourne-access-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_access_sdk-2.1.8.tar.gz]
+[2024-05-01 13:38:23] INFO root fetch - processPackages [finbourne-access-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_access_sdk-2.1.9.tar.gz]
+[2024-05-01 13:38:23] INFO root fetch - main [MainThread]: End processing [finbourne-access-sdk]: success
+[2024-05-01 13:38:32] INFO root fetch - processPackages [fittrackee]: Remove: archive file [/home/abi/fetcher/tmp/fittrackee-0.8.0.tar.gz]
+[2024-05-01 13:38:32] INFO root fetch - processPackages [fittrackee]: Remove: archive file [/home/abi/fetcher/tmp/fittrackee-0.8.1.tar.gz]
+[2024-05-01 13:38:32] INFO root fetch - main [MainThread]: End processing [fittrackee]: success
+[2024-05-01 13:38:32] INFO root fetch - main [MainThread]: Store serial: [23015906]
