@@ -22961,3 +22961,92 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-01 16:49:54] INFO root fetch - processPackages [sbcli-mig]: Remove: archive file [/home/abi/fetcher/tmp/sbcli-mig-1.0.9.zip]
 [2024-05-01 16:49:54] INFO root fetch - main [MainThread]: End processing [sbcli-mig]: success
 [2024-05-01 16:49:54] INFO root fetch - main [MainThread]: Store serial: [23018211]
+[2024-05-01 16:51:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23018211]
+[2024-05-01 16:52:04] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-05-01 16:52:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mptradelib
+[2024-05-01 16:52:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: libbash
+[2024-05-01 16:52:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: FanFicFare
+[2024-05-01 16:52:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: velosaurus-sum
+[2024-05-01 16:52:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: advanced-input
+[2024-05-01 16:52:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: yandex-music-test
+[2024-05-01 16:52:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: atomic-bomb-engine
+[2024-05-01 16:52:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bs-greenlight-cli
+[2024-05-01 16:52:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: UncountablePythonSDK
+[2024-05-01 16:52:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: prometheus-eval
+[2024-05-01 16:52:04] INFO root fetch - processPackages [advanced-input]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-01 16:52:04] WARNING root fetch - processPackages [velosaurus-sum]: Skipping, unable to determine old version
+[2024-05-01 16:52:04] INFO root fetch - processPackages [velosaurus-sum]: Start processing: psychopy-eyetracker-sr-research
+[2024-05-01 16:52:04] INFO root fetch - main [MainThread]: End processing [velosaurus-sum] error
+[2024-05-01 16:52:04] INFO root fetch - processPackages [mptradelib]: New version: [0.2.0] Old Version: [0.1.1]
+[2024-05-01 16:52:04] INFO root fetch - processPackages [prometheus-eval]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-01 16:52:04] INFO root fetch - processPackages [bs-greenlight-cli]: New version: [0.2.0] Old Version: [0.1.1]
+[2024-05-01 16:52:04] WARNING root fetch - processPackages [yandex-music-test]: Skipping, unable to determine old version
+[2024-05-01 16:52:04] INFO root fetch - processPackages [yandex-music-test]: Start processing: OZI.build
+[2024-05-01 16:52:04] INFO root fetch - main [MainThread]: End processing [yandex-music-test] error
+[2024-05-01 16:52:04] INFO root fetch - processPackages [libbash]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-01 16:52:04] INFO root fetch - processPackages [UncountablePythonSDK]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-01 16:52:04] INFO root fetch - processPackages [FanFicFare]: New version: [4.9.0] Old Version: [4.8.0]
+[2024-05-01 16:52:04] INFO root fetch - processPackages [mptradelib]: Downloading https://files.pythonhosted.org/packages/95/80/a585a0300c31d7a20bff9bc33c21a8dacbe7d27b45ddfe220edd3ed33cbe/mptradelib-0.1.1.tar.gz
+[2024-05-01 16:52:04] INFO root fetch - processPackages [advanced-input]: Downloading https://files.pythonhosted.org/packages/40/48/22cb09eb6380db8b6efc15d01ff40810497e1180913b8a68dc7c17ab7036/advanced_input-0.2.0.tar.gz
+[2024-05-01 16:52:04] INFO root fetch - processPackages [prometheus-eval]: Downloading https://files.pythonhosted.org/packages/94/5c/59cf62950fef589ef626e0b810e5766b2d5d08633c7d61bc204e8676f3fe/prometheus_eval-0.1.5.tar.gz
+[2024-05-01 16:52:04] INFO root fetch - processPackages [atomic-bomb-engine]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-01 16:52:04] WARNING root fetch - processPackages [psychopy-eyetracker-sr-research]: Skipping, unable to determine old version
+[2024-05-01 16:52:04] INFO root fetch - main [MainThread]: End processing [psychopy-eyetracker-sr-research] error
+[2024-05-01 16:52:04] INFO root fetch - processPackages [OZI.build]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-01 16:52:04] INFO root fetch - processPackages [bs-greenlight-cli]: Downloading https://files.pythonhosted.org/packages/0a/1b/de9265d227c0fdb33e201db09ac839326a488a8dc78f4f143ec54533abec/bs_greenlight_cli-0.1.1.tar.gz
+[2024-05-01 16:52:04] INFO root fetch - processPackages [OZI.build]: Downloading https://files.pythonhosted.org/packages/03/4a/1d193c99da0f1ed0a1d910dc51c35b1f6ebabeb68892a86c49e83c9613f3/OZI.build-0.0.2.tar.gz
+[2024-05-01 16:52:04] INFO root fetch - processPackages [libbash]: Downloading https://files.pythonhosted.org/packages/89/8e/690a7173cab2d398ad0993e9fcb42fbbc02bec29830c82d8f729f1ddee26/libbash-0.1.8.tar.gz
+[2024-05-01 16:52:04] INFO root fetch - processPackages [FanFicFare]: Downloading https://files.pythonhosted.org/packages/65/3c/613804b633302b19386d97264f6bf5dbe92d582179d73817ac7f423da8ee/FanFicFare-4.8.0.tar.gz
+[2024-05-01 16:52:04] INFO root fetch - processPackages [UncountablePythonSDK]: Downloading https://files.pythonhosted.org/packages/34/57/4724d7206f98ce6cecef86b9faffe9faf8bf1f8726fe1f1ef71b4bf02fc6/UncountablePythonSDK-0.0.8.tar.gz
+[2024-05-01 16:52:04] INFO root fetch - processPackages [atomic-bomb-engine]: Downloading https://files.pythonhosted.org/packages/de/47/589c78a3caf02bccdff9d1da27ba01989773662faca9c96280fad2e297e6/atomic_bomb_engine-0.9.0-cp39-none-win_amd64.whl
+[2024-05-01 16:52:04] INFO root fetch - processPackages [advanced-input]: Downloading https://files.pythonhosted.org/packages/2d/91/0536ea3f00dee7f022c047bc98dda15ebce5a0bd198ef514222ab519da5f/advanced_input-0.2.1.tar.gz
+[2024-05-01 16:52:04] INFO root fetch - processPackages [prometheus-eval]: Downloading https://files.pythonhosted.org/packages/42/22/02711066e010622c9a23c16b17ab2249dc6086572ec43f72b4baabde975f/prometheus_eval-0.1.6.tar.gz
+[2024-05-01 16:52:04] INFO root fetch - processPackages [advanced-input]: executing diffoscope
+[2024-05-01 16:52:04] INFO root fetch - processPackages [advanced-input]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/advanced_input-0.2.0.tar.gz tmp/advanced_input-0.2.1.tar.gz --markdown 20240501/a/advanced-input/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-01 16:52:04] INFO root fetch - processPackages [OZI.build]: Downloading https://files.pythonhosted.org/packages/83/77/dcb9002afd385fda75b5893dc0455d47a5e7f879c089cb4e61157a94d762/OZI.build-0.0.3.tar.gz
+[2024-05-01 16:52:04] INFO root fetch - processPackages [bs-greenlight-cli]: Downloading https://files.pythonhosted.org/packages/e4/00/5b5fd44f9731021a68591488a0c00c66099e8a4b55ee1d77e40e7d5d6cd9/bs_greenlight_cli-0.2.0.tar.gz
+[2024-05-01 16:52:04] INFO root fetch - processPackages [prometheus-eval]: executing diffoscope
+[2024-05-01 16:52:04] INFO root fetch - processPackages [prometheus-eval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prometheus_eval-0.1.5.tar.gz tmp/prometheus_eval-0.1.6.tar.gz --markdown 20240501/p/prometheus-eval/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-01 16:52:05] INFO root fetch - processPackages [mptradelib]: Downloading https://files.pythonhosted.org/packages/e6/f9/f8c235ebee4b4385ca57b45ca4e6f1521b9a64fadca9dd19e95d36576572/mptradelib-0.2.0.tar.gz
+[2024-05-01 16:52:05] INFO root fetch - processPackages [UncountablePythonSDK]: Downloading https://files.pythonhosted.org/packages/5a/1e/ac0ed5ceac8bcca979ee094df4e06671d813bf5a23ad57d0f2d7ea7a498f/UncountablePythonSDK-0.0.9.tar.gz
+[2024-05-01 16:52:05] INFO root fetch - processPackages [OZI.build]: executing diffoscope
+[2024-05-01 16:52:05] INFO root fetch - processPackages [OZI.build]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OZI.build-0.0.2.tar.gz tmp/OZI.build-0.0.3.tar.gz --markdown 20240501/O/OZI.build/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-01 16:52:05] INFO root fetch - processPackages [mptradelib]: executing diffoscope
+[2024-05-01 16:52:05] INFO root fetch - processPackages [mptradelib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mptradelib-0.1.1.tar.gz tmp/mptradelib-0.2.0.tar.gz --markdown 20240501/m/mptradelib/0.1.1-0.2.0/README.md --exclude *.pyd
+[2024-05-01 16:52:05] INFO root fetch - processPackages [atomic-bomb-engine]: Downloading https://files.pythonhosted.org/packages/f2/d0/587dc5dedb6e3e81c2ce988350e6322864b47905247529e088c7b811f975/atomic_bomb_engine-0.9.1-cp39-none-win_amd64.whl
+[2024-05-01 16:52:05] INFO root fetch - processPackages [UncountablePythonSDK]: executing diffoscope
+[2024-05-01 16:52:05] INFO root fetch - processPackages [UncountablePythonSDK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/UncountablePythonSDK-0.0.8.tar.gz tmp/UncountablePythonSDK-0.0.9.tar.gz --markdown 20240501/U/UncountablePythonSDK/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-01 16:52:05] INFO root fetch - processPackages [FanFicFare]: Downloading https://files.pythonhosted.org/packages/90/9e/67fd90f648717f76346e4199615d175d1315a0901c081b90a79401b8a818/FanFicFare-4.9.0.tar.gz
+[2024-05-01 16:52:05] INFO root fetch - processPackages [bs-greenlight-cli]: executing diffoscope
+[2024-05-01 16:52:05] INFO root fetch - processPackages [bs-greenlight-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bs_greenlight_cli-0.1.1.tar.gz tmp/bs_greenlight_cli-0.2.0.tar.gz --markdown 20240501/b/bs-greenlight-cli/0.1.1-0.2.0/README.md --exclude *.pyd
+[2024-05-01 16:52:05] INFO root fetch - processPackages [FanFicFare]: executing diffoscope
+[2024-05-01 16:52:05] INFO root fetch - processPackages [FanFicFare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FanFicFare-4.8.0.tar.gz tmp/FanFicFare-4.9.0.tar.gz --markdown 20240501/F/FanFicFare/4.8.0-4.9.0/README.md --exclude *.pyd
+[2024-05-01 16:52:05] INFO root fetch - processPackages [atomic-bomb-engine]: executing diffoscope
+[2024-05-01 16:52:05] INFO root fetch - processPackages [atomic-bomb-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atomic_bomb_engine-0.9.0-cp39-none-win_amd64.whl.zip tmp/atomic_bomb_engine-0.9.1-cp39-none-win_amd64.whl.zip --markdown 20240501/a/atomic-bomb-engine/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-01 16:52:05] INFO root fetch - processPackages [prometheus-eval]: Remove: archive file [/home/abi/fetcher/tmp/prometheus_eval-0.1.5.tar.gz]
+[2024-05-01 16:52:05] INFO root fetch - processPackages [prometheus-eval]: Remove: archive file [/home/abi/fetcher/tmp/prometheus_eval-0.1.6.tar.gz]
+[2024-05-01 16:52:05] INFO root fetch - main [MainThread]: End processing [prometheus-eval]: success
+[2024-05-01 16:52:05] WARNING root fetch - processPackages [libbash]: Skipping package: exceeds size limit 11008009>=10485760
+[2024-05-01 16:52:05] INFO root fetch - main [MainThread]: End processing [libbash] error
+[2024-05-01 16:52:05] INFO root fetch - processPackages [mptradelib]: Remove: archive file [/home/abi/fetcher/tmp/mptradelib-0.1.1.tar.gz]
+[2024-05-01 16:52:05] INFO root fetch - processPackages [mptradelib]: Remove: archive file [/home/abi/fetcher/tmp/mptradelib-0.2.0.tar.gz]
+[2024-05-01 16:52:05] INFO root fetch - main [MainThread]: End processing [mptradelib]: success
+[2024-05-01 16:52:05] INFO root fetch - processPackages [OZI.build]: Remove: archive file [/home/abi/fetcher/tmp/OZI.build-0.0.2.tar.gz]
+[2024-05-01 16:52:05] INFO root fetch - processPackages [OZI.build]: Remove: archive file [/home/abi/fetcher/tmp/OZI.build-0.0.3.tar.gz]
+[2024-05-01 16:52:05] INFO root fetch - main [MainThread]: End processing [OZI.build]: success
+[2024-05-01 16:52:06] INFO root fetch - processPackages [bs-greenlight-cli]: Remove: archive file [/home/abi/fetcher/tmp/bs_greenlight_cli-0.1.1.tar.gz]
+[2024-05-01 16:52:06] INFO root fetch - processPackages [bs-greenlight-cli]: Remove: archive file [/home/abi/fetcher/tmp/bs_greenlight_cli-0.2.0.tar.gz]
+[2024-05-01 16:52:06] INFO root fetch - main [MainThread]: End processing [bs-greenlight-cli]: success
+[2024-05-01 16:52:06] INFO root fetch - processPackages [advanced-input]: Remove: archive file [/home/abi/fetcher/tmp/advanced_input-0.2.0.tar.gz]
+[2024-05-01 16:52:06] INFO root fetch - processPackages [advanced-input]: Remove: archive file [/home/abi/fetcher/tmp/advanced_input-0.2.1.tar.gz]
+[2024-05-01 16:52:06] INFO root fetch - main [MainThread]: End processing [advanced-input]: success
+[2024-05-01 16:52:06] INFO root fetch - processPackages [UncountablePythonSDK]: Remove: archive file [/home/abi/fetcher/tmp/UncountablePythonSDK-0.0.8.tar.gz]
+[2024-05-01 16:52:06] INFO root fetch - processPackages [UncountablePythonSDK]: Remove: archive file [/home/abi/fetcher/tmp/UncountablePythonSDK-0.0.9.tar.gz]
+[2024-05-01 16:52:06] INFO root fetch - main [MainThread]: End processing [UncountablePythonSDK]: success
+[2024-05-01 16:52:06] INFO root fetch - processPackages [atomic-bomb-engine]: Remove: archive file [/home/abi/fetcher/tmp/atomic_bomb_engine-0.9.0-cp39-none-win_amd64.whl.zip]
+[2024-05-01 16:52:06] INFO root fetch - processPackages [atomic-bomb-engine]: Remove: archive file [/home/abi/fetcher/tmp/atomic_bomb_engine-0.9.1-cp39-none-win_amd64.whl.zip]
+[2024-05-01 16:52:06] INFO root fetch - main [MainThread]: End processing [atomic-bomb-engine]: success
+[2024-05-01 16:52:06] INFO root fetch - processPackages [FanFicFare]: Remove: archive file [/home/abi/fetcher/tmp/FanFicFare-4.8.0.tar.gz]
+[2024-05-01 16:52:06] INFO root fetch - processPackages [FanFicFare]: Remove: archive file [/home/abi/fetcher/tmp/FanFicFare-4.9.0.tar.gz]
+[2024-05-01 16:52:06] INFO root fetch - main [MainThread]: End processing [FanFicFare]: success
+[2024-05-01 16:52:06] INFO root fetch - main [MainThread]: Store serial: [23018254]
