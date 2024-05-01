@@ -7191,3 +7191,24 @@
 [2024-05-01 04:19:06] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.1.98.tar.gz]
 [2024-05-01 04:19:06] INFO root fetch - main [MainThread]: End processing [swarmauri]: success
 [2024-05-01 04:19:06] INFO root fetch - main [MainThread]: Store serial: [23011479]
+[2024-05-01 04:21:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23011479]
+[2024-05-01 04:21:15] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-01 04:21:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zyx
+[2024-05-01 04:21:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: momonga
+[2024-05-01 04:21:15] INFO root fetch - processPackages [momonga]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-01 04:21:15] INFO root fetch - processPackages [momonga]: Downloading https://files.pythonhosted.org/packages/3a/aa/1dfd25a996f8af3669149547e8df22e4264ce3fd349c71be1ce4cc9abc14/momonga-0.0.6-py3-none-any.whl
+[2024-05-01 04:21:15] INFO root fetch - processPackages [zyx]: New version: [0.0.10] Old Version: [0.0.1]
+[2024-05-01 04:21:16] INFO root fetch - processPackages [momonga]: Downloading https://files.pythonhosted.org/packages/40/f7/c70ffcaa171d490789eeb1210bd20132d4d68d3c45a4cfed7d8ef5f46848/momonga-0.0.7-py3-none-any.whl
+[2024-05-01 04:21:16] INFO root fetch - processPackages [zyx]: Downloading https://files.pythonhosted.org/packages/4b/d7/57b691841998682b15ce8c5f400abe696fae2615426f3eab8405268d7c98/zyx-0.0.1.tar.gz
+[2024-05-01 04:21:16] INFO root fetch - processPackages [momonga]: executing diffoscope
+[2024-05-01 04:21:16] INFO root fetch - processPackages [momonga]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/momonga-0.0.6-py3-none-any.whl.zip tmp/momonga-0.0.7-py3-none-any.whl.zip --markdown 20240501/m/momonga/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-01 04:21:16] INFO root fetch - processPackages [zyx]: Downloading https://files.pythonhosted.org/packages/d3/ab/eedbb51529bb616b0fdb0a90b03e7810922fe8745dd4aef57b20bfc0e524/zyx-0.0.10.tar.gz
+[2024-05-01 04:21:16] INFO root fetch - processPackages [zyx]: executing diffoscope
+[2024-05-01 04:21:16] INFO root fetch - processPackages [zyx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zyx-0.0.1.tar.gz tmp/zyx-0.0.10.tar.gz --markdown 20240501/z/zyx/0.0.1-0.0.10/README.md --exclude *.pyd
+[2024-05-01 04:21:16] INFO root fetch - processPackages [momonga]: Remove: archive file [/home/abi/fetcher/tmp/momonga-0.0.6-py3-none-any.whl.zip]
+[2024-05-01 04:21:16] INFO root fetch - processPackages [momonga]: Remove: archive file [/home/abi/fetcher/tmp/momonga-0.0.7-py3-none-any.whl.zip]
+[2024-05-01 04:21:16] INFO root fetch - main [MainThread]: End processing [momonga]: success
+[2024-05-01 04:21:17] INFO root fetch - processPackages [zyx]: Remove: archive file [/home/abi/fetcher/tmp/zyx-0.0.1.tar.gz]
+[2024-05-01 04:21:17] INFO root fetch - processPackages [zyx]: Remove: archive file [/home/abi/fetcher/tmp/zyx-0.0.10.tar.gz]
+[2024-05-01 04:21:17] INFO root fetch - main [MainThread]: End processing [zyx]: success
+[2024-05-01 04:21:17] INFO root fetch - main [MainThread]: Store serial: [23011486]
