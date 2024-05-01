@@ -12841,3 +12841,74 @@
 [2024-05-01 10:23:19] INFO root fetch - processPackages [VisionCraft]: Remove: archive file [/home/abi/fetcher/tmp/VisionCraft-0.1.22-py3-none-any.whl.zip]
 [2024-05-01 10:23:19] INFO root fetch - main [MainThread]: End processing [VisionCraft]: success
 [2024-05-01 10:23:19] INFO root fetch - main [MainThread]: Store serial: [23014017]
+[2024-05-01 10:25:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23014017]
+[2024-05-01 10:25:27] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-01 10:25:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aissemble-foundation-drift-detection-client-python
+[2024-05-01 10:25:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gpt-pydantic-tools
+[2024-05-01 10:25:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aissemble-foundation-model-training-api
+[2024-05-01 10:25:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aissemble-foundation-model-training-api
+[2024-05-01 10:25:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aissemble-foundation-versioning-service
+[2024-05-01 10:25:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: app-store-scraper-mod
+[2024-05-01 10:25:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aissemble-foundation-versioning-service
+[2024-05-01 10:25:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mongo-Vconnect
+[2024-05-01 10:25:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: upowpy
+[2024-05-01 10:25:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ComradeAI
+[2024-05-01 10:25:27] INFO root fetch - processPackages [aissemble-foundation-drift-detection-client-python]: New version: [1.7.0.dev1714551790] Old Version: [1.7.0.dev1714505585]
+[2024-05-01 10:25:28] INFO root fetch - processPackages [aissemble-foundation-versioning-service]: New version: [1.7.0.dev1714505657] Old Version: [1.7.0.dev1714505625]
+[2024-05-01 10:25:28] INFO root fetch - processPackages [aissemble-foundation-model-training-api]: New version: [1.7.0.dev1714505617] Old Version: [1.7.0.dev1714505585]
+[2024-05-01 10:25:28] INFO root fetch - processPackages [aissemble-foundation-versioning-service]: New version: [1.7.0.dev1714505657] Old Version: [1.7.0.dev1714505625]
+[2024-05-01 10:25:28] INFO root fetch - processPackages [mongo-Vconnect]: New version: [0.0.6] Old Version: [0.0.3]
+[2024-05-01 10:25:28] INFO root fetch - processPackages [aissemble-foundation-model-training-api]: New version: [1.7.0.dev1714505617] Old Version: [1.7.0.dev1714505585]
+[2024-05-01 10:25:28] WARNING root fetch - processPackages [gpt-pydantic-tools]: Skipping, unable to determine old version
+[2024-05-01 10:25:28] INFO root fetch - main [MainThread]: End processing [gpt-pydantic-tools] error
+[2024-05-01 10:25:28] INFO root fetch - processPackages [aissemble-foundation-drift-detection-client-python]: Downloading https://files.pythonhosted.org/packages/92/d9/8af022eed0af6e3a544c2d5cbc1f501475ab879c5f6a7516d19c37612408/aissemble_foundation_drift_detection_client_python-1.7.0.dev1714505585.tar.gz
+[2024-05-01 10:25:28] WARNING root fetch - processPackages [app-store-scraper-mod]: Skipping, unable to determine old version
+[2024-05-01 10:25:28] INFO root fetch - main [MainThread]: End processing [app-store-scraper-mod] error
+[2024-05-01 10:25:28] INFO root fetch - processPackages [ComradeAI]: New version: [0.18.9] Old Version: [0.18.8]
+[2024-05-01 10:25:28] INFO root fetch - processPackages [aissemble-foundation-versioning-service]: Downloading https://files.pythonhosted.org/packages/5e/3b/a458d59ce9cd9de856e2000c125b2d9100c75a5dd2a1c10140f3cc178954/aissemble_foundation_versioning_service-1.7.0.dev1714505625.tar.gz
+[2024-05-01 10:25:28] WARNING root fetch - processPackages [upowpy]: Skipping, unable to determine old version
+[2024-05-01 10:25:28] INFO root fetch - main [MainThread]: End processing [upowpy] error
+[2024-05-01 10:25:28] INFO root fetch - processPackages [aissemble-foundation-versioning-service]: Downloading https://files.pythonhosted.org/packages/5e/3b/a458d59ce9cd9de856e2000c125b2d9100c75a5dd2a1c10140f3cc178954/aissemble_foundation_versioning_service-1.7.0.dev1714505625.tar.gz
+[2024-05-01 10:25:28] INFO root fetch - processPackages [mongo-Vconnect]: Downloading https://files.pythonhosted.org/packages/a9/75/0277e4e6ffe17f085ee9d4cd2732058513224f25f1a846d5c5a7040bf48b/mongo_vconnect-0.0.3.tar.gz
+[2024-05-01 10:25:28] INFO root fetch - processPackages [aissemble-foundation-model-training-api]: Downloading https://files.pythonhosted.org/packages/92/4a/ea09b6311b17f853b7d7f79238b20cc340e74f60173aa27ad179f4ca1c3d/aissemble_foundation_model_training_api-1.7.0.dev1714505585.tar.gz
+[2024-05-01 10:25:28] INFO root fetch - processPackages [aissemble-foundation-model-training-api]: Downloading https://files.pythonhosted.org/packages/92/4a/ea09b6311b17f853b7d7f79238b20cc340e74f60173aa27ad179f4ca1c3d/aissemble_foundation_model_training_api-1.7.0.dev1714505585.tar.gz
+[2024-05-01 10:25:28] INFO root fetch - processPackages [ComradeAI]: Downloading https://files.pythonhosted.org/packages/0f/6b/cbb210cdd66fba57a3515ccd9678ed6dab7911788e798fd28cdebb179f95/ComradeAI-0.18.8.tar.gz
+[2024-05-01 10:25:28] INFO root fetch - processPackages [aissemble-foundation-versioning-service]: Downloading https://files.pythonhosted.org/packages/38/58/f51fb859541a88d963be61f1d2eb7e3b742f07958af48ee2b2c92f7632cf/aissemble_foundation_versioning_service-1.7.0.dev1714505657.tar.gz
+[2024-05-01 10:25:28] INFO root fetch - processPackages [aissemble-foundation-versioning-service]: Downloading https://files.pythonhosted.org/packages/38/58/f51fb859541a88d963be61f1d2eb7e3b742f07958af48ee2b2c92f7632cf/aissemble_foundation_versioning_service-1.7.0.dev1714505657.tar.gz
+[2024-05-01 10:25:28] INFO root fetch - processPackages [aissemble-foundation-drift-detection-client-python]: Downloading https://files.pythonhosted.org/packages/8b/e0/effe8ac6f0bdbf436edb58cba9a6983b3829a244ef204d31561a53c60256/aissemble_foundation_drift_detection_client_python-1.7.0.dev1714551790.tar.gz
+[2024-05-01 10:25:28] INFO root fetch - processPackages [mongo-Vconnect]: Downloading https://files.pythonhosted.org/packages/16/2e/e0270a0a1f4c6087f673af17fedbc0a3f90b401b1bb31b7e92a227edc385/mongo_vconnect-0.0.6.tar.gz
+[2024-05-01 10:25:28] INFO root fetch - processPackages [aissemble-foundation-versioning-service]: executing diffoscope
+[2024-05-01 10:25:28] INFO root fetch - processPackages [aissemble-foundation-versioning-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aissemble_foundation_versioning_service-1.7.0.dev1714505625.tar.gz tmp/aissemble_foundation_versioning_service-1.7.0.dev1714505657.tar.gz --markdown 20240501/a/aissemble-foundation-versioning-service/1.7.0.dev1714505625-1.7.0.dev1714505657/README.md --exclude *.pyd
+[2024-05-01 10:25:28] INFO root fetch - processPackages [aissemble-foundation-versioning-service]: executing diffoscope
+[2024-05-01 10:25:28] INFO root fetch - processPackages [aissemble-foundation-versioning-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aissemble_foundation_versioning_service-1.7.0.dev1714505625.tar.gz tmp/aissemble_foundation_versioning_service-1.7.0.dev1714505657.tar.gz --markdown 20240501/a/aissemble-foundation-versioning-service/1.7.0.dev1714505625-1.7.0.dev1714505657/README.md --exclude *.pyd
+[2024-05-01 10:25:28] INFO root fetch - processPackages [aissemble-foundation-model-training-api]: Downloading https://files.pythonhosted.org/packages/d9/87/8eafb3728060e7ecceb64a033b1fff1bc9ccca54acbfcab9d2cd4d6287c4/aissemble_foundation_model_training_api-1.7.0.dev1714505617.tar.gz
+[2024-05-01 10:25:28] INFO root fetch - processPackages [aissemble-foundation-model-training-api]: Downloading https://files.pythonhosted.org/packages/d9/87/8eafb3728060e7ecceb64a033b1fff1bc9ccca54acbfcab9d2cd4d6287c4/aissemble_foundation_model_training_api-1.7.0.dev1714505617.tar.gz
+[2024-05-01 10:25:28] INFO root fetch - processPackages [aissemble-foundation-drift-detection-client-python]: executing diffoscope
+[2024-05-01 10:25:28] INFO root fetch - processPackages [aissemble-foundation-drift-detection-client-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aissemble_foundation_drift_detection_client_python-1.7.0.dev1714505585.tar.gz tmp/aissemble_foundation_drift_detection_client_python-1.7.0.dev1714551790.tar.gz --markdown 20240501/a/aissemble-foundation-drift-detection-client-python/1.7.0.dev1714505585-1.7.0.dev1714551790/README.md --exclude *.pyd
+[2024-05-01 10:25:28] INFO root fetch - processPackages [mongo-Vconnect]: executing diffoscope
+[2024-05-01 10:25:28] INFO root fetch - processPackages [mongo-Vconnect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mongo_vconnect-0.0.3.tar.gz tmp/mongo_vconnect-0.0.6.tar.gz --markdown 20240501/m/mongo-Vconnect/0.0.3-0.0.6/README.md --exclude *.pyd
+[2024-05-01 10:25:28] INFO root fetch - processPackages [aissemble-foundation-model-training-api]: executing diffoscope
+[2024-05-01 10:25:28] INFO root fetch - processPackages [aissemble-foundation-model-training-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aissemble_foundation_model_training_api-1.7.0.dev1714505585.tar.gz tmp/aissemble_foundation_model_training_api-1.7.0.dev1714505617.tar.gz --markdown 20240501/a/aissemble-foundation-model-training-api/1.7.0.dev1714505585-1.7.0.dev1714505617/README.md --exclude *.pyd
+[2024-05-01 10:25:28] INFO root fetch - processPackages [aissemble-foundation-model-training-api]: executing diffoscope
+[2024-05-01 10:25:28] INFO root fetch - processPackages [aissemble-foundation-model-training-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aissemble_foundation_model_training_api-1.7.0.dev1714505585.tar.gz tmp/aissemble_foundation_model_training_api-1.7.0.dev1714505617.tar.gz --markdown 20240501/a/aissemble-foundation-model-training-api/1.7.0.dev1714505585-1.7.0.dev1714505617/README.md --exclude *.pyd
+[2024-05-01 10:25:28] INFO root fetch - processPackages [ComradeAI]: Downloading https://files.pythonhosted.org/packages/57/22/e4aa2177ece664931452ca87630a7ac2a64722c0050b63a0d48c56009de8/ComradeAI-0.18.9.tar.gz
+[2024-05-01 10:25:28] INFO root fetch - processPackages [ComradeAI]: executing diffoscope
+[2024-05-01 10:25:28] INFO root fetch - processPackages [ComradeAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ComradeAI-0.18.8.tar.gz tmp/ComradeAI-0.18.9.tar.gz --markdown 20240501/C/ComradeAI/0.18.8-0.18.9/README.md --exclude *.pyd
+[2024-05-01 10:25:29] INFO root fetch - processPackages [aissemble-foundation-drift-detection-client-python]: Remove: archive file [/home/abi/fetcher/tmp/aissemble_foundation_drift_detection_client_python-1.7.0.dev1714505585.tar.gz]
+[2024-05-01 10:25:29] INFO root fetch - processPackages [aissemble-foundation-drift-detection-client-python]: Remove: archive file [/home/abi/fetcher/tmp/aissemble_foundation_drift_detection_client_python-1.7.0.dev1714551790.tar.gz]
+[2024-05-01 10:25:29] INFO root fetch - main [MainThread]: End processing [aissemble-foundation-drift-detection-client-python]: success
+[2024-05-01 10:25:29] INFO root fetch - processPackages [aissemble-foundation-versioning-service]: Remove: archive file [/home/abi/fetcher/tmp/aissemble_foundation_versioning_service-1.7.0.dev1714505625.tar.gz]
+[2024-05-01 10:25:29] INFO root fetch - processPackages [aissemble-foundation-versioning-service]: Remove: archive file [/home/abi/fetcher/tmp/aissemble_foundation_versioning_service-1.7.0.dev1714505657.tar.gz]
+[2024-05-01 10:25:29] INFO root fetch - main [MainThread]: End processing [aissemble-foundation-versioning-service]: success
+[2024-05-01 10:25:29] INFO root fetch - processPackages [aissemble-foundation-model-training-api]: Remove: archive file [/home/abi/fetcher/tmp/aissemble_foundation_model_training_api-1.7.0.dev1714505585.tar.gz]
+[2024-05-01 10:25:29] INFO root fetch - processPackages [aissemble-foundation-model-training-api]: Remove: archive file [/home/abi/fetcher/tmp/aissemble_foundation_model_training_api-1.7.0.dev1714505617.tar.gz]
+[2024-05-01 10:25:29] INFO root fetch - main [MainThread]: End processing [aissemble-foundation-model-training-api]: success
+[2024-05-01 10:25:29] INFO root fetch - processPackages [mongo-Vconnect]: Remove: archive file [/home/abi/fetcher/tmp/mongo_vconnect-0.0.3.tar.gz]
+[2024-05-01 10:25:29] INFO root fetch - processPackages [mongo-Vconnect]: Remove: archive file [/home/abi/fetcher/tmp/mongo_vconnect-0.0.6.tar.gz]
+[2024-05-01 10:25:29] INFO root fetch - main [MainThread]: End processing [mongo-Vconnect]: success
+[2024-05-01 10:25:29] INFO root fetch - main [MainThread]: End processing [aissemble-foundation-model-training-api]: success
+[2024-05-01 10:25:29] INFO root fetch - processPackages [ComradeAI]: Remove: archive file [/home/abi/fetcher/tmp/ComradeAI-0.18.8.tar.gz]
+[2024-05-01 10:25:29] INFO root fetch - processPackages [ComradeAI]: Remove: archive file [/home/abi/fetcher/tmp/ComradeAI-0.18.9.tar.gz]
+[2024-05-01 10:25:29] INFO root fetch - main [MainThread]: End processing [ComradeAI]: success
+[2024-05-01 10:25:29] INFO root fetch - main [MainThread]: End processing [aissemble-foundation-versioning-service]: success
+[2024-05-01 10:25:29] INFO root fetch - main [MainThread]: Store serial: [23014053]
