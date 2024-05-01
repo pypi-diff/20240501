@@ -19983,3 +19983,63 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-01 14:31:50] INFO root fetch - processPackages [odd-great-expectations]: Remove: archive file [/home/abi/fetcher/tmp/odd_great_expectations-0.2.0.tar.gz]
 [2024-05-01 14:31:50] INFO root fetch - main [MainThread]: End processing [odd-great-expectations]: success
 [2024-05-01 14:31:50] INFO root fetch - main [MainThread]: Store serial: [23016860]
+[2024-05-01 14:33:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23016860]
+[2024-05-01 14:33:59] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-01 14:33:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mongodb-orm
+[2024-05-01 14:33:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spaceone-core
+[2024-05-01 14:33:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-slack
+[2024-05-01 14:33:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mpyl
+[2024-05-01 14:33:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wawona
+[2024-05-01 14:33:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: PyLauncherMPI
+[2024-05-01 14:33:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: musical_games
+[2024-05-01 14:33:59] INFO root fetch - processPackages [pulumi-slack]: New version: [0.5.0a1714544133] Old Version: [0.5.0a1714457590]
+[2024-05-01 14:33:59] INFO root fetch - processPackages [mongodb-orm]: New version: [0.0.129a2] Old Version: [0.0.129a1]
+[2024-05-01 14:33:59] WARNING root fetch - processPackages [PyLauncherMPI]: Skipping, unable to determine old version
+[2024-05-01 14:33:59] INFO root fetch - main [MainThread]: End processing [PyLauncherMPI] error
+[2024-05-01 14:33:59] INFO root fetch - processPackages [pulumi-slack]: Downloading https://files.pythonhosted.org/packages/28/5f/88a34ca8b2b9ba452f12fb2091b54d7c756b4f7d60c7885097fa9348217b/pulumi_slack-0.5.0a1714457590.tar.gz
+[2024-05-01 14:33:59] INFO root fetch - processPackages [mongodb-orm]: Downloading https://files.pythonhosted.org/packages/b7/2f/844d8ef3e67fcd43c2d52822202d29fc15a666d75d7d8a19b8bafeb69166/mongodb_orm-0.0.129a1.tar.gz
+[2024-05-01 14:33:59] INFO root fetch - processPackages [musical_games]: New version: [0.8.1] Old Version: [0.8.0]
+[2024-05-01 14:33:59] INFO root fetch - processPackages [wawona]: New version: [1.1.2] Old Version: [1.1.1]
+[2024-05-01 14:33:59] INFO root fetch - processPackages [mpyl]: New version: [1.6.6] Old Version: [1.6.5]
+[2024-05-01 14:33:59] INFO root fetch - processPackages [spaceone-core]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-05-01 14:33:59] INFO root fetch - processPackages [mpyl]: Downloading https://files.pythonhosted.org/packages/33/27/24fce492fa614ec6ffc36d985e246627b6969604ae5bd5138f770f69d1cf/mpyl-1.6.5-py3-none-any.whl
+[2024-05-01 14:33:59] INFO root fetch - processPackages [musical_games]: Downloading https://files.pythonhosted.org/packages/75/48/10d79a6a1a2c1e2fa5521867591a98d36d7ffd029d0b043f7d0354ead317/musical_games-0.8.0.tar.gz
+[2024-05-01 14:33:59] INFO root fetch - processPackages [wawona]: Downloading https://files.pythonhosted.org/packages/be/c7/e639bad35193246df28e4c5b30fd44bd13c0f2c37e61f39215e026664bd2/wawona-1.1.1.tar.gz
+[2024-05-01 14:33:59] INFO root fetch - processPackages [spaceone-core]: Downloading https://files.pythonhosted.org/packages/d5/fd/8dc14e172651bfc6e4d089ff63cf5e7b6edd17d691d6218cecca40d47cfe/spaceone-core-2.0.8.tar.gz
+[2024-05-01 14:33:59] INFO root fetch - processPackages [mongodb-orm]: Downloading https://files.pythonhosted.org/packages/14/48/ff20d7440b552a169ff06612b4b449ea026865f92031725f17337333aa7c/mongodb_orm-0.0.129a2.tar.gz
+[2024-05-01 14:34:00] INFO root fetch - processPackages [pulumi-slack]: Downloading https://files.pythonhosted.org/packages/27/8e/129125cd6de17835297a1d7373a0933408eba4e21fc684d3ee3a6ead8778/pulumi_slack-0.5.0a1714544133.tar.gz
+[2024-05-01 14:34:00] INFO root fetch - processPackages [mongodb-orm]: executing diffoscope
+[2024-05-01 14:34:00] INFO root fetch - processPackages [mongodb-orm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mongodb_orm-0.0.129a1.tar.gz tmp/mongodb_orm-0.0.129a2.tar.gz --markdown 20240501/m/mongodb-orm/0.0.129a1-0.0.129a2/README.md --exclude *.pyd
+[2024-05-01 14:34:00] INFO root fetch - processPackages [pulumi-slack]: executing diffoscope
+[2024-05-01 14:34:00] INFO root fetch - processPackages [pulumi-slack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_slack-0.5.0a1714457590.tar.gz tmp/pulumi_slack-0.5.0a1714544133.tar.gz --markdown 20240501/p/pulumi-slack/0.5.0a1714457590-0.5.0a1714544133/README.md --exclude *.pyd
+[2024-05-01 14:34:00] INFO root fetch - processPackages [wawona]: Downloading https://files.pythonhosted.org/packages/37/31/3db8385d6fbd13c90444fbbd5d4eeb2a5b742f81bf81a34f8ac63e79577a/wawona-1.1.2.tar.gz
+[2024-05-01 14:34:00] INFO root fetch - processPackages [mpyl]: Downloading https://files.pythonhosted.org/packages/2d/a2/9ce2b5b2adf3498a8c9d95cfa6e78ec759f6a40d4052613b110adb030ea7/mpyl-1.6.6-py3-none-any.whl
+[2024-05-01 14:34:00] INFO root fetch - processPackages [musical_games]: Downloading https://files.pythonhosted.org/packages/6d/d7/206db90826d8342538d0ed679693607ab88c362f2adbfcbedd9ac7f38bd4/musical_games-0.8.1.tar.gz
+[2024-05-01 14:34:00] INFO root fetch - processPackages [wawona]: executing diffoscope
+[2024-05-01 14:34:00] INFO root fetch - processPackages [wawona]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wawona-1.1.1.tar.gz tmp/wawona-1.1.2.tar.gz --markdown 20240501/w/wawona/1.1.1-1.1.2/README.md --exclude *.pyd
+[2024-05-01 14:34:00] INFO root fetch - processPackages [spaceone-core]: Downloading https://files.pythonhosted.org/packages/c6/b6/20c4662546ec879a3b0dfacd3580673a79f673f79dbedabb4a9a917b0f73/spaceone-core-2.0.9.tar.gz
+[2024-05-01 14:34:00] INFO root fetch - processPackages [mpyl]: executing diffoscope
+[2024-05-01 14:34:00] INFO root fetch - processPackages [mpyl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mpyl-1.6.5-py3-none-any.whl.zip tmp/mpyl-1.6.6-py3-none-any.whl.zip --markdown 20240501/m/mpyl/1.6.5-1.6.6/README.md --exclude *.pyd
+[2024-05-01 14:34:00] INFO root fetch - processPackages [musical_games]: executing diffoscope
+[2024-05-01 14:34:00] INFO root fetch - processPackages [musical_games]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/musical_games-0.8.0.tar.gz tmp/musical_games-0.8.1.tar.gz --markdown 20240501/m/musical_games/0.8.0-0.8.1/README.md --exclude *.pyd
+[2024-05-01 14:34:00] INFO root fetch - processPackages [spaceone-core]: executing diffoscope
+[2024-05-01 14:34:00] INFO root fetch - processPackages [spaceone-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone-core-2.0.8.tar.gz tmp/spaceone-core-2.0.9.tar.gz --markdown 20240501/s/spaceone-core/2.0.8-2.0.9/README.md --exclude *.pyd
+[2024-05-01 14:34:00] INFO root fetch - processPackages [mongodb-orm]: Remove: archive file [/home/abi/fetcher/tmp/mongodb_orm-0.0.129a1.tar.gz]
+[2024-05-01 14:34:00] INFO root fetch - processPackages [mongodb-orm]: Remove: archive file [/home/abi/fetcher/tmp/mongodb_orm-0.0.129a2.tar.gz]
+[2024-05-01 14:34:00] INFO root fetch - main [MainThread]: End processing [mongodb-orm]: success
+[2024-05-01 14:34:00] INFO root fetch - processPackages [pulumi-slack]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_slack-0.5.0a1714457590.tar.gz]
+[2024-05-01 14:34:00] INFO root fetch - processPackages [pulumi-slack]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_slack-0.5.0a1714544133.tar.gz]
+[2024-05-01 14:34:00] INFO root fetch - main [MainThread]: End processing [pulumi-slack]: success
+[2024-05-01 14:34:01] INFO root fetch - processPackages [wawona]: Remove: archive file [/home/abi/fetcher/tmp/wawona-1.1.1.tar.gz]
+[2024-05-01 14:34:01] INFO root fetch - processPackages [wawona]: Remove: archive file [/home/abi/fetcher/tmp/wawona-1.1.2.tar.gz]
+[2024-05-01 14:34:01] INFO root fetch - main [MainThread]: End processing [wawona]: success
+[2024-05-01 14:34:01] INFO root fetch - processPackages [spaceone-core]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-core-2.0.8.tar.gz]
+[2024-05-01 14:34:01] INFO root fetch - processPackages [spaceone-core]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-core-2.0.9.tar.gz]
+[2024-05-01 14:34:01] INFO root fetch - main [MainThread]: End processing [spaceone-core]: success
+[2024-05-01 14:34:01] INFO root fetch - processPackages [mpyl]: Remove: archive file [/home/abi/fetcher/tmp/mpyl-1.6.5-py3-none-any.whl.zip]
+[2024-05-01 14:34:01] INFO root fetch - processPackages [mpyl]: Remove: archive file [/home/abi/fetcher/tmp/mpyl-1.6.6-py3-none-any.whl.zip]
+[2024-05-01 14:34:01] INFO root fetch - main [MainThread]: End processing [mpyl]: success
+[2024-05-01 14:34:01] INFO root fetch - processPackages [musical_games]: Remove: archive file [/home/abi/fetcher/tmp/musical_games-0.8.0.tar.gz]
+[2024-05-01 14:34:01] INFO root fetch - processPackages [musical_games]: Remove: archive file [/home/abi/fetcher/tmp/musical_games-0.8.1.tar.gz]
+[2024-05-01 14:34:01] INFO root fetch - main [MainThread]: End processing [musical_games]: success
+[2024-05-01 14:34:01] INFO root fetch - main [MainThread]: Store serial: [23016880]
