@@ -14168,3 +14168,39 @@
 [2024-05-01 11:26:52] INFO root fetch - processPackages [posuto]: Remove: archive file [/home/abi/fetcher/tmp/posuto-2024.5.0.tar.gz]
 [2024-05-01 11:26:52] INFO root fetch - main [MainThread]: End processing [posuto]: success
 [2024-05-01 11:26:52] INFO root fetch - main [MainThread]: Store serial: [23014699]
+[2024-05-01 11:28:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23014699]
+[2024-05-01 11:29:01] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-01 11:29:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: posuto
+[2024-05-01 11:29:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: duckcuts
+[2024-05-01 11:29:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rtc-tools-simulation
+[2024-05-01 11:29:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: seamm-widgets
+[2024-05-01 11:29:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hikari-lightbulb
+[2024-05-01 11:29:01] INFO root fetch - processPackages [posuto]: New version: [2024.5.0] Old Version: [2024.4.0]
+[2024-05-01 11:29:01] WARNING root fetch - processPackages [duckcuts]: Skipping, unable to determine old version
+[2024-05-01 11:29:01] INFO root fetch - main [MainThread]: End processing [duckcuts] error
+[2024-05-01 11:29:01] INFO root fetch - processPackages [posuto]: Downloading https://files.pythonhosted.org/packages/b7/3d/a6f1223527817bcc4dac0075493ed718490924298d904a119bba9c559b62/posuto-2024.4.0.tar.gz
+[2024-05-01 11:29:01] WARNING root fetch - processPackages [rtc-tools-simulation]: Skipping, unable to determine old version
+[2024-05-01 11:29:01] INFO root fetch - main [MainThread]: End processing [rtc-tools-simulation] error
+[2024-05-01 11:29:01] INFO root fetch - processPackages [seamm-widgets]: New version: [2024.5.1] Old Version: [2022.7.29]
+[2024-05-01 11:29:01] INFO root fetch - processPackages [hikari-lightbulb]: New version: [3.0.0a0] Old Version: [2.3.5]
+[2024-05-01 11:29:01] INFO root fetch - processPackages [hikari-lightbulb]: Downloading https://files.pythonhosted.org/packages/7e/27/5389d41b416340b69b07d4056ab7cd9afbe6e064e80a6c7774546f75dc46/hikari-lightbulb-2.3.5.tar.gz
+[2024-05-01 11:29:01] INFO root fetch - processPackages [seamm-widgets]: Downloading https://files.pythonhosted.org/packages/99/0f/fe2337571fc754134aaa83582a21540c29b4ab33136816d8642209f5cc1a/seamm_widgets-2022.7.29.tar.gz
+[2024-05-01 11:29:02] INFO root fetch - processPackages [seamm-widgets]: Downloading https://files.pythonhosted.org/packages/63/16/3333558fb4598fed3ebf697d11499552621b0cbd8c300aaaaa21aa62bfac/seamm_widgets-2024.5.1.tar.gz
+[2024-05-01 11:29:02] INFO root fetch - processPackages [posuto]: Downloading https://files.pythonhosted.org/packages/fd/96/43e19e204d6c95e1f4564f6941b3a11359308effdbb8c9bc19d074504e61/posuto-2024.5.0.tar.gz
+[2024-05-01 11:29:02] INFO root fetch - processPackages [hikari-lightbulb]: Downloading https://files.pythonhosted.org/packages/86/f8/1d8b418fc27697e12817645c792a1e26e091582d1e940057a2db8f46ee9a/hikari_lightbulb-3.0.0a0.tar.gz
+[2024-05-01 11:29:02] INFO root fetch - processPackages [seamm-widgets]: executing diffoscope
+[2024-05-01 11:29:02] INFO root fetch - processPackages [seamm-widgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seamm_widgets-2022.7.29.tar.gz tmp/seamm_widgets-2024.5.1.tar.gz --markdown 20240501/s/seamm-widgets/2022.7.29-2024.5.1/README.md --exclude *.pyd
+[2024-05-01 11:29:02] INFO root fetch - processPackages [hikari-lightbulb]: executing diffoscope
+[2024-05-01 11:29:02] INFO root fetch - processPackages [hikari-lightbulb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hikari-lightbulb-2.3.5.tar.gz tmp/hikari_lightbulb-3.0.0a0.tar.gz --markdown 20240501/h/hikari-lightbulb/2.3.5-3.0.0a0/README.md --exclude *.pyd
+[2024-05-01 11:29:02] INFO root fetch - processPackages [posuto]: executing diffoscope
+[2024-05-01 11:29:02] INFO root fetch - processPackages [posuto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/posuto-2024.4.0.tar.gz tmp/posuto-2024.5.0.tar.gz --markdown 20240501/p/posuto/2024.4.0-2024.5.0/README.md --exclude *.pyd
+[2024-05-01 11:29:02] INFO root fetch - processPackages [hikari-lightbulb]: Remove: archive file [/home/abi/fetcher/tmp/hikari-lightbulb-2.3.5.tar.gz]
+[2024-05-01 11:29:02] INFO root fetch - processPackages [hikari-lightbulb]: Remove: archive file [/home/abi/fetcher/tmp/hikari_lightbulb-3.0.0a0.tar.gz]
+[2024-05-01 11:29:02] INFO root fetch - main [MainThread]: End processing [hikari-lightbulb]: success
+[2024-05-01 11:29:03] INFO root fetch - processPackages [seamm-widgets]: Remove: archive file [/home/abi/fetcher/tmp/seamm_widgets-2022.7.29.tar.gz]
+[2024-05-01 11:29:03] INFO root fetch - processPackages [seamm-widgets]: Remove: archive file [/home/abi/fetcher/tmp/seamm_widgets-2024.5.1.tar.gz]
+[2024-05-01 11:29:03] INFO root fetch - main [MainThread]: End processing [seamm-widgets]: success
+[2024-05-01 11:29:15] INFO root fetch - processPackages [posuto]: Remove: archive file [/home/abi/fetcher/tmp/posuto-2024.4.0.tar.gz]
+[2024-05-01 11:29:15] INFO root fetch - processPackages [posuto]: Remove: archive file [/home/abi/fetcher/tmp/posuto-2024.5.0.tar.gz]
+[2024-05-01 11:29:15] INFO root fetch - main [MainThread]: End processing [posuto]: success
+[2024-05-01 11:29:15] INFO root fetch - main [MainThread]: Store serial: [23014729]
