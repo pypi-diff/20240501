@@ -13554,3 +13554,24 @@
 [2024-05-01 10:58:23] INFO root fetch - processPackages [pysma-plus]: Remove: archive file [/home/abi/fetcher/tmp/pysma_plus-0.2.1.tar.gz]
 [2024-05-01 10:58:23] INFO root fetch - main [MainThread]: End processing [pysma-plus]: success
 [2024-05-01 10:58:23] INFO root fetch - main [MainThread]: Store serial: [23014378]
+[2024-05-01 11:00:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23014378]
+[2024-05-01 11:00:32] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-01 11:00:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: riprint
+[2024-05-01 11:00:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pineboo
+[2024-05-01 11:00:32] INFO root fetch - processPackages [riprint]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-05-01 11:00:32] INFO root fetch - processPackages [pineboo]: New version: [0.99.83.1] Old Version: [0.99.83]
+[2024-05-01 11:00:32] INFO root fetch - processPackages [riprint]: Downloading https://files.pythonhosted.org/packages/a0/43/9848b01c4469dc8e4a9fa2ff3e9ebd51e60e16b0dd59b2c7ffba05e011c3/riprint-1.0.4-py3-none-any.whl
+[2024-05-01 11:00:32] INFO root fetch - processPackages [pineboo]: Downloading https://files.pythonhosted.org/packages/cd/18/3740ac244878ed5cc0eb68b4c30e4e0c7a54411de317810166a0acbbb526/pineboo-0.99.83.tar.gz
+[2024-05-01 11:00:33] INFO root fetch - processPackages [riprint]: Downloading https://files.pythonhosted.org/packages/30/34/6206ab33d8244417f52d5e623d42180132d951b8301a70fed1b3a033cd83/riprint-1.0.5-py3-none-any.whl
+[2024-05-01 11:00:33] INFO root fetch - processPackages [riprint]: executing diffoscope
+[2024-05-01 11:00:33] INFO root fetch - processPackages [riprint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/riprint-1.0.4-py3-none-any.whl.zip tmp/riprint-1.0.5-py3-none-any.whl.zip --markdown 20240501/r/riprint/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-05-01 11:00:33] INFO root fetch - processPackages [riprint]: Remove: archive file [/home/abi/fetcher/tmp/riprint-1.0.4-py3-none-any.whl.zip]
+[2024-05-01 11:00:33] INFO root fetch - processPackages [riprint]: Remove: archive file [/home/abi/fetcher/tmp/riprint-1.0.5-py3-none-any.whl.zip]
+[2024-05-01 11:00:33] INFO root fetch - main [MainThread]: End processing [riprint]: success
+[2024-05-01 11:00:33] INFO root fetch - processPackages [pineboo]: Downloading https://files.pythonhosted.org/packages/43/6b/abe9ec58d7c104717106f46631ffff111da4311cedc9b906f9058dc5d4d2/pineboo-0.99.83.1.tar.gz
+[2024-05-01 11:00:34] INFO root fetch - processPackages [pineboo]: executing diffoscope
+[2024-05-01 11:00:34] INFO root fetch - processPackages [pineboo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pineboo-0.99.83.tar.gz tmp/pineboo-0.99.83.1.tar.gz --markdown 20240501/p/pineboo/0.99.83-0.99.83.1/README.md --exclude *.pyd
+[2024-05-01 11:00:37] INFO root fetch - processPackages [pineboo]: Remove: archive file [/home/abi/fetcher/tmp/pineboo-0.99.83.tar.gz]
+[2024-05-01 11:00:37] INFO root fetch - processPackages [pineboo]: Remove: archive file [/home/abi/fetcher/tmp/pineboo-0.99.83.1.tar.gz]
+[2024-05-01 11:00:37] INFO root fetch - main [MainThread]: End processing [pineboo]: success
+[2024-05-01 11:00:37] INFO root fetch - main [MainThread]: Store serial: [23014383]
