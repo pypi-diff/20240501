@@ -15715,3 +15715,12 @@
 [2024-05-01 12:42:01] INFO root fetch - processPackages [edgeimpulse-api]: Remove: archive file [/home/abi/fetcher/tmp/edgeimpulse_api-1.49.9.tar.gz]
 [2024-05-01 12:42:01] INFO root fetch - main [MainThread]: End processing [edgeimpulse-api]: success
 [2024-05-01 12:42:01] INFO root fetch - main [MainThread]: Store serial: [23015298]
+[2024-05-01 12:44:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23015298]
+[2024-05-01 12:44:10] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-01 12:44:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: figuralib
+[2024-05-01 12:44:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyopsin
+[2024-05-01 12:44:10] WARNING root fetch - processPackages [figuralib]: Skipping, unable to determine old version
+[2024-05-01 12:44:10] INFO root fetch - main [MainThread]: End processing [figuralib] error
+[2024-05-01 12:44:10] WARNING root fetch - processPackages [pyopsin]: Skipping, unable to determine old version
+[2024-05-01 12:44:10] INFO root fetch - main [MainThread]: End processing [pyopsin] error
+[2024-05-01 12:44:10] INFO root fetch - main [MainThread]: Store serial: [23015307]
