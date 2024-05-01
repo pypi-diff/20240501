@@ -17592,3 +17592,61 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-01 13:49:28] INFO root fetch - processPackages [configuraptor]: Remove: archive file [/home/abi/fetcher/tmp/configuraptor-1.9.2.tar.gz]
 [2024-05-01 13:49:28] INFO root fetch - main [MainThread]: End processing [configuraptor]: success
 [2024-05-01 13:49:28] INFO root fetch - main [MainThread]: Store serial: [23016005]
+[2024-05-01 13:51:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23016005]
+[2024-05-01 13:51:38] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-01 13:51:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pinjected
+[2024-05-01 13:51:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: port-ocean
+[2024-05-01 13:51:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: trytond-product-measurements
+[2024-05-01 13:51:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: trytond-product-kit
+[2024-05-01 13:51:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pytorch-accelerated
+[2024-05-01 13:51:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: trytond-product-kit
+[2024-05-01 13:51:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fizzbuzz-draw
+[2024-05-01 13:51:38] INFO root fetch - processPackages [port-ocean]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-05-01 13:51:38] INFO root fetch - processPackages [pinjected]: New version: [0.2.49] Old Version: [0.2.48]
+[2024-05-01 13:51:38] WARNING root fetch - processPackages [fizzbuzz-draw]: Skipping, unable to determine old version
+[2024-05-01 13:51:38] INFO root fetch - main [MainThread]: End processing [fizzbuzz-draw] error
+[2024-05-01 13:51:38] INFO root fetch - processPackages [trytond-product-measurements]: New version: [7.2.1] Old Version: [7.2.0]
+[2024-05-01 13:51:38] INFO root fetch - processPackages [port-ocean]: Downloading https://files.pythonhosted.org/packages/78/bc/7cc9e8e2e79075a3c79c00273aaeb13f895d17585c027c53b61f77bdaba4/port_ocean-0.5.8.tar.gz
+[2024-05-01 13:51:38] INFO root fetch - processPackages [trytond-product-kit]: New version: [7.2.0] Old Version: [7.0.3]
+[2024-05-01 13:51:38] INFO root fetch - processPackages [trytond-product-kit]: New version: [7.2.0] Old Version: [7.0.3]
+[2024-05-01 13:51:38] INFO root fetch - processPackages [pytorch-accelerated]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-01 13:51:38] INFO root fetch - processPackages [pinjected]: Downloading https://files.pythonhosted.org/packages/31/46/7127ee414cdc30a4b2df0adac82bd6b1745dbcdc9cb1f88d9e767036a500/pinjected-0.2.48.tar.gz
+[2024-05-01 13:51:38] INFO root fetch - processPackages [trytond-product-measurements]: Downloading https://files.pythonhosted.org/packages/bd/13/4a09b688484ff70af3f25f3df9fab0dbb45261f2079f0fe40fc0d1e31744/trytond_product_measurements-7.2.0.tar.gz
+[2024-05-01 13:51:38] INFO root fetch - processPackages [trytond-product-kit]: Downloading https://files.pythonhosted.org/packages/78/89/ea3248b514147ec8625278445e4257713a48c4d17553c879ff3b7ffa6fbe/trytond_product_kit-7.0.3.tar.gz
+[2024-05-01 13:51:38] INFO root fetch - processPackages [trytond-product-kit]: Downloading https://files.pythonhosted.org/packages/78/89/ea3248b514147ec8625278445e4257713a48c4d17553c879ff3b7ffa6fbe/trytond_product_kit-7.0.3.tar.gz
+[2024-05-01 13:51:38] INFO root fetch - processPackages [port-ocean]: Downloading https://files.pythonhosted.org/packages/9a/b8/b4b21f5c3d509271ff988cb9644c8429ce3f2eb23c44e309e16fc3f2c3d6/port_ocean-0.5.9.tar.gz
+[2024-05-01 13:51:38] INFO root fetch - processPackages [pytorch-accelerated]: Downloading https://files.pythonhosted.org/packages/3b/6a/868c35a4f9fe93a595af743c8cc7bc6dc98db3c750f1d386d56a6df297c8/pytorch-accelerated-0.1.8.tar.gz
+[2024-05-01 13:51:38] INFO root fetch - processPackages [pinjected]: Downloading https://files.pythonhosted.org/packages/20/d0/58fad249c4cd93ff44b6fbc53c850a27b3afc248cfdca76f057bc7b77db1/pinjected-0.2.49.tar.gz
+[2024-05-01 13:51:38] INFO root fetch - processPackages [port-ocean]: executing diffoscope
+[2024-05-01 13:51:38] INFO root fetch - processPackages [port-ocean]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/port_ocean-0.5.8.tar.gz tmp/port_ocean-0.5.9.tar.gz --markdown 20240501/p/port-ocean/0.5.8-0.5.9/README.md --exclude *.pyd
+[2024-05-01 13:51:38] INFO root fetch - processPackages [pinjected]: executing diffoscope
+[2024-05-01 13:51:38] INFO root fetch - processPackages [pinjected]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pinjected-0.2.48.tar.gz tmp/pinjected-0.2.49.tar.gz --markdown 20240501/p/pinjected/0.2.48-0.2.49/README.md --exclude *.pyd
+[2024-05-01 13:51:38] INFO root fetch - processPackages [trytond-product-measurements]: Downloading https://files.pythonhosted.org/packages/76/1d/ebbfd5210ab34a05d4ce843226d15fc24cf91fa8749da5a2fde7148d7092/trytond_product_measurements-7.2.1.tar.gz
+[2024-05-01 13:51:38] INFO root fetch - processPackages [trytond-product-kit]: Downloading https://files.pythonhosted.org/packages/48/b9/087300dd06113e3991f28f52c0b11d0b998d268b67ed856783dcd9966d9c/trytond_product_kit-7.2.0.tar.gz
+[2024-05-01 13:51:38] INFO root fetch - processPackages [trytond-product-kit]: Downloading https://files.pythonhosted.org/packages/48/b9/087300dd06113e3991f28f52c0b11d0b998d268b67ed856783dcd9966d9c/trytond_product_kit-7.2.0.tar.gz
+[2024-05-01 13:51:38] INFO root fetch - processPackages [trytond-product-measurements]: executing diffoscope
+[2024-05-01 13:51:38] INFO root fetch - processPackages [trytond-product-measurements]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_product_measurements-7.2.0.tar.gz tmp/trytond_product_measurements-7.2.1.tar.gz --markdown 20240501/t/trytond-product-measurements/7.2.0-7.2.1/README.md --exclude *.pyd
+[2024-05-01 13:51:39] INFO root fetch - processPackages [trytond-product-kit]: executing diffoscope
+[2024-05-01 13:51:39] INFO root fetch - processPackages [trytond-product-kit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_product_kit-7.0.3.tar.gz tmp/trytond_product_kit-7.2.0.tar.gz --markdown 20240501/t/trytond-product-kit/7.0.3-7.2.0/README.md --exclude *.pyd
+[2024-05-01 13:51:39] INFO root fetch - processPackages [trytond-product-kit]: executing diffoscope
+[2024-05-01 13:51:39] INFO root fetch - processPackages [trytond-product-kit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_product_kit-7.0.3.tar.gz tmp/trytond_product_kit-7.2.0.tar.gz --markdown 20240501/t/trytond-product-kit/7.0.3-7.2.0/README.md --exclude *.pyd
+[2024-05-01 13:51:39] INFO root fetch - processPackages [pytorch-accelerated]: Downloading https://files.pythonhosted.org/packages/56/43/c5a3fb11e546d410974b31843117a8105e8cb74cf6f0fc74b9d8da8c5fad/pytorch-accelerated-0.1.9.tar.gz
+[2024-05-01 13:51:39] INFO root fetch - processPackages [pytorch-accelerated]: executing diffoscope
+[2024-05-01 13:51:39] INFO root fetch - processPackages [pytorch-accelerated]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytorch-accelerated-0.1.8.tar.gz tmp/pytorch-accelerated-0.1.9.tar.gz --markdown 20240501/p/pytorch-accelerated/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-01 13:51:39] INFO root fetch - processPackages [pinjected]: Remove: archive file [/home/abi/fetcher/tmp/pinjected-0.2.48.tar.gz]
+[2024-05-01 13:51:39] INFO root fetch - processPackages [pinjected]: Remove: archive file [/home/abi/fetcher/tmp/pinjected-0.2.49.tar.gz]
+[2024-05-01 13:51:39] INFO root fetch - main [MainThread]: End processing [pinjected]: success
+[2024-05-01 13:51:39] INFO root fetch - processPackages [trytond-product-measurements]: Remove: archive file [/home/abi/fetcher/tmp/trytond_product_measurements-7.2.0.tar.gz]
+[2024-05-01 13:51:39] INFO root fetch - processPackages [trytond-product-measurements]: Remove: archive file [/home/abi/fetcher/tmp/trytond_product_measurements-7.2.1.tar.gz]
+[2024-05-01 13:51:39] INFO root fetch - main [MainThread]: End processing [trytond-product-measurements]: success
+[2024-05-01 13:51:39] INFO root fetch - processPackages [port-ocean]: Remove: archive file [/home/abi/fetcher/tmp/port_ocean-0.5.8.tar.gz]
+[2024-05-01 13:51:39] INFO root fetch - processPackages [port-ocean]: Remove: archive file [/home/abi/fetcher/tmp/port_ocean-0.5.9.tar.gz]
+[2024-05-01 13:51:39] INFO root fetch - main [MainThread]: End processing [port-ocean]: success
+[2024-05-01 13:51:39] INFO root fetch - processPackages [trytond-product-kit]: Remove: archive file [/home/abi/fetcher/tmp/trytond_product_kit-7.0.3.tar.gz]
+[2024-05-01 13:51:39] INFO root fetch - processPackages [trytond-product-kit]: Remove: archive file [/home/abi/fetcher/tmp/trytond_product_kit-7.2.0.tar.gz]
+[2024-05-01 13:51:39] INFO root fetch - main [MainThread]: End processing [trytond-product-kit]: success
+[2024-05-01 13:51:40] INFO root fetch - processPackages [pytorch-accelerated]: Remove: archive file [/home/abi/fetcher/tmp/pytorch-accelerated-0.1.8.tar.gz]
+[2024-05-01 13:51:40] INFO root fetch - processPackages [pytorch-accelerated]: Remove: archive file [/home/abi/fetcher/tmp/pytorch-accelerated-0.1.9.tar.gz]
+[2024-05-01 13:51:40] INFO root fetch - main [MainThread]: End processing [pytorch-accelerated]: success
+[2024-05-01 13:51:40] INFO root fetch - main [MainThread]: End processing [trytond-product-kit]: success
+[2024-05-01 13:51:40] INFO root fetch - main [MainThread]: Store serial: [23016026]
