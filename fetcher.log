@@ -7266,3 +7266,18 @@
 [2024-05-01 04:25:41] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20240430.tar.gz]
 [2024-05-01 04:25:41] INFO root fetch - main [MainThread]: End processing [iam-actions]: success
 [2024-05-01 04:25:41] INFO root fetch - main [MainThread]: Store serial: [23011504]
+[2024-05-01 04:27:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23011504]
+[2024-05-01 04:27:51] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-01 04:27:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zyx
+[2024-05-01 04:27:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xss-shield
+[2024-05-01 04:27:51] INFO root fetch - processPackages [zyx]: New version: [0.0.10] Old Version: [0.0.1]
+[2024-05-01 04:27:51] WARNING root fetch - processPackages [xss-shield]: Skipping, unable to determine old version
+[2024-05-01 04:27:51] INFO root fetch - main [MainThread]: End processing [xss-shield] error
+[2024-05-01 04:27:51] INFO root fetch - processPackages [zyx]: Downloading https://files.pythonhosted.org/packages/4b/d7/57b691841998682b15ce8c5f400abe696fae2615426f3eab8405268d7c98/zyx-0.0.1.tar.gz
+[2024-05-01 04:27:51] INFO root fetch - processPackages [zyx]: Downloading https://files.pythonhosted.org/packages/d3/ab/eedbb51529bb616b0fdb0a90b03e7810922fe8745dd4aef57b20bfc0e524/zyx-0.0.10.tar.gz
+[2024-05-01 04:27:51] INFO root fetch - processPackages [zyx]: executing diffoscope
+[2024-05-01 04:27:51] INFO root fetch - processPackages [zyx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zyx-0.0.1.tar.gz tmp/zyx-0.0.10.tar.gz --markdown 20240501/z/zyx/0.0.1-0.0.10/README.md --exclude *.pyd
+[2024-05-01 04:27:52] INFO root fetch - processPackages [zyx]: Remove: archive file [/home/abi/fetcher/tmp/zyx-0.0.1.tar.gz]
+[2024-05-01 04:27:52] INFO root fetch - processPackages [zyx]: Remove: archive file [/home/abi/fetcher/tmp/zyx-0.0.10.tar.gz]
+[2024-05-01 04:27:52] INFO root fetch - main [MainThread]: End processing [zyx]: success
+[2024-05-01 04:27:52] INFO root fetch - main [MainThread]: Store serial: [23011510]
