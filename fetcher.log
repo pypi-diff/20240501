@@ -16312,3 +16312,41 @@
 [2024-05-01 13:04:45] INFO root fetch - processPackages [django-formset]: Remove: archive file [/home/abi/fetcher/tmp/django_formset-1.4.tar.gz]
 [2024-05-01 13:04:45] INFO root fetch - main [MainThread]: End processing [django-formset]: success
 [2024-05-01 13:04:45] INFO root fetch - main [MainThread]: Store serial: [23015540]
+[2024-05-01 13:06:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23015540]
+[2024-05-01 13:06:55] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-01 13:06:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: figuralib
+[2024-05-01 13:06:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: khoj-assistant
+[2024-05-01 13:06:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: TheSilent
+[2024-05-01 13:06:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: juxtapose
+[2024-05-01 13:06:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mimllearning
+[2024-05-01 13:06:55] INFO root fetch - processPackages [mimllearning]: New version: [0.2.8] Old Version: [0.2.7]
+[2024-05-01 13:06:55] WARNING root fetch - processPackages [figuralib]: Skipping, unable to determine old version
+[2024-05-01 13:06:55] INFO root fetch - main [MainThread]: End processing [figuralib] error
+[2024-05-01 13:06:55] INFO root fetch - processPackages [khoj-assistant]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev74]
+[2024-05-01 13:06:55] INFO root fetch - processPackages [juxtapose]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-01 13:06:55] INFO root fetch - processPackages [mimllearning]: Downloading https://files.pythonhosted.org/packages/13/b9/8bb20d442048ff0f02ace28fa1714fba7126b12be0fd8f2a9cb25c223e06/mimllearning-0.2.7.tar.gz
+[2024-05-01 13:06:55] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/fc/89/bbf1c812c39a0f341fea130ae430c11fcdd5fdcc5ca61fbaed2682cc4df7/khoj_assistant-1.9.1.dev74.tar.gz
+[2024-05-01 13:06:55] INFO root fetch - processPackages [TheSilent]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-01 13:06:55] INFO root fetch - processPackages [juxtapose]: Downloading https://files.pythonhosted.org/packages/61/ef/b8b96f6ca1edc65e2f9e7470c51e5294b5cbbabb55ca13a82f4456e37edc/juxtapose-0.0.8.tar.gz
+[2024-05-01 13:06:55] INFO root fetch - processPackages [mimllearning]: Downloading https://files.pythonhosted.org/packages/36/1c/993a41e739f8874ea307c16f8f57c4e8d6f00573d4939419a1d160b6d424/mimllearning-0.2.8.tar.gz
+[2024-05-01 13:06:55] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/47/ae/446626ff585bb336b70b59402ea6a46bf52326a51b81fd9ead920cde4c8a/khoj_assistant-1.9.1.dev8.tar.gz
+[2024-05-01 13:06:55] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/ad/09/2a1f42483bf3fbc17417489cf4f3d6ec17c5c763e219aa02ad1827f29dc1/TheSilent-0.0.98.tar.gz
+[2024-05-01 13:06:55] INFO root fetch - processPackages [mimllearning]: executing diffoscope
+[2024-05-01 13:06:55] INFO root fetch - processPackages [mimllearning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mimllearning-0.2.7.tar.gz tmp/mimllearning-0.2.8.tar.gz --markdown 20240501/m/mimllearning/0.2.7-0.2.8/README.md --exclude *.pyd
+[2024-05-01 13:06:55] INFO root fetch - processPackages [khoj-assistant]: executing diffoscope
+[2024-05-01 13:06:55] INFO root fetch - processPackages [khoj-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/khoj_assistant-1.9.1.dev74.tar.gz tmp/khoj_assistant-1.9.1.dev8.tar.gz --markdown 20240501/k/khoj-assistant/1.9.1.dev74-1.9.1.dev8/README.md --exclude *.pyd
+[2024-05-01 13:06:56] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/38/21/9b42cfa55edd85cfd4fefba7fb94aab0891af2b6c90ef59e687a42228a0b/TheSilent-0.0.99.tar.gz
+[2024-05-01 13:06:56] INFO root fetch - processPackages [TheSilent]: executing diffoscope
+[2024-05-01 13:06:56] INFO root fetch - processPackages [TheSilent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TheSilent-0.0.98.tar.gz tmp/TheSilent-0.0.99.tar.gz --markdown 20240501/T/TheSilent/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-01 13:06:56] INFO root fetch - processPackages [mimllearning]: Remove: archive file [/home/abi/fetcher/tmp/mimllearning-0.2.7.tar.gz]
+[2024-05-01 13:06:56] INFO root fetch - processPackages [mimllearning]: Remove: archive file [/home/abi/fetcher/tmp/mimllearning-0.2.8.tar.gz]
+[2024-05-01 13:06:56] INFO root fetch - main [MainThread]: End processing [mimllearning]: success
+[2024-05-01 13:06:56] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.98.tar.gz]
+[2024-05-01 13:06:56] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.99.tar.gz]
+[2024-05-01 13:06:56] INFO root fetch - main [MainThread]: End processing [TheSilent]: success
+[2024-05-01 13:06:56] WARNING root fetch - processPackages [juxtapose]: Skipping package: exceeds size limit 19361597>=10485760
+[2024-05-01 13:06:56] INFO root fetch - main [MainThread]: End processing [juxtapose] error
+[2024-05-01 13:06:57] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-1.9.1.dev74.tar.gz]
+[2024-05-01 13:06:57] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-1.9.1.dev8.tar.gz]
+[2024-05-01 13:06:57] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
+[2024-05-01 13:06:57] INFO root fetch - main [MainThread]: Store serial: [23015556]
