@@ -16043,3 +16043,66 @@
 [2024-05-01 12:53:28] INFO root fetch - processPackages [wagtail]: Remove: archive file [/home/abi/fetcher/tmp/wagtail-6.1rc2.tar.gz]
 [2024-05-01 12:53:28] INFO root fetch - main [MainThread]: End processing [wagtail]: success
 [2024-05-01 12:53:28] INFO root fetch - main [MainThread]: Store serial: [23015409]
+[2024-05-01 12:55:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23015409]
+[2024-05-01 12:55:38] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-01 12:55:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-multi-bulk-updater
+[2024-05-01 12:55:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: BulkUpdateWithMultThreading
+[2024-05-01 12:55:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lusid-sdk
+[2024-05-01 12:55:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lusid-sdk-preview
+[2024-05-01 12:55:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: roadtx
+[2024-05-01 12:55:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: green-bit-llm
+[2024-05-01 12:55:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: seam
+[2024-05-01 12:55:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: africanwhisper
+[2024-05-01 12:55:38] WARNING root fetch - processPackages [BulkUpdateWithMultThreading]: Skipping, unable to determine old version
+[2024-05-01 12:55:38] INFO root fetch - main [MainThread]: End processing [BulkUpdateWithMultThreading] error
+[2024-05-01 12:55:38] INFO root fetch - processPackages [seam]: New version: [0.6.0] Old Version: [0.5.0]
+[2024-05-01 12:55:38] INFO root fetch - processPackages [green-bit-llm]: New version: [0.1.0] Old Version: [0.0.1]
+[2024-05-01 12:55:38] INFO root fetch - processPackages [roadtx]: New version: [1.7.1] Old Version: [1.7.0]
+[2024-05-01 12:55:38] WARNING root fetch - processPackages [django-multi-bulk-updater]: Skipping, unable to determine old version
+[2024-05-01 12:55:38] INFO root fetch - processPackages [africanwhisper]: New version: [0.9.2] Old Version: [0.9.1]
+[2024-05-01 12:55:38] INFO root fetch - main [MainThread]: End processing [django-multi-bulk-updater] error
+[2024-05-01 12:55:38] INFO root fetch - processPackages [lusid-sdk-preview]: New version: [1.1.98] Old Version: [1.1.97]
+[2024-05-01 12:55:38] INFO root fetch - processPackages [seam]: Downloading https://files.pythonhosted.org/packages/71/99/13ff269b98799b4c5cc8156b82241f6d5618509aa1598c7932fda6ccbed2/seam-0.5.0.tar.gz
+[2024-05-01 12:55:38] INFO root fetch - processPackages [roadtx]: Downloading https://files.pythonhosted.org/packages/9f/25/fd7dd0b11babbb8f373c8c1bf7cd6ddaa505101c377f3deaa9fac9c2136f/roadtx-1.7.0.tar.gz
+[2024-05-01 12:55:38] INFO root fetch - processPackages [lusid-sdk-preview]: Downloading https://files.pythonhosted.org/packages/f9/fb/fc53cb5d0455e9bbd1207566684f6f2cd700268ae435d3172e9489e357d8/lusid-sdk-preview-1.1.97.tar.gz
+[2024-05-01 12:55:38] INFO root fetch - processPackages [green-bit-llm]: Downloading https://files.pythonhosted.org/packages/96/a6/28043807fabb5f0a9da10f8c15f952bddcf34dad23d1dee045a0fca06434/green-bit-llm-0.0.1.tar.gz
+[2024-05-01 12:55:38] INFO root fetch - processPackages [africanwhisper]: Downloading https://files.pythonhosted.org/packages/85/b2/ce62339f54245a74afbc91fc3c5ce2bce406cabc813588987e7215d15653/africanwhisper-0.9.1.tar.gz
+[2024-05-01 12:55:38] INFO root fetch - processPackages [lusid-sdk]: New version: [2.1.70] Old Version: [2.1.7]
+[2024-05-01 12:55:38] INFO root fetch - processPackages [seam]: Downloading https://files.pythonhosted.org/packages/8d/7c/686a3584a8b5fb34028a303d77be938952618945b820840f3fffc39d92cc/seam-0.6.0.tar.gz
+[2024-05-01 12:55:38] INFO root fetch - processPackages [africanwhisper]: Downloading https://files.pythonhosted.org/packages/ff/2f/b624c3946b88a37a35a03af01a979db1ef9cfd77f2830d14ec0d41889dcf/africanwhisper-0.9.2.tar.gz
+[2024-05-01 12:55:38] INFO root fetch - processPackages [roadtx]: Downloading https://files.pythonhosted.org/packages/3c/8d/4a4315a0188a70132eca916651a6cb0e2c9e83862bf45cff2b01b1019bff/roadtx-1.7.1.tar.gz
+[2024-05-01 12:55:38] INFO root fetch - processPackages [lusid-sdk]: Downloading https://files.pythonhosted.org/packages/ef/9e/cac4eb8acb9b4225644a8ecd621bda7df1f3ecf1d132898e9a3ec1ed6723/lusid_sdk-2.1.7.tar.gz
+[2024-05-01 12:55:39] INFO root fetch - processPackages [green-bit-llm]: Downloading https://files.pythonhosted.org/packages/39/19/ce864ed12537aca134426c611badbfdad51ea4cc061d5e78444fe7a826bf/green-bit-llm-0.1.0.tar.gz
+[2024-05-01 12:55:39] INFO root fetch - processPackages [africanwhisper]: executing diffoscope
+[2024-05-01 12:55:39] INFO root fetch - processPackages [africanwhisper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/africanwhisper-0.9.1.tar.gz tmp/africanwhisper-0.9.2.tar.gz --markdown 20240501/a/africanwhisper/0.9.1-0.9.2/README.md --exclude *.pyd
+[2024-05-01 12:55:39] INFO root fetch - processPackages [seam]: executing diffoscope
+[2024-05-01 12:55:39] INFO root fetch - processPackages [seam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seam-0.5.0.tar.gz tmp/seam-0.6.0.tar.gz --markdown 20240501/s/seam/0.5.0-0.6.0/README.md --exclude *.pyd
+[2024-05-01 12:55:39] INFO root fetch - processPackages [roadtx]: executing diffoscope
+[2024-05-01 12:55:39] INFO root fetch - processPackages [roadtx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roadtx-1.7.0.tar.gz tmp/roadtx-1.7.1.tar.gz --markdown 20240501/r/roadtx/1.7.0-1.7.1/README.md --exclude *.pyd
+[2024-05-01 12:55:39] INFO root fetch - processPackages [lusid-sdk-preview]: Downloading https://files.pythonhosted.org/packages/c5/34/68330ec346008829c8b0f483665ee7ae8ba394a18406fd563696f8ee59e8/lusid-sdk-preview-1.1.98.tar.gz
+[2024-05-01 12:55:39] INFO root fetch - processPackages [green-bit-llm]: executing diffoscope
+[2024-05-01 12:55:39] INFO root fetch - processPackages [green-bit-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/green-bit-llm-0.0.1.tar.gz tmp/green-bit-llm-0.1.0.tar.gz --markdown 20240501/g/green-bit-llm/0.0.1-0.1.0/README.md --exclude *.pyd
+[2024-05-01 12:55:39] INFO root fetch - processPackages [lusid-sdk]: Downloading https://files.pythonhosted.org/packages/36/af/0fb304b19d0060a01b0da6706410bedf59d1a089a3e8be1669b43862e7fc/lusid_sdk-2.1.70.tar.gz
+[2024-05-01 12:55:39] INFO root fetch - processPackages [lusid-sdk-preview]: executing diffoscope
+[2024-05-01 12:55:39] INFO root fetch - processPackages [lusid-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-sdk-preview-1.1.97.tar.gz tmp/lusid-sdk-preview-1.1.98.tar.gz --markdown 20240501/l/lusid-sdk-preview/1.1.97-1.1.98/README.md --exclude *.pyd
+[2024-05-01 12:55:39] INFO root fetch - processPackages [lusid-sdk]: executing diffoscope
+[2024-05-01 12:55:39] INFO root fetch - processPackages [lusid-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid_sdk-2.1.7.tar.gz tmp/lusid_sdk-2.1.70.tar.gz --markdown 20240501/l/lusid-sdk/2.1.7-2.1.70/README.md --exclude *.pyd
+[2024-05-01 12:55:39] INFO root fetch - processPackages [roadtx]: Remove: archive file [/home/abi/fetcher/tmp/roadtx-1.7.0.tar.gz]
+[2024-05-01 12:55:39] INFO root fetch - processPackages [roadtx]: Remove: archive file [/home/abi/fetcher/tmp/roadtx-1.7.1.tar.gz]
+[2024-05-01 12:55:39] INFO root fetch - main [MainThread]: End processing [roadtx]: success
+[2024-05-01 12:55:39] INFO root fetch - processPackages [africanwhisper]: Remove: archive file [/home/abi/fetcher/tmp/africanwhisper-0.9.1.tar.gz]
+[2024-05-01 12:55:39] INFO root fetch - processPackages [africanwhisper]: Remove: archive file [/home/abi/fetcher/tmp/africanwhisper-0.9.2.tar.gz]
+[2024-05-01 12:55:39] INFO root fetch - main [MainThread]: End processing [africanwhisper]: success
+[2024-05-01 12:55:39] INFO root fetch - processPackages [green-bit-llm]: Remove: archive file [/home/abi/fetcher/tmp/green-bit-llm-0.0.1.tar.gz]
+[2024-05-01 12:55:39] INFO root fetch - processPackages [green-bit-llm]: Remove: archive file [/home/abi/fetcher/tmp/green-bit-llm-0.1.0.tar.gz]
+[2024-05-01 12:55:39] INFO root fetch - main [MainThread]: End processing [green-bit-llm]: success
+[2024-05-01 12:55:39] INFO root fetch - processPackages [seam]: Remove: archive file [/home/abi/fetcher/tmp/seam-0.5.0.tar.gz]
+[2024-05-01 12:55:39] INFO root fetch - processPackages [seam]: Remove: archive file [/home/abi/fetcher/tmp/seam-0.6.0.tar.gz]
+[2024-05-01 12:55:39] INFO root fetch - main [MainThread]: End processing [seam]: success
+[2024-05-01 12:55:45] INFO root fetch - processPackages [lusid-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_sdk-2.1.7.tar.gz]
+[2024-05-01 12:55:45] INFO root fetch - processPackages [lusid-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_sdk-2.1.70.tar.gz]
+[2024-05-01 12:55:45] INFO root fetch - main [MainThread]: End processing [lusid-sdk]: success
+[2024-05-01 12:55:53] INFO root fetch - processPackages [lusid-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-sdk-preview-1.1.97.tar.gz]
+[2024-05-01 12:55:53] INFO root fetch - processPackages [lusid-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-sdk-preview-1.1.98.tar.gz]
+[2024-05-01 12:55:53] INFO root fetch - main [MainThread]: End processing [lusid-sdk-preview]: success
+[2024-05-01 12:55:53] INFO root fetch - main [MainThread]: Store serial: [23015444]
