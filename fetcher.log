@@ -10260,3 +10260,36 @@
 [2024-05-01 07:52:23] INFO root fetch - processPackages [snorer]: Remove: archive file [/home/abi/fetcher/tmp/snorer-1.0.0.tar.gz]
 [2024-05-01 07:52:23] INFO root fetch - main [MainThread]: End processing [snorer]: success
 [2024-05-01 07:52:23] INFO root fetch - main [MainThread]: Store serial: [23012807]
+[2024-05-01 07:54:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23012807]
+[2024-05-01 07:54:33] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-01 07:54:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: libfsext-python
+[2024-05-01 07:54:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: unione
+[2024-05-01 07:54:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bcmapi
+[2024-05-01 07:54:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: openg2p-spar-mapper-interface-lib
+[2024-05-01 07:54:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: openg2p-spar-g2pconnect-mapper-connector-lib
+[2024-05-01 07:54:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: openg2p-spar-self-service-api
+[2024-05-01 07:54:34] WARNING root fetch - processPackages [openg2p-spar-self-service-api]: Skipping, unable to determine old version
+[2024-05-01 07:54:34] INFO root fetch - main [MainThread]: End processing [openg2p-spar-self-service-api] error
+[2024-05-01 07:54:34] WARNING root fetch - processPackages [bcmapi]: Skipping, unable to determine old version
+[2024-05-01 07:54:34] INFO root fetch - main [MainThread]: End processing [bcmapi] error
+[2024-05-01 07:54:34] WARNING root fetch - processPackages [openg2p-spar-g2pconnect-mapper-connector-lib]: Skipping, unable to determine old version
+[2024-05-01 07:54:34] INFO root fetch - main [MainThread]: End processing [openg2p-spar-g2pconnect-mapper-connector-lib] error
+[2024-05-01 07:54:34] WARNING root fetch - processPackages [openg2p-spar-mapper-interface-lib]: Skipping, unable to determine old version
+[2024-05-01 07:54:34] INFO root fetch - main [MainThread]: End processing [openg2p-spar-mapper-interface-lib] error
+[2024-05-01 07:54:34] INFO root fetch - processPackages [libfsext-python]: New version: [20240501] Old Version: [20240301]
+[2024-05-01 07:54:34] INFO root fetch - processPackages [unione]: New version: [0.2] Old Version: [0.1]
+[2024-05-01 07:54:34] INFO root fetch - processPackages [libfsext-python]: Downloading https://files.pythonhosted.org/packages/76/a0/1df3397c6be0d72ae7a96e66f3336aba82241c20422d7b936db644058757/libfsext-python-20240301.tar.gz
+[2024-05-01 07:54:34] INFO root fetch - processPackages [unione]: Downloading https://files.pythonhosted.org/packages/53/e7/6445f53ae428aa6332e799eef4cf9b5412e8ad96794f5a57ca948f65b8b3/unione-0.1.tar.gz
+[2024-05-01 07:54:34] INFO root fetch - processPackages [unione]: Downloading https://files.pythonhosted.org/packages/4e/f3/8c696284cb1e6284fe65d4b84b8d5f432459e33677560b1551072438df70/unione-0.2.tar.gz
+[2024-05-01 07:54:34] INFO root fetch - processPackages [unione]: executing diffoscope
+[2024-05-01 07:54:34] INFO root fetch - processPackages [unione]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unione-0.1.tar.gz tmp/unione-0.2.tar.gz --markdown 20240501/u/unione/0.1-0.2/README.md --exclude *.pyd
+[2024-05-01 07:54:34] INFO root fetch - processPackages [libfsext-python]: Downloading https://files.pythonhosted.org/packages/fd/13/eb70774ab3cdca0668847931177e40a6c28b37d1e0e4d1b1b0c851da036b/libfsext-python-20240501.tar.gz
+[2024-05-01 07:54:35] INFO root fetch - processPackages [libfsext-python]: executing diffoscope
+[2024-05-01 07:54:35] INFO root fetch - processPackages [libfsext-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libfsext-python-20240301.tar.gz tmp/libfsext-python-20240501.tar.gz --markdown 20240501/l/libfsext-python/20240301-20240501/README.md --exclude *.pyd
+[2024-05-01 07:54:35] INFO root fetch - processPackages [unione]: Remove: archive file [/home/abi/fetcher/tmp/unione-0.1.tar.gz]
+[2024-05-01 07:54:35] INFO root fetch - processPackages [unione]: Remove: archive file [/home/abi/fetcher/tmp/unione-0.2.tar.gz]
+[2024-05-01 07:54:35] INFO root fetch - main [MainThread]: End processing [unione]: success
+[2024-05-01 07:54:40] INFO root fetch - processPackages [libfsext-python]: Remove: archive file [/home/abi/fetcher/tmp/libfsext-python-20240301.tar.gz]
+[2024-05-01 07:54:40] INFO root fetch - processPackages [libfsext-python]: Remove: archive file [/home/abi/fetcher/tmp/libfsext-python-20240501.tar.gz]
+[2024-05-01 07:54:40] INFO root fetch - main [MainThread]: End processing [libfsext-python]: success
+[2024-05-01 07:54:40] INFO root fetch - main [MainThread]: Store serial: [23012820]
