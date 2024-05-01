@@ -7074,3 +7074,15 @@
 [2024-05-01 04:01:27] INFO root fetch - processPackages [fgo-api-types]: Remove: archive file [/home/abi/fetcher/tmp/fgo_api_types-2024.5.1.1.59.10.tar.gz]
 [2024-05-01 04:01:27] INFO root fetch - main [MainThread]: End processing [fgo-api-types]: success
 [2024-05-01 04:01:27] INFO root fetch - main [MainThread]: Store serial: [23011398]
+[2024-05-01 04:03:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23011398]
+[2024-05-01 04:03:36] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-01 04:03:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sbcli-dev
+[2024-05-01 04:03:36] INFO root fetch - processPackages [sbcli-dev]: New version: [2.4.8] Old Version: [2.4.7]
+[2024-05-01 04:03:36] INFO root fetch - processPackages [sbcli-dev]: Downloading https://files.pythonhosted.org/packages/4e/66/360c616c5a6329649cf33dc72e3b27dc3be11c4e584a77847a9a708d5165/sbcli_dev-2.4.7.zip
+[2024-05-01 04:03:36] INFO root fetch - processPackages [sbcli-dev]: Downloading https://files.pythonhosted.org/packages/bb/dc/1fb27106891f895a4281ea25197f85fc0689ca57f31cb2ea905885dd53cf/sbcli_dev-2.4.8.zip
+[2024-05-01 04:03:37] INFO root fetch - processPackages [sbcli-dev]: executing diffoscope
+[2024-05-01 04:03:37] INFO root fetch - processPackages [sbcli-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sbcli_dev-2.4.7.zip tmp/sbcli_dev-2.4.8.zip --markdown 20240501/s/sbcli-dev/2.4.7-2.4.8/README.md --exclude *.pyd
+[2024-05-01 04:03:38] INFO root fetch - processPackages [sbcli-dev]: Remove: archive file [/home/abi/fetcher/tmp/sbcli_dev-2.4.7.zip]
+[2024-05-01 04:03:38] INFO root fetch - processPackages [sbcli-dev]: Remove: archive file [/home/abi/fetcher/tmp/sbcli_dev-2.4.8.zip]
+[2024-05-01 04:03:38] INFO root fetch - main [MainThread]: End processing [sbcli-dev]: success
+[2024-05-01 04:03:38] INFO root fetch - main [MainThread]: Store serial: [23011400]
