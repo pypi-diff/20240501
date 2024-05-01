@@ -2183,3 +2183,110 @@
 [2024-05-01 02:22:11] INFO root fetch - processPackages [pelicanfs]: Remove: archive file [/home/abi/fetcher/tmp/pelicanfs-0.0.2.tar.gz]
 [2024-05-01 02:22:11] INFO root fetch - main [MainThread]: End processing [pelicanfs]: success
 [2024-05-01 02:22:11] INFO root fetch - main [MainThread]: Store serial: [23009640]
+[2024-05-01 02:24:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23009640]
+[2024-05-01 02:24:20] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-05-01 02:24:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: systema
+[2024-05-01 02:24:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: livekit-plugins-google
+[2024-05-01 02:24:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: livekit-plugins-elevenlabs
+[2024-05-01 02:24:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: livekit-plugins-deepgram
+[2024-05-01 02:24:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: livekit-plugins-nltk
+[2024-05-01 02:24:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: livekit-agents
+[2024-05-01 02:24:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: zenodo-backpack
+[2024-05-01 02:24:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hstspreload
+[2024-05-01 02:24:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: evals
+[2024-05-01 02:24:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: livekit-plugins-openai
+[2024-05-01 02:24:20] INFO root fetch - processPackages [evals]: New version: [3.0.1] Old Version: [3.0.0.post1]
+[2024-05-01 02:24:20] INFO root fetch - processPackages [systema]: New version: [0.0.1a9] Old Version: [0.0.1a8]
+[2024-05-01 02:24:20] INFO root fetch - processPackages [zenodo-backpack]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-05-01 02:24:20] INFO root fetch - processPackages [evals]: Downloading https://files.pythonhosted.org/packages/68/d6/27cfea5861d6fe4bc2aed84740acf4ed9f9f571493a2562a7eba603d974a/evals-3.0.0.post1.tar.gz
+[2024-05-01 02:24:20] INFO root fetch - processPackages [livekit-plugins-deepgram]: New version: [0.4.dev0] Old Version: [0.3.dev0]
+[2024-05-01 02:24:20] INFO root fetch - processPackages [livekit-plugins-elevenlabs]: New version: [0.4.dev0] Old Version: [0.3.dev0]
+[2024-05-01 02:24:20] INFO root fetch - processPackages [livekit-plugins-nltk]: New version: [0.5.dev0] Old Version: [0.4.dev0]
+[2024-05-01 02:24:20] INFO root fetch - processPackages [livekit-plugins-google]: New version: [0.4.dev0] Old Version: [0.3.dev0]
+[2024-05-01 02:24:20] INFO root fetch - processPackages [livekit-plugins-openai]: New version: [0.4.dev0] Old Version: [0.3.dev0]
+[2024-05-01 02:24:20] INFO root fetch - processPackages [livekit-agents]: New version: [0.6.dev0] Old Version: [0.5.dev3]
+[2024-05-01 02:24:20] INFO root fetch - processPackages [hstspreload]: New version: [2024.5.1] Old Version: [2024.4.1]
+[2024-05-01 02:24:20] WARNING root fetch - processPackages [evals]: Skipping package: exceeds size limit 44186088>=10485760
+[2024-05-01 02:24:20] INFO root fetch - processPackages [evals]: Start processing: livekit-plugins-silero
+[2024-05-01 02:24:20] INFO root fetch - main [MainThread]: End processing [evals] error
+[2024-05-01 02:24:20] INFO root fetch - processPackages [systema]: Downloading https://files.pythonhosted.org/packages/8e/12/3ea864b91e6ace29d986b77a9abdafaa765d4cde0dddfcf21db1fee57b4b/systema-0.0.1a8.tar.gz
+[2024-05-01 02:24:20] INFO root fetch - processPackages [zenodo-backpack]: Downloading https://files.pythonhosted.org/packages/30/d7/e5c4ce4f1caf346759b5a26218fbd1540264e44129a3e7771a08753da587/zenodo_backpack-0.2.0.tar.gz
+[2024-05-01 02:24:20] INFO root fetch - processPackages [livekit-plugins-nltk]: Downloading https://files.pythonhosted.org/packages/e2/a7/8869f375ca58fdef5a3c5b6adb464e978140473f98828458c8ff58d14b36/livekit-plugins-nltk-0.4.dev0.tar.gz
+[2024-05-01 02:24:20] INFO root fetch - processPackages [livekit-plugins-elevenlabs]: Downloading https://files.pythonhosted.org/packages/ad/e8/c130245ec19d05b3b4b0466df07bbb5c30d59d0348dcd29ce9ffedb59072/livekit-plugins-elevenlabs-0.3.dev0.tar.gz
+[2024-05-01 02:24:20] INFO root fetch - processPackages [livekit-plugins-silero]: New version: [0.4.dev0] Old Version: [0.3.dev0]
+[2024-05-01 02:24:20] INFO root fetch - processPackages [hstspreload]: Downloading https://files.pythonhosted.org/packages/db/d2/9cc1e3d3918f038d4c60f6aa57615681d37b72581517e404613cd10c72fe/hstspreload-2024.4.1.tar.gz
+[2024-05-01 02:24:20] INFO root fetch - processPackages [livekit-plugins-deepgram]: Downloading https://files.pythonhosted.org/packages/9b/1f/7a1b4401fe431e2379b3d97c50e0cd0bce2b3e4815d2c2fc7d0856b04710/livekit-plugins-deepgram-0.3.dev0.tar.gz
+[2024-05-01 02:24:20] INFO root fetch - processPackages [livekit-plugins-openai]: Downloading https://files.pythonhosted.org/packages/99/ce/1cd68334d3021f42bf2b609bad17ec160ef0d67953771d11608ce9f5d121/livekit-plugins-openai-0.3.dev0.tar.gz
+[2024-05-01 02:24:20] INFO root fetch - processPackages [livekit-agents]: Downloading https://files.pythonhosted.org/packages/43/a8/6556d5193254c7ecd007d9ebf7ce41284724f95c1ecbc4ffeabff3f93ca1/livekit-agents-0.5.dev3.tar.gz
+[2024-05-01 02:24:20] INFO root fetch - processPackages [livekit-plugins-google]: Downloading https://files.pythonhosted.org/packages/2f/be/df0ec3f70f11551f7381b8a1bfaf8182228d2f047b8dfd8909f43d9ec9be/livekit-plugins-google-0.3.dev0.tar.gz
+[2024-05-01 02:24:21] INFO root fetch - processPackages [livekit-plugins-silero]: Downloading https://files.pythonhosted.org/packages/fe/3c/2988fda4aeb8d41498f291340df30dded1ef1f65a452a14130140259305f/livekit-plugins-silero-0.3.dev0.tar.gz
+[2024-05-01 02:24:21] INFO root fetch - processPackages [zenodo-backpack]: Downloading https://files.pythonhosted.org/packages/42/1c/b1452ded9a1dd37aa92ddaee9419ded3afcd9f0989c0fc860ceb5a6f88eb/zenodo_backpack-0.3.0.tar.gz
+[2024-05-01 02:24:21] INFO root fetch - processPackages [systema]: Downloading https://files.pythonhosted.org/packages/f7/0c/34874be8791c7f4db6ea26318b29e34bb786e061416ab2691b4dfb05276e/systema-0.0.1a9.tar.gz
+[2024-05-01 02:24:21] INFO root fetch - processPackages [livekit-plugins-elevenlabs]: Downloading https://files.pythonhosted.org/packages/f4/c5/23589196347132015e4c52d7f0366d763594adbc387f3288c6c7ed116d1e/livekit_plugins_elevenlabs-0.4.dev0.tar.gz
+[2024-05-01 02:24:21] INFO root fetch - processPackages [livekit-plugins-nltk]: Downloading https://files.pythonhosted.org/packages/d0/58/0c1a5ac50820890deb372bf1c97ec010d4ef26887ab81acfffff9f103cab/livekit_plugins_nltk-0.5.dev0.tar.gz
+[2024-05-01 02:24:21] INFO root fetch - processPackages [livekit-plugins-deepgram]: Downloading https://files.pythonhosted.org/packages/15/5a/0e4d418e7eb52ee2616b6c76a9de6c435b9a7c7d4bb85e1933bdd3f1afc4/livekit_plugins_deepgram-0.4.dev0.tar.gz
+[2024-05-01 02:24:21] INFO root fetch - processPackages [zenodo-backpack]: executing diffoscope
+[2024-05-01 02:24:21] INFO root fetch - processPackages [zenodo-backpack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zenodo_backpack-0.2.0.tar.gz tmp/zenodo_backpack-0.3.0.tar.gz --markdown 20240501/z/zenodo-backpack/0.2.0-0.3.0/README.md --exclude *.pyd
+[2024-05-01 02:24:21] INFO root fetch - processPackages [systema]: executing diffoscope
+[2024-05-01 02:24:21] INFO root fetch - processPackages [systema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/systema-0.0.1a8.tar.gz tmp/systema-0.0.1a9.tar.gz --markdown 20240501/s/systema/0.0.1a8-0.0.1a9/README.md --exclude *.pyd
+[2024-05-01 02:24:21] INFO root fetch - processPackages [livekit-plugins-openai]: Downloading https://files.pythonhosted.org/packages/9c/a7/2c008a000435864975509a29313d389ddcd0426c0171471804ff77bd4d0e/livekit_plugins_openai-0.4.dev0.tar.gz
+[2024-05-01 02:24:21] INFO root fetch - processPackages [livekit-agents]: Downloading https://files.pythonhosted.org/packages/09/b0/44061ac9cb68a468052cb522d4aec7b9265a9f3da35427c97f4d12a42173/livekit_agents-0.6.dev0.tar.gz
+[2024-05-01 02:24:21] INFO root fetch - processPackages [livekit-plugins-nltk]: executing diffoscope
+[2024-05-01 02:24:21] INFO root fetch - processPackages [livekit-plugins-nltk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/livekit-plugins-nltk-0.4.dev0.tar.gz tmp/livekit_plugins_nltk-0.5.dev0.tar.gz --markdown 20240501/l/livekit-plugins-nltk/0.4.dev0-0.5.dev0/README.md --exclude *.pyd
+[2024-05-01 02:24:21] INFO root fetch - processPackages [livekit-plugins-elevenlabs]: executing diffoscope
+[2024-05-01 02:24:21] INFO root fetch - processPackages [livekit-plugins-elevenlabs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/livekit-plugins-elevenlabs-0.3.dev0.tar.gz tmp/livekit_plugins_elevenlabs-0.4.dev0.tar.gz --markdown 20240501/l/livekit-plugins-elevenlabs/0.3.dev0-0.4.dev0/README.md --exclude *.pyd
+[2024-05-01 02:24:21] INFO root fetch - processPackages [livekit-plugins-google]: Downloading https://files.pythonhosted.org/packages/9c/7c/3a48043adbf05d6777cdf39a4375457da8a0c8af16fc48a648773fcceb93/livekit_plugins_google-0.4.dev0.tar.gz
+[2024-05-01 02:24:21] INFO root fetch - processPackages [livekit-plugins-deepgram]: executing diffoscope
+[2024-05-01 02:24:21] INFO root fetch - processPackages [livekit-plugins-deepgram]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/livekit-plugins-deepgram-0.3.dev0.tar.gz tmp/livekit_plugins_deepgram-0.4.dev0.tar.gz --markdown 20240501/l/livekit-plugins-deepgram/0.3.dev0-0.4.dev0/README.md --exclude *.pyd
+[2024-05-01 02:24:21] INFO root fetch - processPackages [livekit-plugins-openai]: executing diffoscope
+[2024-05-01 02:24:21] INFO root fetch - processPackages [livekit-plugins-openai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/livekit-plugins-openai-0.3.dev0.tar.gz tmp/livekit_plugins_openai-0.4.dev0.tar.gz --markdown 20240501/l/livekit-plugins-openai/0.3.dev0-0.4.dev0/README.md --exclude *.pyd
+[2024-05-01 02:24:21] INFO root fetch - processPackages [livekit-plugins-google]: executing diffoscope
+[2024-05-01 02:24:21] INFO root fetch - processPackages [livekit-plugins-google]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/livekit-plugins-google-0.3.dev0.tar.gz tmp/livekit_plugins_google-0.4.dev0.tar.gz --markdown 20240501/l/livekit-plugins-google/0.3.dev0-0.4.dev0/README.md --exclude *.pyd
+[2024-05-01 02:24:21] INFO root fetch - processPackages [livekit-agents]: executing diffoscope
+[2024-05-01 02:24:21] INFO root fetch - processPackages [livekit-agents]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/livekit-agents-0.5.dev3.tar.gz tmp/livekit_agents-0.6.dev0.tar.gz --markdown 20240501/l/livekit-agents/0.5.dev3-0.6.dev0/README.md --exclude *.pyd
+[2024-05-01 02:24:21] INFO root fetch - processPackages [livekit-plugins-silero]: Downloading https://files.pythonhosted.org/packages/43/67/14e893849d3eada5ebdf55451ba44e0da9fe70bca84ac72f068e08fe7fbe/livekit_plugins_silero-0.4.dev0.tar.gz
+[2024-05-01 02:24:21] INFO root fetch - processPackages [livekit-plugins-silero]: executing diffoscope
+[2024-05-01 02:24:21] INFO root fetch - processPackages [livekit-plugins-silero]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/livekit-plugins-silero-0.3.dev0.tar.gz tmp/livekit_plugins_silero-0.4.dev0.tar.gz --markdown 20240501/l/livekit-plugins-silero/0.3.dev0-0.4.dev0/README.md --exclude *.pyd
+[2024-05-01 02:24:22] INFO root fetch - processPackages [hstspreload]: Downloading https://files.pythonhosted.org/packages/4c/80/41e1ff2e06e00c6c27ddc642c1db461fb7afd0ae2788071b0606124070f6/hstspreload-2024.5.1.tar.gz
+[2024-05-01 02:24:22] INFO root fetch - processPackages [livekit-plugins-elevenlabs]: Remove: archive file [/home/abi/fetcher/tmp/livekit-plugins-elevenlabs-0.3.dev0.tar.gz]
+[2024-05-01 02:24:22] INFO root fetch - processPackages [livekit-plugins-elevenlabs]: Remove: archive file [/home/abi/fetcher/tmp/livekit_plugins_elevenlabs-0.4.dev0.tar.gz]
+[2024-05-01 02:24:22] INFO root fetch - processPackages [livekit-plugins-elevenlabs]: Start processing: querysource
+[2024-05-01 02:24:22] INFO root fetch - main [MainThread]: End processing [livekit-plugins-elevenlabs]: success
+[2024-05-01 02:24:22] INFO root fetch - processPackages [zenodo-backpack]: Remove: archive file [/home/abi/fetcher/tmp/zenodo_backpack-0.2.0.tar.gz]
+[2024-05-01 02:24:22] INFO root fetch - processPackages [zenodo-backpack]: Remove: archive file [/home/abi/fetcher/tmp/zenodo_backpack-0.3.0.tar.gz]
+[2024-05-01 02:24:22] INFO root fetch - main [MainThread]: End processing [zenodo-backpack]: success
+[2024-05-01 02:24:22] INFO root fetch - processPackages [querysource]: New version: [3.8.9] Old Version: [3.8.8]
+[2024-05-01 02:24:22] INFO root fetch - processPackages [hstspreload]: executing diffoscope
+[2024-05-01 02:24:22] INFO root fetch - processPackages [hstspreload]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hstspreload-2024.4.1.tar.gz tmp/hstspreload-2024.5.1.tar.gz --markdown 20240501/h/hstspreload/2024.4.1-2024.5.1/README.md --exclude *.pyd
+[2024-05-01 02:24:22] INFO root fetch - processPackages [livekit-plugins-deepgram]: Remove: archive file [/home/abi/fetcher/tmp/livekit-plugins-deepgram-0.3.dev0.tar.gz]
+[2024-05-01 02:24:22] INFO root fetch - processPackages [systema]: Remove: archive file [/home/abi/fetcher/tmp/systema-0.0.1a8.tar.gz]
+[2024-05-01 02:24:22] INFO root fetch - processPackages [livekit-plugins-deepgram]: Remove: archive file [/home/abi/fetcher/tmp/livekit_plugins_deepgram-0.4.dev0.tar.gz]
+[2024-05-01 02:24:22] INFO root fetch - processPackages [systema]: Remove: archive file [/home/abi/fetcher/tmp/systema-0.0.1a9.tar.gz]
+[2024-05-01 02:24:22] INFO root fetch - main [MainThread]: End processing [livekit-plugins-deepgram]: success
+[2024-05-01 02:24:22] INFO root fetch - main [MainThread]: End processing [systema]: success
+[2024-05-01 02:24:22] INFO root fetch - processPackages [livekit-plugins-nltk]: Remove: archive file [/home/abi/fetcher/tmp/livekit-plugins-nltk-0.4.dev0.tar.gz]
+[2024-05-01 02:24:22] INFO root fetch - processPackages [livekit-plugins-nltk]: Remove: archive file [/home/abi/fetcher/tmp/livekit_plugins_nltk-0.5.dev0.tar.gz]
+[2024-05-01 02:24:22] INFO root fetch - main [MainThread]: End processing [livekit-plugins-nltk]: success
+[2024-05-01 02:24:22] INFO root fetch - processPackages [livekit-plugins-openai]: Remove: archive file [/home/abi/fetcher/tmp/livekit-plugins-openai-0.3.dev0.tar.gz]
+[2024-05-01 02:24:22] INFO root fetch - processPackages [livekit-plugins-openai]: Remove: archive file [/home/abi/fetcher/tmp/livekit_plugins_openai-0.4.dev0.tar.gz]
+[2024-05-01 02:24:22] INFO root fetch - main [MainThread]: End processing [livekit-plugins-openai]: success
+[2024-05-01 02:24:22] INFO root fetch - processPackages [livekit-plugins-google]: Remove: archive file [/home/abi/fetcher/tmp/livekit-plugins-google-0.3.dev0.tar.gz]
+[2024-05-01 02:24:22] INFO root fetch - processPackages [livekit-plugins-google]: Remove: archive file [/home/abi/fetcher/tmp/livekit_plugins_google-0.4.dev0.tar.gz]
+[2024-05-01 02:24:22] INFO root fetch - main [MainThread]: End processing [livekit-plugins-google]: success
+[2024-05-01 02:24:22] INFO root fetch - processPackages [querysource]: Downloading https://files.pythonhosted.org/packages/a6/cf/ec6f2d7c6b4969bfec86c9aa09ceafef535726130e66a5670b607a456642/querysource-3.8.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-01 02:24:22] INFO root fetch - processPackages [livekit-plugins-silero]: Remove: archive file [/home/abi/fetcher/tmp/livekit-plugins-silero-0.3.dev0.tar.gz]
+[2024-05-01 02:24:22] INFO root fetch - processPackages [livekit-plugins-silero]: Remove: archive file [/home/abi/fetcher/tmp/livekit_plugins_silero-0.4.dev0.tar.gz]
+[2024-05-01 02:24:22] INFO root fetch - main [MainThread]: End processing [livekit-plugins-silero]: success
+[2024-05-01 02:24:22] INFO root fetch - processPackages [livekit-agents]: Remove: archive file [/home/abi/fetcher/tmp/livekit-agents-0.5.dev3.tar.gz]
+[2024-05-01 02:24:22] INFO root fetch - processPackages [livekit-agents]: Remove: archive file [/home/abi/fetcher/tmp/livekit_agents-0.6.dev0.tar.gz]
+[2024-05-01 02:24:22] INFO root fetch - main [MainThread]: End processing [livekit-agents]: success
+[2024-05-01 02:24:23] INFO root fetch - processPackages [querysource]: Downloading https://files.pythonhosted.org/packages/6d/c3/06f762ad26ea05a8f119c147412357e92385b5ed2b95874b332fdb59ea7a/querysource-3.8.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-01 02:24:24] INFO root fetch - processPackages [querysource]: executing diffoscope
+[2024-05-01 02:24:24] INFO root fetch - processPackages [querysource]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/querysource-3.8.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/querysource-3.8.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240501/q/querysource/3.8.8-3.8.9/README.md --exclude *.pyd
+[2024-05-01 02:24:24] INFO root fetch - processPackages [hstspreload]: Remove: archive file [/home/abi/fetcher/tmp/hstspreload-2024.4.1.tar.gz]
+[2024-05-01 02:24:24] INFO root fetch - processPackages [hstspreload]: Remove: archive file [/home/abi/fetcher/tmp/hstspreload-2024.5.1.tar.gz]
+[2024-05-01 02:24:24] INFO root fetch - main [MainThread]: End processing [hstspreload]: success
+[2024-05-01 02:24:31] INFO root fetch - processPackages [querysource]: Remove: archive file [/home/abi/fetcher/tmp/querysource-3.8.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-01 02:24:31] INFO root fetch - processPackages [querysource]: Remove: archive file [/home/abi/fetcher/tmp/querysource-3.8.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-01 02:24:31] INFO root fetch - main [MainThread]: End processing [querysource]: success
+[2024-05-01 02:24:31] INFO root fetch - main [MainThread]: Store serial: [23009677]
