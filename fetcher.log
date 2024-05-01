@@ -23050,3 +23050,51 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-01 16:52:06] INFO root fetch - processPackages [FanFicFare]: Remove: archive file [/home/abi/fetcher/tmp/FanFicFare-4.9.0.tar.gz]
 [2024-05-01 16:52:06] INFO root fetch - main [MainThread]: End processing [FanFicFare]: success
 [2024-05-01 16:52:06] INFO root fetch - main [MainThread]: Store serial: [23018254]
+[2024-05-01 16:54:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23018254]
+[2024-05-01 16:54:16] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-01 16:54:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-databrew-cicd
+[2024-05-01 16:54:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pytrials
+[2024-05-01 16:54:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pytestomatio
+[2024-05-01 16:54:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: prometheus-eval
+[2024-05-01 16:54:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nonebot-plugin-alconna
+[2024-05-01 16:54:16] INFO root fetch - processPackages [pytestomatio]: New version: [2.3.1] Old Version: [2.3.0]
+[2024-05-01 16:54:16] INFO root fetch - processPackages [prometheus-eval]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-05-01 16:54:16] INFO root fetch - processPackages [nonebot-plugin-alconna]: New version: [0.9.3] Old Version: [0.9.0]
+[2024-05-01 16:54:16] INFO root fetch - processPackages [pytestomatio]: Downloading https://files.pythonhosted.org/packages/4c/8e/11bca55fb6c6414db79350b9c233fbd3c6211d1c5332e19f7232587d7ec2/pytestomatio-2.3.0.tar.gz
+[2024-05-01 16:54:16] INFO root fetch - processPackages [pytrials]: New version: [1.0.0] Old Version: [0.3.0]
+[2024-05-01 16:54:16] INFO root fetch - processPackages [prometheus-eval]: Downloading https://files.pythonhosted.org/packages/42/22/02711066e010622c9a23c16b17ab2249dc6086572ec43f72b4baabde975f/prometheus_eval-0.1.6.tar.gz
+[2024-05-01 16:54:16] INFO root fetch - processPackages [cdk-databrew-cicd]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-05-01 16:54:16] INFO root fetch - processPackages [nonebot-plugin-alconna]: Downloading https://files.pythonhosted.org/packages/c8/67/1065373af14f845f6112a3d2cb8d6187d838b4c0d90d89282ccef9f5133d/nonebot-plugin-alconna-0.9.0.tar.gz
+[2024-05-01 16:54:16] INFO root fetch - processPackages [cdk-databrew-cicd]: Downloading https://files.pythonhosted.org/packages/9c/18/acad9d22fe20a13d93a1aee49739981e3ab739a2edcb478344aa0fc5b783/cdk_databrew_cicd-2.0.98.tar.gz
+[2024-05-01 16:54:16] INFO root fetch - processPackages [pytrials]: Downloading https://files.pythonhosted.org/packages/56/ea/a8ea6fdb1eb911b6513cf1ebb832b90f107d595ee52393d4146f5b5aab27/pytrials-0.3.0.tar.gz
+[2024-05-01 16:54:16] INFO root fetch - processPackages [nonebot-plugin-alconna]: Downloading https://files.pythonhosted.org/packages/f4/fd/830dd6604cd5dc44a467d959ff595e8da0a087d9b75368acaecfc83c3417/nonebot_plugin_alconna-0.9.3.tar.gz
+[2024-05-01 16:54:16] INFO root fetch - processPackages [pytestomatio]: Downloading https://files.pythonhosted.org/packages/77/ac/27574545a216daef190f656664d32ee5b1ccc429149c5eafae37c7505b62/pytestomatio-2.3.1.tar.gz
+[2024-05-01 16:54:16] INFO root fetch - processPackages [prometheus-eval]: Downloading https://files.pythonhosted.org/packages/63/d0/20a8a715bc9fe9cb88205a5b8ccc1683e61abbfb2f648ce03b6c56d6bbc0/prometheus_eval-0.1.7.tar.gz
+[2024-05-01 16:54:16] INFO root fetch - processPackages [nonebot-plugin-alconna]: executing diffoscope
+[2024-05-01 16:54:16] INFO root fetch - processPackages [nonebot-plugin-alconna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot-plugin-alconna-0.9.0.tar.gz tmp/nonebot_plugin_alconna-0.9.3.tar.gz --markdown 20240501/n/nonebot-plugin-alconna/0.9.0-0.9.3/README.md --exclude *.pyd
+[2024-05-01 16:54:16] INFO root fetch - processPackages [prometheus-eval]: executing diffoscope
+[2024-05-01 16:54:16] INFO root fetch - processPackages [prometheus-eval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prometheus_eval-0.1.6.tar.gz tmp/prometheus_eval-0.1.7.tar.gz --markdown 20240501/p/prometheus-eval/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-05-01 16:54:16] INFO root fetch - processPackages [pytestomatio]: executing diffoscope
+[2024-05-01 16:54:16] INFO root fetch - processPackages [pytestomatio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytestomatio-2.3.0.tar.gz tmp/pytestomatio-2.3.1.tar.gz --markdown 20240501/p/pytestomatio/2.3.0-2.3.1/README.md --exclude *.pyd
+[2024-05-01 16:54:16] INFO root fetch - processPackages [pytrials]: Downloading https://files.pythonhosted.org/packages/42/25/cfce60e8420ab506d06b8bbaff12969c75edf4b8c667b0a5701575970f39/pytrials-1.0.0.tar.gz
+[2024-05-01 16:54:17] INFO root fetch - processPackages [pytrials]: executing diffoscope
+[2024-05-01 16:54:17] INFO root fetch - processPackages [pytrials]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytrials-0.3.0.tar.gz tmp/pytrials-1.0.0.tar.gz --markdown 20240501/p/pytrials/0.3.0-1.0.0/README.md --exclude *.pyd
+[2024-05-01 16:54:17] INFO root fetch - processPackages [cdk-databrew-cicd]: Downloading https://files.pythonhosted.org/packages/66/41/4c5089b171b28b627753bb3de1b4b696fdaeb4f78ef49dcb72a79fcb6e9d/cdk_databrew_cicd-2.0.99.tar.gz
+[2024-05-01 16:54:17] INFO root fetch - processPackages [prometheus-eval]: Remove: archive file [/home/abi/fetcher/tmp/prometheus_eval-0.1.6.tar.gz]
+[2024-05-01 16:54:17] INFO root fetch - processPackages [prometheus-eval]: Remove: archive file [/home/abi/fetcher/tmp/prometheus_eval-0.1.7.tar.gz]
+[2024-05-01 16:54:17] INFO root fetch - main [MainThread]: End processing [prometheus-eval]: success
+[2024-05-01 16:54:17] INFO root fetch - processPackages [cdk-databrew-cicd]: executing diffoscope
+[2024-05-01 16:54:17] INFO root fetch - processPackages [cdk-databrew-cicd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_databrew_cicd-2.0.98.tar.gz tmp/cdk_databrew_cicd-2.0.99.tar.gz --markdown 20240501/c/cdk-databrew-cicd/2.0.98-2.0.99/README.md --exclude *.pyd
+[2024-05-01 16:54:17] INFO root fetch - processPackages [pytestomatio]: Remove: archive file [/home/abi/fetcher/tmp/pytestomatio-2.3.0.tar.gz]
+[2024-05-01 16:54:17] INFO root fetch - processPackages [pytestomatio]: Remove: archive file [/home/abi/fetcher/tmp/pytestomatio-2.3.1.tar.gz]
+[2024-05-01 16:54:17] INFO root fetch - main [MainThread]: End processing [pytestomatio]: success
+[2024-05-01 16:54:17] INFO root fetch - processPackages [nonebot-plugin-alconna]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-alconna-0.9.0.tar.gz]
+[2024-05-01 16:54:17] INFO root fetch - processPackages [nonebot-plugin-alconna]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_alconna-0.9.3.tar.gz]
+[2024-05-01 16:54:17] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-alconna]: success
+[2024-05-01 16:54:17] INFO root fetch - processPackages [pytrials]: Remove: archive file [/home/abi/fetcher/tmp/pytrials-0.3.0.tar.gz]
+[2024-05-01 16:54:17] INFO root fetch - processPackages [pytrials]: Remove: archive file [/home/abi/fetcher/tmp/pytrials-1.0.0.tar.gz]
+[2024-05-01 16:54:17] INFO root fetch - main [MainThread]: End processing [pytrials]: success
+[2024-05-01 16:54:18] INFO root fetch - processPackages [cdk-databrew-cicd]: Remove: archive file [/home/abi/fetcher/tmp/cdk_databrew_cicd-2.0.98.tar.gz]
+[2024-05-01 16:54:18] INFO root fetch - processPackages [cdk-databrew-cicd]: Remove: archive file [/home/abi/fetcher/tmp/cdk_databrew_cicd-2.0.99.tar.gz]
+[2024-05-01 16:54:18] INFO root fetch - main [MainThread]: End processing [cdk-databrew-cicd]: success
+[2024-05-01 16:54:18] INFO root fetch - main [MainThread]: Store serial: [23018271]
