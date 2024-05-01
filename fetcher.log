@@ -11359,3 +11359,30 @@
 [2024-05-01 08:50:15] INFO root fetch - processPackages [ork.build]: Remove: archive file [/home/abi/fetcher/tmp/ork.build-0.0.99.tar.gz]
 [2024-05-01 08:50:15] INFO root fetch - main [MainThread]: End processing [ork.build]: success
 [2024-05-01 08:50:15] INFO root fetch - main [MainThread]: Store serial: [23013343]
+[2024-05-01 08:52:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23013343]
+[2024-05-01 08:52:23] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-01 08:52:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: npc_sessions
+[2024-05-01 08:52:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: upowwalletpy
+[2024-05-01 08:52:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-wavefront
+[2024-05-01 08:52:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: geocover-utils
+[2024-05-01 08:52:23] WARNING root fetch - processPackages [upowwalletpy]: Skipping, unable to determine old version
+[2024-05-01 08:52:23] INFO root fetch - main [MainThread]: End processing [upowwalletpy] error
+[2024-05-01 08:52:23] WARNING root fetch - processPackages [geocover-utils]: Skipping, unable to determine old version
+[2024-05-01 08:52:23] INFO root fetch - main [MainThread]: End processing [geocover-utils] error
+[2024-05-01 08:52:23] INFO root fetch - processPackages [pulumi-wavefront]: New version: [3.2.0a1714545022] Old Version: [3.2.0a1714459430]
+[2024-05-01 08:52:23] INFO root fetch - processPackages [npc_sessions]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-01 08:52:23] INFO root fetch - processPackages [pulumi-wavefront]: Downloading https://files.pythonhosted.org/packages/cc/ea/8dac402160421baeb6e3036a639aac560d9b326e2e88cfe65f64e65627f6/pulumi_wavefront-3.2.0a1714459430.tar.gz
+[2024-05-01 08:52:23] INFO root fetch - processPackages [npc_sessions]: Downloading https://files.pythonhosted.org/packages/b8/93/bc9b7a7dd0ef6f49e1a89dbd69042819d6a945d3ccc9906feb172a29ba15/npc_sessions-0.0.98.tar.gz
+[2024-05-01 08:52:24] INFO root fetch - processPackages [pulumi-wavefront]: Downloading https://files.pythonhosted.org/packages/85/38/14591bd7f160f15d3f8aa2097a9f79b71985ae6f5bb95ea7aef1cc41cd02/pulumi_wavefront-3.2.0a1714545022.tar.gz
+[2024-05-01 08:52:24] INFO root fetch - processPackages [npc_sessions]: Downloading https://files.pythonhosted.org/packages/1b/65/bf57b9c6ee648973d846c99ebd5e2954d44af7aee6a3272e3710494205b1/npc_sessions-0.0.99.tar.gz
+[2024-05-01 08:52:24] INFO root fetch - processPackages [pulumi-wavefront]: executing diffoscope
+[2024-05-01 08:52:24] INFO root fetch - processPackages [pulumi-wavefront]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_wavefront-3.2.0a1714459430.tar.gz tmp/pulumi_wavefront-3.2.0a1714545022.tar.gz --markdown 20240501/p/pulumi-wavefront/3.2.0a1714459430-3.2.0a1714545022/README.md --exclude *.pyd
+[2024-05-01 08:52:24] INFO root fetch - processPackages [npc_sessions]: executing diffoscope
+[2024-05-01 08:52:24] INFO root fetch - processPackages [npc_sessions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/npc_sessions-0.0.98.tar.gz tmp/npc_sessions-0.0.99.tar.gz --markdown 20240501/n/npc_sessions/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-01 08:52:24] INFO root fetch - processPackages [pulumi-wavefront]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_wavefront-3.2.0a1714459430.tar.gz]
+[2024-05-01 08:52:24] INFO root fetch - processPackages [pulumi-wavefront]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_wavefront-3.2.0a1714545022.tar.gz]
+[2024-05-01 08:52:24] INFO root fetch - main [MainThread]: End processing [pulumi-wavefront]: success
+[2024-05-01 08:52:25] INFO root fetch - processPackages [npc_sessions]: Remove: archive file [/home/abi/fetcher/tmp/npc_sessions-0.0.98.tar.gz]
+[2024-05-01 08:52:25] INFO root fetch - processPackages [npc_sessions]: Remove: archive file [/home/abi/fetcher/tmp/npc_sessions-0.0.99.tar.gz]
+[2024-05-01 08:52:25] INFO root fetch - main [MainThread]: End processing [npc_sessions]: success
+[2024-05-01 08:52:25] INFO root fetch - main [MainThread]: Store serial: [23013357]
