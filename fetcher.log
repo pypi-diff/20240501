@@ -10725,3 +10725,69 @@
 [2024-05-01 08:19:11] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake_bpy_module_latest-20240430.tar.gz]
 [2024-05-01 08:19:11] INFO root fetch - main [MainThread]: End processing [fake-bpy-module-latest]: success
 [2024-05-01 08:19:11] INFO root fetch - main [MainThread]: Store serial: [23013011]
+[2024-05-01 08:21:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23013011]
+[2024-05-01 08:21:31] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-01 08:21:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-ns1
+[2024-05-01 08:21:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ImmunoViewer
+[2024-05-01 08:21:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-null
+[2024-05-01 08:21:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: foscat
+[2024-05-01 08:21:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-nomad
+[2024-05-01 08:21:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: loopquest
+[2024-05-01 08:21:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: web-rwkv-py
+[2024-05-01 08:21:31] INFO root fetch - processPackages [ImmunoViewer]: New version: [0.2.2rc2.dev0] Old Version: [0.2.2.dev0]
+[2024-05-01 08:21:31] INFO root fetch - processPackages [pulumi-ns1]: New version: [3.3.0a1714456527] Old Version: [3.3.0a1714110968]
+[2024-05-01 08:21:31] INFO root fetch - processPackages [ImmunoViewer]: Downloading https://files.pythonhosted.org/packages/1d/22/1b41673a0fa2eaad5dcf93c1f7e3e7defcddc1b5489b9ee5e3881b7d2df1/immunoviewer-0.2.2.dev0.tar.gz
+[2024-05-01 08:21:31] INFO root fetch - processPackages [loopquest]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-01 08:21:31] INFO root fetch - processPackages [pulumi-ns1]: Downloading https://files.pythonhosted.org/packages/3b/8d/7efe3a7a47646c13c1adb8b628579cea9504d5d6154b63ae7280f4e98c94/pulumi_ns1-3.3.0a1714110968.tar.gz
+[2024-05-01 08:21:31] INFO root fetch - processPackages [foscat]: New version: [3.0.9] Old Version: [3.0.8]
+[2024-05-01 08:21:31] INFO root fetch - processPackages [pulumi-null]: New version: [0.1.0a1714542983] Old Version: [0.1.0a1714456711]
+[2024-05-01 08:21:31] INFO root fetch - processPackages [pulumi-nomad]: New version: [2.3.0a1714542838] Old Version: [2.3.0a1714456396]
+[2024-05-01 08:21:32] INFO root fetch - processPackages [pulumi-null]: Downloading https://files.pythonhosted.org/packages/66/80/7451d87123c2eff747d355f6161832f8f0a5f6c3981b1cae916b1349cbcc/pulumi_null-0.1.0a1714456711.tar.gz
+[2024-05-01 08:21:32] INFO root fetch - processPackages [pulumi-nomad]: Downloading https://files.pythonhosted.org/packages/0b/24/d2822f19d0c6d54b1fc28ee6a7ecf5e51a489378e0f0cdbeff123881f7c1/pulumi_nomad-2.3.0a1714456396.tar.gz
+[2024-05-01 08:21:32] INFO root fetch - processPackages [loopquest]: Downloading https://files.pythonhosted.org/packages/6e/91/ed557936f2f369235d61527a2429b38cceb119d2c6f8b7c0c1925f30c800/loopquest-0.2.0.tar.gz
+[2024-05-01 08:21:32] INFO root fetch - processPackages [foscat]: Downloading https://files.pythonhosted.org/packages/b6/1a/cff11416f3547c8dc9a5231634209d3692fac4d553dab54be2058eae0087/foscat-3.0.8.tar.gz
+[2024-05-01 08:21:32] INFO root fetch - processPackages [pulumi-ns1]: Downloading https://files.pythonhosted.org/packages/d2/37/88c39ec8280c72012719ad1317e024ca026bd37a22005665cf9dd81b19e0/pulumi_ns1-3.3.0a1714456527.tar.gz
+[2024-05-01 08:21:32] INFO root fetch - processPackages [web-rwkv-py]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-01 08:21:32] INFO root fetch - processPackages [pulumi-ns1]: executing diffoscope
+[2024-05-01 08:21:32] INFO root fetch - processPackages [pulumi-ns1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_ns1-3.3.0a1714110968.tar.gz tmp/pulumi_ns1-3.3.0a1714456527.tar.gz --markdown 20240501/p/pulumi-ns1/3.3.0a1714110968-3.3.0a1714456527/README.md --exclude *.pyd
+[2024-05-01 08:21:32] INFO root fetch - processPackages [pulumi-null]: Downloading https://files.pythonhosted.org/packages/ba/e0/ba0dfd510a9872dc669864562727de7577c1aaf202a8be7ea9fb99f7fd06/pulumi_null-0.1.0a1714542983.tar.gz
+[2024-05-01 08:21:32] INFO root fetch - processPackages [pulumi-nomad]: Downloading https://files.pythonhosted.org/packages/ea/86/89d841e338217fbb9c2947ec2234c73288eff1693871c59f7dac87778933/pulumi_nomad-2.3.0a1714542838.tar.gz
+[2024-05-01 08:21:32] INFO root fetch - processPackages [loopquest]: Downloading https://files.pythonhosted.org/packages/7c/b8/2f9547c97f68684961c56a1715bd8cde184f2867407f7d64b39ba92fb770/loopquest-0.2.1.tar.gz
+[2024-05-01 08:21:32] INFO root fetch - processPackages [web-rwkv-py]: Downloading https://files.pythonhosted.org/packages/b5/2a/17b97361dcff122ee15c87e42cd0f8513707bcaa424a7eaf671008af6985/web_rwkv_py-0.2.0.tar.gz
+[2024-05-01 08:21:32] INFO root fetch - processPackages [ImmunoViewer]: Downloading https://files.pythonhosted.org/packages/1a/e3/d0d0702000e2faa7fc507949671dd7330e02dd4cde78108ac0fa1f206da2/immunoviewer-0.2.2rc2.dev0.tar.gz
+[2024-05-01 08:21:32] INFO root fetch - processPackages [foscat]: Downloading https://files.pythonhosted.org/packages/42/3c/3ec0d9aa38fb2a3152ce79ba0f92a03372e73164626118a07121951ed317/foscat-3.0.9.tar.gz
+[2024-05-01 08:21:32] INFO root fetch - processPackages [pulumi-nomad]: executing diffoscope
+[2024-05-01 08:21:32] INFO root fetch - processPackages [pulumi-nomad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_nomad-2.3.0a1714456396.tar.gz tmp/pulumi_nomad-2.3.0a1714542838.tar.gz --markdown 20240501/p/pulumi-nomad/2.3.0a1714456396-2.3.0a1714542838/README.md --exclude *.pyd
+[2024-05-01 08:21:32] INFO root fetch - processPackages [loopquest]: executing diffoscope
+[2024-05-01 08:21:32] INFO root fetch - processPackages [loopquest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/loopquest-0.2.0.tar.gz tmp/loopquest-0.2.1.tar.gz --markdown 20240501/l/loopquest/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-01 08:21:32] INFO root fetch - processPackages [foscat]: executing diffoscope
+[2024-05-01 08:21:32] INFO root fetch - processPackages [foscat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foscat-3.0.8.tar.gz tmp/foscat-3.0.9.tar.gz --markdown 20240501/f/foscat/3.0.8-3.0.9/README.md --exclude *.pyd
+[2024-05-01 08:21:32] INFO root fetch - processPackages [pulumi-null]: executing diffoscope
+[2024-05-01 08:21:32] INFO root fetch - processPackages [pulumi-null]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_null-0.1.0a1714456711.tar.gz tmp/pulumi_null-0.1.0a1714542983.tar.gz --markdown 20240501/p/pulumi-null/0.1.0a1714456711-0.1.0a1714542983/README.md --exclude *.pyd
+[2024-05-01 08:21:32] INFO root fetch - processPackages [web-rwkv-py]: Downloading https://files.pythonhosted.org/packages/9f/dd/e67c2ecedcefe086acbba0bfcc01c029d50756d962d5c00376e9de1707c2/web_rwkv_py-0.2.1-cp311-cp311-manylinux_2_17_s390x.manylinux2014_s390x.whl
+[2024-05-01 08:21:32] INFO root fetch - processPackages [ImmunoViewer]: executing diffoscope
+[2024-05-01 08:21:32] INFO root fetch - processPackages [ImmunoViewer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/immunoviewer-0.2.2.dev0.tar.gz tmp/immunoviewer-0.2.2rc2.dev0.tar.gz --markdown 20240501/I/ImmunoViewer/0.2.2.dev0-0.2.2rc2.dev0/README.md --exclude *.pyd
+[2024-05-01 08:21:33] INFO root fetch - processPackages [pulumi-ns1]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_ns1-3.3.0a1714110968.tar.gz]
+[2024-05-01 08:21:33] INFO root fetch - processPackages [pulumi-ns1]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_ns1-3.3.0a1714456527.tar.gz]
+[2024-05-01 08:21:33] INFO root fetch - main [MainThread]: End processing [pulumi-ns1]: success
+[2024-05-01 08:21:33] INFO root fetch - processPackages [loopquest]: Remove: archive file [/home/abi/fetcher/tmp/loopquest-0.2.0.tar.gz]
+[2024-05-01 08:21:33] INFO root fetch - processPackages [loopquest]: Remove: archive file [/home/abi/fetcher/tmp/loopquest-0.2.1.tar.gz]
+[2024-05-01 08:21:33] INFO root fetch - main [MainThread]: End processing [loopquest]: success
+[2024-05-01 08:21:33] INFO root fetch - processPackages [pulumi-null]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_null-0.1.0a1714456711.tar.gz]
+[2024-05-01 08:21:33] INFO root fetch - processPackages [pulumi-null]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_null-0.1.0a1714542983.tar.gz]
+[2024-05-01 08:21:33] INFO root fetch - main [MainThread]: End processing [pulumi-null]: success
+[2024-05-01 08:21:33] INFO root fetch - processPackages [pulumi-nomad]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_nomad-2.3.0a1714456396.tar.gz]
+[2024-05-01 08:21:33] INFO root fetch - processPackages [pulumi-nomad]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_nomad-2.3.0a1714542838.tar.gz]
+[2024-05-01 08:21:33] INFO root fetch - main [MainThread]: End processing [pulumi-nomad]: success
+[2024-05-01 08:21:33] INFO root fetch - processPackages [foscat]: Remove: archive file [/home/abi/fetcher/tmp/foscat-3.0.8.tar.gz]
+[2024-05-01 08:21:33] INFO root fetch - processPackages [foscat]: Remove: archive file [/home/abi/fetcher/tmp/foscat-3.0.9.tar.gz]
+[2024-05-01 08:21:33] INFO root fetch - main [MainThread]: End processing [foscat]: success
+[2024-05-01 08:21:34] INFO root fetch - processPackages [ImmunoViewer]: Remove: archive file [/home/abi/fetcher/tmp/immunoviewer-0.2.2.dev0.tar.gz]
+[2024-05-01 08:21:34] INFO root fetch - processPackages [ImmunoViewer]: Remove: archive file [/home/abi/fetcher/tmp/immunoviewer-0.2.2rc2.dev0.tar.gz]
+[2024-05-01 08:21:34] INFO root fetch - main [MainThread]: End processing [ImmunoViewer]: success
+[2024-05-01 08:21:36] INFO root fetch - processPackages [web-rwkv-py]: executing diffoscope
+[2024-05-01 08:21:36] INFO root fetch - processPackages [web-rwkv-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/web_rwkv_py-0.2.0.tar.gz tmp/web_rwkv_py-0.2.1-cp311-cp311-manylinux_2_17_s390x.manylinux2014_s390x.whl.zip --markdown 20240501/w/web-rwkv-py/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-01 08:21:36] INFO root fetch - processPackages [web-rwkv-py]: Remove: archive file [/home/abi/fetcher/tmp/web_rwkv_py-0.2.0.tar.gz]
+[2024-05-01 08:21:36] INFO root fetch - processPackages [web-rwkv-py]: Remove: archive file [/home/abi/fetcher/tmp/web_rwkv_py-0.2.1-cp311-cp311-manylinux_2_17_s390x.manylinux2014_s390x.whl.zip]
+[2024-05-01 08:21:36] INFO root fetch - main [MainThread]: End processing [web-rwkv-py]: success
+[2024-05-01 08:21:36] INFO root fetch - main [MainThread]: Store serial: [23013046]
