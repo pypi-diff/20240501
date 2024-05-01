@@ -9537,3 +9537,15 @@
 [2024-05-01 07:15:09] INFO root fetch - processPackages [behavysis_viewer]: Remove: archive file [/home/abi/fetcher/tmp/behavysis_viewer-0.1.1.tar.gz]
 [2024-05-01 07:15:09] INFO root fetch - main [MainThread]: End processing [behavysis_viewer]: success
 [2024-05-01 07:15:09] INFO root fetch - main [MainThread]: Store serial: [23012569]
+[2024-05-01 07:17:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23012569]
+[2024-05-01 07:17:18] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-01 07:17:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Akatosh
+[2024-05-01 07:17:18] INFO root fetch - processPackages [Akatosh]: New version: [3.0.1] Old Version: [3.0.0]
+[2024-05-01 07:17:18] INFO root fetch - processPackages [Akatosh]: Downloading https://files.pythonhosted.org/packages/d1/fd/63c45c3e18bfe7aa73803ba95b8c77e733d75fc4aa43ae38b8dd5a2b810d/akatosh-3.0.0.tar.gz
+[2024-05-01 07:17:18] INFO root fetch - processPackages [Akatosh]: Downloading https://files.pythonhosted.org/packages/c9/75/6a69c6b95514e8614ca77a29701293d656b182ef4fc507375e54a053f444/akatosh-3.0.1.tar.gz
+[2024-05-01 07:17:18] INFO root fetch - processPackages [Akatosh]: executing diffoscope
+[2024-05-01 07:17:18] INFO root fetch - processPackages [Akatosh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akatosh-3.0.0.tar.gz tmp/akatosh-3.0.1.tar.gz --markdown 20240501/A/Akatosh/3.0.0-3.0.1/README.md --exclude *.pyd
+[2024-05-01 07:17:19] INFO root fetch - processPackages [Akatosh]: Remove: archive file [/home/abi/fetcher/tmp/akatosh-3.0.0.tar.gz]
+[2024-05-01 07:17:19] INFO root fetch - processPackages [Akatosh]: Remove: archive file [/home/abi/fetcher/tmp/akatosh-3.0.1.tar.gz]
+[2024-05-01 07:17:19] INFO root fetch - main [MainThread]: End processing [Akatosh]: success
+[2024-05-01 07:17:19] INFO root fetch - main [MainThread]: Store serial: [23012572]
