@@ -11428,3 +11428,33 @@
 [2024-05-01 08:54:41] INFO root fetch - processPackages [mongojet]: Remove: archive file [/home/abi/fetcher/tmp/mongojet-0.1.1-cp39-cp39-manylinux_2_28_aarch64.whl.zip]
 [2024-05-01 08:54:41] INFO root fetch - main [MainThread]: End processing [mongojet]: success
 [2024-05-01 08:54:41] INFO root fetch - main [MainThread]: Store serial: [23013376]
+[2024-05-01 08:56:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23013376]
+[2024-05-01 08:56:52] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-01 08:56:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: streamlit-nightly
+[2024-05-01 08:56:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: libfsfat-python
+[2024-05-01 08:56:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: synrbl
+[2024-05-01 08:56:52] INFO root fetch - processPackages [streamlit-nightly]: New version: [1.33.1.dev20240429] Old Version: [1.33.1.dev20240426]
+[2024-05-01 08:56:52] INFO root fetch - processPackages [synrbl]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-01 08:56:52] INFO root fetch - processPackages [libfsfat-python]: New version: [20240501] Old Version: [20240220]
+[2024-05-01 08:56:52] INFO root fetch - processPackages [streamlit-nightly]: Downloading https://files.pythonhosted.org/packages/f7/86/acdb27a20060dff2b2ef9288cfd1a006be3446db5d7a8b89696b15d043b3/streamlit_nightly-1.33.1.dev20240426.tar.gz
+[2024-05-01 08:56:52] INFO root fetch - processPackages [synrbl]: Downloading https://files.pythonhosted.org/packages/28/86/082dee5389753c8bd486879e55d26d3f2185a225fadf2f1fe4bb9beb9d85/synrbl-0.0.8.tar.gz
+[2024-05-01 08:56:52] INFO root fetch - processPackages [libfsfat-python]: Downloading https://files.pythonhosted.org/packages/80/30/df40adc05c3af2f43ca617e6632b99e662b67cb42469659082a788814d36/libfsfat-python-20240220.tar.gz
+[2024-05-01 08:56:52] INFO root fetch - processPackages [streamlit-nightly]: Downloading https://files.pythonhosted.org/packages/83/11/f3c3a13d658abd97a20e55ba5a7da2469a0dd3b15b17bf9360bc05aec5eb/streamlit_nightly-1.33.1.dev20240429.tar.gz
+[2024-05-01 08:56:52] INFO root fetch - processPackages [libfsfat-python]: Downloading https://files.pythonhosted.org/packages/78/08/3bf1927f867a255bb711fb060b6e0ac5466aaf2e99ea820f873571531153/libfsfat-python-20240501.tar.gz
+[2024-05-01 08:56:53] INFO root fetch - processPackages [libfsfat-python]: executing diffoscope
+[2024-05-01 08:56:53] INFO root fetch - processPackages [libfsfat-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libfsfat-python-20240220.tar.gz tmp/libfsfat-python-20240501.tar.gz --markdown 20240501/l/libfsfat-python/20240220-20240501/README.md --exclude *.pyd
+[2024-05-01 08:56:53] INFO root fetch - processPackages [synrbl]: Downloading https://files.pythonhosted.org/packages/5c/22/f5f6d1874b599ff46d6155b4de52df7c7f58286b82037d3db18c4cb84902/synrbl-0.0.9.tar.gz
+[2024-05-01 08:56:53] INFO root fetch - processPackages [streamlit-nightly]: executing diffoscope
+[2024-05-01 08:56:53] INFO root fetch - processPackages [streamlit-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit_nightly-1.33.1.dev20240426.tar.gz tmp/streamlit_nightly-1.33.1.dev20240429.tar.gz --markdown 20240501/s/streamlit-nightly/1.33.1.dev20240426-1.33.1.dev20240429/README.md --exclude *.pyd
+[2024-05-01 08:56:53] INFO root fetch - processPackages [synrbl]: executing diffoscope
+[2024-05-01 08:56:53] INFO root fetch - processPackages [synrbl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/synrbl-0.0.8.tar.gz tmp/synrbl-0.0.9.tar.gz --markdown 20240501/s/synrbl/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-01 08:56:55] INFO root fetch - processPackages [synrbl]: Remove: archive file [/home/abi/fetcher/tmp/synrbl-0.0.8.tar.gz]
+[2024-05-01 08:56:55] INFO root fetch - processPackages [synrbl]: Remove: archive file [/home/abi/fetcher/tmp/synrbl-0.0.9.tar.gz]
+[2024-05-01 08:56:55] INFO root fetch - main [MainThread]: End processing [synrbl]: success
+[2024-05-01 08:56:58] INFO root fetch - processPackages [libfsfat-python]: Remove: archive file [/home/abi/fetcher/tmp/libfsfat-python-20240220.tar.gz]
+[2024-05-01 08:56:58] INFO root fetch - processPackages [libfsfat-python]: Remove: archive file [/home/abi/fetcher/tmp/libfsfat-python-20240501.tar.gz]
+[2024-05-01 08:56:58] INFO root fetch - main [MainThread]: End processing [libfsfat-python]: success
+[2024-05-01 08:57:24] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_nightly-1.33.1.dev20240426.tar.gz]
+[2024-05-01 08:57:24] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_nightly-1.33.1.dev20240429.tar.gz]
+[2024-05-01 08:57:24] INFO root fetch - main [MainThread]: End processing [streamlit-nightly]: success
+[2024-05-01 08:57:24] INFO root fetch - main [MainThread]: Store serial: [23013438]
