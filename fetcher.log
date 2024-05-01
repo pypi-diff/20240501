@@ -7889,3 +7889,51 @@
 [2024-05-01 05:12:14] INFO root fetch - processPackages [scMDCF]: Remove: archive file [/home/abi/fetcher/tmp/scMDCF-1.1.3-py2.py3-none-any.whl.zip]
 [2024-05-01 05:12:14] INFO root fetch - main [MainThread]: End processing [scMDCF]: success
 [2024-05-01 05:12:14] INFO root fetch - main [MainThread]: Store serial: [23011798]
+[2024-05-01 05:14:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23011798]
+[2024-05-01 05:14:22] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-01 05:14:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: scMDCF
+[2024-05-01 05:14:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: manyhttps
+[2024-05-01 05:14:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdktf-cdktf-provider-upcloud
+[2024-05-01 05:14:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: logkontrol
+[2024-05-01 05:14:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pymarkdownlnt
+[2024-05-01 05:14:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: libem
+[2024-05-01 05:14:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sembansurga
+[2024-05-01 05:14:22] WARNING root fetch - processPackages [manyhttps]: Skipping, unable to determine old version
+[2024-05-01 05:14:22] INFO root fetch - main [MainThread]: End processing [manyhttps] error
+[2024-05-01 05:14:22] WARNING root fetch - processPackages [logkontrol]: Skipping, unable to determine old version
+[2024-05-01 05:14:22] INFO root fetch - main [MainThread]: End processing [logkontrol] error
+[2024-05-01 05:14:22] INFO root fetch - processPackages [scMDCF]: New version: [1.1.3] Old Version: [1.1.2]
+[2024-05-01 05:14:22] INFO root fetch - processPackages [sembansurga]: New version: [1.1.3] Old Version: [1.0.4]
+[2024-05-01 05:14:22] ERROR root fetch - processPackages [libem]: Unable to get metadata: No such project 'libem'
+[2024-05-01 05:14:22] INFO root fetch - main [MainThread]: End processing [libem] error
+[2024-05-01 05:14:22] INFO root fetch - processPackages [sembansurga]: Downloading https://files.pythonhosted.org/packages/65/ef/3bf568d31003344c02460bd2e150ab0efdd8199514160776f4a34f12196c/sembansurga-1.0.4.tar.gz
+[2024-05-01 05:14:22] INFO root fetch - processPackages [scMDCF]: Downloading https://files.pythonhosted.org/packages/5a/2b/df62f881671a7fe9707e9213091d8856cc9273206568618bf33a9bba328a/scMDCF-1.1.2.tar.gz
+[2024-05-01 05:14:22] INFO root fetch - processPackages [pymarkdownlnt]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-01 05:14:22] INFO root fetch - processPackages [cdktf-cdktf-provider-upcloud]: New version: [9.0.0] Old Version: [8.0.0]
+[2024-05-01 05:14:23] INFO root fetch - processPackages [scMDCF]: Downloading https://files.pythonhosted.org/packages/ec/7c/9951d879d7546cee7191b9d1cd1b886d39f0df255c4be0d249e27828aa1c/scMDCF-1.1.3-py2.py3-none-any.whl
+[2024-05-01 05:14:23] INFO root fetch - processPackages [sembansurga]: Downloading https://files.pythonhosted.org/packages/4e/c1/d19e852f399811afa1c05f0296bb871d5a705a8f443a535b8942c7fa9d52/sembansurga-1.1.3.tar.gz
+[2024-05-01 05:14:23] INFO root fetch - processPackages [pymarkdownlnt]: Downloading https://files.pythonhosted.org/packages/a3/94/6adcb1867afbe385082c2f2689db8f40cba7af716d2105651a23f845bbe4/pymarkdownlnt-0.9.8.tar.gz
+[2024-05-01 05:14:23] INFO root fetch - processPackages [cdktf-cdktf-provider-upcloud]: Downloading https://files.pythonhosted.org/packages/c0/3c/af33368b4c7a4b70e95bce5aa26c2a0e4a13891861c926506de5ee00d648/cdktf-cdktf-provider-upcloud-8.0.0.tar.gz
+[2024-05-01 05:14:23] INFO root fetch - processPackages [scMDCF]: executing diffoscope
+[2024-05-01 05:14:23] INFO root fetch - processPackages [scMDCF]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scMDCF-1.1.2.tar.gz tmp/scMDCF-1.1.3-py2.py3-none-any.whl.zip --markdown 20240501/s/scMDCF/1.1.2-1.1.3/README.md --exclude *.pyd
+[2024-05-01 05:14:23] INFO root fetch - processPackages [sembansurga]: executing diffoscope
+[2024-05-01 05:14:23] INFO root fetch - processPackages [sembansurga]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sembansurga-1.0.4.tar.gz tmp/sembansurga-1.1.3.tar.gz --markdown 20240501/s/sembansurga/1.0.4-1.1.3/README.md --exclude *.pyd
+[2024-05-01 05:14:23] INFO root fetch - processPackages [pymarkdownlnt]: Downloading https://files.pythonhosted.org/packages/8f/76/a53b85aa14a0478296d962d41d6a138019a37a47c6b213567ef63c0154dc/pymarkdownlnt-0.9.9.tar.gz
+[2024-05-01 05:14:23] INFO root fetch - processPackages [cdktf-cdktf-provider-upcloud]: Downloading https://files.pythonhosted.org/packages/11/34/e1c239edd060e043f3bda7830f678ebce24c01902bdaeb3e433a968bab0b/cdktf-cdktf-provider-upcloud-9.0.0.tar.gz
+[2024-05-01 05:14:23] INFO root fetch - processPackages [cdktf-cdktf-provider-upcloud]: executing diffoscope
+[2024-05-01 05:14:23] INFO root fetch - processPackages [cdktf-cdktf-provider-upcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-upcloud-8.0.0.tar.gz tmp/cdktf-cdktf-provider-upcloud-9.0.0.tar.gz --markdown 20240501/c/cdktf-cdktf-provider-upcloud/8.0.0-9.0.0/README.md --exclude *.pyd
+[2024-05-01 05:14:23] INFO root fetch - processPackages [sembansurga]: Remove: archive file [/home/abi/fetcher/tmp/sembansurga-1.0.4.tar.gz]
+[2024-05-01 05:14:23] INFO root fetch - processPackages [sembansurga]: Remove: archive file [/home/abi/fetcher/tmp/sembansurga-1.1.3.tar.gz]
+[2024-05-01 05:14:23] INFO root fetch - main [MainThread]: End processing [sembansurga]: success
+[2024-05-01 05:14:23] INFO root fetch - processPackages [scMDCF]: Remove: archive file [/home/abi/fetcher/tmp/scMDCF-1.1.2.tar.gz]
+[2024-05-01 05:14:23] INFO root fetch - processPackages [scMDCF]: Remove: archive file [/home/abi/fetcher/tmp/scMDCF-1.1.3-py2.py3-none-any.whl.zip]
+[2024-05-01 05:14:23] INFO root fetch - main [MainThread]: End processing [scMDCF]: success
+[2024-05-01 05:14:23] INFO root fetch - processPackages [pymarkdownlnt]: executing diffoscope
+[2024-05-01 05:14:23] INFO root fetch - processPackages [pymarkdownlnt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymarkdownlnt-0.9.8.tar.gz tmp/pymarkdownlnt-0.9.9.tar.gz --markdown 20240501/p/pymarkdownlnt/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-01 05:14:24] INFO root fetch - processPackages [cdktf-cdktf-provider-upcloud]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-upcloud-8.0.0.tar.gz]
+[2024-05-01 05:14:24] INFO root fetch - processPackages [cdktf-cdktf-provider-upcloud]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-upcloud-9.0.0.tar.gz]
+[2024-05-01 05:14:24] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-upcloud]: success
+[2024-05-01 05:14:25] INFO root fetch - processPackages [pymarkdownlnt]: Remove: archive file [/home/abi/fetcher/tmp/pymarkdownlnt-0.9.8.tar.gz]
+[2024-05-01 05:14:25] INFO root fetch - processPackages [pymarkdownlnt]: Remove: archive file [/home/abi/fetcher/tmp/pymarkdownlnt-0.9.9.tar.gz]
+[2024-05-01 05:14:25] INFO root fetch - main [MainThread]: End processing [pymarkdownlnt]: success
+[2024-05-01 05:14:25] INFO root fetch - main [MainThread]: Store serial: [23011820]
