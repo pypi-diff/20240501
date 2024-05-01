@@ -11862,3 +11862,33 @@
 [2024-05-01 09:26:27] INFO root fetch - processPackages [advanced-input]: Remove: archive file [/home/abi/fetcher/tmp/advanced_input-0.2.0.tar.gz]
 [2024-05-01 09:26:27] INFO root fetch - main [MainThread]: End processing [advanced-input]: success
 [2024-05-01 09:26:27] INFO root fetch - main [MainThread]: Store serial: [23013593]
+[2024-05-01 09:28:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23013593]
+[2024-05-01 09:28:36] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-01 09:28:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: LuBanPy
+[2024-05-01 09:28:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: benchling-sdk
+[2024-05-01 09:28:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: importer-local
+[2024-05-01 09:28:36] INFO root fetch - processPackages [LuBanPy]: New version: [0.1.9] Old Version: [0.1.7]
+[2024-05-01 09:28:36] INFO root fetch - processPackages [LuBanPy]: Downloading https://files.pythonhosted.org/packages/56/da/c1a104d4b834f04c0441a2021da07a0d2fa21d41fa076d73f5d3cd36a231/LuBanPy-0.1.7-cp38-cp38-win_amd64.whl
+[2024-05-01 09:28:36] INFO root fetch - processPackages [importer-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-01 09:28:36] INFO root fetch - processPackages [benchling-sdk]: New version: [1.9.0a5] Old Version: [1.9.0a4]
+[2024-05-01 09:28:37] INFO root fetch - processPackages [importer-local]: Downloading https://files.pythonhosted.org/packages/3b/68/0b10215ac7859421c193cd0df3aab70a0aef2e2db5f22c14a5a2fd7bd732/importer-local-0.0.8.tar.gz
+[2024-05-01 09:28:37] INFO root fetch - processPackages [benchling-sdk]: Downloading https://files.pythonhosted.org/packages/8f/f8/5d02747f1452d3e0311ee1f935d61e67ffee539834f7fc0015dfadcc580a/benchling_sdk-1.9.0a4.tar.gz
+[2024-05-01 09:28:37] INFO root fetch - processPackages [LuBanPy]: Downloading https://files.pythonhosted.org/packages/d8/80/6ec38830c73dc214a34d0bcdfc9eac19ee0a5ff2f7e661427b5f1b926500/LuBanPy-0.1.9-cp38-cp38-win_amd64.whl
+[2024-05-01 09:28:37] INFO root fetch - processPackages [importer-local]: Downloading https://files.pythonhosted.org/packages/80/33/939765aa01c27931d172ea899fb7307071569b4fc595e6ec107018aabc97/importer-local-0.0.9.tar.gz
+[2024-05-01 09:28:37] INFO root fetch - processPackages [benchling-sdk]: Downloading https://files.pythonhosted.org/packages/8d/21/f30c5d0a9cad17e7224b3c40cabe4b0cd313a2c4108b4db5d5045a19bc6d/benchling_sdk-1.9.0a5.tar.gz
+[2024-05-01 09:28:37] INFO root fetch - processPackages [importer-local]: executing diffoscope
+[2024-05-01 09:28:37] INFO root fetch - processPackages [importer-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/importer-local-0.0.8.tar.gz tmp/importer-local-0.0.9.tar.gz --markdown 20240501/i/importer-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-01 09:28:37] INFO root fetch - processPackages [LuBanPy]: executing diffoscope
+[2024-05-01 09:28:37] INFO root fetch - processPackages [LuBanPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LuBanPy-0.1.7-cp38-cp38-win_amd64.whl.zip tmp/LuBanPy-0.1.9-cp38-cp38-win_amd64.whl.zip --markdown 20240501/L/LuBanPy/0.1.7-0.1.9/README.md --exclude *.pyd
+[2024-05-01 09:28:37] INFO root fetch - processPackages [benchling-sdk]: executing diffoscope
+[2024-05-01 09:28:37] INFO root fetch - processPackages [benchling-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/benchling_sdk-1.9.0a4.tar.gz tmp/benchling_sdk-1.9.0a5.tar.gz --markdown 20240501/b/benchling-sdk/1.9.0a4-1.9.0a5/README.md --exclude *.pyd
+[2024-05-01 09:28:38] INFO root fetch - processPackages [importer-local]: Remove: archive file [/home/abi/fetcher/tmp/importer-local-0.0.8.tar.gz]
+[2024-05-01 09:28:38] INFO root fetch - processPackages [importer-local]: Remove: archive file [/home/abi/fetcher/tmp/importer-local-0.0.9.tar.gz]
+[2024-05-01 09:28:38] INFO root fetch - main [MainThread]: End processing [importer-local]: success
+[2024-05-01 09:28:38] INFO root fetch - processPackages [LuBanPy]: Remove: archive file [/home/abi/fetcher/tmp/LuBanPy-0.1.7-cp38-cp38-win_amd64.whl.zip]
+[2024-05-01 09:28:38] INFO root fetch - processPackages [LuBanPy]: Remove: archive file [/home/abi/fetcher/tmp/LuBanPy-0.1.9-cp38-cp38-win_amd64.whl.zip]
+[2024-05-01 09:28:38] INFO root fetch - main [MainThread]: End processing [LuBanPy]: success
+[2024-05-01 09:28:38] INFO root fetch - processPackages [benchling-sdk]: Remove: archive file [/home/abi/fetcher/tmp/benchling_sdk-1.9.0a4.tar.gz]
+[2024-05-01 09:28:38] INFO root fetch - processPackages [benchling-sdk]: Remove: archive file [/home/abi/fetcher/tmp/benchling_sdk-1.9.0a5.tar.gz]
+[2024-05-01 09:28:38] INFO root fetch - main [MainThread]: End processing [benchling-sdk]: success
+[2024-05-01 09:28:38] INFO root fetch - main [MainThread]: Store serial: [23013602]
