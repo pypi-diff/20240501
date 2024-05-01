@@ -10950,3 +10950,96 @@
 [2024-05-01 08:30:24] INFO root fetch - processPackages [pulumi-openstack]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_openstack-3.9.0a1659603007.tar.gz]
 [2024-05-01 08:30:24] INFO root fetch - main [MainThread]: End processing [pulumi-openstack]: success
 [2024-05-01 08:30:24] INFO root fetch - main [MainThread]: Store serial: [23013176]
+[2024-05-01 08:32:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23013176]
+[2024-05-01 08:32:33] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-05-01 08:32:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: seguid
+[2024-05-01 08:32:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aws-fsx-lifecycle-status-monitor
+[2024-05-01 08:32:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-okta
+[2024-05-01 08:32:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: torch-image2vector
+[2024-05-01 08:32:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: upowwalletpy
+[2024-05-01 08:32:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk-budget-notifier
+[2024-05-01 08:32:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdk-gradle-uploader
+[2024-05-01 08:32:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pulumi-opsgenie
+[2024-05-01 08:32:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: python-package-info
+[2024-05-01 08:32:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pulumi-rabbitmq
+[2024-05-01 08:32:34] INFO root fetch - processPackages [seguid]: New version: [0.1.0a1] Old Version: [0.1.0]
+[2024-05-01 08:32:34] WARNING root fetch - processPackages [python-package-info]: Skipping, unable to determine old version
+[2024-05-01 08:32:34] INFO root fetch - processPackages [python-package-info]: Start processing: frontengine
+[2024-05-01 08:32:34] INFO root fetch - main [MainThread]: End processing [python-package-info] error
+[2024-05-01 08:32:34] INFO root fetch - processPackages [pulumi-rabbitmq]: New version: [3.4.0a1714457313] Old Version: [3.4.0a1714112064]
+[2024-05-01 08:32:34] INFO root fetch - processPackages [pulumi-opsgenie]: New version: [1.4.0a1714456977] Old Version: [1.4.0a1714111665]
+[2024-05-01 08:32:34] INFO root fetch - processPackages [frontengine]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-01 08:32:34] INFO root fetch - processPackages [cdk-gradle-uploader]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-01 08:32:34] INFO root fetch - processPackages [seguid]: Downloading https://files.pythonhosted.org/packages/94/b0/992f0752f62477ef76413207f46a548d3dfa2499077df56314577227ecb8/seguid-0.1.0.tar.gz
+[2024-05-01 08:32:34] INFO root fetch - processPackages [cdk-budget-notifier]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-01 08:32:34] WARNING root fetch - processPackages [upowwalletpy]: Skipping, unable to determine old version
+[2024-05-01 08:32:34] INFO root fetch - processPackages [aws-fsx-lifecycle-status-monitor]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-01 08:32:34] WARNING root fetch - processPackages [torch-image2vector]: Skipping, unable to determine old version
+[2024-05-01 08:32:34] INFO root fetch - processPackages [upowwalletpy]: Start processing: frontengine-dev
+[2024-05-01 08:32:34] INFO root fetch - main [MainThread]: End processing [upowwalletpy] error
+[2024-05-01 08:32:34] INFO root fetch - processPackages [frontengine]: Downloading https://files.pythonhosted.org/packages/62/88/6d99d7b463365da48db6f37c9bde41e7f7f20eeb1a13653a273586e81d3a/frontengine-0.0.8.tar.gz
+[2024-05-01 08:32:34] INFO root fetch - main [MainThread]: End processing [torch-image2vector] error
+[2024-05-01 08:32:34] INFO root fetch - processPackages [pulumi-okta]: New version: [4.9.0a1714543321] Old Version: [4.9.0a1714456879]
+[2024-05-01 08:32:34] INFO root fetch - processPackages [pulumi-rabbitmq]: Downloading https://files.pythonhosted.org/packages/18/3a/8d20b4e2446ac1f26439e7c62f1a280300d6f9fe2d9675919f6bc3f047f1/pulumi_rabbitmq-3.4.0a1714112064.tar.gz
+[2024-05-01 08:32:34] INFO root fetch - processPackages [pulumi-opsgenie]: Downloading https://files.pythonhosted.org/packages/e8/1c/f50d834ca31c4ae5d63f9181332bddfbd5ed376bcae3dd3dac1338786774/pulumi_opsgenie-1.4.0a1714111665.tar.gz
+[2024-05-01 08:32:34] INFO root fetch - processPackages [frontengine-dev]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-01 08:32:34] INFO root fetch - processPackages [pulumi-okta]: Downloading https://files.pythonhosted.org/packages/41/0c/e51d2e6e73a99e6107a399a19027a65d8db3eb19b9b661e2fbab983f557c/pulumi_okta-4.9.0a1714456879.tar.gz
+[2024-05-01 08:32:34] INFO root fetch - processPackages [frontengine-dev]: Downloading https://files.pythonhosted.org/packages/23/e2/01e0fe02ca6b73e163f3f0d080231bc0c783a63e766e5524eb246350518d/frontengine_dev-0.0.8.tar.gz
+[2024-05-01 08:32:34] INFO root fetch - processPackages [cdk-gradle-uploader]: Downloading https://files.pythonhosted.org/packages/b9/29/f32301fee9260349ce731b85106e9b41e74b86fbdeff47b4fbeb7cb06477/cdk-gradle-uploader-0.0.8.tar.gz
+[2024-05-01 08:32:34] INFO root fetch - processPackages [aws-fsx-lifecycle-status-monitor]: Downloading https://files.pythonhosted.org/packages/bc/36/a413b74496f05eea3b7b18f9285e79708bc28ddb7d80b6617acd3c4ec63e/aws-fsx-lifecycle-status-monitor-0.0.8.tar.gz
+[2024-05-01 08:32:34] INFO root fetch - processPackages [seguid]: Downloading https://files.pythonhosted.org/packages/24/22/d5083b6fb83e63bf3efcc0028860c13acba16328b15c8cad619e73a2a9ca/seguid-0.1.0a1.tar.gz
+[2024-05-01 08:32:34] INFO root fetch - processPackages [cdk-budget-notifier]: Downloading https://files.pythonhosted.org/packages/c4/54/64f3aabbfb5aaf7a4c140f15507aba3c02449c45bfc17f318adf221a35b2/cdk-budget-notifier-0.3.8.tar.gz
+[2024-05-01 08:32:34] INFO root fetch - processPackages [frontengine]: Downloading https://files.pythonhosted.org/packages/a5/8e/4bb92b2db27649b96b46469f263e2fdd091c8283ff06a24534624c34be9d/frontengine-0.0.9.tar.gz
+[2024-05-01 08:32:34] INFO root fetch - processPackages [pulumi-rabbitmq]: Downloading https://files.pythonhosted.org/packages/be/5f/38ae9df303829814891cdb8aa114790043fdadb793333bca545213e5bdef/pulumi_rabbitmq-3.4.0a1714457313.tar.gz
+[2024-05-01 08:32:34] INFO root fetch - processPackages [pulumi-opsgenie]: Downloading https://files.pythonhosted.org/packages/0a/be/235c2013cb986cd777a54ef8137a9f8a99826d428da5e06c57180f4d377d/pulumi_opsgenie-1.4.0a1714456977.tar.gz
+[2024-05-01 08:32:34] INFO root fetch - processPackages [seguid]: executing diffoscope
+[2024-05-01 08:32:34] INFO root fetch - processPackages [seguid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seguid-0.1.0.tar.gz tmp/seguid-0.1.0a1.tar.gz --markdown 20240501/s/seguid/0.1.0-0.1.0a1/README.md --exclude *.pyd
+[2024-05-01 08:32:34] INFO root fetch - processPackages [frontengine]: executing diffoscope
+[2024-05-01 08:32:34] INFO root fetch - processPackages [frontengine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frontengine-0.0.8.tar.gz tmp/frontengine-0.0.9.tar.gz --markdown 20240501/f/frontengine/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-01 08:32:34] INFO root fetch - processPackages [pulumi-rabbitmq]: executing diffoscope
+[2024-05-01 08:32:34] INFO root fetch - processPackages [pulumi-rabbitmq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_rabbitmq-3.4.0a1714112064.tar.gz tmp/pulumi_rabbitmq-3.4.0a1714457313.tar.gz --markdown 20240501/p/pulumi-rabbitmq/3.4.0a1714112064-3.4.0a1714457313/README.md --exclude *.pyd
+[2024-05-01 08:32:34] INFO root fetch - processPackages [frontengine-dev]: Downloading https://files.pythonhosted.org/packages/bd/40/ac58f5e1633b3b2ea3574839a03ddc6a124459f3e721986a4208fbe06488/frontengine_dev-0.0.9.tar.gz
+[2024-05-01 08:32:34] INFO root fetch - processPackages [pulumi-opsgenie]: executing diffoscope
+[2024-05-01 08:32:34] INFO root fetch - processPackages [pulumi-opsgenie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_opsgenie-1.4.0a1714111665.tar.gz tmp/pulumi_opsgenie-1.4.0a1714456977.tar.gz --markdown 20240501/p/pulumi-opsgenie/1.4.0a1714111665-1.4.0a1714456977/README.md --exclude *.pyd
+[2024-05-01 08:32:34] INFO root fetch - processPackages [pulumi-okta]: Downloading https://files.pythonhosted.org/packages/f1/de/3912b458d98670c1176f62b2763e20c8b8d608930a3aae067d62b4366667/pulumi_okta-4.9.0a1714543321.tar.gz
+[2024-05-01 08:32:34] INFO root fetch - processPackages [frontengine-dev]: executing diffoscope
+[2024-05-01 08:32:34] INFO root fetch - processPackages [frontengine-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frontengine_dev-0.0.8.tar.gz tmp/frontengine_dev-0.0.9.tar.gz --markdown 20240501/f/frontengine-dev/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-01 08:32:34] INFO root fetch - processPackages [aws-fsx-lifecycle-status-monitor]: Downloading https://files.pythonhosted.org/packages/6b/27/234205cd8720eff88e275315f959b235c0615c8d312f06c97cf5738aa0a9/aws-fsx-lifecycle-status-monitor-0.0.9.tar.gz
+[2024-05-01 08:32:35] INFO root fetch - processPackages [cdk-budget-notifier]: Downloading https://files.pythonhosted.org/packages/e0/58/c599a41a4ea378adf0b120567f3f77768fbe70b9dee58c9c83be204555a7/cdk-budget-notifier-0.3.9.tar.gz
+[2024-05-01 08:32:35] INFO root fetch - processPackages [aws-fsx-lifecycle-status-monitor]: executing diffoscope
+[2024-05-01 08:32:35] INFO root fetch - processPackages [aws-fsx-lifecycle-status-monitor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws-fsx-lifecycle-status-monitor-0.0.8.tar.gz tmp/aws-fsx-lifecycle-status-monitor-0.0.9.tar.gz --markdown 20240501/a/aws-fsx-lifecycle-status-monitor/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-01 08:32:35] INFO root fetch - processPackages [pulumi-okta]: executing diffoscope
+[2024-05-01 08:32:35] INFO root fetch - processPackages [pulumi-okta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_okta-4.9.0a1714456879.tar.gz tmp/pulumi_okta-4.9.0a1714543321.tar.gz --markdown 20240501/p/pulumi-okta/4.9.0a1714456879-4.9.0a1714543321/README.md --exclude *.pyd
+[2024-05-01 08:32:35] INFO root fetch - processPackages [cdk-budget-notifier]: executing diffoscope
+[2024-05-01 08:32:35] INFO root fetch - processPackages [cdk-budget-notifier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-budget-notifier-0.3.8.tar.gz tmp/cdk-budget-notifier-0.3.9.tar.gz --markdown 20240501/c/cdk-budget-notifier/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-01 08:32:35] INFO root fetch - processPackages [seguid]: Remove: archive file [/home/abi/fetcher/tmp/seguid-0.1.0.tar.gz]
+[2024-05-01 08:32:35] INFO root fetch - processPackages [seguid]: Remove: archive file [/home/abi/fetcher/tmp/seguid-0.1.0a1.tar.gz]
+[2024-05-01 08:32:35] INFO root fetch - main [MainThread]: End processing [seguid]: success
+[2024-05-01 08:32:35] INFO root fetch - processPackages [cdk-gradle-uploader]: Downloading https://files.pythonhosted.org/packages/7f/8f/b334b3b2544d36b48968b7913c911e4bd013fed5071173d5b99dcf934962/cdk-gradle-uploader-0.0.9.tar.gz
+[2024-05-01 08:32:35] INFO root fetch - processPackages [frontengine]: Remove: archive file [/home/abi/fetcher/tmp/frontengine-0.0.8.tar.gz]
+[2024-05-01 08:32:35] INFO root fetch - processPackages [frontengine]: Remove: archive file [/home/abi/fetcher/tmp/frontengine-0.0.9.tar.gz]
+[2024-05-01 08:32:35] INFO root fetch - main [MainThread]: End processing [frontengine]: success
+[2024-05-01 08:32:35] INFO root fetch - processPackages [pulumi-rabbitmq]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_rabbitmq-3.4.0a1714112064.tar.gz]
+[2024-05-01 08:32:35] INFO root fetch - processPackages [pulumi-rabbitmq]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_rabbitmq-3.4.0a1714457313.tar.gz]
+[2024-05-01 08:32:35] INFO root fetch - main [MainThread]: End processing [pulumi-rabbitmq]: success
+[2024-05-01 08:32:35] INFO root fetch - processPackages [cdk-gradle-uploader]: executing diffoscope
+[2024-05-01 08:32:35] INFO root fetch - processPackages [cdk-gradle-uploader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-gradle-uploader-0.0.8.tar.gz tmp/cdk-gradle-uploader-0.0.9.tar.gz --markdown 20240501/c/cdk-gradle-uploader/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-01 08:32:35] INFO root fetch - processPackages [frontengine-dev]: Remove: archive file [/home/abi/fetcher/tmp/frontengine_dev-0.0.8.tar.gz]
+[2024-05-01 08:32:35] INFO root fetch - processPackages [frontengine-dev]: Remove: archive file [/home/abi/fetcher/tmp/frontengine_dev-0.0.9.tar.gz]
+[2024-05-01 08:32:35] INFO root fetch - main [MainThread]: End processing [frontengine-dev]: success
+[2024-05-01 08:32:35] INFO root fetch - processPackages [pulumi-opsgenie]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_opsgenie-1.4.0a1714111665.tar.gz]
+[2024-05-01 08:32:35] INFO root fetch - processPackages [pulumi-opsgenie]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_opsgenie-1.4.0a1714456977.tar.gz]
+[2024-05-01 08:32:35] INFO root fetch - main [MainThread]: End processing [pulumi-opsgenie]: success
+[2024-05-01 08:32:35] INFO root fetch - processPackages [aws-fsx-lifecycle-status-monitor]: Remove: archive file [/home/abi/fetcher/tmp/aws-fsx-lifecycle-status-monitor-0.0.8.tar.gz]
+[2024-05-01 08:32:35] INFO root fetch - processPackages [aws-fsx-lifecycle-status-monitor]: Remove: archive file [/home/abi/fetcher/tmp/aws-fsx-lifecycle-status-monitor-0.0.9.tar.gz]
+[2024-05-01 08:32:35] INFO root fetch - main [MainThread]: End processing [aws-fsx-lifecycle-status-monitor]: success
+[2024-05-01 08:32:35] INFO root fetch - processPackages [cdk-budget-notifier]: Remove: archive file [/home/abi/fetcher/tmp/cdk-budget-notifier-0.3.8.tar.gz]
+[2024-05-01 08:32:35] INFO root fetch - processPackages [cdk-budget-notifier]: Remove: archive file [/home/abi/fetcher/tmp/cdk-budget-notifier-0.3.9.tar.gz]
+[2024-05-01 08:32:35] INFO root fetch - main [MainThread]: End processing [cdk-budget-notifier]: success
+[2024-05-01 08:32:36] INFO root fetch - processPackages [cdk-gradle-uploader]: Remove: archive file [/home/abi/fetcher/tmp/cdk-gradle-uploader-0.0.8.tar.gz]
+[2024-05-01 08:32:36] INFO root fetch - processPackages [cdk-gradle-uploader]: Remove: archive file [/home/abi/fetcher/tmp/cdk-gradle-uploader-0.0.9.tar.gz]
+[2024-05-01 08:32:36] INFO root fetch - main [MainThread]: End processing [cdk-gradle-uploader]: success
+[2024-05-01 08:32:36] INFO root fetch - processPackages [pulumi-okta]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_okta-4.9.0a1714456879.tar.gz]
+[2024-05-01 08:32:36] INFO root fetch - processPackages [pulumi-okta]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_okta-4.9.0a1714543321.tar.gz]
+[2024-05-01 08:32:36] INFO root fetch - main [MainThread]: End processing [pulumi-okta]: success
+[2024-05-01 08:32:36] INFO root fetch - main [MainThread]: Store serial: [23013226]
