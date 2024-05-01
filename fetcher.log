@@ -16232,3 +16232,68 @@
 [2024-05-01 13:00:16] INFO root fetch - main [MainThread]: End processing [openctp-ctpopt]: success
 [2024-05-01 13:00:16] INFO root fetch - main [MainThread]: End processing [openctp-ctpopt]: success
 [2024-05-01 13:00:16] INFO root fetch - main [MainThread]: Store serial: [23015491]
+[2024-05-01 13:02:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23015491]
+[2024-05-01 13:02:25] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-01 13:02:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bluecellulab
+[2024-05-01 13:02:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: SberQR
+[2024-05-01 13:02:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyranges
+[2024-05-01 13:02:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyranges1
+[2024-05-01 13:02:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: komoutils
+[2024-05-01 13:02:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Princo
+[2024-05-01 13:02:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ddump
+[2024-05-01 13:02:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: FrustrationDynamiX
+[2024-05-01 13:02:25] INFO root fetch - processPackages [bluecellulab]: New version: [2.6.5] Old Version: [2.6.4]
+[2024-05-01 13:02:25] INFO root fetch - processPackages [Princo]: New version: [4.0.5] Old Version: [1.0.5]
+[2024-05-01 13:02:25] INFO root fetch - processPackages [SberQR]: New version: [2.0.1] Old Version: [2.0.0]
+[2024-05-01 13:02:25] WARNING root fetch - processPackages [pyranges1]: Skipping, unable to determine old version
+[2024-05-01 13:02:25] INFO root fetch - main [MainThread]: End processing [pyranges1] error
+[2024-05-01 13:02:25] INFO root fetch - processPackages [Princo]: Downloading https://files.pythonhosted.org/packages/e6/1e/99423a0e3d8875e4363df28bb192a5b16df5940ac8f3cae13fe3f5479500/princo-1.0.5.tar.gz
+[2024-05-01 13:02:25] INFO root fetch - processPackages [SberQR]: Downloading https://files.pythonhosted.org/packages/9d/85/3ad39beb2e2286eb8a3b340b978ae5a1f88d3eb76456747ffd84fba3c726/SberQR-2.0.0.tar.gz
+[2024-05-01 13:02:25] INFO root fetch - processPackages [komoutils]: New version: [0.0.225] Old Version: [0.0.224]
+[2024-05-01 13:02:25] INFO root fetch - processPackages [FrustrationDynamiX]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-01 13:02:25] INFO root fetch - processPackages [ddump]: New version: [0.2.0] Old Version: [0.1.6]
+[2024-05-01 13:02:25] INFO root fetch - processPackages [pyranges]: New version: [0.1.0] Old Version: [0.0.99]
+[2024-05-01 13:02:25] INFO root fetch - processPackages [bluecellulab]: Downloading https://files.pythonhosted.org/packages/18/10/a1beacdd37cce39dd0dccf0880009238c71b054b3335883f4479b65a59c6/bluecellulab-2.6.4.tar.gz
+[2024-05-01 13:02:26] WARNING root fetch - processPackages [bluecellulab]: Skipping package: exceeds size limit 16112652>=10485760
+[2024-05-01 13:02:26] INFO root fetch - main [MainThread]: End processing [bluecellulab] error
+[2024-05-01 13:02:26] INFO root fetch - processPackages [ddump]: Downloading https://files.pythonhosted.org/packages/07/bb/69e9cefa1f836d4536ecb7b5b436185274ef1e64f21f42e06ea85eb02d68/ddump-0.1.6.tar.gz
+[2024-05-01 13:02:26] INFO root fetch - processPackages [SberQR]: Downloading https://files.pythonhosted.org/packages/ce/cd/86e0baf17bcc497c7f0d0c26167eca458b1a535f182d487f2c7330d2d73c/SberQR-2.0.1.tar.gz
+[2024-05-01 13:02:26] INFO root fetch - processPackages [Princo]: Downloading https://files.pythonhosted.org/packages/77/3b/77d73c43eeb146ba8d28125bc40b922fa2c1551d79f7bc5a861b1d4aff05/princo-4.0.5.tar.gz
+[2024-05-01 13:02:26] INFO root fetch - processPackages [FrustrationDynamiX]: Downloading https://files.pythonhosted.org/packages/55/b6/499651b47c11d7de8dc5616890857d463e4f4eb32e008a76c51ea09b50b5/FrustrationDynamiX-0.2.8.tar.gz
+[2024-05-01 13:02:26] INFO root fetch - processPackages [pyranges]: Downloading https://files.pythonhosted.org/packages/4b/72/075fd9696e4c448209d751656d7184b1b3a7738ab256428ba4bef0fbbc25/pyranges-0.0.99.tar.gz
+[2024-05-01 13:02:26] INFO root fetch - processPackages [Princo]: executing diffoscope
+[2024-05-01 13:02:26] INFO root fetch - processPackages [Princo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/princo-1.0.5.tar.gz tmp/princo-4.0.5.tar.gz --markdown 20240501/P/Princo/1.0.5-4.0.5/README.md --exclude *.pyd
+[2024-05-01 13:02:26] INFO root fetch - processPackages [SberQR]: executing diffoscope
+[2024-05-01 13:02:26] INFO root fetch - processPackages [SberQR]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SberQR-2.0.0.tar.gz tmp/SberQR-2.0.1.tar.gz --markdown 20240501/S/SberQR/2.0.0-2.0.1/README.md --exclude *.pyd
+[2024-05-01 13:02:26] INFO root fetch - processPackages [komoutils]: Downloading https://files.pythonhosted.org/packages/d8/80/ba1b13b94fcefc7ccc0d0cff662847ffe75392f0bd963eac33dbbced6970/komoutils-0.0.224.tar.gz
+[2024-05-01 13:02:26] INFO root fetch - processPackages [FrustrationDynamiX]: Downloading https://files.pythonhosted.org/packages/66/84/b61ca7ea9d52feb720a789ac51d172a0bd90f71a81ac53608022cbe149a5/FrustrationDynamiX-0.2.9.tar.gz
+[2024-05-01 13:02:26] INFO root fetch - processPackages [ddump]: Downloading https://files.pythonhosted.org/packages/85/d4/8c45d4329c036fed069057ad5b117d535be3a8339a704a0e3a6bf5402291/ddump-0.2.0.tar.gz
+[2024-05-01 13:02:26] INFO root fetch - processPackages [pyranges]: Downloading https://files.pythonhosted.org/packages/55/cb/94f961598841a1b09aaf6f69b2a3fd74b0f707cc6b382b6e27f5e3f764a9/pyranges-0.1.0.tar.gz
+[2024-05-01 13:02:26] INFO root fetch - processPackages [ddump]: executing diffoscope
+[2024-05-01 13:02:26] INFO root fetch - processPackages [ddump]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ddump-0.1.6.tar.gz tmp/ddump-0.2.0.tar.gz --markdown 20240501/d/ddump/0.1.6-0.2.0/README.md --exclude *.pyd
+[2024-05-01 13:02:26] INFO root fetch - processPackages [komoutils]: Downloading https://files.pythonhosted.org/packages/89/98/24ac7ffdecf4429f1e2399cdc281d63d95e703e85d1875e4248a335104da/komoutils-0.0.225.tar.gz
+[2024-05-01 13:02:26] INFO root fetch - processPackages [FrustrationDynamiX]: executing diffoscope
+[2024-05-01 13:02:26] INFO root fetch - processPackages [FrustrationDynamiX]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FrustrationDynamiX-0.2.8.tar.gz tmp/FrustrationDynamiX-0.2.9.tar.gz --markdown 20240501/F/FrustrationDynamiX/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-01 13:02:26] INFO root fetch - processPackages [komoutils]: executing diffoscope
+[2024-05-01 13:02:26] INFO root fetch - processPackages [komoutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/komoutils-0.0.224.tar.gz tmp/komoutils-0.0.225.tar.gz --markdown 20240501/k/komoutils/0.0.224-0.0.225/README.md --exclude *.pyd
+[2024-05-01 13:02:26] INFO root fetch - processPackages [pyranges]: executing diffoscope
+[2024-05-01 13:02:26] INFO root fetch - processPackages [pyranges]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyranges-0.0.99.tar.gz tmp/pyranges-0.1.0.tar.gz --markdown 20240501/p/pyranges/0.0.99-0.1.0/README.md --exclude *.pyd
+[2024-05-01 13:02:26] INFO root fetch - processPackages [Princo]: Remove: archive file [/home/abi/fetcher/tmp/princo-1.0.5.tar.gz]
+[2024-05-01 13:02:26] INFO root fetch - processPackages [Princo]: Remove: archive file [/home/abi/fetcher/tmp/princo-4.0.5.tar.gz]
+[2024-05-01 13:02:26] INFO root fetch - main [MainThread]: End processing [Princo]: success
+[2024-05-01 13:02:27] INFO root fetch - processPackages [SberQR]: Remove: archive file [/home/abi/fetcher/tmp/SberQR-2.0.0.tar.gz]
+[2024-05-01 13:02:27] INFO root fetch - processPackages [SberQR]: Remove: archive file [/home/abi/fetcher/tmp/SberQR-2.0.1.tar.gz]
+[2024-05-01 13:02:27] INFO root fetch - main [MainThread]: End processing [SberQR]: success
+[2024-05-01 13:02:27] INFO root fetch - processPackages [ddump]: Remove: archive file [/home/abi/fetcher/tmp/ddump-0.1.6.tar.gz]
+[2024-05-01 13:02:27] INFO root fetch - processPackages [ddump]: Remove: archive file [/home/abi/fetcher/tmp/ddump-0.2.0.tar.gz]
+[2024-05-01 13:02:27] INFO root fetch - main [MainThread]: End processing [ddump]: success
+[2024-05-01 13:02:27] INFO root fetch - processPackages [FrustrationDynamiX]: Remove: archive file [/home/abi/fetcher/tmp/FrustrationDynamiX-0.2.8.tar.gz]
+[2024-05-01 13:02:27] INFO root fetch - processPackages [FrustrationDynamiX]: Remove: archive file [/home/abi/fetcher/tmp/FrustrationDynamiX-0.2.9.tar.gz]
+[2024-05-01 13:02:27] INFO root fetch - main [MainThread]: End processing [FrustrationDynamiX]: success
+[2024-05-01 13:02:27] INFO root fetch - processPackages [komoutils]: Remove: archive file [/home/abi/fetcher/tmp/komoutils-0.0.224.tar.gz]
+[2024-05-01 13:02:27] INFO root fetch - processPackages [komoutils]: Remove: archive file [/home/abi/fetcher/tmp/komoutils-0.0.225.tar.gz]
+[2024-05-01 13:02:27] INFO root fetch - main [MainThread]: End processing [komoutils]: success
+[2024-05-01 13:02:27] INFO root fetch - processPackages [pyranges]: Remove: archive file [/home/abi/fetcher/tmp/pyranges-0.0.99.tar.gz]
+[2024-05-01 13:02:27] INFO root fetch - processPackages [pyranges]: Remove: archive file [/home/abi/fetcher/tmp/pyranges-0.1.0.tar.gz]
+[2024-05-01 13:02:27] INFO root fetch - main [MainThread]: End processing [pyranges]: success
+[2024-05-01 13:02:27] INFO root fetch - main [MainThread]: Store serial: [23015526]
