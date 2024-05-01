@@ -15601,3 +15601,24 @@
 [2024-05-01 12:31:02] INFO root fetch - processPackages [CTDFjorder]: Remove: archive file [/home/abi/fetcher/tmp/ctdfjorder-0.0.5.tar.gz]
 [2024-05-01 12:31:02] INFO root fetch - main [MainThread]: End processing [CTDFjorder]: success
 [2024-05-01 12:31:02] INFO root fetch - main [MainThread]: Store serial: [23015252]
+[2024-05-01 12:33:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23015252]
+[2024-05-01 12:33:11] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-01 12:33:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: snakestream
+[2024-05-01 12:33:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ccxt
+[2024-05-01 12:33:11] INFO root fetch - processPackages [ccxt]: New version: [4.3.9] Old Version: [4.3.8]
+[2024-05-01 12:33:11] INFO root fetch - processPackages [snakestream]: New version: [0.3.0] Old Version: [0.2.3]
+[2024-05-01 12:33:11] INFO root fetch - processPackages [ccxt]: Downloading https://files.pythonhosted.org/packages/1c/a1/3a1a3f9672e43a2620d2ab195c398183c3594751d3a306bd022e7ceccbb7/ccxt-4.3.8.tar.gz
+[2024-05-01 12:33:11] INFO root fetch - processPackages [snakestream]: Downloading https://files.pythonhosted.org/packages/83/04/e1088cfc09b82e82c1d64b158add2083965eea72236e9fa72326c52cfc7f/snakestream-0.2.3.tar.gz
+[2024-05-01 12:33:12] INFO root fetch - processPackages [snakestream]: Downloading https://files.pythonhosted.org/packages/11/83/d1d6377a3490476d9d2299cf17a259078ce7cc8c489d716ea3267fbb6c99/snakestream-0.3.0.tar.gz
+[2024-05-01 12:33:12] INFO root fetch - processPackages [ccxt]: Downloading https://files.pythonhosted.org/packages/f0/34/c7c38c5c0bec0a22183d7eed68184bef3efe315a8570460824012267cbac/ccxt-4.3.9.tar.gz
+[2024-05-01 12:33:12] INFO root fetch - processPackages [snakestream]: executing diffoscope
+[2024-05-01 12:33:12] INFO root fetch - processPackages [snakestream]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snakestream-0.2.3.tar.gz tmp/snakestream-0.3.0.tar.gz --markdown 20240501/s/snakestream/0.2.3-0.3.0/README.md --exclude *.pyd
+[2024-05-01 12:33:12] INFO root fetch - processPackages [ccxt]: executing diffoscope
+[2024-05-01 12:33:12] INFO root fetch - processPackages [ccxt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccxt-4.3.8.tar.gz tmp/ccxt-4.3.9.tar.gz --markdown 20240501/c/ccxt/4.3.8-4.3.9/README.md --exclude *.pyd
+[2024-05-01 12:33:12] INFO root fetch - processPackages [snakestream]: Remove: archive file [/home/abi/fetcher/tmp/snakestream-0.2.3.tar.gz]
+[2024-05-01 12:33:12] INFO root fetch - processPackages [snakestream]: Remove: archive file [/home/abi/fetcher/tmp/snakestream-0.3.0.tar.gz]
+[2024-05-01 12:33:12] INFO root fetch - main [MainThread]: End processing [snakestream]: success
+[2024-05-01 12:33:16] INFO root fetch - processPackages [ccxt]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-4.3.8.tar.gz]
+[2024-05-01 12:33:16] INFO root fetch - processPackages [ccxt]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-4.3.9.tar.gz]
+[2024-05-01 12:33:16] INFO root fetch - main [MainThread]: End processing [ccxt]: success
+[2024-05-01 12:33:16] INFO root fetch - main [MainThread]: Store serial: [23015258]
