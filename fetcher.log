@@ -19947,3 +19947,39 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-01 14:29:40] INFO root fetch - processPackages [pulumi-openstack]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_openstack-3.9.0a1659603007.tar.gz]
 [2024-05-01 14:29:40] INFO root fetch - main [MainThread]: End processing [pulumi-openstack]: success
 [2024-05-01 14:29:40] INFO root fetch - main [MainThread]: Store serial: [23016841]
+[2024-05-01 14:31:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23016841]
+[2024-05-01 14:31:49] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-01 14:31:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: frd-score
+[2024-05-01 14:31:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aps-toolkit
+[2024-05-01 14:31:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PyLauncherMPI
+[2024-05-01 14:31:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odd-great-expectations
+[2024-05-01 14:31:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-signalfx
+[2024-05-01 14:31:49] INFO root fetch - processPackages [aps-toolkit]: New version: [0.5.2] Old Version: [0.5.1]
+[2024-05-01 14:31:49] INFO root fetch - processPackages [pulumi-signalfx]: New version: [7.2.0a1714543807] Old Version: [7.2.0a1714457805]
+[2024-05-01 14:31:49] WARNING root fetch - processPackages [PyLauncherMPI]: Skipping, unable to determine old version
+[2024-05-01 14:31:49] INFO root fetch - main [MainThread]: End processing [PyLauncherMPI] error
+[2024-05-01 14:31:49] INFO root fetch - processPackages [aps-toolkit]: Downloading https://files.pythonhosted.org/packages/c1/83/efa39aadf65e798c174169ed0e959421875408962461b014764b1c31d0bc/aps-toolkit-0.5.1.tar.gz
+[2024-05-01 14:31:49] INFO root fetch - processPackages [odd-great-expectations]: New version: [0.2.0] Old Version: [0.1.9]
+[2024-05-01 14:31:49] WARNING root fetch - processPackages [frd-score]: Skipping, unable to determine old version
+[2024-05-01 14:31:49] INFO root fetch - main [MainThread]: End processing [frd-score] error
+[2024-05-01 14:31:49] INFO root fetch - processPackages [pulumi-signalfx]: Downloading https://files.pythonhosted.org/packages/6a/4a/1503b4a4701589160e8f0328578969d3a96f35687c11f6a49b6e2e3417b3/pulumi_signalfx-7.2.0a1714457805.tar.gz
+[2024-05-01 14:31:49] INFO root fetch - processPackages [odd-great-expectations]: Downloading https://files.pythonhosted.org/packages/8e/82/8019c83702eba3e07ffcf8943be571280ac506e90d50b4d1cb15cce727b1/odd_great_expectations-0.1.9.tar.gz
+[2024-05-01 14:31:49] INFO root fetch - processPackages [aps-toolkit]: Downloading https://files.pythonhosted.org/packages/21/6f/5df0aed0ee6fb0984ee3d2fc74995ef2e5405cf6cdae83639d995ac77a8b/aps-toolkit-0.5.2.tar.gz
+[2024-05-01 14:31:49] INFO root fetch - processPackages [pulumi-signalfx]: Downloading https://files.pythonhosted.org/packages/83/63/52c6a0ff23764fc2fd60c6d1f7df68ebb5dba73d254ca897bfcf17b308a7/pulumi_signalfx-7.2.0a1714543807.tar.gz
+[2024-05-01 14:31:50] INFO root fetch - processPackages [odd-great-expectations]: Downloading https://files.pythonhosted.org/packages/71/b3/81b60144a9504f45d54ec89182c638b676222003af11c23dc569eefa8147/odd_great_expectations-0.2.0.tar.gz
+[2024-05-01 14:31:50] INFO root fetch - processPackages [aps-toolkit]: executing diffoscope
+[2024-05-01 14:31:50] INFO root fetch - processPackages [aps-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aps-toolkit-0.5.1.tar.gz tmp/aps-toolkit-0.5.2.tar.gz --markdown 20240501/a/aps-toolkit/0.5.1-0.5.2/README.md --exclude *.pyd
+[2024-05-01 14:31:50] INFO root fetch - processPackages [pulumi-signalfx]: executing diffoscope
+[2024-05-01 14:31:50] INFO root fetch - processPackages [pulumi-signalfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_signalfx-7.2.0a1714457805.tar.gz tmp/pulumi_signalfx-7.2.0a1714543807.tar.gz --markdown 20240501/p/pulumi-signalfx/7.2.0a1714457805-7.2.0a1714543807/README.md --exclude *.pyd
+[2024-05-01 14:31:50] INFO root fetch - processPackages [odd-great-expectations]: executing diffoscope
+[2024-05-01 14:31:50] INFO root fetch - processPackages [odd-great-expectations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odd_great_expectations-0.1.9.tar.gz tmp/odd_great_expectations-0.2.0.tar.gz --markdown 20240501/o/odd-great-expectations/0.1.9-0.2.0/README.md --exclude *.pyd
+[2024-05-01 14:31:50] INFO root fetch - processPackages [aps-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/aps-toolkit-0.5.1.tar.gz]
+[2024-05-01 14:31:50] INFO root fetch - processPackages [aps-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/aps-toolkit-0.5.2.tar.gz]
+[2024-05-01 14:31:50] INFO root fetch - main [MainThread]: End processing [aps-toolkit]: success
+[2024-05-01 14:31:50] INFO root fetch - processPackages [pulumi-signalfx]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_signalfx-7.2.0a1714457805.tar.gz]
+[2024-05-01 14:31:50] INFO root fetch - processPackages [pulumi-signalfx]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_signalfx-7.2.0a1714543807.tar.gz]
+[2024-05-01 14:31:50] INFO root fetch - main [MainThread]: End processing [pulumi-signalfx]: success
+[2024-05-01 14:31:50] INFO root fetch - processPackages [odd-great-expectations]: Remove: archive file [/home/abi/fetcher/tmp/odd_great_expectations-0.1.9.tar.gz]
+[2024-05-01 14:31:50] INFO root fetch - processPackages [odd-great-expectations]: Remove: archive file [/home/abi/fetcher/tmp/odd_great_expectations-0.2.0.tar.gz]
+[2024-05-01 14:31:50] INFO root fetch - main [MainThread]: End processing [odd-great-expectations]: success
+[2024-05-01 14:31:50] INFO root fetch - main [MainThread]: Store serial: [23016860]
