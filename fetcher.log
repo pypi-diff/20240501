@@ -6670,3 +6670,27 @@
 [2024-05-01 03:26:32] INFO root fetch - processPackages [awxkit]: Remove: archive file [/home/abi/fetcher/tmp/awxkit-24.3.1.tar.gz]
 [2024-05-01 03:26:32] INFO root fetch - main [MainThread]: End processing [awxkit]: success
 [2024-05-01 03:26:32] INFO root fetch - main [MainThread]: Store serial: [23010817]
+[2024-05-01 03:28:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23010817]
+[2024-05-01 03:28:46] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-01 03:28:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: proxylib
+[2024-05-01 03:28:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fintoolkit
+[2024-05-01 03:28:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: publica_utils
+[2024-05-01 03:28:46] INFO root fetch - processPackages [proxylib]: New version: [0.5.5] Old Version: [0.5.0]
+[2024-05-01 03:28:46] INFO root fetch - processPackages [proxylib]: Downloading https://files.pythonhosted.org/packages/97/62/4c69350f2c6a2be8cca94f9bed8193074277b29fcc8ad92f7224a6eb2cc9/proxylib-0.5.0.tar.gz
+[2024-05-01 03:28:46] INFO root fetch - processPackages [fintoolkit]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-01 03:28:46] WARNING root fetch - processPackages [publica_utils]: Skipping, unable to determine old version
+[2024-05-01 03:28:46] INFO root fetch - main [MainThread]: End processing [publica_utils] error
+[2024-05-01 03:28:47] INFO root fetch - processPackages [fintoolkit]: Downloading https://files.pythonhosted.org/packages/30/c7/f8808d714627060146bff74e4d4a4626b5bc25cdfb7f49ca939adb661d41/fintoolkit-0.0.8.tar.gz
+[2024-05-01 03:28:47] INFO root fetch - processPackages [proxylib]: Downloading https://files.pythonhosted.org/packages/e8/3e/a0c1167d4a615a333ce8f4687318eb40023ad143abd97e5c6dc0b5f080a5/proxylib-0.5.5.tar.gz
+[2024-05-01 03:28:47] INFO root fetch - processPackages [proxylib]: executing diffoscope
+[2024-05-01 03:28:47] INFO root fetch - processPackages [proxylib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proxylib-0.5.0.tar.gz tmp/proxylib-0.5.5.tar.gz --markdown 20240501/p/proxylib/0.5.0-0.5.5/README.md --exclude *.pyd
+[2024-05-01 03:28:47] INFO root fetch - processPackages [fintoolkit]: Downloading https://files.pythonhosted.org/packages/8d/ac/78dd93cdfc826c676f15d8cf527d9f20a32323253c96c619689efd9ca01b/fintoolkit-0.0.9.tar.gz
+[2024-05-01 03:28:47] INFO root fetch - processPackages [fintoolkit]: executing diffoscope
+[2024-05-01 03:28:47] INFO root fetch - processPackages [fintoolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fintoolkit-0.0.8.tar.gz tmp/fintoolkit-0.0.9.tar.gz --markdown 20240501/f/fintoolkit/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-01 03:28:47] INFO root fetch - processPackages [proxylib]: Remove: archive file [/home/abi/fetcher/tmp/proxylib-0.5.0.tar.gz]
+[2024-05-01 03:28:47] INFO root fetch - processPackages [proxylib]: Remove: archive file [/home/abi/fetcher/tmp/proxylib-0.5.5.tar.gz]
+[2024-05-01 03:28:47] INFO root fetch - main [MainThread]: End processing [proxylib]: success
+[2024-05-01 03:28:48] INFO root fetch - processPackages [fintoolkit]: Remove: archive file [/home/abi/fetcher/tmp/fintoolkit-0.0.8.tar.gz]
+[2024-05-01 03:28:48] INFO root fetch - processPackages [fintoolkit]: Remove: archive file [/home/abi/fetcher/tmp/fintoolkit-0.0.9.tar.gz]
+[2024-05-01 03:28:48] INFO root fetch - main [MainThread]: End processing [fintoolkit]: success
+[2024-05-01 03:28:48] INFO root fetch - main [MainThread]: Store serial: [23010895]
