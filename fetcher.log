@@ -22222,3 +22222,21 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-01 16:11:54] INFO root fetch - processPackages [tlparse]: Remove: archive file [/home/abi/fetcher/tmp/tlparse-0.3.7.tar.gz]
 [2024-05-01 16:11:54] INFO root fetch - main [MainThread]: End processing [tlparse]: success
 [2024-05-01 16:11:54] INFO root fetch - main [MainThread]: Store serial: [23017826]
+[2024-05-01 16:13:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23017826]
+[2024-05-01 16:14:03] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-01 16:14:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: velosaurus-sum
+[2024-05-01 16:14:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: icare-nlp
+[2024-05-01 16:14:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: raven-cycode
+[2024-05-01 16:14:03] WARNING root fetch - processPackages [icare-nlp]: Skipping, unable to determine old version
+[2024-05-01 16:14:03] INFO root fetch - main [MainThread]: End processing [icare-nlp] error
+[2024-05-01 16:14:03] WARNING root fetch - processPackages [velosaurus-sum]: Skipping, unable to determine old version
+[2024-05-01 16:14:03] INFO root fetch - main [MainThread]: End processing [velosaurus-sum] error
+[2024-05-01 16:14:03] INFO root fetch - processPackages [raven-cycode]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-01 16:14:03] INFO root fetch - processPackages [raven-cycode]: Downloading https://files.pythonhosted.org/packages/44/4c/7b14f0ec7b10a87d9cc6b7bc77a5bd895ce0d84c3e199185ec53f44b6b2a/raven-cycode-1.0.8.tar.gz
+[2024-05-01 16:14:04] INFO root fetch - processPackages [raven-cycode]: Downloading https://files.pythonhosted.org/packages/d8/b6/4bc5aecae28382720fca4e9492a623e3d821d96e8f4d06e4335c77779ebd/raven_cycode-1.0.9.tar.gz
+[2024-05-01 16:14:04] INFO root fetch - processPackages [raven-cycode]: executing diffoscope
+[2024-05-01 16:14:04] INFO root fetch - processPackages [raven-cycode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raven-cycode-1.0.8.tar.gz tmp/raven_cycode-1.0.9.tar.gz --markdown 20240501/r/raven-cycode/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-01 16:14:05] INFO root fetch - processPackages [raven-cycode]: Remove: archive file [/home/abi/fetcher/tmp/raven-cycode-1.0.8.tar.gz]
+[2024-05-01 16:14:05] INFO root fetch - processPackages [raven-cycode]: Remove: archive file [/home/abi/fetcher/tmp/raven_cycode-1.0.9.tar.gz]
+[2024-05-01 16:14:05] INFO root fetch - main [MainThread]: End processing [raven-cycode]: success
+[2024-05-01 16:14:05] INFO root fetch - main [MainThread]: Store serial: [23017839]
