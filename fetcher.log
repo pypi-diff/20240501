@@ -14141,3 +14141,30 @@
 [2024-05-01 11:24:26] INFO root fetch - processPackages [voltorb]: Remove: archive file [/home/abi/fetcher/tmp/voltorb-0.1.0.tar.gz]
 [2024-05-01 11:24:26] INFO root fetch - main [MainThread]: End processing [voltorb]: success
 [2024-05-01 11:24:26] INFO root fetch - main [MainThread]: Store serial: [23014676]
+[2024-05-01 11:26:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23014676]
+[2024-05-01 11:26:35] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-01 11:26:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: duckcuts
+[2024-05-01 11:26:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-debug-request
+[2024-05-01 11:26:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xugrid
+[2024-05-01 11:26:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: posuto
+[2024-05-01 11:26:35] INFO root fetch - processPackages [xugrid]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-05-01 11:26:35] WARNING root fetch - processPackages [django-debug-request]: Skipping, unable to determine old version
+[2024-05-01 11:26:35] INFO root fetch - main [MainThread]: End processing [django-debug-request] error
+[2024-05-01 11:26:35] WARNING root fetch - processPackages [duckcuts]: Skipping, unable to determine old version
+[2024-05-01 11:26:35] INFO root fetch - main [MainThread]: End processing [duckcuts] error
+[2024-05-01 11:26:35] INFO root fetch - processPackages [posuto]: New version: [2024.5.0] Old Version: [2024.4.0]
+[2024-05-01 11:26:35] INFO root fetch - processPackages [xugrid]: Downloading https://files.pythonhosted.org/packages/05/fd/6e06c3c1bbc4663a1aa70d89fa1d5fd499ff8cc63835dff608fd5ad25426/xugrid-0.8.1.tar.gz
+[2024-05-01 11:26:35] INFO root fetch - processPackages [posuto]: Downloading https://files.pythonhosted.org/packages/b7/3d/a6f1223527817bcc4dac0075493ed718490924298d904a119bba9c559b62/posuto-2024.4.0.tar.gz
+[2024-05-01 11:26:36] INFO root fetch - processPackages [xugrid]: Downloading https://files.pythonhosted.org/packages/4a/92/06f615742712030db3f6d11c6f054ec78f4a0004845ede81b011dde46226/xugrid-0.9.0.tar.gz
+[2024-05-01 11:26:36] INFO root fetch - processPackages [xugrid]: executing diffoscope
+[2024-05-01 11:26:36] INFO root fetch - processPackages [xugrid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xugrid-0.8.1.tar.gz tmp/xugrid-0.9.0.tar.gz --markdown 20240501/x/xugrid/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-05-01 11:26:37] INFO root fetch - processPackages [xugrid]: Remove: archive file [/home/abi/fetcher/tmp/xugrid-0.8.1.tar.gz]
+[2024-05-01 11:26:37] INFO root fetch - processPackages [xugrid]: Remove: archive file [/home/abi/fetcher/tmp/xugrid-0.9.0.tar.gz]
+[2024-05-01 11:26:37] INFO root fetch - main [MainThread]: End processing [xugrid]: success
+[2024-05-01 11:26:37] INFO root fetch - processPackages [posuto]: Downloading https://files.pythonhosted.org/packages/fd/96/43e19e204d6c95e1f4564f6941b3a11359308effdbb8c9bc19d074504e61/posuto-2024.5.0.tar.gz
+[2024-05-01 11:26:39] INFO root fetch - processPackages [posuto]: executing diffoscope
+[2024-05-01 11:26:39] INFO root fetch - processPackages [posuto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/posuto-2024.4.0.tar.gz tmp/posuto-2024.5.0.tar.gz --markdown 20240501/p/posuto/2024.4.0-2024.5.0/README.md --exclude *.pyd
+[2024-05-01 11:26:52] INFO root fetch - processPackages [posuto]: Remove: archive file [/home/abi/fetcher/tmp/posuto-2024.4.0.tar.gz]
+[2024-05-01 11:26:52] INFO root fetch - processPackages [posuto]: Remove: archive file [/home/abi/fetcher/tmp/posuto-2024.5.0.tar.gz]
+[2024-05-01 11:26:52] INFO root fetch - main [MainThread]: End processing [posuto]: success
+[2024-05-01 11:26:52] INFO root fetch - main [MainThread]: Store serial: [23014699]
