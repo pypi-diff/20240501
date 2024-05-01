@@ -7937,3 +7937,51 @@
 [2024-05-01 05:14:25] INFO root fetch - processPackages [pymarkdownlnt]: Remove: archive file [/home/abi/fetcher/tmp/pymarkdownlnt-0.9.9.tar.gz]
 [2024-05-01 05:14:25] INFO root fetch - main [MainThread]: End processing [pymarkdownlnt]: success
 [2024-05-01 05:14:25] INFO root fetch - main [MainThread]: Store serial: [23011820]
+[2024-05-01 05:16:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23011820]
+[2024-05-01 05:16:34] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-01 05:16:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pypipr
+[2024-05-01 05:16:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: autopipeline
+[2024-05-01 05:16:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: keras-cv-nightly
+[2024-05-01 05:16:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zyx
+[2024-05-01 05:16:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ppasr
+[2024-05-01 05:16:34] INFO root fetch - processPackages [zyx]: New version: [0.0.12] Old Version: [0.0.11]
+[2024-05-01 05:16:34] INFO root fetch - processPackages [keras-cv-nightly]: New version: [0.9.0.dev2024043000] Old Version: [0.9.0.dev2024042919]
+[2024-05-01 05:16:34] INFO root fetch - processPackages [pypipr]: New version: [1.0.99] Old Version: [1.0.98]
+[2024-05-01 05:16:34] INFO root fetch - processPackages [autopipeline]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-05-01 05:16:34] INFO root fetch - processPackages [ppasr]: New version: [2.4.8] Old Version: [2.4.7]
+[2024-05-01 05:16:34] INFO root fetch - processPackages [zyx]: Downloading https://files.pythonhosted.org/packages/61/6a/ec0dc43e46a0fd1a6e4edb29e9bf9919aef4c74e001a94fb3a0d3b2c7656/zyx-0.0.11.tar.gz
+[2024-05-01 05:16:34] INFO root fetch - processPackages [keras-cv-nightly]: Downloading https://files.pythonhosted.org/packages/bd/17/3faa9e969f58abadca2ff3a4053bed558afb777bae344f994feeeaf1cfd3/keras_cv_nightly-0.9.0.dev2024042919.tar.gz
+[2024-05-01 05:16:34] INFO root fetch - processPackages [autopipeline]: Downloading https://files.pythonhosted.org/packages/5f/0f/9eaf209b6d540115afdc9ae31de828df0234756277bceae49a4d1a0ea8b3/autopipeline-0.1.98.tar.gz
+[2024-05-01 05:16:34] INFO root fetch - processPackages [pypipr]: Downloading https://files.pythonhosted.org/packages/41/8e/296646c6a3d68ecf6c58c3ec52ece636443172c24750f76c7001939e52d3/pypipr-1.0.98.tar.gz
+[2024-05-01 05:16:34] INFO root fetch - processPackages [ppasr]: Downloading https://files.pythonhosted.org/packages/06/28/9696ae6815270b135a570129b783dc1c381222c88d19384b212dbec94625/ppasr-2.4.7-py3-none-any.whl
+[2024-05-01 05:16:34] INFO root fetch - processPackages [autopipeline]: Downloading https://files.pythonhosted.org/packages/5f/4a/f3df97d414e0a5e9120459fd5c7ab663092d540df59f7deacc45810deb41/autopipeline-0.1.99.tar.gz
+[2024-05-01 05:16:34] INFO root fetch - processPackages [pypipr]: Downloading https://files.pythonhosted.org/packages/49/d0/c23afc67d1fa03531bbd97cc72ad024e79b8e25678a6a5674d469d19cdf9/pypipr-1.0.99.tar.gz
+[2024-05-01 05:16:34] INFO root fetch - processPackages [zyx]: Downloading https://files.pythonhosted.org/packages/2a/48/de27544068374e94478e204b44b5e9b0713cb672b4927a2c36ae01c6b510/zyx-0.0.12.tar.gz
+[2024-05-01 05:16:34] INFO root fetch - processPackages [keras-cv-nightly]: Downloading https://files.pythonhosted.org/packages/81/e8/990891e08c4d6686000132786b783a9e72d0cf684f6f44245f2949fd0e57/keras_cv_nightly-0.9.0.dev2024043000.tar.gz
+[2024-05-01 05:16:34] INFO root fetch - processPackages [autopipeline]: executing diffoscope
+[2024-05-01 05:16:34] INFO root fetch - processPackages [autopipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autopipeline-0.1.98.tar.gz tmp/autopipeline-0.1.99.tar.gz --markdown 20240501/a/autopipeline/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-05-01 05:16:34] INFO root fetch - processPackages [pypipr]: executing diffoscope
+[2024-05-01 05:16:34] INFO root fetch - processPackages [pypipr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypipr-1.0.98.tar.gz tmp/pypipr-1.0.99.tar.gz --markdown 20240501/p/pypipr/1.0.98-1.0.99/README.md --exclude *.pyd
+[2024-05-01 05:16:34] INFO root fetch - processPackages [zyx]: executing diffoscope
+[2024-05-01 05:16:34] INFO root fetch - processPackages [zyx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zyx-0.0.11.tar.gz tmp/zyx-0.0.12.tar.gz --markdown 20240501/z/zyx/0.0.11-0.0.12/README.md --exclude *.pyd
+[2024-05-01 05:16:34] INFO root fetch - processPackages [keras-cv-nightly]: executing diffoscope
+[2024-05-01 05:16:34] INFO root fetch - processPackages [keras-cv-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras_cv_nightly-0.9.0.dev2024042919.tar.gz tmp/keras_cv_nightly-0.9.0.dev2024043000.tar.gz --markdown 20240501/k/keras-cv-nightly/0.9.0.dev2024042919-0.9.0.dev2024043000/README.md --exclude *.pyd
+[2024-05-01 05:16:35] INFO root fetch - processPackages [ppasr]: Downloading https://files.pythonhosted.org/packages/d1/72/6ed8a194643eccf6ccb96a7ed7191efd0c1ddc698ad102d193721250e863/ppasr-2.4.8-py3-none-any.whl
+[2024-05-01 05:16:35] INFO root fetch - processPackages [ppasr]: executing diffoscope
+[2024-05-01 05:16:35] INFO root fetch - processPackages [ppasr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ppasr-2.4.7-py3-none-any.whl.zip tmp/ppasr-2.4.8-py3-none-any.whl.zip --markdown 20240501/p/ppasr/2.4.7-2.4.8/README.md --exclude *.pyd
+[2024-05-01 05:16:35] INFO root fetch - processPackages [autopipeline]: Remove: archive file [/home/abi/fetcher/tmp/autopipeline-0.1.98.tar.gz]
+[2024-05-01 05:16:35] INFO root fetch - processPackages [autopipeline]: Remove: archive file [/home/abi/fetcher/tmp/autopipeline-0.1.99.tar.gz]
+[2024-05-01 05:16:35] INFO root fetch - main [MainThread]: End processing [autopipeline]: success
+[2024-05-01 05:16:35] INFO root fetch - processPackages [zyx]: Remove: archive file [/home/abi/fetcher/tmp/zyx-0.0.11.tar.gz]
+[2024-05-01 05:16:35] INFO root fetch - processPackages [zyx]: Remove: archive file [/home/abi/fetcher/tmp/zyx-0.0.12.tar.gz]
+[2024-05-01 05:16:35] INFO root fetch - main [MainThread]: End processing [zyx]: success
+[2024-05-01 05:16:35] INFO root fetch - processPackages [pypipr]: Remove: archive file [/home/abi/fetcher/tmp/pypipr-1.0.98.tar.gz]
+[2024-05-01 05:16:35] INFO root fetch - processPackages [pypipr]: Remove: archive file [/home/abi/fetcher/tmp/pypipr-1.0.99.tar.gz]
+[2024-05-01 05:16:35] INFO root fetch - main [MainThread]: End processing [pypipr]: success
+[2024-05-01 05:16:36] INFO root fetch - processPackages [ppasr]: Remove: archive file [/home/abi/fetcher/tmp/ppasr-2.4.7-py3-none-any.whl.zip]
+[2024-05-01 05:16:36] INFO root fetch - processPackages [ppasr]: Remove: archive file [/home/abi/fetcher/tmp/ppasr-2.4.8-py3-none-any.whl.zip]
+[2024-05-01 05:16:36] INFO root fetch - main [MainThread]: End processing [ppasr]: success
+[2024-05-01 05:16:36] INFO root fetch - processPackages [keras-cv-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_cv_nightly-0.9.0.dev2024042919.tar.gz]
+[2024-05-01 05:16:36] INFO root fetch - processPackages [keras-cv-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_cv_nightly-0.9.0.dev2024043000.tar.gz]
+[2024-05-01 05:16:36] INFO root fetch - main [MainThread]: End processing [keras-cv-nightly]: success
+[2024-05-01 05:16:36] INFO root fetch - main [MainThread]: Store serial: [23011834]
