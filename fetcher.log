@@ -11458,3 +11458,29 @@
 [2024-05-01 08:57:24] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_nightly-1.33.1.dev20240429.tar.gz]
 [2024-05-01 08:57:24] INFO root fetch - main [MainThread]: End processing [streamlit-nightly]: success
 [2024-05-01 08:57:24] INFO root fetch - main [MainThread]: Store serial: [23013438]
+[2024-05-01 08:59:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23013438]
+[2024-05-01 08:59:33] INFO root fetch - main [MainThread]: No changed packages found
+[2024-05-01 09:01:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23013445]
+[2024-05-01 09:01:38] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-01 09:01:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: importer-local
+[2024-05-01 09:01:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: easy-llama
+[2024-05-01 09:01:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tf-models-nightly
+[2024-05-01 09:01:38] WARNING root fetch - processPackages [easy-llama]: Skipping, unable to determine old version
+[2024-05-01 09:01:38] INFO root fetch - main [MainThread]: End processing [easy-llama] error
+[2024-05-01 09:01:38] INFO root fetch - processPackages [tf-models-nightly]: New version: [2.9.0.dev20220920] Old Version: [2.9.0.dev20220919]
+[2024-05-01 09:01:38] INFO root fetch - processPackages [importer-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-01 09:01:38] INFO root fetch - processPackages [tf-models-nightly]: Downloading https://files.pythonhosted.org/packages/73/e9/06af7a12cda1722ec668213b9e91a8a2e918011d3ef8e9a98146ee4f76ef/tf_models_nightly-2.9.0.dev20220919-py2.py3-none-any.whl
+[2024-05-01 09:01:38] INFO root fetch - processPackages [importer-local]: Downloading https://files.pythonhosted.org/packages/3b/68/0b10215ac7859421c193cd0df3aab70a0aef2e2db5f22c14a5a2fd7bd732/importer-local-0.0.8.tar.gz
+[2024-05-01 09:01:39] INFO root fetch - processPackages [importer-local]: Downloading https://files.pythonhosted.org/packages/80/33/939765aa01c27931d172ea899fb7307071569b4fc595e6ec107018aabc97/importer-local-0.0.9.tar.gz
+[2024-05-01 09:01:39] INFO root fetch - processPackages [tf-models-nightly]: Downloading https://files.pythonhosted.org/packages/e2/76/79c5fb2cd23f346ee912b9c289c2a9bab6fc8d178658f931ac9a023224c6/tf_models_nightly-2.9.0.dev20220920-py2.py3-none-any.whl
+[2024-05-01 09:01:39] INFO root fetch - processPackages [importer-local]: executing diffoscope
+[2024-05-01 09:01:39] INFO root fetch - processPackages [importer-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/importer-local-0.0.8.tar.gz tmp/importer-local-0.0.9.tar.gz --markdown 20240501/i/importer-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-01 09:01:39] INFO root fetch - processPackages [tf-models-nightly]: executing diffoscope
+[2024-05-01 09:01:39] INFO root fetch - processPackages [tf-models-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_models_nightly-2.9.0.dev20220919-py2.py3-none-any.whl.zip tmp/tf_models_nightly-2.9.0.dev20220920-py2.py3-none-any.whl.zip --markdown 20240501/t/tf-models-nightly/2.9.0.dev20220919-2.9.0.dev20220920/README.md --exclude *.pyd
+[2024-05-01 09:01:40] INFO root fetch - processPackages [importer-local]: Remove: archive file [/home/abi/fetcher/tmp/importer-local-0.0.8.tar.gz]
+[2024-05-01 09:01:40] INFO root fetch - processPackages [importer-local]: Remove: archive file [/home/abi/fetcher/tmp/importer-local-0.0.9.tar.gz]
+[2024-05-01 09:01:40] INFO root fetch - main [MainThread]: End processing [importer-local]: success
+[2024-05-01 09:01:42] INFO root fetch - processPackages [tf-models-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_models_nightly-2.9.0.dev20220919-py2.py3-none-any.whl.zip]
+[2024-05-01 09:01:42] INFO root fetch - processPackages [tf-models-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_models_nightly-2.9.0.dev20220920-py2.py3-none-any.whl.zip]
+[2024-05-01 09:01:42] INFO root fetch - main [MainThread]: End processing [tf-models-nightly]: success
+[2024-05-01 09:01:42] INFO root fetch - main [MainThread]: Store serial: [23013452]
