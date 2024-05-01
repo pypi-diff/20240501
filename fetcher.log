@@ -23255,3 +23255,162 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-01 16:59:02] INFO root fetch - processPackages [dash-ag-grid]: Remove: archive file [/home/abi/fetcher/tmp/dash_ag_grid-31.2.0.tar.gz]
 [2024-05-01 16:59:02] INFO root fetch - main [MainThread]: End processing [dash-ag-grid]: success
 [2024-05-01 16:59:02] INFO root fetch - main [MainThread]: Store serial: [23018352]
+[2024-05-01 17:01:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23018352]
+[2024-05-01 17:01:20] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-01 17:01:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: finbourne-access-sdk
+[2024-05-01 17:01:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: siat
+[2024-05-01 17:01:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PyFeeds
+[2024-05-01 17:01:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: recon-lw
+[2024-05-01 17:01:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aiowinreg
+[2024-05-01 17:01:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cryptoadvance.spectrum
+[2024-05-01 17:01:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: vrt-python
+[2024-05-01 17:01:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lyytkimg
+[2024-05-01 17:01:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: extensilog
+[2024-05-01 17:01:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: hmt-basemodels
+[2024-05-01 17:01:20] WARNING root fetch - processPackages [vrt-python]: Skipping, unable to determine old version
+[2024-05-01 17:01:20] INFO root fetch - main [MainThread]: End processing [vrt-python] error
+[2024-05-01 17:01:20] INFO root fetch - processPackages [finbourne-access-sdk]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-05-01 17:01:20] INFO root fetch - processPackages [siat]: New version: [3.0.40] Old Version: [3.0.4]
+[2024-05-01 17:01:20] WARNING root fetch - processPackages [extensilog]: Skipping, unable to determine old version
+[2024-05-01 17:01:20] INFO root fetch - main [MainThread]: End processing [extensilog] error
+[2024-05-01 17:01:20] INFO root fetch - processPackages [PyFeeds]: New version: [2024.5.1] Old Version: [2022.6.18]
+[2024-05-01 17:01:20] INFO root fetch - processPackages [aiowinreg]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-01 17:01:20] WARNING root fetch - processPackages [lyytkimg]: Skipping, unable to determine old version
+[2024-05-01 17:01:20] INFO root fetch - main [MainThread]: End processing [lyytkimg] error
+[2024-05-01 17:01:20] INFO root fetch - processPackages [cryptoadvance.spectrum]: New version: [0.6.5] Old Version: [0.6.4rc1]
+[2024-05-01 17:01:20] INFO root fetch - processPackages [hmt-basemodels]: New version: [1.0.0] Old Version: [0.2.9]
+[2024-05-01 17:01:20] INFO root fetch - processPackages [recon-lw]: New version: [3.0.0.dev8910961296] Old Version: [3.0.0.dev8870544684]
+[2024-05-01 17:01:20] INFO root fetch - processPackages [finbourne-access-sdk]: Downloading https://files.pythonhosted.org/packages/67/5a/2e8d70b51969063ac34619b9a07be19893b64107b4dab37e771b94bd1b03/finbourne_access_sdk-2.1.8.tar.gz
+[2024-05-01 17:01:20] INFO root fetch - processPackages [cryptoadvance.spectrum]: Downloading https://files.pythonhosted.org/packages/e0/f9/6283bcbe7894da2d804c680103141235d4f0db0b723abaeffcb3eba870e5/cryptoadvance.spectrum-0.6.4rc1.tar.gz
+[2024-05-01 17:01:20] INFO root fetch - processPackages [PyFeeds]: Downloading https://files.pythonhosted.org/packages/81/dc/041d512ade44a59f74099864d78bed1f231e038f74074d1df0127f88b197/PyFeeds-2022.6.18.tar.gz
+[2024-05-01 17:01:20] INFO root fetch - processPackages [recon-lw]: Downloading https://files.pythonhosted.org/packages/f5/f4/4b76f5f504813b5c1ecb463b7ab21a83b57865bbc3399ce9f2a3221cd3b0/recon_lw-3.0.0.dev8870544684.tar.gz
+[2024-05-01 17:01:20] INFO root fetch - processPackages [aiowinreg]: Downloading https://files.pythonhosted.org/packages/c7/c5/0597d9c1fc7749cbc19d2a349dc432829333b877793f4bff5db88e27b8ef/aiowinreg-0.0.8-py3-none-any.whl
+[2024-05-01 17:01:20] INFO root fetch - processPackages [hmt-basemodels]: Downloading https://files.pythonhosted.org/packages/fc/57/4bbe97289392045ef8a66bcf6192416bbd1877be85f5b142623d930a0a23/hmt-basemodels-0.2.9.tar.gz
+[2024-05-01 17:01:20] INFO root fetch - processPackages [finbourne-access-sdk]: Downloading https://files.pythonhosted.org/packages/2d/9e/be08614b45729ae547c5c8acd046e8c90ae89d6b812ee70666b6e24bcbe8/finbourne_access_sdk-2.1.9.tar.gz
+[2024-05-01 17:01:20] INFO root fetch - processPackages [siat]: Downloading https://files.pythonhosted.org/packages/57/ff/b1b413c6ddd94a5ef5223510fc7135588fda7dfade98401a9c1793338875/siat-3.0.40-py3-none-any.whl
+[2024-05-01 17:01:21] INFO root fetch - processPackages [finbourne-access-sdk]: executing diffoscope
+[2024-05-01 17:01:21] INFO root fetch - processPackages [finbourne-access-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne_access_sdk-2.1.8.tar.gz tmp/finbourne_access_sdk-2.1.9.tar.gz --markdown 20240501/f/finbourne-access-sdk/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-05-01 17:01:21] INFO root fetch - processPackages [cryptoadvance.spectrum]: Downloading https://files.pythonhosted.org/packages/2e/da/16adde615758a801a1597e49f79488444e94fc9b202b7f74ad127e0fc1d1/cryptoadvance.spectrum-0.6.5-py3-none-any.whl
+[2024-05-01 17:01:21] INFO root fetch - processPackages [PyFeeds]: Downloading https://files.pythonhosted.org/packages/49/24/ea2de50dbbf88a0a1803a477a2479eeb0778fd39ecf28ad61ef42994fd69/pyfeeds-2024.5.1.tar.gz
+[2024-05-01 17:01:21] INFO root fetch - processPackages [recon-lw]: Downloading https://files.pythonhosted.org/packages/5b/e9/e2b5e1b64c77303713ce15a4dc519d7bff2910a704ef1889898066152a5c/recon_lw-3.0.0.dev8910961296.tar.gz
+[2024-05-01 17:01:21] INFO root fetch - processPackages [aiowinreg]: Downloading https://files.pythonhosted.org/packages/bf/7b/48345c1a8313e0c27483e627336e351def906ab1a5c9fa2c0c39abb4d800/aiowinreg-0.0.9-py3-none-any.whl
+[2024-05-01 17:01:21] INFO root fetch - processPackages [siat]: executing diffoscope
+[2024-05-01 17:01:21] INFO root fetch - processPackages [siat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/siat-3.0.4-py3-none-any.whl.zip tmp/siat-3.0.40-py3-none-any.whl.zip --markdown 20240501/s/siat/3.0.4-3.0.40/README.md --exclude *.pyd
+[2024-05-01 17:01:21] INFO root fetch - processPackages [cryptoadvance.spectrum]: executing diffoscope
+[2024-05-01 17:01:21] INFO root fetch - processPackages [cryptoadvance.spectrum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cryptoadvance.spectrum-0.6.4rc1.tar.gz tmp/cryptoadvance.spectrum-0.6.5-py3-none-any.whl.zip --markdown 20240501/c/cryptoadvance.spectrum/0.6.4rc1-0.6.5/README.md --exclude *.pyd
+[2024-05-01 17:01:21] INFO root fetch - processPackages [PyFeeds]: executing diffoscope
+[2024-05-01 17:01:21] INFO root fetch - processPackages [PyFeeds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyFeeds-2022.6.18.tar.gz tmp/pyfeeds-2024.5.1.tar.gz --markdown 20240501/P/PyFeeds/2022.6.18-2024.5.1/README.md --exclude *.pyd
+[2024-05-01 17:01:21] INFO root fetch - processPackages [hmt-basemodels]: Downloading https://files.pythonhosted.org/packages/a3/40/1b4f1ffa129d965d4429aa6957355e5885ba0fd6fb39a2a73f1697e135a2/hmt-basemodels-1.0.0.tar.gz
+[2024-05-01 17:01:21] INFO root fetch - processPackages [recon-lw]: executing diffoscope
+[2024-05-01 17:01:21] INFO root fetch - processPackages [recon-lw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/recon_lw-3.0.0.dev8870544684.tar.gz tmp/recon_lw-3.0.0.dev8910961296.tar.gz --markdown 20240501/r/recon-lw/3.0.0.dev8870544684-3.0.0.dev8910961296/README.md --exclude *.pyd
+[2024-05-01 17:01:21] INFO root fetch - processPackages [aiowinreg]: executing diffoscope
+[2024-05-01 17:01:21] INFO root fetch - processPackages [aiowinreg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiowinreg-0.0.8-py3-none-any.whl.zip tmp/aiowinreg-0.0.9-py3-none-any.whl.zip --markdown 20240501/a/aiowinreg/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-01 17:01:21] INFO root fetch - processPackages [hmt-basemodels]: executing diffoscope
+[2024-05-01 17:01:21] INFO root fetch - processPackages [hmt-basemodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hmt-basemodels-0.2.9.tar.gz tmp/hmt-basemodels-1.0.0.tar.gz --markdown 20240501/h/hmt-basemodels/0.2.9-1.0.0/README.md --exclude *.pyd
+[2024-05-01 17:01:21] ERROR root fetch - processPackages [siat]: Diffoscope failed: time="2024-05-01T17:01:21+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 126, in feeder
+    end_nl = feeder(out_file)
+             ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 81, in feeder
+    out = filter_reader(buf, filter)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 47, in filter_reader
+    buf = additional_filter(buf)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 57, in filter
+    m = self.re_strip_path.match(line.decode("utf-8"))
+                                 ^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid continuation byte
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 217, in compare
+    x = super().compare(other, source)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 532, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 433, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 252, in compare_details
+    differences.extend(zipinfo_differences(self, other))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 127, in zipinfo_differences
+    zipinfo = Difference.from_operation(Zipinfo, file.path, other.path)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 267, in from_operation
+    return Difference.from_operation_exc(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 316, in from_operation_exc
+    difference = Difference.from_feeder(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 126, in feeder
+    end_nl = feeder(out_file)
+             ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 81, in feeder
+    out = filter_reader(buf, filter)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 47, in filter_reader
+    buf = additional_filter(buf)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 57, in filter
+    m = self.re_strip_path.match(line.decode("utf-8"))
+                                 ^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid continuation byte
+
+[2024-05-01 17:01:21] INFO root fetch - main [MainThread]: End processing [siat] error
+[2024-05-01 17:01:21] INFO root fetch - processPackages [cryptoadvance.spectrum]: Remove: archive file [/home/abi/fetcher/tmp/cryptoadvance.spectrum-0.6.4rc1.tar.gz]
+[2024-05-01 17:01:21] INFO root fetch - processPackages [cryptoadvance.spectrum]: Remove: archive file [/home/abi/fetcher/tmp/cryptoadvance.spectrum-0.6.5-py3-none-any.whl.zip]
+[2024-05-01 17:01:21] INFO root fetch - main [MainThread]: End processing [cryptoadvance.spectrum]: success
+[2024-05-01 17:01:22] INFO root fetch - processPackages [aiowinreg]: Remove: archive file [/home/abi/fetcher/tmp/aiowinreg-0.0.8-py3-none-any.whl.zip]
+[2024-05-01 17:01:22] INFO root fetch - processPackages [aiowinreg]: Remove: archive file [/home/abi/fetcher/tmp/aiowinreg-0.0.9-py3-none-any.whl.zip]
+[2024-05-01 17:01:22] INFO root fetch - main [MainThread]: End processing [aiowinreg]: success
+[2024-05-01 17:01:22] INFO root fetch - processPackages [hmt-basemodels]: Remove: archive file [/home/abi/fetcher/tmp/hmt-basemodels-0.2.9.tar.gz]
+[2024-05-01 17:01:22] INFO root fetch - processPackages [hmt-basemodels]: Remove: archive file [/home/abi/fetcher/tmp/hmt-basemodels-1.0.0.tar.gz]
+[2024-05-01 17:01:22] INFO root fetch - main [MainThread]: End processing [hmt-basemodels]: success
+[2024-05-01 17:01:22] INFO root fetch - processPackages [finbourne-access-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_access_sdk-2.1.8.tar.gz]
+[2024-05-01 17:01:22] INFO root fetch - processPackages [finbourne-access-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_access_sdk-2.1.9.tar.gz]
+[2024-05-01 17:01:22] INFO root fetch - main [MainThread]: End processing [finbourne-access-sdk]: success
+[2024-05-01 17:01:22] INFO root fetch - processPackages [PyFeeds]: Remove: archive file [/home/abi/fetcher/tmp/PyFeeds-2022.6.18.tar.gz]
+[2024-05-01 17:01:22] INFO root fetch - processPackages [PyFeeds]: Remove: archive file [/home/abi/fetcher/tmp/pyfeeds-2024.5.1.tar.gz]
+[2024-05-01 17:01:22] INFO root fetch - main [MainThread]: End processing [PyFeeds]: success
+[2024-05-01 17:01:22] INFO root fetch - processPackages [recon-lw]: Remove: archive file [/home/abi/fetcher/tmp/recon_lw-3.0.0.dev8870544684.tar.gz]
+[2024-05-01 17:01:22] INFO root fetch - processPackages [recon-lw]: Remove: archive file [/home/abi/fetcher/tmp/recon_lw-3.0.0.dev8910961296.tar.gz]
+[2024-05-01 17:01:22] INFO root fetch - main [MainThread]: End processing [recon-lw]: success
+[2024-05-01 17:01:22] INFO root fetch - main [MainThread]: Store serial: [23018384]
