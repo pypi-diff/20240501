@@ -10884,3 +10884,69 @@
 [2024-05-01 08:28:11] INFO root fetch - processPackages [AutoRAG]: Remove: archive file [/home/abi/fetcher/tmp/autorag-0.1.9.tar.gz]
 [2024-05-01 08:28:11] INFO root fetch - main [MainThread]: End processing [AutoRAG]: success
 [2024-05-01 08:28:11] INFO root fetch - main [MainThread]: Store serial: [23013153]
+[2024-05-01 08:30:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23013153]
+[2024-05-01 08:30:20] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-01 08:30:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cleese-stim
+[2024-05-01 08:30:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ecr-scan-notifier
+[2024-05-01 08:30:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-openstack
+[2024-05-01 08:30:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: terraform-backend-s3-bucket
+[2024-05-01 08:30:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: azure-devops-repository-archiver
+[2024-05-01 08:30:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: qrawl
+[2024-05-01 08:30:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: seguid
+[2024-05-01 08:30:21] INFO root fetch - processPackages [cleese-stim]: New version: [2.1.0] Old Version: [2.0.0]
+[2024-05-01 08:30:21] INFO root fetch - processPackages [pulumi-openstack]: New version: [3.9.0a1659603007] Old Version: [3.9.0a1654086724]
+[2024-05-01 08:30:21] INFO root fetch - processPackages [qrawl]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-01 08:30:21] INFO root fetch - processPackages [cleese-stim]: Downloading https://files.pythonhosted.org/packages/ef/b7/24bfb11b4d07df972a846b987adbab0fa959b2cb7bb86c149ecbfe52c03a/cleese_stim-2.0.0.tar.gz
+[2024-05-01 08:30:21] INFO root fetch - processPackages [azure-devops-repository-archiver]: New version: [1.6.9] Old Version: [1.6.8]
+[2024-05-01 08:30:21] INFO root fetch - processPackages [ecr-scan-notifier]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-01 08:30:21] INFO root fetch - processPackages [terraform-backend-s3-bucket]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-05-01 08:30:21] INFO root fetch - processPackages [pulumi-openstack]: Downloading https://files.pythonhosted.org/packages/bb/93/e4acd0fd6ccecb8338145c7929b4f11bbbcda13bd5c5523254ce8f946bd2/pulumi_openstack-3.9.0a1654086724.tar.gz
+[2024-05-01 08:30:21] INFO root fetch - processPackages [seguid]: New version: [0.1.0a1] Old Version: [0.1.0]
+[2024-05-01 08:30:21] INFO root fetch - processPackages [azure-devops-repository-archiver]: Downloading https://files.pythonhosted.org/packages/c8/31/f0a976729de802c1623de7ca9e36435c0303e4aa397d45b849fae30d93d8/azure-devops-repository-archiver-1.6.8.tar.gz
+[2024-05-01 08:30:21] INFO root fetch - processPackages [ecr-scan-notifier]: Downloading https://files.pythonhosted.org/packages/40/4d/1a1d0d9bc892c0dfb4d791a0884a59a8914a10d1e7da04c6b59517cf273f/ecr-scan-notifier-0.0.8.tar.gz
+[2024-05-01 08:30:21] INFO root fetch - processPackages [terraform-backend-s3-bucket]: Downloading https://files.pythonhosted.org/packages/a1/59/a0b177e388ab6dea9340fbac83fa49117e61dcfb43bab08e9602a7d0d9b6/terraform-backend-s3-bucket-1.0.3.tar.gz
+[2024-05-01 08:30:21] INFO root fetch - processPackages [qrawl]: Downloading https://files.pythonhosted.org/packages/b6/2d/d1dd9840a16092da8bbb8ee5e88df24cf8d0cc79fb59c7054493326a7def/qrawl-0.1.5.tar.gz
+[2024-05-01 08:30:21] INFO root fetch - processPackages [cleese-stim]: Downloading https://files.pythonhosted.org/packages/e2/3e/7c5df974e65535bfb169456c21f8d1ae172db53d4c6957c8cd2a820afeed/cleese_stim-2.1.0.tar.gz
+[2024-05-01 08:30:21] INFO root fetch - processPackages [pulumi-openstack]: Downloading https://files.pythonhosted.org/packages/cf/b9/1f6195a962138e9e532ea6da486cd8eab11855d8b0284a83af9bb290e254/pulumi_openstack-3.9.0a1659603007.tar.gz
+[2024-05-01 08:30:21] INFO root fetch - processPackages [seguid]: Downloading https://files.pythonhosted.org/packages/94/b0/992f0752f62477ef76413207f46a548d3dfa2499077df56314577227ecb8/seguid-0.1.0.tar.gz
+[2024-05-01 08:30:21] INFO root fetch - processPackages [cleese-stim]: executing diffoscope
+[2024-05-01 08:30:21] INFO root fetch - processPackages [cleese-stim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cleese_stim-2.0.0.tar.gz tmp/cleese_stim-2.1.0.tar.gz --markdown 20240501/c/cleese-stim/2.0.0-2.1.0/README.md --exclude *.pyd
+[2024-05-01 08:30:21] INFO root fetch - processPackages [azure-devops-repository-archiver]: Downloading https://files.pythonhosted.org/packages/26/ea/0e43014c882095b1e474e9de597267a8a686ef2861eff793bce8d8b93933/azure-devops-repository-archiver-1.6.9.tar.gz
+[2024-05-01 08:30:21] INFO root fetch - processPackages [pulumi-openstack]: executing diffoscope
+[2024-05-01 08:30:21] INFO root fetch - processPackages [pulumi-openstack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_openstack-3.9.0a1654086724.tar.gz tmp/pulumi_openstack-3.9.0a1659603007.tar.gz --markdown 20240501/p/pulumi-openstack/3.9.0a1654086724-3.9.0a1659603007/README.md --exclude *.pyd
+[2024-05-01 08:30:21] INFO root fetch - processPackages [ecr-scan-notifier]: Downloading https://files.pythonhosted.org/packages/d1/00/57fd90da8640eba9f4ecd18284a84eab9858fbc02e1cde2695b5c20f9967/ecr-scan-notifier-0.0.9.tar.gz
+[2024-05-01 08:30:21] INFO root fetch - processPackages [terraform-backend-s3-bucket]: Downloading https://files.pythonhosted.org/packages/32/e1/0f92d89346af4f314821d553cf6cf0aa31865eb0e0ab90f5265a272f96e5/terraform-backend-s3-bucket-1.0.4.tar.gz
+[2024-05-01 08:30:21] INFO root fetch - processPackages [qrawl]: Downloading https://files.pythonhosted.org/packages/e1/e7/8f7542a7f4859f6ee2930c38d11a30203133ef37a4ed34e5bbc002e8bcda/qrawl-0.1.6.tar.gz
+[2024-05-01 08:30:21] INFO root fetch - processPackages [azure-devops-repository-archiver]: executing diffoscope
+[2024-05-01 08:30:21] INFO root fetch - processPackages [azure-devops-repository-archiver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure-devops-repository-archiver-1.6.8.tar.gz tmp/azure-devops-repository-archiver-1.6.9.tar.gz --markdown 20240501/a/azure-devops-repository-archiver/1.6.8-1.6.9/README.md --exclude *.pyd
+[2024-05-01 08:30:21] INFO root fetch - processPackages [ecr-scan-notifier]: executing diffoscope
+[2024-05-01 08:30:21] INFO root fetch - processPackages [ecr-scan-notifier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecr-scan-notifier-0.0.8.tar.gz tmp/ecr-scan-notifier-0.0.9.tar.gz --markdown 20240501/e/ecr-scan-notifier/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-01 08:30:21] INFO root fetch - processPackages [terraform-backend-s3-bucket]: executing diffoscope
+[2024-05-01 08:30:21] INFO root fetch - processPackages [terraform-backend-s3-bucket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/terraform-backend-s3-bucket-1.0.3.tar.gz tmp/terraform-backend-s3-bucket-1.0.4.tar.gz --markdown 20240501/t/terraform-backend-s3-bucket/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-05-01 08:30:22] INFO root fetch - processPackages [qrawl]: executing diffoscope
+[2024-05-01 08:30:22] INFO root fetch - processPackages [qrawl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qrawl-0.1.5.tar.gz tmp/qrawl-0.1.6.tar.gz --markdown 20240501/q/qrawl/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-01 08:30:22] INFO root fetch - processPackages [seguid]: Downloading https://files.pythonhosted.org/packages/24/22/d5083b6fb83e63bf3efcc0028860c13acba16328b15c8cad619e73a2a9ca/seguid-0.1.0a1.tar.gz
+[2024-05-01 08:30:22] INFO root fetch - processPackages [cleese-stim]: Remove: archive file [/home/abi/fetcher/tmp/cleese_stim-2.0.0.tar.gz]
+[2024-05-01 08:30:22] INFO root fetch - processPackages [cleese-stim]: Remove: archive file [/home/abi/fetcher/tmp/cleese_stim-2.1.0.tar.gz]
+[2024-05-01 08:30:22] INFO root fetch - main [MainThread]: End processing [cleese-stim]: success
+[2024-05-01 08:30:22] INFO root fetch - processPackages [seguid]: executing diffoscope
+[2024-05-01 08:30:22] INFO root fetch - processPackages [seguid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seguid-0.1.0.tar.gz tmp/seguid-0.1.0a1.tar.gz --markdown 20240501/s/seguid/0.1.0-0.1.0a1/README.md --exclude *.pyd
+[2024-05-01 08:30:22] INFO root fetch - processPackages [azure-devops-repository-archiver]: Remove: archive file [/home/abi/fetcher/tmp/azure-devops-repository-archiver-1.6.8.tar.gz]
+[2024-05-01 08:30:22] INFO root fetch - processPackages [azure-devops-repository-archiver]: Remove: archive file [/home/abi/fetcher/tmp/azure-devops-repository-archiver-1.6.9.tar.gz]
+[2024-05-01 08:30:22] INFO root fetch - main [MainThread]: End processing [azure-devops-repository-archiver]: success
+[2024-05-01 08:30:22] INFO root fetch - processPackages [ecr-scan-notifier]: Remove: archive file [/home/abi/fetcher/tmp/ecr-scan-notifier-0.0.8.tar.gz]
+[2024-05-01 08:30:22] INFO root fetch - processPackages [ecr-scan-notifier]: Remove: archive file [/home/abi/fetcher/tmp/ecr-scan-notifier-0.0.9.tar.gz]
+[2024-05-01 08:30:22] INFO root fetch - main [MainThread]: End processing [ecr-scan-notifier]: success
+[2024-05-01 08:30:22] INFO root fetch - processPackages [qrawl]: Remove: archive file [/home/abi/fetcher/tmp/qrawl-0.1.5.tar.gz]
+[2024-05-01 08:30:22] INFO root fetch - processPackages [qrawl]: Remove: archive file [/home/abi/fetcher/tmp/qrawl-0.1.6.tar.gz]
+[2024-05-01 08:30:22] INFO root fetch - main [MainThread]: End processing [qrawl]: success
+[2024-05-01 08:30:22] INFO root fetch - processPackages [terraform-backend-s3-bucket]: Remove: archive file [/home/abi/fetcher/tmp/terraform-backend-s3-bucket-1.0.3.tar.gz]
+[2024-05-01 08:30:22] INFO root fetch - processPackages [terraform-backend-s3-bucket]: Remove: archive file [/home/abi/fetcher/tmp/terraform-backend-s3-bucket-1.0.4.tar.gz]
+[2024-05-01 08:30:22] INFO root fetch - main [MainThread]: End processing [terraform-backend-s3-bucket]: success
+[2024-05-01 08:30:22] INFO root fetch - processPackages [seguid]: Remove: archive file [/home/abi/fetcher/tmp/seguid-0.1.0.tar.gz]
+[2024-05-01 08:30:22] INFO root fetch - processPackages [seguid]: Remove: archive file [/home/abi/fetcher/tmp/seguid-0.1.0a1.tar.gz]
+[2024-05-01 08:30:22] INFO root fetch - main [MainThread]: End processing [seguid]: success
+[2024-05-01 08:30:24] INFO root fetch - processPackages [pulumi-openstack]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_openstack-3.9.0a1654086724.tar.gz]
+[2024-05-01 08:30:24] INFO root fetch - processPackages [pulumi-openstack]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_openstack-3.9.0a1659603007.tar.gz]
+[2024-05-01 08:30:24] INFO root fetch - main [MainThread]: End processing [pulumi-openstack]: success
+[2024-05-01 08:30:24] INFO root fetch - main [MainThread]: Store serial: [23013176]
