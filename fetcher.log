@@ -20608,3 +20608,48 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-01 14:54:03] INFO root fetch - processPackages [tq42-grpc-client]: Remove: archive file [/home/abi/fetcher/tmp/tq42_grpc_client-1.0.99.tar.gz]
 [2024-05-01 14:54:03] INFO root fetch - main [MainThread]: End processing [tq42-grpc-client]: success
 [2024-05-01 14:54:03] INFO root fetch - main [MainThread]: Store serial: [23017104]
+[2024-05-01 14:56:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23017104]
+[2024-05-01 14:56:11] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-01 14:56:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wagtail
+[2024-05-01 14:56:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jf-ingest
+[2024-05-01 14:56:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: princo
+[2024-05-01 14:56:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jarm
+[2024-05-01 14:56:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pdf-microarray
+[2024-05-01 14:56:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: spotinst-agent-beta
+[2024-05-01 14:56:11] INFO root fetch - processPackages [princo]: New version: [5.0.5] Old Version: [4.0.5]
+[2024-05-01 14:56:11] INFO root fetch - processPackages [jf-ingest]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-01 14:56:12] INFO root fetch - processPackages [wagtail]: New version: [6.1rc2] Old Version: [6.1rc1]
+[2024-05-01 14:56:12] WARNING root fetch - processPackages [pdf-microarray]: Skipping, unable to determine old version
+[2024-05-01 14:56:12] INFO root fetch - main [MainThread]: End processing [pdf-microarray] error
+[2024-05-01 14:56:12] WARNING root fetch - processPackages [jarm]: Skipping, unable to determine old version
+[2024-05-01 14:56:12] INFO root fetch - processPackages [princo]: Downloading https://files.pythonhosted.org/packages/77/3b/77d73c43eeb146ba8d28125bc40b922fa2c1551d79f7bc5a861b1d4aff05/princo-4.0.5.tar.gz
+[2024-05-01 14:56:12] INFO root fetch - main [MainThread]: End processing [jarm] error
+[2024-05-01 14:56:12] INFO root fetch - processPackages [spotinst-agent-beta]: New version: [2.2.287] Old Version: [2.2.286]
+[2024-05-01 14:56:12] INFO root fetch - processPackages [jf-ingest]: Downloading https://files.pythonhosted.org/packages/ab/69/cdacc4d37658c3a874a18a4271b009abfd71573c47463e7ec97bb55d627a/jf-ingest-0.0.8.tar.gz
+[2024-05-01 14:56:12] INFO root fetch - processPackages [wagtail]: Downloading https://files.pythonhosted.org/packages/4d/5d/f595e600c825ada75bd8aabb81ebbc81063ecc88c17e3e0a8619af24b59d/wagtail-6.1rc1.tar.gz
+[2024-05-01 14:56:12] INFO root fetch - processPackages [spotinst-agent-beta]: Downloading https://files.pythonhosted.org/packages/6d/58/7c605935d86a4bbcf52dd6bda6fe6ee08239bad89158faff28a68d568cbd/spotinst-agent-beta-2.2.286.tar.gz
+[2024-05-01 14:56:12] INFO root fetch - processPackages [jf-ingest]: Downloading https://files.pythonhosted.org/packages/56/ad/eef9cdd010a54f9b398ad1967a06a7e480aa5f7faafef61a3a1bea2f40fe/jf-ingest-0.0.9.tar.gz
+[2024-05-01 14:56:12] INFO root fetch - processPackages [princo]: Downloading https://files.pythonhosted.org/packages/e2/db/7627ebd0c71019933bc71b7af591661224c871a09860c785816a030c7c15/princo-5.0.5.tar.gz
+[2024-05-01 14:56:12] INFO root fetch - processPackages [jf-ingest]: executing diffoscope
+[2024-05-01 14:56:12] INFO root fetch - processPackages [jf-ingest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jf-ingest-0.0.8.tar.gz tmp/jf-ingest-0.0.9.tar.gz --markdown 20240501/j/jf-ingest/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-01 14:56:12] INFO root fetch - processPackages [princo]: executing diffoscope
+[2024-05-01 14:56:12] INFO root fetch - processPackages [princo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/princo-4.0.5.tar.gz tmp/princo-5.0.5.tar.gz --markdown 20240501/p/princo/4.0.5-5.0.5/README.md --exclude *.pyd
+[2024-05-01 14:56:12] INFO root fetch - processPackages [spotinst-agent-beta]: Downloading https://files.pythonhosted.org/packages/5c/b7/4679f4eb032516d0298b095698989948d2b0ffd6d2fe30599b24618b8fc9/spotinst-agent-beta-2.2.287.tar.gz
+[2024-05-01 14:56:12] INFO root fetch - processPackages [wagtail]: Downloading https://files.pythonhosted.org/packages/f7/51/c0e453b83ff48be1d379957963362c73bc40f89a611e9191ccbae28f9c9c/wagtail-6.1rc2.tar.gz
+[2024-05-01 14:56:12] INFO root fetch - processPackages [spotinst-agent-beta]: executing diffoscope
+[2024-05-01 14:56:12] INFO root fetch - processPackages [spotinst-agent-beta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spotinst-agent-beta-2.2.286.tar.gz tmp/spotinst-agent-beta-2.2.287.tar.gz --markdown 20240501/s/spotinst-agent-beta/2.2.286-2.2.287/README.md --exclude *.pyd
+[2024-05-01 14:56:12] INFO root fetch - processPackages [jf-ingest]: Remove: archive file [/home/abi/fetcher/tmp/jf-ingest-0.0.8.tar.gz]
+[2024-05-01 14:56:12] INFO root fetch - processPackages [jf-ingest]: Remove: archive file [/home/abi/fetcher/tmp/jf-ingest-0.0.9.tar.gz]
+[2024-05-01 14:56:12] INFO root fetch - main [MainThread]: End processing [jf-ingest]: success
+[2024-05-01 14:56:12] INFO root fetch - processPackages [wagtail]: executing diffoscope
+[2024-05-01 14:56:12] INFO root fetch - processPackages [wagtail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wagtail-6.1rc1.tar.gz tmp/wagtail-6.1rc2.tar.gz --markdown 20240501/w/wagtail/6.1rc1-6.1rc2/README.md --exclude *.pyd
+[2024-05-01 14:56:13] INFO root fetch - processPackages [princo]: Remove: archive file [/home/abi/fetcher/tmp/princo-4.0.5.tar.gz]
+[2024-05-01 14:56:13] INFO root fetch - processPackages [princo]: Remove: archive file [/home/abi/fetcher/tmp/princo-5.0.5.tar.gz]
+[2024-05-01 14:56:13] INFO root fetch - main [MainThread]: End processing [princo]: success
+[2024-05-01 14:56:13] INFO root fetch - processPackages [spotinst-agent-beta]: Remove: archive file [/home/abi/fetcher/tmp/spotinst-agent-beta-2.2.286.tar.gz]
+[2024-05-01 14:56:13] INFO root fetch - processPackages [spotinst-agent-beta]: Remove: archive file [/home/abi/fetcher/tmp/spotinst-agent-beta-2.2.287.tar.gz]
+[2024-05-01 14:56:13] INFO root fetch - main [MainThread]: End processing [spotinst-agent-beta]: success
+[2024-05-01 14:56:42] INFO root fetch - processPackages [wagtail]: Remove: archive file [/home/abi/fetcher/tmp/wagtail-6.1rc1.tar.gz]
+[2024-05-01 14:56:42] INFO root fetch - processPackages [wagtail]: Remove: archive file [/home/abi/fetcher/tmp/wagtail-6.1rc2.tar.gz]
+[2024-05-01 14:56:42] INFO root fetch - main [MainThread]: End processing [wagtail]: success
+[2024-05-01 14:56:42] INFO root fetch - main [MainThread]: Store serial: [23017126]
