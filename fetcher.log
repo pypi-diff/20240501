@@ -8429,3 +8429,38 @@
 [2024-05-01 05:50:06] INFO root fetch - processPackages [omniconfig]: Remove: archive file [/home/abi/fetcher/tmp/omniconfig-0.1.4.tar.gz]
 [2024-05-01 05:50:06] INFO root fetch - main [MainThread]: End processing [omniconfig]: success
 [2024-05-01 05:50:06] INFO root fetch - main [MainThread]: Store serial: [23012054]
+[2024-05-01 05:52:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23012054]
+[2024-05-01 05:52:15] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-01 05:52:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: triton-xpu
+[2024-05-01 05:52:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: LuBanPy
+[2024-05-01 05:52:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Python-Education-Tools
+[2024-05-01 05:52:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bihyung
+[2024-05-01 05:52:15] INFO root fetch - processPackages [bihyung]: New version: [0.2.7] Old Version: [0.2.6]
+[2024-05-01 05:52:15] INFO root fetch - processPackages [triton-xpu]: New version: [3.0.0b2] Old Version: [3.0.0b1]
+[2024-05-01 05:52:15] INFO root fetch - processPackages [LuBanPy]: New version: [0.1.9] Old Version: [0.1.7]
+[2024-05-01 05:52:15] INFO root fetch - processPackages [bihyung]: Downloading https://files.pythonhosted.org/packages/61/2c/cd67ae255d9baeeec51c759513dda4d61cfdf7204a610353e9c21e1f30ce/bihyung-0.2.6.tar.gz
+[2024-05-01 05:52:15] INFO root fetch - processPackages [Python-Education-Tools]: New version: [24.5.1] Old Version: [24.4.19]
+[2024-05-01 05:52:15] INFO root fetch - processPackages [triton-xpu]: Downloading https://files.pythonhosted.org/packages/95/6f/4be62c3f93d5e5e83e1a45a3a671ca52a580109da678659349ecf4b30883/triton_xpu-3.0.0b1-cp39-cp39-manylinux_2_31_x86_64.manylinux_2_35_x86_64.whl
+[2024-05-01 05:52:15] INFO root fetch - processPackages [LuBanPy]: Downloading https://files.pythonhosted.org/packages/56/da/c1a104d4b834f04c0441a2021da07a0d2fa21d41fa076d73f5d3cd36a231/LuBanPy-0.1.7-cp38-cp38-win_amd64.whl
+[2024-05-01 05:52:15] INFO root fetch - processPackages [Python-Education-Tools]: Downloading https://files.pythonhosted.org/packages/30/aa/eed4bbb01dda15a4847feb65babeb3599c2af03454d84954ffd0143e72fc/Python_Education_Tools-24.4.19-py3-none-any.whl
+[2024-05-01 05:52:15] INFO root fetch - processPackages [bihyung]: Downloading https://files.pythonhosted.org/packages/1a/5c/579e9a43157faed37053a2850cf4d3c70081e9eb4b49afb825fe95d4ba7b/bihyung-0.2.7.tar.gz
+[2024-05-01 05:52:16] WARNING root fetch - processPackages [Python-Education-Tools]: Skipping package: exceeds size limit 26049450>=10485760
+[2024-05-01 05:52:16] INFO root fetch - main [MainThread]: End processing [Python-Education-Tools] error
+[2024-05-01 05:52:16] INFO root fetch - processPackages [bihyung]: executing diffoscope
+[2024-05-01 05:52:16] INFO root fetch - processPackages [bihyung]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bihyung-0.2.6.tar.gz tmp/bihyung-0.2.7.tar.gz --markdown 20240501/b/bihyung/0.2.6-0.2.7/README.md --exclude *.pyd
+[2024-05-01 05:52:16] INFO root fetch - processPackages [triton-xpu]: Downloading https://files.pythonhosted.org/packages/cd/3f/2bbeb0a7f31e2ebca978e518875fab7e38ae1f0098938c42a96f5f6351a8/triton_xpu-3.0.0b2-cp39-cp39-manylinux_2_34_x86_64.manylinux_2_35_x86_64.whl
+[2024-05-01 05:52:16] INFO root fetch - processPackages [LuBanPy]: Downloading https://files.pythonhosted.org/packages/d8/80/6ec38830c73dc214a34d0bcdfc9eac19ee0a5ff2f7e661427b5f1b926500/LuBanPy-0.1.9-cp38-cp38-win_amd64.whl
+[2024-05-01 05:52:16] INFO root fetch - processPackages [bihyung]: Remove: archive file [/home/abi/fetcher/tmp/bihyung-0.2.6.tar.gz]
+[2024-05-01 05:52:16] INFO root fetch - processPackages [bihyung]: Remove: archive file [/home/abi/fetcher/tmp/bihyung-0.2.7.tar.gz]
+[2024-05-01 05:52:16] INFO root fetch - main [MainThread]: End processing [bihyung]: success
+[2024-05-01 05:52:16] INFO root fetch - processPackages [LuBanPy]: executing diffoscope
+[2024-05-01 05:52:16] INFO root fetch - processPackages [LuBanPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LuBanPy-0.1.7-cp38-cp38-win_amd64.whl.zip tmp/LuBanPy-0.1.9-cp38-cp38-win_amd64.whl.zip --markdown 20240501/L/LuBanPy/0.1.7-0.1.9/README.md --exclude *.pyd
+[2024-05-01 05:52:17] INFO root fetch - processPackages [triton-xpu]: executing diffoscope
+[2024-05-01 05:52:17] INFO root fetch - processPackages [triton-xpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/triton_xpu-3.0.0b1-cp39-cp39-manylinux_2_31_x86_64.manylinux_2_35_x86_64.whl.zip tmp/triton_xpu-3.0.0b2-cp39-cp39-manylinux_2_34_x86_64.manylinux_2_35_x86_64.whl.zip --markdown 20240501/t/triton-xpu/3.0.0b1-3.0.0b2/README.md --exclude *.pyd
+[2024-05-01 05:52:17] INFO root fetch - processPackages [LuBanPy]: Remove: archive file [/home/abi/fetcher/tmp/LuBanPy-0.1.7-cp38-cp38-win_amd64.whl.zip]
+[2024-05-01 05:52:17] INFO root fetch - processPackages [LuBanPy]: Remove: archive file [/home/abi/fetcher/tmp/LuBanPy-0.1.9-cp38-cp38-win_amd64.whl.zip]
+[2024-05-01 05:52:17] INFO root fetch - main [MainThread]: End processing [LuBanPy]: success
+[2024-05-01 05:52:18] INFO root fetch - processPackages [triton-xpu]: Remove: archive file [/home/abi/fetcher/tmp/triton_xpu-3.0.0b1-cp39-cp39-manylinux_2_31_x86_64.manylinux_2_35_x86_64.whl.zip]
+[2024-05-01 05:52:18] INFO root fetch - processPackages [triton-xpu]: Remove: archive file [/home/abi/fetcher/tmp/triton_xpu-3.0.0b2-cp39-cp39-manylinux_2_34_x86_64.manylinux_2_35_x86_64.whl.zip]
+[2024-05-01 05:52:18] INFO root fetch - main [MainThread]: End processing [triton-xpu]: success
+[2024-05-01 05:52:18] INFO root fetch - main [MainThread]: Store serial: [23012070]
