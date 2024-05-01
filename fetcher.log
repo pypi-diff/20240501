@@ -8381,3 +8381,18 @@
 [2024-05-01 05:43:37] INFO root fetch - processPackages [seppl]: Remove: archive file [/home/abi/fetcher/tmp/seppl-0.2.0.tar.gz]
 [2024-05-01 05:43:37] INFO root fetch - main [MainThread]: End processing [seppl]: success
 [2024-05-01 05:43:37] INFO root fetch - main [MainThread]: Store serial: [23011960]
+[2024-05-01 05:45:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23011960]
+[2024-05-01 05:45:45] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-01 05:45:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: autoCarv
+[2024-05-01 05:45:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mwcleric
+[2024-05-01 05:45:45] WARNING root fetch - processPackages [autoCarv]: Skipping, unable to determine old version
+[2024-05-01 05:45:45] INFO root fetch - main [MainThread]: End processing [autoCarv] error
+[2024-05-01 05:45:45] INFO root fetch - processPackages [mwcleric]: New version: [0.9.6] Old Version: [0.9.5]
+[2024-05-01 05:45:46] INFO root fetch - processPackages [mwcleric]: Downloading https://files.pythonhosted.org/packages/9c/8c/530908c1d2b3364373b7c57f87d82677d0030663a695d42c15694feef71d/mwcleric-0.9.5.tar.gz
+[2024-05-01 05:45:46] INFO root fetch - processPackages [mwcleric]: Downloading https://files.pythonhosted.org/packages/9e/5d/d05fc549f9ee5eb41db4ee01257d16aaa606ef308dca0764dbfe63071713/mwcleric-0.9.6.tar.gz
+[2024-05-01 05:45:46] INFO root fetch - processPackages [mwcleric]: executing diffoscope
+[2024-05-01 05:45:46] INFO root fetch - processPackages [mwcleric]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mwcleric-0.9.5.tar.gz tmp/mwcleric-0.9.6.tar.gz --markdown 20240501/m/mwcleric/0.9.5-0.9.6/README.md --exclude *.pyd
+[2024-05-01 05:45:47] INFO root fetch - processPackages [mwcleric]: Remove: archive file [/home/abi/fetcher/tmp/mwcleric-0.9.5.tar.gz]
+[2024-05-01 05:45:47] INFO root fetch - processPackages [mwcleric]: Remove: archive file [/home/abi/fetcher/tmp/mwcleric-0.9.6.tar.gz]
+[2024-05-01 05:45:47] INFO root fetch - main [MainThread]: End processing [mwcleric]: success
+[2024-05-01 05:45:47] INFO root fetch - main [MainThread]: Store serial: [23012025]
