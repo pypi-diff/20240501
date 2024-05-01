@@ -16428,3 +16428,60 @@
 [2024-05-01 13:11:18] INFO root fetch - processPackages [Agently]: Remove: archive file [/home/abi/fetcher/tmp/Agently-3.3.0.0a6.tar.gz]
 [2024-05-01 13:11:18] INFO root fetch - main [MainThread]: End processing [Agently]: success
 [2024-05-01 13:11:18] INFO root fetch - main [MainThread]: Store serial: [23015580]
+[2024-05-01 13:13:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23015580]
+[2024-05-01 13:13:27] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-01 13:13:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aporacle
+[2024-05-01 13:13:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pytestomatio
+[2024-05-01 13:13:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tb-nightly
+[2024-05-01 13:13:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mimllearning
+[2024-05-01 13:13:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odooghost
+[2024-05-01 13:13:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lusid-sdk
+[2024-05-01 13:13:27] INFO root fetch - processPackages [pytestomatio]: New version: [2.2.2] Old Version: [2.2.1]
+[2024-05-01 13:13:27] INFO root fetch - processPackages [mimllearning]: New version: [0.2.8] Old Version: [0.2.7]
+[2024-05-01 13:13:27] INFO root fetch - processPackages [tb-nightly]: New version: [2.9.0a20220502] Old Version: [2.9.0a20220501]
+[2024-05-01 13:13:27] INFO root fetch - processPackages [lusid-sdk]: New version: [2.1.70] Old Version: [2.1.7]
+[2024-05-01 13:13:27] INFO root fetch - processPackages [aporacle]: New version: [0.0.144] Old Version: [0.0.143]
+[2024-05-01 13:13:27] INFO root fetch - processPackages [odooghost]: New version: [0.8.2] Old Version: [0.8.1]
+[2024-05-01 13:13:27] INFO root fetch - processPackages [tb-nightly]: Downloading https://files.pythonhosted.org/packages/cc/bf/76bb32cf070e37f4b777ed5596c5d082fb60a1bfc06e9463401d07021a8a/tb_nightly-2.9.0a20220501-py3-none-any.whl
+[2024-05-01 13:13:27] INFO root fetch - processPackages [pytestomatio]: Downloading https://files.pythonhosted.org/packages/b2/5f/e01c2298c80308da1fe8db668a132679d461e109ef60347b4b1af638dd86/pytestomatio-2.2.1.tar.gz
+[2024-05-01 13:13:27] INFO root fetch - processPackages [mimllearning]: Downloading https://files.pythonhosted.org/packages/13/b9/8bb20d442048ff0f02ace28fa1714fba7126b12be0fd8f2a9cb25c223e06/mimllearning-0.2.7.tar.gz
+[2024-05-01 13:13:27] INFO root fetch - processPackages [lusid-sdk]: Downloading https://files.pythonhosted.org/packages/ef/9e/cac4eb8acb9b4225644a8ecd621bda7df1f3ecf1d132898e9a3ec1ed6723/lusid_sdk-2.1.7.tar.gz
+[2024-05-01 13:13:27] INFO root fetch - processPackages [aporacle]: Downloading https://files.pythonhosted.org/packages/c9/04/5f0147db98e785a5744da448b95e5537bc8d8c028a20e2c40dd9c4caadf1/aporacle-0.0.143.tar.gz
+[2024-05-01 13:13:27] INFO root fetch - processPackages [odooghost]: Downloading https://files.pythonhosted.org/packages/3f/ed/cbf7ab30bf3c5880d8dc739594a3d963e1ccd9614d197bc5a4a7f661ffd6/odooghost-0.8.1.tar.gz
+[2024-05-01 13:13:27] INFO root fetch - processPackages [pytestomatio]: Downloading https://files.pythonhosted.org/packages/86/04/6a883a9dfbe88b1650e5b4786f8611376e4d0d66d71ec737c108576d40e6/pytestomatio-2.2.2.tar.gz
+[2024-05-01 13:13:27] INFO root fetch - processPackages [mimllearning]: Downloading https://files.pythonhosted.org/packages/36/1c/993a41e739f8874ea307c16f8f57c4e8d6f00573d4939419a1d160b6d424/mimllearning-0.2.8.tar.gz
+[2024-05-01 13:13:27] INFO root fetch - processPackages [lusid-sdk]: Downloading https://files.pythonhosted.org/packages/36/af/0fb304b19d0060a01b0da6706410bedf59d1a089a3e8be1669b43862e7fc/lusid_sdk-2.1.70.tar.gz
+[2024-05-01 13:13:27] INFO root fetch - processPackages [pytestomatio]: executing diffoscope
+[2024-05-01 13:13:27] INFO root fetch - processPackages [pytestomatio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytestomatio-2.2.1.tar.gz tmp/pytestomatio-2.2.2.tar.gz --markdown 20240501/p/pytestomatio/2.2.1-2.2.2/README.md --exclude *.pyd
+[2024-05-01 13:13:28] INFO root fetch - processPackages [aporacle]: Downloading https://files.pythonhosted.org/packages/68/e4/2f961542ec297a13e16f089ea9fd81ce45cfdd11a0ea660d8558578dcc3b/aporacle-0.0.144.tar.gz
+[2024-05-01 13:13:28] INFO root fetch - processPackages [odooghost]: Downloading https://files.pythonhosted.org/packages/d8/15/97f23378a01c382a97ae07305e6465cb28ea1e8126ba99c50fa9dd56bee9/odooghost-0.8.2.tar.gz
+[2024-05-01 13:13:28] INFO root fetch - processPackages [mimllearning]: executing diffoscope
+[2024-05-01 13:13:28] INFO root fetch - processPackages [mimllearning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mimllearning-0.2.7.tar.gz tmp/mimllearning-0.2.8.tar.gz --markdown 20240501/m/mimllearning/0.2.7-0.2.8/README.md --exclude *.pyd
+[2024-05-01 13:13:28] INFO root fetch - processPackages [lusid-sdk]: executing diffoscope
+[2024-05-01 13:13:28] INFO root fetch - processPackages [lusid-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid_sdk-2.1.7.tar.gz tmp/lusid_sdk-2.1.70.tar.gz --markdown 20240501/l/lusid-sdk/2.1.7-2.1.70/README.md --exclude *.pyd
+[2024-05-01 13:13:28] INFO root fetch - processPackages [aporacle]: executing diffoscope
+[2024-05-01 13:13:28] INFO root fetch - processPackages [aporacle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aporacle-0.0.143.tar.gz tmp/aporacle-0.0.144.tar.gz --markdown 20240501/a/aporacle/0.0.143-0.0.144/README.md --exclude *.pyd
+[2024-05-01 13:13:28] INFO root fetch - processPackages [tb-nightly]: Downloading https://files.pythonhosted.org/packages/68/8e/03bca092830a4abf26a80c7387b02478c5f948656cb79d63c1bffab65c00/tb_nightly-2.9.0a20220502-py3-none-any.whl
+[2024-05-01 13:13:28] INFO root fetch - processPackages [odooghost]: executing diffoscope
+[2024-05-01 13:13:28] INFO root fetch - processPackages [odooghost]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odooghost-0.8.1.tar.gz tmp/odooghost-0.8.2.tar.gz --markdown 20240501/o/odooghost/0.8.1-0.8.2/README.md --exclude *.pyd
+[2024-05-01 13:13:28] INFO root fetch - processPackages [pytestomatio]: Remove: archive file [/home/abi/fetcher/tmp/pytestomatio-2.2.1.tar.gz]
+[2024-05-01 13:13:28] INFO root fetch - processPackages [pytestomatio]: Remove: archive file [/home/abi/fetcher/tmp/pytestomatio-2.2.2.tar.gz]
+[2024-05-01 13:13:28] INFO root fetch - main [MainThread]: End processing [pytestomatio]: success
+[2024-05-01 13:13:28] INFO root fetch - processPackages [tb-nightly]: executing diffoscope
+[2024-05-01 13:13:28] INFO root fetch - processPackages [tb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tb_nightly-2.9.0a20220501-py3-none-any.whl.zip tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip --markdown 20240501/t/tb-nightly/2.9.0a20220501-2.9.0a20220502/README.md --exclude *.pyd
+[2024-05-01 13:13:28] INFO root fetch - processPackages [aporacle]: Remove: archive file [/home/abi/fetcher/tmp/aporacle-0.0.143.tar.gz]
+[2024-05-01 13:13:28] INFO root fetch - processPackages [aporacle]: Remove: archive file [/home/abi/fetcher/tmp/aporacle-0.0.144.tar.gz]
+[2024-05-01 13:13:28] INFO root fetch - main [MainThread]: End processing [aporacle]: success
+[2024-05-01 13:13:28] INFO root fetch - processPackages [mimllearning]: Remove: archive file [/home/abi/fetcher/tmp/mimllearning-0.2.7.tar.gz]
+[2024-05-01 13:13:28] INFO root fetch - processPackages [mimllearning]: Remove: archive file [/home/abi/fetcher/tmp/mimllearning-0.2.8.tar.gz]
+[2024-05-01 13:13:28] INFO root fetch - main [MainThread]: End processing [mimllearning]: success
+[2024-05-01 13:13:30] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220501-py3-none-any.whl.zip]
+[2024-05-01 13:13:30] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip]
+[2024-05-01 13:13:30] INFO root fetch - main [MainThread]: End processing [tb-nightly]: success
+[2024-05-01 13:13:33] INFO root fetch - processPackages [lusid-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_sdk-2.1.7.tar.gz]
+[2024-05-01 13:13:33] INFO root fetch - processPackages [lusid-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_sdk-2.1.70.tar.gz]
+[2024-05-01 13:13:33] INFO root fetch - main [MainThread]: End processing [lusid-sdk]: success
+[2024-05-01 13:13:33] INFO root fetch - processPackages [odooghost]: Remove: archive file [/home/abi/fetcher/tmp/odooghost-0.8.1.tar.gz]
+[2024-05-01 13:13:33] INFO root fetch - processPackages [odooghost]: Remove: archive file [/home/abi/fetcher/tmp/odooghost-0.8.2.tar.gz]
+[2024-05-01 13:13:33] INFO root fetch - main [MainThread]: End processing [odooghost]: success
+[2024-05-01 13:13:33] INFO root fetch - main [MainThread]: Store serial: [23015596]
