@@ -7656,3 +7656,15 @@
 [2024-05-01 04:57:00] INFO root fetch - processPackages [pypipr]: Remove: archive file [/home/abi/fetcher/tmp/pypipr-1.0.99.tar.gz]
 [2024-05-01 04:57:00] INFO root fetch - main [MainThread]: End processing [pypipr]: success
 [2024-05-01 04:57:00] INFO root fetch - main [MainThread]: Store serial: [23011629]
+[2024-05-01 04:59:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23011629]
+[2024-05-01 04:59:08] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-01 04:59:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lielab
+[2024-05-01 04:59:08] INFO root fetch - processPackages [lielab]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-01 04:59:09] INFO root fetch - processPackages [lielab]: Downloading https://files.pythonhosted.org/packages/14/46/9d2305d71a6fdd49b90e050dc2050c2930f31350097b1cfe732d90cc8454/lielab-0.1.1-cp39-none-win_amd64.whl
+[2024-05-01 04:59:09] INFO root fetch - processPackages [lielab]: Downloading https://files.pythonhosted.org/packages/b8/b0/04e5772edfa905fa24de459d56d9df60264e125869c9806a1280d6904591/lielab-0.1.2-cp310-none-manylinux1_x86_64.whl
+[2024-05-01 04:59:09] INFO root fetch - processPackages [lielab]: executing diffoscope
+[2024-05-01 04:59:09] INFO root fetch - processPackages [lielab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lielab-0.1.1-cp39-none-win_amd64.whl.zip tmp/lielab-0.1.2-cp310-none-manylinux1_x86_64.whl.zip --markdown 20240501/l/lielab/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-01 04:59:10] INFO root fetch - processPackages [lielab]: Remove: archive file [/home/abi/fetcher/tmp/lielab-0.1.1-cp39-none-win_amd64.whl.zip]
+[2024-05-01 04:59:10] INFO root fetch - processPackages [lielab]: Remove: archive file [/home/abi/fetcher/tmp/lielab-0.1.2-cp310-none-manylinux1_x86_64.whl.zip]
+[2024-05-01 04:59:10] INFO root fetch - main [MainThread]: End processing [lielab]: success
+[2024-05-01 04:59:10] INFO root fetch - main [MainThread]: Store serial: [23011629]
