@@ -12679,3 +12679,50 @@
 [2024-05-01 10:16:46] INFO root fetch - processPackages [pyastroweatherio]: Remove: archive file [/home/abi/fetcher/tmp/pyastroweatherio-0.50.0.dev6.tar.gz]
 [2024-05-01 10:16:46] INFO root fetch - main [MainThread]: End processing [pyastroweatherio]: success
 [2024-05-01 10:16:46] INFO root fetch - main [MainThread]: Store serial: [23013958]
+[2024-05-01 10:18:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23013958]
+[2024-05-01 10:18:55] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-01 10:18:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aissemble-foundation-messaging-python
+[2024-05-01 10:18:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aissemble-foundation-messaging-python
+[2024-05-01 10:18:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: prancer-basic
+[2024-05-01 10:18:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aissemble-foundation-data-lineage-python
+[2024-05-01 10:18:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aissemble-foundation-data-lineage-python
+[2024-05-01 10:18:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dosmaster
+[2024-05-01 10:18:56] INFO root fetch - processPackages [aissemble-foundation-messaging-python]: New version: [1.7.0.dev1714505202] Old Version: [1.7.0.dev1714505201]
+[2024-05-01 10:18:56] INFO root fetch - processPackages [dosmaster]: New version: [1.8.6] Old Version: [1.8.5]
+[2024-05-01 10:18:56] INFO root fetch - processPackages [aissemble-foundation-messaging-python]: New version: [1.7.0.dev1714505202] Old Version: [1.7.0.dev1714505201]
+[2024-05-01 10:18:56] INFO root fetch - processPackages [prancer-basic]: New version: [3.0.9] Old Version: [3.0.8]
+[2024-05-01 10:18:56] INFO root fetch - processPackages [aissemble-foundation-data-lineage-python]: New version: [1.7.0.dev1714551528] Old Version: [1.7.0.dev1714551508]
+[2024-05-01 10:18:56] INFO root fetch - processPackages [aissemble-foundation-data-lineage-python]: New version: [1.7.0.dev1714551528] Old Version: [1.7.0.dev1714551508]
+[2024-05-01 10:18:56] INFO root fetch - processPackages [aissemble-foundation-messaging-python]: Downloading https://files.pythonhosted.org/packages/86/ca/0c0ad91a1515903ba09750d68209abb81f2bb72230e0f0f50b4f7f470f1a/aissemble_foundation_messaging_python-1.7.0.dev1714505201.tar.gz
+[2024-05-01 10:18:56] INFO root fetch - processPackages [aissemble-foundation-messaging-python]: Downloading https://files.pythonhosted.org/packages/86/ca/0c0ad91a1515903ba09750d68209abb81f2bb72230e0f0f50b4f7f470f1a/aissemble_foundation_messaging_python-1.7.0.dev1714505201.tar.gz
+[2024-05-01 10:18:56] INFO root fetch - processPackages [dosmaster]: Downloading https://files.pythonhosted.org/packages/65/db/4e3ec1a0a5f4f506fb3b58899af314795fe0de02920e428d7e7ffe987641/dosmaster-1.8.5.tar.gz
+[2024-05-01 10:18:56] WARNING root fetch - processPackages [aissemble-foundation-messaging-python]: Skipping package: exceeds size limit 75170545>=10485760
+[2024-05-01 10:18:56] INFO root fetch - main [MainThread]: End processing [aissemble-foundation-messaging-python] error
+[2024-05-01 10:18:56] WARNING root fetch - processPackages [aissemble-foundation-messaging-python]: Skipping package: exceeds size limit 75170545>=10485760
+[2024-05-01 10:18:56] INFO root fetch - main [MainThread]: End processing [aissemble-foundation-messaging-python] error
+[2024-05-01 10:18:56] INFO root fetch - processPackages [aissemble-foundation-data-lineage-python]: Downloading https://files.pythonhosted.org/packages/19/00/1fd4f2cda022255b493c28f1fd46bd3e93ef2f3370a160b62fbaee4ccd07/aissemble_foundation_data_lineage_python-1.7.0.dev1714551508.tar.gz
+[2024-05-01 10:18:56] INFO root fetch - processPackages [aissemble-foundation-data-lineage-python]: Downloading https://files.pythonhosted.org/packages/19/00/1fd4f2cda022255b493c28f1fd46bd3e93ef2f3370a160b62fbaee4ccd07/aissemble_foundation_data_lineage_python-1.7.0.dev1714551508.tar.gz
+[2024-05-01 10:18:56] INFO root fetch - processPackages [prancer-basic]: Downloading https://files.pythonhosted.org/packages/aa/84/af1ed8d4187effa46448e60b5065a2834fb3ee3b62dfba8b6f591cde32c4/prancer-basic-3.0.8.tar.gz
+[2024-05-01 10:18:56] INFO root fetch - processPackages [dosmaster]: Downloading https://files.pythonhosted.org/packages/76/de/f038120625fd8528f0af6a4becfe95107787b511f7b6ece9b022ce51303e/dosmaster-1.8.6.tar.gz
+[2024-05-01 10:18:56] INFO root fetch - processPackages [aissemble-foundation-data-lineage-python]: Downloading https://files.pythonhosted.org/packages/a4/b4/23136f45e33631276ee1e60dfb7eedcd3ef6391fb319c3e93efa783624ab/aissemble_foundation_data_lineage_python-1.7.0.dev1714551528.tar.gz
+[2024-05-01 10:18:56] INFO root fetch - processPackages [aissemble-foundation-data-lineage-python]: Downloading https://files.pythonhosted.org/packages/a4/b4/23136f45e33631276ee1e60dfb7eedcd3ef6391fb319c3e93efa783624ab/aissemble_foundation_data_lineage_python-1.7.0.dev1714551528.tar.gz
+[2024-05-01 10:18:56] INFO root fetch - processPackages [dosmaster]: executing diffoscope
+[2024-05-01 10:18:56] INFO root fetch - processPackages [dosmaster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dosmaster-1.8.5.tar.gz tmp/dosmaster-1.8.6.tar.gz --markdown 20240501/d/dosmaster/1.8.5-1.8.6/README.md --exclude *.pyd
+[2024-05-01 10:18:56] INFO root fetch - processPackages [prancer-basic]: Downloading https://files.pythonhosted.org/packages/1a/53/0b31884948dd5646a62eca133c035534fdab1adf7e4f48f95a30f17f39ae/prancer-basic-3.0.9.tar.gz
+[2024-05-01 10:18:57] INFO root fetch - processPackages [prancer-basic]: executing diffoscope
+[2024-05-01 10:18:57] INFO root fetch - processPackages [prancer-basic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prancer-basic-3.0.8.tar.gz tmp/prancer-basic-3.0.9.tar.gz --markdown 20240501/p/prancer-basic/3.0.8-3.0.9/README.md --exclude *.pyd
+[2024-05-01 10:18:57] INFO root fetch - processPackages [aissemble-foundation-data-lineage-python]: executing diffoscope
+[2024-05-01 10:18:57] INFO root fetch - processPackages [aissemble-foundation-data-lineage-python]: executing diffoscope
+[2024-05-01 10:18:57] INFO root fetch - processPackages [aissemble-foundation-data-lineage-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aissemble_foundation_data_lineage_python-1.7.0.dev1714551508.tar.gz tmp/aissemble_foundation_data_lineage_python-1.7.0.dev1714551528.tar.gz --markdown 20240501/a/aissemble-foundation-data-lineage-python/1.7.0.dev1714551508-1.7.0.dev1714551528/README.md --exclude *.pyd
+[2024-05-01 10:18:57] INFO root fetch - processPackages [aissemble-foundation-data-lineage-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aissemble_foundation_data_lineage_python-1.7.0.dev1714551508.tar.gz tmp/aissemble_foundation_data_lineage_python-1.7.0.dev1714551528.tar.gz --markdown 20240501/a/aissemble-foundation-data-lineage-python/1.7.0.dev1714551508-1.7.0.dev1714551528/README.md --exclude *.pyd
+[2024-05-01 10:18:57] INFO root fetch - processPackages [dosmaster]: Remove: archive file [/home/abi/fetcher/tmp/dosmaster-1.8.5.tar.gz]
+[2024-05-01 10:18:57] INFO root fetch - processPackages [dosmaster]: Remove: archive file [/home/abi/fetcher/tmp/dosmaster-1.8.6.tar.gz]
+[2024-05-01 10:18:57] INFO root fetch - main [MainThread]: End processing [dosmaster]: success
+[2024-05-01 10:18:57] INFO root fetch - processPackages [aissemble-foundation-data-lineage-python]: Remove: archive file [/home/abi/fetcher/tmp/aissemble_foundation_data_lineage_python-1.7.0.dev1714551508.tar.gz]
+[2024-05-01 10:18:57] INFO root fetch - processPackages [aissemble-foundation-data-lineage-python]: Remove: archive file [/home/abi/fetcher/tmp/aissemble_foundation_data_lineage_python-1.7.0.dev1714551528.tar.gz]
+[2024-05-01 10:18:57] INFO root fetch - main [MainThread]: End processing [aissemble-foundation-data-lineage-python]: success
+[2024-05-01 10:18:58] INFO root fetch - main [MainThread]: End processing [aissemble-foundation-data-lineage-python]: success
+[2024-05-01 10:18:58] INFO root fetch - processPackages [prancer-basic]: Remove: archive file [/home/abi/fetcher/tmp/prancer-basic-3.0.8.tar.gz]
+[2024-05-01 10:18:58] INFO root fetch - processPackages [prancer-basic]: Remove: archive file [/home/abi/fetcher/tmp/prancer-basic-3.0.9.tar.gz]
+[2024-05-01 10:18:58] INFO root fetch - main [MainThread]: End processing [prancer-basic]: success
+[2024-05-01 10:18:58] INFO root fetch - main [MainThread]: Store serial: [23013975]
