@@ -7158,3 +7158,36 @@
 [2024-05-01 04:16:38] INFO root fetch - processPackages [tensorflow-io-gcs-filesystem]: Remove: archive file [/home/abi/fetcher/tmp/tensorflow_io_gcs_filesystem-0.37.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2024-05-01 04:16:38] INFO root fetch - main [MainThread]: End processing [tensorflow-io-gcs-filesystem]: success
 [2024-05-01 04:16:38] INFO root fetch - main [MainThread]: Store serial: [23011448]
+[2024-05-01 04:19:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23011448]
+[2024-05-01 04:19:05] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-01 04:19:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: swarmauri
+[2024-05-01 04:19:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: energysandbox
+[2024-05-01 04:19:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: surfkit
+[2024-05-01 04:19:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: autopipeline
+[2024-05-01 04:19:05] INFO root fetch - processPackages [surfkit]: New version: [0.1.95] Old Version: [0.1.93]
+[2024-05-01 04:19:05] INFO root fetch - processPackages [autopipeline]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-05-01 04:19:05] INFO root fetch - processPackages [surfkit]: Downloading https://files.pythonhosted.org/packages/c0/60/b64c54b0a89caa4289f59aa6071cfbe6f1bcce094f9fb3f4fa2a5be176d6/surfkit-0.1.93.tar.gz
+[2024-05-01 04:19:05] WARNING root fetch - processPackages [energysandbox]: Skipping, unable to determine old version
+[2024-05-01 04:19:05] INFO root fetch - main [MainThread]: End processing [energysandbox] error
+[2024-05-01 04:19:05] INFO root fetch - processPackages [autopipeline]: Downloading https://files.pythonhosted.org/packages/5f/0f/9eaf209b6d540115afdc9ae31de828df0234756277bceae49a4d1a0ea8b3/autopipeline-0.1.98.tar.gz
+[2024-05-01 04:19:05] INFO root fetch - processPackages [swarmauri]: New version: [0.1.98] Old Version: [0.1.97]
+[2024-05-01 04:19:05] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/03/28/110f5472a92acc538dbc8ee367824d900c87620c5ade8a06de94f77073a9/swarmauri-0.1.97.tar.gz
+[2024-05-01 04:19:05] INFO root fetch - processPackages [autopipeline]: Downloading https://files.pythonhosted.org/packages/5f/4a/f3df97d414e0a5e9120459fd5c7ab663092d540df59f7deacc45810deb41/autopipeline-0.1.99.tar.gz
+[2024-05-01 04:19:05] INFO root fetch - processPackages [surfkit]: Downloading https://files.pythonhosted.org/packages/7f/db/8bf3ab21626619a35a601b7a40653aa54049f498d044204852f0a1015f2f/surfkit-0.1.95.tar.gz
+[2024-05-01 04:19:05] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/42/ed/8993e08954a79efe0b18d91d01140d33cb74a16fe9e5ee223d03a0c251a4/swarmauri-0.1.98.tar.gz
+[2024-05-01 04:19:05] INFO root fetch - processPackages [autopipeline]: executing diffoscope
+[2024-05-01 04:19:05] INFO root fetch - processPackages [autopipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autopipeline-0.1.98.tar.gz tmp/autopipeline-0.1.99.tar.gz --markdown 20240501/a/autopipeline/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-05-01 04:19:05] INFO root fetch - processPackages [surfkit]: executing diffoscope
+[2024-05-01 04:19:05] INFO root fetch - processPackages [surfkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/surfkit-0.1.93.tar.gz tmp/surfkit-0.1.95.tar.gz --markdown 20240501/s/surfkit/0.1.93-0.1.95/README.md --exclude *.pyd
+[2024-05-01 04:19:05] INFO root fetch - processPackages [swarmauri]: executing diffoscope
+[2024-05-01 04:19:05] INFO root fetch - processPackages [swarmauri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarmauri-0.1.97.tar.gz tmp/swarmauri-0.1.98.tar.gz --markdown 20240501/s/swarmauri/0.1.97-0.1.98/README.md --exclude *.pyd
+[2024-05-01 04:19:06] INFO root fetch - processPackages [autopipeline]: Remove: archive file [/home/abi/fetcher/tmp/autopipeline-0.1.98.tar.gz]
+[2024-05-01 04:19:06] INFO root fetch - processPackages [autopipeline]: Remove: archive file [/home/abi/fetcher/tmp/autopipeline-0.1.99.tar.gz]
+[2024-05-01 04:19:06] INFO root fetch - main [MainThread]: End processing [autopipeline]: success
+[2024-05-01 04:19:06] INFO root fetch - processPackages [surfkit]: Remove: archive file [/home/abi/fetcher/tmp/surfkit-0.1.93.tar.gz]
+[2024-05-01 04:19:06] INFO root fetch - processPackages [surfkit]: Remove: archive file [/home/abi/fetcher/tmp/surfkit-0.1.95.tar.gz]
+[2024-05-01 04:19:06] INFO root fetch - main [MainThread]: End processing [surfkit]: success
+[2024-05-01 04:19:06] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.1.97.tar.gz]
+[2024-05-01 04:19:06] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.1.98.tar.gz]
+[2024-05-01 04:19:06] INFO root fetch - main [MainThread]: End processing [swarmauri]: success
+[2024-05-01 04:19:06] INFO root fetch - main [MainThread]: Store serial: [23011479]
