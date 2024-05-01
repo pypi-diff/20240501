@@ -12637,3 +12637,45 @@
 [2024-05-01 10:14:36] INFO root fetch - processPackages [afeng-py-tools]: Remove: archive file [/home/abi/fetcher/tmp/afeng-py-tools-0.0.99.tar.gz]
 [2024-05-01 10:14:36] INFO root fetch - main [MainThread]: End processing [afeng-py-tools]: success
 [2024-05-01 10:14:36] INFO root fetch - main [MainThread]: Store serial: [23013943]
+[2024-05-01 10:16:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23013943]
+[2024-05-01 10:16:45] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-01 10:16:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aissemble-foundation-core-python
+[2024-05-01 10:16:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aissemble-foundation-core-python
+[2024-05-01 10:16:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: certora-cli-alpha-master
+[2024-05-01 10:16:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumiverse-doppler
+[2024-05-01 10:16:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyastroweatherio
+[2024-05-01 10:16:45] INFO root fetch - processPackages [pulumiverse-doppler]: New version: [0.2.0] Old Version: [0.1.2]
+[2024-05-01 10:16:45] INFO root fetch - processPackages [pulumiverse-doppler]: Downloading https://files.pythonhosted.org/packages/f1/04/f946f4c73498dfef52d6f70d65a13af75020bcb303f986a5bcffbdad37f1/pulumiverse_doppler-0.1.2.tar.gz
+[2024-05-01 10:16:45] INFO root fetch - processPackages [aissemble-foundation-core-python]: New version: [1.7.0.dev1714551318] Old Version: [1.7.0.dev1714551316]
+[2024-05-01 10:16:45] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20240501.8.15.777844] Old Version: [20240430.7.3.943448]
+[2024-05-01 10:16:45] INFO root fetch - processPackages [aissemble-foundation-core-python]: New version: [1.7.0.dev1714551318] Old Version: [1.7.0.dev1714551316]
+[2024-05-01 10:16:45] INFO root fetch - processPackages [pyastroweatherio]: New version: [0.50.0.dev6] Old Version: [0.50.0.dev5]
+[2024-05-01 10:16:45] INFO root fetch - processPackages [aissemble-foundation-core-python]: Downloading https://files.pythonhosted.org/packages/0d/bf/691f524214731424a428a6ad62e773dfb5a32e9bc9c3a8f5e0d5cae54779/aissemble_foundation_core_python-1.7.0.dev1714551316.tar.gz
+[2024-05-01 10:16:45] INFO root fetch - processPackages [aissemble-foundation-core-python]: Downloading https://files.pythonhosted.org/packages/0d/bf/691f524214731424a428a6ad62e773dfb5a32e9bc9c3a8f5e0d5cae54779/aissemble_foundation_core_python-1.7.0.dev1714551316.tar.gz
+[2024-05-01 10:16:45] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/85/ed/dba59fb939b82a33527d399b7f70c28377c600c238ba9d81f051df60a9ae/certora-cli-alpha-master-20240430.7.3.943448.tar.gz
+[2024-05-01 10:16:45] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 14532569>=10485760
+[2024-05-01 10:16:45] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2024-05-01 10:16:45] INFO root fetch - processPackages [pyastroweatherio]: Downloading https://files.pythonhosted.org/packages/65/bf/8bf65a0b39986902d840e1b95f534996e04295b8743bf96c4094edb7ace5/pyastroweatherio-0.50.0.dev5.tar.gz
+[2024-05-01 10:16:45] INFO root fetch - processPackages [pulumiverse-doppler]: Downloading https://files.pythonhosted.org/packages/c8/c8/a450dd136f1cb5271a759714938b2013af3bcc2d294852a89e9ff155d2b2/pulumiverse_doppler-0.2.0.tar.gz
+[2024-05-01 10:16:45] INFO root fetch - processPackages [aissemble-foundation-core-python]: Downloading https://files.pythonhosted.org/packages/63/95/af801c76ad3344617b279ce8ad8f7ef4d8135936a05cb228d61019dcc1c7/aissemble_foundation_core_python-1.7.0.dev1714551318.tar.gz
+[2024-05-01 10:16:45] INFO root fetch - processPackages [aissemble-foundation-core-python]: Downloading https://files.pythonhosted.org/packages/63/95/af801c76ad3344617b279ce8ad8f7ef4d8135936a05cb228d61019dcc1c7/aissemble_foundation_core_python-1.7.0.dev1714551318.tar.gz
+[2024-05-01 10:16:45] INFO root fetch - processPackages [pulumiverse-doppler]: executing diffoscope
+[2024-05-01 10:16:45] INFO root fetch - processPackages [pulumiverse-doppler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumiverse_doppler-0.1.2.tar.gz tmp/pulumiverse_doppler-0.2.0.tar.gz --markdown 20240501/p/pulumiverse-doppler/0.1.2-0.2.0/README.md --exclude *.pyd
+[2024-05-01 10:16:46] INFO root fetch - processPackages [aissemble-foundation-core-python]: executing diffoscope
+[2024-05-01 10:16:46] INFO root fetch - processPackages [aissemble-foundation-core-python]: executing diffoscope
+[2024-05-01 10:16:46] INFO root fetch - processPackages [aissemble-foundation-core-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aissemble_foundation_core_python-1.7.0.dev1714551316.tar.gz tmp/aissemble_foundation_core_python-1.7.0.dev1714551318.tar.gz --markdown 20240501/a/aissemble-foundation-core-python/1.7.0.dev1714551316-1.7.0.dev1714551318/README.md --exclude *.pyd
+[2024-05-01 10:16:46] INFO root fetch - processPackages [aissemble-foundation-core-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aissemble_foundation_core_python-1.7.0.dev1714551316.tar.gz tmp/aissemble_foundation_core_python-1.7.0.dev1714551318.tar.gz --markdown 20240501/a/aissemble-foundation-core-python/1.7.0.dev1714551316-1.7.0.dev1714551318/README.md --exclude *.pyd
+[2024-05-01 10:16:46] INFO root fetch - processPackages [pyastroweatherio]: Downloading https://files.pythonhosted.org/packages/81/03/571c0c24203f0ba82b9b821ff00f41999f414e1d3069d2539a1123211030/pyastroweatherio-0.50.0.dev6.tar.gz
+[2024-05-01 10:16:46] INFO root fetch - processPackages [pyastroweatherio]: executing diffoscope
+[2024-05-01 10:16:46] INFO root fetch - processPackages [pyastroweatherio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyastroweatherio-0.50.0.dev5.tar.gz tmp/pyastroweatherio-0.50.0.dev6.tar.gz --markdown 20240501/p/pyastroweatherio/0.50.0.dev5-0.50.0.dev6/README.md --exclude *.pyd
+[2024-05-01 10:16:46] INFO root fetch - processPackages [pulumiverse-doppler]: Remove: archive file [/home/abi/fetcher/tmp/pulumiverse_doppler-0.1.2.tar.gz]
+[2024-05-01 10:16:46] INFO root fetch - processPackages [pulumiverse-doppler]: Remove: archive file [/home/abi/fetcher/tmp/pulumiverse_doppler-0.2.0.tar.gz]
+[2024-05-01 10:16:46] INFO root fetch - main [MainThread]: End processing [pulumiverse-doppler]: success
+[2024-05-01 10:16:46] INFO root fetch - processPackages [aissemble-foundation-core-python]: Remove: archive file [/home/abi/fetcher/tmp/aissemble_foundation_core_python-1.7.0.dev1714551316.tar.gz]
+[2024-05-01 10:16:46] INFO root fetch - processPackages [aissemble-foundation-core-python]: Remove: archive file [/home/abi/fetcher/tmp/aissemble_foundation_core_python-1.7.0.dev1714551318.tar.gz]
+[2024-05-01 10:16:46] INFO root fetch - main [MainThread]: End processing [aissemble-foundation-core-python]: success
+[2024-05-01 10:16:46] INFO root fetch - main [MainThread]: End processing [aissemble-foundation-core-python]: success
+[2024-05-01 10:16:46] INFO root fetch - processPackages [pyastroweatherio]: Remove: archive file [/home/abi/fetcher/tmp/pyastroweatherio-0.50.0.dev5.tar.gz]
+[2024-05-01 10:16:46] INFO root fetch - processPackages [pyastroweatherio]: Remove: archive file [/home/abi/fetcher/tmp/pyastroweatherio-0.50.0.dev6.tar.gz]
+[2024-05-01 10:16:46] INFO root fetch - main [MainThread]: End processing [pyastroweatherio]: success
+[2024-05-01 10:16:46] INFO root fetch - main [MainThread]: Store serial: [23013958]
