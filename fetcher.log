@@ -7302,3 +7302,33 @@
 [2024-05-01 04:30:02] INFO root fetch - processPackages [azure-communication-callautomation]: Remove: archive file [/home/abi/fetcher/tmp/azure-communication-callautomation-1.2.0.tar.gz]
 [2024-05-01 04:30:02] INFO root fetch - main [MainThread]: End processing [azure-communication-callautomation]: success
 [2024-05-01 04:30:02] INFO root fetch - main [MainThread]: Store serial: [23011516]
+[2024-05-01 04:32:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23011516]
+[2024-05-01 04:32:12] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-01 04:32:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fastcore
+[2024-05-01 04:32:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fixms
+[2024-05-01 04:32:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hexdoc
+[2024-05-01 04:32:13] INFO root fetch - processPackages [fixms]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-05-01 04:32:13] INFO root fetch - processPackages [hexdoc]: New version: [1!0.1.0a9] Old Version: [1!0.1.0a8]
+[2024-05-01 04:32:13] INFO root fetch - processPackages [fastcore]: New version: [1.5.9] Old Version: [1.5.8]
+[2024-05-01 04:32:13] INFO root fetch - processPackages [fixms]: Downloading https://files.pythonhosted.org/packages/23/93/9060ab0a0458f208256a53e14b78b97849186878a5516916db8bee8378ff/fixms-0.2.4.tar.gz
+[2024-05-01 04:32:13] INFO root fetch - processPackages [hexdoc]: Downloading https://files.pythonhosted.org/packages/41/3c/095a3abe0276460303a7fb44be7549f3b5eeee9ab93e540fe79d34c61915/hexdoc-1!0.1.0a8.tar.gz
+[2024-05-01 04:32:13] INFO root fetch - processPackages [fastcore]: Downloading https://files.pythonhosted.org/packages/bd/a7/11687db0e0993cf3f28cbe4f087decfde90959b1ede6fa37acbf83c875d8/fastcore-1.5.8.tar.gz
+[2024-05-01 04:32:13] INFO root fetch - processPackages [fastcore]: Downloading https://files.pythonhosted.org/packages/e7/ca/756f70aa0a53475a198acbda3b9edb61b363c4b51ece542b7a7e3d890bcd/fastcore-1.5.9.tar.gz
+[2024-05-01 04:32:13] INFO root fetch - processPackages [hexdoc]: Downloading https://files.pythonhosted.org/packages/cd/f8/77bb4fb48d1590fa4afd9345e60063d3975f2401318af826181c3435d518/hexdoc-1!0.1.0a9.tar.gz
+[2024-05-01 04:32:13] INFO root fetch - processPackages [fixms]: Downloading https://files.pythonhosted.org/packages/9b/10/4374bde733acf68f26ff06f3da52ad58dc08cc61cc1b264f493854735eed/fixms-0.2.5.tar.gz
+[2024-05-01 04:32:13] INFO root fetch - processPackages [fixms]: executing diffoscope
+[2024-05-01 04:32:13] INFO root fetch - processPackages [fixms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fixms-0.2.4.tar.gz tmp/fixms-0.2.5.tar.gz --markdown 20240501/f/fixms/0.2.4-0.2.5/README.md --exclude *.pyd
+[2024-05-01 04:32:13] INFO root fetch - processPackages [fastcore]: executing diffoscope
+[2024-05-01 04:32:13] INFO root fetch - processPackages [fastcore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastcore-1.5.8.tar.gz tmp/fastcore-1.5.9.tar.gz --markdown 20240501/f/fastcore/1.5.8-1.5.9/README.md --exclude *.pyd
+[2024-05-01 04:32:13] INFO root fetch - processPackages [hexdoc]: executing diffoscope
+[2024-05-01 04:32:13] INFO root fetch - processPackages [hexdoc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hexdoc-1!0.1.0a8.tar.gz tmp/hexdoc-1!0.1.0a9.tar.gz --markdown 20240501/h/hexdoc/1!0.1.0a8-1!0.1.0a9/README.md --exclude *.pyd
+[2024-05-01 04:32:14] INFO root fetch - processPackages [fixms]: Remove: archive file [/home/abi/fetcher/tmp/fixms-0.2.4.tar.gz]
+[2024-05-01 04:32:14] INFO root fetch - processPackages [fixms]: Remove: archive file [/home/abi/fetcher/tmp/fixms-0.2.5.tar.gz]
+[2024-05-01 04:32:14] INFO root fetch - main [MainThread]: End processing [fixms]: success
+[2024-05-01 04:32:14] INFO root fetch - processPackages [fastcore]: Remove: archive file [/home/abi/fetcher/tmp/fastcore-1.5.8.tar.gz]
+[2024-05-01 04:32:14] INFO root fetch - processPackages [fastcore]: Remove: archive file [/home/abi/fetcher/tmp/fastcore-1.5.9.tar.gz]
+[2024-05-01 04:32:14] INFO root fetch - main [MainThread]: End processing [fastcore]: success
+[2024-05-01 04:32:14] INFO root fetch - processPackages [hexdoc]: Remove: archive file [/home/abi/fetcher/tmp/hexdoc-1!0.1.0a8.tar.gz]
+[2024-05-01 04:32:14] INFO root fetch - processPackages [hexdoc]: Remove: archive file [/home/abi/fetcher/tmp/hexdoc-1!0.1.0a9.tar.gz]
+[2024-05-01 04:32:14] INFO root fetch - main [MainThread]: End processing [hexdoc]: success
+[2024-05-01 04:32:14] INFO root fetch - main [MainThread]: Store serial: [23011525]
