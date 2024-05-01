@@ -13542,3 +13542,15 @@
 [2024-05-01 10:56:14] INFO root fetch - processPackages [flightdata]: Remove: archive file [/home/abi/fetcher/tmp/flightdata-0.2.7.tar.gz]
 [2024-05-01 10:56:14] INFO root fetch - main [MainThread]: End processing [flightdata]: success
 [2024-05-01 10:56:14] INFO root fetch - main [MainThread]: Store serial: [23014375]
+[2024-05-01 10:58:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23014375]
+[2024-05-01 10:58:22] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-01 10:58:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pysma-plus
+[2024-05-01 10:58:22] INFO root fetch - processPackages [pysma-plus]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-01 10:58:22] INFO root fetch - processPackages [pysma-plus]: Downloading https://files.pythonhosted.org/packages/89/1f/b6b21200bf1fdefb6747f66dab2c60c5aa664ac4625a445c689fa6d63a1a/pysma_plus-0.2.0.tar.gz
+[2024-05-01 10:58:23] INFO root fetch - processPackages [pysma-plus]: Downloading https://files.pythonhosted.org/packages/40/cc/8184a7f9116541fcb902b75a2d60eb718bfdb60e8af5222b12e9c6b31faf/pysma_plus-0.2.1.tar.gz
+[2024-05-01 10:58:23] INFO root fetch - processPackages [pysma-plus]: executing diffoscope
+[2024-05-01 10:58:23] INFO root fetch - processPackages [pysma-plus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysma_plus-0.2.0.tar.gz tmp/pysma_plus-0.2.1.tar.gz --markdown 20240501/p/pysma-plus/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-01 10:58:23] INFO root fetch - processPackages [pysma-plus]: Remove: archive file [/home/abi/fetcher/tmp/pysma_plus-0.2.0.tar.gz]
+[2024-05-01 10:58:23] INFO root fetch - processPackages [pysma-plus]: Remove: archive file [/home/abi/fetcher/tmp/pysma_plus-0.2.1.tar.gz]
+[2024-05-01 10:58:23] INFO root fetch - main [MainThread]: End processing [pysma-plus]: success
+[2024-05-01 10:58:23] INFO root fetch - main [MainThread]: Store serial: [23014378]
