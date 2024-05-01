@@ -15580,3 +15580,24 @@
 [2024-05-01 12:28:52] INFO root fetch - processPackages [selfclean]: Remove: archive file [/home/abi/fetcher/tmp/selfclean-0.0.9.tar.gz]
 [2024-05-01 12:28:52] INFO root fetch - main [MainThread]: End processing [selfclean]: success
 [2024-05-01 12:28:52] INFO root fetch - main [MainThread]: Store serial: [23015243]
+[2024-05-01 12:30:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23015243]
+[2024-05-01 12:31:01] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-01 12:31:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mongodb-orm
+[2024-05-01 12:31:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: CTDFjorder
+[2024-05-01 12:31:01] INFO root fetch - processPackages [CTDFjorder]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-01 12:31:01] INFO root fetch - processPackages [mongodb-orm]: New version: [0.0.129a1] Old Version: [0.0.129]
+[2024-05-01 12:31:01] INFO root fetch - processPackages [mongodb-orm]: Downloading https://files.pythonhosted.org/packages/8c/69/3e5c22c98ea5237ccf3645dba27aa4f07d172c5d276c3187ca74fd3ab7ba/mongodb_orm-0.0.129.tar.gz
+[2024-05-01 12:31:01] INFO root fetch - processPackages [CTDFjorder]: Downloading https://files.pythonhosted.org/packages/e3/9e/76f566226dcd54893ee72431cda93b170f0e7d03ee60aed9fdd3cd49398c/ctdfjorder-0.0.4.tar.gz
+[2024-05-01 12:31:01] INFO root fetch - processPackages [mongodb-orm]: Downloading https://files.pythonhosted.org/packages/b7/2f/844d8ef3e67fcd43c2d52822202d29fc15a666d75d7d8a19b8bafeb69166/mongodb_orm-0.0.129a1.tar.gz
+[2024-05-01 12:31:02] INFO root fetch - processPackages [CTDFjorder]: Downloading https://files.pythonhosted.org/packages/26/94/f07c60bf1af2e460df25d5a3f4c01722a35f9fdc9c11c9e4d8e703c4a771/ctdfjorder-0.0.5.tar.gz
+[2024-05-01 12:31:02] INFO root fetch - processPackages [mongodb-orm]: executing diffoscope
+[2024-05-01 12:31:02] INFO root fetch - processPackages [mongodb-orm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mongodb_orm-0.0.129.tar.gz tmp/mongodb_orm-0.0.129a1.tar.gz --markdown 20240501/m/mongodb-orm/0.0.129-0.0.129a1/README.md --exclude *.pyd
+[2024-05-01 12:31:02] INFO root fetch - processPackages [CTDFjorder]: executing diffoscope
+[2024-05-01 12:31:02] INFO root fetch - processPackages [CTDFjorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ctdfjorder-0.0.4.tar.gz tmp/ctdfjorder-0.0.5.tar.gz --markdown 20240501/C/CTDFjorder/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-01 12:31:02] INFO root fetch - processPackages [mongodb-orm]: Remove: archive file [/home/abi/fetcher/tmp/mongodb_orm-0.0.129.tar.gz]
+[2024-05-01 12:31:02] INFO root fetch - processPackages [mongodb-orm]: Remove: archive file [/home/abi/fetcher/tmp/mongodb_orm-0.0.129a1.tar.gz]
+[2024-05-01 12:31:02] INFO root fetch - main [MainThread]: End processing [mongodb-orm]: success
+[2024-05-01 12:31:02] INFO root fetch - processPackages [CTDFjorder]: Remove: archive file [/home/abi/fetcher/tmp/ctdfjorder-0.0.4.tar.gz]
+[2024-05-01 12:31:02] INFO root fetch - processPackages [CTDFjorder]: Remove: archive file [/home/abi/fetcher/tmp/ctdfjorder-0.0.5.tar.gz]
+[2024-05-01 12:31:02] INFO root fetch - main [MainThread]: End processing [CTDFjorder]: success
+[2024-05-01 12:31:02] INFO root fetch - main [MainThread]: Store serial: [23015252]
