@@ -12786,3 +12786,58 @@
 [2024-05-01 10:21:08] INFO root fetch - processPackages [iec-api]: Remove: archive file [/home/abi/fetcher/tmp/iec_api-0.2.8.tar.gz]
 [2024-05-01 10:21:08] INFO root fetch - main [MainThread]: End processing [iec-api]: success
 [2024-05-01 10:21:08] INFO root fetch - main [MainThread]: Store serial: [23014000]
+[2024-05-01 10:23:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23014000]
+[2024-05-01 10:23:17] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-01 10:23:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aissemble-foundation-transform-core-python
+[2024-05-01 10:23:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aissemble-foundation-transform-core-python
+[2024-05-01 10:23:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: arxify
+[2024-05-01 10:23:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dosmaster
+[2024-05-01 10:23:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: VisionCraft
+[2024-05-01 10:23:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aissemble-foundation-drift-detection-client-python
+[2024-05-01 10:23:17] INFO root fetch - processPackages [dosmaster]: New version: [1.8.7] Old Version: [1.8.6]
+[2024-05-01 10:23:17] INFO root fetch - processPackages [aissemble-foundation-transform-core-python]: New version: [1.7.0.dev1714505459] Old Version: [1.7.0.dev1714505426]
+[2024-05-01 10:23:17] INFO root fetch - processPackages [aissemble-foundation-transform-core-python]: New version: [1.7.0.dev1714505459] Old Version: [1.7.0.dev1714505426]
+[2024-05-01 10:23:17] INFO root fetch - processPackages [aissemble-foundation-drift-detection-client-python]: New version: [1.7.0.dev1714505585] Old Version: [1.7.0.dev1714505557]
+[2024-05-01 10:23:17] INFO root fetch - processPackages [VisionCraft]: New version: [0.1.22] Old Version: [0.1.21]
+[2024-05-01 10:23:17] INFO root fetch - processPackages [dosmaster]: Downloading https://files.pythonhosted.org/packages/76/de/f038120625fd8528f0af6a4becfe95107787b511f7b6ece9b022ce51303e/dosmaster-1.8.6.tar.gz
+[2024-05-01 10:23:17] INFO root fetch - processPackages [arxify]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-01 10:23:17] INFO root fetch - processPackages [aissemble-foundation-transform-core-python]: Downloading https://files.pythonhosted.org/packages/57/cc/8ac7a6a44577b16cd525fd54fa6298e152a5606df973e125b51a1914ed1d/aissemble_foundation_transform_core_python-1.7.0.dev1714505426.tar.gz
+[2024-05-01 10:23:17] INFO root fetch - processPackages [aissemble-foundation-transform-core-python]: Downloading https://files.pythonhosted.org/packages/57/cc/8ac7a6a44577b16cd525fd54fa6298e152a5606df973e125b51a1914ed1d/aissemble_foundation_transform_core_python-1.7.0.dev1714505426.tar.gz
+[2024-05-01 10:23:17] INFO root fetch - processPackages [aissemble-foundation-drift-detection-client-python]: Downloading https://files.pythonhosted.org/packages/fc/4e/4cd328b49e782788fdba7bebff35ce4e2521c5be7e6bbea27d75c88a618e/aissemble_foundation_drift_detection_client_python-1.7.0.dev1714505557.tar.gz
+[2024-05-01 10:23:17] INFO root fetch - processPackages [arxify]: Downloading https://files.pythonhosted.org/packages/4d/63/9aa993daa5e9d5c4c229d165967ac029e4e9504053bcb8c8004b249837d9/arxify-1.0.1.tar.gz
+[2024-05-01 10:23:17] INFO root fetch - processPackages [VisionCraft]: Downloading https://files.pythonhosted.org/packages/2e/00/fba076723006566dddc31d5b0cc53c593d620114ea745da8dbc9b9d6890b/VisionCraft-0.1.21.tar.gz
+[2024-05-01 10:23:17] INFO root fetch - processPackages [aissemble-foundation-transform-core-python]: Downloading https://files.pythonhosted.org/packages/18/d7/b7d5930e5a86dc7a6a592192a1061987bc94f7a7d95b6875be8cf8d4d9b9/aissemble_foundation_transform_core_python-1.7.0.dev1714505459.tar.gz
+[2024-05-01 10:23:17] INFO root fetch - processPackages [aissemble-foundation-transform-core-python]: Downloading https://files.pythonhosted.org/packages/18/d7/b7d5930e5a86dc7a6a592192a1061987bc94f7a7d95b6875be8cf8d4d9b9/aissemble_foundation_transform_core_python-1.7.0.dev1714505459.tar.gz
+[2024-05-01 10:23:17] INFO root fetch - processPackages [dosmaster]: Downloading https://files.pythonhosted.org/packages/39/5e/942e13b9b84748bb7656ea52d19c79871d59d98e123db4e3aa26b101bb92/dosmaster-1.8.7.tar.gz
+[2024-05-01 10:23:17] INFO root fetch - processPackages [aissemble-foundation-transform-core-python]: executing diffoscope
+[2024-05-01 10:23:17] INFO root fetch - processPackages [aissemble-foundation-transform-core-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aissemble_foundation_transform_core_python-1.7.0.dev1714505426.tar.gz tmp/aissemble_foundation_transform_core_python-1.7.0.dev1714505459.tar.gz --markdown 20240501/a/aissemble-foundation-transform-core-python/1.7.0.dev1714505426-1.7.0.dev1714505459/README.md --exclude *.pyd
+[2024-05-01 10:23:17] INFO root fetch - processPackages [aissemble-foundation-transform-core-python]: executing diffoscope
+[2024-05-01 10:23:17] INFO root fetch - processPackages [aissemble-foundation-transform-core-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aissemble_foundation_transform_core_python-1.7.0.dev1714505426.tar.gz tmp/aissemble_foundation_transform_core_python-1.7.0.dev1714505459.tar.gz --markdown 20240501/a/aissemble-foundation-transform-core-python/1.7.0.dev1714505426-1.7.0.dev1714505459/README.md --exclude *.pyd
+[2024-05-01 10:23:17] INFO root fetch - processPackages [aissemble-foundation-drift-detection-client-python]: Downloading https://files.pythonhosted.org/packages/92/d9/8af022eed0af6e3a544c2d5cbc1f501475ab879c5f6a7516d19c37612408/aissemble_foundation_drift_detection_client_python-1.7.0.dev1714505585.tar.gz
+[2024-05-01 10:23:17] INFO root fetch - processPackages [dosmaster]: executing diffoscope
+[2024-05-01 10:23:17] INFO root fetch - processPackages [dosmaster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dosmaster-1.8.6.tar.gz tmp/dosmaster-1.8.7.tar.gz --markdown 20240501/d/dosmaster/1.8.6-1.8.7/README.md --exclude *.pyd
+[2024-05-01 10:23:17] INFO root fetch - processPackages [arxify]: Downloading https://files.pythonhosted.org/packages/f4/8b/db0dcba32eb4cfe12c4096b895f8f49233a16975b0096b62d7814fbf29cf/arxify-1.0.2.tar.gz
+[2024-05-01 10:23:17] INFO root fetch - processPackages [aissemble-foundation-drift-detection-client-python]: executing diffoscope
+[2024-05-01 10:23:17] INFO root fetch - processPackages [aissemble-foundation-drift-detection-client-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aissemble_foundation_drift_detection_client_python-1.7.0.dev1714505557.tar.gz tmp/aissemble_foundation_drift_detection_client_python-1.7.0.dev1714505585.tar.gz --markdown 20240501/a/aissemble-foundation-drift-detection-client-python/1.7.0.dev1714505557-1.7.0.dev1714505585/README.md --exclude *.pyd
+[2024-05-01 10:23:18] INFO root fetch - processPackages [arxify]: executing diffoscope
+[2024-05-01 10:23:18] INFO root fetch - processPackages [arxify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arxify-1.0.1.tar.gz tmp/arxify-1.0.2.tar.gz --markdown 20240501/a/arxify/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-01 10:23:18] INFO root fetch - processPackages [VisionCraft]: Downloading https://files.pythonhosted.org/packages/e3/64/c0d10e377b133a276c521f14a5ca0530e477a8e05272e8c0df6bc9e87f96/VisionCraft-0.1.22-py3-none-any.whl
+[2024-05-01 10:23:18] INFO root fetch - processPackages [aissemble-foundation-transform-core-python]: Remove: archive file [/home/abi/fetcher/tmp/aissemble_foundation_transform_core_python-1.7.0.dev1714505426.tar.gz]
+[2024-05-01 10:23:18] INFO root fetch - processPackages [aissemble-foundation-transform-core-python]: Remove: archive file [/home/abi/fetcher/tmp/aissemble_foundation_transform_core_python-1.7.0.dev1714505459.tar.gz]
+[2024-05-01 10:23:18] INFO root fetch - main [MainThread]: End processing [aissemble-foundation-transform-core-python]: success
+[2024-05-01 10:23:18] INFO root fetch - processPackages [arxify]: Remove: archive file [/home/abi/fetcher/tmp/arxify-1.0.1.tar.gz]
+[2024-05-01 10:23:18] INFO root fetch - processPackages [arxify]: Remove: archive file [/home/abi/fetcher/tmp/arxify-1.0.2.tar.gz]
+[2024-05-01 10:23:18] INFO root fetch - main [MainThread]: End processing [arxify]: success
+[2024-05-01 10:23:18] INFO root fetch - processPackages [VisionCraft]: executing diffoscope
+[2024-05-01 10:23:18] INFO root fetch - processPackages [VisionCraft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/VisionCraft-0.1.21.tar.gz tmp/VisionCraft-0.1.22-py3-none-any.whl.zip --markdown 20240501/V/VisionCraft/0.1.21-0.1.22/README.md --exclude *.pyd
+[2024-05-01 10:23:18] INFO root fetch - main [MainThread]: End processing [aissemble-foundation-transform-core-python]: success
+[2024-05-01 10:23:18] INFO root fetch - processPackages [aissemble-foundation-drift-detection-client-python]: Remove: archive file [/home/abi/fetcher/tmp/aissemble_foundation_drift_detection_client_python-1.7.0.dev1714505557.tar.gz]
+[2024-05-01 10:23:18] INFO root fetch - processPackages [aissemble-foundation-drift-detection-client-python]: Remove: archive file [/home/abi/fetcher/tmp/aissemble_foundation_drift_detection_client_python-1.7.0.dev1714505585.tar.gz]
+[2024-05-01 10:23:18] INFO root fetch - main [MainThread]: End processing [aissemble-foundation-drift-detection-client-python]: success
+[2024-05-01 10:23:18] INFO root fetch - processPackages [dosmaster]: Remove: archive file [/home/abi/fetcher/tmp/dosmaster-1.8.6.tar.gz]
+[2024-05-01 10:23:18] INFO root fetch - processPackages [dosmaster]: Remove: archive file [/home/abi/fetcher/tmp/dosmaster-1.8.7.tar.gz]
+[2024-05-01 10:23:18] INFO root fetch - main [MainThread]: End processing [dosmaster]: success
+[2024-05-01 10:23:19] INFO root fetch - processPackages [VisionCraft]: Remove: archive file [/home/abi/fetcher/tmp/VisionCraft-0.1.21.tar.gz]
+[2024-05-01 10:23:19] INFO root fetch - processPackages [VisionCraft]: Remove: archive file [/home/abi/fetcher/tmp/VisionCraft-0.1.22-py3-none-any.whl.zip]
+[2024-05-01 10:23:19] INFO root fetch - main [MainThread]: End processing [VisionCraft]: success
+[2024-05-01 10:23:19] INFO root fetch - main [MainThread]: Store serial: [23014017]
