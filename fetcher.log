@@ -21555,3 +21555,69 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-01 15:39:53] INFO root fetch - processPackages [gftools]: Remove: archive file [/home/abi/fetcher/tmp/gftools-0.9.9.tar.gz]
 [2024-05-01 15:39:53] INFO root fetch - main [MainThread]: End processing [gftools]: success
 [2024-05-01 15:39:53] INFO root fetch - main [MainThread]: Store serial: [23017523]
+[2024-05-01 15:41:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23017523]
+[2024-05-01 15:42:02] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-01 15:42:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dingman-openapi-server-dev
+[2024-05-01 15:42:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: alamos
+[2024-05-01 15:42:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lusid-workflow-sdk
+[2024-05-01 15:42:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: synnax-freighter
+[2024-05-01 15:42:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: synnax
+[2024-05-01 15:42:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sinli
+[2024-05-01 15:42:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyconfig-util
+[2024-05-01 15:42:03] INFO root fetch - processPackages [lusid-workflow-sdk]: New version: [2.1.7] Old Version: [2.1.6]
+[2024-05-01 15:42:03] INFO root fetch - processPackages [pyconfig-util]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-01 15:42:03] INFO root fetch - processPackages [synnax]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-01 15:42:03] INFO root fetch - processPackages [dingman-openapi-server-dev]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-01 15:42:03] INFO root fetch - processPackages [synnax-freighter]: New version: [0.6.9] Old Version: [0.6.8]
+[2024-05-01 15:42:03] INFO root fetch - processPackages [sinli]: New version: [1.2.0] Old Version: [1.1.5]
+[2024-05-01 15:42:03] INFO root fetch - processPackages [alamos]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-01 15:42:03] INFO root fetch - processPackages [lusid-workflow-sdk]: Downloading https://files.pythonhosted.org/packages/42/5e/c813eab6632f57c80903f11f9614563b6914f62e502ff59f5ade0b4df236/lusid_workflow_sdk-2.1.6.tar.gz
+[2024-05-01 15:42:03] INFO root fetch - processPackages [dingman-openapi-server-dev]: Downloading https://files.pythonhosted.org/packages/0a/e0/a22b71c7a082395d67c3fc0251a257b5111b3d7e421ed01a12c627b3eb56/dingman-openapi-server-dev-1.0.8.tar.gz
+[2024-05-01 15:42:03] INFO root fetch - processPackages [synnax-freighter]: Downloading https://files.pythonhosted.org/packages/47/1d/b44d0a666ad7dfde7a8635a95d6241671db501c8ed9f7dd576bdf7fe184e/synnax_freighter-0.6.8.tar.gz
+[2024-05-01 15:42:03] INFO root fetch - processPackages [alamos]: Downloading https://files.pythonhosted.org/packages/c5/2b/b12c4308c7fb396e018ffbe6ec0f046170906ae98b188985b537619e0f55/alamos-0.3.8.tar.gz
+[2024-05-01 15:42:03] INFO root fetch - processPackages [pyconfig-util]: Downloading https://files.pythonhosted.org/packages/c7/07/d0d7652f356e710ce52e01f6dffa99c6d0743f63f8c55a6d3ceafdb3e448/pyconfig_util-1.0.1.tar.gz
+[2024-05-01 15:42:03] INFO root fetch - processPackages [synnax]: Downloading https://files.pythonhosted.org/packages/89/a1/f0d76d0706e47ba3dcdbf0fe8c7b2e90c98bd073d40a3c4c7c1c1025aab8/synnax-0.8.0.tar.gz
+[2024-05-01 15:42:03] INFO root fetch - processPackages [sinli]: Downloading https://files.pythonhosted.org/packages/27/f3/8e538584d1df3833bdad4f2baf38076cb12f81f4009f52f9a0e52682b84d/sinli-1.1.5.tar.gz
+[2024-05-01 15:42:03] INFO root fetch - processPackages [lusid-workflow-sdk]: Downloading https://files.pythonhosted.org/packages/48/cd/4332fb7a4f465ef5e88f73ceade2a58a1ce48c2b6f457b272765b2522010/lusid_workflow_sdk-2.1.7.tar.gz
+[2024-05-01 15:42:03] INFO root fetch - processPackages [pyconfig-util]: Downloading https://files.pythonhosted.org/packages/2a/0a/05f6722137e3d1c08677e8615cda134d08d0514248e726f8351340dc9b9f/pyconfig_util-1.0.2.tar.gz
+[2024-05-01 15:42:03] INFO root fetch - processPackages [lusid-workflow-sdk]: executing diffoscope
+[2024-05-01 15:42:03] INFO root fetch - processPackages [lusid-workflow-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid_workflow_sdk-2.1.6.tar.gz tmp/lusid_workflow_sdk-2.1.7.tar.gz --markdown 20240501/l/lusid-workflow-sdk/2.1.6-2.1.7/README.md --exclude *.pyd
+[2024-05-01 15:42:03] INFO root fetch - processPackages [synnax]: Downloading https://files.pythonhosted.org/packages/b3/bc/76e9b03b96c7ab72f4b39e5e03c396b86efd6fb650bedcff8a7118679e9b/synnax-0.9.0.tar.gz
+[2024-05-01 15:42:03] INFO root fetch - processPackages [dingman-openapi-server-dev]: Downloading https://files.pythonhosted.org/packages/e4/c2/a7a9179d9294fd9fc6405f23a2718a8df0fd29cc68a702c76645d487ab33/dingman-openapi-server-dev-1.0.9.tar.gz
+[2024-05-01 15:42:03] INFO root fetch - processPackages [alamos]: Downloading https://files.pythonhosted.org/packages/c1/08/cf40db715e810dc50be82dd822b41aefe7a4903f73ac57533c85bc63cf9d/alamos-0.3.9.tar.gz
+[2024-05-01 15:42:03] INFO root fetch - processPackages [synnax-freighter]: Downloading https://files.pythonhosted.org/packages/97/99/8375d1635ab3481a144b8507f5f4be9c85b138a7ecc2c616808ded325e74/synnax_freighter-0.6.9.tar.gz
+[2024-05-01 15:42:03] INFO root fetch - processPackages [pyconfig-util]: executing diffoscope
+[2024-05-01 15:42:03] INFO root fetch - processPackages [pyconfig-util]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyconfig_util-1.0.1.tar.gz tmp/pyconfig_util-1.0.2.tar.gz --markdown 20240501/p/pyconfig-util/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-01 15:42:04] INFO root fetch - processPackages [sinli]: Downloading https://files.pythonhosted.org/packages/59/9b/47d770b9f765237fc84ac45cbdf27eefd87020a7eae2cc3197c968d05742/sinli-1.2.0.tar.gz
+[2024-05-01 15:42:04] INFO root fetch - processPackages [synnax]: executing diffoscope
+[2024-05-01 15:42:04] INFO root fetch - processPackages [synnax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/synnax-0.8.0.tar.gz tmp/synnax-0.9.0.tar.gz --markdown 20240501/s/synnax/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-01 15:42:04] INFO root fetch - processPackages [synnax-freighter]: executing diffoscope
+[2024-05-01 15:42:04] INFO root fetch - processPackages [synnax-freighter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/synnax_freighter-0.6.8.tar.gz tmp/synnax_freighter-0.6.9.tar.gz --markdown 20240501/s/synnax-freighter/0.6.8-0.6.9/README.md --exclude *.pyd
+[2024-05-01 15:42:04] INFO root fetch - processPackages [sinli]: executing diffoscope
+[2024-05-01 15:42:04] INFO root fetch - processPackages [sinli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sinli-1.1.5.tar.gz tmp/sinli-1.2.0.tar.gz --markdown 20240501/s/sinli/1.1.5-1.2.0/README.md --exclude *.pyd
+[2024-05-01 15:42:04] INFO root fetch - processPackages [dingman-openapi-server-dev]: executing diffoscope
+[2024-05-01 15:42:04] INFO root fetch - processPackages [dingman-openapi-server-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dingman-openapi-server-dev-1.0.8.tar.gz tmp/dingman-openapi-server-dev-1.0.9.tar.gz --markdown 20240501/d/dingman-openapi-server-dev/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-01 15:42:04] INFO root fetch - processPackages [pyconfig-util]: Remove: archive file [/home/abi/fetcher/tmp/pyconfig_util-1.0.1.tar.gz]
+[2024-05-01 15:42:04] INFO root fetch - processPackages [pyconfig-util]: Remove: archive file [/home/abi/fetcher/tmp/pyconfig_util-1.0.2.tar.gz]
+[2024-05-01 15:42:04] INFO root fetch - main [MainThread]: End processing [pyconfig-util]: success
+[2024-05-01 15:42:04] INFO root fetch - processPackages [alamos]: executing diffoscope
+[2024-05-01 15:42:04] INFO root fetch - processPackages [alamos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alamos-0.3.8.tar.gz tmp/alamos-0.3.9.tar.gz --markdown 20240501/a/alamos/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-01 15:42:04] INFO root fetch - processPackages [synnax-freighter]: Remove: archive file [/home/abi/fetcher/tmp/synnax_freighter-0.6.8.tar.gz]
+[2024-05-01 15:42:04] INFO root fetch - processPackages [synnax-freighter]: Remove: archive file [/home/abi/fetcher/tmp/synnax_freighter-0.6.9.tar.gz]
+[2024-05-01 15:42:04] INFO root fetch - main [MainThread]: End processing [synnax-freighter]: success
+[2024-05-01 15:42:04] INFO root fetch - processPackages [synnax]: Remove: archive file [/home/abi/fetcher/tmp/synnax-0.8.0.tar.gz]
+[2024-05-01 15:42:04] INFO root fetch - processPackages [synnax]: Remove: archive file [/home/abi/fetcher/tmp/synnax-0.9.0.tar.gz]
+[2024-05-01 15:42:04] INFO root fetch - main [MainThread]: End processing [synnax]: success
+[2024-05-01 15:42:05] INFO root fetch - processPackages [sinli]: Remove: archive file [/home/abi/fetcher/tmp/sinli-1.1.5.tar.gz]
+[2024-05-01 15:42:05] INFO root fetch - processPackages [sinli]: Remove: archive file [/home/abi/fetcher/tmp/sinli-1.2.0.tar.gz]
+[2024-05-01 15:42:05] INFO root fetch - main [MainThread]: End processing [sinli]: success
+[2024-05-01 15:42:05] INFO root fetch - processPackages [dingman-openapi-server-dev]: Remove: archive file [/home/abi/fetcher/tmp/dingman-openapi-server-dev-1.0.8.tar.gz]
+[2024-05-01 15:42:05] INFO root fetch - processPackages [dingman-openapi-server-dev]: Remove: archive file [/home/abi/fetcher/tmp/dingman-openapi-server-dev-1.0.9.tar.gz]
+[2024-05-01 15:42:05] INFO root fetch - main [MainThread]: End processing [dingman-openapi-server-dev]: success
+[2024-05-01 15:42:05] INFO root fetch - processPackages [lusid-workflow-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_workflow_sdk-2.1.6.tar.gz]
+[2024-05-01 15:42:05] INFO root fetch - processPackages [lusid-workflow-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_workflow_sdk-2.1.7.tar.gz]
+[2024-05-01 15:42:05] INFO root fetch - main [MainThread]: End processing [lusid-workflow-sdk]: success
+[2024-05-01 15:42:05] INFO root fetch - processPackages [alamos]: Remove: archive file [/home/abi/fetcher/tmp/alamos-0.3.8.tar.gz]
+[2024-05-01 15:42:05] INFO root fetch - processPackages [alamos]: Remove: archive file [/home/abi/fetcher/tmp/alamos-0.3.9.tar.gz]
+[2024-05-01 15:42:05] INFO root fetch - main [MainThread]: End processing [alamos]: success
+[2024-05-01 15:42:05] INFO root fetch - main [MainThread]: Store serial: [23017543]
