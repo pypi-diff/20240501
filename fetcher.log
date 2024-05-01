@@ -6964,3 +6964,15 @@
 [2024-05-01 03:50:36] INFO root fetch - processPackages [oscb]: Remove: archive file [/home/abi/fetcher/tmp/oscb-1.8.9.tar.gz]
 [2024-05-01 03:50:36] INFO root fetch - main [MainThread]: End processing [oscb]: success
 [2024-05-01 03:50:36] INFO root fetch - main [MainThread]: Store serial: [23011366]
+[2024-05-01 03:52:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23011366]
+[2024-05-01 03:52:44] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-01 03:52:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: clickhousePandasWrapper
+[2024-05-01 03:52:44] INFO root fetch - processPackages [clickhousePandasWrapper]: New version: [1.1.0] Old Version: [1.0.2]
+[2024-05-01 03:52:45] INFO root fetch - processPackages [clickhousePandasWrapper]: Downloading https://files.pythonhosted.org/packages/b8/a5/8695621d44c1c7359a047a78df5c092c09352ab2b3f2e050595d5c3b5806/clickhousePandasWrapper-1.0.2.tar.gz
+[2024-05-01 03:52:45] INFO root fetch - processPackages [clickhousePandasWrapper]: Downloading https://files.pythonhosted.org/packages/8b/46/8a747ef6e92265cfaad9f72ed73e8abf3ef617fb98a188e98a2924a56fd6/clickhousepandaswrapper-1.1.0.tar.gz
+[2024-05-01 03:52:45] INFO root fetch - processPackages [clickhousePandasWrapper]: executing diffoscope
+[2024-05-01 03:52:45] INFO root fetch - processPackages [clickhousePandasWrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clickhousePandasWrapper-1.0.2.tar.gz tmp/clickhousepandaswrapper-1.1.0.tar.gz --markdown 20240501/c/clickhousePandasWrapper/1.0.2-1.1.0/README.md --exclude *.pyd
+[2024-05-01 03:52:46] INFO root fetch - processPackages [clickhousePandasWrapper]: Remove: archive file [/home/abi/fetcher/tmp/clickhousePandasWrapper-1.0.2.tar.gz]
+[2024-05-01 03:52:46] INFO root fetch - processPackages [clickhousePandasWrapper]: Remove: archive file [/home/abi/fetcher/tmp/clickhousepandaswrapper-1.1.0.tar.gz]
+[2024-05-01 03:52:46] INFO root fetch - main [MainThread]: End processing [clickhousePandasWrapper]: success
+[2024-05-01 03:52:46] INFO root fetch - main [MainThread]: Store serial: [23011370]
