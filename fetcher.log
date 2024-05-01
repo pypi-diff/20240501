@@ -15676,3 +15676,42 @@
 [2024-05-01 12:39:47] INFO root fetch - processPackages [skypilot-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skypilot_nightly-1.0.0.dev20240430.tar.gz]
 [2024-05-01 12:39:47] INFO root fetch - main [MainThread]: End processing [skypilot-nightly]: success
 [2024-05-01 12:39:47] INFO root fetch - main [MainThread]: Store serial: [23015283]
+[2024-05-01 12:41:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23015283]
+[2024-05-01 12:41:57] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-01 12:41:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pymemgpt-nightly
+[2024-05-01 12:41:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-cloudflare
+[2024-05-01 12:41:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: edgeimpulse-api
+[2024-05-01 12:41:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: omnata-plugin-runtime
+[2024-05-01 12:41:57] INFO root fetch - processPackages [edgeimpulse-api]: New version: [1.49.9] Old Version: [1.49.8]
+[2024-05-01 12:41:57] INFO root fetch - processPackages [edgeimpulse-api]: Downloading https://files.pythonhosted.org/packages/c3/18/33f68925bcf332efc7ba6f4038a59ad0039a971abe54a4138a716ef06ffb/edgeimpulse_api-1.49.8.tar.gz
+[2024-05-01 12:41:57] INFO root fetch - processPackages [omnata-plugin-runtime]: New version: [0.3.9a44] Old Version: [0.3.9a43]
+[2024-05-01 12:41:57] INFO root fetch - processPackages [pulumi-cloudflare]: New version: [5.9.0a1692854882] Old Version: [5.9.0a1692851897]
+[2024-05-01 12:41:57] INFO root fetch - processPackages [pymemgpt-nightly]: New version: [0.3.9.dev20240412103904] Old Version: [0.3.9.dev20240411103902]
+[2024-05-01 12:41:57] INFO root fetch - processPackages [pymemgpt-nightly]: Downloading https://files.pythonhosted.org/packages/28/e7/e8c0c970c21e3670e810627cef085bbbbac1f9e994540354838d7781a0ac/pymemgpt_nightly-0.3.9.dev20240411103902.tar.gz
+[2024-05-01 12:41:57] INFO root fetch - processPackages [pulumi-cloudflare]: Downloading https://files.pythonhosted.org/packages/ce/4c/bbf50ef75d6a6dc70780f846ef13e19b5ec009e8657c5b847defde7a8dd9/pulumi_cloudflare-5.9.0a1692851897.tar.gz
+[2024-05-01 12:41:57] INFO root fetch - processPackages [omnata-plugin-runtime]: Downloading https://files.pythonhosted.org/packages/8e/11/abde4b4d82373bc42a84a5591bf31c6cca540ba9f13337491df615af0b6c/omnata_plugin_runtime-0.3.9a43.tar.gz
+[2024-05-01 12:41:57] INFO root fetch - processPackages [edgeimpulse-api]: Downloading https://files.pythonhosted.org/packages/7f/2e/61db10bac2d979482398361a4532a56341b89eb7e3cd645df17c5ecdbfc5/edgeimpulse_api-1.49.9.tar.gz
+[2024-05-01 12:41:57] INFO root fetch - processPackages [pymemgpt-nightly]: Downloading https://files.pythonhosted.org/packages/50/4a/4c9c1fb70a7ee971f3c8697cc6dedb251e3b10cafdd23be4d035ece0f2ec/pymemgpt_nightly-0.3.9.dev20240412103904.tar.gz
+[2024-05-01 12:41:57] INFO root fetch - processPackages [edgeimpulse-api]: executing diffoscope
+[2024-05-01 12:41:57] INFO root fetch - processPackages [edgeimpulse-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edgeimpulse_api-1.49.8.tar.gz tmp/edgeimpulse_api-1.49.9.tar.gz --markdown 20240501/e/edgeimpulse-api/1.49.8-1.49.9/README.md --exclude *.pyd
+[2024-05-01 12:41:57] INFO root fetch - processPackages [pulumi-cloudflare]: Downloading https://files.pythonhosted.org/packages/aa/45/e2040e3054cffd9ce633539517dc7f0063c0b789d73bac75a2b832e469de/pulumi_cloudflare-5.9.0a1692854882.tar.gz
+[2024-05-01 12:41:57] INFO root fetch - processPackages [pymemgpt-nightly]: executing diffoscope
+[2024-05-01 12:41:57] INFO root fetch - processPackages [pymemgpt-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymemgpt_nightly-0.3.9.dev20240411103902.tar.gz tmp/pymemgpt_nightly-0.3.9.dev20240412103904.tar.gz --markdown 20240501/p/pymemgpt-nightly/0.3.9.dev20240411103902-0.3.9.dev20240412103904/README.md --exclude *.pyd
+[2024-05-01 12:41:57] INFO root fetch - processPackages [omnata-plugin-runtime]: Downloading https://files.pythonhosted.org/packages/de/f5/326ad467bb560d9dc8d7cebfe2aed77d524aeaf8a8ee7c6107f202eb6d0d/omnata_plugin_runtime-0.3.9a44.tar.gz
+[2024-05-01 12:41:58] INFO root fetch - processPackages [pulumi-cloudflare]: executing diffoscope
+[2024-05-01 12:41:58] INFO root fetch - processPackages [pulumi-cloudflare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_cloudflare-5.9.0a1692851897.tar.gz tmp/pulumi_cloudflare-5.9.0a1692854882.tar.gz --markdown 20240501/p/pulumi-cloudflare/5.9.0a1692851897-5.9.0a1692854882/README.md --exclude *.pyd
+[2024-05-01 12:41:58] INFO root fetch - processPackages [omnata-plugin-runtime]: executing diffoscope
+[2024-05-01 12:41:58] INFO root fetch - processPackages [omnata-plugin-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omnata_plugin_runtime-0.3.9a43.tar.gz tmp/omnata_plugin_runtime-0.3.9a44.tar.gz --markdown 20240501/o/omnata-plugin-runtime/0.3.9a43-0.3.9a44/README.md --exclude *.pyd
+[2024-05-01 12:41:58] INFO root fetch - processPackages [omnata-plugin-runtime]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_runtime-0.3.9a43.tar.gz]
+[2024-05-01 12:41:58] INFO root fetch - processPackages [omnata-plugin-runtime]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_runtime-0.3.9a44.tar.gz]
+[2024-05-01 12:41:58] INFO root fetch - main [MainThread]: End processing [omnata-plugin-runtime]: success
+[2024-05-01 12:41:58] INFO root fetch - processPackages [pymemgpt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pymemgpt_nightly-0.3.9.dev20240411103902.tar.gz]
+[2024-05-01 12:41:58] INFO root fetch - processPackages [pymemgpt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pymemgpt_nightly-0.3.9.dev20240412103904.tar.gz]
+[2024-05-01 12:41:58] INFO root fetch - main [MainThread]: End processing [pymemgpt-nightly]: success
+[2024-05-01 12:41:59] INFO root fetch - processPackages [pulumi-cloudflare]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_cloudflare-5.9.0a1692851897.tar.gz]
+[2024-05-01 12:41:59] INFO root fetch - processPackages [pulumi-cloudflare]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_cloudflare-5.9.0a1692854882.tar.gz]
+[2024-05-01 12:41:59] INFO root fetch - main [MainThread]: End processing [pulumi-cloudflare]: success
+[2024-05-01 12:42:01] INFO root fetch - processPackages [edgeimpulse-api]: Remove: archive file [/home/abi/fetcher/tmp/edgeimpulse_api-1.49.8.tar.gz]
+[2024-05-01 12:42:01] INFO root fetch - processPackages [edgeimpulse-api]: Remove: archive file [/home/abi/fetcher/tmp/edgeimpulse_api-1.49.9.tar.gz]
+[2024-05-01 12:42:01] INFO root fetch - main [MainThread]: End processing [edgeimpulse-api]: success
+[2024-05-01 12:42:01] INFO root fetch - main [MainThread]: Store serial: [23015298]
