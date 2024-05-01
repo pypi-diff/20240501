@@ -10197,3 +10197,27 @@
 [2024-05-01 07:48:02] INFO root fetch - processPackages [ncmlistdownloader]: Remove: archive file [/home/abi/fetcher/tmp/ncmlistdownloader-1.1.0.240430a1.tar.gz]
 [2024-05-01 07:48:02] INFO root fetch - main [MainThread]: End processing [ncmlistdownloader]: success
 [2024-05-01 07:48:02] INFO root fetch - main [MainThread]: Store serial: [23012783]
+[2024-05-01 07:50:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23012783]
+[2024-05-01 07:50:12] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-01 07:50:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: SparkleLogging
+[2024-05-01 07:50:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-dnsimple
+[2024-05-01 07:50:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pylliterate
+[2024-05-01 07:50:12] WARNING root fetch - processPackages [SparkleLogging]: Skipping, unable to determine old version
+[2024-05-01 07:50:12] INFO root fetch - main [MainThread]: End processing [SparkleLogging] error
+[2024-05-01 07:50:12] INFO root fetch - processPackages [pulumi-dnsimple]: New version: [3.5.0a1714454942] Old Version: [3.5.0a1714109398]
+[2024-05-01 07:50:12] INFO root fetch - processPackages [pylliterate]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-01 07:50:12] INFO root fetch - processPackages [pulumi-dnsimple]: Downloading https://files.pythonhosted.org/packages/72/17/f625a9eccdefc66a8affed4b602887a624cfd03d48a687cf0848775d1512/pulumi_dnsimple-3.5.0a1714109398.tar.gz
+[2024-05-01 07:50:12] INFO root fetch - processPackages [pylliterate]: Downloading https://files.pythonhosted.org/packages/fc/f3/adfff5d8604f1e9e40a5b4bc678682297f73e145d4f6ca2098cd6ed3018b/pylliterate-0.0.3.tar.gz
+[2024-05-01 07:50:12] INFO root fetch - processPackages [pulumi-dnsimple]: Downloading https://files.pythonhosted.org/packages/11/f3/db2f68a7ee044b29a6850132d9e8e63b70e741661121e0d19427c43aa926/pulumi_dnsimple-3.5.0a1714454942.tar.gz
+[2024-05-01 07:50:13] INFO root fetch - processPackages [pulumi-dnsimple]: executing diffoscope
+[2024-05-01 07:50:13] INFO root fetch - processPackages [pulumi-dnsimple]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_dnsimple-3.5.0a1714109398.tar.gz tmp/pulumi_dnsimple-3.5.0a1714454942.tar.gz --markdown 20240501/p/pulumi-dnsimple/3.5.0a1714109398-3.5.0a1714454942/README.md --exclude *.pyd
+[2024-05-01 07:50:13] INFO root fetch - processPackages [pylliterate]: Downloading https://files.pythonhosted.org/packages/4f/ce/af957f22da66e144af611007e20eded28c3a3243c3ccb21fd72620917970/pylliterate-0.0.4.tar.gz
+[2024-05-01 07:50:13] INFO root fetch - processPackages [pylliterate]: executing diffoscope
+[2024-05-01 07:50:13] INFO root fetch - processPackages [pylliterate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylliterate-0.0.3.tar.gz tmp/pylliterate-0.0.4.tar.gz --markdown 20240501/p/pylliterate/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-01 07:50:13] INFO root fetch - processPackages [pulumi-dnsimple]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_dnsimple-3.5.0a1714109398.tar.gz]
+[2024-05-01 07:50:13] INFO root fetch - processPackages [pulumi-dnsimple]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_dnsimple-3.5.0a1714454942.tar.gz]
+[2024-05-01 07:50:13] INFO root fetch - main [MainThread]: End processing [pulumi-dnsimple]: success
+[2024-05-01 07:50:13] INFO root fetch - processPackages [pylliterate]: Remove: archive file [/home/abi/fetcher/tmp/pylliterate-0.0.3.tar.gz]
+[2024-05-01 07:50:13] INFO root fetch - processPackages [pylliterate]: Remove: archive file [/home/abi/fetcher/tmp/pylliterate-0.0.4.tar.gz]
+[2024-05-01 07:50:13] INFO root fetch - main [MainThread]: End processing [pylliterate]: success
+[2024-05-01 07:50:13] INFO root fetch - main [MainThread]: Store serial: [23012795]
