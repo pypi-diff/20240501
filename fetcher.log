@@ -11922,3 +11922,33 @@
 [2024-05-01 09:30:49] INFO root fetch - processPackages [ImmunoViewer]: Remove: archive file [/home/abi/fetcher/tmp/immunoviewer-0.2.3.tar.gz]
 [2024-05-01 09:30:49] INFO root fetch - main [MainThread]: End processing [ImmunoViewer]: success
 [2024-05-01 09:30:49] INFO root fetch - main [MainThread]: Store serial: [23013613]
+[2024-05-01 09:32:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23013613]
+[2024-05-01 09:32:58] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-01 09:32:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: stopwords-tr
+[2024-05-01 09:32:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flatfile
+[2024-05-01 09:32:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: homeconnect-webthing
+[2024-05-01 09:32:58] INFO root fetch - processPackages [stopwords-tr]: New version: [1.2.2] Old Version: [1.2.1]
+[2024-05-01 09:32:58] INFO root fetch - processPackages [stopwords-tr]: Downloading https://files.pythonhosted.org/packages/aa/74/620b1c60c77b8d4689a2f0ac833fce9d9bd64b50cd447533bfa8c25ae90e/stopwords_tr-1.2.1.tar.gz
+[2024-05-01 09:32:58] INFO root fetch - processPackages [flatfile]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-01 09:32:58] INFO root fetch - processPackages [homeconnect-webthing]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-05-01 09:32:59] INFO root fetch - processPackages [flatfile]: Downloading https://files.pythonhosted.org/packages/ec/24/8d18810b1c138df03b1811a505e7d7d3a082c1e8f66b21a1e2db78ef9002/flatfile-0.0.8.tar.gz
+[2024-05-01 09:32:59] INFO root fetch - processPackages [homeconnect-webthing]: Downloading https://files.pythonhosted.org/packages/c4/6e/5cb75b27963c1c8c2dd80f0b763e5a1b9897836d1b4418ee81b304ed7c06/homeconnect_webthing-1.0.4.tar.gz
+[2024-05-01 09:32:59] INFO root fetch - processPackages [stopwords-tr]: Downloading https://files.pythonhosted.org/packages/ca/e4/7748f5697a466fca1aebb4faf20958ff5f3c4ff56e3b6cb00cf67893d52a/stopwords_tr-1.2.2.tar.gz
+[2024-05-01 09:32:59] INFO root fetch - processPackages [stopwords-tr]: executing diffoscope
+[2024-05-01 09:32:59] INFO root fetch - processPackages [stopwords-tr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stopwords_tr-1.2.1.tar.gz tmp/stopwords_tr-1.2.2.tar.gz --markdown 20240501/s/stopwords-tr/1.2.1-1.2.2/README.md --exclude *.pyd
+[2024-05-01 09:32:59] INFO root fetch - processPackages [flatfile]: Downloading https://files.pythonhosted.org/packages/03/82/43177dd4c89426771c323a814f05bad69389ca1469012965e33091f7577e/flatfile-0.0.9.tar.gz
+[2024-05-01 09:32:59] INFO root fetch - processPackages [homeconnect-webthing]: Downloading https://files.pythonhosted.org/packages/ae/e9/99dc5cd1978de94bbcd8dc8ed6da8b2f6704b961765020eca317b8f8b584/homeconnect_webthing-1.0.5.tar.gz
+[2024-05-01 09:32:59] INFO root fetch - processPackages [flatfile]: executing diffoscope
+[2024-05-01 09:32:59] INFO root fetch - processPackages [flatfile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flatfile-0.0.8.tar.gz tmp/flatfile-0.0.9.tar.gz --markdown 20240501/f/flatfile/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-01 09:32:59] INFO root fetch - processPackages [homeconnect-webthing]: executing diffoscope
+[2024-05-01 09:32:59] INFO root fetch - processPackages [homeconnect-webthing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/homeconnect_webthing-1.0.4.tar.gz tmp/homeconnect_webthing-1.0.5.tar.gz --markdown 20240501/h/homeconnect-webthing/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-05-01 09:32:59] INFO root fetch - processPackages [stopwords-tr]: Remove: archive file [/home/abi/fetcher/tmp/stopwords_tr-1.2.1.tar.gz]
+[2024-05-01 09:32:59] INFO root fetch - processPackages [stopwords-tr]: Remove: archive file [/home/abi/fetcher/tmp/stopwords_tr-1.2.2.tar.gz]
+[2024-05-01 09:32:59] INFO root fetch - main [MainThread]: End processing [stopwords-tr]: success
+[2024-05-01 09:33:00] INFO root fetch - processPackages [homeconnect-webthing]: Remove: archive file [/home/abi/fetcher/tmp/homeconnect_webthing-1.0.4.tar.gz]
+[2024-05-01 09:33:00] INFO root fetch - processPackages [homeconnect-webthing]: Remove: archive file [/home/abi/fetcher/tmp/homeconnect_webthing-1.0.5.tar.gz]
+[2024-05-01 09:33:00] INFO root fetch - main [MainThread]: End processing [homeconnect-webthing]: success
+[2024-05-01 09:33:00] INFO root fetch - processPackages [flatfile]: Remove: archive file [/home/abi/fetcher/tmp/flatfile-0.0.8.tar.gz]
+[2024-05-01 09:33:00] INFO root fetch - processPackages [flatfile]: Remove: archive file [/home/abi/fetcher/tmp/flatfile-0.0.9.tar.gz]
+[2024-05-01 09:33:00] INFO root fetch - main [MainThread]: End processing [flatfile]: success
+[2024-05-01 09:33:00] INFO root fetch - main [MainThread]: Store serial: [23013622]
