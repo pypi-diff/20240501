@@ -11190,3 +11190,33 @@
 [2024-05-01 08:41:30] INFO root fetch - processPackages [sora-sdk]: Remove: archive file [/home/abi/fetcher/tmp/sora_sdk-2024.3.0.dev0.tar.gz]
 [2024-05-01 08:41:30] INFO root fetch - main [MainThread]: End processing [sora-sdk]: success
 [2024-05-01 08:41:30] INFO root fetch - main [MainThread]: Store serial: [23013284]
+[2024-05-01 08:43:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23013284]
+[2024-05-01 08:43:39] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-01 08:43:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: assemblyline
+[2024-05-01 08:43:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: assemblyline-core
+[2024-05-01 08:43:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-snowflake
+[2024-05-01 08:43:39] INFO root fetch - processPackages [pulumi-snowflake]: New version: [0.9.1a1656367704] Old Version: [0.9.1a1654087017]
+[2024-05-01 08:43:39] INFO root fetch - processPackages [assemblyline-core]: New version: [4.5.1.dev99] Old Version: [4.5.1.dev98]
+[2024-05-01 08:43:39] INFO root fetch - processPackages [assemblyline]: New version: [4.5.1.dev99] Old Version: [4.5.1.dev98]
+[2024-05-01 08:43:39] INFO root fetch - processPackages [pulumi-snowflake]: Downloading https://files.pythonhosted.org/packages/ac/12/8a15836613d8faa0153d0c1b5818bfe83f875f5770e55c406bbc2e2f4297/pulumi_snowflake-0.9.1a1654087017.tar.gz
+[2024-05-01 08:43:39] INFO root fetch - processPackages [assemblyline-core]: Downloading https://files.pythonhosted.org/packages/12/39/7c12a7e1a83b7fa7f13d7afc4173ec9dc6b78ca4552bf0b9a435ba01ae68/assemblyline-core-4.5.1.dev98.tar.gz
+[2024-05-01 08:43:39] INFO root fetch - processPackages [assemblyline]: Downloading https://files.pythonhosted.org/packages/34/47/278f54d1db7121cbbd6fd52ae6b5d912d23bba5564c2358c8df0e487b385/assemblyline-4.5.1.dev98.tar.gz
+[2024-05-01 08:43:39] INFO root fetch - processPackages [pulumi-snowflake]: Downloading https://files.pythonhosted.org/packages/12/24/eac91fa678665e057906195a9e93366ecf0bc7997bd228eb1159a41ae631/pulumi_snowflake-0.9.1a1656367704.tar.gz
+[2024-05-01 08:43:39] INFO root fetch - processPackages [assemblyline-core]: Downloading https://files.pythonhosted.org/packages/e8/d3/c564610dd6dce1127f1151c7f3563431d86d9d02164cb93935506731edf0/assemblyline-core-4.5.1.dev99.tar.gz
+[2024-05-01 08:43:39] INFO root fetch - processPackages [assemblyline]: Downloading https://files.pythonhosted.org/packages/93/52/0f9ddbd8f661c94e049b4e11f65e866e0391882dd79699fea9a81ad39665/assemblyline-4.5.1.dev99.tar.gz
+[2024-05-01 08:43:39] INFO root fetch - processPackages [pulumi-snowflake]: executing diffoscope
+[2024-05-01 08:43:39] INFO root fetch - processPackages [pulumi-snowflake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_snowflake-0.9.1a1654087017.tar.gz tmp/pulumi_snowflake-0.9.1a1656367704.tar.gz --markdown 20240501/p/pulumi-snowflake/0.9.1a1654087017-0.9.1a1656367704/README.md --exclude *.pyd
+[2024-05-01 08:43:39] INFO root fetch - processPackages [assemblyline-core]: executing diffoscope
+[2024-05-01 08:43:39] INFO root fetch - processPackages [assemblyline-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline-core-4.5.1.dev98.tar.gz tmp/assemblyline-core-4.5.1.dev99.tar.gz --markdown 20240501/a/assemblyline-core/4.5.1.dev98-4.5.1.dev99/README.md --exclude *.pyd
+[2024-05-01 08:43:39] INFO root fetch - processPackages [assemblyline]: executing diffoscope
+[2024-05-01 08:43:39] INFO root fetch - processPackages [assemblyline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline-4.5.1.dev98.tar.gz tmp/assemblyline-4.5.1.dev99.tar.gz --markdown 20240501/a/assemblyline/4.5.1.dev98-4.5.1.dev99/README.md --exclude *.pyd
+[2024-05-01 08:43:40] INFO root fetch - processPackages [assemblyline-core]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline-core-4.5.1.dev98.tar.gz]
+[2024-05-01 08:43:40] INFO root fetch - processPackages [assemblyline-core]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline-core-4.5.1.dev99.tar.gz]
+[2024-05-01 08:43:40] INFO root fetch - main [MainThread]: End processing [assemblyline-core]: success
+[2024-05-01 08:43:40] INFO root fetch - processPackages [pulumi-snowflake]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_snowflake-0.9.1a1654087017.tar.gz]
+[2024-05-01 08:43:40] INFO root fetch - processPackages [pulumi-snowflake]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_snowflake-0.9.1a1656367704.tar.gz]
+[2024-05-01 08:43:40] INFO root fetch - main [MainThread]: End processing [pulumi-snowflake]: success
+[2024-05-01 08:43:40] INFO root fetch - processPackages [assemblyline]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline-4.5.1.dev98.tar.gz]
+[2024-05-01 08:43:40] INFO root fetch - processPackages [assemblyline]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline-4.5.1.dev99.tar.gz]
+[2024-05-01 08:43:40] INFO root fetch - main [MainThread]: End processing [assemblyline]: success
+[2024-05-01 08:43:40] INFO root fetch - main [MainThread]: Store serial: [23013291]
