@@ -6730,3 +6730,38 @@
 [2024-05-01 03:33:10] INFO root fetch - processPackages [autopipeline]: Remove: archive file [/home/abi/fetcher/tmp/autopipeline-0.1.99.tar.gz]
 [2024-05-01 03:33:10] INFO root fetch - main [MainThread]: End processing [autopipeline]: success
 [2024-05-01 03:33:10] INFO root fetch - main [MainThread]: Store serial: [23011051]
+[2024-05-01 03:35:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23011051]
+[2024-05-01 03:35:19] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-01 03:35:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: swarmauri
+[2024-05-01 03:35:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vision-agent
+[2024-05-01 03:35:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: glcl
+[2024-05-01 03:35:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tf-nightly-intel
+[2024-05-01 03:35:19] INFO root fetch - processPackages [glcl]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-01 03:35:19] INFO root fetch - processPackages [vision-agent]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-01 03:35:19] INFO root fetch - processPackages [swarmauri]: New version: [0.1.98] Old Version: [0.1.97]
+[2024-05-01 03:35:19] INFO root fetch - processPackages [glcl]: Downloading https://files.pythonhosted.org/packages/80/35/1c7d578f6955158e3a29fdbe85d84a5e1e432515654db39fbe3a834595f1/glcl-0.0.3.tar.gz
+[2024-05-01 03:35:19] INFO root fetch - processPackages [vision-agent]: Downloading https://files.pythonhosted.org/packages/0c/95/4cc93c0448acda0068720c68eff075929f25ab799564de37eef47b7b2c10/vision_agent-0.2.8.tar.gz
+[2024-05-01 03:35:19] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/03/28/110f5472a92acc538dbc8ee367824d900c87620c5ade8a06de94f77073a9/swarmauri-0.1.97.tar.gz
+[2024-05-01 03:35:19] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/42/ed/8993e08954a79efe0b18d91d01140d33cb74a16fe9e5ee223d03a0c251a4/swarmauri-0.1.98.tar.gz
+[2024-05-01 03:35:20] INFO root fetch - processPackages [tf-nightly-intel]: New version: [2.17.0.dev20240430] Old Version: [2.17.0.dev20240429]
+[2024-05-01 03:35:20] INFO root fetch - processPackages [swarmauri]: executing diffoscope
+[2024-05-01 03:35:20] INFO root fetch - processPackages [swarmauri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarmauri-0.1.97.tar.gz tmp/swarmauri-0.1.98.tar.gz --markdown 20240501/s/swarmauri/0.1.97-0.1.98/README.md --exclude *.pyd
+[2024-05-01 03:35:20] INFO root fetch - processPackages [vision-agent]: Downloading https://files.pythonhosted.org/packages/72/9f/90c2e26c1f92cadcd8c25d12307c9505ef1d189c73981f02b32432391cae/vision_agent-0.2.9.tar.gz
+[2024-05-01 03:35:20] INFO root fetch - processPackages [glcl]: Downloading https://files.pythonhosted.org/packages/91/9c/672ca434f553397a8afa0daaae501866206b8f40bbe95a58cbfb4d43a6d5/glcl-0.0.4.tar.gz
+[2024-05-01 03:35:20] INFO root fetch - processPackages [tf-nightly-intel]: Downloading https://files.pythonhosted.org/packages/1f/82/1388267d7ed4f6bc85606fad5b8ce082df08bd252d5951254bbbc8887bb1/tf_nightly_intel-2.17.0.dev20240429-cp39-cp39-win_amd64.whl
+[2024-05-01 03:35:20] WARNING root fetch - processPackages [tf-nightly-intel]: Skipping package: exceeds size limit 213270733>=10485760
+[2024-05-01 03:35:20] INFO root fetch - main [MainThread]: End processing [tf-nightly-intel] error
+[2024-05-01 03:35:20] INFO root fetch - processPackages [glcl]: executing diffoscope
+[2024-05-01 03:35:20] INFO root fetch - processPackages [glcl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glcl-0.0.3.tar.gz tmp/glcl-0.0.4.tar.gz --markdown 20240501/g/glcl/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-01 03:35:20] INFO root fetch - processPackages [vision-agent]: executing diffoscope
+[2024-05-01 03:35:20] INFO root fetch - processPackages [vision-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vision_agent-0.2.8.tar.gz tmp/vision_agent-0.2.9.tar.gz --markdown 20240501/v/vision-agent/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-01 03:35:21] INFO root fetch - processPackages [glcl]: Remove: archive file [/home/abi/fetcher/tmp/glcl-0.0.3.tar.gz]
+[2024-05-01 03:35:21] INFO root fetch - processPackages [glcl]: Remove: archive file [/home/abi/fetcher/tmp/glcl-0.0.4.tar.gz]
+[2024-05-01 03:35:21] INFO root fetch - main [MainThread]: End processing [glcl]: success
+[2024-05-01 03:35:21] INFO root fetch - processPackages [vision-agent]: Remove: archive file [/home/abi/fetcher/tmp/vision_agent-0.2.8.tar.gz]
+[2024-05-01 03:35:21] INFO root fetch - processPackages [vision-agent]: Remove: archive file [/home/abi/fetcher/tmp/vision_agent-0.2.9.tar.gz]
+[2024-05-01 03:35:21] INFO root fetch - main [MainThread]: End processing [vision-agent]: success
+[2024-05-01 03:35:21] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.1.97.tar.gz]
+[2024-05-01 03:35:21] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.1.98.tar.gz]
+[2024-05-01 03:35:21] INFO root fetch - main [MainThread]: End processing [swarmauri]: success
+[2024-05-01 03:35:21] INFO root fetch - main [MainThread]: Store serial: [23011120]
