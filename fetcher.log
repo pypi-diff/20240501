@@ -8880,3 +8880,33 @@
 [2024-05-01 06:29:09] INFO root fetch - processPackages [manyhttps]: Remove: archive file [/home/abi/fetcher/tmp/manyhttps-2.33.8.tar.gz]
 [2024-05-01 06:29:09] INFO root fetch - main [MainThread]: End processing [manyhttps]: success
 [2024-05-01 06:29:09] INFO root fetch - main [MainThread]: Store serial: [23012226]
+[2024-05-01 06:31:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23012226]
+[2024-05-01 06:31:20] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-01 06:31:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-external
+[2024-05-01 06:31:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dycw-utilities
+[2024-05-01 06:31:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: manyhttps
+[2024-05-01 06:31:20] INFO root fetch - processPackages [manyhttps]: New version: [2.33.9] Old Version: [2.33.8]
+[2024-05-01 06:31:20] INFO root fetch - processPackages [dycw-utilities]: New version: [0.9.0] Old Version: [0.8.8]
+[2024-05-01 06:31:20] INFO root fetch - processPackages [manyhttps]: Downloading https://files.pythonhosted.org/packages/fd/fe/9d540d992247de99bd5d9d6a7b795e8d1c199016753477876ce869157c14/manyhttps-2.33.8.tar.gz
+[2024-05-01 06:31:20] INFO root fetch - processPackages [pulumi-external]: New version: [0.1.0a1714536943] Old Version: [0.1.0a1714455167]
+[2024-05-01 06:31:20] INFO root fetch - processPackages [dycw-utilities]: Downloading https://files.pythonhosted.org/packages/a5/a4/993374a162ca6d880ff284c54df5acfb25a9f3347426746bb1aeeae915b9/dycw_utilities-0.8.8.tar.gz
+[2024-05-01 06:31:20] INFO root fetch - processPackages [pulumi-external]: Downloading https://files.pythonhosted.org/packages/9a/43/e16b25644bacd0382130e2aa5cb224bff3ae532e8f6e9e7bc19df2c168d9/pulumi_external-0.1.0a1714455167.tar.gz
+[2024-05-01 06:31:20] INFO root fetch - processPackages [manyhttps]: Downloading https://files.pythonhosted.org/packages/0e/bd/6f42cef93640793603ffbfc8c9e57a7090249f2221916a9d793d787da242/manyhttps-2.33.9.tar.gz
+[2024-05-01 06:31:20] INFO root fetch - processPackages [dycw-utilities]: Downloading https://files.pythonhosted.org/packages/18/5f/14fd12b36288c6f50f412854105898b537e348c0c10e7cedb0b54a05a56e/dycw_utilities-0.9.0.tar.gz
+[2024-05-01 06:31:20] INFO root fetch - processPackages [pulumi-external]: Downloading https://files.pythonhosted.org/packages/d3/c9/1d7898ef5114624d4ab0e4e7153c7784f2816bc643599e55cbc75a776d40/pulumi_external-0.1.0a1714536943.tar.gz
+[2024-05-01 06:31:20] INFO root fetch - processPackages [manyhttps]: executing diffoscope
+[2024-05-01 06:31:20] INFO root fetch - processPackages [manyhttps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/manyhttps-2.33.8.tar.gz tmp/manyhttps-2.33.9.tar.gz --markdown 20240501/m/manyhttps/2.33.8-2.33.9/README.md --exclude *.pyd
+[2024-05-01 06:31:20] INFO root fetch - processPackages [dycw-utilities]: executing diffoscope
+[2024-05-01 06:31:20] INFO root fetch - processPackages [dycw-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dycw_utilities-0.8.8.tar.gz tmp/dycw_utilities-0.9.0.tar.gz --markdown 20240501/d/dycw-utilities/0.8.8-0.9.0/README.md --exclude *.pyd
+[2024-05-01 06:31:20] INFO root fetch - processPackages [pulumi-external]: executing diffoscope
+[2024-05-01 06:31:20] INFO root fetch - processPackages [pulumi-external]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_external-0.1.0a1714455167.tar.gz tmp/pulumi_external-0.1.0a1714536943.tar.gz --markdown 20240501/p/pulumi-external/0.1.0a1714455167-0.1.0a1714536943/README.md --exclude *.pyd
+[2024-05-01 06:31:21] INFO root fetch - processPackages [manyhttps]: Remove: archive file [/home/abi/fetcher/tmp/manyhttps-2.33.8.tar.gz]
+[2024-05-01 06:31:21] INFO root fetch - processPackages [manyhttps]: Remove: archive file [/home/abi/fetcher/tmp/manyhttps-2.33.9.tar.gz]
+[2024-05-01 06:31:21] INFO root fetch - main [MainThread]: End processing [manyhttps]: success
+[2024-05-01 06:31:21] INFO root fetch - processPackages [pulumi-external]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_external-0.1.0a1714455167.tar.gz]
+[2024-05-01 06:31:21] INFO root fetch - processPackages [pulumi-external]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_external-0.1.0a1714536943.tar.gz]
+[2024-05-01 06:31:21] INFO root fetch - main [MainThread]: End processing [pulumi-external]: success
+[2024-05-01 06:31:21] INFO root fetch - processPackages [dycw-utilities]: Remove: archive file [/home/abi/fetcher/tmp/dycw_utilities-0.8.8.tar.gz]
+[2024-05-01 06:31:21] INFO root fetch - processPackages [dycw-utilities]: Remove: archive file [/home/abi/fetcher/tmp/dycw_utilities-0.9.0.tar.gz]
+[2024-05-01 06:31:21] INFO root fetch - main [MainThread]: End processing [dycw-utilities]: success
+[2024-05-01 06:31:21] INFO root fetch - main [MainThread]: Store serial: [23012234]
