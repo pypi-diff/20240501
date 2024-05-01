@@ -13143,3 +13143,60 @@
 [2024-05-01 10:34:15] INFO root fetch - processPackages [studcamp-yandex-hse]: Remove: archive file [/home/abi/fetcher/tmp/studcamp_yandex_hse-0.1.2.tar.gz]
 [2024-05-01 10:34:15] INFO root fetch - main [MainThread]: End processing [studcamp-yandex-hse]: success
 [2024-05-01 10:34:15] INFO root fetch - main [MainThread]: Store serial: [23014197]
+[2024-05-01 10:36:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23014197]
+[2024-05-01 10:36:24] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-01 10:36:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kingqueen
+[2024-05-01 10:36:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: maildeck
+[2024-05-01 10:36:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: socketsecurity
+[2024-05-01 10:36:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rofimoji
+[2024-05-01 10:36:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dtlpymetrics
+[2024-05-01 10:36:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ardupilot-log-reader
+[2024-05-01 10:36:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: upowpy
+[2024-05-01 10:36:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: meent
+[2024-05-01 10:36:24] INFO root fetch - processPackages [maildeck]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-01 10:36:24] WARNING root fetch - processPackages [socketsecurity]: Skipping, unable to determine old version
+[2024-05-01 10:36:24] INFO root fetch - main [MainThread]: End processing [socketsecurity] error
+[2024-05-01 10:36:24] WARNING root fetch - processPackages [kingqueen]: Skipping, unable to determine old version
+[2024-05-01 10:36:24] INFO root fetch - main [MainThread]: End processing [kingqueen] error
+[2024-05-01 10:36:24] WARNING root fetch - processPackages [upowpy]: Skipping, unable to determine old version
+[2024-05-01 10:36:24] INFO root fetch - main [MainThread]: End processing [upowpy] error
+[2024-05-01 10:36:24] INFO root fetch - processPackages [maildeck]: Downloading https://files.pythonhosted.org/packages/c9/57/832c757401db81a81ae82c7059c513c23b7728c4cf8fb5088567c699eff3/maildeck-0.1.1.tar.gz
+[2024-05-01 10:36:24] INFO root fetch - processPackages [dtlpymetrics]: New version: [1.0.99] Old Version: [1.0.98]
+[2024-05-01 10:36:24] INFO root fetch - processPackages [rofimoji]: New version: [6.3.0] Old Version: [6.2.0]
+[2024-05-01 10:36:24] INFO root fetch - processPackages [meent]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-01 10:36:24] INFO root fetch - processPackages [ardupilot-log-reader]: New version: [0.3.1] Old Version: [0.2.1]
+[2024-05-01 10:36:24] INFO root fetch - processPackages [rofimoji]: Downloading https://files.pythonhosted.org/packages/64/c2/603d18bbead6ae179f204b682fb5e60b7de5ab91a5222ce48d68d009df4e/rofimoji-6.2.0.tar.gz
+[2024-05-01 10:36:24] INFO root fetch - processPackages [dtlpymetrics]: Downloading https://files.pythonhosted.org/packages/4b/d5/50d5f33df8151e24a2267cade546c53f07df9aa07697ef6df960fbb6cf81/dtlpymetrics-1.0.98-py3-none-any.whl
+[2024-05-01 10:36:24] INFO root fetch - processPackages [ardupilot-log-reader]: Downloading https://files.pythonhosted.org/packages/c7/ed/2b33bde197c938c3f4564d531d5f68ac485097b9603b1eb959de02091cfd/ardupilot_log_reader-0.2.1.tar.gz
+[2024-05-01 10:36:24] INFO root fetch - processPackages [meent]: Downloading https://files.pythonhosted.org/packages/b8/81/067ef8d2d725d3d7756ad9054464ae346ff13347f679f38414e5e62c35e5/meent-0.9.8.tar.gz
+[2024-05-01 10:36:26] INFO root fetch - processPackages [maildeck]: Downloading https://files.pythonhosted.org/packages/6e/91/03198df2ffdadf42b05664f4d3c39ae12bc2568ac7f937d47e47e3dac0a1/maildeck-0.1.2.tar.gz
+[2024-05-01 10:36:26] INFO root fetch - processPackages [ardupilot-log-reader]: Downloading https://files.pythonhosted.org/packages/ee/b2/4ae5c671e2f3e50baa8c9d8236113072e12a3b49d00183f32ddf6c3af79b/ardupilot_log_reader-0.3.1.tar.gz
+[2024-05-01 10:36:26] INFO root fetch - processPackages [dtlpymetrics]: Downloading https://files.pythonhosted.org/packages/ee/98/d9a90cfa98962263d54498aad3fe68cfe86e7fb4718de227e36d4af1636e/dtlpymetrics-1.0.99-py3-none-any.whl
+[2024-05-01 10:36:26] INFO root fetch - processPackages [maildeck]: executing diffoscope
+[2024-05-01 10:36:26] INFO root fetch - processPackages [maildeck]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maildeck-0.1.1.tar.gz tmp/maildeck-0.1.2.tar.gz --markdown 20240501/m/maildeck/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-01 10:36:26] INFO root fetch - processPackages [ardupilot-log-reader]: executing diffoscope
+[2024-05-01 10:36:26] INFO root fetch - processPackages [ardupilot-log-reader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ardupilot_log_reader-0.2.1.tar.gz tmp/ardupilot_log_reader-0.3.1.tar.gz --markdown 20240501/a/ardupilot-log-reader/0.2.1-0.3.1/README.md --exclude *.pyd
+[2024-05-01 10:36:26] INFO root fetch - processPackages [rofimoji]: Downloading https://files.pythonhosted.org/packages/41/c3/0081544359a93b8a0a429f7073febe902900b427fdfa15cbae497262b109/rofimoji-6.3.0.tar.gz
+[2024-05-01 10:36:26] INFO root fetch - processPackages [dtlpymetrics]: executing diffoscope
+[2024-05-01 10:36:26] INFO root fetch - processPackages [dtlpymetrics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dtlpymetrics-1.0.98-py3-none-any.whl.zip tmp/dtlpymetrics-1.0.99-py3-none-any.whl.zip --markdown 20240501/d/dtlpymetrics/1.0.98-1.0.99/README.md --exclude *.pyd
+[2024-05-01 10:36:26] INFO root fetch - processPackages [meent]: Downloading https://files.pythonhosted.org/packages/88/3d/31feb627b55012f226571d4278e1d0de2431a474fa9140c114dd760bc3da/meent-0.9.9.tar.gz
+[2024-05-01 10:36:26] INFO root fetch - processPackages [rofimoji]: executing diffoscope
+[2024-05-01 10:36:26] INFO root fetch - processPackages [rofimoji]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rofimoji-6.2.0.tar.gz tmp/rofimoji-6.3.0.tar.gz --markdown 20240501/r/rofimoji/6.2.0-6.3.0/README.md --exclude *.pyd
+[2024-05-01 10:36:26] INFO root fetch - processPackages [meent]: executing diffoscope
+[2024-05-01 10:36:26] INFO root fetch - processPackages [meent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meent-0.9.8.tar.gz tmp/meent-0.9.9.tar.gz --markdown 20240501/m/meent/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-01 10:36:26] INFO root fetch - processPackages [maildeck]: Remove: archive file [/home/abi/fetcher/tmp/maildeck-0.1.1.tar.gz]
+[2024-05-01 10:36:26] INFO root fetch - processPackages [maildeck]: Remove: archive file [/home/abi/fetcher/tmp/maildeck-0.1.2.tar.gz]
+[2024-05-01 10:36:26] INFO root fetch - main [MainThread]: End processing [maildeck]: success
+[2024-05-01 10:36:27] INFO root fetch - processPackages [ardupilot-log-reader]: Remove: archive file [/home/abi/fetcher/tmp/ardupilot_log_reader-0.2.1.tar.gz]
+[2024-05-01 10:36:27] INFO root fetch - processPackages [ardupilot-log-reader]: Remove: archive file [/home/abi/fetcher/tmp/ardupilot_log_reader-0.3.1.tar.gz]
+[2024-05-01 10:36:27] INFO root fetch - main [MainThread]: End processing [ardupilot-log-reader]: success
+[2024-05-01 10:36:27] INFO root fetch - processPackages [dtlpymetrics]: Remove: archive file [/home/abi/fetcher/tmp/dtlpymetrics-1.0.98-py3-none-any.whl.zip]
+[2024-05-01 10:36:27] INFO root fetch - processPackages [dtlpymetrics]: Remove: archive file [/home/abi/fetcher/tmp/dtlpymetrics-1.0.99-py3-none-any.whl.zip]
+[2024-05-01 10:36:27] INFO root fetch - main [MainThread]: End processing [dtlpymetrics]: success
+[2024-05-01 10:36:27] INFO root fetch - processPackages [meent]: Remove: archive file [/home/abi/fetcher/tmp/meent-0.9.8.tar.gz]
+[2024-05-01 10:36:27] INFO root fetch - processPackages [meent]: Remove: archive file [/home/abi/fetcher/tmp/meent-0.9.9.tar.gz]
+[2024-05-01 10:36:27] INFO root fetch - main [MainThread]: End processing [meent]: success
+[2024-05-01 10:36:28] INFO root fetch - processPackages [rofimoji]: Remove: archive file [/home/abi/fetcher/tmp/rofimoji-6.2.0.tar.gz]
+[2024-05-01 10:36:28] INFO root fetch - processPackages [rofimoji]: Remove: archive file [/home/abi/fetcher/tmp/rofimoji-6.3.0.tar.gz]
+[2024-05-01 10:36:28] INFO root fetch - main [MainThread]: End processing [rofimoji]: success
+[2024-05-01 10:36:28] INFO root fetch - main [MainThread]: Store serial: [23014223]
