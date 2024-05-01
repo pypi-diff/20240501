@@ -2890,3 +2890,18 @@
 [2024-05-01 03:04:03] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.1.98.tar.gz]
 [2024-05-01 03:04:03] INFO root fetch - main [MainThread]: End processing [swarmauri]: success
 [2024-05-01 03:04:03] INFO root fetch - main [MainThread]: Store serial: [23009907]
+[2024-05-01 03:06:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23009907]
+[2024-05-01 03:06:12] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-01 03:06:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fintekkers-ledger-models
+[2024-05-01 03:06:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gimlet-api
+[2024-05-01 03:06:13] INFO root fetch - processPackages [fintekkers-ledger-models]: New version: [0.1.82] Old Version: [0.1.81]
+[2024-05-01 03:06:13] WARNING root fetch - processPackages [gimlet-api]: Skipping, unable to determine old version
+[2024-05-01 03:06:13] INFO root fetch - main [MainThread]: End processing [gimlet-api] error
+[2024-05-01 03:06:13] INFO root fetch - processPackages [fintekkers-ledger-models]: Downloading https://files.pythonhosted.org/packages/a7/96/55cafc60e00927455b4ab883b1339e4f368db4ecbd11155efe933e78386c/fintekkers-ledger-models-0.1.81.tar.gz
+[2024-05-01 03:06:13] INFO root fetch - processPackages [fintekkers-ledger-models]: Downloading https://files.pythonhosted.org/packages/05/58/070c698b4049a7880e8a976bf952909a98b336a4261c0dc9de4b44f1d494/fintekkers-ledger-models-0.1.82.tar.gz
+[2024-05-01 03:06:13] INFO root fetch - processPackages [fintekkers-ledger-models]: executing diffoscope
+[2024-05-01 03:06:13] INFO root fetch - processPackages [fintekkers-ledger-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fintekkers-ledger-models-0.1.81.tar.gz tmp/fintekkers-ledger-models-0.1.82.tar.gz --markdown 20240501/f/fintekkers-ledger-models/0.1.81-0.1.82/README.md --exclude *.pyd
+[2024-05-01 03:06:14] INFO root fetch - processPackages [fintekkers-ledger-models]: Remove: archive file [/home/abi/fetcher/tmp/fintekkers-ledger-models-0.1.81.tar.gz]
+[2024-05-01 03:06:14] INFO root fetch - processPackages [fintekkers-ledger-models]: Remove: archive file [/home/abi/fetcher/tmp/fintekkers-ledger-models-0.1.82.tar.gz]
+[2024-05-01 03:06:14] INFO root fetch - main [MainThread]: End processing [fintekkers-ledger-models]: success
+[2024-05-01 03:06:14] INFO root fetch - main [MainThread]: Store serial: [23009914]
