@@ -17795,3 +17795,72 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-01 13:56:04] INFO root fetch - processPackages [smartExecutorx]: Remove: archive file [/home/abi/fetcher/tmp/smartExecutorx-4.0.tar.gz]
 [2024-05-01 13:56:04] INFO root fetch - main [MainThread]: End processing [smartExecutorx]: success
 [2024-05-01 13:56:04] INFO root fetch - main [MainThread]: Store serial: [23016079]
+[2024-05-01 13:58:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23016079]
+[2024-05-01 13:58:12] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-01 13:58:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vasprocar
+[2024-05-01 13:58:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: trytond-party-siret
+[2024-05-01 13:58:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: trytond-party
+[2024-05-01 13:58:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: trytond-marketing-campaign
+[2024-05-01 13:58:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tiny-dag
+[2024-05-01 13:58:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: trytond-marketing-automation
+[2024-05-01 13:58:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: apache-airflow-providers-airbyte
+[2024-05-01 13:58:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: apache-airflow-providers-alibaba
+[2024-05-01 13:58:13] INFO root fetch - processPackages [tiny-dag]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-01 13:58:13] INFO root fetch - processPackages [tiny-dag]: Downloading https://files.pythonhosted.org/packages/b0/65/4307f67f30e1790cfcdeb57ca288fe6324cb64983e4d276cf3a09aa3ab3b/tiny_dag-0.0.7.tar.gz
+[2024-05-01 13:58:13] INFO root fetch - processPackages [trytond-party]: New version: [7.2.1] Old Version: [7.2.0]
+[2024-05-01 13:58:13] INFO root fetch - processPackages [trytond-marketing-automation]: New version: [7.2.1] Old Version: [7.2.0]
+[2024-05-01 13:58:13] INFO root fetch - processPackages [trytond-marketing-campaign]: New version: [7.2.1] Old Version: [7.2.0]
+[2024-05-01 13:58:13] WARNING root fetch - processPackages [vasprocar]: Skipping, unable to determine old version
+[2024-05-01 13:58:13] INFO root fetch - main [MainThread]: End processing [vasprocar] error
+[2024-05-01 13:58:13] INFO root fetch - processPackages [trytond-party-siret]: New version: [7.2.1] Old Version: [7.2.0]
+[2024-05-01 13:58:13] INFO root fetch - processPackages [apache-airflow-providers-airbyte]: New version: [3.8.0rc1] Old Version: [3.7.0rc1]
+[2024-05-01 13:58:13] INFO root fetch - processPackages [apache-airflow-providers-alibaba]: New version: [2.8.0rc1] Old Version: [2.7.3rc1]
+[2024-05-01 13:58:13] INFO root fetch - processPackages [tiny-dag]: Downloading https://files.pythonhosted.org/packages/0b/8f/7ed4579b2871c6e935763bae678d4e60f2a47897c8193b85a132772b15d9/tiny_dag-0.0.8.tar.gz
+[2024-05-01 13:58:13] INFO root fetch - processPackages [trytond-party]: Downloading https://files.pythonhosted.org/packages/28/59/7555046f13ae5f87495c1495bb7f2abb813a320bfcca6d9118ed3263b2bf/trytond_party-7.2.0.tar.gz
+[2024-05-01 13:58:13] INFO root fetch - processPackages [trytond-marketing-automation]: Downloading https://files.pythonhosted.org/packages/c9/8d/2f2bcea3dc01c45f5fb5dbfed854abe790c4230429fc00e70294e61feca4/trytond_marketing_automation-7.2.0.tar.gz
+[2024-05-01 13:58:13] INFO root fetch - processPackages [trytond-party-siret]: Downloading https://files.pythonhosted.org/packages/75/e9/f9efc67d2e1a929e258e807eead64f8f8de8d452ec20ac039775083c6b69/trytond_party_siret-7.2.0.tar.gz
+[2024-05-01 13:58:13] INFO root fetch - processPackages [trytond-marketing-campaign]: Downloading https://files.pythonhosted.org/packages/f4/c4/e1333608be6b876808d03a7c6db90c21eee0a8b114139c2ae9503411a1e5/trytond_marketing_campaign-7.2.0.tar.gz
+[2024-05-01 13:58:13] INFO root fetch - processPackages [apache-airflow-providers-airbyte]: Downloading https://files.pythonhosted.org/packages/81/20/440f49aa4f2e065ecd3a0c362fc64dab962d62e89533ccdf43223bd60441/apache_airflow_providers_airbyte-3.7.0rc1.tar.gz
+[2024-05-01 13:58:13] INFO root fetch - processPackages [tiny-dag]: executing diffoscope
+[2024-05-01 13:58:13] INFO root fetch - processPackages [tiny-dag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tiny_dag-0.0.7.tar.gz tmp/tiny_dag-0.0.8.tar.gz --markdown 20240501/t/tiny-dag/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-01 13:58:13] INFO root fetch - processPackages [apache-airflow-providers-alibaba]: Downloading https://files.pythonhosted.org/packages/1f/4e/9542b7aa9c5bbb02a716fdbe401af622ec8b731ca68551a105d6f577f934/apache_airflow_providers_alibaba-2.7.3rc1.tar.gz
+[2024-05-01 13:58:13] INFO root fetch - processPackages [trytond-party]: Downloading https://files.pythonhosted.org/packages/24/e8/ce81e9e008b8f51fd0b993054ea00f9859f4577ed3e76b353434e4018377/trytond_party-7.2.1.tar.gz
+[2024-05-01 13:58:13] INFO root fetch - processPackages [trytond-marketing-campaign]: Downloading https://files.pythonhosted.org/packages/d8/93/e0d9b35f5363cd6a68523f5ea8f6a02374a8fdb59cf41e412b92be9c5567/trytond_marketing_campaign-7.2.1.tar.gz
+[2024-05-01 13:58:13] INFO root fetch - processPackages [trytond-party-siret]: Downloading https://files.pythonhosted.org/packages/ce/6c/0e60c37acdb907f0fc42da4baee4e84139e4a6f2201b92f21a4efe8fd3e5/trytond_party_siret-7.2.1.tar.gz
+[2024-05-01 13:58:13] INFO root fetch - processPackages [apache-airflow-providers-airbyte]: Downloading https://files.pythonhosted.org/packages/6f/e7/00cde3a664849b2e3458326e64ce8bf0df511070f6eccc1fca8035855a17/apache_airflow_providers_airbyte-3.8.0rc1-py3-none-any.whl
+[2024-05-01 13:58:13] INFO root fetch - processPackages [trytond-marketing-automation]: Downloading https://files.pythonhosted.org/packages/5b/c9/2c13b8b2df4f6e54b26059c029652e5586ff368f6c6354537621f8561abe/trytond_marketing_automation-7.2.1.tar.gz
+[2024-05-01 13:58:13] INFO root fetch - processPackages [trytond-party]: executing diffoscope
+[2024-05-01 13:58:13] INFO root fetch - processPackages [trytond-party]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_party-7.2.0.tar.gz tmp/trytond_party-7.2.1.tar.gz --markdown 20240501/t/trytond-party/7.2.0-7.2.1/README.md --exclude *.pyd
+[2024-05-01 13:58:13] INFO root fetch - processPackages [apache-airflow-providers-alibaba]: Downloading https://files.pythonhosted.org/packages/14/ec/98edf70da4f4d1eb6731c0498e66f4573e42679ca09fa1e9a61eaf566f0b/apache_airflow_providers_alibaba-2.8.0rc1-py3-none-any.whl
+[2024-05-01 13:58:14] INFO root fetch - processPackages [trytond-marketing-campaign]: executing diffoscope
+[2024-05-01 13:58:14] INFO root fetch - processPackages [trytond-marketing-campaign]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_marketing_campaign-7.2.0.tar.gz tmp/trytond_marketing_campaign-7.2.1.tar.gz --markdown 20240501/t/trytond-marketing-campaign/7.2.0-7.2.1/README.md --exclude *.pyd
+[2024-05-01 13:58:14] INFO root fetch - processPackages [trytond-party-siret]: executing diffoscope
+[2024-05-01 13:58:14] INFO root fetch - processPackages [trytond-party-siret]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_party_siret-7.2.0.tar.gz tmp/trytond_party_siret-7.2.1.tar.gz --markdown 20240501/t/trytond-party-siret/7.2.0-7.2.1/README.md --exclude *.pyd
+[2024-05-01 13:58:14] INFO root fetch - processPackages [tiny-dag]: Remove: archive file [/home/abi/fetcher/tmp/tiny_dag-0.0.7.tar.gz]
+[2024-05-01 13:58:14] INFO root fetch - processPackages [tiny-dag]: Remove: archive file [/home/abi/fetcher/tmp/tiny_dag-0.0.8.tar.gz]
+[2024-05-01 13:58:14] INFO root fetch - main [MainThread]: End processing [tiny-dag]: success
+[2024-05-01 13:58:14] INFO root fetch - processPackages [apache-airflow-providers-airbyte]: executing diffoscope
+[2024-05-01 13:58:14] INFO root fetch - processPackages [apache-airflow-providers-airbyte]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apache_airflow_providers_airbyte-3.7.0rc1.tar.gz tmp/apache_airflow_providers_airbyte-3.8.0rc1-py3-none-any.whl.zip --markdown 20240501/a/apache-airflow-providers-airbyte/3.7.0rc1-3.8.0rc1/README.md --exclude *.pyd
+[2024-05-01 13:58:14] INFO root fetch - processPackages [trytond-marketing-automation]: executing diffoscope
+[2024-05-01 13:58:14] INFO root fetch - processPackages [trytond-marketing-automation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_marketing_automation-7.2.0.tar.gz tmp/trytond_marketing_automation-7.2.1.tar.gz --markdown 20240501/t/trytond-marketing-automation/7.2.0-7.2.1/README.md --exclude *.pyd
+[2024-05-01 13:58:14] INFO root fetch - processPackages [apache-airflow-providers-alibaba]: executing diffoscope
+[2024-05-01 13:58:14] INFO root fetch - processPackages [apache-airflow-providers-alibaba]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apache_airflow_providers_alibaba-2.7.3rc1.tar.gz tmp/apache_airflow_providers_alibaba-2.8.0rc1-py3-none-any.whl.zip --markdown 20240501/a/apache-airflow-providers-alibaba/2.7.3rc1-2.8.0rc1/README.md --exclude *.pyd
+[2024-05-01 13:58:14] INFO root fetch - processPackages [apache-airflow-providers-airbyte]: Remove: archive file [/home/abi/fetcher/tmp/apache_airflow_providers_airbyte-3.7.0rc1.tar.gz]
+[2024-05-01 13:58:14] INFO root fetch - processPackages [apache-airflow-providers-airbyte]: Remove: archive file [/home/abi/fetcher/tmp/apache_airflow_providers_airbyte-3.8.0rc1-py3-none-any.whl.zip]
+[2024-05-01 13:58:14] INFO root fetch - main [MainThread]: End processing [apache-airflow-providers-airbyte]: success
+[2024-05-01 13:58:14] INFO root fetch - processPackages [trytond-marketing-campaign]: Remove: archive file [/home/abi/fetcher/tmp/trytond_marketing_campaign-7.2.0.tar.gz]
+[2024-05-01 13:58:14] INFO root fetch - processPackages [trytond-marketing-campaign]: Remove: archive file [/home/abi/fetcher/tmp/trytond_marketing_campaign-7.2.1.tar.gz]
+[2024-05-01 13:58:14] INFO root fetch - main [MainThread]: End processing [trytond-marketing-campaign]: success
+[2024-05-01 13:58:14] INFO root fetch - processPackages [trytond-party-siret]: Remove: archive file [/home/abi/fetcher/tmp/trytond_party_siret-7.2.0.tar.gz]
+[2024-05-01 13:58:14] INFO root fetch - processPackages [trytond-party-siret]: Remove: archive file [/home/abi/fetcher/tmp/trytond_party_siret-7.2.1.tar.gz]
+[2024-05-01 13:58:14] INFO root fetch - main [MainThread]: End processing [trytond-party-siret]: success
+[2024-05-01 13:58:14] INFO root fetch - processPackages [trytond-party]: Remove: archive file [/home/abi/fetcher/tmp/trytond_party-7.2.0.tar.gz]
+[2024-05-01 13:58:14] INFO root fetch - processPackages [trytond-party]: Remove: archive file [/home/abi/fetcher/tmp/trytond_party-7.2.1.tar.gz]
+[2024-05-01 13:58:14] INFO root fetch - main [MainThread]: End processing [trytond-party]: success
+[2024-05-01 13:58:14] INFO root fetch - processPackages [apache-airflow-providers-alibaba]: Remove: archive file [/home/abi/fetcher/tmp/apache_airflow_providers_alibaba-2.7.3rc1.tar.gz]
+[2024-05-01 13:58:14] INFO root fetch - processPackages [apache-airflow-providers-alibaba]: Remove: archive file [/home/abi/fetcher/tmp/apache_airflow_providers_alibaba-2.8.0rc1-py3-none-any.whl.zip]
+[2024-05-01 13:58:14] INFO root fetch - main [MainThread]: End processing [apache-airflow-providers-alibaba]: success
+[2024-05-01 13:58:15] INFO root fetch - processPackages [trytond-marketing-automation]: Remove: archive file [/home/abi/fetcher/tmp/trytond_marketing_automation-7.2.0.tar.gz]
+[2024-05-01 13:58:15] INFO root fetch - processPackages [trytond-marketing-automation]: Remove: archive file [/home/abi/fetcher/tmp/trytond_marketing_automation-7.2.1.tar.gz]
+[2024-05-01 13:58:15] INFO root fetch - main [MainThread]: End processing [trytond-marketing-automation]: success
+[2024-05-01 13:58:15] INFO root fetch - main [MainThread]: Store serial: [23016105]
