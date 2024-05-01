@@ -2689,3 +2689,87 @@
 [2024-05-01 02:52:52] INFO root fetch - processPackages [cdk-sns-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sns-notify-0.0.99.tar.gz]
 [2024-05-01 02:52:52] INFO root fetch - main [MainThread]: End processing [cdk-sns-notify]: success
 [2024-05-01 02:52:52] INFO root fetch - main [MainThread]: Store serial: [23009826]
+[2024-05-01 02:54:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23009826]
+[2024-05-01 02:55:00] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-01 02:55:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: livekit-agents
+[2024-05-01 02:55:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: snowflake._legacy
+[2024-05-01 02:55:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bioversions
+[2024-05-01 02:55:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: snowflake
+[2024-05-01 02:55:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: snowflake.core
+[2024-05-01 02:55:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: livekit-plugins-elevenlabs
+[2024-05-01 02:55:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: livekit-plugins-deepgram
+[2024-05-01 02:55:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: livekit-plugins-google
+[2024-05-01 02:55:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: livekit-plugins-nltk
+[2024-05-01 02:55:00] INFO root fetch - processPackages [livekit-agents]: New version: [0.6.dev0] Old Version: [0.5.dev3]
+[2024-05-01 02:55:00] INFO root fetch - processPackages [livekit-plugins-elevenlabs]: New version: [0.4.dev0] Old Version: [0.3.dev0]
+[2024-05-01 02:55:00] INFO root fetch - processPackages [livekit-plugins-nltk]: New version: [0.5.dev0] Old Version: [0.4.dev0]
+[2024-05-01 02:55:00] INFO root fetch - processPackages [livekit-plugins-google]: New version: [0.4.dev0] Old Version: [0.3.dev0]
+[2024-05-01 02:55:00] INFO root fetch - processPackages [livekit-plugins-deepgram]: New version: [0.4.dev0] Old Version: [0.3.dev0]
+[2024-05-01 02:55:00] INFO root fetch - processPackages [snowflake.core]: New version: [0.8.0] Old Version: [0.7.0]
+[2024-05-01 02:55:00] INFO root fetch - processPackages [snowflake._legacy]: New version: [0.8.0] Old Version: [0.7.0]
+[2024-05-01 02:55:00] INFO root fetch - processPackages [snowflake]: New version: [0.8.0] Old Version: [0.7.0]
+[2024-05-01 02:55:00] INFO root fetch - processPackages [livekit-plugins-nltk]: Downloading https://files.pythonhosted.org/packages/e2/a7/8869f375ca58fdef5a3c5b6adb464e978140473f98828458c8ff58d14b36/livekit-plugins-nltk-0.4.dev0.tar.gz
+[2024-05-01 02:55:00] INFO root fetch - processPackages [livekit-agents]: Downloading https://files.pythonhosted.org/packages/43/a8/6556d5193254c7ecd007d9ebf7ce41284724f95c1ecbc4ffeabff3f93ca1/livekit-agents-0.5.dev3.tar.gz
+[2024-05-01 02:55:00] INFO root fetch - processPackages [livekit-plugins-elevenlabs]: Downloading https://files.pythonhosted.org/packages/ad/e8/c130245ec19d05b3b4b0466df07bbb5c30d59d0348dcd29ce9ffedb59072/livekit-plugins-elevenlabs-0.3.dev0.tar.gz
+[2024-05-01 02:55:00] INFO root fetch - processPackages [bioversions]: New version: [0.5.99] Old Version: [0.5.98]
+[2024-05-01 02:55:00] INFO root fetch - processPackages [livekit-plugins-google]: Downloading https://files.pythonhosted.org/packages/2f/be/df0ec3f70f11551f7381b8a1bfaf8182228d2f047b8dfd8909f43d9ec9be/livekit-plugins-google-0.3.dev0.tar.gz
+[2024-05-01 02:55:00] INFO root fetch - processPackages [livekit-plugins-deepgram]: Downloading https://files.pythonhosted.org/packages/9b/1f/7a1b4401fe431e2379b3d97c50e0cd0bce2b3e4815d2c2fc7d0856b04710/livekit-plugins-deepgram-0.3.dev0.tar.gz
+[2024-05-01 02:55:01] INFO root fetch - processPackages [snowflake.core]: Downloading https://files.pythonhosted.org/packages/dd/35/70df207a7a3c141b9e97d0e0d03c1564622b926237989c9f264a90196064/snowflake_core-0.7.0.tar.gz
+[2024-05-01 02:55:01] INFO root fetch - processPackages [snowflake._legacy]: Downloading https://files.pythonhosted.org/packages/a1/83/7f233601a56e93106bc79dd692f8b9b67f48358f42fbc05d7e88f6a62d3b/snowflake_legacy-0.7.0.tar.gz
+[2024-05-01 02:55:01] INFO root fetch - processPackages [bioversions]: Downloading https://files.pythonhosted.org/packages/e6/34/7c40209c13edc9fe7c611a00fd4b0d6e59d501613427ed6713ad6398b655/bioversions-0.5.98.tar.gz
+[2024-05-01 02:55:01] INFO root fetch - processPackages [livekit-plugins-nltk]: Downloading https://files.pythonhosted.org/packages/d0/58/0c1a5ac50820890deb372bf1c97ec010d4ef26887ab81acfffff9f103cab/livekit_plugins_nltk-0.5.dev0.tar.gz
+[2024-05-01 02:55:01] INFO root fetch - processPackages [snowflake]: Downloading https://files.pythonhosted.org/packages/ad/0c/dd0a3eb54e087631f393ca12583fbba6a0a41bc672eecf962715a53ffd59/snowflake-0.7.0.tar.gz
+[2024-05-01 02:55:01] INFO root fetch - processPackages [livekit-plugins-google]: Downloading https://files.pythonhosted.org/packages/9c/7c/3a48043adbf05d6777cdf39a4375457da8a0c8af16fc48a648773fcceb93/livekit_plugins_google-0.4.dev0.tar.gz
+[2024-05-01 02:55:01] INFO root fetch - processPackages [livekit-agents]: Downloading https://files.pythonhosted.org/packages/09/b0/44061ac9cb68a468052cb522d4aec7b9265a9f3da35427c97f4d12a42173/livekit_agents-0.6.dev0.tar.gz
+[2024-05-01 02:55:01] INFO root fetch - processPackages [livekit-plugins-deepgram]: Downloading https://files.pythonhosted.org/packages/15/5a/0e4d418e7eb52ee2616b6c76a9de6c435b9a7c7d4bb85e1933bdd3f1afc4/livekit_plugins_deepgram-0.4.dev0.tar.gz
+[2024-05-01 02:55:01] INFO root fetch - processPackages [livekit-plugins-elevenlabs]: Downloading https://files.pythonhosted.org/packages/f4/c5/23589196347132015e4c52d7f0366d763594adbc387f3288c6c7ed116d1e/livekit_plugins_elevenlabs-0.4.dev0.tar.gz
+[2024-05-01 02:55:01] INFO root fetch - processPackages [livekit-plugins-nltk]: executing diffoscope
+[2024-05-01 02:55:01] INFO root fetch - processPackages [livekit-plugins-nltk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/livekit-plugins-nltk-0.4.dev0.tar.gz tmp/livekit_plugins_nltk-0.5.dev0.tar.gz --markdown 20240501/l/livekit-plugins-nltk/0.4.dev0-0.5.dev0/README.md --exclude *.pyd
+[2024-05-01 02:55:01] INFO root fetch - processPackages [livekit-plugins-google]: executing diffoscope
+[2024-05-01 02:55:01] INFO root fetch - processPackages [livekit-plugins-google]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/livekit-plugins-google-0.3.dev0.tar.gz tmp/livekit_plugins_google-0.4.dev0.tar.gz --markdown 20240501/l/livekit-plugins-google/0.3.dev0-0.4.dev0/README.md --exclude *.pyd
+[2024-05-01 02:55:01] INFO root fetch - processPackages [livekit-plugins-deepgram]: executing diffoscope
+[2024-05-01 02:55:01] INFO root fetch - processPackages [livekit-plugins-deepgram]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/livekit-plugins-deepgram-0.3.dev0.tar.gz tmp/livekit_plugins_deepgram-0.4.dev0.tar.gz --markdown 20240501/l/livekit-plugins-deepgram/0.3.dev0-0.4.dev0/README.md --exclude *.pyd
+[2024-05-01 02:55:01] INFO root fetch - processPackages [livekit-agents]: executing diffoscope
+[2024-05-01 02:55:01] INFO root fetch - processPackages [livekit-agents]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/livekit-agents-0.5.dev3.tar.gz tmp/livekit_agents-0.6.dev0.tar.gz --markdown 20240501/l/livekit-agents/0.5.dev3-0.6.dev0/README.md --exclude *.pyd
+[2024-05-01 02:55:01] INFO root fetch - processPackages [livekit-plugins-elevenlabs]: executing diffoscope
+[2024-05-01 02:55:01] INFO root fetch - processPackages [livekit-plugins-elevenlabs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/livekit-plugins-elevenlabs-0.3.dev0.tar.gz tmp/livekit_plugins_elevenlabs-0.4.dev0.tar.gz --markdown 20240501/l/livekit-plugins-elevenlabs/0.3.dev0-0.4.dev0/README.md --exclude *.pyd
+[2024-05-01 02:55:01] INFO root fetch - processPackages [snowflake.core]: Downloading https://files.pythonhosted.org/packages/9d/74/43d9da3a3c53863c627bf74fd42ab43335ba1bd8a03ee8e69f99f4031e67/snowflake_core-0.8.0.tar.gz
+[2024-05-01 02:55:01] INFO root fetch - processPackages [snowflake._legacy]: Downloading https://files.pythonhosted.org/packages/16/cc/d3b5eb6d14c02b99bfeca54a2f8df6f5ad617359bcfe23c9a7d04ef25560/snowflake_legacy-0.8.0.tar.gz
+[2024-05-01 02:55:01] INFO root fetch - processPackages [snowflake]: Downloading https://files.pythonhosted.org/packages/04/c1/d28e7305f6fbcce08db16a8241ae1318eb2fd9a66bdec4e4a0093feb90c8/snowflake-0.8.0.tar.gz
+[2024-05-01 02:55:01] INFO root fetch - processPackages [bioversions]: Downloading https://files.pythonhosted.org/packages/0d/f5/5956eccd9643084cc5f7aba6325ec9de1ed3a2bb3568a8ee7ab88d0eac77/bioversions-0.5.99.tar.gz
+[2024-05-01 02:55:01] INFO root fetch - processPackages [snowflake._legacy]: executing diffoscope
+[2024-05-01 02:55:01] INFO root fetch - processPackages [snowflake._legacy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snowflake_legacy-0.7.0.tar.gz tmp/snowflake_legacy-0.8.0.tar.gz --markdown 20240501/s/snowflake._legacy/0.7.0-0.8.0/README.md --exclude *.pyd
+[2024-05-01 02:55:01] INFO root fetch - processPackages [snowflake]: executing diffoscope
+[2024-05-01 02:55:01] INFO root fetch - processPackages [snowflake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snowflake-0.7.0.tar.gz tmp/snowflake-0.8.0.tar.gz --markdown 20240501/s/snowflake/0.7.0-0.8.0/README.md --exclude *.pyd
+[2024-05-01 02:55:01] INFO root fetch - processPackages [snowflake.core]: executing diffoscope
+[2024-05-01 02:55:01] INFO root fetch - processPackages [snowflake.core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snowflake_core-0.7.0.tar.gz tmp/snowflake_core-0.8.0.tar.gz --markdown 20240501/s/snowflake.core/0.7.0-0.8.0/README.md --exclude *.pyd
+[2024-05-01 02:55:01] INFO root fetch - processPackages [bioversions]: executing diffoscope
+[2024-05-01 02:55:01] INFO root fetch - processPackages [bioversions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioversions-0.5.98.tar.gz tmp/bioversions-0.5.99.tar.gz --markdown 20240501/b/bioversions/0.5.98-0.5.99/README.md --exclude *.pyd
+[2024-05-01 02:55:02] INFO root fetch - processPackages [livekit-plugins-nltk]: Remove: archive file [/home/abi/fetcher/tmp/livekit-plugins-nltk-0.4.dev0.tar.gz]
+[2024-05-01 02:55:02] INFO root fetch - processPackages [livekit-plugins-nltk]: Remove: archive file [/home/abi/fetcher/tmp/livekit_plugins_nltk-0.5.dev0.tar.gz]
+[2024-05-01 02:55:02] INFO root fetch - main [MainThread]: End processing [livekit-plugins-nltk]: success
+[2024-05-01 02:55:02] INFO root fetch - processPackages [livekit-plugins-google]: Remove: archive file [/home/abi/fetcher/tmp/livekit-plugins-google-0.3.dev0.tar.gz]
+[2024-05-01 02:55:02] INFO root fetch - processPackages [livekit-plugins-google]: Remove: archive file [/home/abi/fetcher/tmp/livekit_plugins_google-0.4.dev0.tar.gz]
+[2024-05-01 02:55:02] INFO root fetch - main [MainThread]: End processing [livekit-plugins-google]: success
+[2024-05-01 02:55:02] INFO root fetch - processPackages [livekit-plugins-elevenlabs]: Remove: archive file [/home/abi/fetcher/tmp/livekit-plugins-elevenlabs-0.3.dev0.tar.gz]
+[2024-05-01 02:55:02] INFO root fetch - processPackages [livekit-plugins-elevenlabs]: Remove: archive file [/home/abi/fetcher/tmp/livekit_plugins_elevenlabs-0.4.dev0.tar.gz]
+[2024-05-01 02:55:02] INFO root fetch - main [MainThread]: End processing [livekit-plugins-elevenlabs]: success
+[2024-05-01 02:55:02] INFO root fetch - processPackages [livekit-plugins-deepgram]: Remove: archive file [/home/abi/fetcher/tmp/livekit-plugins-deepgram-0.3.dev0.tar.gz]
+[2024-05-01 02:55:02] INFO root fetch - processPackages [livekit-plugins-deepgram]: Remove: archive file [/home/abi/fetcher/tmp/livekit_plugins_deepgram-0.4.dev0.tar.gz]
+[2024-05-01 02:55:02] INFO root fetch - main [MainThread]: End processing [livekit-plugins-deepgram]: success
+[2024-05-01 02:55:02] INFO root fetch - processPackages [livekit-agents]: Remove: archive file [/home/abi/fetcher/tmp/livekit-agents-0.5.dev3.tar.gz]
+[2024-05-01 02:55:02] INFO root fetch - processPackages [livekit-agents]: Remove: archive file [/home/abi/fetcher/tmp/livekit_agents-0.6.dev0.tar.gz]
+[2024-05-01 02:55:02] INFO root fetch - main [MainThread]: End processing [livekit-agents]: success
+[2024-05-01 02:55:02] INFO root fetch - processPackages [snowflake]: Remove: archive file [/home/abi/fetcher/tmp/snowflake-0.7.0.tar.gz]
+[2024-05-01 02:55:02] INFO root fetch - processPackages [snowflake]: Remove: archive file [/home/abi/fetcher/tmp/snowflake-0.8.0.tar.gz]
+[2024-05-01 02:55:02] INFO root fetch - main [MainThread]: End processing [snowflake]: success
+[2024-05-01 02:55:02] INFO root fetch - processPackages [snowflake._legacy]: Remove: archive file [/home/abi/fetcher/tmp/snowflake_legacy-0.7.0.tar.gz]
+[2024-05-01 02:55:02] INFO root fetch - processPackages [snowflake._legacy]: Remove: archive file [/home/abi/fetcher/tmp/snowflake_legacy-0.8.0.tar.gz]
+[2024-05-01 02:55:02] INFO root fetch - main [MainThread]: End processing [snowflake._legacy]: success
+[2024-05-01 02:55:04] INFO root fetch - processPackages [snowflake.core]: Remove: archive file [/home/abi/fetcher/tmp/snowflake_core-0.7.0.tar.gz]
+[2024-05-01 02:55:04] INFO root fetch - processPackages [snowflake.core]: Remove: archive file [/home/abi/fetcher/tmp/snowflake_core-0.8.0.tar.gz]
+[2024-05-01 02:55:04] INFO root fetch - main [MainThread]: End processing [snowflake.core]: success
+[2024-05-01 02:55:21] INFO root fetch - processPackages [bioversions]: Remove: archive file [/home/abi/fetcher/tmp/bioversions-0.5.98.tar.gz]
+[2024-05-01 02:55:21] INFO root fetch - processPackages [bioversions]: Remove: archive file [/home/abi/fetcher/tmp/bioversions-0.5.99.tar.gz]
+[2024-05-01 02:55:21] INFO root fetch - main [MainThread]: End processing [bioversions]: success
+[2024-05-01 02:55:21] INFO root fetch - main [MainThread]: Store serial: [23009855]
