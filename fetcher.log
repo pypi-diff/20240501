@@ -15490,3 +15490,54 @@
 [2024-05-01 12:24:31] INFO root fetch - processPackages [pulumi-artifactory]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_artifactory-6.8.0a1714556686.tar.gz]
 [2024-05-01 12:24:31] INFO root fetch - main [MainThread]: End processing [pulumi-artifactory]: success
 [2024-05-01 12:24:31] INFO root fetch - main [MainThread]: Store serial: [23015198]
+[2024-05-01 12:26:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23015198]
+[2024-05-01 12:26:40] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-01 12:26:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: scriptman
+[2024-05-01 12:26:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: imsciences
+[2024-05-01 12:26:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: imsciences
+[2024-05-01 12:26:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: galgebra
+[2024-05-01 12:26:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: home-assistant-frontend
+[2024-05-01 12:26:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi-linode
+[2024-05-01 12:26:40] INFO root fetch - processPackages [galgebra]: New version: [0.5.2rc1] Old Version: [0.5.1]
+[2024-05-01 12:26:40] INFO root fetch - processPackages [home-assistant-frontend]: New version: [20240430.0] Old Version: [20240429.0]
+[2024-05-01 12:26:40] INFO root fetch - processPackages [pulumi-linode]: New version: [4.9.1] Old Version: [4.9.0a1700248892]
+[2024-05-01 12:26:40] INFO root fetch - processPackages [scriptman]: New version: [0.0.0.9] Old Version: [0.0.0.8]
+[2024-05-01 12:26:40] INFO root fetch - processPackages [imsciences]: New version: [0.5.5.0] Old Version: [0.5.4.9]
+[2024-05-01 12:26:40] INFO root fetch - processPackages [galgebra]: Downloading https://files.pythonhosted.org/packages/e4/51/e5c34fe85ea928f813cf9b9bc91b5afe6bbe2a734107a2e044b384086a4b/galgebra-0.5.1.tar.gz
+[2024-05-01 12:26:40] INFO root fetch - processPackages [imsciences]: New version: [0.5.5.0] Old Version: [0.5.4.9]
+[2024-05-01 12:26:40] INFO root fetch - processPackages [home-assistant-frontend]: Downloading https://files.pythonhosted.org/packages/56/3b/216fd6ce45d114763866a72d9d6e90a017758019cc920915adb9fe506bff/home_assistant_frontend-20240429.0-py3-none-any.whl
+[2024-05-01 12:26:40] INFO root fetch - processPackages [pulumi-linode]: Downloading https://files.pythonhosted.org/packages/df/eb/e8d27e31574126cebb3db17960087d6e1cf94c88143b981d26b7b94fef71/pulumi_linode-4.9.0a1700248892.tar.gz
+[2024-05-01 12:26:40] WARNING root fetch - processPackages [home-assistant-frontend]: Skipping package: exceeds size limit 54795234>=10485760
+[2024-05-01 12:26:40] INFO root fetch - main [MainThread]: End processing [home-assistant-frontend] error
+[2024-05-01 12:26:40] INFO root fetch - processPackages [scriptman]: Downloading https://files.pythonhosted.org/packages/f0/36/7146888ddadc02a0f2fe536e4ba47e16a5aa6d2b9bf2b21cc312fb61bb23/scriptman-0.0.0.8.tar.gz
+[2024-05-01 12:26:40] INFO root fetch - processPackages [imsciences]: Downloading https://files.pythonhosted.org/packages/88/5b/8ecf0c47be2ac726369209d047e823d582fcc9482881fd6760a70200769d/imsciences-0.5.4.9.tar.gz
+[2024-05-01 12:26:40] INFO root fetch - processPackages [imsciences]: Downloading https://files.pythonhosted.org/packages/88/5b/8ecf0c47be2ac726369209d047e823d582fcc9482881fd6760a70200769d/imsciences-0.5.4.9.tar.gz
+[2024-05-01 12:26:40] INFO root fetch - processPackages [galgebra]: Downloading https://files.pythonhosted.org/packages/15/55/e207d9039169727cd6fef6debbbf840708acc5d5be2bc60d35b50e3bfa9a/galgebra-0.5.2rc1.tar.gz
+[2024-05-01 12:26:40] INFO root fetch - processPackages [pulumi-linode]: Downloading https://files.pythonhosted.org/packages/1d/8f/908b3d1b357dcb4b00198e9afd3e1c31b7f20023adddd41e8a53a4577ee0/pulumi_linode-4.9.1.tar.gz
+[2024-05-01 12:26:40] INFO root fetch - processPackages [galgebra]: executing diffoscope
+[2024-05-01 12:26:40] INFO root fetch - processPackages [galgebra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/galgebra-0.5.1.tar.gz tmp/galgebra-0.5.2rc1.tar.gz --markdown 20240501/g/galgebra/0.5.1-0.5.2rc1/README.md --exclude *.pyd
+[2024-05-01 12:26:41] INFO root fetch - processPackages [pulumi-linode]: executing diffoscope
+[2024-05-01 12:26:41] INFO root fetch - processPackages [pulumi-linode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_linode-4.9.0a1700248892.tar.gz tmp/pulumi_linode-4.9.1.tar.gz --markdown 20240501/p/pulumi-linode/4.9.0a1700248892-4.9.1/README.md --exclude *.pyd
+[2024-05-01 12:26:41] INFO root fetch - processPackages [imsciences]: Downloading https://files.pythonhosted.org/packages/bb/3b/c3413b52e24116cecdb5be1943f48353cbe1f9971ce292d53943884261c8/imsciences-0.5.5.0.tar.gz
+[2024-05-01 12:26:41] INFO root fetch - processPackages [imsciences]: Downloading https://files.pythonhosted.org/packages/bb/3b/c3413b52e24116cecdb5be1943f48353cbe1f9971ce292d53943884261c8/imsciences-0.5.5.0.tar.gz
+[2024-05-01 12:26:41] INFO root fetch - processPackages [scriptman]: Downloading https://files.pythonhosted.org/packages/f5/05/b5fcf85e401e2ea793d31d90d33eb9fe185765b18bd32c99cfe69d516956/scriptman-0.0.0.9.tar.gz
+[2024-05-01 12:26:41] INFO root fetch - processPackages [imsciences]: executing diffoscope
+[2024-05-01 12:26:41] INFO root fetch - processPackages [imsciences]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imsciences-0.5.4.9.tar.gz tmp/imsciences-0.5.5.0.tar.gz --markdown 20240501/i/imsciences/0.5.4.9-0.5.5.0/README.md --exclude *.pyd
+[2024-05-01 12:26:41] INFO root fetch - processPackages [imsciences]: executing diffoscope
+[2024-05-01 12:26:41] INFO root fetch - processPackages [imsciences]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imsciences-0.5.4.9.tar.gz tmp/imsciences-0.5.5.0.tar.gz --markdown 20240501/i/imsciences/0.5.4.9-0.5.5.0/README.md --exclude *.pyd
+[2024-05-01 12:26:41] INFO root fetch - processPackages [scriptman]: executing diffoscope
+[2024-05-01 12:26:41] INFO root fetch - processPackages [scriptman]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scriptman-0.0.0.8.tar.gz tmp/scriptman-0.0.0.9.tar.gz --markdown 20240501/s/scriptman/0.0.0.8-0.0.0.9/README.md --exclude *.pyd
+[2024-05-01 12:26:41] INFO root fetch - processPackages [galgebra]: Remove: archive file [/home/abi/fetcher/tmp/galgebra-0.5.1.tar.gz]
+[2024-05-01 12:26:41] INFO root fetch - processPackages [galgebra]: Remove: archive file [/home/abi/fetcher/tmp/galgebra-0.5.2rc1.tar.gz]
+[2024-05-01 12:26:41] INFO root fetch - main [MainThread]: End processing [galgebra]: success
+[2024-05-01 12:26:41] INFO root fetch - processPackages [imsciences]: Remove: archive file [/home/abi/fetcher/tmp/imsciences-0.5.4.9.tar.gz]
+[2024-05-01 12:26:41] INFO root fetch - processPackages [imsciences]: Remove: archive file [/home/abi/fetcher/tmp/imsciences-0.5.5.0.tar.gz]
+[2024-05-01 12:26:41] INFO root fetch - main [MainThread]: End processing [imsciences]: success
+[2024-05-01 12:26:42] INFO root fetch - processPackages [pulumi-linode]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_linode-4.9.0a1700248892.tar.gz]
+[2024-05-01 12:26:42] INFO root fetch - processPackages [pulumi-linode]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_linode-4.9.1.tar.gz]
+[2024-05-01 12:26:42] INFO root fetch - main [MainThread]: End processing [pulumi-linode]: success
+[2024-05-01 12:26:42] INFO root fetch - processPackages [scriptman]: Remove: archive file [/home/abi/fetcher/tmp/scriptman-0.0.0.8.tar.gz]
+[2024-05-01 12:26:42] INFO root fetch - processPackages [scriptman]: Remove: archive file [/home/abi/fetcher/tmp/scriptman-0.0.0.9.tar.gz]
+[2024-05-01 12:26:42] INFO root fetch - main [MainThread]: End processing [scriptman]: success
+[2024-05-01 12:26:42] INFO root fetch - main [MainThread]: End processing [imsciences]: success
+[2024-05-01 12:26:42] INFO root fetch - main [MainThread]: Store serial: [23015215]
