@@ -16151,3 +16151,84 @@
 [2024-05-01 12:58:04] INFO root fetch - processPackages [pytest-neos]: Remove: archive file [/home/abi/fetcher/tmp/pytest_neos-0.1.0-py3-none-any.whl.zip]
 [2024-05-01 12:58:04] INFO root fetch - main [MainThread]: End processing [pytest-neos]: success
 [2024-05-01 12:58:04] INFO root fetch - main [MainThread]: Store serial: [23015456]
+[2024-05-01 13:00:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23015456]
+[2024-05-01 13:00:13] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-05-01 13:00:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pytest-neos
+[2024-05-01 13:00:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: galv-harvester
+[2024-05-01 13:00:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: redlite
+[2024-05-01 13:00:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: openctp-ctpopt
+[2024-05-01 13:00:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: caluma-alexandria
+[2024-05-01 13:00:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: openctp-ctpopt
+[2024-05-01 13:00:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: openctp-ctpopt
+[2024-05-01 13:00:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aspose-cad
+[2024-05-01 13:00:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: aiflowforge
+[2024-05-01 13:00:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: emdbva
+[2024-05-01 13:00:13] WARNING root fetch - processPackages [galv-harvester]: Skipping, unable to determine old version
+[2024-05-01 13:00:13] INFO root fetch - processPackages [galv-harvester]: Start processing: geocover-utils
+[2024-05-01 13:00:13] INFO root fetch - main [MainThread]: End processing [galv-harvester] error
+[2024-05-01 13:00:13] INFO root fetch - processPackages [redlite]: New version: [0.1.2] Old Version: [0.1.0]
+[2024-05-01 13:00:13] WARNING root fetch - processPackages [geocover-utils]: Skipping, unable to determine old version
+[2024-05-01 13:00:13] INFO root fetch - processPackages [geocover-utils]: Start processing: fiddler-client
+[2024-05-01 13:00:13] INFO root fetch - main [MainThread]: End processing [geocover-utils] error
+[2024-05-01 13:00:13] INFO root fetch - processPackages [pytest-neos]: New version: [0.1.0] Old Version: [0.0.1]
+[2024-05-01 13:00:13] INFO root fetch - processPackages [caluma-alexandria]: New version: [4.1.0] Old Version: [4.0.2]
+[2024-05-01 13:00:13] INFO root fetch - processPackages [aspose-cad]: New version: [24.4] Old Version: [24.3.0]
+[2024-05-01 13:00:13] INFO root fetch - processPackages [redlite]: Downloading https://files.pythonhosted.org/packages/3f/0c/b9cf3cbe01de2bc0402db51010937a7920e6e49fcab4d28ff675874ae0af/redlite-0.1.0-py3-none-any.whl
+[2024-05-01 13:00:13] WARNING root fetch - processPackages [aiflowforge]: Skipping, unable to determine old version
+[2024-05-01 13:00:13] INFO root fetch - main [MainThread]: End processing [aiflowforge] error
+[2024-05-01 13:00:13] INFO root fetch - processPackages [openctp-ctpopt]: New version: [3.7.0.2] Old Version: [3.7.0.1]
+[2024-05-01 13:00:13] INFO root fetch - processPackages [emdbva]: New version: [0.1.2.dev1] Old Version: [0.0.1.dev8]
+[2024-05-01 13:00:13] INFO root fetch - processPackages [openctp-ctpopt]: New version: [3.7.0.2] Old Version: [3.7.0.1]
+[2024-05-01 13:00:13] INFO root fetch - processPackages [openctp-ctpopt]: New version: [3.7.0.2] Old Version: [3.7.0.1]
+[2024-05-01 13:00:13] INFO root fetch - processPackages [pytest-neos]: Downloading https://files.pythonhosted.org/packages/1a/b2/bd186562fe31e8fdd6424037b58788ebaa1d7124df1fc29c1f083408ffb1/pytest_neos-0.0.1.tar.gz
+[2024-05-01 13:00:13] INFO root fetch - processPackages [fiddler-client]: New version: [3.1.0.dev3] Old Version: [3.1.0.dev2]
+[2024-05-01 13:00:13] INFO root fetch - processPackages [openctp-ctpopt]: Downloading https://files.pythonhosted.org/packages/2b/87/0c5c916e2d35121e14bfc23c829fc121fe03bcc333d33a8cc795e0b43047/openctp_ctpopt-3.7.0.1-cp39-cp39-win_amd64.whl
+[2024-05-01 13:00:13] INFO root fetch - processPackages [openctp-ctpopt]: Downloading https://files.pythonhosted.org/packages/2b/87/0c5c916e2d35121e14bfc23c829fc121fe03bcc333d33a8cc795e0b43047/openctp_ctpopt-3.7.0.1-cp39-cp39-win_amd64.whl
+[2024-05-01 13:00:13] INFO root fetch - processPackages [openctp-ctpopt]: Downloading https://files.pythonhosted.org/packages/2b/87/0c5c916e2d35121e14bfc23c829fc121fe03bcc333d33a8cc795e0b43047/openctp_ctpopt-3.7.0.1-cp39-cp39-win_amd64.whl
+[2024-05-01 13:00:13] INFO root fetch - processPackages [caluma-alexandria]: Downloading https://files.pythonhosted.org/packages/49/2f/2a7e371772f87d88514e1d24be95d514220775a5d8adaea60e1e21fe70d7/caluma_alexandria-4.0.2.tar.gz
+[2024-05-01 13:00:13] INFO root fetch - processPackages [aspose-cad]: Downloading https://files.pythonhosted.org/packages/61/69/d7476fdd35b32efee6a4d879ead69a5d99d78cda05f2f878edbd09d7331d/aspose_cad-24.3-py3-none-win_amd64.whl
+[2024-05-01 13:00:13] INFO root fetch - processPackages [emdbva]: Downloading https://files.pythonhosted.org/packages/0b/ed/819c08dea6ffadd882526d30413daac295d755fe2e50a8f10693c7467495/emdbva-0.0.1.dev8.tar.gz
+[2024-05-01 13:00:13] INFO root fetch - processPackages [pytest-neos]: Downloading https://files.pythonhosted.org/packages/6e/cd/f6860b2fcfe1ef594dfe22c390d95474ed622717db4d0aec10560968334e/pytest_neos-0.1.0-py3-none-any.whl
+[2024-05-01 13:00:14] INFO root fetch - processPackages [redlite]: Downloading https://files.pythonhosted.org/packages/a6/5a/ebab02eef98f074a0db516b53f6e437f99b15fc4f756f805cb02cbebda04/redlite-0.1.2-py3-none-any.whl
+[2024-05-01 13:00:14] WARNING root fetch - processPackages [emdbva]: Skipping package: exceeds size limit 25862942>=10485760
+[2024-05-01 13:00:14] INFO root fetch - main [MainThread]: End processing [emdbva] error
+[2024-05-01 13:00:14] INFO root fetch - processPackages [pytest-neos]: executing diffoscope
+[2024-05-01 13:00:14] INFO root fetch - processPackages [pytest-neos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_neos-0.0.1.tar.gz tmp/pytest_neos-0.1.0-py3-none-any.whl.zip --markdown 20240501/p/pytest-neos/0.0.1-0.1.0/README.md --exclude *.pyd
+[2024-05-01 13:00:14] INFO root fetch - processPackages [fiddler-client]: Downloading https://files.pythonhosted.org/packages/6b/e1/fe45637429f8e65ff11237bc987705ca8295c863471ec6144d9ecb525221/fiddler-client-3.1.0.dev2.tar.gz
+[2024-05-01 13:00:14] INFO root fetch - processPackages [redlite]: executing diffoscope
+[2024-05-01 13:00:14] INFO root fetch - processPackages [redlite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redlite-0.1.0-py3-none-any.whl.zip tmp/redlite-0.1.2-py3-none-any.whl.zip --markdown 20240501/r/redlite/0.1.0-0.1.2/README.md --exclude *.pyd
+[2024-05-01 13:00:14] INFO root fetch - processPackages [caluma-alexandria]: Downloading https://files.pythonhosted.org/packages/48/d3/2484ed440d7794240d0097c053c61aea8c4c958ef59fe62c3b64ccddccb7/caluma_alexandria-4.1.0.tar.gz
+[2024-05-01 13:00:14] INFO root fetch - processPackages [fiddler-client]: Downloading https://files.pythonhosted.org/packages/43/fb/2a39b11c92c91266d6c6c5107acb317438cb839d0795d222d916476c4ce8/fiddler-client-3.1.0.dev3.tar.gz
+[2024-05-01 13:00:14] WARNING root fetch - processPackages [aspose-cad]: Skipping package: exceeds size limit 103054958>=10485760
+[2024-05-01 13:00:14] INFO root fetch - main [MainThread]: End processing [aspose-cad] error
+[2024-05-01 13:00:14] INFO root fetch - processPackages [caluma-alexandria]: executing diffoscope
+[2024-05-01 13:00:14] INFO root fetch - processPackages [caluma-alexandria]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/caluma_alexandria-4.0.2.tar.gz tmp/caluma_alexandria-4.1.0.tar.gz --markdown 20240501/c/caluma-alexandria/4.0.2-4.1.0/README.md --exclude *.pyd
+[2024-05-01 13:00:14] INFO root fetch - processPackages [fiddler-client]: executing diffoscope
+[2024-05-01 13:00:14] INFO root fetch - processPackages [fiddler-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fiddler-client-3.1.0.dev2.tar.gz tmp/fiddler-client-3.1.0.dev3.tar.gz --markdown 20240501/f/fiddler-client/3.1.0.dev2-3.1.0.dev3/README.md --exclude *.pyd
+[2024-05-01 13:00:14] INFO root fetch - processPackages [openctp-ctpopt]: Downloading https://files.pythonhosted.org/packages/d1/01/8382283c75ef8398ecd282ef827b1adc1853d6ce821cadf6037bae912500/openctp_ctpopt-3.7.0.2-cp39-cp39-win_amd64.whl
+[2024-05-01 13:00:14] INFO root fetch - processPackages [openctp-ctpopt]: Downloading https://files.pythonhosted.org/packages/d1/01/8382283c75ef8398ecd282ef827b1adc1853d6ce821cadf6037bae912500/openctp_ctpopt-3.7.0.2-cp39-cp39-win_amd64.whl
+[2024-05-01 13:00:14] INFO root fetch - processPackages [openctp-ctpopt]: Downloading https://files.pythonhosted.org/packages/d1/01/8382283c75ef8398ecd282ef827b1adc1853d6ce821cadf6037bae912500/openctp_ctpopt-3.7.0.2-cp39-cp39-win_amd64.whl
+[2024-05-01 13:00:14] INFO root fetch - processPackages [pytest-neos]: Remove: archive file [/home/abi/fetcher/tmp/pytest_neos-0.0.1.tar.gz]
+[2024-05-01 13:00:14] INFO root fetch - processPackages [pytest-neos]: Remove: archive file [/home/abi/fetcher/tmp/pytest_neos-0.1.0-py3-none-any.whl.zip]
+[2024-05-01 13:00:14] INFO root fetch - main [MainThread]: End processing [pytest-neos]: success
+[2024-05-01 13:00:15] INFO root fetch - processPackages [caluma-alexandria]: Remove: archive file [/home/abi/fetcher/tmp/caluma_alexandria-4.0.2.tar.gz]
+[2024-05-01 13:00:15] INFO root fetch - processPackages [caluma-alexandria]: Remove: archive file [/home/abi/fetcher/tmp/caluma_alexandria-4.1.0.tar.gz]
+[2024-05-01 13:00:15] INFO root fetch - main [MainThread]: End processing [caluma-alexandria]: success
+[2024-05-01 13:00:15] INFO root fetch - processPackages [redlite]: Remove: archive file [/home/abi/fetcher/tmp/redlite-0.1.0-py3-none-any.whl.zip]
+[2024-05-01 13:00:15] INFO root fetch - processPackages [redlite]: Remove: archive file [/home/abi/fetcher/tmp/redlite-0.1.2-py3-none-any.whl.zip]
+[2024-05-01 13:00:15] INFO root fetch - main [MainThread]: End processing [redlite]: success
+[2024-05-01 13:00:15] INFO root fetch - processPackages [fiddler-client]: Remove: archive file [/home/abi/fetcher/tmp/fiddler-client-3.1.0.dev2.tar.gz]
+[2024-05-01 13:00:15] INFO root fetch - processPackages [fiddler-client]: Remove: archive file [/home/abi/fetcher/tmp/fiddler-client-3.1.0.dev3.tar.gz]
+[2024-05-01 13:00:15] INFO root fetch - main [MainThread]: End processing [fiddler-client]: success
+[2024-05-01 13:00:15] INFO root fetch - processPackages [openctp-ctpopt]: executing diffoscope
+[2024-05-01 13:00:15] INFO root fetch - processPackages [openctp-ctpopt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openctp_ctpopt-3.7.0.1-cp39-cp39-win_amd64.whl.zip tmp/openctp_ctpopt-3.7.0.2-cp39-cp39-win_amd64.whl.zip --markdown 20240501/o/openctp-ctpopt/3.7.0.1-3.7.0.2/README.md --exclude *.pyd
+[2024-05-01 13:00:15] INFO root fetch - processPackages [openctp-ctpopt]: executing diffoscope
+[2024-05-01 13:00:15] INFO root fetch - processPackages [openctp-ctpopt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openctp_ctpopt-3.7.0.1-cp39-cp39-win_amd64.whl.zip tmp/openctp_ctpopt-3.7.0.2-cp39-cp39-win_amd64.whl.zip --markdown 20240501/o/openctp-ctpopt/3.7.0.1-3.7.0.2/README.md --exclude *.pyd
+[2024-05-01 13:00:15] INFO root fetch - processPackages [openctp-ctpopt]: executing diffoscope
+[2024-05-01 13:00:15] INFO root fetch - processPackages [openctp-ctpopt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openctp_ctpopt-3.7.0.1-cp39-cp39-win_amd64.whl.zip tmp/openctp_ctpopt-3.7.0.2-cp39-cp39-win_amd64.whl.zip --markdown 20240501/o/openctp-ctpopt/3.7.0.1-3.7.0.2/README.md --exclude *.pyd
+[2024-05-01 13:00:16] INFO root fetch - processPackages [openctp-ctpopt]: Remove: archive file [/home/abi/fetcher/tmp/openctp_ctpopt-3.7.0.1-cp39-cp39-win_amd64.whl.zip]
+[2024-05-01 13:00:16] INFO root fetch - processPackages [openctp-ctpopt]: Remove: archive file [/home/abi/fetcher/tmp/openctp_ctpopt-3.7.0.2-cp39-cp39-win_amd64.whl.zip]
+[2024-05-01 13:00:16] INFO root fetch - main [MainThread]: End processing [openctp-ctpopt]: success
+[2024-05-01 13:00:16] INFO root fetch - main [MainThread]: End processing [openctp-ctpopt]: success
+[2024-05-01 13:00:16] INFO root fetch - main [MainThread]: End processing [openctp-ctpopt]: success
+[2024-05-01 13:00:16] INFO root fetch - main [MainThread]: Store serial: [23015491]
