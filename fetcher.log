@@ -22460,3 +22460,18 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-01 16:25:03] INFO root fetch - processPackages [pytestomatio]: Remove: archive file [/home/abi/fetcher/tmp/pytestomatio-2.2.6.tar.gz]
 [2024-05-01 16:25:03] INFO root fetch - main [MainThread]: End processing [pytestomatio]: success
 [2024-05-01 16:25:03] INFO root fetch - main [MainThread]: Store serial: [23017990]
+[2024-05-01 16:27:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23017990]
+[2024-05-01 16:27:12] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-01 16:27:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: azuresphere_imagemetadata
+[2024-05-01 16:27:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: quadplots
+[2024-05-01 16:27:12] INFO root fetch - processPackages [azuresphere_imagemetadata]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-01 16:27:12] WARNING root fetch - processPackages [quadplots]: Skipping, unable to determine old version
+[2024-05-01 16:27:12] INFO root fetch - main [MainThread]: End processing [quadplots] error
+[2024-05-01 16:27:12] INFO root fetch - processPackages [azuresphere_imagemetadata]: Downloading https://files.pythonhosted.org/packages/7e/70/e2133c4610bcc537ce7efbe56716f707033cf9e88c493472a4a4ab5e4d41/azuresphere_imagemetadata-0.0.4.tar.gz
+[2024-05-01 16:27:13] INFO root fetch - processPackages [azuresphere_imagemetadata]: Downloading https://files.pythonhosted.org/packages/0b/cf/d3564f5d090a7f55f5c6942c97071b93c2053ba84e5853140ff5468bae1c/azuresphere_imagemetadata-0.0.5.tar.gz
+[2024-05-01 16:27:13] INFO root fetch - processPackages [azuresphere_imagemetadata]: executing diffoscope
+[2024-05-01 16:27:13] INFO root fetch - processPackages [azuresphere_imagemetadata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azuresphere_imagemetadata-0.0.4.tar.gz tmp/azuresphere_imagemetadata-0.0.5.tar.gz --markdown 20240501/a/azuresphere_imagemetadata/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-01 16:27:13] INFO root fetch - processPackages [azuresphere_imagemetadata]: Remove: archive file [/home/abi/fetcher/tmp/azuresphere_imagemetadata-0.0.4.tar.gz]
+[2024-05-01 16:27:13] INFO root fetch - processPackages [azuresphere_imagemetadata]: Remove: archive file [/home/abi/fetcher/tmp/azuresphere_imagemetadata-0.0.5.tar.gz]
+[2024-05-01 16:27:13] INFO root fetch - main [MainThread]: End processing [azuresphere_imagemetadata]: success
+[2024-05-01 16:27:13] INFO root fetch - main [MainThread]: Store serial: [23017998]
