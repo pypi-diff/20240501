@@ -7483,3 +7483,33 @@
 [2024-05-01 04:39:40] INFO root fetch - processPackages [karellen-llvm-toolchain-tools]: Remove: archive file [/home/abi/fetcher/tmp/karellen_llvm_toolchain_tools-18.1.4.0.post25-py3-none-manylinux2014_x86_64.whl.zip]
 [2024-05-01 04:39:40] INFO root fetch - main [MainThread]: End processing [karellen-llvm-toolchain-tools]: success
 [2024-05-01 04:39:40] INFO root fetch - main [MainThread]: Store serial: [23011576]
+[2024-05-01 04:41:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23011576]
+[2024-05-01 04:41:49] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-01 04:41:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: npc_lims
+[2024-05-01 04:41:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fplab
+[2024-05-01 04:41:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ex-cd
+[2024-05-01 04:41:50] INFO root fetch - processPackages [ex-cd]: New version: [1.9.4] Old Version: [1.9.3]
+[2024-05-01 04:41:50] INFO root fetch - processPackages [ex-cd]: Downloading https://files.pythonhosted.org/packages/7a/ae/343cb345397b334a6d65c7ada5e706a763683d89aa5e9f7424bc8e9be9b4/ex_cd-1.9.3.tar.gz
+[2024-05-01 04:41:50] INFO root fetch - processPackages [fplab]: New version: [0.0.2.9] Old Version: [0.0.2.8]
+[2024-05-01 04:41:50] INFO root fetch - processPackages [npc_lims]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-05-01 04:41:50] INFO root fetch - processPackages [npc_lims]: Downloading https://files.pythonhosted.org/packages/eb/a3/a72478dcef25d9b46c35b7730c5c9a426e07354369fb652045cc1befbe7e/npc_lims-0.1.98.tar.gz
+[2024-05-01 04:41:50] INFO root fetch - processPackages [ex-cd]: Downloading https://files.pythonhosted.org/packages/fe/a7/907e1f4930a5e56cb16271b81480a86740c2521ac86bde937b3000441ac1/ex_cd-1.9.4.tar.gz
+[2024-05-01 04:41:50] INFO root fetch - processPackages [fplab]: Downloading https://files.pythonhosted.org/packages/ef/eb/71382d56132e623c5ba71aa6ef816521d3360311f588c072d4291ec66550/fplab-0.0.2.8.tar.gz
+[2024-05-01 04:41:50] INFO root fetch - processPackages [ex-cd]: executing diffoscope
+[2024-05-01 04:41:50] INFO root fetch - processPackages [ex-cd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ex_cd-1.9.3.tar.gz tmp/ex_cd-1.9.4.tar.gz --markdown 20240501/e/ex-cd/1.9.3-1.9.4/README.md --exclude *.pyd
+[2024-05-01 04:41:50] INFO root fetch - processPackages [npc_lims]: Downloading https://files.pythonhosted.org/packages/20/8f/2a3ef0e71c09fd01ba3685a9f92c448766eab8a9e83f1e03e62e90091e0a/npc_lims-0.1.99.tar.gz
+[2024-05-01 04:41:50] INFO root fetch - processPackages [npc_lims]: executing diffoscope
+[2024-05-01 04:41:50] INFO root fetch - processPackages [npc_lims]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/npc_lims-0.1.98.tar.gz tmp/npc_lims-0.1.99.tar.gz --markdown 20240501/n/npc_lims/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-05-01 04:41:50] INFO root fetch - processPackages [fplab]: Downloading https://files.pythonhosted.org/packages/1f/67/6a5bd2225c54c0d82655be352f59fb4b15b9e81d08293de704238318a8e0/fplab-0.0.2.9.tar.gz
+[2024-05-01 04:41:50] INFO root fetch - processPackages [fplab]: executing diffoscope
+[2024-05-01 04:41:50] INFO root fetch - processPackages [fplab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fplab-0.0.2.8.tar.gz tmp/fplab-0.0.2.9.tar.gz --markdown 20240501/f/fplab/0.0.2.8-0.0.2.9/README.md --exclude *.pyd
+[2024-05-01 04:41:51] INFO root fetch - processPackages [ex-cd]: Remove: archive file [/home/abi/fetcher/tmp/ex_cd-1.9.3.tar.gz]
+[2024-05-01 04:41:51] INFO root fetch - processPackages [ex-cd]: Remove: archive file [/home/abi/fetcher/tmp/ex_cd-1.9.4.tar.gz]
+[2024-05-01 04:41:51] INFO root fetch - main [MainThread]: End processing [ex-cd]: success
+[2024-05-01 04:41:51] INFO root fetch - processPackages [npc_lims]: Remove: archive file [/home/abi/fetcher/tmp/npc_lims-0.1.98.tar.gz]
+[2024-05-01 04:41:51] INFO root fetch - processPackages [npc_lims]: Remove: archive file [/home/abi/fetcher/tmp/npc_lims-0.1.99.tar.gz]
+[2024-05-01 04:41:51] INFO root fetch - main [MainThread]: End processing [npc_lims]: success
+[2024-05-01 04:41:51] INFO root fetch - processPackages [fplab]: Remove: archive file [/home/abi/fetcher/tmp/fplab-0.0.2.8.tar.gz]
+[2024-05-01 04:41:51] INFO root fetch - processPackages [fplab]: Remove: archive file [/home/abi/fetcher/tmp/fplab-0.0.2.9.tar.gz]
+[2024-05-01 04:41:51] INFO root fetch - main [MainThread]: End processing [fplab]: success
+[2024-05-01 04:41:51] INFO root fetch - main [MainThread]: Store serial: [23011583]
