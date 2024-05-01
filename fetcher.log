@@ -21304,3 +21304,39 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-01 15:26:36] INFO root fetch - processPackages [xminigrid]: Remove: archive file [/home/abi/fetcher/tmp/xminigrid-0.7.1.tar.gz]
 [2024-05-01 15:26:36] INFO root fetch - main [MainThread]: End processing [xminigrid]: success
 [2024-05-01 15:26:36] INFO root fetch - main [MainThread]: Store serial: [23017413]
+[2024-05-01 15:28:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23017413]
+[2024-05-01 15:28:44] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-01 15:28:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: colony-print
+[2024-05-01 15:28:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: arelle-release
+[2024-05-01 15:28:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: specklia
+[2024-05-01 15:28:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: finfo
+[2024-05-01 15:28:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lzss-python
+[2024-05-01 15:28:45] INFO root fetch - processPackages [colony-print]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-05-01 15:28:45] INFO root fetch - processPackages [arelle-release]: New version: [2.9.0] Old Version: [2.8.1]
+[2024-05-01 15:28:45] INFO root fetch - processPackages [specklia]: New version: [1.8.9] Old Version: [1.8.8]
+[2024-05-01 15:28:45] INFO root fetch - processPackages [colony-print]: Downloading https://files.pythonhosted.org/packages/55/c4/a76c5ec27a7cdea008d6a3ac7d1526d0a5b2af8068556b2278876ca1b4c4/colony-print-0.3.1.tar.gz
+[2024-05-01 15:28:45] WARNING root fetch - processPackages [lzss-python]: Skipping, unable to determine old version
+[2024-05-01 15:28:45] INFO root fetch - main [MainThread]: End processing [lzss-python] error
+[2024-05-01 15:28:45] WARNING root fetch - processPackages [finfo]: Skipping, unable to determine old version
+[2024-05-01 15:28:45] INFO root fetch - main [MainThread]: End processing [finfo] error
+[2024-05-01 15:28:45] INFO root fetch - processPackages [specklia]: Downloading https://files.pythonhosted.org/packages/a7/9f/4720917cb05f5cbc2f231e1f8046c023fc1f91d4aaefdae32d0a739be648/specklia-1.8.8.tar.gz
+[2024-05-01 15:28:45] INFO root fetch - processPackages [arelle-release]: Downloading https://files.pythonhosted.org/packages/f5/6d/a98b34f1f15fac981dc1ecdc13ab6432070cbbc263b8c5dfd01ec17bdbcf/arelle-release-2.8.1.tar.gz
+[2024-05-01 15:28:45] INFO root fetch - processPackages [specklia]: Downloading https://files.pythonhosted.org/packages/0d/ec/3815cb2a18ad5b8029e09da92f85c68b28ffd5dbcf20be7c41214190aeaf/specklia-1.8.9.tar.gz
+[2024-05-01 15:28:45] INFO root fetch - processPackages [colony-print]: Downloading https://files.pythonhosted.org/packages/9f/22/1b58cc6717988d56b3b023481e202520a982645c8d43a74a1c4a8c740f71/colony-print-0.3.2.tar.gz
+[2024-05-01 15:28:45] INFO root fetch - processPackages [specklia]: executing diffoscope
+[2024-05-01 15:28:45] INFO root fetch - processPackages [specklia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/specklia-1.8.8.tar.gz tmp/specklia-1.8.9.tar.gz --markdown 20240501/s/specklia/1.8.8-1.8.9/README.md --exclude *.pyd
+[2024-05-01 15:28:45] INFO root fetch - processPackages [colony-print]: executing diffoscope
+[2024-05-01 15:28:45] INFO root fetch - processPackages [colony-print]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/colony-print-0.3.1.tar.gz tmp/colony-print-0.3.2.tar.gz --markdown 20240501/c/colony-print/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-05-01 15:28:46] INFO root fetch - processPackages [specklia]: Remove: archive file [/home/abi/fetcher/tmp/specklia-1.8.8.tar.gz]
+[2024-05-01 15:28:46] INFO root fetch - processPackages [specklia]: Remove: archive file [/home/abi/fetcher/tmp/specklia-1.8.9.tar.gz]
+[2024-05-01 15:28:46] INFO root fetch - main [MainThread]: End processing [specklia]: success
+[2024-05-01 15:28:46] INFO root fetch - processPackages [arelle-release]: Downloading https://files.pythonhosted.org/packages/38/66/d0e3ab5f57928cda22358cf91ff523e895bdb2ce695a0e0839131fcf5aa9/arelle-release-2.9.0.tar.gz
+[2024-05-01 15:28:46] INFO root fetch - processPackages [colony-print]: Remove: archive file [/home/abi/fetcher/tmp/colony-print-0.3.1.tar.gz]
+[2024-05-01 15:28:46] INFO root fetch - processPackages [colony-print]: Remove: archive file [/home/abi/fetcher/tmp/colony-print-0.3.2.tar.gz]
+[2024-05-01 15:28:46] INFO root fetch - main [MainThread]: End processing [colony-print]: success
+[2024-05-01 15:28:47] INFO root fetch - processPackages [arelle-release]: executing diffoscope
+[2024-05-01 15:28:47] INFO root fetch - processPackages [arelle-release]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arelle-release-2.8.1.tar.gz tmp/arelle-release-2.9.0.tar.gz --markdown 20240501/a/arelle-release/2.8.1-2.9.0/README.md --exclude *.pyd
+[2024-05-01 15:28:52] INFO root fetch - processPackages [arelle-release]: Remove: archive file [/home/abi/fetcher/tmp/arelle-release-2.8.1.tar.gz]
+[2024-05-01 15:28:52] INFO root fetch - processPackages [arelle-release]: Remove: archive file [/home/abi/fetcher/tmp/arelle-release-2.9.0.tar.gz]
+[2024-05-01 15:28:52] INFO root fetch - main [MainThread]: End processing [arelle-release]: success
+[2024-05-01 15:28:52] INFO root fetch - main [MainThread]: Store serial: [23017434]
