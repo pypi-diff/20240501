@@ -1980,3 +1980,78 @@
 [2024-05-01 02:15:39] INFO root fetch - processPackages [pytorch-ignite]: Remove: archive file [/home/abi/fetcher/tmp/pytorch-ignite-0.6.0.dev20240501.tar.gz]
 [2024-05-01 02:15:39] INFO root fetch - main [MainThread]: End processing [pytorch-ignite]: success
 [2024-05-01 02:15:39] INFO root fetch - main [MainThread]: Store serial: [23009554]
+[2024-05-01 02:17:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23009554]
+[2024-05-01 02:17:47] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-01 02:17:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: decipher-sdk-fastapi
+[2024-05-01 02:17:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kolena
+[2024-05-01 02:17:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kframe
+[2024-05-01 02:17:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdklabs.cdk-hyperledger-fabric-network
+[2024-05-01 02:17:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kolena-client
+[2024-05-01 02:17:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: layerborn.cdk-iam-policy-builder-helper
+[2024-05-01 02:17:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aocstat
+[2024-05-01 02:17:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdklabs.appsync-utils
+[2024-05-01 02:17:47] INFO root fetch - processPackages [kframe]: New version: [0.3.0rc1] Old Version: [0.2.3rc1]
+[2024-05-01 02:17:47] INFO root fetch - processPackages [aocstat]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-01 02:17:47] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: New version: [0.8.99] Old Version: [0.8.98]
+[2024-05-01 02:17:47] INFO root fetch - processPackages [cdklabs.appsync-utils]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-01 02:17:47] INFO root fetch - processPackages [layerborn.cdk-iam-policy-builder-helper]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-01 02:17:47] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: Downloading https://files.pythonhosted.org/packages/9b/c8/ddb4d2575b42b36bf1ebf5daccec9c3c53a9ac9cadaeffb66bed93dc3bab/cdklabs.cdk-hyperledger-fabric-network-0.8.98.tar.gz
+[2024-05-01 02:17:47] INFO root fetch - processPackages [kolena]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-01 02:17:47] INFO root fetch - processPackages [decipher-sdk-fastapi]: New version: [0.0.22] Old Version: [0.0.21]
+[2024-05-01 02:17:47] INFO root fetch - processPackages [kolena-client]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-01 02:17:47] INFO root fetch - processPackages [cdklabs.appsync-utils]: Downloading https://files.pythonhosted.org/packages/c2/b6/9921880127918975163ef796466fd100a8f3a6246436ca4993eafae4915d/cdklabs.appsync-utils-0.0.98.tar.gz
+[2024-05-01 02:17:48] INFO root fetch - processPackages [aocstat]: Downloading https://files.pythonhosted.org/packages/bc/70/217f872e5c20d2a3446abdb6b8b79ad0db19f05bab369f52dba77d6d39ca/aocstat-0.2.0.tar.gz
+[2024-05-01 02:17:48] INFO root fetch - processPackages [kframe]: Downloading https://files.pythonhosted.org/packages/55/ba/19cc94ed4c2f303d8c84e1ebb6a57c13022ebceea02c0fce5376ec9833aa/kframe-0.2.3rc1.tar.gz
+[2024-05-01 02:17:48] INFO root fetch - processPackages [decipher-sdk-fastapi]: Downloading https://files.pythonhosted.org/packages/06/67/981466d6bac779a70edbbf0049c48a37b228a0c0ae03113689d88da77e52/decipher_sdk_fastapi-0.0.21.tar.gz
+[2024-05-01 02:17:48] INFO root fetch - processPackages [layerborn.cdk-iam-policy-builder-helper]: Downloading https://files.pythonhosted.org/packages/fd/1b/2e1799d51e11d8f9d35a29499a16821071d492143f5f512856e3ae994c92/layerborn.cdk-iam-policy-builder-helper-0.0.5.tar.gz
+[2024-05-01 02:17:48] INFO root fetch - processPackages [kolena]: Downloading https://files.pythonhosted.org/packages/0a/d6/97de9a0f80beba1be7fdf36a7755d95f269a93c86487a35a70f230bccde6/kolena-1.8.0.tar.gz
+[2024-05-01 02:17:48] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: Downloading https://files.pythonhosted.org/packages/56/40/cbf52f4213018f2d82f0aad0f2fa90e69c2923704c1905bd7e090d3accf2/cdklabs.cdk-hyperledger-fabric-network-0.8.99.tar.gz
+[2024-05-01 02:17:48] INFO root fetch - processPackages [kolena-client]: Downloading https://files.pythonhosted.org/packages/a3/a7/78d5afa11fb61ba1e3a48b56f90523118e38fe1c910a463478fb21a82f79/kolena_client-1.8.0.tar.gz
+[2024-05-01 02:17:48] INFO root fetch - processPackages [cdklabs.appsync-utils]: Downloading https://files.pythonhosted.org/packages/fe/2c/3a8605fe934a0a120041c6190f384b00350c8036420ee8d53ac0b0906f74/cdklabs.appsync-utils-0.0.99.tar.gz
+[2024-05-01 02:17:48] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: executing diffoscope
+[2024-05-01 02:17:48] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.cdk-hyperledger-fabric-network-0.8.98.tar.gz tmp/cdklabs.cdk-hyperledger-fabric-network-0.8.99.tar.gz --markdown 20240501/c/cdklabs.cdk-hyperledger-fabric-network/0.8.98-0.8.99/README.md --exclude *.pyd
+[2024-05-01 02:17:48] INFO root fetch - processPackages [cdklabs.appsync-utils]: executing diffoscope
+[2024-05-01 02:17:48] INFO root fetch - processPackages [cdklabs.appsync-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.appsync-utils-0.0.98.tar.gz tmp/cdklabs.appsync-utils-0.0.99.tar.gz --markdown 20240501/c/cdklabs.appsync-utils/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-01 02:17:48] INFO root fetch - processPackages [kframe]: Downloading https://files.pythonhosted.org/packages/ce/1d/8539514a8c67d552360ff743e35b46207fba12572083841b63f1713b2c66/kframe-0.3.0rc1.tar.gz
+[2024-05-01 02:17:48] INFO root fetch - processPackages [aocstat]: Downloading https://files.pythonhosted.org/packages/e3/8b/3c54a5dca8b345f72c1b3e637a14059c1ad65b0090a6d0285bce51f5787e/aocstat-0.2.1.tar.gz
+[2024-05-01 02:17:48] INFO root fetch - processPackages [decipher-sdk-fastapi]: Downloading https://files.pythonhosted.org/packages/26/80/9b6627a59c05c1c74da0f249ab307c70f56b4adefc58a5dd87141897e4a2/decipher_sdk_fastapi-0.0.22.tar.gz
+[2024-05-01 02:17:48] INFO root fetch - processPackages [kframe]: executing diffoscope
+[2024-05-01 02:17:48] INFO root fetch - processPackages [kframe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kframe-0.2.3rc1.tar.gz tmp/kframe-0.3.0rc1.tar.gz --markdown 20240501/k/kframe/0.2.3rc1-0.3.0rc1/README.md --exclude *.pyd
+[2024-05-01 02:17:48] INFO root fetch - processPackages [aocstat]: executing diffoscope
+[2024-05-01 02:17:48] INFO root fetch - processPackages [aocstat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aocstat-0.2.0.tar.gz tmp/aocstat-0.2.1.tar.gz --markdown 20240501/a/aocstat/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-01 02:17:48] INFO root fetch - processPackages [kolena-client]: Downloading https://files.pythonhosted.org/packages/a8/f0/873193dc29f6f975d384cd4650275c9264bfdf09d2bbeb4e617d8aec3d61/kolena_client-1.9.0.tar.gz
+[2024-05-01 02:17:48] INFO root fetch - processPackages [decipher-sdk-fastapi]: executing diffoscope
+[2024-05-01 02:17:48] INFO root fetch - processPackages [decipher-sdk-fastapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/decipher_sdk_fastapi-0.0.21.tar.gz tmp/decipher_sdk_fastapi-0.0.22.tar.gz --markdown 20240501/d/decipher-sdk-fastapi/0.0.21-0.0.22/README.md --exclude *.pyd
+[2024-05-01 02:17:48] INFO root fetch - processPackages [kolena]: Downloading https://files.pythonhosted.org/packages/96/79/bb655005ebffcb47a9d4a3150f2e8aa233b1219d02d5c56c170ff171f870/kolena-1.9.0.tar.gz
+[2024-05-01 02:17:48] INFO root fetch - processPackages [kolena]: executing diffoscope
+[2024-05-01 02:17:48] INFO root fetch - processPackages [kolena]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kolena-1.8.0.tar.gz tmp/kolena-1.9.0.tar.gz --markdown 20240501/k/kolena/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-05-01 02:17:48] INFO root fetch - processPackages [kolena-client]: executing diffoscope
+[2024-05-01 02:17:48] INFO root fetch - processPackages [kolena-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kolena_client-1.8.0.tar.gz tmp/kolena_client-1.9.0.tar.gz --markdown 20240501/k/kolena-client/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-05-01 02:17:49] INFO root fetch - processPackages [layerborn.cdk-iam-policy-builder-helper]: Downloading https://files.pythonhosted.org/packages/26/2e/93fd8c001cfb7f408cbc864e6742df4230a33d71d523ea381d2d760e2e89/layerborn.cdk-iam-policy-builder-helper-0.0.6.tar.gz
+[2024-05-01 02:17:49] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-hyperledger-fabric-network-0.8.98.tar.gz]
+[2024-05-01 02:17:49] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-hyperledger-fabric-network-0.8.99.tar.gz]
+[2024-05-01 02:17:49] INFO root fetch - main [MainThread]: End processing [cdklabs.cdk-hyperledger-fabric-network]: success
+[2024-05-01 02:17:49] INFO root fetch - processPackages [kframe]: Remove: archive file [/home/abi/fetcher/tmp/kframe-0.2.3rc1.tar.gz]
+[2024-05-01 02:17:49] INFO root fetch - processPackages [kframe]: Remove: archive file [/home/abi/fetcher/tmp/kframe-0.3.0rc1.tar.gz]
+[2024-05-01 02:17:49] INFO root fetch - main [MainThread]: End processing [kframe]: success
+[2024-05-01 02:17:49] INFO root fetch - processPackages [cdklabs.appsync-utils]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.appsync-utils-0.0.98.tar.gz]
+[2024-05-01 02:17:49] INFO root fetch - processPackages [cdklabs.appsync-utils]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.appsync-utils-0.0.99.tar.gz]
+[2024-05-01 02:17:49] INFO root fetch - main [MainThread]: End processing [cdklabs.appsync-utils]: success
+[2024-05-01 02:17:49] INFO root fetch - processPackages [decipher-sdk-fastapi]: Remove: archive file [/home/abi/fetcher/tmp/decipher_sdk_fastapi-0.0.21.tar.gz]
+[2024-05-01 02:17:49] INFO root fetch - processPackages [decipher-sdk-fastapi]: Remove: archive file [/home/abi/fetcher/tmp/decipher_sdk_fastapi-0.0.22.tar.gz]
+[2024-05-01 02:17:49] INFO root fetch - main [MainThread]: End processing [decipher-sdk-fastapi]: success
+[2024-05-01 02:17:49] INFO root fetch - processPackages [layerborn.cdk-iam-policy-builder-helper]: executing diffoscope
+[2024-05-01 02:17:49] INFO root fetch - processPackages [layerborn.cdk-iam-policy-builder-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/layerborn.cdk-iam-policy-builder-helper-0.0.5.tar.gz tmp/layerborn.cdk-iam-policy-builder-helper-0.0.6.tar.gz --markdown 20240501/l/layerborn.cdk-iam-policy-builder-helper/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-01 02:17:49] INFO root fetch - processPackages [aocstat]: Remove: archive file [/home/abi/fetcher/tmp/aocstat-0.2.0.tar.gz]
+[2024-05-01 02:17:49] INFO root fetch - processPackages [aocstat]: Remove: archive file [/home/abi/fetcher/tmp/aocstat-0.2.1.tar.gz]
+[2024-05-01 02:17:49] INFO root fetch - main [MainThread]: End processing [aocstat]: success
+[2024-05-01 02:17:49] INFO root fetch - processPackages [kolena-client]: Remove: archive file [/home/abi/fetcher/tmp/kolena_client-1.8.0.tar.gz]
+[2024-05-01 02:17:49] INFO root fetch - processPackages [kolena-client]: Remove: archive file [/home/abi/fetcher/tmp/kolena_client-1.9.0.tar.gz]
+[2024-05-01 02:17:49] INFO root fetch - main [MainThread]: End processing [kolena-client]: success
+[2024-05-01 02:17:49] INFO root fetch - processPackages [kolena]: Remove: archive file [/home/abi/fetcher/tmp/kolena-1.8.0.tar.gz]
+[2024-05-01 02:17:49] INFO root fetch - processPackages [kolena]: Remove: archive file [/home/abi/fetcher/tmp/kolena-1.9.0.tar.gz]
+[2024-05-01 02:17:49] INFO root fetch - main [MainThread]: End processing [kolena]: success
+[2024-05-01 02:17:50] INFO root fetch - processPackages [layerborn.cdk-iam-policy-builder-helper]: Remove: archive file [/home/abi/fetcher/tmp/layerborn.cdk-iam-policy-builder-helper-0.0.5.tar.gz]
+[2024-05-01 02:17:50] INFO root fetch - processPackages [layerborn.cdk-iam-policy-builder-helper]: Remove: archive file [/home/abi/fetcher/tmp/layerborn.cdk-iam-policy-builder-helper-0.0.6.tar.gz]
+[2024-05-01 02:17:50] INFO root fetch - main [MainThread]: End processing [layerborn.cdk-iam-policy-builder-helper]: success
+[2024-05-01 02:17:50] INFO root fetch - main [MainThread]: Store serial: [23009578]
