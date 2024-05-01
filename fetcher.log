@@ -14285,3 +14285,24 @@
 [2024-05-01 11:35:46] INFO root fetch - processPackages [impresso-text-importer]: Remove: archive file [/home/abi/fetcher/tmp/impresso_text_importer-1.1.0.tar.gz]
 [2024-05-01 11:35:46] INFO root fetch - main [MainThread]: End processing [impresso-text-importer]: success
 [2024-05-01 11:35:46] INFO root fetch - main [MainThread]: Store serial: [23014767]
+[2024-05-01 11:37:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23014767]
+[2024-05-01 11:37:55] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-01 11:37:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nvfuser-cu121
+[2024-05-01 11:37:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: alga
+[2024-05-01 11:37:56] INFO root fetch - processPackages [alga]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-05-01 11:37:56] INFO root fetch - processPackages [nvfuser-cu121]: New version: [0.2.3.dev20240501] Old Version: [0.2.3.dev20240428]
+[2024-05-01 11:37:56] INFO root fetch - processPackages [alga]: Downloading https://files.pythonhosted.org/packages/ec/2f/08a6a1139cd35f7d933fc7b540066d664e6a8ca8ad28033d6704c2adf80f/alga-0.2.0.tar.gz
+[2024-05-01 11:37:56] INFO root fetch - processPackages [nvfuser-cu121]: Downloading https://files.pythonhosted.org/packages/9a/80/a48fb1ffb85100ee88d2d6cb23e43c702acb20050afbc70aea7dc43b80e9/nvfuser_cu121-0.2.3.dev20240428.tar.gz
+[2024-05-01 11:37:56] INFO root fetch - processPackages [alga]: Downloading https://files.pythonhosted.org/packages/1f/6b/ce3d31681258c5c6d023710fd63e612387e5f384edce6efa458567b280f5/alga-0.3.0.tar.gz
+[2024-05-01 11:37:56] INFO root fetch - processPackages [nvfuser-cu121]: Downloading https://files.pythonhosted.org/packages/b4/2b/1e72e3a365b7cfe97b8caf38a75583f16794046143a83a4694baa5d69d6e/nvfuser_cu121-0.2.3.dev20240501.tar.gz
+[2024-05-01 11:37:56] INFO root fetch - processPackages [alga]: executing diffoscope
+[2024-05-01 11:37:56] INFO root fetch - processPackages [alga]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alga-0.2.0.tar.gz tmp/alga-0.3.0.tar.gz --markdown 20240501/a/alga/0.2.0-0.3.0/README.md --exclude *.pyd
+[2024-05-01 11:37:56] INFO root fetch - processPackages [nvfuser-cu121]: executing diffoscope
+[2024-05-01 11:37:56] INFO root fetch - processPackages [nvfuser-cu121]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvfuser_cu121-0.2.3.dev20240428.tar.gz tmp/nvfuser_cu121-0.2.3.dev20240501.tar.gz --markdown 20240501/n/nvfuser-cu121/0.2.3.dev20240428-0.2.3.dev20240501/README.md --exclude *.pyd
+[2024-05-01 11:37:57] INFO root fetch - processPackages [nvfuser-cu121]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu121-0.2.3.dev20240428.tar.gz]
+[2024-05-01 11:37:57] INFO root fetch - processPackages [nvfuser-cu121]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu121-0.2.3.dev20240501.tar.gz]
+[2024-05-01 11:37:57] INFO root fetch - main [MainThread]: End processing [nvfuser-cu121]: success
+[2024-05-01 11:37:57] INFO root fetch - processPackages [alga]: Remove: archive file [/home/abi/fetcher/tmp/alga-0.2.0.tar.gz]
+[2024-05-01 11:37:57] INFO root fetch - processPackages [alga]: Remove: archive file [/home/abi/fetcher/tmp/alga-0.3.0.tar.gz]
+[2024-05-01 11:37:57] INFO root fetch - main [MainThread]: End processing [alga]: success
+[2024-05-01 11:37:57] INFO root fetch - main [MainThread]: Store serial: [23014774]
