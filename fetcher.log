@@ -21102,3 +21102,77 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-01 15:19:30] INFO root fetch - processPackages [casagui]: Remove: archive file [/home/abi/fetcher/tmp/casagui-0.3.9.tar.gz]
 [2024-05-01 15:19:30] INFO root fetch - main [MainThread]: End processing [casagui]: success
 [2024-05-01 15:19:30] INFO root fetch - main [MainThread]: Store serial: [23017344]
+[2024-05-01 15:21:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23017344]
+[2024-05-01 15:21:40] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-01 15:21:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tarpie
+[2024-05-01 15:21:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: scriptman
+[2024-05-01 15:21:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hnt-nf-jira-library
+[2024-05-01 15:21:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-gcp
+[2024-05-01 15:21:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: torch-model-manager
+[2024-05-01 15:21:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pioreactor
+[2024-05-01 15:21:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: authress
+[2024-05-01 15:21:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: py-chalk-it
+[2024-05-01 15:21:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tiny-dag
+[2024-05-01 15:21:40] INFO root fetch - processPackages [pioreactor]: New version: [24.4.3rc0] Old Version: [24.4.30rc0]
+[2024-05-01 15:21:40] INFO root fetch - processPackages [scriptman]: New version: [0.0.0.9] Old Version: [0.0.0.8]
+[2024-05-01 15:21:40] INFO root fetch - processPackages [tiny-dag]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-01 15:21:40] INFO root fetch - processPackages [torch-model-manager]: New version: [0.1.0.dev7] Old Version: [0.1.0.dev6]
+[2024-05-01 15:21:40] INFO root fetch - processPackages [pulumi-gcp]: New version: [7.9.0a1707934510] Old Version: [7.9.0a1707891532]
+[2024-05-01 15:21:40] INFO root fetch - processPackages [pioreactor]: Downloading https://files.pythonhosted.org/packages/3b/57/b5239e7e5522d9d31c219c63f3e16d975ea9e4b60446be5af44681cb6b29/pioreactor-24.4.30rc0-py3-none-any.whl
+[2024-05-01 15:21:40] INFO root fetch - processPackages [hnt-nf-jira-library]: New version: [0.4.6] Old Version: [0.4.5]
+[2024-05-01 15:21:40] INFO root fetch - processPackages [py-chalk-it]: New version: [0.4.6] Old Version: [0.4.5]
+[2024-05-01 15:21:40] WARNING root fetch - processPackages [tarpie]: Skipping, unable to determine old version
+[2024-05-01 15:21:40] INFO root fetch - main [MainThread]: End processing [tarpie] error
+[2024-05-01 15:21:40] INFO root fetch - processPackages [authress]: New version: [3.0.70] Old Version: [3.0.66]
+[2024-05-01 15:21:40] INFO root fetch - processPackages [scriptman]: Downloading https://files.pythonhosted.org/packages/f0/36/7146888ddadc02a0f2fe536e4ba47e16a5aa6d2b9bf2b21cc312fb61bb23/scriptman-0.0.0.8.tar.gz
+[2024-05-01 15:21:40] INFO root fetch - processPackages [tiny-dag]: Downloading https://files.pythonhosted.org/packages/0b/8f/7ed4579b2871c6e935763bae678d4e60f2a47897c8193b85a132772b15d9/tiny_dag-0.0.8.tar.gz
+[2024-05-01 15:21:40] INFO root fetch - processPackages [torch-model-manager]: Downloading https://files.pythonhosted.org/packages/66/bf/77d49a3f3b64cd9c00adf3848c8055852077c9df7eb86716e1ae90927131/torch_model_manager-0.1.0.dev6.tar.gz
+[2024-05-01 15:21:40] INFO root fetch - processPackages [pulumi-gcp]: Downloading https://files.pythonhosted.org/packages/f0/b4/677e3618cc42a30dd41030c6dee1b6b9d52e956632b9a1eeb84c0c2d8e3c/pulumi_gcp-7.9.0a1707891532.tar.gz
+[2024-05-01 15:21:40] INFO root fetch - processPackages [hnt-nf-jira-library]: Downloading https://files.pythonhosted.org/packages/50/d6/821a1b407430f47a3f1fcb3c754eb1054f594a9f344290d71ebf47257b84/hnt_nf_jira_library-0.4.5.tar.gz
+[2024-05-01 15:21:40] INFO root fetch - processPackages [authress]: Downloading https://files.pythonhosted.org/packages/67/3b/9ea169534111ceb7b26cce0dccb3fae697f2b8dc1ae3bfa9ea834bcf2f9e/authress-3.0.66.tar.gz
+[2024-05-01 15:21:40] INFO root fetch - processPackages [py-chalk-it]: Downloading https://files.pythonhosted.org/packages/6d/dc/ea21bd3de4d66e85f52620ecb31180ba6f6d4deb8a82c01e8b370c49891f/py-chalk-it-0.4.5.tar.gz
+[2024-05-01 15:21:40] INFO root fetch - processPackages [scriptman]: Downloading https://files.pythonhosted.org/packages/f5/05/b5fcf85e401e2ea793d31d90d33eb9fe185765b18bd32c99cfe69d516956/scriptman-0.0.0.9.tar.gz
+[2024-05-01 15:21:40] INFO root fetch - processPackages [pioreactor]: Downloading https://files.pythonhosted.org/packages/25/3b/1be0c91aec5bb39153b1ebceb2ec1e7ee9d2874a2dd57554f1901352d260/pioreactor-24.4.3rc0-py3-none-any.whl
+[2024-05-01 15:21:40] INFO root fetch - processPackages [torch-model-manager]: Downloading https://files.pythonhosted.org/packages/f8/48/b53eabb87f4a1cd85f6247b41e9ae0a5de374cc4d65f53d444e3f4b2df8b/torch_model_manager-0.1.0.dev7.tar.gz
+[2024-05-01 15:21:40] INFO root fetch - processPackages [tiny-dag]: Downloading https://files.pythonhosted.org/packages/b6/d8/d44ad3be9eece0a03a7fa09328f5544307f770a41c704197e9e2cfbe8c20/tiny_dag-0.0.9.tar.gz
+[2024-05-01 15:21:40] WARNING root fetch - processPackages [py-chalk-it]: Skipping package: exceeds size limit 34002807>=10485760
+[2024-05-01 15:21:40] INFO root fetch - main [MainThread]: End processing [py-chalk-it] error
+[2024-05-01 15:21:40] INFO root fetch - processPackages [scriptman]: executing diffoscope
+[2024-05-01 15:21:40] INFO root fetch - processPackages [scriptman]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scriptman-0.0.0.8.tar.gz tmp/scriptman-0.0.0.9.tar.gz --markdown 20240501/s/scriptman/0.0.0.8-0.0.0.9/README.md --exclude *.pyd
+[2024-05-01 15:21:40] INFO root fetch - processPackages [torch-model-manager]: executing diffoscope
+[2024-05-01 15:21:40] INFO root fetch - processPackages [torch-model-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_model_manager-0.1.0.dev6.tar.gz tmp/torch_model_manager-0.1.0.dev7.tar.gz --markdown 20240501/t/torch-model-manager/0.1.0.dev6-0.1.0.dev7/README.md --exclude *.pyd
+[2024-05-01 15:21:40] INFO root fetch - processPackages [tiny-dag]: executing diffoscope
+[2024-05-01 15:21:40] INFO root fetch - processPackages [tiny-dag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tiny_dag-0.0.8.tar.gz tmp/tiny_dag-0.0.9.tar.gz --markdown 20240501/t/tiny-dag/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-01 15:21:40] INFO root fetch - processPackages [pulumi-gcp]: Downloading https://files.pythonhosted.org/packages/e8/4f/d6c8ded38a6c81689a5fb00b6aea9daeef82f4686f3ad6c74eba94b37d8b/pulumi_gcp-7.9.0a1707934510.tar.gz
+[2024-05-01 15:21:40] INFO root fetch - processPackages [pioreactor]: executing diffoscope
+[2024-05-01 15:21:40] INFO root fetch - processPackages [pioreactor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pioreactor-24.4.30rc0-py3-none-any.whl.zip tmp/pioreactor-24.4.3rc0-py3-none-any.whl.zip --markdown 20240501/p/pioreactor/24.4.30rc0-24.4.3rc0/README.md --exclude *.pyd
+[2024-05-01 15:21:40] INFO root fetch - processPackages [authress]: Downloading https://files.pythonhosted.org/packages/59/92/1b0bf6cd0eeb2436c91579352d6a6a6fe5825ad365dd6a12cd6859167beb/authress-3.0.70.tar.gz
+[2024-05-01 15:21:41] INFO root fetch - processPackages [authress]: executing diffoscope
+[2024-05-01 15:21:41] INFO root fetch - processPackages [authress]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/authress-3.0.66.tar.gz tmp/authress-3.0.70.tar.gz --markdown 20240501/a/authress/3.0.66-3.0.70/README.md --exclude *.pyd
+[2024-05-01 15:21:41] INFO root fetch - processPackages [pulumi-gcp]: executing diffoscope
+[2024-05-01 15:21:41] INFO root fetch - processPackages [pulumi-gcp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_gcp-7.9.0a1707891532.tar.gz tmp/pulumi_gcp-7.9.0a1707934510.tar.gz --markdown 20240501/p/pulumi-gcp/7.9.0a1707891532-7.9.0a1707934510/README.md --exclude *.pyd
+[2024-05-01 15:21:41] INFO root fetch - processPackages [scriptman]: Remove: archive file [/home/abi/fetcher/tmp/scriptman-0.0.0.8.tar.gz]
+[2024-05-01 15:21:41] INFO root fetch - processPackages [scriptman]: Remove: archive file [/home/abi/fetcher/tmp/scriptman-0.0.0.9.tar.gz]
+[2024-05-01 15:21:41] INFO root fetch - main [MainThread]: End processing [scriptman]: success
+[2024-05-01 15:21:41] INFO root fetch - processPackages [tiny-dag]: Remove: archive file [/home/abi/fetcher/tmp/tiny_dag-0.0.8.tar.gz]
+[2024-05-01 15:21:41] INFO root fetch - processPackages [tiny-dag]: Remove: archive file [/home/abi/fetcher/tmp/tiny_dag-0.0.9.tar.gz]
+[2024-05-01 15:21:41] INFO root fetch - main [MainThread]: End processing [tiny-dag]: success
+[2024-05-01 15:21:41] INFO root fetch - processPackages [torch-model-manager]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_manager-0.1.0.dev6.tar.gz]
+[2024-05-01 15:21:41] INFO root fetch - processPackages [torch-model-manager]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_manager-0.1.0.dev7.tar.gz]
+[2024-05-01 15:21:41] INFO root fetch - main [MainThread]: End processing [torch-model-manager]: success
+[2024-05-01 15:21:42] INFO root fetch - processPackages [pioreactor]: Remove: archive file [/home/abi/fetcher/tmp/pioreactor-24.4.30rc0-py3-none-any.whl.zip]
+[2024-05-01 15:21:42] INFO root fetch - processPackages [pioreactor]: Remove: archive file [/home/abi/fetcher/tmp/pioreactor-24.4.3rc0-py3-none-any.whl.zip]
+[2024-05-01 15:21:42] INFO root fetch - main [MainThread]: End processing [pioreactor]: success
+[2024-05-01 15:21:42] INFO root fetch - processPackages [authress]: Remove: archive file [/home/abi/fetcher/tmp/authress-3.0.66.tar.gz]
+[2024-05-01 15:21:42] INFO root fetch - processPackages [authress]: Remove: archive file [/home/abi/fetcher/tmp/authress-3.0.70.tar.gz]
+[2024-05-01 15:21:42] INFO root fetch - main [MainThread]: End processing [authress]: success
+[2024-05-01 15:21:42] INFO root fetch - processPackages [hnt-nf-jira-library]: Downloading https://files.pythonhosted.org/packages/bb/77/920bf5cd644f93c841ec40963f6a7ee108039f5a89d3ec4e1d7996dbc6d3/hnt_nf_jira_library-0.4.6.tar.gz
+[2024-05-01 15:21:43] INFO root fetch - processPackages [hnt-nf-jira-library]: executing diffoscope
+[2024-05-01 15:21:43] INFO root fetch - processPackages [hnt-nf-jira-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hnt_nf_jira_library-0.4.5.tar.gz tmp/hnt_nf_jira_library-0.4.6.tar.gz --markdown 20240501/h/hnt-nf-jira-library/0.4.5-0.4.6/README.md --exclude *.pyd
+[2024-05-01 15:21:43] INFO root fetch - processPackages [hnt-nf-jira-library]: Remove: archive file [/home/abi/fetcher/tmp/hnt_nf_jira_library-0.4.5.tar.gz]
+[2024-05-01 15:21:43] INFO root fetch - processPackages [hnt-nf-jira-library]: Remove: archive file [/home/abi/fetcher/tmp/hnt_nf_jira_library-0.4.6.tar.gz]
+[2024-05-01 15:21:43] INFO root fetch - main [MainThread]: End processing [hnt-nf-jira-library]: success
+[2024-05-01 15:21:51] INFO root fetch - processPackages [pulumi-gcp]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_gcp-7.9.0a1707891532.tar.gz]
+[2024-05-01 15:21:51] INFO root fetch - processPackages [pulumi-gcp]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_gcp-7.9.0a1707934510.tar.gz]
+[2024-05-01 15:21:51] INFO root fetch - main [MainThread]: End processing [pulumi-gcp]: success
+[2024-05-01 15:21:51] INFO root fetch - main [MainThread]: Store serial: [23017373]
