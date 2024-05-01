@@ -11562,3 +11562,24 @@
 [2024-05-01 09:06:21] INFO root fetch - processPackages [laoshi]: Remove: archive file [/home/abi/fetcher/tmp/laoshi-0.1.1.tar.gz]
 [2024-05-01 09:06:21] INFO root fetch - main [MainThread]: End processing [laoshi]: success
 [2024-05-01 09:06:21] INFO root fetch - main [MainThread]: Store serial: [23013478]
+[2024-05-01 09:08:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23013478]
+[2024-05-01 09:08:29] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-01 09:08:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tailucas-pylib
+[2024-05-01 09:08:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: stinky-noodle
+[2024-05-01 09:08:29] INFO root fetch - processPackages [tailucas-pylib]: New version: [0.3.6] Old Version: [0.3.5]
+[2024-05-01 09:08:29] INFO root fetch - processPackages [stinky-noodle]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-01 09:08:29] INFO root fetch - processPackages [tailucas-pylib]: Downloading https://files.pythonhosted.org/packages/8d/ff/857ba90e45462967beee7f1620c7b1ac737536359e9f878f8e710d182fae/tailucas_pylib-0.3.5.tar.gz
+[2024-05-01 09:08:29] INFO root fetch - processPackages [stinky-noodle]: Downloading https://files.pythonhosted.org/packages/87/f1/9a0555c6a5b8b327bdbc27148adff19bfa4b44119cb9193c60cc8f4c54db/stinky_noodle-0.0.8.tar.gz
+[2024-05-01 09:08:30] INFO root fetch - processPackages [tailucas-pylib]: Downloading https://files.pythonhosted.org/packages/92/e9/05d1448cea3aadd694d61c1d520cd9877f53db174124d7d74e566c13ab8e/tailucas_pylib-0.3.6.tar.gz
+[2024-05-01 09:08:30] INFO root fetch - processPackages [stinky-noodle]: Downloading https://files.pythonhosted.org/packages/b0/eb/04bcf245bd5d4324b373e66b5f96d1e521dc9cae9bf7c75b11a4d0151dd3/stinky_noodle-0.0.9.tar.gz
+[2024-05-01 09:08:30] INFO root fetch - processPackages [tailucas-pylib]: executing diffoscope
+[2024-05-01 09:08:30] INFO root fetch - processPackages [tailucas-pylib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tailucas_pylib-0.3.5.tar.gz tmp/tailucas_pylib-0.3.6.tar.gz --markdown 20240501/t/tailucas-pylib/0.3.5-0.3.6/README.md --exclude *.pyd
+[2024-05-01 09:08:30] INFO root fetch - processPackages [stinky-noodle]: executing diffoscope
+[2024-05-01 09:08:30] INFO root fetch - processPackages [stinky-noodle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stinky_noodle-0.0.8.tar.gz tmp/stinky_noodle-0.0.9.tar.gz --markdown 20240501/s/stinky-noodle/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-01 09:08:30] INFO root fetch - processPackages [tailucas-pylib]: Remove: archive file [/home/abi/fetcher/tmp/tailucas_pylib-0.3.5.tar.gz]
+[2024-05-01 09:08:30] INFO root fetch - processPackages [tailucas-pylib]: Remove: archive file [/home/abi/fetcher/tmp/tailucas_pylib-0.3.6.tar.gz]
+[2024-05-01 09:08:30] INFO root fetch - main [MainThread]: End processing [tailucas-pylib]: success
+[2024-05-01 09:08:30] INFO root fetch - processPackages [stinky-noodle]: Remove: archive file [/home/abi/fetcher/tmp/stinky_noodle-0.0.8.tar.gz]
+[2024-05-01 09:08:30] INFO root fetch - processPackages [stinky-noodle]: Remove: archive file [/home/abi/fetcher/tmp/stinky_noodle-0.0.9.tar.gz]
+[2024-05-01 09:08:30] INFO root fetch - main [MainThread]: End processing [stinky-noodle]: success
+[2024-05-01 09:08:30] INFO root fetch - main [MainThread]: Store serial: [23013484]
