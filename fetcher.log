@@ -10812,3 +10812,33 @@
 [2024-05-01 08:23:48] INFO root fetch - processPackages [pandas-geojson]: Remove: archive file [/home/abi/fetcher/tmp/pandas_geojson-2.2.0.tar.gz]
 [2024-05-01 08:23:48] INFO root fetch - main [MainThread]: End processing [pandas-geojson]: success
 [2024-05-01 08:23:48] INFO root fetch - main [MainThread]: Store serial: [23013102]
+[2024-05-01 08:25:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23013102]
+[2024-05-01 08:25:56] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-01 08:25:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-onelogin
+[2024-05-01 08:25:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PixCrypt
+[2024-05-01 08:25:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Akatosh
+[2024-05-01 08:25:56] INFO root fetch - processPackages [Akatosh]: New version: [3.0.2] Old Version: [3.0.1]
+[2024-05-01 08:25:57] INFO root fetch - processPackages [pulumi-onelogin]: New version: [0.7.0a1714537431] Old Version: [0.7.0a1714456775]
+[2024-05-01 08:25:57] INFO root fetch - processPackages [PixCrypt]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-05-01 08:25:57] INFO root fetch - processPackages [Akatosh]: Downloading https://files.pythonhosted.org/packages/c9/75/6a69c6b95514e8614ca77a29701293d656b182ef4fc507375e54a053f444/akatosh-3.0.1.tar.gz
+[2024-05-01 08:25:57] INFO root fetch - processPackages [pulumi-onelogin]: Downloading https://files.pythonhosted.org/packages/27/a3/ddcee4b89a475f2ffb763d04d076ff7b384d671743c55d53015bde4dddfc/pulumi_onelogin-0.7.0a1714456775.tar.gz
+[2024-05-01 08:25:57] INFO root fetch - processPackages [PixCrypt]: Downloading https://files.pythonhosted.org/packages/13/8c/6519ccbb4176afcf9469f19b1a7aa28836049b6d6996215db55b1efe9deb/PixCrypt-1.0.0.tar.gz
+[2024-05-01 08:25:57] INFO root fetch - processPackages [pulumi-onelogin]: Downloading https://files.pythonhosted.org/packages/8d/35/5a54b56fbbb07efb3b77f6240ffed2a9a5b919befd85f9092d1173043d48/pulumi_onelogin-0.7.0a1714537431.tar.gz
+[2024-05-01 08:25:57] INFO root fetch - processPackages [Akatosh]: Downloading https://files.pythonhosted.org/packages/7b/09/81693b20bc27df2a1180808f7ee165ded8879c481340e7afeef3350c1882/akatosh-3.0.2.tar.gz
+[2024-05-01 08:25:57] INFO root fetch - processPackages [Akatosh]: executing diffoscope
+[2024-05-01 08:25:57] INFO root fetch - processPackages [Akatosh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akatosh-3.0.1.tar.gz tmp/akatosh-3.0.2.tar.gz --markdown 20240501/A/Akatosh/3.0.1-3.0.2/README.md --exclude *.pyd
+[2024-05-01 08:25:57] INFO root fetch - processPackages [PixCrypt]: Downloading https://files.pythonhosted.org/packages/92/09/082ea8ffa6ffdc22fde5f2206b1d21a94515dff3fa9a3445ec1152735657/PixCrypt-1.1.0.tar.gz
+[2024-05-01 08:25:57] INFO root fetch - processPackages [pulumi-onelogin]: executing diffoscope
+[2024-05-01 08:25:57] INFO root fetch - processPackages [pulumi-onelogin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_onelogin-0.7.0a1714456775.tar.gz tmp/pulumi_onelogin-0.7.0a1714537431.tar.gz --markdown 20240501/p/pulumi-onelogin/0.7.0a1714456775-0.7.0a1714537431/README.md --exclude *.pyd
+[2024-05-01 08:25:57] INFO root fetch - processPackages [PixCrypt]: executing diffoscope
+[2024-05-01 08:25:57] INFO root fetch - processPackages [PixCrypt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PixCrypt-1.0.0.tar.gz tmp/PixCrypt-1.1.0.tar.gz --markdown 20240501/P/PixCrypt/1.0.0-1.1.0/README.md --exclude *.pyd
+[2024-05-01 08:25:58] INFO root fetch - processPackages [Akatosh]: Remove: archive file [/home/abi/fetcher/tmp/akatosh-3.0.1.tar.gz]
+[2024-05-01 08:25:58] INFO root fetch - processPackages [Akatosh]: Remove: archive file [/home/abi/fetcher/tmp/akatosh-3.0.2.tar.gz]
+[2024-05-01 08:25:58] INFO root fetch - main [MainThread]: End processing [Akatosh]: success
+[2024-05-01 08:25:58] INFO root fetch - processPackages [PixCrypt]: Remove: archive file [/home/abi/fetcher/tmp/PixCrypt-1.0.0.tar.gz]
+[2024-05-01 08:25:58] INFO root fetch - processPackages [PixCrypt]: Remove: archive file [/home/abi/fetcher/tmp/PixCrypt-1.1.0.tar.gz]
+[2024-05-01 08:25:58] INFO root fetch - main [MainThread]: End processing [PixCrypt]: success
+[2024-05-01 08:25:58] INFO root fetch - processPackages [pulumi-onelogin]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_onelogin-0.7.0a1714456775.tar.gz]
+[2024-05-01 08:25:58] INFO root fetch - processPackages [pulumi-onelogin]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_onelogin-0.7.0a1714537431.tar.gz]
+[2024-05-01 08:25:58] INFO root fetch - main [MainThread]: End processing [pulumi-onelogin]: success
+[2024-05-01 08:25:58] INFO root fetch - main [MainThread]: Store serial: [23013123]
