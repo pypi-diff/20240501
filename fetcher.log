@@ -21351,3 +21351,65 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-01 15:31:02] WARNING root fetch - processPackages [Python-Education-Tools]: Skipping package: exceeds size limit 26049450>=10485760
 [2024-05-01 15:31:02] INFO root fetch - main [MainThread]: End processing [Python-Education-Tools] error
 [2024-05-01 15:31:02] INFO root fetch - main [MainThread]: Store serial: [23017441]
+[2024-05-01 15:33:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23017441]
+[2024-05-01 15:33:11] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-01 15:33:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spyctl
+[2024-05-01 15:33:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: premise
+[2024-05-01 15:33:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-monkey-patches
+[2024-05-01 15:33:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PVNet
+[2024-05-01 15:33:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: threed-optix
+[2024-05-01 15:33:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ds20kdb-avt
+[2024-05-01 15:33:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ragdaemon
+[2024-05-01 15:33:11] INFO root fetch - processPackages [threed-optix]: New version: [5.0.0] Old Version: [4.2.6]
+[2024-05-01 15:33:11] INFO root fetch - processPackages [django-monkey-patches]: New version: [3.0.0] Old Version: [2.9.1]
+[2024-05-01 15:33:11] INFO root fetch - processPackages [spyctl]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-01 15:33:11] INFO root fetch - processPackages [threed-optix]: Downloading https://files.pythonhosted.org/packages/c3/cd/d0a0c5ac174bdb830e8b7ecd817dfba093f85d749892412ac0683ba29201/threed_optix-4.2.6.tar.gz
+[2024-05-01 15:33:11] INFO root fetch - processPackages [ragdaemon]: New version: [0.4.0] Old Version: [0.3.3]
+[2024-05-01 15:33:11] INFO root fetch - processPackages [ds20kdb-avt]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-01 15:33:11] INFO root fetch - processPackages [django-monkey-patches]: Downloading https://files.pythonhosted.org/packages/b1/d6/1fde4428e12ba37b282e36e74bb7b85d0bccdffa562ac9129bcc69c564c3/django_monkey_patches-2.9.1.tar.gz
+[2024-05-01 15:33:11] INFO root fetch - processPackages [premise]: New version: [2.1.0.dev3] Old Version: [2.1.0.dev1]
+[2024-05-01 15:33:11] INFO root fetch - processPackages [PVNet]: New version: [3.0.9] Old Version: [3.0.8]
+[2024-05-01 15:33:11] INFO root fetch - processPackages [spyctl]: Downloading https://files.pythonhosted.org/packages/bb/4b/a59fb5994f1c8eeea8d7334ba6443b1b0932e7a4e48893d9354fc8d3f345/spyctl-0.9.8.tar.gz
+[2024-05-01 15:33:11] INFO root fetch - processPackages [ragdaemon]: Downloading https://files.pythonhosted.org/packages/82/c4/f76627a4214f2a97d38c6c2a620ba7349eca9f4814ea912e88e168e1f33f/ragdaemon-0.3.3.tar.gz
+[2024-05-01 15:33:11] INFO root fetch - processPackages [premise]: Downloading https://files.pythonhosted.org/packages/28/f1/15b55ef5679144abf2a207417d8a89364254800bd013250020ed75178812/premise-2.1.0.dev1.tar.gz
+[2024-05-01 15:33:11] INFO root fetch - processPackages [PVNet]: Downloading https://files.pythonhosted.org/packages/47/d6/3a89799187c251f632672a9aa190b5b93fac0e00f5ec20eb85fe39a56fe2/PVNet-3.0.8.tar.gz
+[2024-05-01 15:33:11] INFO root fetch - processPackages [threed-optix]: Downloading https://files.pythonhosted.org/packages/b6/38/b8e7e1c3841683762c4d838b4d9206d44d71fa71f750026a28542efe48ff/threed_optix-5.0.0.tar.gz
+[2024-05-01 15:33:11] INFO root fetch - processPackages [ds20kdb-avt]: Downloading https://files.pythonhosted.org/packages/54/fc/d6eb13c3159fe18627b8d7e0c76dfc177e657a384ee411738c5950b0ff8f/ds20kdb_avt-1.0.8.tar.gz
+[2024-05-01 15:33:11] INFO root fetch - processPackages [django-monkey-patches]: Downloading https://files.pythonhosted.org/packages/9a/b4/f920defc678ca15cd288e04c4e99ac19ff5ce7ba1339102ad63a28b3991f/django_monkey_patches-3.0.0.tar.gz
+[2024-05-01 15:33:11] WARNING root fetch - processPackages [premise]: Skipping package: exceeds size limit 82537894>=10485760
+[2024-05-01 15:33:11] INFO root fetch - main [MainThread]: End processing [premise] error
+[2024-05-01 15:33:11] INFO root fetch - processPackages [threed-optix]: executing diffoscope
+[2024-05-01 15:33:11] INFO root fetch - processPackages [threed-optix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threed_optix-4.2.6.tar.gz tmp/threed_optix-5.0.0.tar.gz --markdown 20240501/t/threed-optix/4.2.6-5.0.0/README.md --exclude *.pyd
+[2024-05-01 15:33:11] INFO root fetch - processPackages [django-monkey-patches]: executing diffoscope
+[2024-05-01 15:33:11] INFO root fetch - processPackages [django-monkey-patches]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_monkey_patches-2.9.1.tar.gz tmp/django_monkey_patches-3.0.0.tar.gz --markdown 20240501/d/django-monkey-patches/2.9.1-3.0.0/README.md --exclude *.pyd
+[2024-05-01 15:33:11] INFO root fetch - processPackages [spyctl]: Downloading https://files.pythonhosted.org/packages/17/e2/55d6dccc2305d8b76d800790e1d7ff47b693a16756f7104d6b2119af9332/spyctl-0.9.9.tar.gz
+[2024-05-01 15:33:11] INFO root fetch - processPackages [ragdaemon]: Downloading https://files.pythonhosted.org/packages/11/78/c15aa729c5ac633913ff976195dcf6218dcc35ef364c97c9ce652d97af8e/ragdaemon-0.4.0.tar.gz
+[2024-05-01 15:33:11] INFO root fetch - processPackages [PVNet]: Downloading https://files.pythonhosted.org/packages/05/79/f3c9a6a17b563f480074d48bf5010f5bd4c77a300c1cbbb5b246ad094c7c/PVNet-3.0.9.tar.gz
+[2024-05-01 15:33:12] INFO root fetch - processPackages [ragdaemon]: executing diffoscope
+[2024-05-01 15:33:12] INFO root fetch - processPackages [ragdaemon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ragdaemon-0.3.3.tar.gz tmp/ragdaemon-0.4.0.tar.gz --markdown 20240501/r/ragdaemon/0.3.3-0.4.0/README.md --exclude *.pyd
+[2024-05-01 15:33:12] INFO root fetch - processPackages [PVNet]: executing diffoscope
+[2024-05-01 15:33:12] INFO root fetch - processPackages [PVNet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PVNet-3.0.8.tar.gz tmp/PVNet-3.0.9.tar.gz --markdown 20240501/P/PVNet/3.0.8-3.0.9/README.md --exclude *.pyd
+[2024-05-01 15:33:12] INFO root fetch - processPackages [spyctl]: executing diffoscope
+[2024-05-01 15:33:12] INFO root fetch - processPackages [spyctl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spyctl-0.9.8.tar.gz tmp/spyctl-0.9.9.tar.gz --markdown 20240501/s/spyctl/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-01 15:33:12] INFO root fetch - processPackages [ds20kdb-avt]: Downloading https://files.pythonhosted.org/packages/83/28/16e823ee489c38fd36674be8fd026fb3db3cfcad54433558f118ad2bfbdc/ds20kdb_avt-1.0.9.tar.gz
+[2024-05-01 15:33:12] INFO root fetch - processPackages [ds20kdb-avt]: executing diffoscope
+[2024-05-01 15:33:12] INFO root fetch - processPackages [ds20kdb-avt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ds20kdb_avt-1.0.8.tar.gz tmp/ds20kdb_avt-1.0.9.tar.gz --markdown 20240501/d/ds20kdb-avt/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-01 15:33:12] INFO root fetch - processPackages [django-monkey-patches]: Remove: archive file [/home/abi/fetcher/tmp/django_monkey_patches-2.9.1.tar.gz]
+[2024-05-01 15:33:12] INFO root fetch - processPackages [django-monkey-patches]: Remove: archive file [/home/abi/fetcher/tmp/django_monkey_patches-3.0.0.tar.gz]
+[2024-05-01 15:33:12] INFO root fetch - main [MainThread]: End processing [django-monkey-patches]: success
+[2024-05-01 15:33:12] INFO root fetch - processPackages [threed-optix]: Remove: archive file [/home/abi/fetcher/tmp/threed_optix-4.2.6.tar.gz]
+[2024-05-01 15:33:12] INFO root fetch - processPackages [threed-optix]: Remove: archive file [/home/abi/fetcher/tmp/threed_optix-5.0.0.tar.gz]
+[2024-05-01 15:33:12] INFO root fetch - main [MainThread]: End processing [threed-optix]: success
+[2024-05-01 15:33:12] INFO root fetch - processPackages [spyctl]: Remove: archive file [/home/abi/fetcher/tmp/spyctl-0.9.8.tar.gz]
+[2024-05-01 15:33:12] INFO root fetch - processPackages [spyctl]: Remove: archive file [/home/abi/fetcher/tmp/spyctl-0.9.9.tar.gz]
+[2024-05-01 15:33:12] INFO root fetch - main [MainThread]: End processing [spyctl]: success
+[2024-05-01 15:33:12] INFO root fetch - processPackages [PVNet]: Remove: archive file [/home/abi/fetcher/tmp/PVNet-3.0.8.tar.gz]
+[2024-05-01 15:33:12] INFO root fetch - processPackages [PVNet]: Remove: archive file [/home/abi/fetcher/tmp/PVNet-3.0.9.tar.gz]
+[2024-05-01 15:33:12] INFO root fetch - main [MainThread]: End processing [PVNet]: success
+[2024-05-01 15:33:12] INFO root fetch - processPackages [ragdaemon]: Remove: archive file [/home/abi/fetcher/tmp/ragdaemon-0.3.3.tar.gz]
+[2024-05-01 15:33:12] INFO root fetch - processPackages [ragdaemon]: Remove: archive file [/home/abi/fetcher/tmp/ragdaemon-0.4.0.tar.gz]
+[2024-05-01 15:33:12] INFO root fetch - main [MainThread]: End processing [ragdaemon]: success
+[2024-05-01 15:33:13] INFO root fetch - processPackages [ds20kdb-avt]: Remove: archive file [/home/abi/fetcher/tmp/ds20kdb_avt-1.0.8.tar.gz]
+[2024-05-01 15:33:13] INFO root fetch - processPackages [ds20kdb-avt]: Remove: archive file [/home/abi/fetcher/tmp/ds20kdb_avt-1.0.9.tar.gz]
+[2024-05-01 15:33:13] INFO root fetch - main [MainThread]: End processing [ds20kdb-avt]: success
+[2024-05-01 15:33:13] INFO root fetch - main [MainThread]: Store serial: [23017462]
