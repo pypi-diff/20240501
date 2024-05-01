@@ -16627,3 +16627,69 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-01 13:15:48] INFO root fetch - processPackages [lusid-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_sdk-2.1.76.tar.gz]
 [2024-05-01 13:15:48] INFO root fetch - main [MainThread]: End processing [lusid-sdk]: success
 [2024-05-01 13:15:48] INFO root fetch - main [MainThread]: Store serial: [23015620]
+[2024-05-01 13:17:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23015620]
+[2024-05-01 13:17:57] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-01 13:17:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pygmt
+[2024-05-01 13:17:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: maplibre
+[2024-05-01 13:17:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: massmarket-hash-event
+[2024-05-01 13:17:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: trytond-sale-supply-drop-shipment
+[2024-05-01 13:17:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: threed-optix
+[2024-05-01 13:17:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gitblog2
+[2024-05-01 13:17:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: trytond-sale-supply
+[2024-05-01 13:17:57] INFO root fetch - processPackages [gitblog2]: New version: [2.2.1] Old Version: [2.2.0]
+[2024-05-01 13:17:57] INFO root fetch - processPackages [massmarket-hash-event]: New version: [0.1.5] Old Version: [0.1.1]
+[2024-05-01 13:17:57] INFO root fetch - processPackages [gitblog2]: Downloading https://files.pythonhosted.org/packages/e6/20/91301981d6af55af5b385094033aeebb130a6ac18d0059374852557b4aec/gitblog2-2.2.0.tar.gz
+[2024-05-01 13:17:57] INFO root fetch - processPackages [threed-optix]: New version: [5.0.0] Old Version: [4.2.6]
+[2024-05-01 13:17:57] INFO root fetch - processPackages [maplibre]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-01 13:17:57] INFO root fetch - processPackages [trytond-sale-supply]: New version: [7.2.1] Old Version: [7.2.0]
+[2024-05-01 13:17:57] INFO root fetch - processPackages [pygmt]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-01 13:17:57] INFO root fetch - processPackages [trytond-sale-supply-drop-shipment]: New version: [7.2.1] Old Version: [7.2.0]
+[2024-05-01 13:17:57] INFO root fetch - processPackages [massmarket-hash-event]: Downloading https://files.pythonhosted.org/packages/3c/99/34c763b91f9fa333d529f80c1111bcd00efdc8fcd896bf05696368978915/massmarket_hash_event-0.1.1.tar.gz
+[2024-05-01 13:17:57] INFO root fetch - processPackages [maplibre]: Downloading https://files.pythonhosted.org/packages/70/ca/03b69fdd4acb8090014f0f58d457032f26c2af87d6935ceeab8432a34132/maplibre-0.1.3.tar.gz
+[2024-05-01 13:17:57] INFO root fetch - processPackages [pygmt]: Downloading https://files.pythonhosted.org/packages/54/7c/3808ee65c84a30c253bcf5d5efeb46d9453832f83a6a71414188e910066c/pygmt-0.8.0.tar.gz
+[2024-05-01 13:17:57] INFO root fetch - processPackages [threed-optix]: Downloading https://files.pythonhosted.org/packages/c3/cd/d0a0c5ac174bdb830e8b7ecd817dfba093f85d749892412ac0683ba29201/threed_optix-4.2.6.tar.gz
+[2024-05-01 13:17:57] INFO root fetch - processPackages [trytond-sale-supply-drop-shipment]: Downloading https://files.pythonhosted.org/packages/85/8d/5eef756749005d2500f3f53325f2d0ed5c4af4d065ebd73c888731a23e38/trytond_sale_supply_drop_shipment-7.2.0.tar.gz
+[2024-05-01 13:17:57] INFO root fetch - processPackages [trytond-sale-supply]: Downloading https://files.pythonhosted.org/packages/06/28/51427d4a16663cf9d44636dc150e354a503563a5643a2d00bc90d4d934e7/trytond_sale_supply-7.2.0.tar.gz
+[2024-05-01 13:17:57] INFO root fetch - processPackages [gitblog2]: Downloading https://files.pythonhosted.org/packages/d8/24/8d865293df6a00d9cbb1ffad4bf66e7355eef75772fa797506bda5124b70/gitblog2-2.2.1.tar.gz
+[2024-05-01 13:17:57] INFO root fetch - processPackages [massmarket-hash-event]: Downloading https://files.pythonhosted.org/packages/bb/20/abe29d1a7090a27942d561a017cb03bc54c866fbfa013b3b78b0298d9f38/massmarket_hash_event-0.1.5.tar.gz
+[2024-05-01 13:17:57] INFO root fetch - processPackages [gitblog2]: executing diffoscope
+[2024-05-01 13:17:57] INFO root fetch - processPackages [gitblog2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitblog2-2.2.0.tar.gz tmp/gitblog2-2.2.1.tar.gz --markdown 20240501/g/gitblog2/2.2.0-2.2.1/README.md --exclude *.pyd
+[2024-05-01 13:17:57] INFO root fetch - processPackages [maplibre]: Downloading https://files.pythonhosted.org/packages/9b/d8/066661bee4d72c25527d8ee03f3269bd2906d942ecc97b917d31570b1ba3/maplibre-0.1.4.tar.gz
+[2024-05-01 13:17:57] INFO root fetch - processPackages [massmarket-hash-event]: executing diffoscope
+[2024-05-01 13:17:57] INFO root fetch - processPackages [massmarket-hash-event]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/massmarket_hash_event-0.1.1.tar.gz tmp/massmarket_hash_event-0.1.5.tar.gz --markdown 20240501/m/massmarket-hash-event/0.1.1-0.1.5/README.md --exclude *.pyd
+[2024-05-01 13:17:57] INFO root fetch - processPackages [threed-optix]: Downloading https://files.pythonhosted.org/packages/b6/38/b8e7e1c3841683762c4d838b4d9206d44d71fa71f750026a28542efe48ff/threed_optix-5.0.0.tar.gz
+[2024-05-01 13:17:57] INFO root fetch - processPackages [trytond-sale-supply-drop-shipment]: Downloading https://files.pythonhosted.org/packages/9f/92/e5555187b742002f944483a66903734b57f8274514ab3596c2d48e819e62/trytond_sale_supply_drop_shipment-7.2.1.tar.gz
+[2024-05-01 13:17:57] INFO root fetch - processPackages [maplibre]: executing diffoscope
+[2024-05-01 13:17:57] INFO root fetch - processPackages [maplibre]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maplibre-0.1.3.tar.gz tmp/maplibre-0.1.4.tar.gz --markdown 20240501/m/maplibre/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-01 13:17:57] INFO root fetch - processPackages [pygmt]: Downloading https://files.pythonhosted.org/packages/bc/27/fb94b103efa425b46bed0cc85f98e13dd046648ed86e75f24ddba5de725d/pygmt-0.9.0.tar.gz
+[2024-05-01 13:17:57] INFO root fetch - processPackages [trytond-sale-supply]: Downloading https://files.pythonhosted.org/packages/e7/cc/4fb775ff605dfe09d26a6c95aa9eca125ba2e31719f2835aa88ff8c657eb/trytond_sale_supply-7.2.1.tar.gz
+[2024-05-01 13:17:58] INFO root fetch - processPackages [threed-optix]: executing diffoscope
+[2024-05-01 13:17:58] INFO root fetch - processPackages [threed-optix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threed_optix-4.2.6.tar.gz tmp/threed_optix-5.0.0.tar.gz --markdown 20240501/t/threed-optix/4.2.6-5.0.0/README.md --exclude *.pyd
+[2024-05-01 13:17:58] INFO root fetch - processPackages [trytond-sale-supply-drop-shipment]: executing diffoscope
+[2024-05-01 13:17:58] INFO root fetch - processPackages [trytond-sale-supply-drop-shipment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_sale_supply_drop_shipment-7.2.0.tar.gz tmp/trytond_sale_supply_drop_shipment-7.2.1.tar.gz --markdown 20240501/t/trytond-sale-supply-drop-shipment/7.2.0-7.2.1/README.md --exclude *.pyd
+[2024-05-01 13:17:58] INFO root fetch - processPackages [trytond-sale-supply]: executing diffoscope
+[2024-05-01 13:17:58] INFO root fetch - processPackages [trytond-sale-supply]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_sale_supply-7.2.0.tar.gz tmp/trytond_sale_supply-7.2.1.tar.gz --markdown 20240501/t/trytond-sale-supply/7.2.0-7.2.1/README.md --exclude *.pyd
+[2024-05-01 13:17:58] INFO root fetch - processPackages [pygmt]: executing diffoscope
+[2024-05-01 13:17:58] INFO root fetch - processPackages [pygmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygmt-0.8.0.tar.gz tmp/pygmt-0.9.0.tar.gz --markdown 20240501/p/pygmt/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-01 13:17:58] INFO root fetch - processPackages [gitblog2]: Remove: archive file [/home/abi/fetcher/tmp/gitblog2-2.2.0.tar.gz]
+[2024-05-01 13:17:58] INFO root fetch - processPackages [gitblog2]: Remove: archive file [/home/abi/fetcher/tmp/gitblog2-2.2.1.tar.gz]
+[2024-05-01 13:17:58] INFO root fetch - main [MainThread]: End processing [gitblog2]: success
+[2024-05-01 13:17:58] INFO root fetch - processPackages [massmarket-hash-event]: Remove: archive file [/home/abi/fetcher/tmp/massmarket_hash_event-0.1.1.tar.gz]
+[2024-05-01 13:17:58] INFO root fetch - processPackages [massmarket-hash-event]: Remove: archive file [/home/abi/fetcher/tmp/massmarket_hash_event-0.1.5.tar.gz]
+[2024-05-01 13:17:58] INFO root fetch - main [MainThread]: End processing [massmarket-hash-event]: success
+[2024-05-01 13:17:58] INFO root fetch - processPackages [maplibre]: Remove: archive file [/home/abi/fetcher/tmp/maplibre-0.1.3.tar.gz]
+[2024-05-01 13:17:58] INFO root fetch - processPackages [maplibre]: Remove: archive file [/home/abi/fetcher/tmp/maplibre-0.1.4.tar.gz]
+[2024-05-01 13:17:58] INFO root fetch - main [MainThread]: End processing [maplibre]: success
+[2024-05-01 13:17:58] INFO root fetch - processPackages [threed-optix]: Remove: archive file [/home/abi/fetcher/tmp/threed_optix-4.2.6.tar.gz]
+[2024-05-01 13:17:58] INFO root fetch - processPackages [threed-optix]: Remove: archive file [/home/abi/fetcher/tmp/threed_optix-5.0.0.tar.gz]
+[2024-05-01 13:17:58] INFO root fetch - main [MainThread]: End processing [threed-optix]: success
+[2024-05-01 13:17:58] INFO root fetch - processPackages [trytond-sale-supply]: Remove: archive file [/home/abi/fetcher/tmp/trytond_sale_supply-7.2.0.tar.gz]
+[2024-05-01 13:17:58] INFO root fetch - processPackages [trytond-sale-supply]: Remove: archive file [/home/abi/fetcher/tmp/trytond_sale_supply-7.2.1.tar.gz]
+[2024-05-01 13:17:58] INFO root fetch - main [MainThread]: End processing [trytond-sale-supply]: success
+[2024-05-01 13:17:59] INFO root fetch - processPackages [trytond-sale-supply-drop-shipment]: Remove: archive file [/home/abi/fetcher/tmp/trytond_sale_supply_drop_shipment-7.2.0.tar.gz]
+[2024-05-01 13:17:59] INFO root fetch - processPackages [trytond-sale-supply-drop-shipment]: Remove: archive file [/home/abi/fetcher/tmp/trytond_sale_supply_drop_shipment-7.2.1.tar.gz]
+[2024-05-01 13:17:59] INFO root fetch - main [MainThread]: End processing [trytond-sale-supply-drop-shipment]: success
+[2024-05-01 13:18:00] INFO root fetch - processPackages [pygmt]: Remove: archive file [/home/abi/fetcher/tmp/pygmt-0.8.0.tar.gz]
+[2024-05-01 13:18:00] INFO root fetch - processPackages [pygmt]: Remove: archive file [/home/abi/fetcher/tmp/pygmt-0.9.0.tar.gz]
+[2024-05-01 13:18:00] INFO root fetch - main [MainThread]: End processing [pygmt]: success
+[2024-05-01 13:18:00] INFO root fetch - main [MainThread]: Store serial: [23015647]
