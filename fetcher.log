@@ -20043,3 +20043,39 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-01 14:34:01] INFO root fetch - processPackages [musical_games]: Remove: archive file [/home/abi/fetcher/tmp/musical_games-0.8.1.tar.gz]
 [2024-05-01 14:34:01] INFO root fetch - main [MainThread]: End processing [musical_games]: success
 [2024-05-01 14:34:01] INFO root fetch - main [MainThread]: Store serial: [23016880]
+[2024-05-01 14:36:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23016880]
+[2024-05-01 14:36:10] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-01 14:36:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: duckcuts
+[2024-05-01 14:36:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-random
+[2024-05-01 14:36:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kgraphmemory
+[2024-05-01 14:36:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: waybackpack
+[2024-05-01 14:36:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pytestomatio
+[2024-05-01 14:36:10] INFO root fetch - processPackages [pytestomatio]: New version: [2.2.4] Old Version: [2.2.3]
+[2024-05-01 14:36:10] WARNING root fetch - processPackages [duckcuts]: Skipping, unable to determine old version
+[2024-05-01 14:36:10] INFO root fetch - main [MainThread]: End processing [duckcuts] error
+[2024-05-01 14:36:10] INFO root fetch - processPackages [pulumi-random]: New version: [4.9.0a1674773801] Old Version: [4.9.0a1673556316]
+[2024-05-01 14:36:10] INFO root fetch - processPackages [pytestomatio]: Downloading https://files.pythonhosted.org/packages/0e/ac/2b3330ca55f5c0b48fe53828778b72c168976fa67163cb63e3f98712fb32/pytestomatio-2.2.3.tar.gz
+[2024-05-01 14:36:10] INFO root fetch - processPackages [waybackpack]: New version: [0.6.3] Old Version: [0.6.2]
+[2024-05-01 14:36:10] WARNING root fetch - processPackages [kgraphmemory]: Skipping, unable to determine old version
+[2024-05-01 14:36:10] INFO root fetch - main [MainThread]: End processing [kgraphmemory] error
+[2024-05-01 14:36:10] INFO root fetch - processPackages [pulumi-random]: Downloading https://files.pythonhosted.org/packages/e3/37/2cc13bf17f327e646e4b225d9a662c398da5ae064fbaaf071b5093d9200d/pulumi_random-4.9.0a1673556316.tar.gz
+[2024-05-01 14:36:10] INFO root fetch - processPackages [waybackpack]: Downloading https://files.pythonhosted.org/packages/05/05/e05bae07a3cf9fdf885553a0b9462f3f56a5684e6bcdc8da233bcd0756f7/waybackpack-0.6.2.tar.gz
+[2024-05-01 14:36:11] INFO root fetch - processPackages [pulumi-random]: Downloading https://files.pythonhosted.org/packages/60/4b/3fbb36b8ea6ee761180821419350808d93a817d302404b35a787b0e12917/pulumi_random-4.9.0a1674773801.tar.gz
+[2024-05-01 14:36:11] INFO root fetch - processPackages [pytestomatio]: Downloading https://files.pythonhosted.org/packages/62/e4/76135d6a154b1957a443fea91a6599f051f2b38a4681c4ca6bfc8daf6c77/pytestomatio-2.2.4.tar.gz
+[2024-05-01 14:36:11] INFO root fetch - processPackages [pulumi-random]: executing diffoscope
+[2024-05-01 14:36:11] INFO root fetch - processPackages [pulumi-random]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_random-4.9.0a1673556316.tar.gz tmp/pulumi_random-4.9.0a1674773801.tar.gz --markdown 20240501/p/pulumi-random/4.9.0a1673556316-4.9.0a1674773801/README.md --exclude *.pyd
+[2024-05-01 14:36:11] INFO root fetch - processPackages [pytestomatio]: executing diffoscope
+[2024-05-01 14:36:11] INFO root fetch - processPackages [pytestomatio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytestomatio-2.2.3.tar.gz tmp/pytestomatio-2.2.4.tar.gz --markdown 20240501/p/pytestomatio/2.2.3-2.2.4/README.md --exclude *.pyd
+[2024-05-01 14:36:11] INFO root fetch - processPackages [waybackpack]: Downloading https://files.pythonhosted.org/packages/71/7f/f0fbe5bd3d05c29d0450a94adc9edad5f0c775ac2ca9c8c92a19577eb022/waybackpack-0.6.3.tar.gz
+[2024-05-01 14:36:11] INFO root fetch - processPackages [waybackpack]: executing diffoscope
+[2024-05-01 14:36:11] INFO root fetch - processPackages [waybackpack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/waybackpack-0.6.2.tar.gz tmp/waybackpack-0.6.3.tar.gz --markdown 20240501/w/waybackpack/0.6.2-0.6.3/README.md --exclude *.pyd
+[2024-05-01 14:36:11] INFO root fetch - processPackages [pulumi-random]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_random-4.9.0a1673556316.tar.gz]
+[2024-05-01 14:36:11] INFO root fetch - processPackages [pulumi-random]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_random-4.9.0a1674773801.tar.gz]
+[2024-05-01 14:36:11] INFO root fetch - main [MainThread]: End processing [pulumi-random]: success
+[2024-05-01 14:36:11] INFO root fetch - processPackages [pytestomatio]: Remove: archive file [/home/abi/fetcher/tmp/pytestomatio-2.2.3.tar.gz]
+[2024-05-01 14:36:11] INFO root fetch - processPackages [pytestomatio]: Remove: archive file [/home/abi/fetcher/tmp/pytestomatio-2.2.4.tar.gz]
+[2024-05-01 14:36:11] INFO root fetch - main [MainThread]: End processing [pytestomatio]: success
+[2024-05-01 14:36:11] INFO root fetch - processPackages [waybackpack]: Remove: archive file [/home/abi/fetcher/tmp/waybackpack-0.6.2.tar.gz]
+[2024-05-01 14:36:11] INFO root fetch - processPackages [waybackpack]: Remove: archive file [/home/abi/fetcher/tmp/waybackpack-0.6.3.tar.gz]
+[2024-05-01 14:36:11] INFO root fetch - main [MainThread]: End processing [waybackpack]: success
+[2024-05-01 14:36:11] INFO root fetch - main [MainThread]: Store serial: [23016900]
