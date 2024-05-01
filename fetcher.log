@@ -22286,3 +22286,42 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-01 16:16:15] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
 [2024-05-01 16:16:16] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
 [2024-05-01 16:16:16] INFO root fetch - main [MainThread]: Store serial: [23017866]
+[2024-05-01 16:18:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23017866]
+[2024-05-01 16:18:24] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-01 16:18:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: DE-DataBaseConnect
+[2024-05-01 16:18:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: impresso-text-importer
+[2024-05-01 16:18:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sjvisualizer
+[2024-05-01 16:18:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fastclip
+[2024-05-01 16:18:25] INFO root fetch - processPackages [impresso-text-importer]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-05-01 16:18:25] INFO root fetch - processPackages [fastclip]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-01 16:18:25] INFO root fetch - processPackages [DE-DataBaseConnect]: New version: [0.0.80] Old Version: [0.0.77]
+[2024-05-01 16:18:25] INFO root fetch - processPackages [sjvisualizer]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-01 16:18:25] INFO root fetch - processPackages [impresso-text-importer]: Downloading https://files.pythonhosted.org/packages/3d/3e/1a3c2cc8e6fe99fc5087fc779b6648c852121377d18fa030801c84051182/impresso_text_importer-1.0.0.tar.gz
+[2024-05-01 16:18:25] INFO root fetch - processPackages [fastclip]: Downloading https://files.pythonhosted.org/packages/c1/bd/57b35376ba802aab693a0628a3c7796f63f4fcd862fd343cf2bc34263a70/fastclip-0.0.8.tar.gz
+[2024-05-01 16:18:25] INFO root fetch - processPackages [DE-DataBaseConnect]: Downloading https://files.pythonhosted.org/packages/9c/d7/9f35fd33bd45aa12b553028b57d44ada0978c177a003e6bca8c856dee2bb/de_databaseconnect-0.0.77.tar.gz
+[2024-05-01 16:18:25] INFO root fetch - processPackages [impresso-text-importer]: Downloading https://files.pythonhosted.org/packages/cc/7e/48bc0bb9ecadaa3d9535940ed7d72be27de27f2b128cac3bf4acb9e37bb9/impresso_text_importer-1.1.0.tar.gz
+[2024-05-01 16:18:25] INFO root fetch - processPackages [sjvisualizer]: Downloading https://files.pythonhosted.org/packages/35/e8/13236c95b940c1789c7fe995e1e02144fd52d55ecb5dd4fb4f973bacf353/sjvisualizer-0.0.8-py2.py3-none-any.whl
+[2024-05-01 16:18:25] INFO root fetch - processPackages [impresso-text-importer]: executing diffoscope
+[2024-05-01 16:18:25] INFO root fetch - processPackages [impresso-text-importer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/impresso_text_importer-1.0.0.tar.gz tmp/impresso_text_importer-1.1.0.tar.gz --markdown 20240501/i/impresso-text-importer/1.0.0-1.1.0/README.md --exclude *.pyd
+[2024-05-01 16:18:25] INFO root fetch - processPackages [DE-DataBaseConnect]: Downloading https://files.pythonhosted.org/packages/37/1f/d28e0ae4b2178515c372e4f1a739faa82958d88b929ee7851c3273ed9f80/DE_DataBaseConnect-0.0.80.tar.gz
+[2024-05-01 16:18:25] INFO root fetch - processPackages [DE-DataBaseConnect]: executing diffoscope
+[2024-05-01 16:18:25] INFO root fetch - processPackages [DE-DataBaseConnect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/de_databaseconnect-0.0.77.tar.gz tmp/DE_DataBaseConnect-0.0.80.tar.gz --markdown 20240501/D/DE-DataBaseConnect/0.0.77-0.0.80/README.md --exclude *.pyd
+[2024-05-01 16:18:25] INFO root fetch - processPackages [fastclip]: Downloading https://files.pythonhosted.org/packages/18/9c/061ce3445064bc994cf3482d28124bc0314cbaf7ab4a269cea85e083fbc1/fastclip-0.0.9.tar.gz
+[2024-05-01 16:18:25] INFO root fetch - processPackages [sjvisualizer]: Downloading https://files.pythonhosted.org/packages/ed/0d/0ae977440964e0a99f7f6e475fba0310a0d50d0010600efc9830d66aa16b/sjvisualizer-0.0.9-py2.py3-none-any.whl
+[2024-05-01 16:18:26] INFO root fetch - processPackages [fastclip]: executing diffoscope
+[2024-05-01 16:18:26] INFO root fetch - processPackages [fastclip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastclip-0.0.8.tar.gz tmp/fastclip-0.0.9.tar.gz --markdown 20240501/f/fastclip/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-01 16:18:26] INFO root fetch - processPackages [sjvisualizer]: executing diffoscope
+[2024-05-01 16:18:26] INFO root fetch - processPackages [sjvisualizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sjvisualizer-0.0.8-py2.py3-none-any.whl.zip tmp/sjvisualizer-0.0.9-py2.py3-none-any.whl.zip --markdown 20240501/s/sjvisualizer/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-01 16:18:26] INFO root fetch - processPackages [DE-DataBaseConnect]: Remove: archive file [/home/abi/fetcher/tmp/de_databaseconnect-0.0.77.tar.gz]
+[2024-05-01 16:18:26] INFO root fetch - processPackages [DE-DataBaseConnect]: Remove: archive file [/home/abi/fetcher/tmp/DE_DataBaseConnect-0.0.80.tar.gz]
+[2024-05-01 16:18:26] INFO root fetch - main [MainThread]: End processing [DE-DataBaseConnect]: success
+[2024-05-01 16:18:26] INFO root fetch - processPackages [impresso-text-importer]: Remove: archive file [/home/abi/fetcher/tmp/impresso_text_importer-1.0.0.tar.gz]
+[2024-05-01 16:18:26] INFO root fetch - processPackages [impresso-text-importer]: Remove: archive file [/home/abi/fetcher/tmp/impresso_text_importer-1.1.0.tar.gz]
+[2024-05-01 16:18:26] INFO root fetch - main [MainThread]: End processing [impresso-text-importer]: success
+[2024-05-01 16:18:26] INFO root fetch - processPackages [fastclip]: Remove: archive file [/home/abi/fetcher/tmp/fastclip-0.0.8.tar.gz]
+[2024-05-01 16:18:26] INFO root fetch - processPackages [fastclip]: Remove: archive file [/home/abi/fetcher/tmp/fastclip-0.0.9.tar.gz]
+[2024-05-01 16:18:26] INFO root fetch - main [MainThread]: End processing [fastclip]: success
+[2024-05-01 16:18:26] INFO root fetch - processPackages [sjvisualizer]: Remove: archive file [/home/abi/fetcher/tmp/sjvisualizer-0.0.8-py2.py3-none-any.whl.zip]
+[2024-05-01 16:18:26] INFO root fetch - processPackages [sjvisualizer]: Remove: archive file [/home/abi/fetcher/tmp/sjvisualizer-0.0.9-py2.py3-none-any.whl.zip]
+[2024-05-01 16:18:26] INFO root fetch - main [MainThread]: End processing [sjvisualizer]: success
+[2024-05-01 16:18:26] INFO root fetch - main [MainThread]: Store serial: [23017877]
