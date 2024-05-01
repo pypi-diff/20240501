@@ -8910,3 +8910,81 @@
 [2024-05-01 06:31:21] INFO root fetch - processPackages [dycw-utilities]: Remove: archive file [/home/abi/fetcher/tmp/dycw_utilities-0.9.0.tar.gz]
 [2024-05-01 06:31:21] INFO root fetch - main [MainThread]: End processing [dycw-utilities]: success
 [2024-05-01 06:31:21] INFO root fetch - main [MainThread]: Store serial: [23012234]
+[2024-05-01 06:33:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23012234]
+[2024-05-01 06:33:30] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-01 06:33:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flowmachine
+[2024-05-01 06:33:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flowclient
+[2024-05-01 06:33:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-cloudflare
+[2024-05-01 06:33:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: MHCInc
+[2024-05-01 06:33:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: flowkit-jwt-generator
+[2024-05-01 06:33:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: moraine
+[2024-05-01 06:33:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: flowetl
+[2024-05-01 06:33:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo14-addon-l10n-ro-nondeductible-vat
+[2024-05-01 06:33:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: r2e_test_server
+[2024-05-01 06:33:31] INFO root fetch - processPackages [MHCInc]: New version: [0.3.0] Old Version: [0.2.8]
+[2024-05-01 06:33:31] INFO root fetch - processPackages [pulumi-cloudflare]: New version: [5.9.0a1692854882] Old Version: [5.9.0a1692851897]
+[2024-05-01 06:33:31] INFO root fetch - processPackages [flowkit-jwt-generator]: New version: [1.25.0.post0.dev7] Old Version: [1.25.0.post0.dev43]
+[2024-05-01 06:33:31] INFO root fetch - processPackages [flowmachine]: New version: [1.9.4.post0.dev76] Old Version: [1.9.4.post0.dev70]
+[2024-05-01 06:33:31] INFO root fetch - processPackages [flowclient]: New version: [1.9.4.post0.dev76] Old Version: [1.9.4.post0.dev70]
+[2024-05-01 06:33:31] INFO root fetch - processPackages [flowetl]: New version: [1.9.4.post0.dev76] Old Version: [1.9.4.post0.dev70]
+[2024-05-01 06:33:31] INFO root fetch - processPackages [moraine]: New version: [0.7.0] Old Version: [0.0.1]
+[2024-05-01 06:33:31] INFO root fetch - processPackages [MHCInc]: Downloading https://files.pythonhosted.org/packages/56/1f/165f1272a7c4795ff80ea16b605705060e34e2e297cb74bf81c21cd795ba/mhcinc-0.2.8.tar.gz
+[2024-05-01 06:33:31] INFO root fetch - processPackages [flowmachine]: Downloading https://files.pythonhosted.org/packages/ff/bf/14ac068a066254bcc3b11ea0939b748a8b86f4e7e01bff260e84c6428c02/flowmachine-1.9.4.post0.dev70-py3-none-any.whl
+[2024-05-01 06:33:31] INFO root fetch - processPackages [flowclient]: Downloading https://files.pythonhosted.org/packages/6e/37/bfddd70659fed8e7ba3a486ccedc2b55d3a84bf6338dbd6fda2fc4b2d415/flowclient-1.9.4.post0.dev70-py3-none-any.whl
+[2024-05-01 06:33:31] WARNING root fetch - processPackages [r2e_test_server]: Skipping, unable to determine old version
+[2024-05-01 06:33:31] INFO root fetch - main [MainThread]: End processing [r2e_test_server] error
+[2024-05-01 06:33:31] INFO root fetch - processPackages [flowetl]: Downloading https://files.pythonhosted.org/packages/7d/68/60330ef4aed6e6a0e8c8f1474a60a9868ed4e2bf928a79eae26c2becd5cb/flowetl-1.9.4.post0.dev70-py3-none-any.whl
+[2024-05-01 06:33:31] INFO root fetch - processPackages [pulumi-cloudflare]: Downloading https://files.pythonhosted.org/packages/ce/4c/bbf50ef75d6a6dc70780f846ef13e19b5ec009e8657c5b847defde7a8dd9/pulumi_cloudflare-5.9.0a1692851897.tar.gz
+[2024-05-01 06:33:31] INFO root fetch - processPackages [flowkit-jwt-generator]: Downloading https://files.pythonhosted.org/packages/c4/60/28af1062f13018658185b6a1e9c61eb457855812b0e4cec17dc62e485677/flowkit_jwt_generator-1.25.0.post0.dev43-py3-none-any.whl
+[2024-05-01 06:33:31] INFO root fetch - processPackages [odoo14-addon-l10n-ro-nondeductible-vat]: New version: [14.0.6.4.2.dev1] Old Version: [14.0.6.4.1.dev1]
+[2024-05-01 06:33:31] INFO root fetch - processPackages [moraine]: Downloading https://files.pythonhosted.org/packages/ff/13/1d77ba04cd54b18cffbe05cd184b9a9f2ac36e3a3ba50bd6829448bece63/moraine-0.0.1.tar.gz
+[2024-05-01 06:33:31] INFO root fetch - processPackages [flowclient]: Downloading https://files.pythonhosted.org/packages/3e/ea/cf6edcf54b4b9f2c2c6149b4a6c3d8c57011245b7036b7468a43028bb1db/flowclient-1.9.4.post0.dev76-py3-none-any.whl
+[2024-05-01 06:33:31] INFO root fetch - processPackages [flowmachine]: Downloading https://files.pythonhosted.org/packages/25/d8/7f2f3ed6764c57835d2e49a0547b3be72952a62e845b2f82cfb00d4847df/flowmachine-1.9.4.post0.dev76-py3-none-any.whl
+[2024-05-01 06:33:31] INFO root fetch - processPackages [MHCInc]: Downloading https://files.pythonhosted.org/packages/02/b5/1fed09470b1f88f650094590379b5e8259dab99c439b43f1e3557f11af1f/mhcinc-0.3.0.tar.gz
+[2024-05-01 06:33:31] INFO root fetch - processPackages [flowetl]: Downloading https://files.pythonhosted.org/packages/aa/29/1fe11f39e3155139661660c2caf8caf80ccb6e0fce150e201a56d2aaf812/flowetl-1.9.4.post0.dev76-py3-none-any.whl
+[2024-05-01 06:33:31] INFO root fetch - processPackages [flowkit-jwt-generator]: Downloading https://files.pythonhosted.org/packages/16/5d/7b2f3634ff98dbdedb13d57a8e191d602af6eece9e82d2f1aba2cb09a4f4/flowkit_jwt_generator-1.25.0.post0.dev7-py3-none-any.whl
+[2024-05-01 06:33:31] INFO root fetch - processPackages [odoo14-addon-l10n-ro-nondeductible-vat]: Downloading https://files.pythonhosted.org/packages/df/ce/589870904db033e0df590305904c03e10a3d7764c51a7e79196579cca86f/odoo14_addon_l10n_ro_nondeductible_vat-14.0.6.4.1.dev1-py3-none-any.whl
+[2024-05-01 06:33:31] INFO root fetch - processPackages [pulumi-cloudflare]: Downloading https://files.pythonhosted.org/packages/aa/45/e2040e3054cffd9ce633539517dc7f0063c0b789d73bac75a2b832e469de/pulumi_cloudflare-5.9.0a1692854882.tar.gz
+[2024-05-01 06:33:31] INFO root fetch - processPackages [flowclient]: executing diffoscope
+[2024-05-01 06:33:31] INFO root fetch - processPackages [flowclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowclient-1.9.4.post0.dev70-py3-none-any.whl.zip tmp/flowclient-1.9.4.post0.dev76-py3-none-any.whl.zip --markdown 20240501/f/flowclient/1.9.4.post0.dev70-1.9.4.post0.dev76/README.md --exclude *.pyd
+[2024-05-01 06:33:31] INFO root fetch - processPackages [flowetl]: executing diffoscope
+[2024-05-01 06:33:31] INFO root fetch - processPackages [flowetl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowetl-1.9.4.post0.dev70-py3-none-any.whl.zip tmp/flowetl-1.9.4.post0.dev76-py3-none-any.whl.zip --markdown 20240501/f/flowetl/1.9.4.post0.dev70-1.9.4.post0.dev76/README.md --exclude *.pyd
+[2024-05-01 06:33:31] INFO root fetch - processPackages [MHCInc]: executing diffoscope
+[2024-05-01 06:33:31] INFO root fetch - processPackages [MHCInc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mhcinc-0.2.8.tar.gz tmp/mhcinc-0.3.0.tar.gz --markdown 20240501/M/MHCInc/0.2.8-0.3.0/README.md --exclude *.pyd
+[2024-05-01 06:33:31] INFO root fetch - processPackages [flowmachine]: executing diffoscope
+[2024-05-01 06:33:31] INFO root fetch - processPackages [flowmachine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowmachine-1.9.4.post0.dev70-py3-none-any.whl.zip tmp/flowmachine-1.9.4.post0.dev76-py3-none-any.whl.zip --markdown 20240501/f/flowmachine/1.9.4.post0.dev70-1.9.4.post0.dev76/README.md --exclude *.pyd
+[2024-05-01 06:33:31] INFO root fetch - processPackages [flowkit-jwt-generator]: executing diffoscope
+[2024-05-01 06:33:31] INFO root fetch - processPackages [flowkit-jwt-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowkit_jwt_generator-1.25.0.post0.dev43-py3-none-any.whl.zip tmp/flowkit_jwt_generator-1.25.0.post0.dev7-py3-none-any.whl.zip --markdown 20240501/f/flowkit-jwt-generator/1.25.0.post0.dev43-1.25.0.post0.dev7/README.md --exclude *.pyd
+[2024-05-01 06:33:31] INFO root fetch - processPackages [moraine]: Downloading https://files.pythonhosted.org/packages/62/04/a48e5d26fc16232f5e3d87d19253fc29e30c7fdff551761b13148d300b84/moraine-0.7.0.tar.gz
+[2024-05-01 06:33:31] INFO root fetch - processPackages [pulumi-cloudflare]: executing diffoscope
+[2024-05-01 06:33:31] INFO root fetch - processPackages [pulumi-cloudflare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_cloudflare-5.9.0a1692851897.tar.gz tmp/pulumi_cloudflare-5.9.0a1692854882.tar.gz --markdown 20240501/p/pulumi-cloudflare/5.9.0a1692851897-5.9.0a1692854882/README.md --exclude *.pyd
+[2024-05-01 06:33:31] INFO root fetch - processPackages [moraine]: executing diffoscope
+[2024-05-01 06:33:31] INFO root fetch - processPackages [moraine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moraine-0.0.1.tar.gz tmp/moraine-0.7.0.tar.gz --markdown 20240501/m/moraine/0.0.1-0.7.0/README.md --exclude *.pyd
+[2024-05-01 06:33:31] INFO root fetch - processPackages [odoo14-addon-l10n-ro-nondeductible-vat]: Downloading https://files.pythonhosted.org/packages/d0/e6/c3a8f61d28a37593a24d3e627c113d6224e39408ff2bc16459ffa2d214a3/odoo14_addon_l10n_ro_nondeductible_vat-14.0.6.4.2.dev1-py3-none-any.whl
+[2024-05-01 06:33:32] INFO root fetch - processPackages [odoo14-addon-l10n-ro-nondeductible-vat]: executing diffoscope
+[2024-05-01 06:33:32] INFO root fetch - processPackages [odoo14-addon-l10n-ro-nondeductible-vat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_ro_nondeductible_vat-14.0.6.4.1.dev1-py3-none-any.whl.zip tmp/odoo14_addon_l10n_ro_nondeductible_vat-14.0.6.4.2.dev1-py3-none-any.whl.zip --markdown 20240501/o/odoo14-addon-l10n-ro-nondeductible-vat/14.0.6.4.1.dev1-14.0.6.4.2.dev1/README.md --exclude *.pyd
+[2024-05-01 06:33:32] INFO root fetch - processPackages [MHCInc]: Remove: archive file [/home/abi/fetcher/tmp/mhcinc-0.2.8.tar.gz]
+[2024-05-01 06:33:32] INFO root fetch - processPackages [MHCInc]: Remove: archive file [/home/abi/fetcher/tmp/mhcinc-0.3.0.tar.gz]
+[2024-05-01 06:33:32] INFO root fetch - main [MainThread]: End processing [MHCInc]: success
+[2024-05-01 06:33:32] INFO root fetch - processPackages [flowclient]: Remove: archive file [/home/abi/fetcher/tmp/flowclient-1.9.4.post0.dev70-py3-none-any.whl.zip]
+[2024-05-01 06:33:32] INFO root fetch - processPackages [flowclient]: Remove: archive file [/home/abi/fetcher/tmp/flowclient-1.9.4.post0.dev76-py3-none-any.whl.zip]
+[2024-05-01 06:33:32] INFO root fetch - main [MainThread]: End processing [flowclient]: success
+[2024-05-01 06:33:32] INFO root fetch - processPackages [flowkit-jwt-generator]: Remove: archive file [/home/abi/fetcher/tmp/flowkit_jwt_generator-1.25.0.post0.dev43-py3-none-any.whl.zip]
+[2024-05-01 06:33:32] INFO root fetch - processPackages [flowkit-jwt-generator]: Remove: archive file [/home/abi/fetcher/tmp/flowkit_jwt_generator-1.25.0.post0.dev7-py3-none-any.whl.zip]
+[2024-05-01 06:33:32] INFO root fetch - main [MainThread]: End processing [flowkit-jwt-generator]: success
+[2024-05-01 06:33:32] INFO root fetch - processPackages [flowetl]: Remove: archive file [/home/abi/fetcher/tmp/flowetl-1.9.4.post0.dev70-py3-none-any.whl.zip]
+[2024-05-01 06:33:32] INFO root fetch - processPackages [flowetl]: Remove: archive file [/home/abi/fetcher/tmp/flowetl-1.9.4.post0.dev76-py3-none-any.whl.zip]
+[2024-05-01 06:33:32] INFO root fetch - main [MainThread]: End processing [flowetl]: success
+[2024-05-01 06:33:32] INFO root fetch - processPackages [moraine]: Remove: archive file [/home/abi/fetcher/tmp/moraine-0.0.1.tar.gz]
+[2024-05-01 06:33:32] INFO root fetch - processPackages [moraine]: Remove: archive file [/home/abi/fetcher/tmp/moraine-0.7.0.tar.gz]
+[2024-05-01 06:33:32] INFO root fetch - main [MainThread]: End processing [moraine]: success
+[2024-05-01 06:33:32] INFO root fetch - processPackages [odoo14-addon-l10n-ro-nondeductible-vat]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_ro_nondeductible_vat-14.0.6.4.1.dev1-py3-none-any.whl.zip]
+[2024-05-01 06:33:32] INFO root fetch - processPackages [odoo14-addon-l10n-ro-nondeductible-vat]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_ro_nondeductible_vat-14.0.6.4.2.dev1-py3-none-any.whl.zip]
+[2024-05-01 06:33:32] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-ro-nondeductible-vat]: success
+[2024-05-01 06:33:33] INFO root fetch - processPackages [flowmachine]: Remove: archive file [/home/abi/fetcher/tmp/flowmachine-1.9.4.post0.dev70-py3-none-any.whl.zip]
+[2024-05-01 06:33:33] INFO root fetch - processPackages [flowmachine]: Remove: archive file [/home/abi/fetcher/tmp/flowmachine-1.9.4.post0.dev76-py3-none-any.whl.zip]
+[2024-05-01 06:33:33] INFO root fetch - main [MainThread]: End processing [flowmachine]: success
+[2024-05-01 06:33:33] INFO root fetch - processPackages [pulumi-cloudflare]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_cloudflare-5.9.0a1692851897.tar.gz]
+[2024-05-01 06:33:33] INFO root fetch - processPackages [pulumi-cloudflare]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_cloudflare-5.9.0a1692854882.tar.gz]
+[2024-05-01 06:33:33] INFO root fetch - main [MainThread]: End processing [pulumi-cloudflare]: success
+[2024-05-01 06:33:33] INFO root fetch - main [MainThread]: Store serial: [23012257]
