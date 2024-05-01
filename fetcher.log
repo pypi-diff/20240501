@@ -21934,3 +21934,15 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-01 15:57:28] INFO root fetch - processPackages [python-seller-active]: Remove: archive file [/home/abi/fetcher/tmp/python_seller_active-0.0.5.tar.gz]
 [2024-05-01 15:57:28] INFO root fetch - main [MainThread]: End processing [python-seller-active]: success
 [2024-05-01 15:57:28] INFO root fetch - main [MainThread]: Store serial: [23017680]
+[2024-05-01 15:59:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23017680]
+[2024-05-01 15:59:37] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-01 15:59:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pywaclient
+[2024-05-01 15:59:37] INFO root fetch - processPackages [pywaclient]: New version: [1.6.6] Old Version: [1.6.5]
+[2024-05-01 15:59:37] INFO root fetch - processPackages [pywaclient]: Downloading https://files.pythonhosted.org/packages/8c/c8/84ae2908cc0dc449a8702574e9e95fbc2eb95e46eaab36ddef2c8a6b3e71/pywaclient-1.6.5.tar.gz
+[2024-05-01 15:59:37] INFO root fetch - processPackages [pywaclient]: Downloading https://files.pythonhosted.org/packages/b2/35/53119c3814c3bedb19c2628d4a2d315539f752305925fe85ef5522670498/pywaclient-1.6.6.tar.gz
+[2024-05-01 15:59:37] INFO root fetch - processPackages [pywaclient]: executing diffoscope
+[2024-05-01 15:59:37] INFO root fetch - processPackages [pywaclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pywaclient-1.6.5.tar.gz tmp/pywaclient-1.6.6.tar.gz --markdown 20240501/p/pywaclient/1.6.5-1.6.6/README.md --exclude *.pyd
+[2024-05-01 15:59:38] INFO root fetch - processPackages [pywaclient]: Remove: archive file [/home/abi/fetcher/tmp/pywaclient-1.6.5.tar.gz]
+[2024-05-01 15:59:38] INFO root fetch - processPackages [pywaclient]: Remove: archive file [/home/abi/fetcher/tmp/pywaclient-1.6.6.tar.gz]
+[2024-05-01 15:59:38] INFO root fetch - main [MainThread]: End processing [pywaclient]: success
+[2024-05-01 15:59:38] INFO root fetch - main [MainThread]: Store serial: [23017689]
