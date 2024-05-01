@@ -14204,3 +14204,33 @@
 [2024-05-01 11:29:15] INFO root fetch - processPackages [posuto]: Remove: archive file [/home/abi/fetcher/tmp/posuto-2024.5.0.tar.gz]
 [2024-05-01 11:29:15] INFO root fetch - main [MainThread]: End processing [posuto]: success
 [2024-05-01 11:29:15] INFO root fetch - main [MainThread]: Store serial: [23014729]
+[2024-05-01 11:31:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23014729]
+[2024-05-01 11:31:24] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-01 11:31:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: idplib
+[2024-05-01 11:31:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: proxygen-cli
+[2024-05-01 11:31:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: flightanalysis
+[2024-05-01 11:31:24] INFO root fetch - processPackages [flightanalysis]: New version: [0.2.7] Old Version: [0.2.6]
+[2024-05-01 11:31:24] INFO root fetch - processPackages [idplib]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-01 11:31:24] INFO root fetch - processPackages [proxygen-cli]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-05-01 11:31:24] INFO root fetch - processPackages [idplib]: Downloading https://files.pythonhosted.org/packages/7e/1f/22ca2c37079c7d18cf796165e9e7477118f9e8574ef9d114d70d6f4de558/idplib-0.0.2.tar.gz
+[2024-05-01 11:31:24] INFO root fetch - processPackages [flightanalysis]: Downloading https://files.pythonhosted.org/packages/29/cd/cd1ba1b1629554ff5edf6cdff5041191e5a12d331cb69a44edce4d4aa9b7/flightanalysis-0.2.6.tar.gz
+[2024-05-01 11:31:24] INFO root fetch - processPackages [proxygen-cli]: Downloading https://files.pythonhosted.org/packages/cb/7b/fc382bf84dd7d94a05a2ea524899582120a4c42d05f15a9f7b2bda44b62c/proxygen_cli-2.1.8.tar.gz
+[2024-05-01 11:31:25] INFO root fetch - processPackages [idplib]: Downloading https://files.pythonhosted.org/packages/2e/9a/7ba6e301b0d35724aa23fbca280bcab67bbe07dfb1d75a59b44502a3a7cb/idplib-0.0.3.tar.gz
+[2024-05-01 11:31:25] INFO root fetch - processPackages [proxygen-cli]: Downloading https://files.pythonhosted.org/packages/44/1e/6fc940a834bb033a97f9471fc2d426140e3ab7709580615c2673037652bf/proxygen_cli-2.1.9.tar.gz
+[2024-05-01 11:31:25] INFO root fetch - processPackages [flightanalysis]: Downloading https://files.pythonhosted.org/packages/77/c5/aa927b60c3757f72fbe136076d6a301fb6277a37800f3ba858e211e5391b/flightanalysis-0.2.7.tar.gz
+[2024-05-01 11:31:25] INFO root fetch - processPackages [idplib]: executing diffoscope
+[2024-05-01 11:31:25] INFO root fetch - processPackages [idplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idplib-0.0.2.tar.gz tmp/idplib-0.0.3.tar.gz --markdown 20240501/i/idplib/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-01 11:31:25] INFO root fetch - processPackages [flightanalysis]: executing diffoscope
+[2024-05-01 11:31:25] INFO root fetch - processPackages [flightanalysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flightanalysis-0.2.6.tar.gz tmp/flightanalysis-0.2.7.tar.gz --markdown 20240501/f/flightanalysis/0.2.6-0.2.7/README.md --exclude *.pyd
+[2024-05-01 11:31:25] INFO root fetch - processPackages [proxygen-cli]: executing diffoscope
+[2024-05-01 11:31:25] INFO root fetch - processPackages [proxygen-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proxygen_cli-2.1.8.tar.gz tmp/proxygen_cli-2.1.9.tar.gz --markdown 20240501/p/proxygen-cli/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-05-01 11:31:25] INFO root fetch - processPackages [idplib]: Remove: archive file [/home/abi/fetcher/tmp/idplib-0.0.2.tar.gz]
+[2024-05-01 11:31:25] INFO root fetch - processPackages [idplib]: Remove: archive file [/home/abi/fetcher/tmp/idplib-0.0.3.tar.gz]
+[2024-05-01 11:31:25] INFO root fetch - main [MainThread]: End processing [idplib]: success
+[2024-05-01 11:31:25] INFO root fetch - processPackages [proxygen-cli]: Remove: archive file [/home/abi/fetcher/tmp/proxygen_cli-2.1.8.tar.gz]
+[2024-05-01 11:31:25] INFO root fetch - processPackages [proxygen-cli]: Remove: archive file [/home/abi/fetcher/tmp/proxygen_cli-2.1.9.tar.gz]
+[2024-05-01 11:31:25] INFO root fetch - main [MainThread]: End processing [proxygen-cli]: success
+[2024-05-01 11:31:25] INFO root fetch - processPackages [flightanalysis]: Remove: archive file [/home/abi/fetcher/tmp/flightanalysis-0.2.6.tar.gz]
+[2024-05-01 11:31:25] INFO root fetch - processPackages [flightanalysis]: Remove: archive file [/home/abi/fetcher/tmp/flightanalysis-0.2.7.tar.gz]
+[2024-05-01 11:31:25] INFO root fetch - main [MainThread]: End processing [flightanalysis]: success
+[2024-05-01 11:31:25] INFO root fetch - main [MainThread]: Store serial: [23014742]
