@@ -7006,3 +7006,38 @@
 [2024-05-01 03:54:56] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.1.98.tar.gz]
 [2024-05-01 03:54:56] INFO root fetch - main [MainThread]: End processing [swarmauri]: success
 [2024-05-01 03:54:56] INFO root fetch - main [MainThread]: Store serial: [23011378]
+[2024-05-01 03:56:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23011378]
+[2024-05-01 03:57:04] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-01 03:57:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: autopipeline
+[2024-05-01 03:57:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kframe
+[2024-05-01 03:57:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sbcli-dev
+[2024-05-01 03:57:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gradysim
+[2024-05-01 03:57:04] INFO root fetch - processPackages [sbcli-dev]: New version: [2.4.7] Old Version: [2.4.6]
+[2024-05-01 03:57:04] INFO root fetch - processPackages [autopipeline]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-05-01 03:57:04] INFO root fetch - processPackages [gradysim]: New version: [0.6.4] Old Version: [0.6.3]
+[2024-05-01 03:57:04] INFO root fetch - processPackages [kframe]: New version: [0.4.2rc1] Old Version: [0.4.2]
+[2024-05-01 03:57:04] INFO root fetch - processPackages [sbcli-dev]: Downloading https://files.pythonhosted.org/packages/f6/6e/b33a693ce5b076bc53c4652749371edf1cc4f620cba2b1d25d1995949253/sbcli_dev-2.4.6.zip
+[2024-05-01 03:57:04] INFO root fetch - processPackages [autopipeline]: Downloading https://files.pythonhosted.org/packages/5f/0f/9eaf209b6d540115afdc9ae31de828df0234756277bceae49a4d1a0ea8b3/autopipeline-0.1.98.tar.gz
+[2024-05-01 03:57:04] INFO root fetch - processPackages [kframe]: Downloading https://files.pythonhosted.org/packages/c8/5f/8b8f42cbbff5670ede57ae65736b1ca8ef60479f5f63ac51b083da237a41/kframe-0.4.2.tar.gz
+[2024-05-01 03:57:04] INFO root fetch - processPackages [gradysim]: Downloading https://files.pythonhosted.org/packages/ce/38/494cd919d215deb2c25fd740ea8b08346e293f6084bae39b7d6f93e546f5/gradysim-0.6.3.tar.gz
+[2024-05-01 03:57:04] INFO root fetch - processPackages [autopipeline]: Downloading https://files.pythonhosted.org/packages/5f/4a/f3df97d414e0a5e9120459fd5c7ab663092d540df59f7deacc45810deb41/autopipeline-0.1.99.tar.gz
+[2024-05-01 03:57:04] INFO root fetch - processPackages [sbcli-dev]: Downloading https://files.pythonhosted.org/packages/4e/66/360c616c5a6329649cf33dc72e3b27dc3be11c4e584a77847a9a708d5165/sbcli_dev-2.4.7.zip
+[2024-05-01 03:57:04] INFO root fetch - processPackages [autopipeline]: executing diffoscope
+[2024-05-01 03:57:04] INFO root fetch - processPackages [autopipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autopipeline-0.1.98.tar.gz tmp/autopipeline-0.1.99.tar.gz --markdown 20240501/a/autopipeline/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-05-01 03:57:04] WARNING root fetch - processPackages [gradysim]: Skipping package: exceeds size limit 14277868>=10485760
+[2024-05-01 03:57:04] INFO root fetch - main [MainThread]: End processing [gradysim] error
+[2024-05-01 03:57:05] INFO root fetch - processPackages [sbcli-dev]: executing diffoscope
+[2024-05-01 03:57:05] INFO root fetch - processPackages [sbcli-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sbcli_dev-2.4.6.zip tmp/sbcli_dev-2.4.7.zip --markdown 20240501/s/sbcli-dev/2.4.6-2.4.7/README.md --exclude *.pyd
+[2024-05-01 03:57:05] INFO root fetch - processPackages [kframe]: Downloading https://files.pythonhosted.org/packages/9c/0b/1000a85f9845b72c3cb93905a6ad8442375e9d4cae387396e068e48a05dc/kframe-0.4.2rc1.tar.gz
+[2024-05-01 03:57:05] INFO root fetch - processPackages [kframe]: executing diffoscope
+[2024-05-01 03:57:05] INFO root fetch - processPackages [kframe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kframe-0.4.2.tar.gz tmp/kframe-0.4.2rc1.tar.gz --markdown 20240501/k/kframe/0.4.2-0.4.2rc1/README.md --exclude *.pyd
+[2024-05-01 03:57:05] INFO root fetch - processPackages [autopipeline]: Remove: archive file [/home/abi/fetcher/tmp/autopipeline-0.1.98.tar.gz]
+[2024-05-01 03:57:05] INFO root fetch - processPackages [autopipeline]: Remove: archive file [/home/abi/fetcher/tmp/autopipeline-0.1.99.tar.gz]
+[2024-05-01 03:57:05] INFO root fetch - main [MainThread]: End processing [autopipeline]: success
+[2024-05-01 03:57:05] INFO root fetch - processPackages [kframe]: Remove: archive file [/home/abi/fetcher/tmp/kframe-0.4.2.tar.gz]
+[2024-05-01 03:57:05] INFO root fetch - processPackages [kframe]: Remove: archive file [/home/abi/fetcher/tmp/kframe-0.4.2rc1.tar.gz]
+[2024-05-01 03:57:05] INFO root fetch - main [MainThread]: End processing [kframe]: success
+[2024-05-01 03:57:05] INFO root fetch - processPackages [sbcli-dev]: Remove: archive file [/home/abi/fetcher/tmp/sbcli_dev-2.4.6.zip]
+[2024-05-01 03:57:05] INFO root fetch - processPackages [sbcli-dev]: Remove: archive file [/home/abi/fetcher/tmp/sbcli_dev-2.4.7.zip]
+[2024-05-01 03:57:05] INFO root fetch - main [MainThread]: End processing [sbcli-dev]: success
+[2024-05-01 03:57:05] INFO root fetch - main [MainThread]: Store serial: [23011389]
