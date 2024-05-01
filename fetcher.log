@@ -7441,3 +7441,45 @@
 [2024-05-01 04:37:02] INFO root fetch - processPackages [karellen-llvm-toolchain-tools]: Remove: archive file [/home/abi/fetcher/tmp/karellen_llvm_toolchain_tools-18.1.4.0.post24-py3-none-manylinux2014_x86_64.whl.zip]
 [2024-05-01 04:37:02] INFO root fetch - main [MainThread]: End processing [karellen-llvm-toolchain-tools]: success
 [2024-05-01 04:37:02] INFO root fetch - main [MainThread]: Store serial: [23011561]
+[2024-05-01 04:39:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23011561]
+[2024-05-01 04:39:11] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-01 04:39:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: karellen-llvm-toolchain-tools
+[2024-05-01 04:39:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: metric-forge
+[2024-05-01 04:39:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: smartlink-remote-restapi
+[2024-05-01 04:39:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-account-financial-report
+[2024-05-01 04:39:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pypipr
+[2024-05-01 04:39:11] INFO root fetch - processPackages [karellen-llvm-toolchain-tools]: New version: [18.1.4.0.post25] Old Version: [18.1.4.0.post24]
+[2024-05-01 04:39:11] INFO root fetch - processPackages [smartlink-remote-restapi]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-01 04:39:11] INFO root fetch - processPackages [odoo-addon-account-financial-report]: New version: [17.0.1.1.0.3] Old Version: [17.0.1.1.0.2]
+[2024-05-01 04:39:11] INFO root fetch - processPackages [pypipr]: New version: [1.0.99] Old Version: [1.0.98]
+[2024-05-01 04:39:12] WARNING root fetch - processPackages [metric-forge]: Skipping, unable to determine old version
+[2024-05-01 04:39:12] INFO root fetch - main [MainThread]: End processing [metric-forge] error
+[2024-05-01 04:39:12] INFO root fetch - processPackages [odoo-addon-account-financial-report]: Downloading https://files.pythonhosted.org/packages/f6/0a/7e9987fe2d37083d92ad3951de5ee653ef2b51dbc3f5e3f357d15b544f76/odoo_addon_account_financial_report-17.0.1.1.0.2-py3-none-any.whl
+[2024-05-01 04:39:12] INFO root fetch - processPackages [smartlink-remote-restapi]: Downloading https://files.pythonhosted.org/packages/bf/3f/6b02542ffe0c59447e8357bf2e62fe136682fbf58296882742a346bd12fb/smartlink-remote-restapi-0.0.8.tar.gz
+[2024-05-01 04:39:12] INFO root fetch - processPackages [pypipr]: Downloading https://files.pythonhosted.org/packages/41/8e/296646c6a3d68ecf6c58c3ec52ece636443172c24750f76c7001939e52d3/pypipr-1.0.98.tar.gz
+[2024-05-01 04:39:12] INFO root fetch - processPackages [karellen-llvm-toolchain-tools]: Downloading https://files.pythonhosted.org/packages/39/4e/7acc7b4e7efcde8180e4501dd3827755468fa822832938a8b75bdaf03e1f/karellen_llvm_toolchain_tools-18.1.4.0.post24-py3-none-manylinux2014_x86_64.whl
+[2024-05-01 04:39:12] INFO root fetch - processPackages [smartlink-remote-restapi]: Downloading https://files.pythonhosted.org/packages/9f/15/c1f285f1a5b18e4cd5e9bab2b6e5bfe01e4d4281c9221ac4bba5a69d2097/smartlink-remote-restapi-0.0.9.tar.gz
+[2024-05-01 04:39:12] INFO root fetch - processPackages [pypipr]: Downloading https://files.pythonhosted.org/packages/49/d0/c23afc67d1fa03531bbd97cc72ad024e79b8e25678a6a5674d469d19cdf9/pypipr-1.0.99.tar.gz
+[2024-05-01 04:39:12] INFO root fetch - processPackages [odoo-addon-account-financial-report]: Downloading https://files.pythonhosted.org/packages/51/22/88113c37c6724f93deb5137bb034b688a10771965645b1c1c12ef7d6f5c0/odoo_addon_account_financial_report-17.0.1.1.0.3-py3-none-any.whl
+[2024-05-01 04:39:12] INFO root fetch - processPackages [smartlink-remote-restapi]: executing diffoscope
+[2024-05-01 04:39:12] INFO root fetch - processPackages [smartlink-remote-restapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartlink-remote-restapi-0.0.8.tar.gz tmp/smartlink-remote-restapi-0.0.9.tar.gz --markdown 20240501/s/smartlink-remote-restapi/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-01 04:39:12] INFO root fetch - processPackages [pypipr]: executing diffoscope
+[2024-05-01 04:39:12] INFO root fetch - processPackages [pypipr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypipr-1.0.98.tar.gz tmp/pypipr-1.0.99.tar.gz --markdown 20240501/p/pypipr/1.0.98-1.0.99/README.md --exclude *.pyd
+[2024-05-01 04:39:12] INFO root fetch - processPackages [odoo-addon-account-financial-report]: executing diffoscope
+[2024-05-01 04:39:12] INFO root fetch - processPackages [odoo-addon-account-financial-report]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_financial_report-17.0.1.1.0.2-py3-none-any.whl.zip tmp/odoo_addon_account_financial_report-17.0.1.1.0.3-py3-none-any.whl.zip --markdown 20240501/o/odoo-addon-account-financial-report/17.0.1.1.0.2-17.0.1.1.0.3/README.md --exclude *.pyd
+[2024-05-01 04:39:12] INFO root fetch - processPackages [karellen-llvm-toolchain-tools]: Downloading https://files.pythonhosted.org/packages/04/88/99729d19fdad014723172c055f8e3a6f01249ecd0c6d1a944726f8055d03/karellen_llvm_toolchain_tools-18.1.4.0.post25-py3-none-manylinux2014_x86_64.whl
+[2024-05-01 04:39:12] INFO root fetch - processPackages [smartlink-remote-restapi]: Remove: archive file [/home/abi/fetcher/tmp/smartlink-remote-restapi-0.0.8.tar.gz]
+[2024-05-01 04:39:12] INFO root fetch - processPackages [smartlink-remote-restapi]: Remove: archive file [/home/abi/fetcher/tmp/smartlink-remote-restapi-0.0.9.tar.gz]
+[2024-05-01 04:39:12] INFO root fetch - main [MainThread]: End processing [smartlink-remote-restapi]: success
+[2024-05-01 04:39:13] INFO root fetch - processPackages [karellen-llvm-toolchain-tools]: executing diffoscope
+[2024-05-01 04:39:13] INFO root fetch - processPackages [karellen-llvm-toolchain-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/karellen_llvm_toolchain_tools-18.1.4.0.post24-py3-none-manylinux2014_x86_64.whl.zip tmp/karellen_llvm_toolchain_tools-18.1.4.0.post25-py3-none-manylinux2014_x86_64.whl.zip --markdown 20240501/k/karellen-llvm-toolchain-tools/18.1.4.0.post24-18.1.4.0.post25/README.md --exclude *.pyd
+[2024-05-01 04:39:13] INFO root fetch - processPackages [pypipr]: Remove: archive file [/home/abi/fetcher/tmp/pypipr-1.0.98.tar.gz]
+[2024-05-01 04:39:13] INFO root fetch - processPackages [pypipr]: Remove: archive file [/home/abi/fetcher/tmp/pypipr-1.0.99.tar.gz]
+[2024-05-01 04:39:13] INFO root fetch - main [MainThread]: End processing [pypipr]: success
+[2024-05-01 04:39:13] INFO root fetch - processPackages [odoo-addon-account-financial-report]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_financial_report-17.0.1.1.0.2-py3-none-any.whl.zip]
+[2024-05-01 04:39:13] INFO root fetch - processPackages [odoo-addon-account-financial-report]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_financial_report-17.0.1.1.0.3-py3-none-any.whl.zip]
+[2024-05-01 04:39:13] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-financial-report]: success
+[2024-05-01 04:39:40] INFO root fetch - processPackages [karellen-llvm-toolchain-tools]: Remove: archive file [/home/abi/fetcher/tmp/karellen_llvm_toolchain_tools-18.1.4.0.post24-py3-none-manylinux2014_x86_64.whl.zip]
+[2024-05-01 04:39:40] INFO root fetch - processPackages [karellen-llvm-toolchain-tools]: Remove: archive file [/home/abi/fetcher/tmp/karellen_llvm_toolchain_tools-18.1.4.0.post25-py3-none-manylinux2014_x86_64.whl.zip]
+[2024-05-01 04:39:40] INFO root fetch - main [MainThread]: End processing [karellen-llvm-toolchain-tools]: success
+[2024-05-01 04:39:40] INFO root fetch - main [MainThread]: Store serial: [23011576]
