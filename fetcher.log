@@ -12516,3 +12516,29 @@
 [2024-05-01 10:05:52] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
 [2024-05-01 10:05:52] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
 [2024-05-01 10:05:52] INFO root fetch - main [MainThread]: Store serial: [23013891]
+[2024-05-01 10:07:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23013891]
+[2024-05-01 10:08:01] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-01 10:08:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: simo
+[2024-05-01 10:08:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pinjected
+[2024-05-01 10:08:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: foursquare-swarm-ical
+[2024-05-01 10:08:02] INFO root fetch - processPackages [foursquare-swarm-ical]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-01 10:08:02] INFO root fetch - processPackages [simo]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-05-01 10:08:02] INFO root fetch - processPackages [pinjected]: New version: [0.2.48] Old Version: [0.2.47]
+[2024-05-01 10:08:02] INFO root fetch - processPackages [foursquare-swarm-ical]: Downloading https://files.pythonhosted.org/packages/71/6f/eb23f5fc0a3d040fdcbcc35ac3f744c4680d4d7d07d2234d1127e552ba3e/foursquare-swarm-ical-1.0.1.tar.gz
+[2024-05-01 10:08:02] INFO root fetch - processPackages [simo]: Downloading https://files.pythonhosted.org/packages/9c/3e/85c97e5462a3125c0189f179fa275e8a0cf69dce695c9a637286581a09a0/simo-2.0.8.tar.gz
+[2024-05-01 10:08:02] INFO root fetch - processPackages [pinjected]: Downloading https://files.pythonhosted.org/packages/ac/a7/3d59454a2978c41612592d77e1df4c6d2b2ce9c80302b9aceb56b555e4a1/pinjected-0.2.47.tar.gz
+[2024-05-01 10:08:02] INFO root fetch - processPackages [foursquare-swarm-ical]: Downloading https://files.pythonhosted.org/packages/b6/94/3eb50183c73fffc0b8927fa4a22d1d82858334fc5901dcf42ddab85a7047/foursquare_swarm_ical-1.0.2.tar.gz
+[2024-05-01 10:08:02] INFO root fetch - processPackages [pinjected]: Downloading https://files.pythonhosted.org/packages/31/46/7127ee414cdc30a4b2df0adac82bd6b1745dbcdc9cb1f88d9e767036a500/pinjected-0.2.48.tar.gz
+[2024-05-01 10:08:02] INFO root fetch - processPackages [foursquare-swarm-ical]: executing diffoscope
+[2024-05-01 10:08:02] INFO root fetch - processPackages [foursquare-swarm-ical]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foursquare-swarm-ical-1.0.1.tar.gz tmp/foursquare_swarm_ical-1.0.2.tar.gz --markdown 20240501/f/foursquare-swarm-ical/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-01 10:08:02] INFO root fetch - processPackages [pinjected]: executing diffoscope
+[2024-05-01 10:08:02] INFO root fetch - processPackages [pinjected]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pinjected-0.2.47.tar.gz tmp/pinjected-0.2.48.tar.gz --markdown 20240501/p/pinjected/0.2.47-0.2.48/README.md --exclude *.pyd
+[2024-05-01 10:08:03] INFO root fetch - processPackages [foursquare-swarm-ical]: Remove: archive file [/home/abi/fetcher/tmp/foursquare-swarm-ical-1.0.1.tar.gz]
+[2024-05-01 10:08:03] INFO root fetch - processPackages [foursquare-swarm-ical]: Remove: archive file [/home/abi/fetcher/tmp/foursquare_swarm_ical-1.0.2.tar.gz]
+[2024-05-01 10:08:03] INFO root fetch - main [MainThread]: End processing [foursquare-swarm-ical]: success
+[2024-05-01 10:08:03] WARNING root fetch - processPackages [simo]: Skipping package: exceeds size limit 20582813>=10485760
+[2024-05-01 10:08:03] INFO root fetch - main [MainThread]: End processing [simo] error
+[2024-05-01 10:08:03] INFO root fetch - processPackages [pinjected]: Remove: archive file [/home/abi/fetcher/tmp/pinjected-0.2.47.tar.gz]
+[2024-05-01 10:08:03] INFO root fetch - processPackages [pinjected]: Remove: archive file [/home/abi/fetcher/tmp/pinjected-0.2.48.tar.gz]
+[2024-05-01 10:08:03] INFO root fetch - main [MainThread]: End processing [pinjected]: success
+[2024-05-01 10:08:03] INFO root fetch - main [MainThread]: Store serial: [23013900]
