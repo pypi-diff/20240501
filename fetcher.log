@@ -10588,3 +10588,60 @@
 [2024-05-01 08:12:46] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.6.0.dev20240430.tar.gz]
 [2024-05-01 08:12:46] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
 [2024-05-01 08:12:46] INFO root fetch - main [MainThread]: Store serial: [23012966]
+[2024-05-01 08:14:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23012966]
+[2024-05-01 08:14:54] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-01 08:14:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-mongodbatlas
+[2024-05-01 08:14:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-minio
+[2024-05-01 08:14:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-linode
+[2024-05-01 08:14:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: streamlit-image-annotation
+[2024-05-01 08:14:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-newrelic
+[2024-05-01 08:14:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi-mailgun
+[2024-05-01 08:14:54] INFO root fetch - processPackages [pulumi-newrelic]: New version: [5.9.1] Old Version: [5.9.0a1680282898]
+[2024-05-01 08:14:55] INFO root fetch - processPackages [pulumi-mongodbatlas]: New version: [3.9.2] Old Version: [3.9.1]
+[2024-05-01 08:14:55] INFO root fetch - processPackages [pulumi-mailgun]: New version: [3.6.0a1714456243] Old Version: [3.6.0a1714110617]
+[2024-05-01 08:14:55] INFO root fetch - processPackages [pulumi-linode]: New version: [4.9.1] Old Version: [4.9.0a1700248892]
+[2024-05-01 08:14:55] INFO root fetch - processPackages [streamlit-image-annotation]: New version: [0.4.0] Old Version: [0.3.2]
+[2024-05-01 08:14:55] INFO root fetch - processPackages [pulumi-minio]: New version: [0.9.1a1682440158] Old Version: [0.9.1a1681933919]
+[2024-05-01 08:14:55] INFO root fetch - processPackages [pulumi-newrelic]: Downloading https://files.pythonhosted.org/packages/1e/4c/b1f7f311d7b241db6b87ee89c05acfcff95b654eae42e5bda9788a66707c/pulumi_newrelic-5.9.0a1680282898.tar.gz
+[2024-05-01 08:14:55] INFO root fetch - processPackages [pulumi-mongodbatlas]: Downloading https://files.pythonhosted.org/packages/b8/b0/a8befc40e2b2c024faff2656c4570b4580a7c4b647e6d7f825d56d861b4d/pulumi_mongodbatlas-3.9.1.tar.gz
+[2024-05-01 08:14:55] INFO root fetch - processPackages [pulumi-linode]: Downloading https://files.pythonhosted.org/packages/df/eb/e8d27e31574126cebb3db17960087d6e1cf94c88143b981d26b7b94fef71/pulumi_linode-4.9.0a1700248892.tar.gz
+[2024-05-01 08:14:55] INFO root fetch - processPackages [pulumi-mailgun]: Downloading https://files.pythonhosted.org/packages/fd/7a/c79017f7341ca3899cb43ad75919a7a80539f469970d9bfb5a256178c2f1/pulumi_mailgun-3.6.0a1714110617.tar.gz
+[2024-05-01 08:14:55] INFO root fetch - processPackages [pulumi-minio]: Downloading https://files.pythonhosted.org/packages/ff/08/d2cadf5bfe93247a9689d335d5a90c90c3437bae7996f31d22e6a1e18bc8/pulumi_minio-0.9.1a1681933919.tar.gz
+[2024-05-01 08:14:55] INFO root fetch - processPackages [streamlit-image-annotation]: Downloading https://files.pythonhosted.org/packages/1e/c3/f0f950dab498d29c9a225fd762993b85a32d05d3bac8cd827a3c6fb66a5e/streamlit_image_annotation-0.3.2.tar.gz
+[2024-05-01 08:14:55] INFO root fetch - processPackages [pulumi-newrelic]: Downloading https://files.pythonhosted.org/packages/43/ba/b3c2500610b8b3fabfc1479cb763f9657e73613a00e1e2f96ee26cec9a63/pulumi_newrelic-5.9.1.tar.gz
+[2024-05-01 08:14:55] INFO root fetch - processPackages [pulumi-linode]: Downloading https://files.pythonhosted.org/packages/1d/8f/908b3d1b357dcb4b00198e9afd3e1c31b7f20023adddd41e8a53a4577ee0/pulumi_linode-4.9.1.tar.gz
+[2024-05-01 08:14:55] INFO root fetch - processPackages [pulumi-mailgun]: Downloading https://files.pythonhosted.org/packages/77/78/0c999f7275ca10a0535bb28664e56885b1bf10ddd007ad66f2719baa044a/pulumi_mailgun-3.6.0a1714456243.tar.gz
+[2024-05-01 08:14:55] INFO root fetch - processPackages [pulumi-mongodbatlas]: Downloading https://files.pythonhosted.org/packages/0b/f7/b68fff12e66ad24a69216aac73a3afff2830a71e879426010edff57e057a/pulumi_mongodbatlas-3.9.2.tar.gz
+[2024-05-01 08:14:55] INFO root fetch - processPackages [pulumi-minio]: Downloading https://files.pythonhosted.org/packages/15/55/586e40a427bb324461e4077406c21f75ad5bd1d406ec365a59f65e7790bd/pulumi_minio-0.9.1a1682440158.tar.gz
+[2024-05-01 08:14:55] INFO root fetch - processPackages [pulumi-newrelic]: executing diffoscope
+[2024-05-01 08:14:55] INFO root fetch - processPackages [pulumi-newrelic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_newrelic-5.9.0a1680282898.tar.gz tmp/pulumi_newrelic-5.9.1.tar.gz --markdown 20240501/p/pulumi-newrelic/5.9.0a1680282898-5.9.1/README.md --exclude *.pyd
+[2024-05-01 08:14:55] INFO root fetch - processPackages [pulumi-linode]: executing diffoscope
+[2024-05-01 08:14:55] INFO root fetch - processPackages [pulumi-linode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_linode-4.9.0a1700248892.tar.gz tmp/pulumi_linode-4.9.1.tar.gz --markdown 20240501/p/pulumi-linode/4.9.0a1700248892-4.9.1/README.md --exclude *.pyd
+[2024-05-01 08:14:55] INFO root fetch - processPackages [pulumi-minio]: executing diffoscope
+[2024-05-01 08:14:55] INFO root fetch - processPackages [pulumi-minio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_minio-0.9.1a1681933919.tar.gz tmp/pulumi_minio-0.9.1a1682440158.tar.gz --markdown 20240501/p/pulumi-minio/0.9.1a1681933919-0.9.1a1682440158/README.md --exclude *.pyd
+[2024-05-01 08:14:55] INFO root fetch - processPackages [pulumi-mongodbatlas]: executing diffoscope
+[2024-05-01 08:14:55] INFO root fetch - processPackages [pulumi-mongodbatlas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_mongodbatlas-3.9.1.tar.gz tmp/pulumi_mongodbatlas-3.9.2.tar.gz --markdown 20240501/p/pulumi-mongodbatlas/3.9.1-3.9.2/README.md --exclude *.pyd
+[2024-05-01 08:14:55] INFO root fetch - processPackages [pulumi-mailgun]: executing diffoscope
+[2024-05-01 08:14:55] INFO root fetch - processPackages [pulumi-mailgun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_mailgun-3.6.0a1714110617.tar.gz tmp/pulumi_mailgun-3.6.0a1714456243.tar.gz --markdown 20240501/p/pulumi-mailgun/3.6.0a1714110617-3.6.0a1714456243/README.md --exclude *.pyd
+[2024-05-01 08:14:56] INFO root fetch - processPackages [streamlit-image-annotation]: Downloading https://files.pythonhosted.org/packages/89/c8/2f4046b6280181c8c831f6f8b5ad0a7a06e3e4c18ca2d1843fa978519a48/streamlit_image_annotation-0.4.0.tar.gz
+[2024-05-01 08:14:56] INFO root fetch - processPackages [pulumi-minio]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_minio-0.9.1a1681933919.tar.gz]
+[2024-05-01 08:14:56] INFO root fetch - processPackages [pulumi-minio]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_minio-0.9.1a1682440158.tar.gz]
+[2024-05-01 08:14:56] INFO root fetch - main [MainThread]: End processing [pulumi-minio]: success
+[2024-05-01 08:14:56] INFO root fetch - processPackages [streamlit-image-annotation]: executing diffoscope
+[2024-05-01 08:14:56] INFO root fetch - processPackages [streamlit-image-annotation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit_image_annotation-0.3.2.tar.gz tmp/streamlit_image_annotation-0.4.0.tar.gz --markdown 20240501/s/streamlit-image-annotation/0.3.2-0.4.0/README.md --exclude *.pyd
+[2024-05-01 08:14:56] INFO root fetch - processPackages [pulumi-mailgun]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_mailgun-3.6.0a1714110617.tar.gz]
+[2024-05-01 08:14:56] INFO root fetch - processPackages [pulumi-mailgun]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_mailgun-3.6.0a1714456243.tar.gz]
+[2024-05-01 08:14:56] INFO root fetch - main [MainThread]: End processing [pulumi-mailgun]: success
+[2024-05-01 08:14:56] INFO root fetch - processPackages [pulumi-linode]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_linode-4.9.0a1700248892.tar.gz]
+[2024-05-01 08:14:56] INFO root fetch - processPackages [pulumi-linode]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_linode-4.9.1.tar.gz]
+[2024-05-01 08:14:56] INFO root fetch - main [MainThread]: End processing [pulumi-linode]: success
+[2024-05-01 08:14:56] INFO root fetch - processPackages [pulumi-newrelic]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_newrelic-5.9.0a1680282898.tar.gz]
+[2024-05-01 08:14:56] INFO root fetch - processPackages [pulumi-newrelic]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_newrelic-5.9.1.tar.gz]
+[2024-05-01 08:14:56] INFO root fetch - main [MainThread]: End processing [pulumi-newrelic]: success
+[2024-05-01 08:14:57] INFO root fetch - processPackages [pulumi-mongodbatlas]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_mongodbatlas-3.9.1.tar.gz]
+[2024-05-01 08:14:57] INFO root fetch - processPackages [pulumi-mongodbatlas]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_mongodbatlas-3.9.2.tar.gz]
+[2024-05-01 08:14:57] INFO root fetch - main [MainThread]: End processing [pulumi-mongodbatlas]: success
+[2024-05-01 08:16:50] INFO root fetch - processPackages [streamlit-image-annotation]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_image_annotation-0.3.2.tar.gz]
+[2024-05-01 08:16:50] INFO root fetch - processPackages [streamlit-image-annotation]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_image_annotation-0.4.0.tar.gz]
+[2024-05-01 08:16:50] INFO root fetch - main [MainThread]: End processing [streamlit-image-annotation]: success
+[2024-05-01 08:16:50] INFO root fetch - main [MainThread]: Store serial: [23012984]
