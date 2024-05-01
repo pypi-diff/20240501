@@ -9822,3 +9822,33 @@
 [2024-05-01 07:30:31] INFO root fetch - processPackages [pulumi-artifactory]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_artifactory-6.8.0a1714454023.tar.gz]
 [2024-05-01 07:30:31] INFO root fetch - main [MainThread]: End processing [pulumi-artifactory]: success
 [2024-05-01 07:30:31] INFO root fetch - main [MainThread]: Store serial: [23012664]
+[2024-05-01 07:32:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23012664]
+[2024-05-01 07:32:40] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-01 07:32:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: WebtoonScraper
+[2024-05-01 07:32:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bambot
+[2024-05-01 07:32:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: intake-nwp
+[2024-05-01 07:32:40] INFO root fetch - processPackages [bambot]: New version: [0.4.0] Old Version: [0.3.9]
+[2024-05-01 07:32:40] INFO root fetch - processPackages [WebtoonScraper]: New version: [3.3.0] Old Version: [3.2.2]
+[2024-05-01 07:32:40] INFO root fetch - processPackages [bambot]: Downloading https://files.pythonhosted.org/packages/2e/47/63e66ffa8b4bc1dd6a925d7fc9a90ca032a0cd82223499a99d1fcc3ff848/bambot-0.3.9.tar.gz
+[2024-05-01 07:32:40] INFO root fetch - processPackages [intake-nwp]: New version: [0.3.5] Old Version: [0.3.4]
+[2024-05-01 07:32:40] INFO root fetch - processPackages [WebtoonScraper]: Downloading https://files.pythonhosted.org/packages/97/e0/0156ce6520102b88b63c0a8c109fc535f0192c5a5153233b6f0d8d891cb8/webtoonscraper-3.2.2.tar.gz
+[2024-05-01 07:32:40] INFO root fetch - processPackages [bambot]: Downloading https://files.pythonhosted.org/packages/33/83/866ac61ea5ebed764ffb2f0d0a53fc0755b1cf685c31946f771d1ea74111/bambot-0.4.0.tar.gz
+[2024-05-01 07:32:40] INFO root fetch - processPackages [WebtoonScraper]: Downloading https://files.pythonhosted.org/packages/85/e6/84ea54a06662aca6fdc645bc05e7aee3bf771268ba931cb0d0c0cb0e97fe/webtoonscraper-3.3.0-py3-none-any.whl
+[2024-05-01 07:32:40] INFO root fetch - processPackages [intake-nwp]: Downloading https://files.pythonhosted.org/packages/20/b8/a3696071330c4df8f6006001a01d20518414d22c0ee9a47114c0dd7b77dd/intake-nwp-0.3.4.tar.gz
+[2024-05-01 07:32:40] INFO root fetch - processPackages [bambot]: executing diffoscope
+[2024-05-01 07:32:40] INFO root fetch - processPackages [bambot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bambot-0.3.9.tar.gz tmp/bambot-0.4.0.tar.gz --markdown 20240501/b/bambot/0.3.9-0.4.0/README.md --exclude *.pyd
+[2024-05-01 07:32:41] INFO root fetch - processPackages [WebtoonScraper]: executing diffoscope
+[2024-05-01 07:32:41] INFO root fetch - processPackages [WebtoonScraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webtoonscraper-3.2.2.tar.gz tmp/webtoonscraper-3.3.0-py3-none-any.whl.zip --markdown 20240501/W/WebtoonScraper/3.2.2-3.3.0/README.md --exclude *.pyd
+[2024-05-01 07:32:41] INFO root fetch - processPackages [intake-nwp]: Downloading https://files.pythonhosted.org/packages/8b/06/82cdebad660b039d0570de32cdeeaae68d5d2503372ad6308fe4698b230a/intake_nwp-0.3.5.tar.gz
+[2024-05-01 07:32:41] INFO root fetch - processPackages [intake-nwp]: executing diffoscope
+[2024-05-01 07:32:41] INFO root fetch - processPackages [intake-nwp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/intake-nwp-0.3.4.tar.gz tmp/intake_nwp-0.3.5.tar.gz --markdown 20240501/i/intake-nwp/0.3.4-0.3.5/README.md --exclude *.pyd
+[2024-05-01 07:32:41] INFO root fetch - processPackages [bambot]: Remove: archive file [/home/abi/fetcher/tmp/bambot-0.3.9.tar.gz]
+[2024-05-01 07:32:41] INFO root fetch - processPackages [bambot]: Remove: archive file [/home/abi/fetcher/tmp/bambot-0.4.0.tar.gz]
+[2024-05-01 07:32:41] INFO root fetch - main [MainThread]: End processing [bambot]: success
+[2024-05-01 07:32:41] INFO root fetch - processPackages [WebtoonScraper]: Remove: archive file [/home/abi/fetcher/tmp/webtoonscraper-3.2.2.tar.gz]
+[2024-05-01 07:32:41] INFO root fetch - processPackages [WebtoonScraper]: Remove: archive file [/home/abi/fetcher/tmp/webtoonscraper-3.3.0-py3-none-any.whl.zip]
+[2024-05-01 07:32:41] INFO root fetch - main [MainThread]: End processing [WebtoonScraper]: success
+[2024-05-01 07:32:42] INFO root fetch - processPackages [intake-nwp]: Remove: archive file [/home/abi/fetcher/tmp/intake-nwp-0.3.4.tar.gz]
+[2024-05-01 07:32:42] INFO root fetch - processPackages [intake-nwp]: Remove: archive file [/home/abi/fetcher/tmp/intake_nwp-0.3.5.tar.gz]
+[2024-05-01 07:32:42] INFO root fetch - main [MainThread]: End processing [intake-nwp]: success
+[2024-05-01 07:32:42] INFO root fetch - main [MainThread]: Store serial: [23012673]
