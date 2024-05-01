@@ -6943,3 +6943,24 @@
 [2024-05-01 03:48:26] INFO root fetch - processPackages [skia-python]: Remove: archive file [/home/abi/fetcher/tmp/skia_python-87.5-cp39-cp39-win_amd64.whl.zip]
 [2024-05-01 03:48:26] INFO root fetch - main [MainThread]: End processing [skia-python]: success
 [2024-05-01 03:48:26] INFO root fetch - main [MainThread]: Store serial: [23011347]
+[2024-05-01 03:50:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23011347]
+[2024-05-01 03:50:34] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-01 03:50:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: oscb
+[2024-05-01 03:50:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kframe
+[2024-05-01 03:50:34] INFO root fetch - processPackages [kframe]: New version: [0.4.1rc5] Old Version: [0.4.0rc1]
+[2024-05-01 03:50:35] INFO root fetch - processPackages [kframe]: Downloading https://files.pythonhosted.org/packages/f7/4b/54f2614089e0c3f269fb4b63a2d15babb5403f9ca275dd0b20725820e716/kframe-0.4.0rc1.tar.gz
+[2024-05-01 03:50:35] INFO root fetch - processPackages [oscb]: New version: [1.8.9] Old Version: [1.7.9]
+[2024-05-01 03:50:35] INFO root fetch - processPackages [oscb]: Downloading https://files.pythonhosted.org/packages/82/25/19c0acaf5c219018f110294d3f238b0ef5da7075745486c3e74e2001a06e/oscb-1.7.9.tar.gz
+[2024-05-01 03:50:35] INFO root fetch - processPackages [kframe]: Downloading https://files.pythonhosted.org/packages/77/a3/9c8d48aa4e661edc291783d180473b3ad03213b2750f02d3c43a32a4d010/kframe-0.4.1rc5.tar.gz
+[2024-05-01 03:50:35] INFO root fetch - processPackages [kframe]: executing diffoscope
+[2024-05-01 03:50:35] INFO root fetch - processPackages [kframe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kframe-0.4.0rc1.tar.gz tmp/kframe-0.4.1rc5.tar.gz --markdown 20240501/k/kframe/0.4.0rc1-0.4.1rc5/README.md --exclude *.pyd
+[2024-05-01 03:50:35] INFO root fetch - processPackages [oscb]: Downloading https://files.pythonhosted.org/packages/36/cc/5d6d17be065106463996f7034cb75151ed21a97de5f40e3473db9168492c/oscb-1.8.9.tar.gz
+[2024-05-01 03:50:35] INFO root fetch - processPackages [oscb]: executing diffoscope
+[2024-05-01 03:50:35] INFO root fetch - processPackages [oscb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oscb-1.7.9.tar.gz tmp/oscb-1.8.9.tar.gz --markdown 20240501/o/oscb/1.7.9-1.8.9/README.md --exclude *.pyd
+[2024-05-01 03:50:36] INFO root fetch - processPackages [kframe]: Remove: archive file [/home/abi/fetcher/tmp/kframe-0.4.0rc1.tar.gz]
+[2024-05-01 03:50:36] INFO root fetch - processPackages [kframe]: Remove: archive file [/home/abi/fetcher/tmp/kframe-0.4.1rc5.tar.gz]
+[2024-05-01 03:50:36] INFO root fetch - main [MainThread]: End processing [kframe]: success
+[2024-05-01 03:50:36] INFO root fetch - processPackages [oscb]: Remove: archive file [/home/abi/fetcher/tmp/oscb-1.7.9.tar.gz]
+[2024-05-01 03:50:36] INFO root fetch - processPackages [oscb]: Remove: archive file [/home/abi/fetcher/tmp/oscb-1.8.9.tar.gz]
+[2024-05-01 03:50:36] INFO root fetch - main [MainThread]: End processing [oscb]: success
+[2024-05-01 03:50:36] INFO root fetch - main [MainThread]: Store serial: [23011366]
