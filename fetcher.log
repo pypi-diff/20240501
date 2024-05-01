@@ -20287,3 +20287,55 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-01 14:40:39] INFO root fetch - processPackages [grizli]: Remove: archive file [/home/abi/fetcher/tmp/grizli-1.9.9.tar.gz]
 [2024-05-01 14:40:39] INFO root fetch - main [MainThread]: End processing [grizli]: success
 [2024-05-01 14:40:39] INFO root fetch - main [MainThread]: Store serial: [23016972]
+[2024-05-01 14:42:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23016972]
+[2024-05-01 14:42:48] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-01 14:42:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-wavefront
+[2024-05-01 14:42:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-spotinst
+[2024-05-01 14:42:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: duckcuts
+[2024-05-01 14:42:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-vault
+[2024-05-01 14:42:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bigdl-llm
+[2024-05-01 14:42:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi-vsphere
+[2024-05-01 14:42:48] INFO root fetch - processPackages [pulumi-wavefront]: New version: [3.2.0a1714545022] Old Version: [3.2.0a1714459430]
+[2024-05-01 14:42:48] INFO root fetch - processPackages [pulumi-vsphere]: New version: [4.9.2] Old Version: [4.9.1]
+[2024-05-01 14:42:48] INFO root fetch - processPackages [pulumi-vault]: New version: [6.2.0a1714544660] Old Version: [6.2.0a1714537907]
+[2024-05-01 14:42:48] INFO root fetch - processPackages [duckcuts]: New version: [1.0.7] Old Version: [1.0.6]
+[2024-05-01 14:42:48] INFO root fetch - processPackages [bigdl-llm]: New version: [2.5.0b20240430] Old Version: [2.5.0b20240429]
+[2024-05-01 14:42:48] INFO root fetch - processPackages [pulumi-spotinst]: New version: [3.9.0a1633346805] Old Version: [3.9.0]
+[2024-05-01 14:42:48] INFO root fetch - processPackages [pulumi-vsphere]: Downloading https://files.pythonhosted.org/packages/2c/b7/9b9215ee833910abd7a86275fdf600ed12fb1777b5fed56078b15cabaa70/pulumi_vsphere-4.9.1.tar.gz
+[2024-05-01 14:42:48] INFO root fetch - processPackages [pulumi-vault]: Downloading https://files.pythonhosted.org/packages/08/be/5144e8bc6a9b0eecb9e2e58ab02cd602fc813530c8ad26c8c330a1054cc0/pulumi_vault-6.2.0a1714537907.tar.gz
+[2024-05-01 14:42:48] INFO root fetch - processPackages [pulumi-spotinst]: Downloading https://files.pythonhosted.org/packages/e0/9f/6d2c1a705d6b6019bea4cba0aa49eceea4eb2d84cfdcb18f45db81e06fb5/pulumi_spotinst-3.9.0.tar.gz
+[2024-05-01 14:42:48] INFO root fetch - processPackages [bigdl-llm]: Downloading https://files.pythonhosted.org/packages/ca/d8/862fc90f47f596e604c5643eedb896f9c0768b17d217a4995c36b8d50f8e/bigdl_llm-2.5.0b20240429-py3-none-win_amd64.whl
+[2024-05-01 14:42:48] ERROR root fetch - processPackages [duckcuts]: Unable to fetch info: No such project/version 'duckcuts' 1.0.6
+[2024-05-01 14:42:48] INFO root fetch - main [MainThread]: End processing [duckcuts] error
+[2024-05-01 14:42:48] INFO root fetch - processPackages [pulumi-wavefront]: Downloading https://files.pythonhosted.org/packages/cc/ea/8dac402160421baeb6e3036a639aac560d9b326e2e88cfe65f64e65627f6/pulumi_wavefront-3.2.0a1714459430.tar.gz
+[2024-05-01 14:42:49] INFO root fetch - processPackages [pulumi-vsphere]: Downloading https://files.pythonhosted.org/packages/11/0f/d6e12dc0f0f87ffbedada279d30f59cf591dde549b68503412913fd87d8b/pulumi_vsphere-4.9.2.tar.gz
+[2024-05-01 14:42:49] INFO root fetch - processPackages [pulumi-wavefront]: Downloading https://files.pythonhosted.org/packages/85/38/14591bd7f160f15d3f8aa2097a9f79b71985ae6f5bb95ea7aef1cc41cd02/pulumi_wavefront-3.2.0a1714545022.tar.gz
+[2024-05-01 14:42:49] INFO root fetch - processPackages [pulumi-spotinst]: Downloading https://files.pythonhosted.org/packages/b4/06/83d6eb3763a877d39e3d2a09063ba3fd6542fa6a214e6c3d5240414d041d/pulumi_spotinst-3.9.0a1633346805.tar.gz
+[2024-05-01 14:42:49] INFO root fetch - processPackages [pulumi-vault]: Downloading https://files.pythonhosted.org/packages/48/b2/295144c6a93ef9dae8c3f9d357782b215c047901a5eecfc2c496a04a7cfe/pulumi_vault-6.2.0a1714544660.tar.gz
+[2024-05-01 14:42:49] INFO root fetch - processPackages [pulumi-wavefront]: executing diffoscope
+[2024-05-01 14:42:49] INFO root fetch - processPackages [pulumi-wavefront]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_wavefront-3.2.0a1714459430.tar.gz tmp/pulumi_wavefront-3.2.0a1714545022.tar.gz --markdown 20240501/p/pulumi-wavefront/3.2.0a1714459430-3.2.0a1714545022/README.md --exclude *.pyd
+[2024-05-01 14:42:49] INFO root fetch - processPackages [bigdl-llm]: Downloading https://files.pythonhosted.org/packages/09/46/ce133311dfaad731ba386173c13b2bb1d672cd91a4e2c9b5bc0b85f9f824/bigdl_llm-2.5.0b20240430-py3-none-win_amd64.whl
+[2024-05-01 14:42:49] INFO root fetch - processPackages [pulumi-vsphere]: executing diffoscope
+[2024-05-01 14:42:49] INFO root fetch - processPackages [pulumi-vsphere]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_vsphere-4.9.1.tar.gz tmp/pulumi_vsphere-4.9.2.tar.gz --markdown 20240501/p/pulumi-vsphere/4.9.1-4.9.2/README.md --exclude *.pyd
+[2024-05-01 14:42:49] INFO root fetch - processPackages [pulumi-spotinst]: executing diffoscope
+[2024-05-01 14:42:49] INFO root fetch - processPackages [pulumi-spotinst]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_spotinst-3.9.0.tar.gz tmp/pulumi_spotinst-3.9.0a1633346805.tar.gz --markdown 20240501/p/pulumi-spotinst/3.9.0-3.9.0a1633346805/README.md --exclude *.pyd
+[2024-05-01 14:42:49] INFO root fetch - processPackages [pulumi-vault]: executing diffoscope
+[2024-05-01 14:42:49] INFO root fetch - processPackages [pulumi-vault]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_vault-6.2.0a1714537907.tar.gz tmp/pulumi_vault-6.2.0a1714544660.tar.gz --markdown 20240501/p/pulumi-vault/6.2.0a1714537907-6.2.0a1714544660/README.md --exclude *.pyd
+[2024-05-01 14:42:49] INFO root fetch - processPackages [bigdl-llm]: executing diffoscope
+[2024-05-01 14:42:49] INFO root fetch - processPackages [bigdl-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_llm-2.5.0b20240429-py3-none-win_amd64.whl.zip tmp/bigdl_llm-2.5.0b20240430-py3-none-win_amd64.whl.zip --markdown 20240501/b/bigdl-llm/2.5.0b20240429-2.5.0b20240430/README.md --exclude *.pyd
+[2024-05-01 14:42:50] INFO root fetch - processPackages [pulumi-wavefront]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_wavefront-3.2.0a1714459430.tar.gz]
+[2024-05-01 14:42:50] INFO root fetch - processPackages [pulumi-wavefront]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_wavefront-3.2.0a1714545022.tar.gz]
+[2024-05-01 14:42:50] INFO root fetch - main [MainThread]: End processing [pulumi-wavefront]: success
+[2024-05-01 14:42:50] INFO root fetch - processPackages [pulumi-spotinst]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_spotinst-3.9.0.tar.gz]
+[2024-05-01 14:42:50] INFO root fetch - processPackages [pulumi-spotinst]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_spotinst-3.9.0a1633346805.tar.gz]
+[2024-05-01 14:42:50] INFO root fetch - main [MainThread]: End processing [pulumi-spotinst]: success
+[2024-05-01 14:42:50] INFO root fetch - processPackages [pulumi-vsphere]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_vsphere-4.9.1.tar.gz]
+[2024-05-01 14:42:50] INFO root fetch - processPackages [pulumi-vsphere]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_vsphere-4.9.2.tar.gz]
+[2024-05-01 14:42:50] INFO root fetch - main [MainThread]: End processing [pulumi-vsphere]: success
+[2024-05-01 14:42:50] INFO root fetch - processPackages [pulumi-vault]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_vault-6.2.0a1714537907.tar.gz]
+[2024-05-01 14:42:50] INFO root fetch - processPackages [pulumi-vault]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_vault-6.2.0a1714544660.tar.gz]
+[2024-05-01 14:42:50] INFO root fetch - main [MainThread]: End processing [pulumi-vault]: success
+[2024-05-01 14:42:50] INFO root fetch - processPackages [bigdl-llm]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_llm-2.5.0b20240429-py3-none-win_amd64.whl.zip]
+[2024-05-01 14:42:50] INFO root fetch - processPackages [bigdl-llm]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_llm-2.5.0b20240430-py3-none-win_amd64.whl.zip]
+[2024-05-01 14:42:50] INFO root fetch - main [MainThread]: End processing [bigdl-llm]: success
+[2024-05-01 14:42:50] INFO root fetch - main [MainThread]: Store serial: [23016991]
