@@ -8185,3 +8185,42 @@
 [2024-05-01 05:29:42] INFO root fetch - processPackages [cdpcli-beta]: Remove: archive file [/home/abi/fetcher/tmp/cdpcli-beta-0.9.99.tar.gz]
 [2024-05-01 05:29:42] INFO root fetch - main [MainThread]: End processing [cdpcli-beta]: success
 [2024-05-01 05:29:42] INFO root fetch - main [MainThread]: Store serial: [23011898]
+[2024-05-01 05:31:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23011898]
+[2024-05-01 05:31:50] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-01 05:31:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: interopt
+[2024-05-01 05:31:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: clip-util
+[2024-05-01 05:31:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mytot
+[2024-05-01 05:31:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: adc64format
+[2024-05-01 05:31:51] INFO root fetch - processPackages [mytot]: New version: [2024.5.963441] Old Version: [2024.4.546183]
+[2024-05-01 05:31:51] INFO root fetch - processPackages [adc64format]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-01 05:31:51] INFO root fetch - processPackages [interopt]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-01 05:31:51] INFO root fetch - processPackages [clip-util]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-01 05:31:51] INFO root fetch - processPackages [interopt]: Downloading https://files.pythonhosted.org/packages/a1/2d/1b105c26a42c56d0f579460cfd03b174a84233a4429a6fddef3efd758b27/interopt-0.1.1.tar.gz
+[2024-05-01 05:31:51] INFO root fetch - processPackages [mytot]: Downloading https://files.pythonhosted.org/packages/c3/62/d65ce018162ff5b9f213d4a64531ff1faa5d2cbad9b3988bfa676f731475/mytot-2024.4.546183-py3-none-any.whl
+[2024-05-01 05:31:51] INFO root fetch - processPackages [clip-util]: Downloading https://files.pythonhosted.org/packages/62/b3/1dadedcd87d131bf2409d1b99b98cfe912a716ec0c14a1de749fc90c6d1c/clip-util-0.1.8.tar.gz
+[2024-05-01 05:31:51] INFO root fetch - processPackages [adc64format]: Downloading https://files.pythonhosted.org/packages/dc/70/76c2a380a16518c4dd27aa2e63fa906464ef3db69c2dc193127374052b34/adc64format-0.1.0.tar.gz
+[2024-05-01 05:31:51] INFO root fetch - processPackages [interopt]: Downloading https://files.pythonhosted.org/packages/97/96/18fc96ccc3bdf25162307aacd61f021430e89b28f52241b3490ba6faeb27/interopt-0.1.2.tar.gz
+[2024-05-01 05:31:51] INFO root fetch - processPackages [adc64format]: Downloading https://files.pythonhosted.org/packages/97/33/1c468cc2cf63e7f84c2a7029e3976bc4e308b25f8cd5eb424a216394beae/adc64format-0.1.1-py3-none-any.whl
+[2024-05-01 05:31:51] INFO root fetch - processPackages [clip-util]: Downloading https://files.pythonhosted.org/packages/41/bb/9082a814e9fb8fa4545c7852a27a82fbfb2c177a9cb11dcca70a065c5bd8/clip-util-0.1.9.tar.gz
+[2024-05-01 05:31:51] INFO root fetch - processPackages [interopt]: executing diffoscope
+[2024-05-01 05:31:51] INFO root fetch - processPackages [interopt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/interopt-0.1.1.tar.gz tmp/interopt-0.1.2.tar.gz --markdown 20240501/i/interopt/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-01 05:31:51] INFO root fetch - processPackages [mytot]: Downloading https://files.pythonhosted.org/packages/98/3f/e127acf5224114792fab6e2f27a6867e950d56a31b501a485e3371364748/mytot-2024.5.963441-py3-none-any.whl
+[2024-05-01 05:31:51] INFO root fetch - processPackages [clip-util]: executing diffoscope
+[2024-05-01 05:31:51] INFO root fetch - processPackages [clip-util]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clip-util-0.1.8.tar.gz tmp/clip-util-0.1.9.tar.gz --markdown 20240501/c/clip-util/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-01 05:31:51] INFO root fetch - processPackages [mytot]: executing diffoscope
+[2024-05-01 05:31:51] INFO root fetch - processPackages [mytot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mytot-2024.4.546183-py3-none-any.whl.zip tmp/mytot-2024.5.963441-py3-none-any.whl.zip --markdown 20240501/m/mytot/2024.4.546183-2024.5.963441/README.md --exclude *.pyd
+[2024-05-01 05:31:51] INFO root fetch - processPackages [adc64format]: executing diffoscope
+[2024-05-01 05:31:51] INFO root fetch - processPackages [adc64format]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adc64format-0.1.0.tar.gz tmp/adc64format-0.1.1-py3-none-any.whl.zip --markdown 20240501/a/adc64format/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-01 05:31:52] INFO root fetch - processPackages [interopt]: Remove: archive file [/home/abi/fetcher/tmp/interopt-0.1.1.tar.gz]
+[2024-05-01 05:31:52] INFO root fetch - processPackages [interopt]: Remove: archive file [/home/abi/fetcher/tmp/interopt-0.1.2.tar.gz]
+[2024-05-01 05:31:52] INFO root fetch - main [MainThread]: End processing [interopt]: success
+[2024-05-01 05:31:52] INFO root fetch - processPackages [mytot]: Remove: archive file [/home/abi/fetcher/tmp/mytot-2024.4.546183-py3-none-any.whl.zip]
+[2024-05-01 05:31:52] INFO root fetch - processPackages [mytot]: Remove: archive file [/home/abi/fetcher/tmp/mytot-2024.5.963441-py3-none-any.whl.zip]
+[2024-05-01 05:31:52] INFO root fetch - main [MainThread]: End processing [mytot]: success
+[2024-05-01 05:31:52] INFO root fetch - processPackages [clip-util]: Remove: archive file [/home/abi/fetcher/tmp/clip-util-0.1.8.tar.gz]
+[2024-05-01 05:31:52] INFO root fetch - processPackages [clip-util]: Remove: archive file [/home/abi/fetcher/tmp/clip-util-0.1.9.tar.gz]
+[2024-05-01 05:31:52] INFO root fetch - main [MainThread]: End processing [clip-util]: success
+[2024-05-01 05:31:52] INFO root fetch - processPackages [adc64format]: Remove: archive file [/home/abi/fetcher/tmp/adc64format-0.1.0.tar.gz]
+[2024-05-01 05:31:52] INFO root fetch - processPackages [adc64format]: Remove: archive file [/home/abi/fetcher/tmp/adc64format-0.1.1-py3-none-any.whl.zip]
+[2024-05-01 05:31:52] INFO root fetch - main [MainThread]: End processing [adc64format]: success
+[2024-05-01 05:31:52] INFO root fetch - main [MainThread]: Store serial: [23011908]
