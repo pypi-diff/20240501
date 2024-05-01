@@ -22018,3 +22018,45 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-01 16:03:05] INFO root fetch - processPackages [plotly]: Remove: archive file [/home/abi/fetcher/tmp/plotly-5.9.0.tar.gz]
 [2024-05-01 16:03:05] INFO root fetch - main [MainThread]: End processing [plotly]: success
 [2024-05-01 16:03:05] INFO root fetch - main [MainThread]: Store serial: [23017728]
+[2024-05-01 16:05:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23017728]
+[2024-05-01 16:05:14] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-01 16:05:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lyytkfunction
+[2024-05-01 16:05:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: prometheus-eval
+[2024-05-01 16:05:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: logkontrol
+[2024-05-01 16:05:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: t-bug-catcher
+[2024-05-01 16:05:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: annubes
+[2024-05-01 16:05:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aliceio
+[2024-05-01 16:05:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: velosaurus-sum
+[2024-05-01 16:05:14] INFO root fetch - processPackages [logkontrol]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-01 16:05:14] INFO root fetch - processPackages [t-bug-catcher]: New version: [0.4.8] Old Version: [0.4.7]
+[2024-05-01 16:05:14] INFO root fetch - processPackages [t-bug-catcher]: Downloading https://files.pythonhosted.org/packages/38/9c/94ce9e0b8070b8a9891ee2daa7178f92de2d57ef96b5a5b073e444dddb38/t_bug_catcher-0.4.7.tar.gz
+[2024-05-01 16:05:14] WARNING root fetch - processPackages [annubes]: Skipping, unable to determine old version
+[2024-05-01 16:05:14] INFO root fetch - main [MainThread]: End processing [annubes] error
+[2024-05-01 16:05:14] WARNING root fetch - processPackages [prometheus-eval]: Skipping, unable to determine old version
+[2024-05-01 16:05:14] INFO root fetch - main [MainThread]: End processing [prometheus-eval] error
+[2024-05-01 16:05:14] WARNING root fetch - processPackages [lyytkfunction]: Skipping, unable to determine old version
+[2024-05-01 16:05:14] INFO root fetch - main [MainThread]: End processing [lyytkfunction] error
+[2024-05-01 16:05:14] ERROR root fetch - processPackages [velosaurus-sum]: Unable to get metadata: No such project 'velosaurus-sum'
+[2024-05-01 16:05:14] INFO root fetch - main [MainThread]: End processing [velosaurus-sum] error
+[2024-05-01 16:05:14] INFO root fetch - processPackages [aliceio]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-01 16:05:14] INFO root fetch - processPackages [logkontrol]: Downloading https://files.pythonhosted.org/packages/a4/e0/47169e1624c523c17a365ada3ba446fe8ab8db7849169bd7c51761135ae7/logkontrol-0.1.0.tar.gz
+[2024-05-01 16:05:15] INFO root fetch - processPackages [aliceio]: Downloading https://files.pythonhosted.org/packages/52/4a/3f54a14eb04f3ca8866fefcf1ab7e998ded9382be8c9ab53c112865bff62/aliceio-0.0.2.tar.gz
+[2024-05-01 16:05:15] INFO root fetch - processPackages [t-bug-catcher]: Downloading https://files.pythonhosted.org/packages/47/9e/7b4e8aef82a1ec88081446a927750a98b8100987b38cdda4a2b2fe7b1880/t_bug_catcher-0.4.8.tar.gz
+[2024-05-01 16:05:15] INFO root fetch - processPackages [logkontrol]: Downloading https://files.pythonhosted.org/packages/25/6a/0e63919d49781216d3e224655859bb33d845b0ccbf2f13e80a6ce4d3c93e/logkontrol-0.1.1.tar.gz
+[2024-05-01 16:05:15] INFO root fetch - processPackages [t-bug-catcher]: executing diffoscope
+[2024-05-01 16:05:15] INFO root fetch - processPackages [t-bug-catcher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/t_bug_catcher-0.4.7.tar.gz tmp/t_bug_catcher-0.4.8.tar.gz --markdown 20240501/t/t-bug-catcher/0.4.7-0.4.8/README.md --exclude *.pyd
+[2024-05-01 16:05:15] INFO root fetch - processPackages [logkontrol]: executing diffoscope
+[2024-05-01 16:05:15] INFO root fetch - processPackages [logkontrol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/logkontrol-0.1.0.tar.gz tmp/logkontrol-0.1.1.tar.gz --markdown 20240501/l/logkontrol/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-01 16:05:15] INFO root fetch - processPackages [aliceio]: Downloading https://files.pythonhosted.org/packages/91/ef/4e7317c31285f47abe14085641e41da71dab9176b9c0a5001c7218cb061f/aliceio-0.0.3.tar.gz
+[2024-05-01 16:05:15] INFO root fetch - processPackages [logkontrol]: Remove: archive file [/home/abi/fetcher/tmp/logkontrol-0.1.0.tar.gz]
+[2024-05-01 16:05:15] INFO root fetch - processPackages [logkontrol]: Remove: archive file [/home/abi/fetcher/tmp/logkontrol-0.1.1.tar.gz]
+[2024-05-01 16:05:15] INFO root fetch - main [MainThread]: End processing [logkontrol]: success
+[2024-05-01 16:05:15] INFO root fetch - processPackages [aliceio]: executing diffoscope
+[2024-05-01 16:05:15] INFO root fetch - processPackages [aliceio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliceio-0.0.2.tar.gz tmp/aliceio-0.0.3.tar.gz --markdown 20240501/a/aliceio/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-01 16:05:15] INFO root fetch - processPackages [t-bug-catcher]: Remove: archive file [/home/abi/fetcher/tmp/t_bug_catcher-0.4.7.tar.gz]
+[2024-05-01 16:05:15] INFO root fetch - processPackages [t-bug-catcher]: Remove: archive file [/home/abi/fetcher/tmp/t_bug_catcher-0.4.8.tar.gz]
+[2024-05-01 16:05:15] INFO root fetch - main [MainThread]: End processing [t-bug-catcher]: success
+[2024-05-01 16:05:17] INFO root fetch - processPackages [aliceio]: Remove: archive file [/home/abi/fetcher/tmp/aliceio-0.0.2.tar.gz]
+[2024-05-01 16:05:17] INFO root fetch - processPackages [aliceio]: Remove: archive file [/home/abi/fetcher/tmp/aliceio-0.0.3.tar.gz]
+[2024-05-01 16:05:17] INFO root fetch - main [MainThread]: End processing [aliceio]: success
+[2024-05-01 16:05:17] INFO root fetch - main [MainThread]: Store serial: [23017754]
