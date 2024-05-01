@@ -20339,3 +20339,27 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-01 14:42:50] INFO root fetch - processPackages [bigdl-llm]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_llm-2.5.0b20240430-py3-none-win_amd64.whl.zip]
 [2024-05-01 14:42:50] INFO root fetch - main [MainThread]: End processing [bigdl-llm]: success
 [2024-05-01 14:42:50] INFO root fetch - main [MainThread]: Store serial: [23016991]
+[2024-05-01 14:44:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23016991]
+[2024-05-01 14:44:59] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-01 14:44:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Tooldelta
+[2024-05-01 14:44:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: oslactionspotting
+[2024-05-01 14:44:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spaceone-core
+[2024-05-01 14:44:59] WARNING root fetch - processPackages [oslactionspotting]: Skipping, unable to determine old version
+[2024-05-01 14:44:59] INFO root fetch - main [MainThread]: End processing [oslactionspotting] error
+[2024-05-01 14:44:59] INFO root fetch - processPackages [spaceone-core]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-05-01 14:44:59] INFO root fetch - processPackages [Tooldelta]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-05-01 14:44:59] INFO root fetch - processPackages [spaceone-core]: Downloading https://files.pythonhosted.org/packages/d5/fd/8dc14e172651bfc6e4d089ff63cf5e7b6edd17d691d6218cecca40d47cfe/spaceone-core-2.0.8.tar.gz
+[2024-05-01 14:44:59] INFO root fetch - processPackages [Tooldelta]: Downloading https://files.pythonhosted.org/packages/cc/aa/c3229b3ff6858204e84f37e963adbe3d344fa0ee1ae9cd78312a928f962e/tooldelta-0.5.8.tar.gz
+[2024-05-01 14:44:59] INFO root fetch - processPackages [spaceone-core]: Downloading https://files.pythonhosted.org/packages/c6/b6/20c4662546ec879a3b0dfacd3580673a79f673f79dbedabb4a9a917b0f73/spaceone-core-2.0.9.tar.gz
+[2024-05-01 14:45:00] INFO root fetch - processPackages [spaceone-core]: executing diffoscope
+[2024-05-01 14:45:00] INFO root fetch - processPackages [spaceone-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone-core-2.0.8.tar.gz tmp/spaceone-core-2.0.9.tar.gz --markdown 20240501/s/spaceone-core/2.0.8-2.0.9/README.md --exclude *.pyd
+[2024-05-01 14:45:00] INFO root fetch - processPackages [Tooldelta]: Downloading https://files.pythonhosted.org/packages/e1/11/c50f2ee24d502a125d09f509013222be273073e73cb56e5592108e8a8ea6/tooldelta-0.5.9.tar.gz
+[2024-05-01 14:45:00] INFO root fetch - processPackages [Tooldelta]: executing diffoscope
+[2024-05-01 14:45:00] INFO root fetch - processPackages [Tooldelta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tooldelta-0.5.8.tar.gz tmp/tooldelta-0.5.9.tar.gz --markdown 20240501/T/Tooldelta/0.5.8-0.5.9/README.md --exclude *.pyd
+[2024-05-01 14:45:00] INFO root fetch - processPackages [spaceone-core]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-core-2.0.8.tar.gz]
+[2024-05-01 14:45:00] INFO root fetch - processPackages [spaceone-core]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-core-2.0.9.tar.gz]
+[2024-05-01 14:45:00] INFO root fetch - main [MainThread]: End processing [spaceone-core]: success
+[2024-05-01 14:45:01] INFO root fetch - processPackages [Tooldelta]: Remove: archive file [/home/abi/fetcher/tmp/tooldelta-0.5.8.tar.gz]
+[2024-05-01 14:45:01] INFO root fetch - processPackages [Tooldelta]: Remove: archive file [/home/abi/fetcher/tmp/tooldelta-0.5.9.tar.gz]
+[2024-05-01 14:45:01] INFO root fetch - main [MainThread]: End processing [Tooldelta]: success
+[2024-05-01 14:45:01] INFO root fetch - main [MainThread]: Store serial: [23017005]
