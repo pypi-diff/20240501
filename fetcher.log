@@ -14965,3 +14965,93 @@
 [2024-05-01 12:06:58] INFO root fetch - main [MainThread]: End processing [trytond-stock]: success
 [2024-05-01 12:06:58] INFO root fetch - main [MainThread]: End processing [trytond-stock]: success
 [2024-05-01 12:06:58] INFO root fetch - main [MainThread]: Store serial: [23015008]
+[2024-05-01 12:09:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23015008]
+[2024-05-01 12:09:08] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-01 12:09:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cogflow
+[2024-05-01 12:09:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tf-keras-nightly
+[2024-05-01 12:09:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: duckcuts
+[2024-05-01 12:09:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cim-11-CERTIC
+[2024-05-01 12:09:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mptradelib
+[2024-05-01 12:09:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fastapi-problem
+[2024-05-01 12:09:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dve-lumipy-testing
+[2024-05-01 12:09:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: composio-core
+[2024-05-01 12:09:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pytestomatio
+[2024-05-01 12:09:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: composio-autogen
+[2024-05-01 12:09:08] WARNING root fetch - processPackages [fastapi-problem]: Skipping, unable to determine old version
+[2024-05-01 12:09:08] INFO root fetch - processPackages [fastapi-problem]: Start processing: composio-crewai
+[2024-05-01 12:09:08] INFO root fetch - main [MainThread]: End processing [fastapi-problem] error
+[2024-05-01 12:09:08] INFO root fetch - processPackages [mptradelib]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-01 12:09:08] INFO root fetch - processPackages [composio-core]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-01 12:09:08] INFO root fetch - processPackages [composio-autogen]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-01 12:09:08] INFO root fetch - processPackages [composio-crewai]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-01 12:09:08] INFO root fetch - processPackages [tf-keras-nightly]: New version: [2.17.0.dev2024043009] Old Version: [2.17.0.dev2024042909]
+[2024-05-01 12:09:08] INFO root fetch - processPackages [dve-lumipy-testing]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-01 12:09:08] WARNING root fetch - processPackages [duckcuts]: Skipping, unable to determine old version
+[2024-05-01 12:09:08] INFO root fetch - main [MainThread]: End processing [duckcuts] error
+[2024-05-01 12:09:08] INFO root fetch - processPackages [cogflow]: New version: [1.9.3] Old Version: [1.9.2]
+[2024-05-01 12:09:08] INFO root fetch - processPackages [composio-crewai]: Downloading https://files.pythonhosted.org/packages/88/9f/34a831a3e85ce61a77e7c13def18aa7650b80acd1b81f83211cb4f1aa6df/composio_crewai-0.2.8.tar.gz
+[2024-05-01 12:09:08] INFO root fetch - processPackages [cim-11-CERTIC]: New version: [0.6.0] Old Version: [0.5.0]
+[2024-05-01 12:09:08] INFO root fetch - processPackages [composio-core]: Downloading https://files.pythonhosted.org/packages/e1/61/65a4ab92fc35b0f7d7ac34d9749b9ea8dbba3561ac6b93873c1d96dd225c/composio_core-0.2.8.tar.gz
+[2024-05-01 12:09:08] INFO root fetch - processPackages [composio-autogen]: Downloading https://files.pythonhosted.org/packages/fb/23/2e4ee5e8659e2c09f33c94a956bea488d2ff01a8dd24ac08a9afd154a693/composio_autogen-0.2.8.tar.gz
+[2024-05-01 12:09:08] INFO root fetch - processPackages [pytestomatio]: New version: [2.2.2] Old Version: [2.2.1]
+[2024-05-01 12:09:08] INFO root fetch - processPackages [tf-keras-nightly]: Downloading https://files.pythonhosted.org/packages/cb/17/14d3c6618aa471824880b81c6af93922a8fb6cf7204621cb78ec91cad161/tf_keras_nightly-2.17.0.dev2024042909.tar.gz
+[2024-05-01 12:09:08] INFO root fetch - processPackages [mptradelib]: Downloading https://files.pythonhosted.org/packages/9d/5c/3ec014a20cc8e61fa57571301658d379deac456a24bf66b063f8327fe010/mptradelib-0.1.0.tar.gz
+[2024-05-01 12:09:08] INFO root fetch - processPackages [dve-lumipy-testing]: Downloading https://files.pythonhosted.org/packages/2f/35/aa91d923787edb9bf5bcbfa8461c60465a9e55f7513c06e4f16d5221c3c3/dve_lumipy_testing-1.0.8-py3-none-any.whl
+[2024-05-01 12:09:08] INFO root fetch - processPackages [cogflow]: Downloading https://files.pythonhosted.org/packages/2c/04/cd079f4db599e77747dec0572f7ad66b91ca127e5548d21de56073ec8812/cogflow-1.9.2.tar.gz
+[2024-05-01 12:09:08] INFO root fetch - processPackages [cim-11-CERTIC]: Downloading https://files.pythonhosted.org/packages/e7/6c/f94e5a1b006f8a8319227f3d7d5fd8805297408536eff505909120989433/cim_11_certic-0.5.0.tar.gz
+[2024-05-01 12:09:08] INFO root fetch - processPackages [composio-crewai]: Downloading https://files.pythonhosted.org/packages/97/a6/2c53777d13baa01b09f04ac5d33fc096b73fc91135f58b366e81e7435738/composio_crewai-0.2.9.tar.gz
+[2024-05-01 12:09:08] INFO root fetch - processPackages [composio-core]: Downloading https://files.pythonhosted.org/packages/bb/10/944d3b8a7818ed202c24d2156abff8a7c41752baf6ecafb53b6437b6f09f/composio_core-0.2.9.tar.gz
+[2024-05-01 12:09:08] INFO root fetch - processPackages [pytestomatio]: Downloading https://files.pythonhosted.org/packages/b2/5f/e01c2298c80308da1fe8db668a132679d461e109ef60347b4b1af638dd86/pytestomatio-2.2.1.tar.gz
+[2024-05-01 12:09:08] INFO root fetch - processPackages [composio-autogen]: Downloading https://files.pythonhosted.org/packages/ea/aa/9d4fb67c2f917ce757a4c5faade1aec312b379274fb73517beed1f721f97/composio_autogen-0.2.9.tar.gz
+[2024-05-01 12:09:08] INFO root fetch - processPackages [tf-keras-nightly]: Downloading https://files.pythonhosted.org/packages/27/9f/c590ad3256d33a91259da0deb69d4915574c880aab4b54484ae0cd9f2044/tf_keras_nightly-2.17.0.dev2024043009.tar.gz
+[2024-05-01 12:09:08] INFO root fetch - processPackages [composio-crewai]: executing diffoscope
+[2024-05-01 12:09:08] INFO root fetch - processPackages [composio-crewai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_crewai-0.2.8.tar.gz tmp/composio_crewai-0.2.9.tar.gz --markdown 20240501/c/composio-crewai/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-01 12:09:08] INFO root fetch - processPackages [composio-core]: executing diffoscope
+[2024-05-01 12:09:08] INFO root fetch - processPackages [composio-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_core-0.2.8.tar.gz tmp/composio_core-0.2.9.tar.gz --markdown 20240501/c/composio-core/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-01 12:09:08] INFO root fetch - processPackages [composio-autogen]: executing diffoscope
+[2024-05-01 12:09:08] INFO root fetch - processPackages [composio-autogen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_autogen-0.2.8.tar.gz tmp/composio_autogen-0.2.9.tar.gz --markdown 20240501/c/composio-autogen/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-01 12:09:08] INFO root fetch - processPackages [dve-lumipy-testing]: Downloading https://files.pythonhosted.org/packages/1e/7c/e37b3c84846734e2feb285aa04bd1d2381e9cd7415aeb1a75f2cfd40fd79/dve_lumipy_testing-1.0.9-py3-none-any.whl
+[2024-05-01 12:09:08] INFO root fetch - processPackages [mptradelib]: Downloading https://files.pythonhosted.org/packages/95/80/a585a0300c31d7a20bff9bc33c21a8dacbe7d27b45ddfe220edd3ed33cbe/mptradelib-0.1.1.tar.gz
+[2024-05-01 12:09:09] INFO root fetch - processPackages [cogflow]: Downloading https://files.pythonhosted.org/packages/d2/96/633130021a408a5ad9f179eb13591cbe0a8361d23e836e631bb4b548b752/cogflow-1.9.3.tar.gz
+[2024-05-01 12:09:09] INFO root fetch - processPackages [mptradelib]: executing diffoscope
+[2024-05-01 12:09:09] INFO root fetch - processPackages [mptradelib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mptradelib-0.1.0.tar.gz tmp/mptradelib-0.1.1.tar.gz --markdown 20240501/m/mptradelib/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-01 12:09:09] INFO root fetch - processPackages [dve-lumipy-testing]: executing diffoscope
+[2024-05-01 12:09:09] INFO root fetch - processPackages [dve-lumipy-testing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dve_lumipy_testing-1.0.8-py3-none-any.whl.zip tmp/dve_lumipy_testing-1.0.9-py3-none-any.whl.zip --markdown 20240501/d/dve-lumipy-testing/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-01 12:09:09] INFO root fetch - processPackages [tf-keras-nightly]: executing diffoscope
+[2024-05-01 12:09:09] INFO root fetch - processPackages [tf-keras-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_keras_nightly-2.17.0.dev2024042909.tar.gz tmp/tf_keras_nightly-2.17.0.dev2024043009.tar.gz --markdown 20240501/t/tf-keras-nightly/2.17.0.dev2024042909-2.17.0.dev2024043009/README.md --exclude *.pyd
+[2024-05-01 12:09:09] INFO root fetch - processPackages [cogflow]: executing diffoscope
+[2024-05-01 12:09:09] INFO root fetch - processPackages [cogflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cogflow-1.9.2.tar.gz tmp/cogflow-1.9.3.tar.gz --markdown 20240501/c/cogflow/1.9.2-1.9.3/README.md --exclude *.pyd
+[2024-05-01 12:09:09] INFO root fetch - processPackages [pytestomatio]: Downloading https://files.pythonhosted.org/packages/86/04/6a883a9dfbe88b1650e5b4786f8611376e4d0d66d71ec737c108576d40e6/pytestomatio-2.2.2.tar.gz
+[2024-05-01 12:09:09] INFO root fetch - processPackages [cim-11-CERTIC]: Downloading https://files.pythonhosted.org/packages/ef/59/9745c0dcd0617cf6d63b73fb9bc8cd327f4ea0452d04b43d03618d60576a/cim_11_certic-0.6.0.tar.gz
+[2024-05-01 12:09:09] INFO root fetch - processPackages [pytestomatio]: executing diffoscope
+[2024-05-01 12:09:09] INFO root fetch - processPackages [pytestomatio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytestomatio-2.2.1.tar.gz tmp/pytestomatio-2.2.2.tar.gz --markdown 20240501/p/pytestomatio/2.2.1-2.2.2/README.md --exclude *.pyd
+[2024-05-01 12:09:09] INFO root fetch - processPackages [composio-crewai]: Remove: archive file [/home/abi/fetcher/tmp/composio_crewai-0.2.8.tar.gz]
+[2024-05-01 12:09:09] INFO root fetch - processPackages [composio-crewai]: Remove: archive file [/home/abi/fetcher/tmp/composio_crewai-0.2.9.tar.gz]
+[2024-05-01 12:09:09] INFO root fetch - main [MainThread]: End processing [composio-crewai]: success
+[2024-05-01 12:09:09] INFO root fetch - processPackages [composio-autogen]: Remove: archive file [/home/abi/fetcher/tmp/composio_autogen-0.2.8.tar.gz]
+[2024-05-01 12:09:09] INFO root fetch - processPackages [composio-autogen]: Remove: archive file [/home/abi/fetcher/tmp/composio_autogen-0.2.9.tar.gz]
+[2024-05-01 12:09:09] INFO root fetch - main [MainThread]: End processing [composio-autogen]: success
+[2024-05-01 12:09:09] INFO root fetch - processPackages [composio-core]: Remove: archive file [/home/abi/fetcher/tmp/composio_core-0.2.8.tar.gz]
+[2024-05-01 12:09:09] INFO root fetch - processPackages [composio-core]: Remove: archive file [/home/abi/fetcher/tmp/composio_core-0.2.9.tar.gz]
+[2024-05-01 12:09:09] INFO root fetch - main [MainThread]: End processing [composio-core]: success
+[2024-05-01 12:09:09] INFO root fetch - processPackages [cim-11-CERTIC]: executing diffoscope
+[2024-05-01 12:09:09] INFO root fetch - processPackages [cim-11-CERTIC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cim_11_certic-0.5.0.tar.gz tmp/cim_11_certic-0.6.0.tar.gz --markdown 20240501/c/cim-11-CERTIC/0.5.0-0.6.0/README.md --exclude *.pyd
+[2024-05-01 12:09:09] INFO root fetch - processPackages [mptradelib]: Remove: archive file [/home/abi/fetcher/tmp/mptradelib-0.1.0.tar.gz]
+[2024-05-01 12:09:09] INFO root fetch - processPackages [mptradelib]: Remove: archive file [/home/abi/fetcher/tmp/mptradelib-0.1.1.tar.gz]
+[2024-05-01 12:09:09] INFO root fetch - main [MainThread]: End processing [mptradelib]: success
+[2024-05-01 12:09:10] INFO root fetch - processPackages [cogflow]: Remove: archive file [/home/abi/fetcher/tmp/cogflow-1.9.2.tar.gz]
+[2024-05-01 12:09:10] INFO root fetch - processPackages [cogflow]: Remove: archive file [/home/abi/fetcher/tmp/cogflow-1.9.3.tar.gz]
+[2024-05-01 12:09:10] INFO root fetch - main [MainThread]: End processing [cogflow]: success
+[2024-05-01 12:09:10] INFO root fetch - processPackages [pytestomatio]: Remove: archive file [/home/abi/fetcher/tmp/pytestomatio-2.2.1.tar.gz]
+[2024-05-01 12:09:10] INFO root fetch - processPackages [pytestomatio]: Remove: archive file [/home/abi/fetcher/tmp/pytestomatio-2.2.2.tar.gz]
+[2024-05-01 12:09:10] INFO root fetch - main [MainThread]: End processing [pytestomatio]: success
+[2024-05-01 12:09:10] INFO root fetch - processPackages [dve-lumipy-testing]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_testing-1.0.8-py3-none-any.whl.zip]
+[2024-05-01 12:09:10] INFO root fetch - processPackages [dve-lumipy-testing]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_testing-1.0.9-py3-none-any.whl.zip]
+[2024-05-01 12:09:10] INFO root fetch - main [MainThread]: End processing [dve-lumipy-testing]: success
+[2024-05-01 12:09:11] INFO root fetch - processPackages [cim-11-CERTIC]: Remove: archive file [/home/abi/fetcher/tmp/cim_11_certic-0.5.0.tar.gz]
+[2024-05-01 12:09:11] INFO root fetch - processPackages [cim-11-CERTIC]: Remove: archive file [/home/abi/fetcher/tmp/cim_11_certic-0.6.0.tar.gz]
+[2024-05-01 12:09:11] INFO root fetch - main [MainThread]: End processing [cim-11-CERTIC]: success
+[2024-05-01 12:09:11] INFO root fetch - processPackages [tf-keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_keras_nightly-2.17.0.dev2024042909.tar.gz]
+[2024-05-01 12:09:11] INFO root fetch - processPackages [tf-keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_keras_nightly-2.17.0.dev2024043009.tar.gz]
+[2024-05-01 12:09:11] INFO root fetch - main [MainThread]: End processing [tf-keras-nightly]: success
+[2024-05-01 12:09:11] INFO root fetch - main [MainThread]: Store serial: [23015036]
