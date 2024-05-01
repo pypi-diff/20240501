@@ -19824,3 +19824,54 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-01 14:25:16] INFO root fetch - processPackages [napatrackmater]: Remove: archive file [/home/abi/fetcher/tmp/napatrackmater-5.1.8.tar.gz]
 [2024-05-01 14:25:16] INFO root fetch - main [MainThread]: End processing [napatrackmater]: success
 [2024-05-01 14:25:16] INFO root fetch - main [MainThread]: Store serial: [23016788]
+[2024-05-01 14:27:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23016788]
+[2024-05-01 14:27:25] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-01 14:27:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: trytond-account-asset
+[2024-05-01 14:27:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ohpygossh
+[2024-05-01 14:27:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: avenger
+[2024-05-01 14:27:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nbdevAuto
+[2024-05-01 14:27:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: iter_collect
+[2024-05-01 14:27:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi-opsgenie
+[2024-05-01 14:27:26] INFO root fetch - processPackages [avenger]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-01 14:27:26] INFO root fetch - processPackages [pulumi-opsgenie]: New version: [1.4.0a1714543431] Old Version: [1.4.0a1714456977]
+[2024-05-01 14:27:26] INFO root fetch - processPackages [nbdevAuto]: New version: [0.0.95] Old Version: [0.0.93]
+[2024-05-01 14:27:26] INFO root fetch - processPackages [pulumi-opsgenie]: Downloading https://files.pythonhosted.org/packages/0a/be/235c2013cb986cd777a54ef8137a9f8a99826d428da5e06c57180f4d377d/pulumi_opsgenie-1.4.0a1714456977.tar.gz
+[2024-05-01 14:27:26] INFO root fetch - processPackages [avenger]: Downloading https://files.pythonhosted.org/packages/b5/a2/e0ca06d2ba2920861cf9ef70db490199a7181dfc133b01420a35e705ac70/avenger-0.0.3.tar.gz
+[2024-05-01 14:27:26] INFO root fetch - processPackages [iter_collect]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-01 14:27:26] WARNING root fetch - processPackages [ohpygossh]: Skipping, unable to determine old version
+[2024-05-01 14:27:26] INFO root fetch - main [MainThread]: End processing [ohpygossh] error
+[2024-05-01 14:27:26] INFO root fetch - processPackages [trytond-account-asset]: New version: [7.2.1] Old Version: [7.2.0]
+[2024-05-01 14:27:26] INFO root fetch - processPackages [nbdevAuto]: Downloading https://files.pythonhosted.org/packages/64/db/9bb7ad22a66be3e6ac80e5e8037bf3b9997884c98f41a649f569dbc2ada4/nbdevAuto-0.0.93.tar.gz
+[2024-05-01 14:27:26] INFO root fetch - processPackages [trytond-account-asset]: Downloading https://files.pythonhosted.org/packages/40/d8/5679cde2557b56c791c0c6e17b9d8d35a71257568fa0559a513d1d1b4f5a/trytond_account_asset-7.2.0.tar.gz
+[2024-05-01 14:27:26] INFO root fetch - processPackages [iter_collect]: Downloading https://files.pythonhosted.org/packages/76/f7/571dd180e847cb1cb613e570b90f4a9bf3ee8e06ee2596d0d86c9d025430/iter_collect-0.0.1.tar.gz
+[2024-05-01 14:27:26] INFO root fetch - processPackages [avenger]: Downloading https://files.pythonhosted.org/packages/6a/10/e0ee2ddae1821177e64a4060262da1156a9cb11feaeef5b41c66a072db54/avenger-0.0.4.tar.gz
+[2024-05-01 14:27:26] INFO root fetch - processPackages [pulumi-opsgenie]: Downloading https://files.pythonhosted.org/packages/b1/b6/c5880369c148859ea8c2715e97666428d1881a11ebc2faf33b3df45955a4/pulumi_opsgenie-1.4.0a1714543431.tar.gz
+[2024-05-01 14:27:26] INFO root fetch - processPackages [avenger]: executing diffoscope
+[2024-05-01 14:27:26] INFO root fetch - processPackages [avenger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/avenger-0.0.3.tar.gz tmp/avenger-0.0.4.tar.gz --markdown 20240501/a/avenger/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-01 14:27:26] INFO root fetch - processPackages [pulumi-opsgenie]: executing diffoscope
+[2024-05-01 14:27:26] INFO root fetch - processPackages [pulumi-opsgenie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_opsgenie-1.4.0a1714456977.tar.gz tmp/pulumi_opsgenie-1.4.0a1714543431.tar.gz --markdown 20240501/p/pulumi-opsgenie/1.4.0a1714456977-1.4.0a1714543431/README.md --exclude *.pyd
+[2024-05-01 14:27:26] INFO root fetch - processPackages [trytond-account-asset]: Downloading https://files.pythonhosted.org/packages/12/83/154c50baf27c3ca8168144e03409219a4acefab3aee83bf8cac93c55fea0/trytond_account_asset-7.2.1.tar.gz
+[2024-05-01 14:27:26] INFO root fetch - processPackages [iter_collect]: Downloading https://files.pythonhosted.org/packages/9c/9a/00fe3fb580479b70a49e903400e5d612ebbbc625a9026e24e66bc0e46263/iter_collect-0.0.2.tar.gz
+[2024-05-01 14:27:26] INFO root fetch - processPackages [nbdevAuto]: Downloading https://files.pythonhosted.org/packages/bf/03/05962aa81e1c3878dd707da7837ed3dc3bf6ae5ce08ba0c9c11724e27cb2/nbdevAuto-0.0.95.tar.gz
+[2024-05-01 14:27:26] INFO root fetch - processPackages [iter_collect]: executing diffoscope
+[2024-05-01 14:27:26] INFO root fetch - processPackages [iter_collect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iter_collect-0.0.1.tar.gz tmp/iter_collect-0.0.2.tar.gz --markdown 20240501/i/iter_collect/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-01 14:27:26] INFO root fetch - processPackages [trytond-account-asset]: executing diffoscope
+[2024-05-01 14:27:26] INFO root fetch - processPackages [trytond-account-asset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_account_asset-7.2.0.tar.gz tmp/trytond_account_asset-7.2.1.tar.gz --markdown 20240501/t/trytond-account-asset/7.2.0-7.2.1/README.md --exclude *.pyd
+[2024-05-01 14:27:27] INFO root fetch - processPackages [nbdevAuto]: executing diffoscope
+[2024-05-01 14:27:27] INFO root fetch - processPackages [nbdevAuto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdevAuto-0.0.93.tar.gz tmp/nbdevAuto-0.0.95.tar.gz --markdown 20240501/n/nbdevAuto/0.0.93-0.0.95/README.md --exclude *.pyd
+[2024-05-01 14:27:27] INFO root fetch - processPackages [iter_collect]: Remove: archive file [/home/abi/fetcher/tmp/iter_collect-0.0.1.tar.gz]
+[2024-05-01 14:27:27] INFO root fetch - processPackages [iter_collect]: Remove: archive file [/home/abi/fetcher/tmp/iter_collect-0.0.2.tar.gz]
+[2024-05-01 14:27:27] INFO root fetch - main [MainThread]: End processing [iter_collect]: success
+[2024-05-01 14:27:27] INFO root fetch - processPackages [pulumi-opsgenie]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_opsgenie-1.4.0a1714456977.tar.gz]
+[2024-05-01 14:27:27] INFO root fetch - processPackages [pulumi-opsgenie]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_opsgenie-1.4.0a1714543431.tar.gz]
+[2024-05-01 14:27:27] INFO root fetch - main [MainThread]: End processing [pulumi-opsgenie]: success
+[2024-05-01 14:27:27] INFO root fetch - processPackages [nbdevAuto]: Remove: archive file [/home/abi/fetcher/tmp/nbdevAuto-0.0.93.tar.gz]
+[2024-05-01 14:27:27] INFO root fetch - processPackages [nbdevAuto]: Remove: archive file [/home/abi/fetcher/tmp/nbdevAuto-0.0.95.tar.gz]
+[2024-05-01 14:27:27] INFO root fetch - main [MainThread]: End processing [nbdevAuto]: success
+[2024-05-01 14:27:27] INFO root fetch - processPackages [avenger]: Remove: archive file [/home/abi/fetcher/tmp/avenger-0.0.3.tar.gz]
+[2024-05-01 14:27:27] INFO root fetch - processPackages [avenger]: Remove: archive file [/home/abi/fetcher/tmp/avenger-0.0.4.tar.gz]
+[2024-05-01 14:27:27] INFO root fetch - main [MainThread]: End processing [avenger]: success
+[2024-05-01 14:27:27] INFO root fetch - processPackages [trytond-account-asset]: Remove: archive file [/home/abi/fetcher/tmp/trytond_account_asset-7.2.0.tar.gz]
+[2024-05-01 14:27:27] INFO root fetch - processPackages [trytond-account-asset]: Remove: archive file [/home/abi/fetcher/tmp/trytond_account_asset-7.2.1.tar.gz]
+[2024-05-01 14:27:27] INFO root fetch - main [MainThread]: End processing [trytond-account-asset]: success
+[2024-05-01 14:27:27] INFO root fetch - main [MainThread]: Store serial: [23016811]
