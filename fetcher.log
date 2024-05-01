@@ -2857,3 +2857,21 @@
 [2024-05-01 02:59:42] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.99.tar.gz]
 [2024-05-01 02:59:42] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
 [2024-05-01 02:59:42] INFO root fetch - main [MainThread]: Store serial: [23009883]
+[2024-05-01 03:01:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23009883]
+[2024-05-01 03:01:51] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-01 03:01:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gml-ai
+[2024-05-01 03:01:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gimlet-ai
+[2024-05-01 03:01:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: XPlotLib
+[2024-05-01 03:01:51] INFO root fetch - processPackages [XPlotLib]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-01 03:01:51] WARNING root fetch - processPackages [gml-ai]: Skipping, unable to determine old version
+[2024-05-01 03:01:51] INFO root fetch - main [MainThread]: End processing [gml-ai] error
+[2024-05-01 03:01:51] WARNING root fetch - processPackages [gimlet-ai]: Skipping, unable to determine old version
+[2024-05-01 03:01:51] INFO root fetch - main [MainThread]: End processing [gimlet-ai] error
+[2024-05-01 03:01:52] INFO root fetch - processPackages [XPlotLib]: Downloading https://files.pythonhosted.org/packages/1a/3d/b47634a50351cad0db587fce1ea6ac7ae3277eb756fdfd49c622235d30ec/xplotlib-0.0.3.tar.gz
+[2024-05-01 03:01:52] INFO root fetch - processPackages [XPlotLib]: Downloading https://files.pythonhosted.org/packages/da/9f/566b21e4e5ddee91278ff52834bd7252a159cd954593ed7da749f573ab9e/xplotlib-0.0.4.tar.gz
+[2024-05-01 03:01:52] INFO root fetch - processPackages [XPlotLib]: executing diffoscope
+[2024-05-01 03:01:52] INFO root fetch - processPackages [XPlotLib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xplotlib-0.0.3.tar.gz tmp/xplotlib-0.0.4.tar.gz --markdown 20240501/X/XPlotLib/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-01 03:01:53] INFO root fetch - processPackages [XPlotLib]: Remove: archive file [/home/abi/fetcher/tmp/xplotlib-0.0.3.tar.gz]
+[2024-05-01 03:01:53] INFO root fetch - processPackages [XPlotLib]: Remove: archive file [/home/abi/fetcher/tmp/xplotlib-0.0.4.tar.gz]
+[2024-05-01 03:01:53] INFO root fetch - main [MainThread]: End processing [XPlotLib]: success
+[2024-05-01 03:01:53] INFO root fetch - main [MainThread]: Store serial: [23009898]
