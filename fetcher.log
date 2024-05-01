@@ -10293,3 +10293,42 @@
 [2024-05-01 07:54:40] INFO root fetch - processPackages [libfsext-python]: Remove: archive file [/home/abi/fetcher/tmp/libfsext-python-20240501.tar.gz]
 [2024-05-01 07:54:40] INFO root fetch - main [MainThread]: End processing [libfsext-python]: success
 [2024-05-01 07:54:40] INFO root fetch - main [MainThread]: Store serial: [23012820]
+[2024-05-01 07:56:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23012820]
+[2024-05-01 07:56:49] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-01 07:56:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: openg2p-spar-self-service-api
+[2024-05-01 07:56:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-github
+[2024-05-01 07:56:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: metamist
+[2024-05-01 07:56:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-datadog
+[2024-05-01 07:56:49] INFO root fetch - processPackages [openg2p-spar-self-service-api]: New version: [1.0.0] Old Version: [0.1.0]
+[2024-05-01 07:56:49] INFO root fetch - processPackages [pulumi-github]: New version: [6.3.0a1714455620] Old Version: [6.3.0a1714110070]
+[2024-05-01 07:56:49] INFO root fetch - processPackages [metamist]: New version: [6.9.1] Old Version: [6.9.0]
+[2024-05-01 07:56:49] INFO root fetch - processPackages [pulumi-github]: Downloading https://files.pythonhosted.org/packages/e6/cc/49c64472bfec93af8f62a0c5c11ea419d25af61e261f05835e584ba411af/pulumi_github-6.3.0a1714110070.tar.gz
+[2024-05-01 07:56:50] INFO root fetch - processPackages [openg2p-spar-self-service-api]: Downloading https://files.pythonhosted.org/packages/f6/b0/4af03b679f1ce1aeb87137ebf2b946bfbeaab8484e96553d04359dd8fe3d/openg2p_spar_self_service_api-0.1.0.tar.gz
+[2024-05-01 07:56:50] INFO root fetch - processPackages [metamist]: Downloading https://files.pythonhosted.org/packages/29/55/77615bacd555115a0485aa104e8f1d14957ee9a495478067bd37f6b142bc/metamist-6.9.0.tar.gz
+[2024-05-01 07:56:50] INFO root fetch - processPackages [pulumi-datadog]: New version: [4.9.0a1653604828] Old Version: [4.9.0a1650908051]
+[2024-05-01 07:56:50] INFO root fetch - processPackages [pulumi-datadog]: Downloading https://files.pythonhosted.org/packages/d8/b5/8991a5e2174de51c32d71e18a0d3eb5ac2f6bb5fe9f15ca8f908cee6e214/pulumi_datadog-4.9.0a1650908051.tar.gz
+[2024-05-01 07:56:50] INFO root fetch - processPackages [pulumi-github]: Downloading https://files.pythonhosted.org/packages/d7/cb/0d8392079f4db48ae39c57428b6bf40b033b3713ddfb9787be117feae748/pulumi_github-6.3.0a1714455620.tar.gz
+[2024-05-01 07:56:50] INFO root fetch - processPackages [openg2p-spar-self-service-api]: Downloading https://files.pythonhosted.org/packages/ad/57/2736fcbffb12e5b1170b654468c337c8581f852e0a1f785be1c68b6a92ce/openg2p_spar_self_service_api-1.0.0.tar.gz
+[2024-05-01 07:56:50] INFO root fetch - processPackages [metamist]: Downloading https://files.pythonhosted.org/packages/4b/72/e1bc6d293dedf2878eaaec17f90d95b929e5eb8dfd9a25b19410e5a4b21f/metamist-6.9.1.tar.gz
+[2024-05-01 07:56:50] INFO root fetch - processPackages [openg2p-spar-self-service-api]: executing diffoscope
+[2024-05-01 07:56:50] INFO root fetch - processPackages [openg2p-spar-self-service-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openg2p_spar_self_service_api-0.1.0.tar.gz tmp/openg2p_spar_self_service_api-1.0.0.tar.gz --markdown 20240501/o/openg2p-spar-self-service-api/0.1.0-1.0.0/README.md --exclude *.pyd
+[2024-05-01 07:56:50] INFO root fetch - processPackages [pulumi-github]: executing diffoscope
+[2024-05-01 07:56:50] INFO root fetch - processPackages [pulumi-github]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_github-6.3.0a1714110070.tar.gz tmp/pulumi_github-6.3.0a1714455620.tar.gz --markdown 20240501/p/pulumi-github/6.3.0a1714110070-6.3.0a1714455620/README.md --exclude *.pyd
+[2024-05-01 07:56:50] INFO root fetch - processPackages [pulumi-datadog]: Downloading https://files.pythonhosted.org/packages/de/b3/aee4697d07beb69799f35031c032637a1c998c8ba8a18ace02fb30a3011f/pulumi_datadog-4.9.0a1653604828.tar.gz
+[2024-05-01 07:56:50] INFO root fetch - processPackages [metamist]: executing diffoscope
+[2024-05-01 07:56:50] INFO root fetch - processPackages [metamist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metamist-6.9.0.tar.gz tmp/metamist-6.9.1.tar.gz --markdown 20240501/m/metamist/6.9.0-6.9.1/README.md --exclude *.pyd
+[2024-05-01 07:56:50] INFO root fetch - processPackages [pulumi-datadog]: executing diffoscope
+[2024-05-01 07:56:50] INFO root fetch - processPackages [pulumi-datadog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_datadog-4.9.0a1650908051.tar.gz tmp/pulumi_datadog-4.9.0a1653604828.tar.gz --markdown 20240501/p/pulumi-datadog/4.9.0a1650908051-4.9.0a1653604828/README.md --exclude *.pyd
+[2024-05-01 07:56:51] INFO root fetch - processPackages [openg2p-spar-self-service-api]: Remove: archive file [/home/abi/fetcher/tmp/openg2p_spar_self_service_api-0.1.0.tar.gz]
+[2024-05-01 07:56:51] INFO root fetch - processPackages [openg2p-spar-self-service-api]: Remove: archive file [/home/abi/fetcher/tmp/openg2p_spar_self_service_api-1.0.0.tar.gz]
+[2024-05-01 07:56:51] INFO root fetch - main [MainThread]: End processing [openg2p-spar-self-service-api]: success
+[2024-05-01 07:56:51] INFO root fetch - processPackages [pulumi-github]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_github-6.3.0a1714110070.tar.gz]
+[2024-05-01 07:56:51] INFO root fetch - processPackages [pulumi-github]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_github-6.3.0a1714455620.tar.gz]
+[2024-05-01 07:56:51] INFO root fetch - main [MainThread]: End processing [pulumi-github]: success
+[2024-05-01 07:56:52] INFO root fetch - processPackages [metamist]: Remove: archive file [/home/abi/fetcher/tmp/metamist-6.9.0.tar.gz]
+[2024-05-01 07:56:52] INFO root fetch - processPackages [metamist]: Remove: archive file [/home/abi/fetcher/tmp/metamist-6.9.1.tar.gz]
+[2024-05-01 07:56:52] INFO root fetch - main [MainThread]: End processing [metamist]: success
+[2024-05-01 07:56:53] INFO root fetch - processPackages [pulumi-datadog]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_datadog-4.9.0a1650908051.tar.gz]
+[2024-05-01 07:56:53] INFO root fetch - processPackages [pulumi-datadog]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_datadog-4.9.0a1653604828.tar.gz]
+[2024-05-01 07:56:53] INFO root fetch - main [MainThread]: End processing [pulumi-datadog]: success
+[2024-05-01 07:56:53] INFO root fetch - main [MainThread]: Store serial: [23012830]
