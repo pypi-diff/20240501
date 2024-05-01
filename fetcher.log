@@ -21869,3 +21869,33 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-01 15:53:05] INFO root fetch - processPackages [eidolon-ai-sdk]: Remove: archive file [/home/abi/fetcher/tmp/eidolon_ai_sdk-0.1.41.tar.gz]
 [2024-05-01 15:53:05] INFO root fetch - main [MainThread]: End processing [eidolon-ai-sdk]: success
 [2024-05-01 15:53:05] INFO root fetch - main [MainThread]: Store serial: [23017642]
+[2024-05-01 15:55:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23017642]
+[2024-05-01 15:55:14] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-01 15:55:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: heatzypy
+[2024-05-01 15:55:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: opensimplex
+[2024-05-01 15:55:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tensordict-nightly
+[2024-05-01 15:55:14] INFO root fetch - processPackages [heatzypy]: New version: [2.5.0] Old Version: [2.2.0]
+[2024-05-01 15:55:14] INFO root fetch - processPackages [opensimplex]: New version: [0.4.5.1] Old Version: [0.4.5]
+[2024-05-01 15:55:14] INFO root fetch - processPackages [heatzypy]: Downloading https://files.pythonhosted.org/packages/2a/45/a9f933ddece301231d87ef9c1e5e90f362f7f5ab5a1802096f44f06eeb37/heatzypy-2.2.0.tar.gz
+[2024-05-01 15:55:14] INFO root fetch - processPackages [opensimplex]: Downloading https://files.pythonhosted.org/packages/15/34/6d317790b710cac4e3565b9d2f2ffacd01a126a4ec728a1b935c80742e75/opensimplex-0.4.5.tar.gz
+[2024-05-01 15:55:14] INFO root fetch - processPackages [tensordict-nightly]: New version: [2024.5.1] Old Version: [2024.4.9]
+[2024-05-01 15:55:15] INFO root fetch - processPackages [tensordict-nightly]: Downloading https://files.pythonhosted.org/packages/07/82/e5cb687b1d6b19f6d3c57c14285a0e891743c0fd72b7d62c9298fc937736/tensordict_nightly-2024.4.9-cp39-cp39-win_amd64.whl
+[2024-05-01 15:55:15] INFO root fetch - processPackages [heatzypy]: Downloading https://files.pythonhosted.org/packages/08/e7/c4be4b5f0d990614024f03b1adfaa563bd1647616bc973e3f67b30ed8e37/heatzypy-2.5.0.tar.gz
+[2024-05-01 15:55:15] INFO root fetch - processPackages [opensimplex]: Downloading https://files.pythonhosted.org/packages/bf/9a/c7f680b75033b7251622e86ae254d4815c799b86ba8e4b0b443e35f6b996/opensimplex-0.4.5.1.tar.gz
+[2024-05-01 15:55:15] INFO root fetch - processPackages [heatzypy]: executing diffoscope
+[2024-05-01 15:55:15] INFO root fetch - processPackages [heatzypy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heatzypy-2.2.0.tar.gz tmp/heatzypy-2.5.0.tar.gz --markdown 20240501/h/heatzypy/2.2.0-2.5.0/README.md --exclude *.pyd
+[2024-05-01 15:55:15] INFO root fetch - processPackages [opensimplex]: executing diffoscope
+[2024-05-01 15:55:15] INFO root fetch - processPackages [opensimplex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opensimplex-0.4.5.tar.gz tmp/opensimplex-0.4.5.1.tar.gz --markdown 20240501/o/opensimplex/0.4.5-0.4.5.1/README.md --exclude *.pyd
+[2024-05-01 15:55:15] INFO root fetch - processPackages [tensordict-nightly]: Downloading https://files.pythonhosted.org/packages/20/31/29adf2872c4d40abdf068e4586ff9d562791466fce975c6e7bb1869fa35d/tensordict_nightly-2024.5.1-cp39-cp39-manylinux1_x86_64.whl
+[2024-05-01 15:55:15] INFO root fetch - processPackages [heatzypy]: Remove: archive file [/home/abi/fetcher/tmp/heatzypy-2.2.0.tar.gz]
+[2024-05-01 15:55:15] INFO root fetch - processPackages [heatzypy]: Remove: archive file [/home/abi/fetcher/tmp/heatzypy-2.5.0.tar.gz]
+[2024-05-01 15:55:15] INFO root fetch - main [MainThread]: End processing [heatzypy]: success
+[2024-05-01 15:55:15] INFO root fetch - processPackages [tensordict-nightly]: executing diffoscope
+[2024-05-01 15:55:15] INFO root fetch - processPackages [tensordict-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensordict_nightly-2024.4.9-cp39-cp39-win_amd64.whl.zip tmp/tensordict_nightly-2024.5.1-cp39-cp39-manylinux1_x86_64.whl.zip --markdown 20240501/t/tensordict-nightly/2024.4.9-2024.5.1/README.md --exclude *.pyd
+[2024-05-01 15:55:15] INFO root fetch - processPackages [opensimplex]: Remove: archive file [/home/abi/fetcher/tmp/opensimplex-0.4.5.tar.gz]
+[2024-05-01 15:55:15] INFO root fetch - processPackages [opensimplex]: Remove: archive file [/home/abi/fetcher/tmp/opensimplex-0.4.5.1.tar.gz]
+[2024-05-01 15:55:15] INFO root fetch - main [MainThread]: End processing [opensimplex]: success
+[2024-05-01 15:55:17] INFO root fetch - processPackages [tensordict-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensordict_nightly-2024.4.9-cp39-cp39-win_amd64.whl.zip]
+[2024-05-01 15:55:17] INFO root fetch - processPackages [tensordict-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensordict_nightly-2024.5.1-cp39-cp39-manylinux1_x86_64.whl.zip]
+[2024-05-01 15:55:17] INFO root fetch - main [MainThread]: End processing [tensordict-nightly]: success
+[2024-05-01 15:55:17] INFO root fetch - main [MainThread]: Store serial: [23017659]
