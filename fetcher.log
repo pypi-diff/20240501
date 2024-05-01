@@ -12438,3 +12438,33 @@
 [2024-05-01 10:01:31] INFO root fetch - processPackages [ezdxf]: Remove: archive file [/home/abi/fetcher/tmp/ezdxf-1.3.0rc0.zip]
 [2024-05-01 10:01:31] INFO root fetch - main [MainThread]: End processing [ezdxf]: success
 [2024-05-01 10:01:31] INFO root fetch - main [MainThread]: Store serial: [23013845]
+[2024-05-01 10:03:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23013845]
+[2024-05-01 10:03:39] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-01 10:03:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: incendium
+[2024-05-01 10:03:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: clovers-leafgame
+[2024-05-01 10:03:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hydev
+[2024-05-01 10:03:39] INFO root fetch - processPackages [hydev]: New version: [1.5.0] Old Version: [1.4.0]
+[2024-05-01 10:03:39] INFO root fetch - processPackages [clovers-leafgame]: New version: [0.1.8.post1] Old Version: [0.1.8]
+[2024-05-01 10:03:40] INFO root fetch - processPackages [incendium]: New version: [2024.5.0] Old Version: [2023.4.0]
+[2024-05-01 10:03:40] INFO root fetch - processPackages [hydev]: Downloading https://files.pythonhosted.org/packages/13/e2/a5bd29e47f6063b9ae8887d0ee1d96fc5fae786a2ef7784f22fd2f94270e/hydev-1.4.0.tar.gz
+[2024-05-01 10:03:40] INFO root fetch - processPackages [clovers-leafgame]: Downloading https://files.pythonhosted.org/packages/e5/eb/a326026bb16095ba9c0d0e43f5aeb884e320a5847692aeba926bb34e6f28/clovers_leafgame-0.1.8.tar.gz
+[2024-05-01 10:03:40] INFO root fetch - processPackages [incendium]: Downloading https://files.pythonhosted.org/packages/4e/22/e34cd2f4b58dd541653fd6507d59cd6290bb9c1a5b44eec6260fe95f604e/incendium-2023.4.0.tar.gz
+[2024-05-01 10:03:40] INFO root fetch - processPackages [hydev]: Downloading https://files.pythonhosted.org/packages/ba/69/eb340a19cdef2bd9239f7f5d993841d7c737505647293dea99ab808048cf/hydev-1.5.0.tar.gz
+[2024-05-01 10:03:40] INFO root fetch - processPackages [hydev]: executing diffoscope
+[2024-05-01 10:03:40] INFO root fetch - processPackages [hydev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hydev-1.4.0.tar.gz tmp/hydev-1.5.0.tar.gz --markdown 20240501/h/hydev/1.4.0-1.5.0/README.md --exclude *.pyd
+[2024-05-01 10:03:40] INFO root fetch - processPackages [clovers-leafgame]: Downloading https://files.pythonhosted.org/packages/4c/83/88c35d76ec79de5234b2fb37f6a03d35577752f6bbea19a100fc3cf43ab5/clovers_leafgame-0.1.8.post1.tar.gz
+[2024-05-01 10:03:40] INFO root fetch - processPackages [incendium]: Downloading https://files.pythonhosted.org/packages/76/1d/59432ff2c2902b8a1924c6ce9ba9026c6bbeb5f760bbfef344f6ecea0df1/incendium-2024.5.0.tar.gz
+[2024-05-01 10:03:40] INFO root fetch - processPackages [clovers-leafgame]: executing diffoscope
+[2024-05-01 10:03:40] INFO root fetch - processPackages [clovers-leafgame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clovers_leafgame-0.1.8.tar.gz tmp/clovers_leafgame-0.1.8.post1.tar.gz --markdown 20240501/c/clovers-leafgame/0.1.8-0.1.8.post1/README.md --exclude *.pyd
+[2024-05-01 10:03:40] INFO root fetch - processPackages [incendium]: executing diffoscope
+[2024-05-01 10:03:40] INFO root fetch - processPackages [incendium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/incendium-2023.4.0.tar.gz tmp/incendium-2024.5.0.tar.gz --markdown 20240501/i/incendium/2023.4.0-2024.5.0/README.md --exclude *.pyd
+[2024-05-01 10:03:40] INFO root fetch - processPackages [hydev]: Remove: archive file [/home/abi/fetcher/tmp/hydev-1.4.0.tar.gz]
+[2024-05-01 10:03:40] INFO root fetch - processPackages [hydev]: Remove: archive file [/home/abi/fetcher/tmp/hydev-1.5.0.tar.gz]
+[2024-05-01 10:03:40] INFO root fetch - main [MainThread]: End processing [hydev]: success
+[2024-05-01 10:03:41] INFO root fetch - processPackages [clovers-leafgame]: Remove: archive file [/home/abi/fetcher/tmp/clovers_leafgame-0.1.8.tar.gz]
+[2024-05-01 10:03:41] INFO root fetch - processPackages [clovers-leafgame]: Remove: archive file [/home/abi/fetcher/tmp/clovers_leafgame-0.1.8.post1.tar.gz]
+[2024-05-01 10:03:41] INFO root fetch - main [MainThread]: End processing [clovers-leafgame]: success
+[2024-05-01 10:03:41] INFO root fetch - processPackages [incendium]: Remove: archive file [/home/abi/fetcher/tmp/incendium-2023.4.0.tar.gz]
+[2024-05-01 10:03:41] INFO root fetch - processPackages [incendium]: Remove: archive file [/home/abi/fetcher/tmp/incendium-2024.5.0.tar.gz]
+[2024-05-01 10:03:41] INFO root fetch - main [MainThread]: End processing [incendium]: success
+[2024-05-01 10:03:41] INFO root fetch - main [MainThread]: Store serial: [23013859]
