@@ -20569,3 +20569,42 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-01 14:51:52] INFO root fetch - processPackages [novelai-python]: Remove: archive file [/home/abi/fetcher/tmp/novelai_python-0.4.9.tar.gz]
 [2024-05-01 14:51:52] INFO root fetch - main [MainThread]: End processing [novelai-python]: success
 [2024-05-01 14:51:52] INFO root fetch - main [MainThread]: Store serial: [23017091]
+[2024-05-01 14:53:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23017091]
+[2024-05-01 14:54:00] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-01 14:54:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spaceone-api
+[2024-05-01 14:54:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tq42-grpc-client
+[2024-05-01 14:54:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fizzbuzz-draw
+[2024-05-01 14:54:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-tls
+[2024-05-01 14:54:01] INFO root fetch - processPackages [tq42-grpc-client]: New version: [1.0.99] Old Version: [1.0.98]
+[2024-05-01 14:54:01] INFO root fetch - processPackages [fizzbuzz-draw]: New version: [1.0.6] Old Version: [1.0.5]
+[2024-05-01 14:54:01] INFO root fetch - processPackages [pulumi-tls]: New version: [5.1.0a1714544587] Old Version: [5.1.0a1714459885]
+[2024-05-01 14:54:01] INFO root fetch - processPackages [spaceone-api]: New version: [2.0.dev89] Old Version: [2.0.dev78]
+[2024-05-01 14:54:01] INFO root fetch - processPackages [tq42-grpc-client]: Downloading https://files.pythonhosted.org/packages/f2/bc/b6b38a6e4dae6de52384d9e036f68f22c0dccd82b37b9bf4dcc753671afd/tq42_grpc_client-1.0.98.tar.gz
+[2024-05-01 14:54:01] INFO root fetch - processPackages [fizzbuzz-draw]: Downloading https://files.pythonhosted.org/packages/77/05/4b031a7be1251816b05fd083c798117d5c137d3c767995290d88d75a8d28/fizzbuzz_draw-1.0.5.tar.gz
+[2024-05-01 14:54:01] INFO root fetch - processPackages [pulumi-tls]: Downloading https://files.pythonhosted.org/packages/b0/ae/441b54fe961f0fb49df2d2e2ef8e956ca756a9de450935ecd495e3e1e02c/pulumi_tls-5.1.0a1714459885.tar.gz
+[2024-05-01 14:54:01] INFO root fetch - processPackages [spaceone-api]: Downloading https://files.pythonhosted.org/packages/63/38/896ca815cd9f0d4be5040377b88a5b629fee8eedad29b468c7a50e063060/spaceone-api-2.0.dev78.tar.gz
+[2024-05-01 14:54:01] INFO root fetch - processPackages [tq42-grpc-client]: Downloading https://files.pythonhosted.org/packages/c5/9d/1449160d0c285ac0d5baa8e0b780b4be4873244452a54befd42e6224614c/tq42_grpc_client-1.0.99.tar.gz
+[2024-05-01 14:54:01] INFO root fetch - processPackages [spaceone-api]: Downloading https://files.pythonhosted.org/packages/c0/ea/4a6c8347250e808ffcceef19de666ffee1c045761343985127f39a05bc13/spaceone-api-2.0.dev89.tar.gz
+[2024-05-01 14:54:01] INFO root fetch - processPackages [fizzbuzz-draw]: Downloading https://files.pythonhosted.org/packages/e2/36/f4bc211b1119a51466401e33536cb3ee1d91dc7cd584b3873535ba923469/fizzbuzz_draw-1.0.6.tar.gz
+[2024-05-01 14:54:01] INFO root fetch - processPackages [tq42-grpc-client]: executing diffoscope
+[2024-05-01 14:54:01] INFO root fetch - processPackages [tq42-grpc-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tq42_grpc_client-1.0.98.tar.gz tmp/tq42_grpc_client-1.0.99.tar.gz --markdown 20240501/t/tq42-grpc-client/1.0.98-1.0.99/README.md --exclude *.pyd
+[2024-05-01 14:54:01] INFO root fetch - processPackages [spaceone-api]: executing diffoscope
+[2024-05-01 14:54:01] INFO root fetch - processPackages [spaceone-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone-api-2.0.dev78.tar.gz tmp/spaceone-api-2.0.dev89.tar.gz --markdown 20240501/s/spaceone-api/2.0.dev78-2.0.dev89/README.md --exclude *.pyd
+[2024-05-01 14:54:01] INFO root fetch - processPackages [fizzbuzz-draw]: executing diffoscope
+[2024-05-01 14:54:01] INFO root fetch - processPackages [fizzbuzz-draw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fizzbuzz_draw-1.0.5.tar.gz tmp/fizzbuzz_draw-1.0.6.tar.gz --markdown 20240501/f/fizzbuzz-draw/1.0.5-1.0.6/README.md --exclude *.pyd
+[2024-05-01 14:54:01] INFO root fetch - processPackages [pulumi-tls]: Downloading https://files.pythonhosted.org/packages/e3/02/32bdb918f2ecbb97d5e414a2e069f4436ab9de0d8df370f598bfad3bca14/pulumi_tls-5.1.0a1714544587.tar.gz
+[2024-05-01 14:54:01] INFO root fetch - processPackages [pulumi-tls]: executing diffoscope
+[2024-05-01 14:54:01] INFO root fetch - processPackages [pulumi-tls]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_tls-5.1.0a1714459885.tar.gz tmp/pulumi_tls-5.1.0a1714544587.tar.gz --markdown 20240501/p/pulumi-tls/5.1.0a1714459885-5.1.0a1714544587/README.md --exclude *.pyd
+[2024-05-01 14:54:02] INFO root fetch - processPackages [fizzbuzz-draw]: Remove: archive file [/home/abi/fetcher/tmp/fizzbuzz_draw-1.0.5.tar.gz]
+[2024-05-01 14:54:02] INFO root fetch - processPackages [fizzbuzz-draw]: Remove: archive file [/home/abi/fetcher/tmp/fizzbuzz_draw-1.0.6.tar.gz]
+[2024-05-01 14:54:02] INFO root fetch - main [MainThread]: End processing [fizzbuzz-draw]: success
+[2024-05-01 14:54:02] INFO root fetch - processPackages [pulumi-tls]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_tls-5.1.0a1714459885.tar.gz]
+[2024-05-01 14:54:02] INFO root fetch - processPackages [pulumi-tls]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_tls-5.1.0a1714544587.tar.gz]
+[2024-05-01 14:54:02] INFO root fetch - main [MainThread]: End processing [pulumi-tls]: success
+[2024-05-01 14:54:02] INFO root fetch - processPackages [spaceone-api]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-api-2.0.dev78.tar.gz]
+[2024-05-01 14:54:02] INFO root fetch - processPackages [spaceone-api]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-api-2.0.dev89.tar.gz]
+[2024-05-01 14:54:02] INFO root fetch - main [MainThread]: End processing [spaceone-api]: success
+[2024-05-01 14:54:03] INFO root fetch - processPackages [tq42-grpc-client]: Remove: archive file [/home/abi/fetcher/tmp/tq42_grpc_client-1.0.98.tar.gz]
+[2024-05-01 14:54:03] INFO root fetch - processPackages [tq42-grpc-client]: Remove: archive file [/home/abi/fetcher/tmp/tq42_grpc_client-1.0.99.tar.gz]
+[2024-05-01 14:54:03] INFO root fetch - main [MainThread]: End processing [tq42-grpc-client]: success
+[2024-05-01 14:54:03] INFO root fetch - main [MainThread]: Store serial: [23017104]
