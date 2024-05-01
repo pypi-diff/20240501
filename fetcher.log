@@ -6904,3 +6904,42 @@
 [2024-05-01 03:46:13] INFO root fetch - processPackages [v4-proto]: Remove: archive file [/home/abi/fetcher/tmp/v4-proto-5.0.0.dev0.tar.gz]
 [2024-05-01 03:46:13] INFO root fetch - main [MainThread]: End processing [v4-proto]: success
 [2024-05-01 03:46:13] INFO root fetch - main [MainThread]: Store serial: [23011321]
+[2024-05-01 03:48:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23011321]
+[2024-05-01 03:48:21] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-01 03:48:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: systema
+[2024-05-01 03:48:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sbcli-release
+[2024-05-01 03:48:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: loamy
+[2024-05-01 03:48:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: skia-python
+[2024-05-01 03:48:22] INFO root fetch - processPackages [sbcli-release]: New version: [1.0.8] Old Version: [1.0.7]
+[2024-05-01 03:48:22] INFO root fetch - processPackages [systema]: New version: [0.0.1a9] Old Version: [0.0.1a8]
+[2024-05-01 03:48:22] INFO root fetch - processPackages [sbcli-release]: Downloading https://files.pythonhosted.org/packages/41/7b/983850b9b3c4a37aa97a9699d485c207acb4af12321aba2eb0d22e2797f8/sbcli_release-1.0.7.zip
+[2024-05-01 03:48:22] INFO root fetch - processPackages [loamy]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-01 03:48:22] INFO root fetch - processPackages [skia-python]: New version: [87.5] Old Version: [87.4]
+[2024-05-01 03:48:22] INFO root fetch - processPackages [systema]: Downloading https://files.pythonhosted.org/packages/8e/12/3ea864b91e6ace29d986b77a9abdafaa765d4cde0dddfcf21db1fee57b4b/systema-0.0.1a8.tar.gz
+[2024-05-01 03:48:22] INFO root fetch - processPackages [loamy]: Downloading https://files.pythonhosted.org/packages/4e/76/376526bab5c36e1d31eed654f1c3877ddb183acd732a8ce3dbc050151aa3/loamy-0.0.8.tar.gz
+[2024-05-01 03:48:22] INFO root fetch - processPackages [skia-python]: Downloading https://files.pythonhosted.org/packages/ab/a6/4ec48524e34a1622a9cabbf1079444a834553c22a9cecea2b865048208bd/skia_python-87.4-cp39-cp39-win_amd64.whl
+[2024-05-01 03:48:22] INFO root fetch - processPackages [systema]: Downloading https://files.pythonhosted.org/packages/f7/0c/34874be8791c7f4db6ea26318b29e34bb786e061416ab2691b4dfb05276e/systema-0.0.1a9.tar.gz
+[2024-05-01 03:48:22] INFO root fetch - processPackages [sbcli-release]: Downloading https://files.pythonhosted.org/packages/60/12/90fccef6d90f9b4a6a035da57f5a4f14f515b6e62a938860430bfd990056/sbcli_release-1.0.8.zip
+[2024-05-01 03:48:22] INFO root fetch - processPackages [systema]: executing diffoscope
+[2024-05-01 03:48:22] INFO root fetch - processPackages [systema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/systema-0.0.1a8.tar.gz tmp/systema-0.0.1a9.tar.gz --markdown 20240501/s/systema/0.0.1a8-0.0.1a9/README.md --exclude *.pyd
+[2024-05-01 03:48:22] INFO root fetch - processPackages [sbcli-release]: executing diffoscope
+[2024-05-01 03:48:22] INFO root fetch - processPackages [sbcli-release]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sbcli_release-1.0.7.zip tmp/sbcli_release-1.0.8.zip --markdown 20240501/s/sbcli-release/1.0.7-1.0.8/README.md --exclude *.pyd
+[2024-05-01 03:48:22] INFO root fetch - processPackages [loamy]: Downloading https://files.pythonhosted.org/packages/bb/70/58409ed5dc83051155acc69e6ffbf5e2b60408b98f2b2bacad083d871979/loamy-0.0.9.tar.gz
+[2024-05-01 03:48:22] INFO root fetch - processPackages [loamy]: executing diffoscope
+[2024-05-01 03:48:22] INFO root fetch - processPackages [loamy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/loamy-0.0.8.tar.gz tmp/loamy-0.0.9.tar.gz --markdown 20240501/l/loamy/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-01 03:48:23] INFO root fetch - processPackages [systema]: Remove: archive file [/home/abi/fetcher/tmp/systema-0.0.1a8.tar.gz]
+[2024-05-01 03:48:23] INFO root fetch - processPackages [systema]: Remove: archive file [/home/abi/fetcher/tmp/systema-0.0.1a9.tar.gz]
+[2024-05-01 03:48:23] INFO root fetch - main [MainThread]: End processing [systema]: success
+[2024-05-01 03:48:23] INFO root fetch - processPackages [loamy]: Remove: archive file [/home/abi/fetcher/tmp/loamy-0.0.8.tar.gz]
+[2024-05-01 03:48:23] INFO root fetch - processPackages [loamy]: Remove: archive file [/home/abi/fetcher/tmp/loamy-0.0.9.tar.gz]
+[2024-05-01 03:48:23] INFO root fetch - main [MainThread]: End processing [loamy]: success
+[2024-05-01 03:48:23] INFO root fetch - processPackages [sbcli-release]: Remove: archive file [/home/abi/fetcher/tmp/sbcli_release-1.0.7.zip]
+[2024-05-01 03:48:23] INFO root fetch - processPackages [sbcli-release]: Remove: archive file [/home/abi/fetcher/tmp/sbcli_release-1.0.8.zip]
+[2024-05-01 03:48:23] INFO root fetch - main [MainThread]: End processing [sbcli-release]: success
+[2024-05-01 03:48:24] INFO root fetch - processPackages [skia-python]: Downloading https://files.pythonhosted.org/packages/2d/49/6de425b4013ea34d5671b5a6fcad3ea87aa4d1286225e703c3f13999c125/skia_python-87.5-cp39-cp39-win_amd64.whl
+[2024-05-01 03:48:25] INFO root fetch - processPackages [skia-python]: executing diffoscope
+[2024-05-01 03:48:25] INFO root fetch - processPackages [skia-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skia_python-87.4-cp39-cp39-win_amd64.whl.zip tmp/skia_python-87.5-cp39-cp39-win_amd64.whl.zip --markdown 20240501/s/skia-python/87.4-87.5/README.md --exclude *.pyd
+[2024-05-01 03:48:26] INFO root fetch - processPackages [skia-python]: Remove: archive file [/home/abi/fetcher/tmp/skia_python-87.4-cp39-cp39-win_amd64.whl.zip]
+[2024-05-01 03:48:26] INFO root fetch - processPackages [skia-python]: Remove: archive file [/home/abi/fetcher/tmp/skia_python-87.5-cp39-cp39-win_amd64.whl.zip]
+[2024-05-01 03:48:26] INFO root fetch - main [MainThread]: End processing [skia-python]: success
+[2024-05-01 03:48:26] INFO root fetch - main [MainThread]: Store serial: [23011347]
