@@ -21008,3 +21008,68 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-01 15:14:54] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/fbgemm_gpu_nightly_cpu-2024.5.1-cp39-cp39-manylinux2014_x86_64.whl.zip]
 [2024-05-01 15:14:54] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly-cpu]: success
 [2024-05-01 15:14:54] INFO root fetch - main [MainThread]: Store serial: [23017267]
+[2024-05-01 15:16:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23017267]
+[2024-05-01 15:17:02] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-01 15:17:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: psm-utils
+[2024-05-01 15:17:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyrevm
+[2024-05-01 15:17:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xiomedon
+[2024-05-01 15:17:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tflite-micro
+[2024-05-01 15:17:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bec-ipython-client
+[2024-05-01 15:17:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bec-lib
+[2024-05-01 15:17:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bec-server
+[2024-05-01 15:17:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pytest-bec-e2e
+[2024-05-01 15:17:03] WARNING root fetch - processPackages [xiomedon]: Skipping, unable to determine old version
+[2024-05-01 15:17:03] INFO root fetch - main [MainThread]: End processing [xiomedon] error
+[2024-05-01 15:17:03] INFO root fetch - processPackages [tflite-micro]: New version: [0.dev20240429173907] Old Version: [0.dev20240426220548]
+[2024-05-01 15:17:03] INFO root fetch - processPackages [psm-utils]: New version: [0.9.0] Old Version: [0.8.3]
+[2024-05-01 15:17:03] INFO root fetch - processPackages [pyrevm]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-05-01 15:17:03] INFO root fetch - processPackages [bec-ipython-client]: New version: [2.9.3] Old Version: [2.7.3]
+[2024-05-01 15:17:03] INFO root fetch - processPackages [bec-lib]: New version: [2.9.3] Old Version: [2.7.3]
+[2024-05-01 15:17:03] INFO root fetch - processPackages [pytest-bec-e2e]: New version: [2.9.3] Old Version: [2.7.3]
+[2024-05-01 15:17:03] INFO root fetch - processPackages [bec-server]: New version: [2.9.3] Old Version: [2.7.3]
+[2024-05-01 15:17:03] INFO root fetch - processPackages [tflite-micro]: Downloading https://files.pythonhosted.org/packages/59/2a/55374af242e244bd918fa4a91028891d2daf2cb43d3e1d5defab36700268/tflite_micro-0.dev20240426220548-cp311-cp311-manylinux_2_28_x86_64.whl
+[2024-05-01 15:17:03] INFO root fetch - processPackages [psm-utils]: Downloading https://files.pythonhosted.org/packages/f3/83/a01d0865cbcb9deed689385fd5cd16aeef021e300bc2e5e913d5af5302bf/psm_utils-0.8.3.tar.gz
+[2024-05-01 15:17:03] INFO root fetch - processPackages [pyrevm]: Downloading https://files.pythonhosted.org/packages/b9/e9/fa28f5c83605a221e4effb2a8c06612f9060a246ccc8f13d36951df4bd42/pyrevm-0.3.1.tar.gz
+[2024-05-01 15:17:03] INFO root fetch - processPackages [bec-ipython-client]: Downloading https://files.pythonhosted.org/packages/2a/8d/0dc01351669e5808cf0cb4eee03a6f039e4e5058295beb51ba491479cd33/bec_ipython_client-2.7.3.tar.gz
+[2024-05-01 15:17:03] INFO root fetch - processPackages [pytest-bec-e2e]: Downloading https://files.pythonhosted.org/packages/9a/6b/90322aada65aef99dce5a8c794c7be8ec21f913c4a3759261082cb390509/pytest_bec_e2e-2.7.3.tar.gz
+[2024-05-01 15:17:03] INFO root fetch - processPackages [bec-lib]: Downloading https://files.pythonhosted.org/packages/d7/61/22ce6fbb60de48825c88d5347a0abe23e64983dd1efcd22be0475239786f/bec_lib-2.7.3.tar.gz
+[2024-05-01 15:17:03] WARNING root fetch - processPackages [psm-utils]: Skipping package: exceeds size limit 68882649>=10485760
+[2024-05-01 15:17:03] INFO root fetch - main [MainThread]: End processing [psm-utils] error
+[2024-05-01 15:17:03] INFO root fetch - processPackages [bec-server]: Downloading https://files.pythonhosted.org/packages/02/1f/1d8fc4deda38db4685d593ff478e619432f571029c8d3720bc8f7ee34009/bec_server-2.7.3.tar.gz
+[2024-05-01 15:17:03] INFO root fetch - processPackages [bec-lib]: Downloading https://files.pythonhosted.org/packages/4e/51/16d5e02b160b0e490a67b914c57898d1cb76b379c39a686174eca90b14a9/bec_lib-2.9.3-py3-none-any.whl
+[2024-05-01 15:17:03] INFO root fetch - processPackages [bec-ipython-client]: Downloading https://files.pythonhosted.org/packages/01/e6/8f2d7c67924494996405857a520c5eb8cc674eb6e0e8789f439f1877734d/bec_ipython_client-2.9.3.tar.gz
+[2024-05-01 15:17:03] INFO root fetch - processPackages [pytest-bec-e2e]: Downloading https://files.pythonhosted.org/packages/cc/5f/03b17ea463cabf748b22e977bb648eddfdee1b08f824f1b455d84263ad16/pytest_bec_e2e-2.9.3-py3-none-any.whl
+[2024-05-01 15:17:03] INFO root fetch - processPackages [tflite-micro]: Downloading https://files.pythonhosted.org/packages/7d/dd/e48adada3181150d8bfbe98de9f85de66f0123439781a43c0d8d0e4e47d5/tflite_micro-0.dev20240429173907-cp311-cp311-manylinux_2_28_x86_64.whl
+[2024-05-01 15:17:03] INFO root fetch - processPackages [pyrevm]: Downloading https://files.pythonhosted.org/packages/30/c3/06d99929624114b412bca3a7af86745b22d82fc511ca0d44373cbced2ea8/pyrevm-0.3.2.tar.gz
+[2024-05-01 15:17:03] INFO root fetch - processPackages [bec-server]: Downloading https://files.pythonhosted.org/packages/a1/68/faa130abbf0fc50f18ee6a3f5c70c358740dcca5d8c080beb404e4485137/bec_server-2.9.3-py3-none-any.whl
+[2024-05-01 15:17:04] INFO root fetch - processPackages [bec-lib]: executing diffoscope
+[2024-05-01 15:17:04] INFO root fetch - processPackages [bec-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bec_lib-2.7.3.tar.gz tmp/bec_lib-2.9.3-py3-none-any.whl.zip --markdown 20240501/b/bec-lib/2.7.3-2.9.3/README.md --exclude *.pyd
+[2024-05-01 15:17:04] INFO root fetch - processPackages [tflite-micro]: executing diffoscope
+[2024-05-01 15:17:04] INFO root fetch - processPackages [tflite-micro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tflite_micro-0.dev20240426220548-cp311-cp311-manylinux_2_28_x86_64.whl.zip tmp/tflite_micro-0.dev20240429173907-cp311-cp311-manylinux_2_28_x86_64.whl.zip --markdown 20240501/t/tflite-micro/0.dev20240426220548-0.dev20240429173907/README.md --exclude *.pyd
+[2024-05-01 15:17:04] INFO root fetch - processPackages [pytest-bec-e2e]: executing diffoscope
+[2024-05-01 15:17:04] INFO root fetch - processPackages [pytest-bec-e2e]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_bec_e2e-2.7.3.tar.gz tmp/pytest_bec_e2e-2.9.3-py3-none-any.whl.zip --markdown 20240501/p/pytest-bec-e2e/2.7.3-2.9.3/README.md --exclude *.pyd
+[2024-05-01 15:17:04] INFO root fetch - processPackages [pyrevm]: executing diffoscope
+[2024-05-01 15:17:04] INFO root fetch - processPackages [pyrevm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrevm-0.3.1.tar.gz tmp/pyrevm-0.3.2.tar.gz --markdown 20240501/p/pyrevm/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-05-01 15:17:04] INFO root fetch - processPackages [bec-server]: executing diffoscope
+[2024-05-01 15:17:04] INFO root fetch - processPackages [bec-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bec_server-2.7.3.tar.gz tmp/bec_server-2.9.3-py3-none-any.whl.zip --markdown 20240501/b/bec-server/2.7.3-2.9.3/README.md --exclude *.pyd
+[2024-05-01 15:17:04] INFO root fetch - processPackages [bec-ipython-client]: executing diffoscope
+[2024-05-01 15:17:04] INFO root fetch - processPackages [bec-ipython-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bec_ipython_client-2.7.3.tar.gz tmp/bec_ipython_client-2.9.3.tar.gz --markdown 20240501/b/bec-ipython-client/2.7.3-2.9.3/README.md --exclude *.pyd
+[2024-05-01 15:17:04] INFO root fetch - processPackages [pytest-bec-e2e]: Remove: archive file [/home/abi/fetcher/tmp/pytest_bec_e2e-2.7.3.tar.gz]
+[2024-05-01 15:17:04] INFO root fetch - processPackages [pytest-bec-e2e]: Remove: archive file [/home/abi/fetcher/tmp/pytest_bec_e2e-2.9.3-py3-none-any.whl.zip]
+[2024-05-01 15:17:04] INFO root fetch - main [MainThread]: End processing [pytest-bec-e2e]: success
+[2024-05-01 15:17:04] INFO root fetch - processPackages [bec-lib]: Remove: archive file [/home/abi/fetcher/tmp/bec_lib-2.7.3.tar.gz]
+[2024-05-01 15:17:04] INFO root fetch - processPackages [bec-lib]: Remove: archive file [/home/abi/fetcher/tmp/bec_lib-2.9.3-py3-none-any.whl.zip]
+[2024-05-01 15:17:04] INFO root fetch - main [MainThread]: End processing [bec-lib]: success
+[2024-05-01 15:17:04] INFO root fetch - processPackages [bec-server]: Remove: archive file [/home/abi/fetcher/tmp/bec_server-2.7.3.tar.gz]
+[2024-05-01 15:17:04] INFO root fetch - processPackages [bec-server]: Remove: archive file [/home/abi/fetcher/tmp/bec_server-2.9.3-py3-none-any.whl.zip]
+[2024-05-01 15:17:04] INFO root fetch - main [MainThread]: End processing [bec-server]: success
+[2024-05-01 15:17:05] INFO root fetch - processPackages [pyrevm]: Remove: archive file [/home/abi/fetcher/tmp/pyrevm-0.3.1.tar.gz]
+[2024-05-01 15:17:05] INFO root fetch - processPackages [pyrevm]: Remove: archive file [/home/abi/fetcher/tmp/pyrevm-0.3.2.tar.gz]
+[2024-05-01 15:17:05] INFO root fetch - main [MainThread]: End processing [pyrevm]: success
+[2024-05-01 15:17:05] INFO root fetch - processPackages [bec-ipython-client]: Remove: archive file [/home/abi/fetcher/tmp/bec_ipython_client-2.7.3.tar.gz]
+[2024-05-01 15:17:05] INFO root fetch - processPackages [bec-ipython-client]: Remove: archive file [/home/abi/fetcher/tmp/bec_ipython_client-2.9.3.tar.gz]
+[2024-05-01 15:17:05] INFO root fetch - main [MainThread]: End processing [bec-ipython-client]: success
+[2024-05-01 15:17:14] INFO root fetch - processPackages [tflite-micro]: Remove: archive file [/home/abi/fetcher/tmp/tflite_micro-0.dev20240426220548-cp311-cp311-manylinux_2_28_x86_64.whl.zip]
+[2024-05-01 15:17:14] INFO root fetch - processPackages [tflite-micro]: Remove: archive file [/home/abi/fetcher/tmp/tflite_micro-0.dev20240429173907-cp311-cp311-manylinux_2_28_x86_64.whl.zip]
+[2024-05-01 15:17:14] INFO root fetch - main [MainThread]: End processing [tflite-micro]: success
+[2024-05-01 15:17:14] INFO root fetch - main [MainThread]: Store serial: [23017320]
