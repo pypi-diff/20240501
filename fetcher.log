@@ -13916,3 +13916,77 @@
 [2024-05-01 11:13:29] INFO root fetch - processPackages [openctp-ctpopt]: Remove: archive file [/home/abi/fetcher/tmp/openctp_ctpopt-3.7.0.1-cp39-cp39-win_amd64.whl.zip]
 [2024-05-01 11:13:29] INFO root fetch - main [MainThread]: End processing [openctp-ctpopt]: success
 [2024-05-01 11:13:29] INFO root fetch - main [MainThread]: Store serial: [23014545]
+[2024-05-01 11:15:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23014545]
+[2024-05-01 11:15:39] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-01 11:15:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tryton
+[2024-05-01 11:15:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openai-api-with-easy-tools-and-web-browsing
+[2024-05-01 11:15:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spanishconjugator
+[2024-05-01 11:15:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tryton
+[2024-05-01 11:15:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: advanced-input
+[2024-05-01 11:15:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: openctp-ctpopt
+[2024-05-01 11:15:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: spanishconjugator
+[2024-05-01 11:15:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aissemble-extensions-model-training-api-sagemaker
+[2024-05-01 11:15:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: commits2pdf
+[2024-05-01 11:15:39] INFO root fetch - processPackages [advanced-input]: New version: [0.2.0] Old Version: [0.1.3]
+[2024-05-01 11:15:39] INFO root fetch - processPackages [openctp-ctpopt]: New version: [3.7.0.1] Old Version: [3.7.0]
+[2024-05-01 11:15:39] INFO root fetch - processPackages [openai-api-with-easy-tools-and-web-browsing]: New version: [1.0.6] Old Version: [1.0.5]
+[2024-05-01 11:15:39] INFO root fetch - processPackages [advanced-input]: Downloading https://files.pythonhosted.org/packages/2e/ca/a17cfc4989d8e4fab55929fbeac271f60e6510da31777c984ed7e3d331a8/advanced_input-0.1.3.tar.gz
+[2024-05-01 11:15:39] INFO root fetch - processPackages [commits2pdf]: New version: [1.1.8] Old Version: [1.1.7]
+[2024-05-01 11:15:39] INFO root fetch - processPackages [tryton]: New version: [7.2.1] Old Version: [7.2.0]
+[2024-05-01 11:15:39] INFO root fetch - processPackages [tryton]: New version: [7.2.1] Old Version: [7.2.0]
+[2024-05-01 11:15:39] WARNING root fetch - processPackages [aissemble-extensions-model-training-api-sagemaker]: Skipping, unable to determine old version
+[2024-05-01 11:15:39] INFO root fetch - main [MainThread]: End processing [aissemble-extensions-model-training-api-sagemaker] error
+[2024-05-01 11:15:39] INFO root fetch - processPackages [openctp-ctpopt]: Downloading https://files.pythonhosted.org/packages/58/e8/8a9311f28b9b39208c70d0a74b248038c620b4b4fe4b2b7a0bf8965adc32/openctp_ctpopt-3.7.0-cp39-cp39-win_amd64.whl
+[2024-05-01 11:15:39] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2024-05-01 11:15:39] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2024-05-01 11:15:39] INFO root fetch - processPackages [tryton]: Downloading https://files.pythonhosted.org/packages/4a/21/167ef40043e84be8a96e4827330b527e0348b0707bf28004d582659c07ca/tryton-7.2.0.tar.gz
+[2024-05-01 11:15:39] INFO root fetch - processPackages [commits2pdf]: Downloading https://files.pythonhosted.org/packages/59/e6/a44b8b5cb8e8381ac74c1f6de479d0eca1435985f49e522ab02bbae31c66/commits2pdf-1.1.7.tar.gz
+[2024-05-01 11:15:39] INFO root fetch - processPackages [tryton]: Downloading https://files.pythonhosted.org/packages/4a/21/167ef40043e84be8a96e4827330b527e0348b0707bf28004d582659c07ca/tryton-7.2.0.tar.gz
+[2024-05-01 11:15:39] INFO root fetch - processPackages [openai-api-with-easy-tools-and-web-browsing]: Downloading https://files.pythonhosted.org/packages/e3/5c/54ecbee476d5af35ef059cb45ee001da8df16afd785b0a1923c1f4bfbbaf/openai_api_with_easy_tools_and_web_browsing-1.0.5.tar.gz
+[2024-05-01 11:15:39] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2024-05-01 11:15:39] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2024-05-01 11:15:39] INFO root fetch - processPackages [advanced-input]: Downloading https://files.pythonhosted.org/packages/40/48/22cb09eb6380db8b6efc15d01ff40810497e1180913b8a68dc7c17ab7036/advanced_input-0.2.0.tar.gz
+[2024-05-01 11:15:40] INFO root fetch - processPackages [advanced-input]: executing diffoscope
+[2024-05-01 11:15:40] INFO root fetch - processPackages [advanced-input]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/advanced_input-0.1.3.tar.gz tmp/advanced_input-0.2.0.tar.gz --markdown 20240501/a/advanced-input/0.1.3-0.2.0/README.md --exclude *.pyd
+[2024-05-01 11:15:40] INFO root fetch - processPackages [openctp-ctpopt]: Downloading https://files.pythonhosted.org/packages/2b/87/0c5c916e2d35121e14bfc23c829fc121fe03bcc333d33a8cc795e0b43047/openctp_ctpopt-3.7.0.1-cp39-cp39-win_amd64.whl
+[2024-05-01 11:15:40] INFO root fetch - processPackages [tryton]: Downloading https://files.pythonhosted.org/packages/cf/c2/6ac907d058e8b170fa98b8d7a1fc28632af8091b1ae3ccf6336cb3dd0c59/tryton-7.2.1.tar.gz
+[2024-05-01 11:15:40] INFO root fetch - processPackages [tryton]: Downloading https://files.pythonhosted.org/packages/cf/c2/6ac907d058e8b170fa98b8d7a1fc28632af8091b1ae3ccf6336cb3dd0c59/tryton-7.2.1.tar.gz
+[2024-05-01 11:15:40] INFO root fetch - processPackages [commits2pdf]: Downloading https://files.pythonhosted.org/packages/ef/1c/55c500e7c22bcc4664d5fb44dad59f1a5a2e616962c86f25bad73b7c5443/commits2pdf-1.1.8.tar.gz
+[2024-05-01 11:15:40] INFO root fetch - processPackages [openai-api-with-easy-tools-and-web-browsing]: Downloading https://files.pythonhosted.org/packages/52/ef/c938f486d9503ce03df289aa27075c7f0163a87ba30c5ce0d44424ab70db/openai_api_with_easy_tools_and_web_browsing-1.0.6.tar.gz
+[2024-05-01 11:15:40] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2024-05-01 11:15:40] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2024-05-01 11:15:40] INFO root fetch - processPackages [openai-api-with-easy-tools-and-web-browsing]: executing diffoscope
+[2024-05-01 11:15:40] INFO root fetch - processPackages [openai-api-with-easy-tools-and-web-browsing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai_api_with_easy_tools_and_web_browsing-1.0.5.tar.gz tmp/openai_api_with_easy_tools_and_web_browsing-1.0.6.tar.gz --markdown 20240501/o/openai-api-with-easy-tools-and-web-browsing/1.0.5-1.0.6/README.md --exclude *.pyd
+[2024-05-01 11:15:40] INFO root fetch - processPackages [tryton]: executing diffoscope
+[2024-05-01 11:15:40] INFO root fetch - processPackages [tryton]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tryton-7.2.0.tar.gz tmp/tryton-7.2.1.tar.gz --markdown 20240501/t/tryton/7.2.0-7.2.1/README.md --exclude *.pyd
+[2024-05-01 11:15:40] INFO root fetch - processPackages [tryton]: executing diffoscope
+[2024-05-01 11:15:40] INFO root fetch - processPackages [tryton]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tryton-7.2.0.tar.gz tmp/tryton-7.2.1.tar.gz --markdown 20240501/t/tryton/7.2.0-7.2.1/README.md --exclude *.pyd
+[2024-05-01 11:15:40] INFO root fetch - processPackages [commits2pdf]: executing diffoscope
+[2024-05-01 11:15:40] INFO root fetch - processPackages [commits2pdf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/commits2pdf-1.1.7.tar.gz tmp/commits2pdf-1.1.8.tar.gz --markdown 20240501/c/commits2pdf/1.1.7-1.1.8/README.md --exclude *.pyd
+[2024-05-01 11:15:40] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2024-05-01 11:15:40] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2024-05-01 11:15:40] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20240501/s/spanishconjugator/2.3.998-2.3.999/README.md --exclude *.pyd
+[2024-05-01 11:15:40] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20240501/s/spanishconjugator/2.3.998-2.3.999/README.md --exclude *.pyd
+[2024-05-01 11:15:40] INFO root fetch - processPackages [openctp-ctpopt]: executing diffoscope
+[2024-05-01 11:15:40] INFO root fetch - processPackages [openctp-ctpopt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openctp_ctpopt-3.7.0-cp39-cp39-win_amd64.whl.zip tmp/openctp_ctpopt-3.7.0.1-cp39-cp39-win_amd64.whl.zip --markdown 20240501/o/openctp-ctpopt/3.7.0-3.7.0.1/README.md --exclude *.pyd
+[2024-05-01 11:15:41] INFO root fetch - processPackages [advanced-input]: Remove: archive file [/home/abi/fetcher/tmp/advanced_input-0.1.3.tar.gz]
+[2024-05-01 11:15:41] INFO root fetch - processPackages [advanced-input]: Remove: archive file [/home/abi/fetcher/tmp/advanced_input-0.2.0.tar.gz]
+[2024-05-01 11:15:41] INFO root fetch - main [MainThread]: End processing [advanced-input]: success
+[2024-05-01 11:15:41] INFO root fetch - processPackages [openai-api-with-easy-tools-and-web-browsing]: Remove: archive file [/home/abi/fetcher/tmp/openai_api_with_easy_tools_and_web_browsing-1.0.5.tar.gz]
+[2024-05-01 11:15:41] INFO root fetch - processPackages [openai-api-with-easy-tools-and-web-browsing]: Remove: archive file [/home/abi/fetcher/tmp/openai_api_with_easy_tools_and_web_browsing-1.0.6.tar.gz]
+[2024-05-01 11:15:41] INFO root fetch - main [MainThread]: End processing [openai-api-with-easy-tools-and-web-browsing]: success
+[2024-05-01 11:15:41] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2024-05-01 11:15:41] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2024-05-01 11:15:41] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2024-05-01 11:15:41] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2024-05-01 11:15:41] INFO root fetch - processPackages [commits2pdf]: Remove: archive file [/home/abi/fetcher/tmp/commits2pdf-1.1.7.tar.gz]
+[2024-05-01 11:15:41] INFO root fetch - processPackages [commits2pdf]: Remove: archive file [/home/abi/fetcher/tmp/commits2pdf-1.1.8.tar.gz]
+[2024-05-01 11:15:41] INFO root fetch - main [MainThread]: End processing [commits2pdf]: success
+[2024-05-01 11:15:41] INFO root fetch - processPackages [openctp-ctpopt]: Remove: archive file [/home/abi/fetcher/tmp/openctp_ctpopt-3.7.0-cp39-cp39-win_amd64.whl.zip]
+[2024-05-01 11:15:41] INFO root fetch - processPackages [openctp-ctpopt]: Remove: archive file [/home/abi/fetcher/tmp/openctp_ctpopt-3.7.0.1-cp39-cp39-win_amd64.whl.zip]
+[2024-05-01 11:15:41] INFO root fetch - main [MainThread]: End processing [openctp-ctpopt]: success
+[2024-05-01 11:15:42] INFO root fetch - processPackages [tryton]: Remove: archive file [/home/abi/fetcher/tmp/tryton-7.2.0.tar.gz]
+[2024-05-01 11:15:42] INFO root fetch - processPackages [tryton]: Remove: archive file [/home/abi/fetcher/tmp/tryton-7.2.1.tar.gz]
+[2024-05-01 11:15:42] INFO root fetch - main [MainThread]: End processing [tryton]: success
+[2024-05-01 11:15:42] INFO root fetch - main [MainThread]: End processing [tryton]: success
+[2024-05-01 11:15:42] INFO root fetch - main [MainThread]: Store serial: [23014579]
