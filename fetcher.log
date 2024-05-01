@@ -22358,3 +22358,69 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-01 16:20:41] INFO root fetch - processPackages [ddtrace]: Remove: archive file [/home/abi/fetcher/tmp/ddtrace-2.9.0rc1-cp312-cp312-musllinux_1_1_i686.whl.zip]
 [2024-05-01 16:20:41] INFO root fetch - main [MainThread]: End processing [ddtrace]: success
 [2024-05-01 16:20:41] INFO root fetch - main [MainThread]: Store serial: [23017914]
+[2024-05-01 16:22:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23017914]
+[2024-05-01 16:22:50] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-01 16:22:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: scrapkit
+[2024-05-01 16:22:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: referencing-loaders
+[2024-05-01 16:22:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nbk
+[2024-05-01 16:22:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mns-common
+[2024-05-01 16:22:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: stylepy
+[2024-05-01 16:22:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: runseq
+[2024-05-01 16:22:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cs3560-grading-lib
+[2024-05-01 16:22:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hyped
+[2024-05-01 16:22:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: labda
+[2024-05-01 16:22:50] WARNING root fetch - processPackages [scrapkit]: Skipping, unable to determine old version
+[2024-05-01 16:22:50] INFO root fetch - main [MainThread]: End processing [scrapkit] error
+[2024-05-01 16:22:50] WARNING root fetch - processPackages [nbk]: Skipping, unable to determine old version
+[2024-05-01 16:22:50] INFO root fetch - main [MainThread]: End processing [nbk] error
+[2024-05-01 16:22:50] WARNING root fetch - processPackages [stylepy]: Skipping, unable to determine old version
+[2024-05-01 16:22:50] INFO root fetch - main [MainThread]: End processing [stylepy] error
+[2024-05-01 16:22:50] INFO root fetch - processPackages [cs3560-grading-lib]: New version: [0.1.1a2] Old Version: [0.1.0rc2]
+[2024-05-01 16:22:50] INFO root fetch - processPackages [referencing-loaders]: New version: [2024.5.2] Old Version: [2024.5.1]
+[2024-05-01 16:22:50] INFO root fetch - processPackages [runseq]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-05-01 16:22:50] INFO root fetch - processPackages [hyped]: New version: [0.1.0a1] Old Version: [0.1.0a0]
+[2024-05-01 16:22:50] INFO root fetch - processPackages [mns-common]: New version: [1.0.7.6.7] Old Version: [1.0.7.6.6]
+[2024-05-01 16:22:50] INFO root fetch - processPackages [labda]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-01 16:22:50] INFO root fetch - processPackages [cs3560-grading-lib]: Downloading https://files.pythonhosted.org/packages/f6/07/73376ab159568b519a16362be80a13e386bbaaac448de4bd14513ad2cebc/cs3560-grading-lib-0.1.0rc2.tar.gz
+[2024-05-01 16:22:50] INFO root fetch - processPackages [referencing-loaders]: Downloading https://files.pythonhosted.org/packages/36/40/e6ac2ea44db0665854eced21b49145a71cfdce0db34011eb2593b66fe565/referencing_loaders-2024.5.1.tar.gz
+[2024-05-01 16:22:50] INFO root fetch - processPackages [mns-common]: Downloading https://files.pythonhosted.org/packages/11/b9/0c1c0740f2449215c5d0e7c90599c3cd24a6238645a92f23e34c49694473/mns_common-1.0.7.6.6.tar.gz
+[2024-05-01 16:22:50] INFO root fetch - processPackages [hyped]: Downloading https://files.pythonhosted.org/packages/8c/84/e0299ec011c40a9d2092dad04c59d523e7ca77a6b860a11d4c6e3d326c43/hyped-0.1.0a0.tar.gz
+[2024-05-01 16:22:50] INFO root fetch - processPackages [labda]: Downloading https://files.pythonhosted.org/packages/b2/db/ed683e03142097dd6c0fa4141cc62baf6d2aff3a92af6d1ceeefcfc322b9/labda-0.0.5.tar.gz
+[2024-05-01 16:22:50] INFO root fetch - processPackages [runseq]: Downloading https://files.pythonhosted.org/packages/7a/6f/e1e53b1d4f53d7617088293ac666459b2238a64d262c5a674038168a1ce7/runseq-0.2.1.tar.gz
+[2024-05-01 16:22:51] INFO root fetch - processPackages [cs3560-grading-lib]: Downloading https://files.pythonhosted.org/packages/75/86/f4cf983c1f0a37739f4040462998313740c2a4acd973436a1208a363e091/cs3560_grading_lib-0.1.1a2.tar.gz
+[2024-05-01 16:22:51] INFO root fetch - processPackages [referencing-loaders]: Downloading https://files.pythonhosted.org/packages/f4/34/4935a439c5413b9b5cbe21b87915097a81e3e5b3dfa45dada2bf8a986b5e/referencing_loaders-2024.5.2.tar.gz
+[2024-05-01 16:22:51] INFO root fetch - processPackages [mns-common]: Downloading https://files.pythonhosted.org/packages/8a/37/c4a596b0178340c5b5e239a7b7df4383b69fce282863fb570b1940f81de2/mns_common-1.0.7.6.7.tar.gz
+[2024-05-01 16:22:51] INFO root fetch - processPackages [runseq]: Downloading https://files.pythonhosted.org/packages/c4/5e/0a87065ed96d0939bed00b36e6b0443216d9916a9d5095bc888e7e71458f/runseq-0.2.2.tar.gz
+[2024-05-01 16:22:51] INFO root fetch - processPackages [referencing-loaders]: executing diffoscope
+[2024-05-01 16:22:51] INFO root fetch - processPackages [referencing-loaders]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/referencing_loaders-2024.5.1.tar.gz tmp/referencing_loaders-2024.5.2.tar.gz --markdown 20240501/r/referencing-loaders/2024.5.1-2024.5.2/README.md --exclude *.pyd
+[2024-05-01 16:22:51] INFO root fetch - processPackages [labda]: Downloading https://files.pythonhosted.org/packages/fe/0e/693760f899a0f51ab19b8e4271e3ed099e4f77d1a58b0e50a833e3dd229b/labda-0.0.6.tar.gz
+[2024-05-01 16:22:51] INFO root fetch - processPackages [mns-common]: executing diffoscope
+[2024-05-01 16:22:51] INFO root fetch - processPackages [mns-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mns_common-1.0.7.6.6.tar.gz tmp/mns_common-1.0.7.6.7.tar.gz --markdown 20240501/m/mns-common/1.0.7.6.6-1.0.7.6.7/README.md --exclude *.pyd
+[2024-05-01 16:22:51] INFO root fetch - processPackages [hyped]: Downloading https://files.pythonhosted.org/packages/bb/0b/ebe84bd02b8aa9c20bdf78d1894f3b655f9bded9ba4d4016bd4e340f306a/hyped-0.1.0a1.tar.gz
+[2024-05-01 16:22:51] INFO root fetch - processPackages [cs3560-grading-lib]: executing diffoscope
+[2024-05-01 16:22:51] INFO root fetch - processPackages [cs3560-grading-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cs3560-grading-lib-0.1.0rc2.tar.gz tmp/cs3560_grading_lib-0.1.1a2.tar.gz --markdown 20240501/c/cs3560-grading-lib/0.1.0rc2-0.1.1a2/README.md --exclude *.pyd
+[2024-05-01 16:22:51] INFO root fetch - processPackages [runseq]: executing diffoscope
+[2024-05-01 16:22:51] INFO root fetch - processPackages [runseq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/runseq-0.2.1.tar.gz tmp/runseq-0.2.2.tar.gz --markdown 20240501/r/runseq/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-05-01 16:22:51] INFO root fetch - processPackages [labda]: executing diffoscope
+[2024-05-01 16:22:51] INFO root fetch - processPackages [labda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/labda-0.0.5.tar.gz tmp/labda-0.0.6.tar.gz --markdown 20240501/l/labda/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-01 16:22:51] INFO root fetch - processPackages [hyped]: executing diffoscope
+[2024-05-01 16:22:51] INFO root fetch - processPackages [hyped]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyped-0.1.0a0.tar.gz tmp/hyped-0.1.0a1.tar.gz --markdown 20240501/h/hyped/0.1.0a0-0.1.0a1/README.md --exclude *.pyd
+[2024-05-01 16:22:51] INFO root fetch - processPackages [referencing-loaders]: Remove: archive file [/home/abi/fetcher/tmp/referencing_loaders-2024.5.1.tar.gz]
+[2024-05-01 16:22:51] INFO root fetch - processPackages [referencing-loaders]: Remove: archive file [/home/abi/fetcher/tmp/referencing_loaders-2024.5.2.tar.gz]
+[2024-05-01 16:22:51] INFO root fetch - main [MainThread]: End processing [referencing-loaders]: success
+[2024-05-01 16:22:52] INFO root fetch - processPackages [mns-common]: Remove: archive file [/home/abi/fetcher/tmp/mns_common-1.0.7.6.6.tar.gz]
+[2024-05-01 16:22:52] INFO root fetch - processPackages [mns-common]: Remove: archive file [/home/abi/fetcher/tmp/mns_common-1.0.7.6.7.tar.gz]
+[2024-05-01 16:22:52] INFO root fetch - main [MainThread]: End processing [mns-common]: success
+[2024-05-01 16:22:52] INFO root fetch - processPackages [cs3560-grading-lib]: Remove: archive file [/home/abi/fetcher/tmp/cs3560-grading-lib-0.1.0rc2.tar.gz]
+[2024-05-01 16:22:52] INFO root fetch - processPackages [cs3560-grading-lib]: Remove: archive file [/home/abi/fetcher/tmp/cs3560_grading_lib-0.1.1a2.tar.gz]
+[2024-05-01 16:22:52] INFO root fetch - main [MainThread]: End processing [cs3560-grading-lib]: success
+[2024-05-01 16:22:52] INFO root fetch - processPackages [runseq]: Remove: archive file [/home/abi/fetcher/tmp/runseq-0.2.1.tar.gz]
+[2024-05-01 16:22:52] INFO root fetch - processPackages [runseq]: Remove: archive file [/home/abi/fetcher/tmp/runseq-0.2.2.tar.gz]
+[2024-05-01 16:22:52] INFO root fetch - main [MainThread]: End processing [runseq]: success
+[2024-05-01 16:22:52] INFO root fetch - processPackages [labda]: Remove: archive file [/home/abi/fetcher/tmp/labda-0.0.5.tar.gz]
+[2024-05-01 16:22:52] INFO root fetch - processPackages [labda]: Remove: archive file [/home/abi/fetcher/tmp/labda-0.0.6.tar.gz]
+[2024-05-01 16:22:52] INFO root fetch - main [MainThread]: End processing [labda]: success
+[2024-05-01 16:22:52] INFO root fetch - processPackages [hyped]: Remove: archive file [/home/abi/fetcher/tmp/hyped-0.1.0a0.tar.gz]
+[2024-05-01 16:22:52] INFO root fetch - processPackages [hyped]: Remove: archive file [/home/abi/fetcher/tmp/hyped-0.1.0a1.tar.gz]
+[2024-05-01 16:22:52] INFO root fetch - main [MainThread]: End processing [hyped]: success
+[2024-05-01 16:22:52] INFO root fetch - main [MainThread]: Store serial: [23017971]
