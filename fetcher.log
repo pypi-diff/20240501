@@ -19740,3 +19740,87 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-01 14:23:05] INFO root fetch - main [MainThread]: End processing [trytond-account-invoice]: success
 [2024-05-01 14:23:05] INFO root fetch - main [MainThread]: End processing [trytond-account-invoice]: success
 [2024-05-01 14:23:05] INFO root fetch - main [MainThread]: Store serial: [23016763]
+[2024-05-01 14:25:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23016763]
+[2024-05-01 14:25:13] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-01 14:25:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: modal
+[2024-05-01 14:25:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: trytond-account-invoice
+[2024-05-01 14:25:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: modal-client
+[2024-05-01 14:25:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: napatrackmater
+[2024-05-01 14:25:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: trytond-account-export-winbooks
+[2024-05-01 14:25:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: trytond-account-export
+[2024-05-01 14:25:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: trytond-account-dunning
+[2024-05-01 14:25:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: trytond-account-budget
+[2024-05-01 14:25:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: attribox
+[2024-05-01 14:25:14] INFO root fetch - processPackages [trytond-account-invoice]: New version: [7.2.1] Old Version: [7.2.0]
+[2024-05-01 14:25:14] INFO root fetch - processPackages [attribox]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-01 14:25:14] INFO root fetch - processPackages [modal]: New version: [0.62.99] Old Version: [0.62.98]
+[2024-05-01 14:25:14] INFO root fetch - processPackages [modal-client]: New version: [0.62.99] Old Version: [0.62.98]
+[2024-05-01 14:25:14] INFO root fetch - processPackages [trytond-account-export]: New version: [7.2.1] Old Version: [7.2.0]
+[2024-05-01 14:25:14] INFO root fetch - processPackages [trytond-account-budget]: New version: [7.2.1] Old Version: [7.2.0]
+[2024-05-01 14:25:14] INFO root fetch - processPackages [trytond-account-invoice]: Downloading https://files.pythonhosted.org/packages/40/42/e89cf18fb7e7b9e7dea7e3d9ce351c7626133a24b5c441ebc7be8e7a0807/trytond_account_invoice-7.2.0.tar.gz
+[2024-05-01 14:25:14] INFO root fetch - processPackages [trytond-account-dunning]: New version: [7.2.1] Old Version: [7.2.0]
+[2024-05-01 14:25:14] INFO root fetch - processPackages [attribox]: Downloading https://files.pythonhosted.org/packages/b0/1b/afc61ed4af69d170a0c4bd0272fdd2e586a48c0c1828c0cf9fb03718795b/attribox-0.1.8.tar.gz
+[2024-05-01 14:25:14] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/e1/43/8909e36efe8c88188326519159ac1faa149227f01c6a0d968acc30efedde/modal_client-0.62.98-py3-none-any.whl
+[2024-05-01 14:25:14] INFO root fetch - processPackages [modal]: Downloading https://files.pythonhosted.org/packages/b5/38/bb0788928bcf76bff83916023bd1f84d88b1eb03c43f34ae832eff523ed0/modal-0.62.98-py3-none-any.whl
+[2024-05-01 14:25:14] INFO root fetch - processPackages [napatrackmater]: New version: [5.1.8] Old Version: [5.1.7]
+[2024-05-01 14:25:14] INFO root fetch - processPackages [trytond-account-export-winbooks]: New version: [7.2.1] Old Version: [7.2.0]
+[2024-05-01 14:25:14] INFO root fetch - processPackages [trytond-account-budget]: Downloading https://files.pythonhosted.org/packages/6d/f5/fb8579a23f725b5ba856c1ecbd083818196e1dbedc7680a14bd132d09bfc/trytond_account_budget-7.2.0.tar.gz
+[2024-05-01 14:25:14] INFO root fetch - processPackages [trytond-account-export]: Downloading https://files.pythonhosted.org/packages/d3/e4/c01d4adc692dd1274ce8fadc90f6919780d2833fc3f3c84386e8646a58af/trytond_account_export-7.2.0.tar.gz
+[2024-05-01 14:25:14] INFO root fetch - processPackages [attribox]: Downloading https://files.pythonhosted.org/packages/b1/e6/a20bbaa9e0f051b656d86826235dcdfa648da889d34b564acef9329d3455/attribox-0.1.9.tar.gz
+[2024-05-01 14:25:14] INFO root fetch - processPackages [trytond-account-dunning]: Downloading https://files.pythonhosted.org/packages/3c/d5/d6abad1f0d74412a2721dd278a26eeb240705510b9d362ebcf006bd31087/trytond_account_dunning-7.2.0.tar.gz
+[2024-05-01 14:25:14] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/b4/3a/7e3a60540b0de2b4f28de13c20c04bab97a40c022bd147b48a204b987fc1/modal_client-0.62.99-py3-none-any.whl
+[2024-05-01 14:25:14] INFO root fetch - processPackages [napatrackmater]: Downloading https://files.pythonhosted.org/packages/46/5c/4083c1accf2a4138c63be521ac93ca6a45caf16c2cd2f678997d51819d6d/napatrackmater-5.1.7.tar.gz
+[2024-05-01 14:25:14] INFO root fetch - processPackages [trytond-account-invoice]: Downloading https://files.pythonhosted.org/packages/aa/f2/0aee19dd79d3be8c7fdd6ba221a9a2109f9420ad254a53d29e1cd8da0de8/trytond_account_invoice-7.2.1.tar.gz
+[2024-05-01 14:25:14] INFO root fetch - processPackages [modal]: Downloading https://files.pythonhosted.org/packages/c7/ec/8086cd0c36b12ca7d4d2ac1f4bf86cbe082ba12dae2dd7c3cccb68a4746e/modal-0.62.99-py3-none-any.whl
+[2024-05-01 14:25:14] INFO root fetch - processPackages [attribox]: executing diffoscope
+[2024-05-01 14:25:14] INFO root fetch - processPackages [attribox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/attribox-0.1.8.tar.gz tmp/attribox-0.1.9.tar.gz --markdown 20240501/a/attribox/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-01 14:25:14] INFO root fetch - processPackages [trytond-account-export-winbooks]: Downloading https://files.pythonhosted.org/packages/e3/f9/1774bd89b9bb7b9e8fd619cb2171eee3334ca8df36dd84e09229e18546a7/trytond_account_export_winbooks-7.2.0.tar.gz
+[2024-05-01 14:25:14] INFO root fetch - processPackages [modal-client]: executing diffoscope
+[2024-05-01 14:25:14] INFO root fetch - processPackages [modal-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal_client-0.62.98-py3-none-any.whl.zip tmp/modal_client-0.62.99-py3-none-any.whl.zip --markdown 20240501/m/modal-client/0.62.98-0.62.99/README.md --exclude *.pyd
+[2024-05-01 14:25:14] INFO root fetch - processPackages [trytond-account-invoice]: executing diffoscope
+[2024-05-01 14:25:14] INFO root fetch - processPackages [trytond-account-invoice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_account_invoice-7.2.0.tar.gz tmp/trytond_account_invoice-7.2.1.tar.gz --markdown 20240501/t/trytond-account-invoice/7.2.0-7.2.1/README.md --exclude *.pyd
+[2024-05-01 14:25:14] INFO root fetch - processPackages [modal]: executing diffoscope
+[2024-05-01 14:25:14] INFO root fetch - processPackages [modal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal-0.62.98-py3-none-any.whl.zip tmp/modal-0.62.99-py3-none-any.whl.zip --markdown 20240501/m/modal/0.62.98-0.62.99/README.md --exclude *.pyd
+[2024-05-01 14:25:14] INFO root fetch - processPackages [trytond-account-export]: Downloading https://files.pythonhosted.org/packages/57/9d/2cc5ac169dd2ce9e1bcc51d6cc032f1f29d2b8c48aeb779c2f0bd598afd3/trytond_account_export-7.2.1.tar.gz
+[2024-05-01 14:25:15] INFO root fetch - processPackages [trytond-account-dunning]: Downloading https://files.pythonhosted.org/packages/d4/47/0a2d652f0cf8969abc420734a88eda1340a668f28ed4b0e27b31b1711ab4/trytond_account_dunning-7.2.1.tar.gz
+[2024-05-01 14:25:15] INFO root fetch - processPackages [trytond-account-budget]: Downloading https://files.pythonhosted.org/packages/31/65/d9d8c05a23e45f27761c328ac5089dcb9026a47f2eee1da849ca169addc8/trytond_account_budget-7.2.1.tar.gz
+[2024-05-01 14:25:15] INFO root fetch - processPackages [trytond-account-export-winbooks]: Downloading https://files.pythonhosted.org/packages/08/bb/68d1678f863f7811906f9ce40b13e4447dfcd91467fbec029ccc243f9e21/trytond_account_export_winbooks-7.2.1.tar.gz
+[2024-05-01 14:25:15] INFO root fetch - processPackages [trytond-account-export]: executing diffoscope
+[2024-05-01 14:25:15] INFO root fetch - processPackages [trytond-account-export]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_account_export-7.2.0.tar.gz tmp/trytond_account_export-7.2.1.tar.gz --markdown 20240501/t/trytond-account-export/7.2.0-7.2.1/README.md --exclude *.pyd
+[2024-05-01 14:25:15] INFO root fetch - processPackages [trytond-account-dunning]: executing diffoscope
+[2024-05-01 14:25:15] INFO root fetch - processPackages [trytond-account-dunning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_account_dunning-7.2.0.tar.gz tmp/trytond_account_dunning-7.2.1.tar.gz --markdown 20240501/t/trytond-account-dunning/7.2.0-7.2.1/README.md --exclude *.pyd
+[2024-05-01 14:25:15] INFO root fetch - processPackages [napatrackmater]: Downloading https://files.pythonhosted.org/packages/91/50/485c1a44bf596f35f97170b380a2248bae0a0b72d154cf87d07213c26c5d/napatrackmater-5.1.8.tar.gz
+[2024-05-01 14:25:15] INFO root fetch - processPackages [trytond-account-export-winbooks]: executing diffoscope
+[2024-05-01 14:25:15] INFO root fetch - processPackages [trytond-account-export-winbooks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_account_export_winbooks-7.2.0.tar.gz tmp/trytond_account_export_winbooks-7.2.1.tar.gz --markdown 20240501/t/trytond-account-export-winbooks/7.2.0-7.2.1/README.md --exclude *.pyd
+[2024-05-01 14:25:15] INFO root fetch - processPackages [trytond-account-budget]: executing diffoscope
+[2024-05-01 14:25:15] INFO root fetch - processPackages [trytond-account-budget]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_account_budget-7.2.0.tar.gz tmp/trytond_account_budget-7.2.1.tar.gz --markdown 20240501/t/trytond-account-budget/7.2.0-7.2.1/README.md --exclude *.pyd
+[2024-05-01 14:25:15] INFO root fetch - processPackages [attribox]: Remove: archive file [/home/abi/fetcher/tmp/attribox-0.1.8.tar.gz]
+[2024-05-01 14:25:15] INFO root fetch - processPackages [attribox]: Remove: archive file [/home/abi/fetcher/tmp/attribox-0.1.9.tar.gz]
+[2024-05-01 14:25:15] INFO root fetch - main [MainThread]: End processing [attribox]: success
+[2024-05-01 14:25:15] INFO root fetch - processPackages [napatrackmater]: executing diffoscope
+[2024-05-01 14:25:15] INFO root fetch - processPackages [napatrackmater]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napatrackmater-5.1.7.tar.gz tmp/napatrackmater-5.1.8.tar.gz --markdown 20240501/n/napatrackmater/5.1.7-5.1.8/README.md --exclude *.pyd
+[2024-05-01 14:25:15] INFO root fetch - processPackages [modal-client]: Remove: archive file [/home/abi/fetcher/tmp/modal_client-0.62.98-py3-none-any.whl.zip]
+[2024-05-01 14:25:15] INFO root fetch - processPackages [modal-client]: Remove: archive file [/home/abi/fetcher/tmp/modal_client-0.62.99-py3-none-any.whl.zip]
+[2024-05-01 14:25:15] INFO root fetch - main [MainThread]: End processing [modal-client]: success
+[2024-05-01 14:25:15] INFO root fetch - processPackages [trytond-account-export]: Remove: archive file [/home/abi/fetcher/tmp/trytond_account_export-7.2.0.tar.gz]
+[2024-05-01 14:25:15] INFO root fetch - processPackages [trytond-account-export]: Remove: archive file [/home/abi/fetcher/tmp/trytond_account_export-7.2.1.tar.gz]
+[2024-05-01 14:25:15] INFO root fetch - main [MainThread]: End processing [trytond-account-export]: success
+[2024-05-01 14:25:16] INFO root fetch - processPackages [trytond-account-export-winbooks]: Remove: archive file [/home/abi/fetcher/tmp/trytond_account_export_winbooks-7.2.0.tar.gz]
+[2024-05-01 14:25:16] INFO root fetch - processPackages [trytond-account-export-winbooks]: Remove: archive file [/home/abi/fetcher/tmp/trytond_account_export_winbooks-7.2.1.tar.gz]
+[2024-05-01 14:25:16] INFO root fetch - main [MainThread]: End processing [trytond-account-export-winbooks]: success
+[2024-05-01 14:25:16] INFO root fetch - processPackages [trytond-account-dunning]: Remove: archive file [/home/abi/fetcher/tmp/trytond_account_dunning-7.2.0.tar.gz]
+[2024-05-01 14:25:16] INFO root fetch - processPackages [trytond-account-dunning]: Remove: archive file [/home/abi/fetcher/tmp/trytond_account_dunning-7.2.1.tar.gz]
+[2024-05-01 14:25:16] INFO root fetch - main [MainThread]: End processing [trytond-account-dunning]: success
+[2024-05-01 14:25:16] INFO root fetch - processPackages [trytond-account-budget]: Remove: archive file [/home/abi/fetcher/tmp/trytond_account_budget-7.2.0.tar.gz]
+[2024-05-01 14:25:16] INFO root fetch - processPackages [trytond-account-budget]: Remove: archive file [/home/abi/fetcher/tmp/trytond_account_budget-7.2.1.tar.gz]
+[2024-05-01 14:25:16] INFO root fetch - main [MainThread]: End processing [trytond-account-budget]: success
+[2024-05-01 14:25:16] INFO root fetch - processPackages [modal]: Remove: archive file [/home/abi/fetcher/tmp/modal-0.62.98-py3-none-any.whl.zip]
+[2024-05-01 14:25:16] INFO root fetch - processPackages [modal]: Remove: archive file [/home/abi/fetcher/tmp/modal-0.62.99-py3-none-any.whl.zip]
+[2024-05-01 14:25:16] INFO root fetch - main [MainThread]: End processing [modal]: success
+[2024-05-01 14:25:16] INFO root fetch - processPackages [trytond-account-invoice]: Remove: archive file [/home/abi/fetcher/tmp/trytond_account_invoice-7.2.0.tar.gz]
+[2024-05-01 14:25:16] INFO root fetch - processPackages [trytond-account-invoice]: Remove: archive file [/home/abi/fetcher/tmp/trytond_account_invoice-7.2.1.tar.gz]
+[2024-05-01 14:25:16] INFO root fetch - main [MainThread]: End processing [trytond-account-invoice]: success
+[2024-05-01 14:25:16] INFO root fetch - processPackages [napatrackmater]: Remove: archive file [/home/abi/fetcher/tmp/napatrackmater-5.1.7.tar.gz]
+[2024-05-01 14:25:16] INFO root fetch - processPackages [napatrackmater]: Remove: archive file [/home/abi/fetcher/tmp/napatrackmater-5.1.8.tar.gz]
+[2024-05-01 14:25:16] INFO root fetch - main [MainThread]: End processing [napatrackmater]: success
+[2024-05-01 14:25:16] INFO root fetch - main [MainThread]: Store serial: [23016788]
