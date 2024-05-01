@@ -8027,3 +8027,42 @@
 [2024-05-01 05:18:46] INFO root fetch - processPackages [masr]: Remove: archive file [/home/abi/fetcher/tmp/masr-2.3.8-py3-none-any.whl.zip]
 [2024-05-01 05:18:46] INFO root fetch - main [MainThread]: End processing [masr]: success
 [2024-05-01 05:18:46] INFO root fetch - main [MainThread]: Store serial: [23011847]
+[2024-05-01 05:20:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23011847]
+[2024-05-01 05:20:55] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-01 05:20:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdpcli
+[2024-05-01 05:20:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: runpynb
+[2024-05-01 05:20:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pssr
+[2024-05-01 05:20:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fancy-dataclass
+[2024-05-01 05:20:55] INFO root fetch - processPackages [fancy-dataclass]: New version: [0.4.3] Old Version: [0.4.2]
+[2024-05-01 05:20:55] INFO root fetch - processPackages [pssr]: New version: [1.2.0] Old Version: [1.1.1]
+[2024-05-01 05:20:55] INFO root fetch - processPackages [runpynb]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-05-01 05:20:55] INFO root fetch - processPackages [cdpcli]: New version: [0.9.99] Old Version: [0.9.98]
+[2024-05-01 05:20:55] INFO root fetch - processPackages [fancy-dataclass]: Downloading https://files.pythonhosted.org/packages/8c/c4/965b0e31c2ea3f0d2cd358615d55512f98a9f2e2f80576f91712cc0a0eaa/fancy_dataclass-0.4.2.tar.gz
+[2024-05-01 05:20:55] INFO root fetch - processPackages [pssr]: Downloading https://files.pythonhosted.org/packages/72/c9/89cb28b528d2d1e7f8657c6ad42d8deb997ab0aef08680a52396e9811ad6/pssr-1.1.1.tar.gz
+[2024-05-01 05:20:56] INFO root fetch - processPackages [cdpcli]: Downloading https://files.pythonhosted.org/packages/56/b8/1490de025bcacbfc7ccac19b7d1a8b2bed1acf316c9178d1e81229304272/cdpcli-0.9.98.tar.gz
+[2024-05-01 05:20:56] INFO root fetch - processPackages [runpynb]: Downloading https://files.pythonhosted.org/packages/a3/e5/6025660ab394d7452de8e9a4f54ec92956a79737ec3f446c11313b1f237a/runpynb-0.2.0.tar.gz
+[2024-05-01 05:20:56] INFO root fetch - processPackages [pssr]: Downloading https://files.pythonhosted.org/packages/72/8d/c539de99574e360aa24db009fa3f0db030e8d69440861bd101c18d0089e2/pssr-1.2.0.tar.gz
+[2024-05-01 05:20:56] INFO root fetch - processPackages [runpynb]: Downloading https://files.pythonhosted.org/packages/6c/ca/bfe18173e778350e837ef4b2bcdf1c67381e7c93a99e8682a37279d38bfb/runpynb-0.3.0.tar.gz
+[2024-05-01 05:20:56] INFO root fetch - processPackages [fancy-dataclass]: Downloading https://files.pythonhosted.org/packages/7b/00/5526945a59b113cd615403686e1a6ad007eaf6c3ea94d5dc23a6b661e483/fancy_dataclass-0.4.3.tar.gz
+[2024-05-01 05:20:56] INFO root fetch - processPackages [cdpcli]: Downloading https://files.pythonhosted.org/packages/04/42/809362d369772a388f61c06a025f26b10849a8f63d80c7ca8bf6a9f7b61b/cdpcli-0.9.99.tar.gz
+[2024-05-01 05:20:56] INFO root fetch - processPackages [pssr]: executing diffoscope
+[2024-05-01 05:20:56] INFO root fetch - processPackages [pssr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pssr-1.1.1.tar.gz tmp/pssr-1.2.0.tar.gz --markdown 20240501/p/pssr/1.1.1-1.2.0/README.md --exclude *.pyd
+[2024-05-01 05:20:56] INFO root fetch - processPackages [runpynb]: executing diffoscope
+[2024-05-01 05:20:56] INFO root fetch - processPackages [runpynb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/runpynb-0.2.0.tar.gz tmp/runpynb-0.3.0.tar.gz --markdown 20240501/r/runpynb/0.2.0-0.3.0/README.md --exclude *.pyd
+[2024-05-01 05:20:56] INFO root fetch - processPackages [cdpcli]: executing diffoscope
+[2024-05-01 05:20:56] INFO root fetch - processPackages [cdpcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdpcli-0.9.98.tar.gz tmp/cdpcli-0.9.99.tar.gz --markdown 20240501/c/cdpcli/0.9.98-0.9.99/README.md --exclude *.pyd
+[2024-05-01 05:20:56] INFO root fetch - processPackages [fancy-dataclass]: executing diffoscope
+[2024-05-01 05:20:56] INFO root fetch - processPackages [fancy-dataclass]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fancy_dataclass-0.4.2.tar.gz tmp/fancy_dataclass-0.4.3.tar.gz --markdown 20240501/f/fancy-dataclass/0.4.2-0.4.3/README.md --exclude *.pyd
+[2024-05-01 05:20:57] INFO root fetch - processPackages [runpynb]: Remove: archive file [/home/abi/fetcher/tmp/runpynb-0.2.0.tar.gz]
+[2024-05-01 05:20:57] INFO root fetch - processPackages [runpynb]: Remove: archive file [/home/abi/fetcher/tmp/runpynb-0.3.0.tar.gz]
+[2024-05-01 05:20:57] INFO root fetch - main [MainThread]: End processing [runpynb]: success
+[2024-05-01 05:20:57] INFO root fetch - processPackages [pssr]: Remove: archive file [/home/abi/fetcher/tmp/pssr-1.1.1.tar.gz]
+[2024-05-01 05:20:57] INFO root fetch - processPackages [pssr]: Remove: archive file [/home/abi/fetcher/tmp/pssr-1.2.0.tar.gz]
+[2024-05-01 05:20:57] INFO root fetch - main [MainThread]: End processing [pssr]: success
+[2024-05-01 05:20:58] INFO root fetch - processPackages [fancy-dataclass]: Remove: archive file [/home/abi/fetcher/tmp/fancy_dataclass-0.4.2.tar.gz]
+[2024-05-01 05:20:58] INFO root fetch - processPackages [fancy-dataclass]: Remove: archive file [/home/abi/fetcher/tmp/fancy_dataclass-0.4.3.tar.gz]
+[2024-05-01 05:20:58] INFO root fetch - main [MainThread]: End processing [fancy-dataclass]: success
+[2024-05-01 05:20:58] INFO root fetch - processPackages [cdpcli]: Remove: archive file [/home/abi/fetcher/tmp/cdpcli-0.9.98.tar.gz]
+[2024-05-01 05:20:58] INFO root fetch - processPackages [cdpcli]: Remove: archive file [/home/abi/fetcher/tmp/cdpcli-0.9.99.tar.gz]
+[2024-05-01 05:20:58] INFO root fetch - main [MainThread]: End processing [cdpcli]: success
+[2024-05-01 05:20:58] INFO root fetch - main [MainThread]: Store serial: [23011857]
