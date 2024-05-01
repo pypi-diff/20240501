@@ -10353,3 +10353,29 @@
 [2024-05-01 07:59:03] INFO root fetch - processPackages [pulumi-fastly]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_fastly-8.7.0a1714455234.tar.gz]
 [2024-05-01 07:59:03] INFO root fetch - main [MainThread]: End processing [pulumi-fastly]: success
 [2024-05-01 07:59:03] INFO root fetch - main [MainThread]: Store serial: [23012837]
+[2024-05-01 08:01:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23012837]
+[2024-05-01 08:01:13] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-01 08:01:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-kafka
+[2024-05-01 08:01:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-hcloud
+[2024-05-01 08:01:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: duckdb
+[2024-05-01 08:01:13] INFO root fetch - processPackages [pulumi-hcloud]: New version: [1.9.0a1657117726] Old Version: [1.9.0a1654086467]
+[2024-05-01 08:01:13] INFO root fetch - processPackages [pulumi-hcloud]: Downloading https://files.pythonhosted.org/packages/9e/22/c81b563f1969f4bcdaa7c4060d0d67a0d9deb4bc415487e125f459e269e7/pulumi_hcloud-1.9.0a1654086467.tar.gz
+[2024-05-01 08:01:13] INFO root fetch - processPackages [pulumi-kafka]: New version: [3.8.0a1714542007] Old Version: [3.8.0a1714537311]
+[2024-05-01 08:01:13] INFO root fetch - processPackages [duckdb]: New version: [0.9.2] Old Version: [0.9.1]
+[2024-05-01 08:01:13] INFO root fetch - processPackages [pulumi-kafka]: Downloading https://files.pythonhosted.org/packages/61/b2/161bf4f760ca840f1b0fa44eed076b719367d9ef428e222157a05d2307e0/pulumi_kafka-3.8.0a1714537311.tar.gz
+[2024-05-01 08:01:13] INFO root fetch - processPackages [pulumi-hcloud]: Downloading https://files.pythonhosted.org/packages/de/c3/b526f6942ee390fb3e0e080d961419b28ee26cada0150934184297ffeb15/pulumi_hcloud-1.9.0a1657117726.tar.gz
+[2024-05-01 08:01:13] INFO root fetch - processPackages [duckdb]: Downloading https://files.pythonhosted.org/packages/83/36/ea553454969fa7f356555da1ffcf31acc82172548be77278159002d34514/duckdb-0.9.1.tar.gz
+[2024-05-01 08:01:14] INFO root fetch - processPackages [pulumi-hcloud]: executing diffoscope
+[2024-05-01 08:01:14] INFO root fetch - processPackages [pulumi-hcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_hcloud-1.9.0a1654086467.tar.gz tmp/pulumi_hcloud-1.9.0a1657117726.tar.gz --markdown 20240501/p/pulumi-hcloud/1.9.0a1654086467-1.9.0a1657117726/README.md --exclude *.pyd
+[2024-05-01 08:01:14] INFO root fetch - processPackages [pulumi-kafka]: Downloading https://files.pythonhosted.org/packages/ea/34/5ab4d5db48aa6f982f42a93bcf30fb458aceea53af3f3df9f4cf57eef8bd/pulumi_kafka-3.8.0a1714542007.tar.gz
+[2024-05-01 08:01:14] WARNING root fetch - processPackages [duckdb]: Skipping package: exceeds size limit 10640161>=10485760
+[2024-05-01 08:01:14] INFO root fetch - main [MainThread]: End processing [duckdb] error
+[2024-05-01 08:01:14] INFO root fetch - processPackages [pulumi-kafka]: executing diffoscope
+[2024-05-01 08:01:14] INFO root fetch - processPackages [pulumi-kafka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240501:/home/abi/fetcher/20240501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_kafka-3.8.0a1714537311.tar.gz tmp/pulumi_kafka-3.8.0a1714542007.tar.gz --markdown 20240501/p/pulumi-kafka/3.8.0a1714537311-3.8.0a1714542007/README.md --exclude *.pyd
+[2024-05-01 08:01:14] INFO root fetch - processPackages [pulumi-kafka]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kafka-3.8.0a1714537311.tar.gz]
+[2024-05-01 08:01:14] INFO root fetch - processPackages [pulumi-kafka]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kafka-3.8.0a1714542007.tar.gz]
+[2024-05-01 08:01:14] INFO root fetch - main [MainThread]: End processing [pulumi-kafka]: success
+[2024-05-01 08:01:14] INFO root fetch - processPackages [pulumi-hcloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_hcloud-1.9.0a1654086467.tar.gz]
+[2024-05-01 08:01:14] INFO root fetch - processPackages [pulumi-hcloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_hcloud-1.9.0a1657117726.tar.gz]
+[2024-05-01 08:01:14] INFO root fetch - main [MainThread]: End processing [pulumi-hcloud]: success
+[2024-05-01 08:01:14] INFO root fetch - main [MainThread]: Store serial: [23012853]
